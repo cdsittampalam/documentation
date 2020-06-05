@@ -2,7 +2,7 @@ module.exports = {
   title: 'Qredo Help Center',
   tagline: 'Knowledge Base and Customer Support for Qredo',
   url: 'https://thronecloud.github.io',
-  baseUrl: '/docs',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'thronecloud', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
@@ -11,7 +11,7 @@ module.exports = {
       title: 'Qredo',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'docs/img/qredo-logo.png',
       },
       links: [
         {

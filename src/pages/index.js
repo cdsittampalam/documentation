@@ -6,10 +6,11 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+
 const features = [
   {
     title: <>Digital Wallet</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'static/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -19,7 +20,7 @@ const features = [
   },
   {
     title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'static/img/undraw_docusaurus_tree.svg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -29,7 +30,7 @@ const features = [
   },
   {
     title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'static/img/undraw_docusaurus_react.svg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
