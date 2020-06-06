@@ -1,8 +1,10 @@
 module.exports = {
   title: 'Qredo Help Center',
   tagline: 'Knowledge Base and Customer Support for Qredo',
-  url: 'https://thronecloud.github.io',
-  baseUrl: '/docs/',
+  // url: 'https://thronecloud.github.io',
+  // baseUrl: '/docs/',
+  url: 'https://docusaurus-2.netlify.com',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'thronecloud', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
