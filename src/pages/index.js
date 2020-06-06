@@ -10,7 +10,14 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Learn</>,
+    pageUrl : 'learn',
     imageUrl: '/img/undraw_docusaurus_mountain.svg',
+    subheading_1 : 'Qredo Network Concepts',
+    subheading_1_url : 'learn',
+    subheading_2 : 'Security',
+    subheading_2_url : 'security',
+    subheading_3 : 'Compliances',
+    subheading_3_url : 'compliances',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -20,7 +27,14 @@ const features = [
   },
   {
     title: <>Product Guides</>,
+    pageUrl : 'productguides',
     imageUrl: '/img/undraw_docusaurus_tree.svg',
+    subheading_1 : 'Qredo Network Concepts',
+    subheading_1_url : 'learn',
+    subheading_2 : 'Qredo Network Concepts',
+    subheading_2_url : 'learn',
+    subheading_3 : 'Qredo Network Concepts',
+    subheading_3_url : 'learn',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -30,7 +44,14 @@ const features = [
   },
   {
     title: <>Customer Care</>,
+    pageUrl : 'customercare',
     imageUrl: '/img/undraw_docusaurus_tree.svg',
+    subheading_1 : 'Qredo Network Concepts',
+    subheading_1_url : 'learn',
+    subheading_2 : 'Qredo Network Concepts',
+    subheading_2_url : 'learn',
+    subheading_3 : 'Qredo Network Concepts',
+    subheading_3_url : 'learn',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -40,7 +61,14 @@ const features = [
   },
   {
     title: <>Network Members</>,
+    pageUrl : 'networkmembers',
     imageUrl: '/img/undraw_docusaurus_tree.svg',
+    subheading_1 : 'Qredo Network Concepts',
+    subheading_1_url : 'learn',
+    subheading_2 : 'Qredo Network Concepts',
+    subheading_2_url : 'learn',
+    subheading_3 : 'Qredo Network Concepts',
+    subheading_3_url : 'learn',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -50,7 +78,14 @@ const features = [
   },
   {
     title: <>Partners</>,
+    pageUrl : 'partners',
     imageUrl: '/img/undraw_docusaurus_tree.svg',
+    subheading_1 : 'Qredo Network Concepts',
+    subheading_1_url : 'learn',
+    subheading_2 : 'Qredo Network Concepts',
+    subheading_2_url : 'learn',
+    subheading_3 : 'Qredo Network Concepts',
+    subheading_3_url : 'learn',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -61,7 +96,14 @@ const features = [
   
   {
     title: <>Deployment Guides</>,
+    pageUrl : 'deploymentguides',
     imageUrl: '/img/undraw_docusaurus_react.svg',
+    subheading_1 : 'Qredo Network Concepts',
+    subheading_1_url : 'learn',
+    subheading_2 : 'Qredo Network Concepts',
+    subheading_2_url : 'learn',
+    subheading_3 : 'Qredo Network Concepts',
+    subheading_3_url : 'learn',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -71,17 +113,18 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description,pageUrl,subheading_1}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <Link to={useBaseUrl('/categories/'+pageUrl)} > <img className={styles.featureImage} src={imgUrl} alt={title}  /> </Link>
         </div>
       )}
-      <h3 >{title}</h3>
+      <Link to={useBaseUrl('/categories/'+pageUrl)} > <h3 >{title} </h3> </Link>
       <p>{description}</p>
+      <Link> <p> {subheading_1} </p></Link>
     </div>
   );
 }
