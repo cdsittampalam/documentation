@@ -14,11 +14,11 @@ To serve as an example page when styling markdown based Docusaurus sites.
 
 ## Headers
 
-# H1 - Create the best documentation
+# H1 - Create the best documentation online
 
-## H2 - Create the best documentation
+## H2 - Create the best documentation offline
 
-### H3 - Create the best documentation
+### H3 - Create the best documentation cloud
 
 #### H4 - Create the best documentation
 
