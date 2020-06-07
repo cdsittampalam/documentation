@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Qredo Help Center',
-  tagline: 'Knowledge Base and Customer Support for Qredo',
+  tagline: 'Knowledge Base and Customer Support for Qredos',
    url: 'https://thronecloud.github.io',
    baseUrl: '/docs/',
   //url: 'https://docusaurus-2.netlify.com',
