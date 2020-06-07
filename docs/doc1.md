@@ -14,7 +14,7 @@ To serve as an example page when styling markdown based Docusaurus sites.
 
 ## Headers
 
-# H1 - Create the best documentation online
+# H1 - Create the best documentation github action
 
 ## H2 - Create the best documentation offline
 
