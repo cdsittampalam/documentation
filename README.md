@@ -1,2 +1,3 @@
-# documentation
-Documentation Repo for Docusauris
+# Documentation Repo for Docusaurus
+
+Instructions for modifying contact go here.
