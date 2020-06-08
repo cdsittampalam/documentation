@@ -9,6 +9,10 @@ module.exports = {
   organizationName: 'thronecloud', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: 'f0598b74cf278ea9e04592f0d7db3736',
+      indexName: 'thronecloud'
+    },
     navbar: {
       title: 'Qredo',
       logo: {
@@ -77,7 +81,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Qredo Support.`,
     },
   },
   presets: [
