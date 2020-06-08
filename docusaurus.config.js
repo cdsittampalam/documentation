@@ -2,7 +2,7 @@ module.exports = {
   title: 'Qredo Help Center',
   tagline: 'Knowledge Base and Customer Support for Qredos',
   url: 'https://thronecloud.github.io',
-  baseUrl: '/',
+  baseUrl: '/documentation/',
   favicon: '/img/favicon.ico',
   organizationName: 'qredo', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
