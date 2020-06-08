@@ -15,9 +15,9 @@ const features = [
     subheadings : {
       subheading_1 : 'Qredo Network Concepts',
       subheading_1_url : 'learn',
-      subheading_2 : 'Qredo Network Concepts',
+      subheading_2 : 'Concepts',
       subheading_2_url : 'learn',
-      subheading_3 : 'Qredo Network Concepts',
+      subheading_3 : 'Security & Compliance',
       subheading_3_url : 'learn' },
     description: (
       <>
@@ -31,11 +31,11 @@ const features = [
     pageUrl : 'productguides',
     imageUrl: '/img/undraw_docusaurus_tree.svg',
     subheadings : {
-      subheading_1 : 'Qredo Network Concepts',
+      subheading_1 : 'Getting Started',
       subheading_1_url : 'learn',
-      subheading_2 : 'Qredo Network Concepts',
+      subheading_2 : 'Configuring Accounts',
       subheading_2_url : 'learn',
-      subheading_3 : 'Qredo Network Concepts',
+      subheading_3 : 'Fund Administration',
       subheading_3_url : 'learn' },
     description: (
       <>
@@ -45,15 +45,16 @@ const features = [
     ),
   },
   {
+
     title: <>Customer Care</>,
     pageUrl : 'customercare',
     imageUrl: '/img/undraw_docusaurus_tree.svg',
     subheadings : {
-      subheading_1 : 'Qredo Network Concepts',
+      subheading_1 : 'Accounts Help',
       subheading_1_url : 'learn',
-      subheading_2 : 'Qredo Network Concepts',
+      subheading_2 : 'Payments Help',
       subheading_2_url : 'learn',
-      subheading_3 : 'Qredo Network Concepts',
+      subheading_3 : 'Contact Us/FAQ',
       subheading_3_url : 'learn' },
     description: (
       <>
@@ -85,11 +86,11 @@ const features = [
     pageUrl : 'partners',
     imageUrl: '/img/undraw_docusaurus_tree.svg',
     subheadings : {
-    subheading_1 : 'Qredo Network Concepts',
+    subheading_1 : 'Data Centers',
     subheading_1_url : 'learn',
-    subheading_2 : 'Qredo Network Concepts',
+    subheading_2 : 'Integrators',
     subheading_2_url : 'learn',
-    subheading_3 : 'Qredo Network Concepts',
+    subheading_3 : 'Partner APIs',
     subheading_3_url : 'learn' },
     description: (
       <>

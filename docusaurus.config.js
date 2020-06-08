@@ -5,7 +5,7 @@ module.exports = {
    baseUrl: '/docs/',
   //url: 'https://docusaurus-2.netlify.com',
   //baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
   organizationName: 'thronecloud', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
@@ -17,7 +17,7 @@ module.exports = {
       title: 'Qredo',
       logo: {
         alt: 'Qredo Logo',
-        src: '/img/qredo-logo.png',
+        src: '/img/qredo_logo_transparent_h_b.png',
       },
       links: [
         {
