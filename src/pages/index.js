@@ -11,7 +11,7 @@ const features = [
   {
     title: <>Learns</>,
     pageUrl : 'learn',
-    imageUrl: '/docs/img/undraw_docusaurus_mountain.svg',
+    imageUrl: '/img/undraw_docusaurus_mountain.svg',
     subheadings : {
       subheading_1 : 'Qredo Network Concepts',
       subheading_1_url : 'learn',
@@ -29,7 +29,7 @@ const features = [
   {
     title: <>Product Guides</>,
     pageUrl : 'productguides',
-    imageUrl: '/docs/img/undraw_docusaurus_tree.svg',
+    imageUrl: '/img/undraw_docusaurus_tree.svg',
     subheadings : {
       subheading_1 : 'Getting Started',
       subheading_1_url : 'learn',
@@ -48,7 +48,7 @@ const features = [
 
     title: <>Customer Care</>,
     pageUrl : 'customercare',
-    imageUrl: '/docs/img/undraw_docusaurus_tree.svg',
+    imageUrl: '/img/undraw_docusaurus_tree.svg',
     subheadings : {
       subheading_1 : 'Accounts Help',
       subheading_1_url : 'learn',
@@ -66,7 +66,7 @@ const features = [
   {
     title: <>Network Members</>,
     pageUrl : 'networkmembers',
-    imageUrl: '/docs/img/undraw_docusaurus_tree.svg',
+    imageUrl: '/img/undraw_docusaurus_tree.svg',
     subheadings : {
       subheading_1 : 'Qredo Network Concepts',
       subheading_1_url : 'learn',
@@ -84,7 +84,7 @@ const features = [
   {
     title: <>Partners</>,
     pageUrl : 'partners',
-    imageUrl: '/docs/img/undraw_docusaurus_tree.svg',
+    imageUrl: '/img/undraw_docusaurus_tree.svg',
     subheadings : {
     subheading_1 : 'Data Centers',
     subheading_1_url : 'learn',
@@ -103,7 +103,7 @@ const features = [
   {
     title: <>Deployment Guides</>,
     pageUrl : 'deploymentguides',
-    imageUrl: '/docs/img/undraw_docusaurus_react.svg',
+    imageUrl: '/img/undraw_docusaurus_react.svg',
     subheadings :  {
       subheading_1 : 'Qredo Network Concepts',
       subheading_1_url : 'learn',
