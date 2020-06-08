@@ -2,12 +2,12 @@ module.exports = {
   title: 'Qredo Help Center',
   tagline: 'Knowledge Base and Customer Support for Qredos',
    url: 'https://thronecloud.github.io',
-   baseUrl: '/docs/',
+   baseUrl: '/',
   //url: 'https://docusaurus-2.netlify.com',
   //baseUrl: '/',
-  favicon: '/img/favicon.ico',
-  organizationName: 'thronecloud', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  favicon: 'docs/img/favicon.ico',
+  organizationName: 'qredo', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
   themeConfig: {
     algolia: {
       apiKey: 'f0598b74cf278ea9e04592f0d7db3736',
@@ -17,7 +17,7 @@ module.exports = {
       title: 'Qredo',
       logo: {
         alt: 'Qredo Logo',
-        src: '/img/qredo_logo_transparent_h_b.png',
+        src: 'docs/img/q_logo.png',
       },
       links: [
         {
