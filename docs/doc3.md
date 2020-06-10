@@ -3,7 +3,7 @@ id: doc3
 title: This is Document Number 3
 ---
 
-![Image of 1-terms and conditions](https://octodex.github.com/images/1-terms and conditions.png)
+![Image of 1-terms and conditions](https://octodex.github.com/1-terms and conditions.png)
 
 This is a test
 
