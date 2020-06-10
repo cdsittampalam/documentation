@@ -4,6 +4,21 @@ title: Style Guide
 sidebar_label: Style Guide
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+  defaultValue="apple"
+  values={[
+    {label: 'Apple', value: 'apple'},
+    {label: 'Orange', value: 'orange'},
+    {label: 'Banana', value: 'banana'},
+  ]}>
+  <TabItem value="apple">This is an apple 🍎</TabItem>
+  <TabItem value="orange">This is an orange 🍊</TabItem>
+  <TabItem value="banana">This is a banana 🍌</TabItem>
+</Tabs>;
+
 Testing changing a file on github directly. 
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
