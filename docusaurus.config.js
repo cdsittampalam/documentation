@@ -34,11 +34,11 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'What is Qredo',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
+              label: 'Getting Started with Qredo',
               to: 'docs/doc2/',
             },
           ],
@@ -47,16 +47,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Qredo',
+              href: 'https://www.qredo.com/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Apache Milagro',
+              href: 'https://milagro.apache.org/users.html',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/QredoNetwork',
             },
           ],
         },
