@@ -12,4 +12,4 @@ Once the content is approved in the develop branch we will merge those changes i
 
 For more information on how to add and edit content, please see the [Qredo Network Documentation Wiki](https://github.com/qredo/documentation/wiki).
 
-
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/docusaurus-2)
