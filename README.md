@@ -1,6 +1,6 @@
 # Qredo Network Documentation Website
 
-Documentation system is built using Docusauras V2(https://v2.docusaurus.io/), which is built on React. 
+Documentation system is built using [Docusauras V2](https://v2.docusaurus.io/), which is built on React. 
 
 The build is trigerred when the 'master' branch is updated. 
 
