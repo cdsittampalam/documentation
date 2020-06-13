@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Learn: ['doc1', 'doc2', 'doc3'],
+    Learn: ['Qredo Network', 'Security & Cryptography', 'Regulatory & Compliance'],
     Product Guides: ['test', 'mdx'],
     Customer Care: ['test', 'mdx'],
     Network Members: ['test', 'mdx'],
