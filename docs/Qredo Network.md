@@ -1,7 +1,7 @@
 ---
 id: Qredo Network
-title: Style Guide
-sidebar_label: Style Guide
+title: Qredo Network
+sidebar_label: Qredo Network
 ---
 
 import Tabs from '@theme/Tabs';
