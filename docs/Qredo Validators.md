@@ -1,5 +1,5 @@
 ---
-id: Qredo Server
+id: Qredo Validators
 ---
 Lorem ipsum
 

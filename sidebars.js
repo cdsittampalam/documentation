@@ -6,6 +6,8 @@ module.exports = {
     'Network Members': ['Financial Institutions', 'Exchanges', 'Custodians', 'Traders'],
     Partners: ['Systems Integrators', 'EMS & OMS ISVs', 'Partner API'],
     Deployment: ['Custodian Mobile App', 'Custodian Server', 'Qredo Validators', 'Qredo Server'],
+    Opensource: ['Policy & Guidelines', 'MPC Library'],
     Roadmap: ['test', 'mdx']
   },
+
 };
