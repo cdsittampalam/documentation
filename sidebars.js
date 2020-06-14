@@ -1,11 +1,11 @@
 module.exports = {
   someSidebar: {
-    Learn: ['Qredo Network', 'Security & Cryptography', 'Regulatory & Compliance'],
+    Overview: ['Qredo Network', 'Security & Cryptography', 'Regulatory & Compliance'],
+    'Product Guide': ['Getting Started', 'Configure Account', 'Fund Administration', 'Custodian Administration', 'Deposit & Withdraw', 'Creating Transactions'],
     'Customer Care': ['Account Help', 'Transaction Fees', 'Contact Us', 'FAQ'],
-    'Network Members': ['doc1', 'doc2', 'doc3'],
-    Partners: ['test', 'mdx'],
-    Deployment: ['test', 'mdx'],
-    Opensource: ['test', 'mdx'],
+    'Network Members': ['Financial Institutions', 'Exchanges', 'Custodians', 'Traders'],
+    Partners: ['Systems Integrators', 'EMS & OMS ISVs', 'Partner API'],
+    Deployment: ['Custodian Mobile App', 'Custodian Server', 'Qredo Validators', 'Qredo Server'],
     Roadmap: ['test', 'mdx']
   },
 };
