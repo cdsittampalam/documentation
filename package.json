@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "next",
+    "@docusaurus/plugin-content-blog": "^2.0.0-alpha.37",
     "@docusaurus/preset-classic": "next",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
