@@ -10,4 +10,4 @@ Updates/PRs must be done to the 'develop' branch and in turn those chages will e
 
 Once the content is approved in the develop branch we will merge those changes into the Master branch, and the public facing website(s) will be updated.
 
-For more information on how to add and edit content, please see the [Qredo Network Documentation Wiki](https://github.com/qredo/documentation/wiki).
+For more information on how to add and edit content, please see the [Qredo Network Documentation Wiki](https://github.com/qredo/documentation/wiki).  
