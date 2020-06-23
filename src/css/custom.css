@@ -5,6 +5,8 @@
  * work well for content-centric websites.
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #000000;
@@ -15,6 +17,21 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --ifm-container-width: 1236px;
+  --ifm-spacing-horizontal: 10px;
+  --ifm-footer-background-color: #000000;
+  --ifm-footer-title-color: #fff;
+  --ifm-footer-link-color: #B9B9B9;
+  --ifm-footer-link-hover-color: #fff;
+  --ifm-footer-padding-vertical: 0;
+  --ifm-footer-padding-horizontal: 0;
+  --ifm-navbar-link-color: #fff;
+  --ifm-navbar-link-hover-color: #fff;
+  --ifm-navbar-background-color: #191919;
+  --ifm-navbar-padding-vertical: 24px;
+  --ifm-navbar-height: 91px;
+
+  --ifm-font-family-base: 'Barlow', sans-serif;
 }
 
 .docusaurus-highlight-code-line {
@@ -22,4 +39,35 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+.navbar__inner {
+  max-width: var(--ifm-container-width);
+  margin: 0 auto;
+}
+
+.navbar__logo {
+  height: 43px;
+}
+
+.navbar__toggle path {
+  stroke: #fff;
+}
+
+.main-wrapper {
+  background-image: linear-gradient( #fff 911px,  #EEEEEE 911px);
+}
+
+.footer {
+  padding-top: 280px;
+}
+
+@media screen and (max-width: 980px) {
+  .main-wrapper {
+    background-image: none;
+  }
+
+  .footer {
+    padding-top: var(--ifm-footer-padding-vertical);
+  }
 }

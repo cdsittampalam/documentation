@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="80px" viewBox="0 0 81 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Graphic</title>
+    <defs>
+        <rect id="path-1" x="-7.27595761e-12" y="0" width="380" height="380" rx="8"></rect>
+        <filter x="-8.4%" y="-5.8%" width="116.8%" height="116.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0725251311 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.196078431   0 0 0 0 0.364705882  0 0 0 0.153354458 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design---Homepage--Short-version-" transform="translate(-576.000000, -516.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="2929"></rect>
+            <g id="Boxes" transform="translate(143.000000, 484.000000)">
+                <g id="Box-02---PRODUCT-Guide" transform="translate(401.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Graphic" mask="url(#mask-2)">
+                        <g transform="translate(32.000000, 32.000000)">
+                            <g id="Group-13" stroke-width="1" fill-rule="evenodd" transform="translate(3.000000, 14.000000)">
+                                <path d="M24.0810811,45 L40.2972973,45" id="Combined-Shape" stroke="#6A6A6A" stroke-linecap="round"></path>
+                                <line x1="34.6216216" y1="39.4983333" x2="34.6549679" y2="44.1333594" id="Line-3-Copy" stroke="#6A6A6A" stroke-linecap="square"></line>
+                                <line x1="29.7162162" y1="39.4983333" x2="29.7495625" y2="44.1333594" id="Line-3-Copy-2" stroke="#6A6A6A" stroke-linecap="square"></line>
+                                <path d="M11.9120447,48 L3.08795526,48 C1.3898372,48 0,46.6552334 0,45.0116297 L0,20.9883703 C0,19.3450156 1.3898372,18 3.08795526,18 L11.9120447,18 C13.6104201,18 15,19.3450156 15,20.9883703 L15,45.0116297 C15,46.6552334 13.6104201,48 11.9120447,48 Z" id="Stroke-1" stroke="#6A6A6A"></path>
+                                <g id="Group-12" transform="translate(46.000000, 20.000000)">
+                                    <path d="M25.9,7.03618583 C25.9552285,7.03618583 26,7.08095736 26,7.13618583 L26,7.13618583 L26,24.6722058 C26,24.7177185 25.9692673,24.7574903 25.9252265,24.7689716 L25.9252265,24.7689716 L16.2673892,27.2876416 C16.2019468,27.3290559 16.1243718,27.3530297 16.0411975,27.3530297 L16,27.3504063 L15.9588025,27.3530297 C15.8756282,27.3530297 15.7980532,27.3290559 15.7326108,27.2876416 L6.07477346,24.7689716 C6.03073272,24.7574903 6,24.7177185 6,24.6722058 L6,7.13618583 C6,7.08095736 6.04477153,7.03618583 6.1,7.03618583 C6.10820256,7.03618583 6.11637397,7.03719505 6.12433005,7.03919074 L16,9.51640628 L25.8756699,7.03919074 C25.879648,7.03819289 25.8836799,7.03744167 25.8877425,7.0369399 Z" id="Combined-Shape" stroke="#FF5AEC"></path>
+                                    <line x1="8" y1="13.6114909" x2="13.7734066" y2="15.2448237" id="Line-2-Copy-3" stroke="#7F2368" stroke-width="0.4" stroke-linecap="round"></line>
+                                    <line x1="8" y1="15.3057455" x2="13.7734066" y2="16.9390783" id="Line-2-Copy-4" stroke="#7F2368" stroke-width="0.4" stroke-linecap="round"></line>
+                                    <line x1="8" y1="12" x2="13.7734066" y2="13.6333328" id="Line-2-Copy-2" stroke="#7F2368" stroke-width="0.4" stroke-linecap="round"></line>
+                                    <line x1="16" y1="10" x2="16" y2="27.0181818" id="Line-3" stroke="#FF5AEC" stroke-width="0.6" stroke-linecap="square"></line>
+                                    <circle id="Oval" stroke="#BBBBBB" stroke-width="0.4" cx="16" cy="16" r="15.8"></circle>
+                                </g>
+                                <path d="M3.82952183,17.0883789 L3.82952183,17.6884766 L3.82952183,2 C3.82952183,0.8954305 4.72495233,-1.15260288e-13 5.82952183,-1.15463195e-13 L59.7154701,-1.15463195e-13 C60.2660134,-1.18810039e-13 60.713004,0.445000895 60.7154601,0.995538729 L60.7882701,17.3158222 L60.7882701,17.3158222" id="Path-4" stroke="#6A6A6A"></path>
+                                <line x1="15.5" y1="39.5" x2="43.5" y2="39.5" id="Line-7" stroke="#6A6A6A" stroke-linecap="square"></line>
+                                <line x1="5" y1="19" x2="9.5" y2="19" id="Line-4" stroke="#6A6A6A" stroke-width="0.6" stroke-linecap="round"></line>
+                                <g id="Line" transform="translate(64.000000, 32.000000)" stroke="#7F2368" stroke-linecap="round" stroke-width="0.4">
+                                    <line x1="1.05826459e-12" y1="1.5576429e-13" x2="5.67272727" y2="1.872325" id="Line-2" transform="translate(2.836364, 0.936163) scale(-1, 1) translate(-2.836364, -0.936163) "></line>
+                                    <line x1="1.05826459e-12" y1="5" x2="5.67272727" y2="6.872325" id="Line-2-Copy-6" transform="translate(2.836364, 5.936163) scale(-1, 1) translate(-2.836364, -5.936163) "></line>
+                                    <line x1="1.05826459e-12" y1="1.712325" x2="5.67272727" y2="3.58465" id="Line-2-Copy" transform="translate(2.836364, 2.648488) scale(-1, 1) translate(-2.836364, -2.648488) "></line>
+                                    <line x1="1.05826459e-12" y1="6.712325" x2="5.67272727" y2="8.58465" id="Line-2-Copy-7" transform="translate(2.836364, 7.648488) scale(-1, 1) translate(-2.836364, -7.648488) "></line>
+                                    <line x1="1.05826459e-12" y1="3.42465" x2="5.67272727" y2="5.296975" id="Line-2-Copy-2" transform="translate(2.836364, 4.360813) scale(-1, 1) translate(-2.836364, -4.360813) "></line>
+                                    <line x1="1.05826459e-12" y1="8.42465" x2="5.67272727" y2="10.296975" id="Line-2-Copy-8" transform="translate(2.836364, 9.360813) scale(-1, 1) translate(-2.836364, -9.360813) "></line>
+                                </g>
+                            </g>
+                            <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
