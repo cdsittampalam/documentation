@@ -10,8 +10,7 @@ The Layer 2 characteristics of the Qredo blockchain provide transparency, immuta
 
 This page describes the following:
 
-*   [Introduction to the Qredo Network](https://qredo.atlassian.net/wiki/spaces/QD/pages/121865074/Qredo+Network#Introduction-to-the-Qredo-Network)
-    
+*   [Introduction to the Qredo Network](https://qredo.atlassian.net/wiki/spaces/QD/pages/121865074/Qredo+Network#Introduction-to-the-Qredo-Network)  
 
 *   [Service and Node Architecture](https://qredo.atlassian.net/wiki/spaces/QD/pages/121865074/Qredo+Network#Service-and-Node-Architecture)
     
