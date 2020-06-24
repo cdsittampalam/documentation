@@ -43,7 +43,7 @@ Qredo currently supports Bitcoin. However, future versions will include Ethereum
 ### Behaviours the Qredo Network
 
 The Qredo network includes behaviours to ensure that transactions are saved securely on the Qredo blockchain.
-
+|     |     |
 | --- | --- |
 | **Aggregated Digital Signatures** | A transaction contains encrypted messages between nodes with signatures in BLS format. Before a transaction is written to the Qredo blockchain, the aggregated digital signatures of participants that sign a transaction need to be recorded. Recording the aggregation of signatures makes the Qredo blockchain serve as a consensus-driven immutable record of asset ownership. |
 | **Consensus Rules on Signing Participants** | A transaction requires various signatures from these participants that meet rules and conditions. The **principal** who decides on the custodian, custodian groups, and thresholds. They provide a signature when money is transferred to a counterparty recipient, added or withdrawn from the Qredo network. The **counterparty** who provides a signature for a transfer that the principal has signed. Signing confirms that they want to receive funds from the principal. The **custodian** who approves or rejects a transaction. When they approve, a signature is provided for the transaction. The custodian is part of a custodian group created by the principal, and is linked to the fund of that transaction. Depending on the threshold, one or more custodians in the group need to provide their signatures. |
@@ -83,7 +83,6 @@ The Qredo network consists of computers that are categorised as node or services
 ![](https://qredo.atlassian.net/wiki/download/attachments/121865074/qredo%20updated%20architecture%202106.png?api=v2)
 
 |     |     |
-| --- | --- |
 | **User and App** | A Qredo user adds data to a web app for a transaction. For example, a principal enters options to transfer money to another user. Custodians, using the mobile app on their phones, approve or reject the transaction. The approval or rejection unlocks digital signatures in the app. |
 | **Qredo Server** | The Qredo server processes the signatures from the transactions. |
 | **Blockchain Validator** | The blockchain validator node creates blocks on the Qredo blockchain from incoming transactions. The node keeps a copy of the Qredo blockchain. As of June 2020, the Qredo network has six blockchain validators of which >2/3 (subject to voting weight) must verify and authorise every new block. |
