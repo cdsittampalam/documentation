@@ -49,7 +49,7 @@ View Fund One
 
 From the Holdings page, click the plus icon on Fund One.
 
-![image](https://qredo.atlassian.net/wiki/download/attachments/81723458/2updated%20-%20fund%20one%20and%20default%20fund.png?api=v2) 
+![image](3updated%20-%20fund%20one%20and%20default%20fund.png) 
 
 The Summary info, Membership & Permissions and Custody sections show for Fund One.
 
@@ -70,7 +70,7 @@ The summary section has basic information on the fund:
 *   Bitcoin Testnet as the asset
     
 
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/2-Summary%20info%20on%20FundOne.png?api=v2)
+![](2-Summary%20info%20on%20FundOne)
 
 ### Membership & Permissions
 
