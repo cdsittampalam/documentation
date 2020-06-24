@@ -234,7 +234,7 @@ Viewing Transfer Approval Progress
 ### Pending
 
 The pending subtab shows pending approvals.
-
+|            |                 |
 | **Column** | **Description** |
 | TYPE | Type of transaction. For a transfer, the column name shows as transfer. |
 | AMOUNT | The amount of the transaction and the type of asset. |
@@ -265,7 +265,7 @@ TX Ledger shows the following details:
 
 |     |     |
 | --- | --- |
-| **Column Name** | **Description** |
+| **Column** | **Description** |
 | TYPE | Type of transaction. For a transfer, the column name shows as transfer. |
 | FUND | Name of the fund. |
 | INITIATED | Date and time in which the transfer transaction was started. |
