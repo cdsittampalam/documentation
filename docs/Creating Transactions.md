@@ -244,6 +244,7 @@ The pending subtab shows pending approvals.
 | STATUS | The status shows as “Awaiting Authorisation”. |
 | ACTIONED | The date and time in which the transaction was created. |
 
+
 ### Actioned
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
