@@ -78,7 +78,7 @@ The Membership & Permissions section shows your name as a fund member with the p
 
 When you create other funds, you will also be the sole fund member.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/50GR%20-%20Fund%20Membership%20and%20permissions.png?api=v2)
+![](50GR%20-%20Fund%20Membership%20and%20permissions.png)
 
 ### Custody
 
