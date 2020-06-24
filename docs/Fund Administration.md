@@ -26,7 +26,7 @@ The Holdings page consists of:the summary section that allows you to create a fu
 
 The page also allows you to view details on the transactions and the custody policies of the fund.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/80GR%20All%20transactions%20in%20fund.png?api=v2)
+![All Transactions](80GR%20All%20transactions%20in%20fund.png)
 
 ### Access the Holding Page
 
