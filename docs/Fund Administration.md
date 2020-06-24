@@ -70,7 +70,7 @@ The summary section has basic information on the fund:
 *   Bitcoin Testnet as the asset
     
 
-![](2-Summary%20info%20on%20FundOne)
+![](2-Summary%20info%20on%20FundOne.png)
 
 ### Membership & Permissions
 
