@@ -24,7 +24,7 @@ Introduction to the Qredo Network
 
 The Qredo network allows the management of digital assets where transactions are processed through the Qredo blockchain with various nodes and services working together.
 
-The Qredo blockchain records transactions that happen for these events:
+The Qredo blockchain records transactions that happen for these events:a
 
 *   A new user joins Qredo.
     
