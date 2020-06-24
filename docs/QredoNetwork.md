@@ -83,6 +83,7 @@ The Qredo network consists of computers that are categorised as node or services
 ![](https://qredo.atlassian.net/wiki/download/attachments/121865074/qredo%20updated%20architecture%202106.png?api=v2)
 
 |     |     |
+| --- | --- |
 | **User and App** | A Qredo user adds data to a web app for a transaction. For example, a principal enters options to transfer money to another user. Custodians, using the mobile app on their phones, approve or reject the transaction. The approval or rejection unlocks digital signatures in the app. |
 | **Qredo Server** | The Qredo server processes the signatures from the transactions. |
 | **Blockchain Validator** | The blockchain validator node creates blocks on the Qredo blockchain from incoming transactions. The node keeps a copy of the Qredo blockchain. As of June 2020, the Qredo network has six blockchain validators of which >2/3 (subject to voting weight) must verify and authorise every new block. |
