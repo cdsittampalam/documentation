@@ -11,7 +11,7 @@ Any user that wants to use Qredo to make investments via transactions on the Qre
     
 *   **Custody Provider** A custody provider may also be able to own a fund and seek other financial stakeholders to approve or reject transactions.
     
-*   **Traders** Traders can create transactions once they have created the funds.
+*   **Traders** Traders can create transactions once they have created the funds.a
 
 --- 
 
