@@ -26,7 +26,7 @@ The Holdings page consists of:the summary section that allows you to create a fu
 
 The page also allows you to view details on the transactions and the custody policies of the fund.
 
-![All Transactions](%20All%20transactions.png)
+![All Transactions](%20All%20Transactions.png)
 
 ### Access the Holding Page
 
