@@ -26,13 +26,13 @@ The Holdings page consists of:the summary section that allows you to create a fu
 
 The page also allows you to view details on the transactions and the custody policies of the fund.
 
-![All Transactions](%20All%20Transactions.png)
+![All Transactions](All%20Transactions.png)
 
 ### Access the Holding Page
 
 1.  Access the Summary Section.
     
-2.  Click ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/fund%20icon%20bigger.png?api=v2)
+2.  Click the coin icon for a fund.
 
 You can then choose one of the following options:
 
