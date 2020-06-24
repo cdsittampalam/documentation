@@ -234,7 +234,7 @@ Viewing Transfer Approval Progress
 ### Pending
 
 The pending subtab shows pending approvals.
-|  -----     |     -----       |
+|  ---  | --- |
 | **Column** | **Description** |
 | TYPE | Type of transaction. For a transfer, the column name shows as transfer. |
 | AMOUNT | The amount of the transaction and the type of asset. |
