@@ -22,7 +22,7 @@ The Holdings page lists the funds under your account. These include one or more 
 
 The Holdings page consists of:the summary section that allows you to create a fund or view attributes of a default fund.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/GR80%20-%20Holding%20Page%20and%20Summary.png?api=v2)
+![Holdings](GR80%20-%20Holding%20Page%20and%20Summary.png)
 
 The page also allows you to view details on the transactions and the custody policies of the fund.
 
