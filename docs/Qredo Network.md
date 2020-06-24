@@ -39,31 +39,31 @@ Users interact with the Qredo network using the Qredo app that they signed up fo
 
 Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
 
-### Behaviours the Qredo Network
+#### Behaviours the Qredo Network
 
 The Qredo network includes behaviours to ensure that transactions are saved securely on the Qredo blockchain.
 
-####Aggregated Digital Signatures
+#### Aggregated Digital Signatures
 
 A transaction contains encrypted messages between nodes with signatures in BLS format. Before a transaction is written to the Qredo blockchain, the aggregated digital signatures of participants that sign a transaction need to be recorded. Recording the aggregation of signatures makes the Qredo blockchain serve as a consensus-driven immutable record of asset ownership.
 
-####Consensus Rules on Signing Participants
+#### Consensus Rules on Signing Participants
 
 A transaction requires various signatures from these participants that meet rules and conditions. The **principal** who decides on the custodian, custodian groups, and thresholds. They provide a signature when money is transferred to a counterparty recipient, added or withdrawn from the Qredo network. The **counterparty** who provides a signature for a transfer that the principal has signed. Signing confirms that they want to receive funds from the principal. The **custodian** who approves or rejects a transaction. When they approve, a signature is provided for the transaction. The custodian is part of a custodian group created by the principal, and is linked to the fund of that transaction. Depending on the threshold, one or more custodians in the group need to provide their signatures.
 
-####Threshold
+#### Threshold
 
 For a transaction to be approved and written to the Qredo blockchain, the threshold determines how many custodian signatures are needed within a custodian group. For example, for a threshold of 2/3, at least 2 out of 3 signatures are needed for a transaction to be written to the blockchain.
 
-####Transfer Policies
+#### Transfer Policies
 
 Transfer policies determine the type of transaction that a custodian can sign. Custodians can be part of a group that allows, for example, signatures for a withdrawal policy. This lets the Qredo blockchain support workflows for more complex business requirements.
 
-### Qredo Wallet
+#### Qredo Wallet
 
 Qredo wallet enables the management of money on the Qredo network. A wallet links to an external Bitcoin address and captures deposits into that address as funds it controls on the Qredo blockchain. A wallet is created when money is first added to the Qredo network.
 
-### Qredo Blockchain
+#### Qredo Blockchain
 
 The Qredo blockchain consists of blocks of data that are joined together to create a chain. These blocks of data are assets that represent different Qredo app user actions and network configuration data that must be kept secure.
 
