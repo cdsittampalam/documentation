@@ -1,5 +1,229 @@
 ---
 id: Fund Administration
----
-Lorem ipsum
 
+---
+
+As the Account Owner, you have complete control over funds. You can view information on funds and transactions, and create funds to use on the Qredo network. A fund in Qredo is a financial vehicle in your account that contains all the assets for use in transfer, deposit, and withdrawal transactions. A fund is also associated with custody policies.
+
+Any user that wants to use Qredo to make investments via transactions on the Qredo network can use funds or create funds themselves. The following are examples:
+
+*   **Institutions** These users, e.g. large banks, can create funds for investment where custodians can accept or reject transactions made by the investing institution.
+    
+*   **Custody Provider** A custody provider may also be able to own a fund and seek other financial stakeholders to approve or reject transactions.
+    
+*   **Traders** Traders can create transactions once they have created the funds.
+
+--- 
+
+The Holdings Page
+-----------------
+
+The Holdings page lists the funds under your account. These include one or more default funds, and any funds you created. For each fund, you can have a complete view of the transactions, addresses, and custody policies. You can also choose a fund option from the page.
+
+The Holdings page consists of:the summary section that allows you to create a fund or view attributes of a default fund.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/GR80%20-%20Holding%20Page%20and%20Summary.png?api=v2)
+
+The page also allows you to view details on the transactions and the custody policies of the fund.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/80GR%20All%20transactions%20in%20fund.png?api=v2)
+
+### Access the Holding Page
+
+1.  Access the Summary Section.
+    
+2.  Click ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/fund%20icon%20bigger.png?api=v2)
+
+You can then choose one of the following options:
+
+*   **View Fund One:** If you are a new user, you can view details of a default fund, labelled Fund One. Fund One is created for you once you have joined the Qredo Network. While Fund One is designed to help you understand how a Qredo fund works, you can also use Fund One for transactions. The system creates a deposit address for you to receive assets (see [View Fund One](#view-fund-one)).
+    
+*   **Change the Default Fund and Assets:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Fund and Assets](#change-default-fund-and-assets)).
+    
+*   **Create a Fund:** If you are familiar with the concepts of a Qredo funds and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
+    
+---
+
+View Fund One
+-------------
+
+From the Holdings page, click the plus icon on Fund One.
+
+![image](https://qredo.atlassian.net/wiki/download/attachments/81723458/2updated%20-%20fund%20one%20and%20default%20fund.png?api=v2) 
+
+The Summary info, Membership & Permissions and Custody sections show for Fund One.
+
+If you have changed your default settings to include Bitcoin for Fund One and Bitcoin Testnet for Fund Two, you will see 2 default funds in the Holdings page.
+
+### Summary
+
+The summary section has basic information on the fund:
+
+*   The Fund ID to help differentiate funds with similar names and descriptions
+    
+*   The type of asset in the fund as Bitcoin testnet
+    
+*   The name of the fund as "Fund One"
+    
+*   A brief description about the fund
+    
+*   Bitcoin Testnet as the asset
+    
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/2-Summary%20info%20on%20FundOne.png?api=v2)
+
+### Membership & Permissions
+
+The Membership & Permissions section shows your name as a fund member with the permission of owner. Fund One is assigned to you as a fund member with the permission of Owner once you have come onboard. The permission of Owner means that you have control over the assets and the custodian policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, and perform the operations of withdrawal and transfers. The fund includes a deposit address that contains funds.
+
+When you create other funds, you will also be the sole fund member.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/50GR%20-%20Fund%20Membership%20and%20permissions.png?api=v2)
+
+### Custody
+
+The Custody section shows the custody policies of a fund. A custody policy determines the custodians that can sign a transaction, and whose signatures are needed for transfers and/or withdrawals. Each custodian has a permission of transfer and/or withdrawal. However, in Fund One the custodian is the fund owner.
+
+As a custody provider accepting or rejecting transactions on behalf of an investing fund owner, the custody policy settings within a fund are particularly important. For example, depending on the type of investment, transactions within some funds may require more signatures than others.
+
+A policy also includes a threshold that has the minimum number of custodian signatures out of the total number for a transaction to happen.
+
+The Withdrawal and TX tabs include custody policies comprising of custodians and the associated threshold levels for withdrawals and transfers. Withdrawals and transfers can have different custodians and threshold levels. For Fund One, there is only one custodian and a threshold policy of 1/1 for both withdrawals and transfers.
+
+A fund owner, e.g. an institution, may work closely with a custody provider to decide on threshold levels for a particular fund.
+
+When you create a fund, you can assign any number of custodians for withdrawals and transfers.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/Fund%20One%20-Custody.png?api=v2)
+
+### View List of Transactions and Addresses
+
+When you use Fund One, you will be able to view a list of transactions with the deposit and withdrawal addresses for each transaction.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/50GR-View%20of%20transactions.png?api=v2)
+
+When Fund One is created, there is a single deposit address that is automatically assigned to receive money. When used, a fund can have multiple withdrawal addresses.
+
+1.  Click on the Asset icon under Fund One 
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/asset%20icon%20in%20the%20holdings%20tab.png?api=v2).
+
+2\. Click **Transactions** to view the transactions.
+
+3\. Click **Addresses** and the respective subtabs for deposits and withdrawals.
+
+The following example shows a withdrawal address.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/Addresses.png?api=v2)
+
+---
+
+Change Default Fund and Assets
+------------------------------
+
+You can set Fund One to include Bitcoin instead of Bitcoin Testnet. When you change the asset, Bitcoin Testnet is set as the asset for the other default fund, Fund Two.
+
+This feature is especially useful for users that are likely to be instantly receive money in to their default fund. For example, as an exchange user, you may want to instantly receive payments in Bitcoin rather than Bitcoin Test.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/GR50%20-%202Change%20Defaults.png?api=v2)
+
+1.  Click **Change Defaults.** The Default Funds screen appears.   
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/50GR-ChangeDefaultFunds.png?api=v2)
+
+2\. Select Fund One in **For incoming Bitcoin BTC transfers.**
+
+3\. Select Fund Two in **For incoming Bitcoin Testnet transfers**. The button shows as **Updated**,  
+and Fund One now contains Bitcoin.
+
+4\. Click **Done** after the confirmation message.
+
+---
+
+Create a Fund Wizard
+--------------------
+
+The Create a Fund wizard lets you quickly create a fund and add custody policies for withdrawals and transfers.
+
+You can set the same or different custodians for withdrawal and transfer policies. These policies can also include different Threshold levels.
+
+A custodian can sign a transaction where they have the authority to approve or reject a transaction (via the mobile signing app.)
+
+When you select custodians, you can also choose the Threshold level. A Threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level needing more signatures means that custodians have more power to restrict the transaction from taking place. A lower threshold means they have less power to restrict the transaction since fewer signatures are needed.
+
+In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for individual withdrawal and transfer policies. Each policy contains a set Threshold level.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/Managing%20Fund%20A.png?api=v2)
+
+You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
+
+### Working with a Custody Provider
+
+As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and threshold levels. This can depend on the type of fund and the level of risk that exist. For example, for a more risky investment you may want a higher number of aggregated signatures.
+
+### Start the Wizard
+
+From the Summary section in the holding page, click the Plus icon.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/81723458/change%20defaults%20on%20summary.png?api=v2)
+
+### Enter Basic Details of the Fund 
+
+Entering name, description and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that other members in your Qredo network have a fund of the same asset type.
+
+1.  Fill in the name of the fund in **Fund Name.**
+    
+2.  Enter details to describe the fund in **Description.**
+    
+3.  Choose a theme that shows the fund in the Summary section of the Holdings page.
+    
+4.  Select an asset from **Assets.**
+    
+5.  Click **Continue**.
+    
+
+#### View Notice on Membership and Permissions 
+
+1.  Read the notice on membership and permissions. This indicates that only one member is available for the fund, and that further enhancements are coming soon.
+    
+2.  Observe your name as the fund member and click **Continue.**
+    
+
+### Add Custodians to the Transfer Policy 
+
+1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](https://qredo.atlassian.net/wiki/spaces/QD/pages/71074058/Invite+Trusted+Parties)).
+    
+2.  Click **Continue**.
+    
+3.  In the **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
+    
+4.  For each custodian, choose a threshold in the **Threshold** list.
+    
+5.  Click **Continue**.
+    
+
+### Add Custodians to the Withdrawal Policy
+
+1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](https://qredo.atlassian.net/wiki/spaces/QD/pages/71074058/Invite+Trusted+Parties)).
+    
+2.  Click **Review Fund Details**.
+    
+3.  Observe your name as the fund member and click **Continue**.
+    
+4.  In **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
+    
+5.  For each custodian, choose a threshold in the **Threshold** list.
+    
+6.  Click **Continue**.
+    
+
+### Review Fund Details 
+
+You can review the details of the selected custodians for the withdrawal and transfer policies. You can also review the name, description, and look-and-feel of the fund policy on the Summary page.
+
+1.  To change any of the fund details, click **Back** to return to the previous wizard screen. Clicking **Back** again moves to previous screens.
+    
+2.  Click **Confirm and Create Fund**.
+    
+
+Transfers display an error message to the recipient after the confirmation step if the target counterparty does not have a default fund set for the asset. For example, you use Bitcoin but they don't have a Bitcoin fund. created.
