@@ -125,23 +125,186 @@ Once you have downloaded the app, tap the QR code on the screen against the QR r
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/54559808/pairing%20complete%20web-app%20view.png?api=v2)
 
-For more information, see [Pair your Mobile Phone](https://qredo.atlassian.net/wiki/spaces/QD/pages/54559857/Pair+your+Mobile+Phone)
+For more information, see [Pair your Mobile Phone](https://qredo.atlassian.net/wiki/spaces/RW/pages/54559857/Pair+your+Mobile+Phone)
 
 Create your Master Seed
 -----------------------
 
 Once you have paired your phone with the web app, you are prompted to create your master seed. The master seed is an important security feature that bonds your Qredo identify to your phone.
 
-For more details, see [Create your Master Seed](https://qredo.atlassian.net/wiki/spaces/QD/pages/54560000/Create+your+Master+Seed).
+For more details, see [Create your Master Seed](/wiki/pages/createpage.action?spaceKey=QD&title=Create+your+Master+Seed&linkCreation=true&fromPageId=54559808).
 
 Signing In for the First Time
 -----------------------------
 
 Once you have set up the mobile app with the master seed, you can sign in for the first time.
 
-For more details, see [Signing In for the First Time](https://qredo.atlassian.net/wiki/spaces/QD/pages/64357418/Signing+In+for+the+First+Time)
+For more details, see [Sign In](/wiki/pages/createpage.action?spaceKey=QD&title=Sign+In&linkCreation=true&fromPageId=54559808)
 
-Learn More
-----------
+Once you have downloaded the mobile app, you are ready to pair your mobile phone with the web app. You will see a landing page for the mobile app on your phone.
 
-[Security](https://qredo.atlassian.net/wiki/spaces/QD/pages/54560038/Security)
+There are no images attached to this page.
+
+You scan a QR-code on the web app through your phone’s camera, which pairs the phone with the mobile app. The pairing process ensures that only your phone can be used together with the web app. The unique QR-code that shows on the web app can only be used once.
+
+Steps
+-----
+
+1.  Click **Connect your mobile device**. The phone app shows a message requesting access to your camera.
+    
+
+There are no images attached to this page.
+
+1.  Click **OK**. Then confirm your action in a message triggered from your device’s operating system.
+
+The QR-code shows on the phone screen.
+
+There are no images attached to this page.
+
+1.  Scan the QR code on the browser app with your camera. The phone shows that pairing is complete.
+    
+
+There are no images attached to this page.
+
+1.  Click **Continue**. The mobile screen guides you to creating a master seed on your phone.
+
+There are no images attached to this page.
+
+The web app indicates that the phone has been paired or connected.
+
+There are no images attached to this page.
+
+Create your Master Seed
+-----------------------
+
+Once you have completed pairing, you are ready to create your master seed. The master seed is a security feature that bonds your Qredo identify with your phone. It is stored on your device’s secure enclave and is registered on the Qredo network.
+
+The master seed is unique to your phone. If in the unlikely event that data is lost, you will need to recover your master seed through your seed recovery phrase. The seed recovery phrase, consisting of a unique 24-word combination, is different to a common password, which you may be more likely to forget or lose.
+
+In addition, you will also set up a 6-digit passcode. The passcode is used with the biometric feature of your phone that is either the Face ID or Touch ID. More information on 2-Factor authentication is provided in the [/wiki/pages/createpage.action?spaceKey=QD&title=Security&linkCreation=true&fromPageId=54560000](https://qredo.atlassian.net/wiki/pages/createpage.action?spaceKey=QD&title=Security&linkCreation=true&fromPageId=54560000) page.
+
+View the Interactive Guide
+--------------------------
+
+Before you create a master seed, the phone lets you scroll through an interactive guide. The following shows one of the screens in the guide.
+
+There are no images attached to this page.
+
+Start the Activation Steps
+--------------------------
+
+At the end of the interactive journey, you will reach a screen for starting the activation steps for your Face ID/Touch ID, passcode, and seed recovery phrase.
+
+There are no images attached to this page.
+
+Tap **Get started**.
+
+Enable Face ID/Touch ID
+-----------------------
+
+You are asked to provide Qredo with access to your Face ID/Touch ID before enabling the biometric feature that you use on your phone.
+
+1.  Tap **OK.**
+    
+2.  Confirm your action in the operating system’s message.
+    
+3.  Enable Face ID/Touch ID. Once confirmed, a message shows.
+    
+
+There are no images attached to this page.
+
+Create a 6-Digit Passcode
+-------------------------
+
+The screen shows slots for creating your 6 digit passcode.
+
+There are no images attached to this page.
+
+1.  Enter a 6-digit passcode.
+    
+2.  Enter the 6-digit passcode again to verify
+    
+
+1.  In the confirmation screen, tap
+    
+
+**Continue**.
+
+Record the Seed Recovery Phrase
+-------------------------------
+
+**Important notes on the seed recovery phrase**
+
+*   Write down your seed recovery phrase clearly.
+    
+*   Note down every single word in the seed recovery phrase.
+    
+*   Store the seed recovery phrase in a safe place.
+    
+*   Do not store the seed recovery phrase electronically.
+    
+
+The phone shows screens to introduce the seed recovery phrase.
+
+1.  Tap **Next.**
+    
+2.  Enter the 24-word seed recovery phrase.
+    
+3.  Record your seed recovery phrase in a safe place.
+    
+4.  Tap **Next.**
+    
+
+Confirm the Seed Recovery Phrase
+--------------------------------
+
+1.  Read through the instruction screen to confirm seed recovery and tap **Got it**. The screens shows 24 empty entries.
+    
+2.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
+    
+
+There are no images attached to this page.
+
+When all entries are correct, the screen shows as follows:
+
+There are no images attached to this page.
+
+Continue the Process
+--------------------
+
+Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the mobile app.
+
+You are now ready to sign in for the first time.
+
+Once you have created your master seed, the web app shows the screen that prompts you to sign in.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/54559808/reg%20complete.png?api=v2)
+
+Signing in for the first time allows you to use the apps for managing funds and transactions.
+
+Sign In to the Web App
+----------------------
+
+1.  Click **Sign In**. A log in screen appears.
+    
+2.  Enter your details in **Email address or alias** and **Password**.
+    
+3.  To ensure that you do not need to enter your details again the next time you open the mobile app, observe **Remember Me**.
+    
+4.  Click **Sign In**.
+    
+
+Sign In to the Mobile App
+-------------------------
+
+Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the mobile app. A message appears.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/54559808/sign%20in%20request.png?api=v2)
+
+Tap **Yes**.
+
+If you want to deny the request, Tap **No.**
+
+### Viewing Request Details
+
+If you tap **Request details** in the Sign in request note, it shows the time, date, location, and device of the request.
