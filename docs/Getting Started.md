@@ -179,7 +179,7 @@ There are no images attached to this page.
 
 ### Important Notes on the Seed Recovery Phrase
 
-:::
+:::tip
 Write down your seed recovery phrase clearly.
 Note down every single word in the seed recovery phrase.
 Store the seed recovery phrase in a safe place.
