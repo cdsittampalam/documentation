@@ -10,7 +10,7 @@ Deposit Money
 
 For a deposit transaction, money is added to a whitelisted external Bitcoin address which is linked to your fund. By default, the default fund and asset that you have set up includes a deposit address. The deposit address is the Bitcoin wallet address that is linked to a Qredo fund. You can alter the address that is allocated to the fund.
 
-## Change the Default Address
+### Change the Default Address
 
 You start the task for creating a new deposit address from either the Asset level or the Transaction ledger level. 
 
