@@ -57,6 +57,7 @@ As a custodian, you can approve the withdrawal address for the transaction if it
 8.  Click **Continue**.    
 9.  See Authorise the New Withdrawal Address.
     
+---
 
 #### Authorise an Address (Trade Initiator)
 
@@ -67,6 +68,8 @@ As the initiator of the withdrawal, you authorise the creation of a new withdraw
 3.  To reject, tap **Reject**.
     
 For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm on the confirmation screens.
+
+---
 
 #### Approve an Address (Custodian)
 
@@ -93,6 +96,8 @@ You can also view other details of the withdrawal address including:
 4.  To reject, tap **Reject**.    
 
 For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+
+---
 
 ### Create a Transaction
 
@@ -182,6 +187,8 @@ The miner and Qredo fee is fixed for every transaction. Qredo periodically chang
 4.  To reject, tap **Reject**.
     
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+
+---
 
 ### Track Progress
 
