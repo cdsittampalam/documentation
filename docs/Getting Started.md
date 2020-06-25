@@ -179,13 +179,9 @@ You are asked to provide Qredo with access to your Face ID/Touch ID before enabl
     
 2.  Confirm your action in the operating system’s message.
     
-3.  Enable Face ID/Touch ID. Once confirmed, a message shows.
-    
+3.  Enable Face ID/Touch ID. Once confirmed, a message shows.    
 
-There are no images attached to this page.
-
-Create a 6-Digit Passcode
--------------------------
+#### Create a 6-Digit Passcode
 
 The screen shows slots for creating your 6 digit passcode.
 
@@ -195,14 +191,10 @@ There are no images attached to this page.
     
 2.  Enter the 6-digit passcode again to verify
     
+3.  In the confirmation screen, tap **Continue**.
 
-1.  In the confirmation screen, tap
-    
 
-**Continue**.
-
-Record the Seed Recovery Phrase
--------------------------------
+### Configure the Seed Recovery Phrase
 
 **Important notes on the seed recovery phrase**
 
@@ -212,8 +204,7 @@ Record the Seed Recovery Phrase
     
 *   Store the seed recovery phrase in a safe place.
     
-*   Do not store the seed recovery phrase electronically.
-    
+*   Do not store the seed recovery phrase electronically.   
 
 The phone shows screens to introduce the seed recovery phrase.
 
@@ -223,22 +214,13 @@ The phone shows screens to introduce the seed recovery phrase.
     
 3.  Record your seed recovery phrase in a safe place.
     
-4.  Tap **Next.**
+4.  Tap **Next.**    
+
+5.  Read through the instruction screen to confirm seed recovery and tap **Got it**. The screens shows 24 empty entries.
     
-
-Confirm the Seed Recovery Phrase
---------------------------------
-
-1.  Read through the instruction screen to confirm seed recovery and tap **Got it**. The screens shows 24 empty entries.
+6.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
     
-2.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
-    
-
-There are no images attached to this page.
-
 When all entries are correct, the screen shows as follows:
-
-There are no images attached to this page.
 
 Continue the Process
 --------------------
@@ -265,8 +247,8 @@ Sign In to the Web App
 4.  Tap **Sign In**.
     
 
-Sign In to the Mobile App
--------------------------
+Sign In Steps
+-------------
 
 Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the mobile app. A message appears.
 
