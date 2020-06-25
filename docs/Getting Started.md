@@ -94,14 +94,10 @@ At the same time, an SMS is sent to your phone that contains a link to the signi
 
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
 
-|     |
-| --- |
-| ![](https://qredo.atlassian.net/wiki/download/thumbnails/54559808/first%20mobile%20phone%20screen.png?api=v2) |
+![](https://qredo.atlassian.net/wiki/download/thumbnails/54559808/first%20mobile%20phone%20screen.png?api=v2) |
 
 1.  If the SMS has not arrived, click on the resend button on the browser app page. The button shows a time limit for resending the SMS.
 2. Click **Continue**.
-
-----
 
 ### Pair your Phone
 
@@ -117,12 +113,13 @@ Once you have paired your phone with the web app, you are prompted to create you
 
 For more details, see [Master Seed Steps](#master-seed-steps).
 
-### Signing In
+### Sign In
 
 Once you have set up the mobile app with the master seed, you can sign in for the first time.
 
-For more details, see [Sign In Steps](/Sign In Steps)
+For more details, see [Sign In Steps](*sign-in-steps)
 
+----
 
 Phone Steps
 -----------
@@ -148,8 +145,6 @@ The QR-code shows on the phone screen.
 
 The web app indicates that the phone has been paired.
 
----
-
 ### Master Seed Steps
 
 Once you have completed pairing, you are ready to create your master seed. The master seed is a security feature that bonds your Qredo identify with your phone. It is stored on your device’s secure enclave and is registered on the Qredo network. This ensures that it is backed up 
@@ -167,7 +162,7 @@ You are asked to provide Qredo with access to your Face ID/Touch ID before enabl
 2.  Confirm your action in the operating system’s message.
 3.  Enable Face ID/Touch ID. Once confirmed, a message shows.    
 
-#### Create a 6-Digit Passcode
+#### Create 6-Digit Passcode
 
 The screen shows slots for creating your 6 digit passcode.
 
@@ -179,7 +174,7 @@ There are no images attached to this page.
 
 ### Seed Recovery Phrase
 
-**Important notes on the seed recovery phrase**
+:::Important notes on the seed recovery phrase
 
 *   Write down your seed recovery phrase clearly.
     
@@ -200,8 +195,7 @@ The phone shows screens to introduce the seed recovery phrase.
     
 When all entries are correct, the screen shows as follows:
 
-Completion
-----------
+### Completion
 
 Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the mobile app.
 
@@ -212,6 +206,8 @@ Once you have created your master seed, the web app shows the screen that prompt
 ![](https://qredo.atlassian.net/wiki/download/attachments/54559808/reg%20complete.png?api=v2)
 
 Signing in for the first time allows you to use the apps for managing funds and transactions.
+
+---
 
 Sign In Steps
 -------------
