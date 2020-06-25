@@ -231,8 +231,7 @@ The miner and Qredo fee is fixed for every transaction. Qredo periodically chang
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
-Track Progress
---------------
+###Track Progress
 
 As the trade initiator, you can check the approval progress for address creation and transactions. Both addresses and transactions require approval from custodians.
 
@@ -240,14 +239,12 @@ Go to the Approvals section in the web app.
 
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
-### Address Approvals
+#### Address Approvals
 
 1.  Click the **Addresses** tab,
     
 2.  Click the **Pending** or **Actioned** sub-tabs.
-    
 
-#### Pending
 
 The Pending sub tab shows pending approvals.
 
@@ -261,9 +258,6 @@ The Pending sub tab shows pending approvals.
 | ACTIONED | Date and time in which the approval request was sent. |
 | STATUS | Status of the approval as “awaiting confirmation”. |
 
----
-
-#### Actioned
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
 
@@ -273,14 +267,11 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 ---
     
-### Transaction Approvals
+#### Transaction Approvals
 
 1.  Click the **Transactions** tab,
     
 2.  Click the **Pending** or **Actioned** sub-tabs.
-    
-
-#### Pending
 
 The pending subtab shows pending approvals.
 
@@ -294,9 +285,6 @@ The pending subtab shows pending approvals.
 | STATUS | The status shows as “Awaiting Authorisation”. |
 | ACTIONED | The date and time in which the transaction was created. |
 
----
-
-#### Actioned
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
 
