@@ -18,6 +18,8 @@ When creating a new withdrawal address, you need to choose the correct fund and 
 
 Once you have selected a new address, you authorise its creation to confirm that it is valid from your side. The custodians then need to approve the creation of the new address in order for a withdrawal transaction to happen (see Approve a New Address (Custodian)).
 
+---
+
 Withdraw Money
 --------------
 
