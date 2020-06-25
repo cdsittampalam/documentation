@@ -151,8 +151,9 @@ The web app indicates that the phone has been paired.
 
 ### Master Seed Steps
 
-Once you have completed pairing, you are ready to create your master seed. The master seed is a security feature that bonds your Qredo identify with your phone. It is stored on your device’s secure enclave and is registered on the Qredo network. This ensures that it is backed up 
-The master seed is unique to your phone. If in the unlikely event that data is lost, you will need to recover your master seed through your seed recovery phrase. The seed recovery phrase, consisting of a unique 24-word combination, is different to a common password, which you may be more likely to forget or lose.
+Once you have completed pairing, you are ready to create your master seed. The master seed is a security feature that bonds your Qredo identify with your phone. It is stored on your device’s secure enclave. To ensure that the master seed is backed up, it is registered on the Qredo network.
+
+If in the unlikely event that data is lost, you will need to recover your master seed through your seed recovery phrase. The seed recovery phrase, consisting of a unique 24-word combination, is different to a common password, which you may be more likely to forget or lose.
 
 In addition, you will also set up a 6-digit passcode. The passcode is used with the biometric feature of your phone that is either the Face ID or Touch ID.
 
