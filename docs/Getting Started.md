@@ -177,7 +177,7 @@ There are no images attached to this page.
 2.  Enter the 6-digit passcode again to verify
 3.  In the confirmation screen, tap **Continue**.
 
-### Configure the Seed Recovery Phrase
+### Seed Recovery Phrase
 
 **Important notes on the seed recovery phrase**
 
@@ -200,8 +200,8 @@ The phone shows screens to introduce the seed recovery phrase.
     
 When all entries are correct, the screen shows as follows:
 
-Continue the Process
---------------------
+Completion
+----------
 
 Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the mobile app.
 
@@ -228,6 +228,6 @@ Once you have signed in to the web app, you are requested by Qredo to authentica
 5. Tap **Yes**.
 6. If you want to deny the request, tap **No.**
 
-### Viewing Request Details
+### View Requests
 
 If you tap **Request details** in the Sign in request note, it shows the time, date, location, and device of the request.
