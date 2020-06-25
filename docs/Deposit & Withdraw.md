@@ -25,21 +25,25 @@ To withdraw, you send money out of a fund on Qredo to a whitelisted external Bit
 
 You set up a withdrawal transaction as a trade initiator using the web app. To confirm that you want the transaction to happen, you can authorise it through the mobile app.
 
-## Role of the Custodian
-
-As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction through the phone app. If all custodians have approved, the transaction takes place and is recorded on the Qredo blockchain. Once left Qredo, the money is no longer recorded on the Qredo blockchain.
+As a fund owner and member, you have the permission to withdraw money from Qredo. This permission is shown in the **Permissions** tab on the Settings section of your account.
 
 Qredo charges fees to withdraw, including the Qredo fee and the miner's fee, The Qredo fee allows the management of Qredo wallets. While the miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you confirm the transaction.
 
-While the miner and Qredo fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
+The miner and Qredo fee is fixed for any withdrawal transaction. However, Qredo can periodically alter these fees.
 
-As a fund owner and member, you have the permission to withdraw money from Qredo. This permission is shown in the **Permissions** tab on the Settings section of your account.
 
-### Withdrawal Address
+## Role of the Custodian
+
+As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction through the phone app. If all custodians have approved, the transaction takes place and is recorded on the Qredo blockchain. Once left Qredo, the money is no longer recorded on the Qredo blockchain. For more details, see Approve a Withdrawal.
+
+## Withdrawal Address
 
 When sending money from Qredo, you choose an existing whitelisted withdrawal address. If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see 
-
 If you do not have a withdrawal address, you need to create one before the transaction.
+
+A custodian that is part of the withdrawal policy of a fund, you can approve the creation of a new address if the address is whitelisted. If the address is deemed insecure, you can reject the new address.
+
+A new address is approved and written to the blockchain provided that it has met the threshold of signatures.
 
 #### Create a New Withdrawal Address
 
@@ -74,7 +78,6 @@ Once authorised, you can view its details including the fees that are charged on
     
 3.  To reject, tap **Reject**.
     
-
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
 ### Set Up a Withdrawal Transaction
@@ -151,15 +154,14 @@ A withdrawal transaction can only be sent out of Qredo if it has met or has exce
 Custodian Approval
 ------------------
 
-As a custodian, you approve the creation of a new address and the launching of a withdrawal transaction. If needed, you can also reject these tasks from going ahead.
 
-When you use the mobile app, an approval creates a signature that is processed by the app using its security features.
+When you approve or reject the transaction on the mobile app, an approval creates a signature that is processed by the app using its security features.
 
 For both the creation of the new address and the withdrawal, you will be able to sign the transaction if you are eligible for the withdrawal policy linked to the fund of the transaction.
 
-### New Address
+### Approve a New Address
 
-You authorise a whitelisted address that receives money going out from Qredo. Any address that you deem as insecure can be rejected. As soon as the initiator has authorised the creation of the new address, you will receive a notification on your phone.
+
 
 The mobile app shows you a screen asking you to approve or reject the new address. The screen also shows the following information:
 
@@ -199,7 +201,7 @@ You can also view more details of the withdrawal address including:
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
-### Withdrawal
+### Approve a Withdrawal
 
 As a custodian, you can approve a transaction if you deem it suitable to move money out of Qredo. For example, you would approve the transaction if another account location provides a better return on investment. While you may reject the transaction if keeping the money in Qredo if it provides more liquidity.
 
