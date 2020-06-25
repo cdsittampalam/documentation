@@ -37,7 +37,7 @@ As a fund owner and member, you have the permission to withdraw money from Qredo
 
 As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the withdrawal custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the withdrawal policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to [Fund Administration](https://support.qredo.com/docs/Fund Administration#custody). 
 
-### Create a New Withdrawal Address
+### Create a New Address
 
 When sending money from Qredo, you choose an existing whitelisted withdrawal address. If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see 
 
@@ -64,7 +64,7 @@ As a custodian, you can approve the withdrawal address for the transaction if it
 9.  See Authorise the New Withdrawal Address.
     
 
-#### Authorise a New Address (Trade Initiator)
+#### Authorise an Address (Trade Initiator)
 
 As the initiator of the withdrawal, you authorise the creation of a new withdrawal address which confirms your decision using the phone app.
 
@@ -76,7 +76,7 @@ As the initiator of the withdrawal, you authorise the creation of a new withdraw
     
 For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm on the confirmation screens.
 
-### Approve a New Address (Custodian) 
+### Approve an Address (Custodian) 
 
 Once the initiator has authorised the creation of the new address, you will receive a notification on your phone.
 
@@ -110,8 +110,7 @@ You can also view more details of the withdrawal address including:
 
 For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
-
-### Set Up a Withdrawal Transaction
+### Create a Transaction
 
 For withdrawing money, the Qredo app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination Bitcoin address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal.
 
@@ -137,8 +136,7 @@ You launch the withdrawal process from either the Transaction Ledger or the Asse
     
 9.  To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.
     
-10.  Click **Review Withdrawal**.
-    
+10.  Click **Review Withdrawal**.    
 
 #### Review the Withdrawal
 
@@ -167,7 +165,7 @@ Details of the withdrawal fees is shown when you click the question mark icon. T
 
 Once authorised, the custodian can also approve or reject the transaction.
 
-#### Authorise the Transaction
+#### Authorise the Withdrawal
 
 Once authorised, you can view its details including the fees that are charged on the transaction.
 
