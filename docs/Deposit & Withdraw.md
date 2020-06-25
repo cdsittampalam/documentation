@@ -77,15 +77,15 @@ As the initiator of the withdrawal, you authorise the creation of a new withdraw
     
 For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm on the confirmation screens.
 
-### Approve an Address (Custodian) 
+### Approve an Address (Custodian)
 
-Once the initiator has authorised the creation of the new address, you will receive a notification on your phone.
+You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal Address screen on your phone asks you to approve or reject the new address. The screen also shows the following information: 
 
-1. Tap on the notification on your phone. The Withdrawal screen the appears asking you to approve or reject the new address. The screen also shows the following information:
+*   name of the wallet address.
 
-*   details of the amount and asset.
+*   the fund of the withdrawal address.
     
-*   the recipient of the withdrawal.
+*   the name of the asset.
     
 *   the name of the trade initiator.
     
@@ -93,21 +93,22 @@ Once the initiator has authorised the creation of the new address, you will rece
     
 screenshot
 
-You can also view more details of the withdrawal address including:
-
-*   the name of the receiving wallet address
+You can also view other details of the withdrawal address including:
     
 *   the alphanumeric string of the address
     
 *   details of the trade initiator (including email address and alias).
     
 *   the date in which the address creation was initiated
+   
     
-*   the expiry date of the approval
+1. Tap on the notification on your phone. The Withdrawal screen the appears asking you to approve or reject the new address. 
+
+2.  Click **Show Details** to view more details of the transaction.
+
+3.  To approve, tap **Approve**.
     
-2.  To approve, tap **Approve**.
-    
-3.  To reject, tap **Reject**.    
+4.  To reject, tap **Reject**.    
 
 For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
@@ -180,21 +181,19 @@ A withdrawal transaction can only be sent out of Qredo if it has met or has exce
 
 #### Approve a Withdrawal
 
-As a custodian, you can approve a transaction if you deem it suitable to move money out of Qredo. For example, you would approve the transaction if another account location provides a better return on investment. While you may reject the transaction if keeping the money in Qredo if it provides more liquidity.
+You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal screen on your phone asks you to approve or reject the new transaction. The screen also shows the following information:
 
-You receive a notification as soon as the trade initiator has authorised the withdrawal.
-
-The phone app shows you a screen asking you to approve or reject the transaction. The screen shows:
+*   type of asset and amount.
 
 *   the name linked to the recipient address.
     
 *   the name of the trade initiator.
     
-*   the reference number for the withdrawal.
+*   the transaction reference number.
     
 *   the expiry date and time for approval.   
 
-You can also view more details of the withdrawal address under the Show Detail arrow including:
+You can also view other details linked to the transaction under the Show Detail arrow including:
     
 *   the fund of the withdrawal.
     
@@ -202,15 +201,10 @@ You can also view more details of the withdrawal address under the Show Detail a
     
 *   the alphanumeric string of the wallet address.
     
-*   the email address and network alias of the trade initiator.
-    
-*   the date and time the transaction was initiated.
-    
-*   the date and time in which the transaction will expire.
+*   the name, email address, and network alias of the trade initiator.
     
 *   details of the Qredo fee
     
-
 The Qredo fee allows the management of Qredo wallets. There is also the miner's fee that covers the work and resources they need to generate blocks on the underlying network.
 
 The miner and Qredo fee is fixed for every transaction. Qredo periodically change these fixed fees.
@@ -219,9 +213,11 @@ The miner and Qredo fee is fixed for every transaction. Qredo periodically chang
 
 1.  Tap on the notification on your phone. The Withdrawal screen shows.
     
-2.  To approve, tap **Approve**.
+2.  Click **Show Details** to view more details of the transaction.
+
+3.  To approve, tap **Approve**.
     
-3.  To reject, tap **Reject**.
+4.  To reject, tap **Reject**.
     
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
@@ -229,7 +225,7 @@ For the action you select, you sign in with your biometric features and 6-digit 
 Track Progress
 --------------
 
-You can check the approval progress for address creation and transactions. Both addresses and transactions require approval from custodians.
+As the trade initiator, you can check the approval progress for address creation and transactions. Both addresses and transactions require approval from custodians.
 
 Go to the Approvals section in the web app.
 
