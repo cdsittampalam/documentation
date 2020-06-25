@@ -35,7 +35,7 @@ The Establish your Qredo Identity screen appears.
     
     -  **Mobile number**
    
-    :::note 
+    :::info
     You can enter a private or work email address with a unique name. 
     If you are joining as a new user, you will use a new email address. 
     If you have been invited, you can use the email address where you received the invitation.
