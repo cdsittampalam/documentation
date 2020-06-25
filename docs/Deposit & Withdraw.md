@@ -44,7 +44,7 @@ When sending money from Qredo, you choose an existing whitelisted withdrawal add
 
 If you do not have a withdrawal address, you need to create one before the transaction.
 
-As a custodian, you can approve the withdrawal address for the transaction if it is whitelisted. However, if the address is deemed insecure, you can reject the new address (see [Approve an Address (Custodian)(#approve-an-address-custodian))
+As a custodian, you can approve the withdrawal address for the transaction if it is whitelisted. However, if the address is deemed insecure, you can reject the new address (see [Approve an Address (Custodian)](#approve-an-address-custodian))
 
 1.  Choose the **Withdraw** option in Select Type.
     
