@@ -79,11 +79,11 @@ For the action you select, you then sign in with your biometric features and 6-d
 
 Once the initiator has authorised the creation of the new address, you will receive a notification on your phone.
 
-The mobile app shows you a screen asking you to approve or reject the new address, which also shows the following information:
+1. Tap on the notification on your phone. The Withdrawal screen shows asking you to approve or reject the new address. The screen also shows the following information:
 
 *   details of the amount and asset that is being withdrawn.
     
-*   the fund that is linked to the withdrawal.
+*   the recipient of the withdrawal.
     
 *   the name of the trade initiator.
     
@@ -93,25 +93,22 @@ screenshot
 
 You can also view more details of the withdrawal address including:
 
-*   the name given to the address
+*   the name given to the receiving wallet address
     
-*   the type of asset of the address
+*   the alphanumeric address string of the address
     
-*   the alphanumeric address string
-    
-*   details of the trade initiator that created the address
+*   details of the trade initiator that created the address (including email address and alias).
     
 *   the date in which the address creation was initiated
     
 *   the expiry date for approval
 
-1.  Tap on the notification on your phone. The Withdrawal screen shows.
     
 2.  To approve, tap **Approve**.
     
 3.  To reject, tap **Reject**.    
 
-For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+For the action you select, you thenn sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
 
 ### Set Up a Withdrawal Transaction
@@ -188,33 +185,29 @@ As a custodian, you can approve a transaction if you deem it suitable to move mo
 
 You receive a notification as soon as the trade initiator has authorised the withdrawal.
 
-The mobile app shows you a screen asking you to approve or reject the transaction. The screen shows:
+The phone app shows you a screen asking you to approve or reject the transaction. The screen shows:
 
-*   the name associated with the withdrawal.
+*   the name linked to the recipient address.
     
-*   the trade initiator.
+*   the name of the trade initiator.
     
 *   the reference number for the withdrawal.
     
 *   the expiry date and time for approval.   
 
-You can also view more details of the withdrawal address including:
-
-*   the name linked with the withdrawal.
+You can also view more details of the withdrawal address under the Show Detail arrow including:
     
 *   the fund of the withdrawal.
     
 *   the destination wallet name.
     
-*   the wallet address.
+*   the alphanumeric string of the wallet address.
     
 *   the email address and network alias of the trade initiator.
     
 *   the date and time the transaction was initiated.
     
 *   the date and time in which the transaction will expire.
-    
-*   the reference number for the withdraw,
     
 *   details of the Qredo fee
     
