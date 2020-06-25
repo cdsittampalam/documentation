@@ -68,7 +68,7 @@ As the initiator of the withdrawal, you authorise the creation of a new withdraw
     
 For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm on the confirmation screens.
 
-### Approve an Address (Custodian)
+#### Approve an Address (Custodian)
 
 You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal Address screen on your phone asks you to approve or reject the new address. The screen also shows the following information: 
 
