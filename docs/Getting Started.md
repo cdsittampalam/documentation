@@ -29,17 +29,18 @@ The Establish your Qredo Identity screen appears.
 
 1. Enter your details in:
 
-*   **Full name**
+    -  **Full name**
     
-*   **Email address**
+    -  **Email address**
     
-*   **Mobile number**
+    -  **Mobile number**
+   ::Note:: 
+      
+    - You can enter a private or work email address.
     
-*   You can enter a private or work email address.
+    - The email address and user name you enter must be unique.
     
-*   The email address and user name you enter must be unique.
-    
-*   If you are joining as a new user, you will use a new email address. If you have been invited, you can use the email address where you received the invitation.
+    - If you are joining as a new user, you will use a new email address. If you have been invited, you can use the email address where you received the invitation.
     
 2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo network alias must not contain special characters.
 
@@ -55,15 +56,15 @@ The Establish your Qredo Identity screen appears.
 
 The password must contain:
 
-*   10 characters in total
+    -  10 characters in total
     
-*   1 uppercase letter
+    -  1 uppercase letter
     
-*   1 number
+    -  1 number
     
-*   1 special character
+    -  1 special character
     
-*   1 lowercase letter    
+    -  1 lowercase letter    
 
 3. Click **Continue** to access the terms and conditions page.
 
@@ -119,13 +120,13 @@ Once you have downloaded the app, tap the QR code on the screen against the QR r
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/54559808/pairing%20complete%20web-app%20view.png?api=v2)
 
-For more information, see [Pairing Steps](Pairing Steps).
+For more information, see [Pairing Steps](#pairing-steps).
 
 ### Create Master Seed
 
 Once you have paired your phone with the web app, you are prompted to create your master seed. The master seed is an important security feature that bonds your Qredo identify to your phone.
 
-For more details, see [Master Seed Steps](Master Seed Steps).
+For more details, see [Master Seed Steps](#master-seed-steps).
 
 ### Signing In
 
