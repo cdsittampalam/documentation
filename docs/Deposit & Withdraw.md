@@ -3,7 +3,7 @@ id: Deposit & Withdraw
 
 ---
 
-Money can be added to Qredo through a deposit transaction, and can leave the Qredo network through a withdraw transaction.
+Money can be added to Qredo network through a deposit transaction, and can leave the network through a withdraw transaction.
 
 Deposit Money
 -------------
@@ -21,15 +21,17 @@ Once you have selected a new address, you authorise its creation to confirm that
 Withdraw Money
 --------------
 
-For a withdrawal, you send money out of Qredo to a whitelisted external Bitcoin address. Once withdrawn, the money is no longer subject to the custody policies on your Qredo network. You can choose to add money back on to the network at a later point in time if required. Any trade initiator, such as an institution, investor, or trader can withdraw money as part of their investment activities.
+To withdraw, you send money out of a fund on Qredo to a whitelisted external Bitcoin address. When sent to a whitelisted address, the money becomes available on the underlying blockchain, and is no longer subject to the custody policies and ownership rights of the Qredo network. Qredo gives you the flexibility of adding money back on to the network at a later point in time. Any crypto and capital markets participant, such as an institution, investor, or trader, can withdraw money as part of their investment activities.
 
-As a fund owner and member, you need to have the permission to withdraw money from Qredo. This permission is shown in the **Permissions** tab on the Settings section of your account.
+You set up a withdrawal transaction as a trade initiator using the web app. To confirm that you want the transaction to happen, you can authorise it through the mobile app.
 
-As a custodian, you can approve a transaction if you deem it suitable to move money out of Qredo. For example, you would approve the transaction if another account location provides a better return on investment. While you may reject the transaction if keeping the money in Qredo if it provides more liquidity.
+As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction through the phone app. If all custodians have approved, the transaction takes place and is recorded on the Qredo blockchain. Once left Qredo, the money is no longer recorded on the Qredo blockchain.
 
-Qredo charges fees for the withdrawal of money to an address outside of the network, including the Qredo fee and the miner's fee, The Qredo fee allows the management of Qredo wallets. While the miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you confirm the withdrawal transaction.
+Qredo charges fees to withdraw, including the Qredo fee and the miner's fee, The Qredo fee allows the management of Qredo wallets. While the miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you confirm the transaction.
 
-While the miner and Qredo fee is fixed for a transaction, these fees may be subject to change.
+While the miner and Qredo fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
+
+As a fund owner and member, you have the permission to withdraw money from Qredo. This permission is shown in the **Permissions** tab on the Settings section of your account.
 
 ### Withdrawal Address
 
@@ -37,7 +39,7 @@ When sending money from Qredo, you choose an existing whitelisted withdrawal add
 
 If you do not have a withdrawal address, you need to create one before the transaction.
 
-### Create a New Withdrawal Address
+#### Create a New Withdrawal Address
 
 1.  Choose the **Withdraw** option in Select Type.
     
@@ -58,17 +60,17 @@ If you do not have a withdrawal address, you need to create one before the trans
 9.  See Authorise the New Withdrawal Address.
     
 
-### Authorise the Address
+#### Authorise the Address
 
-As the initiator of the withdrawal, you authorise the creation of a new withdrawal address using the mobile app. This actions confirms that you want to create the new whitelisted address.
+As the initiator of the withdrawal, you authorise the creation of a new withdrawal address using the mobile app. This action confirms that you want to create the new whitelisted address.
 
 Once authorised, you can view its details including the fees that are charged on the transaction.
 
-1.  Tap on the notification that you received on your phone. The Withdraw screen shows with details of the transaction including fees.
+1.  Tap on the notification that you received on your phone. The Withdraw screen with details of the transaction including fees.
     
-2.  To authorise, tap **Authorise**. (see Confirm Authorisation).
+2.  To authorise, tap **Authorise**. 
     
-3.  To reject, tap **Reject** (see Reject a Transaction).
+3.  To reject, tap **Reject**.
     
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
