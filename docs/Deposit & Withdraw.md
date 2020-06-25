@@ -25,6 +25,8 @@ To withdraw, you send money out of a fund on Qredo to a whitelisted external Bit
 
 You set up a withdrawal transaction as a trade initiator using the web app. To confirm that you want the transaction to happen, you can authorise it through the mobile app.
 
+## Role of the Custodian
+
 As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction through the phone app. If all custodians have approved, the transaction takes place and is recorded on the Qredo blockchain. Once left Qredo, the money is no longer recorded on the Qredo blockchain.
 
 Qredo charges fees to withdraw, including the Qredo fee and the miner's fee, The Qredo fee allows the management of Qredo wallets. While the miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you confirm the transaction.
