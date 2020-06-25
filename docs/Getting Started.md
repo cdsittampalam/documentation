@@ -35,7 +35,10 @@ The Establish your Qredo Identity screen appears.
     
     -  **Mobile number**
    
-    :::note You can enter a private or work email address with a unique name. If you are joining as a new user, you will use a new email address. If you have been invited, you can use the email address where you received the invitation.
+    :::note You can enter a private or work email address with a unique name. 
+    If you are joining as a new user, you will use a new email address. 
+    If you have been invited, you can use the email address where you received the invitation.
+    :::
     
 2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo network alias must not contain special characters.
 3. Click **Continue**.
@@ -96,7 +99,7 @@ When you have downloaded the mobile app, a splash screen of the app appears as f
 
 ![](https://qredo.atlassian.net/wiki/download/thumbnails/54559808/first%20mobile%20phone%20screen.png?api=v2) |
 
-1.  If the SMS has not arrived, click on the resend button on the browser app page. The button shows a time limit for resending the SMS.
+1. If the SMS has not arrived, click on the resend button on the browser app page. The button shows a time limit for resending the SMS.
 2. Click **Continue**.
 
 ### Pair your Phone
@@ -175,14 +178,11 @@ There are no images attached to this page.
 ### Seed Recovery Phrase
 
 :::Important notes on the seed recovery phrase
-
-*   Write down your seed recovery phrase clearly.
-    
-*   Note down every single word in the seed recovery phrase.
-    
-*   Store the seed recovery phrase in a safe place.
-    
-*   Do not store the seed recovery phrase electronically.   
+Write down your seed recovery phrase clearly.
+Note down every single word in the seed recovery phrase.
+Store the seed recovery phrase in a safe place.
+Do not store the seed recovery phrase electronically.   
+:::
 
 The phone shows screens to introduce the seed recovery phrase.
 
