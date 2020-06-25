@@ -10,7 +10,7 @@ Deposit Money
 
 For a deposit transaction, money is added to a whitelisted external Bitcoin address which is linked to your fund. By default, the default fund and asset that you have set up includes a deposit address. The deposit address is the Bitcoin wallet address that is linked to a Qredo fund. You can alter the address that is allocated to the fund.
 
-### Change the Default Address
+### Change Address
 
 You start the task for creating a new deposit address from either the Asset level or the Transaction ledger level. 
 
@@ -33,7 +33,7 @@ Qredo charges fees to withdraw, including the Qredo fee and the miner's fee, The
 
 As a fund owner and member, you have the permission to withdraw money from Qredo. This permission is shown in the **Permissions** tab on the Settings section of your account.
 
-### Role of the Custodian
+### Custodian Role
 
 As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the withdrawal custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the withdrawal policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to [Fund Administration](https://support.qredo.com/docs/Fund Administration#custody). 
 
@@ -234,7 +234,7 @@ Go to the Approvals section in the web app.
 
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
-### View Address Approvals
+### Address Approvals
 
 1.  Click the **Addresses** tab,
     
@@ -264,7 +264,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 *   IGNORED
     
 
-### View Transaction Approvals
+### Transaction Approvals
 
 1.  Click the **Transactions** tab,
     
