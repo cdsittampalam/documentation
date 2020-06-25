@@ -79,9 +79,9 @@ For the action you select, you then sign in with your biometric features and 6-d
 
 Once the initiator has authorised the creation of the new address, you will receive a notification on your phone.
 
-1. Tap on the notification on your phone. The Withdrawal screen shows asking you to approve or reject the new address. The screen also shows the following information:
+1. Tap on the notification on your phone. The Withdrawal screen the appears asking you to approve or reject the new address. The screen also shows the following information:
 
-*   details of the amount and asset that is being withdrawn.
+*   details of the amount and asset.
     
 *   the recipient of the withdrawal.
     
@@ -93,22 +93,21 @@ screenshot
 
 You can also view more details of the withdrawal address including:
 
-*   the name given to the receiving wallet address
+*   the name of the receiving wallet address
     
-*   the alphanumeric address string of the address
+*   the alphanumeric string of the address
     
-*   details of the trade initiator that created the address (including email address and alias).
+*   details of the trade initiator (including email address and alias).
     
 *   the date in which the address creation was initiated
     
-*   the expiry date for approval
-
+*   the expiry date of the approval
     
 2.  To approve, tap **Approve**.
     
 3.  To reject, tap **Reject**.    
 
-For the action you select, you thenn sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
 
 ### Set Up a Withdrawal Transaction
