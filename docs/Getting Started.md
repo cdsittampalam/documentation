@@ -37,7 +37,9 @@ The Establish your Qredo Identity screen appears.
    
     :::info
     You can enter a private or work email address with a unique name. 
+
     If you are joining as a new user, you will use a new email address. 
+
     If you have been invited, you can use the email address where you received the invitation.
     :::
     
@@ -181,8 +183,11 @@ There are no images attached to this page.
 
 :::note
 Write down your seed recovery phrase clearly.
+
 Note down every single word in the seed recovery phrase.
+
 Store the seed recovery phrase in a safe place.
+
 Do not store the seed recovery phrase electronically.   
 :::
 
