@@ -183,7 +183,7 @@ The miner and Qredo fee is fixed for every transaction. Qredo periodically chang
     
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
-###Track Progress
+### Track Progress
 
 As the trade initiator, you can check the approval progress for address creation and transactions. Both addresses and transactions require approval from custodians.
 
@@ -200,7 +200,7 @@ The Pending sub tab shows pending approvals.
 
 |     |     |
 | --- | --- |
-| **Column Name** | **Description** |
+| **Column** | **Description** |
 | NAME | Name assigned to the address. |
 | FUND | Name of the fund. |
 | ASSET | Type of asset, e.g., Bitcoin. |
@@ -225,7 +225,7 @@ The pending subtab shows pending approvals.
 
 |     |     |
 | --- | --- |
-| **Column Name** | **Description** |
+| **Column** | **Description** |
 | TYPE | Type of transaction. For a withdrawal, the column name shows as withdrawal. |
 | AMOUNT | The amount of the transaction and the type of asset. |
 | RECIPIENT | Recipient of the asset. For a withdrawal, the recipient is the name you assigned for that withdrawal. |
