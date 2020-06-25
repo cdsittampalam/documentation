@@ -35,7 +35,8 @@ The Establish your Qredo Identity screen appears.
     
     -  **Mobile number**
    
-    :::note You can enter a private or work email address with a unique name. 
+    :::note 
+    You can enter a private or work email address with a unique name. 
     If you are joining as a new user, you will use a new email address. 
     If you have been invited, you can use the email address where you received the invitation.
     :::
@@ -175,9 +176,9 @@ There are no images attached to this page.
 2.  Enter the 6-digit passcode again to verify
 3.  In the confirmation screen, tap **Continue**.
 
-### Seed Recovery Phrase
+### Important Notes on the Seed Recovery Phrase
 
-:::Important notes on the seed recovery phrase
+:::
 Write down your seed recovery phrase clearly.
 Note down every single word in the seed recovery phrase.
 Store the seed recovery phrase in a safe place.
