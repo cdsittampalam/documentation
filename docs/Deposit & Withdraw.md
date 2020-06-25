@@ -31,7 +31,6 @@ Qredo charges fees to withdraw, including the Qredo fee and the miner's fee, The
 
 The miner and Qredo fee is fixed for any withdrawal transaction. However, Qredo can periodically alter these fees.
 
-
 ## Role of the Custodian
 
 As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction through the phone app. If all custodians have approved, the transaction takes place and is recorded on the Qredo blockchain. Once left Qredo, the money is no longer recorded on the Qredo blockchain. For more details, see Approve a Withdrawal.
@@ -41,7 +40,7 @@ As a custodian, you can decide if a withdrawal started by a trade initiator shou
 When sending money from Qredo, you choose an existing whitelisted withdrawal address. If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see 
 If you do not have a withdrawal address, you need to create one before the transaction.
 
-A custodian that is part of the withdrawal policy of a fund, you can approve the creation of a new address if the address is whitelisted. If the address is deemed insecure, you can reject the new address.
+A custodian that is part of the withdrawal policy of a fund, you can approve the creation of a new address if the address is whitelisted. If the address is deemed insecure, you can reject the new address. For more details, see Approve the New Address.
 
 A new address is approved and written to the blockchain provided that it has met the threshold of signatures.
 
@@ -63,8 +62,7 @@ A new address is approved and written to the blockchain provided that it has met
     
 8.  Click **Continue**.
     
-9.  See Authorise the New Withdrawal Address.
-    
+9.  See Authorise the New Withdrawal Address.    
 
 #### Authorise the Address
 
