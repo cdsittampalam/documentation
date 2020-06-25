@@ -40,7 +40,7 @@ For approving a withdrawal (see Approve a Withdrawal).
 
 ### Create a New Address
 
-When sending money from Qredo, you choose an existing whitelisted withdrawal address. If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see [Create a Transaction](#create-a-transaction)
+When sending money from Qredo, you choose an existing whitelisted withdrawal address. If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see [Create a Transaction](#create-a-transaction))
 
 If you do not have a withdrawal address, you need to create one before the transaction.
 
