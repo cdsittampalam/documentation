@@ -16,7 +16,7 @@ You start the task for creating a new deposit address from either the Asset leve
 
 When creating a new withdrawal address, you need to choose the correct fund and asset for the withdrawal address. You then need to authorise the new address.
 
-Once you have selected a new address, you authorise its creation to confirm that it is valid from your side. The custodians then need to approve the creation of the new address in order for a withdrawal transaction to happen (see Approve a New Address (Custodian)).
+Once you have selected a new address, you authorise its creation to confirm that it is valid from your side. The custodians then need to approve the creation of the new address in order for a withdrawal transaction to happen.
 
 ---
 
@@ -36,10 +36,11 @@ As a fund owner and member, you have the permission to withdraw money from Qredo
 ### Custodian Role
 
 As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the withdrawal custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the withdrawal policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to [Fund Administration](https://support.qredo.com/docs/Fund Administration#custody). 
+For approving a withdrawal (see Approve a Withdrawal). 
 
 ### Create a New Address
 
-When sending money from Qredo, you choose an existing whitelisted withdrawal address. If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see 
+When sending money from Qredo, you choose an existing whitelisted withdrawal address. If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see [Create a Transaction])
 
 If you do not have a withdrawal address, you need to create one before the transaction.
 
