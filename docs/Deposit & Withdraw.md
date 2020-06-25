@@ -18,6 +18,7 @@ When creating a new withdrawal address, you need to choose the correct fund and 
 
 Once you have selected a new address, you authorise its creation to confirm that it is valid from your side. The custodians then need to approve the creation of the new address in order for a withdrawal transaction to happen.
 
+
 ---
 
 Withdraw Money
@@ -140,6 +141,8 @@ You launch the withdrawal process from either the Transaction Ledger or the Asse
     
 10.  Click **Review Withdrawal**.    
 
+---
+
 #### Review the Withdrawal
 
 In the **Review Withdrawal** screen, you can see details of the withdrawal transaction. These include:
@@ -167,6 +170,8 @@ Details of the withdrawal fees is shown when you click the question mark icon. T
 
 Once authorised, the custodian can also approve or reject the transaction.
 
+---
+
 #### Authorise the Withdrawal
 
 Once authorised, you can view its details including the fees that are charged on the transaction.
@@ -178,6 +183,8 @@ Once authorised, you can view its details including the fees that are charged on
 3.  To reject, tap **Reject** (see Reject a Transaction).
     
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
+
+---
 
 #### Approve a Withdrawal
 
@@ -208,6 +215,8 @@ You can also view other details linked to the transaction under the Show Detail 
 The Qredo fee allows the management of Qredo wallets. There is also the miner's fee that covers the work and resources they need to generate blocks on the underlying network.
 
 The miner and Qredo fee is fixed for every transaction. Qredo periodically change these fixed fees.
+
+---
 
 #### Steps
 
@@ -252,6 +261,8 @@ The Pending sub tab shows pending approvals.
 | ACTIONED | Date and time in which the approval request was sent. |
 | STATUS | Status of the approval as “awaiting confirmation”. |
 
+---
+
 #### Actioned
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
@@ -259,8 +270,9 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 *   AUTHORISED
     
 *   IGNORED
-    
 
+---
+    
 ### Transaction Approvals
 
 1.  Click the **Transactions** tab,
@@ -281,6 +293,8 @@ The pending subtab shows pending approvals.
 | RECIPIENT | Recipient of the asset. For a withdrawal, the recipient is the name you assigned for that withdrawal. |
 | STATUS | The status shows as “Awaiting Authorisation”. |
 | ACTIONED | The date and time in which the transaction was created. |
+
+---
 
 #### Actioned
 
