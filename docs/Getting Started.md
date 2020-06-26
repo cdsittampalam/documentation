@@ -67,7 +67,9 @@ The password must contain:
     
    -  1 lowercase letter    
 
-3. Click **Continue** to access the terms and conditions page.
+3. Click **Continue**. The Accept our terms and conditions page appears.
+
+![t+c](/doc-images/t+c.png)
 
 ### Accept Terms and Conditions
 
