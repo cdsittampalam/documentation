@@ -16,7 +16,7 @@ module.exports = {
     navbar: {
       logo: {
         alt: "Qredo Logo",
-        src: "/img/qredo-horizonal-logo.svg",
+        src: "/img/qredo-logo-help-center-horizontal.png",
       },
       links: [
         {
@@ -74,6 +74,16 @@ module.exports = {
           ],
         },
       ],
+      logo: {
+        src: '/img/qredo-logo-horizontal.png',
+      },
+      productLinks: {
+        siteMap: '',
+        termsOfUse: '',
+        privacyCenter: '',
+        contactUs: '',
+        qredoHome: 'https://www.qredo.com/home',
+      },
       copyright: `Copyright &copy; ${new Date().getFullYear()} Qredo Support.`,
     },
   },

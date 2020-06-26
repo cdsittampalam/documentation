@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import clsx from 'clsx';
+import classnames from 'classnames';
 
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -36,7 +36,7 @@ function FooterLink({to, href, label, prependBaseUrlToHref, ...props}) {
 }
 
 const FooterLogo = ({url, alt}) => (
-  <img className="footer__logo" alt={alt} src={url} />
+  <img className={styles.footerLogo} alt={alt} src={url} />
 );
 
 function Footer() {
@@ -45,7 +45,7 @@ function Footer() {
   const {themeConfig = {}} = siteConfig;
   const {footer} = themeConfig;
 
-  const {copyright, links = [], logo = {}} = footer || {};
+  const {copyright, links = [], logo = {}, productLinks = {}} = footer || {};
   const logoUrl = useBaseUrl(logo.src);
 
   if (!footer) {
@@ -54,7 +54,7 @@ function Footer() {
 
   return (
     <footer
-      className={clsx('footer', {
+      className={classnames('footer', {
         'footer--dark': footer.style === 'dark',
       }, styles.footer)}>
       <div className="container">
@@ -90,23 +90,28 @@ function Footer() {
             ))}
           </div>
         )}
-        {(logo || copyright) && (
-          <div className="text--center">
+        {logo && (
+          <div className={styles.staticFooter}>
             {logo && logo.src && (
-              <div className="margin-bottom--sm">
-                {logo.href ? (
-                  <a
-                    href={logo.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.footerLogoLink}>
-                    <FooterLogo alt={logo.alt} url={logoUrl} />
-                  </a>
-                ) : (
+              logo.href ? (
+                <a
+                  href={logo.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.footerLogoLink}>
                   <FooterLogo alt={logo.alt} url={logoUrl} />
-                )}
-              </div>
+                </a>
+              ) : (
+                <FooterLogo alt={logo.alt} url={logoUrl} />
+              )
             )}
+            <div className={styles.footerLinks}>
+              <a href={productLinks.siteMap}>Site Map</a>
+              <a href={productLinks.termsOfUse}>Terms of Use</a>
+              <a href={productLinks.privacyCenter}>Privacy Center</a>
+              <a href={productLinks.contactUs}>Contact us</a>
+            </div>
+            <a href={productLinks.qredoHome} className={classnames(styles.button, styles.footerButton)}>Qredo Home</a>
           </div>
         )}
       </div>
