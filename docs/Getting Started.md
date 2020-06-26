@@ -44,14 +44,16 @@ The Establish your Qredo Identity screen appears.
     :::
     
 2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo network alias must not contain special characters.
-3. Click **Continue**.
+3. Click **Continue**. The Set a Strong password screen appears.
+
+![passwd](/doc-images/passwd.png)
 
 ### Set Password
 
 1.  Enter a strong password in **Set password.**    
 2.  Confirm the password again in **Confirm password.**
 
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/Set%20password.png?api=v2)
+
 
 The password must contain:
 
