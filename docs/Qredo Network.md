@@ -93,7 +93,7 @@ Service and Node Architecture
 
 The Qredo network consists of computers that are categorised as node or services, working together to process transactions and create blocks. The Qredo network is different from other cryptocurrency networks where all nodes run the same client software. The computers are deployed in Tier-4 data centers within global financial capitals on a highly-secure hardware infrastructure running on a low-latency network. Each node or service has a dedicated function as summarised in this diagram:
 
-![](https://qredo.atlassian.net/wiki/download/attachments/121865074/qredo%20updated%20architecture%202106.png?api=v2)
+![architecture](/doc-images/2-updated architecture 2606.png)
 
 |     |     |
 | --- | --- |
@@ -178,7 +178,7 @@ A crystallisation process (see section below) is also performed on Qredo blockch
 
 The communication flow is as follows.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/121865074/fund%20architecture.png?api=v2)
+![settle funds](/doc-images/settle funds 2606.png)
 
 #### Broadcasting a Transaction to External Blockchains
 
