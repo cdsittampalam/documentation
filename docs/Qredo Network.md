@@ -18,7 +18,6 @@ This page describes the following:
     
 *   [Crystallization](https://qredo.atlassian.net/wiki/spaces/QD/pages/121865074/Qredo+Network#Crystallization)
     
-![All transactions](All Transactions.png)
 
 Introduction to the Qredo Network
 ---------------------------------
@@ -55,8 +54,6 @@ A transaction requires various signatures from these participants that meet rule
 - The **principal** who decides on the custodian, custodian groups, and thresholds. They provide a signature when money is transferred to a counterparty recipient, added or withdrawn from the Qredo network.
 - The **counterparty** who provides a signature for a transfer that the principal has signed. Signing confirms that they want to receive funds from the principal. 
 - The **custodian** who approves or rejects a transaction. When they approve, a signature is provided for the transaction. The custodian is part of a custodian group created by the principal, and is linked to the fund of that transaction. Depending on the threshold, one or more custodians in the group need to provide their signatures.
-
-[download](/doc-images/download.png)
 
 #### Threshold
 
