@@ -73,9 +73,9 @@ The password must contain:
 
 ### Accept Terms and Conditions
 
-Read the terms and conditions on this page. Then click **Accept & Continue** (see Download Steps).
+Read the terms and conditions on this page. 
 
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/terms%20and%20conditions.png?api=v2)
+To move to the next screen, click **Accept & Continue** (see Download Steps).
 
 To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
 
