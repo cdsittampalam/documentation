@@ -95,15 +95,13 @@ If required, you can download the full terms and conditions. You may need this d
 
 You would have received an email from Qredo containing an evaluation code.
 
-Type in the code in **Email address validation code**.
+Type in the code in **Email address validation code**. The page for downloading the mobile app shows.
+
+![download](/doc-images/download.png)
 
 ### Download Phone App
 
-The page for downloading the mobile app shows as follows:
-
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/resend%20the%20sms.png?api=v2)
-
-At the same time, an SMS is sent to your phone that contains a link to the signing app on the app store of your device. The SMS should arrive promptly.
+An SMS is sent to your phone that contains a link to the signing app on the app store of your device. The SMS should arrive promptly.
 
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
 
