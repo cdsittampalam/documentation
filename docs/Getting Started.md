@@ -23,7 +23,7 @@ You start the process of registering with Qredo from the web app. The process al
 
 The Establish your Qredo Identity screen appears.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/default%20identity.png?api=v2)
+![Identity](/docs-images/EstabIdentity.png)
 
 ### Establish Qredo Identity
 
