@@ -75,7 +75,7 @@ The password must contain:
 
 Read the terms and conditions on this page. 
 
-To move to the next screen, click **Accept & Continue** (see Download Steps).
+To move to the next screen, tick the box and click **Accept & Continue** (see Validate your email address).
 
 To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
 
@@ -86,7 +86,8 @@ If required, you can download the full terms and conditions. You may need this d
 ![](https://qredo.atlassian.net/wiki/download/attachments/54559808/accept%20terms%20and%20conditions.png?api=v2)
 
 1.  To download the terms and conditions, click **Download**.
-2.  Click **Accept & Continue**. The validate your email address screen shows.   
+2.  To view the terms and conditions as a PDF file in another browser page or tab, click **Copy Link**.
+3.  Tick the box and click **Accept & Continue**. The Validate your email address screen shows.   
 
 ### Validate Email Address
 
