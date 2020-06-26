@@ -73,7 +73,7 @@ The password must contain:
 
 ### Accept Terms and Conditions
 
-Read the terms and conditions on this page. 
+Read the terms and conditions on this page around GDPR compliance and data privacy. 
 
 To move to the next screen, tick the box and click **Accept & Continue** (see Validate your email address).
 
