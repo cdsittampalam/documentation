@@ -44,7 +44,7 @@ The Establish your Qredo Identity screen appears.
     :::
     
 2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo network alias must not contain special characters.
-3. Click **Continue**. The Set a Strong password screen appears.
+3. Click **Continue**. The Set a strong password screen appears.
 
 ![passwd](/doc-images/passwd.png)
 
