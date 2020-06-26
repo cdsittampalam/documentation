@@ -87,7 +87,9 @@ If required, you can download the full terms and conditions. You may need this d
 
 1.  To download the terms and conditions, click **Download**.
 2.  To view the terms and conditions as a PDF file in another browser page or tab, click **Copy Link**.
-3.  Tick the box and click **Accept & Continue**. The Validate your email address screen shows.   
+3.  Tick the box and click **Accept & Continue**. The Validate your email address screen shows. 
+
+ ![validate email](/doc-images/valemail.png) 
 
 ### Validate Email Address
 
