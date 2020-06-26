@@ -93,9 +93,9 @@ Service and Node Architecture
 
 The Qredo network consists of computers that are categorised as node or services, working together to process transactions and create blocks. The Qredo network is different from other cryptocurrency networks where all nodes run the same client software. The computers are deployed in Tier-4 data centers within global financial capitals on a highly-secure hardware infrastructure running on a low-latency network. Each node or service has a dedicated function as summarised in this diagram:
 
-![architecture](/doc-images/2-updated architecture 2606.png)
+![architecture](/doc-images/arch2606.png)
 
-|     |     |
+|   a        |  b        |
 | --- | --- |
 | **User and App** | A Qredo user adds data to a web app for a transaction. For example, a principal enters options to transfer money to another user. Custodians, using the mobile app on their phones, approve or reject the transaction. The approval or rejection unlocks digital signatures in the app. |
 | **Qredo Server** | The Qredo server processes the signatures from the transactions. |
