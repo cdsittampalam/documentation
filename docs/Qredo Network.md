@@ -69,7 +69,7 @@ Qredo wallet enables the management of money on the Qredo network. A wallet link
 
 #### Qredo Blockchain
 
-The Qredo blockchain provides the entire history and single-source of  truth for all transactions on the Qredo network. These blocks of data that make up the chain are assets that represent different Qredo app user actions and network configuration data that must be kept secure.
+The Qredo blockchain provides the entire history and single-source of truth for all transactions on the Qredo network. These blocks of data that make up the chain are grouped in to assets that represent the movement of money, Qredo app user actions, and network configuration data. 
 
 Assets comprise of:
 
