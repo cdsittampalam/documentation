@@ -176,7 +176,12 @@ The watcher informs the MPC to generate a Bitcoin address for the incoming money
 
 The watcher adds the Bitcoin address as a watch-only address on the Bitcoin node. This allows the node to see changes in the wallet for the money coming in. When Anne deposits Bitcoin for Alice in the address, the watcher periodically (every minute) requests wallet changes from its Bitcoin node.
 
+:::info
+When the node is queried periodically, the node can provide full UTXO details, together with proof of existence on the underlying chain. 
+:::
 
+#### Mapping Address and Amounts
+The Qredo blockchain uses consensus rules to map the Bitcoin address to Alice’s wallet through the MPC. The amount of Bitcoin deposited into the address is added to the Bitcoin balance in Alice’s wallet. The balance is a value in the consensus database with the key “Wallet_Alice.balance”. The balance in the database key increases as more funds are added.
 
 
 
