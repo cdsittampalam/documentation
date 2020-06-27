@@ -69,7 +69,7 @@ Qredo wallet enables the management of money on the Qredo network. A wallet link
 
 #### Qredo Blockchain
 
-The Qredo blockchain provides the entire history and single-source of truth for all transactions on the Qredo network. These blocks of data that make up the chain are grouped in to assets that represent the movement of money, Qredo app user actions, and network configuration data. 
+The Qredo blockchain consists of blocks of data that are joined together to create a chain. These blocks of data are assets that represent different Qredo app user actions and network configuration data that must be kept secure.
 
 Assets comprise of:
 
@@ -84,7 +84,9 @@ Assets comprise of:
 *   MPC key lists
     
 
+:::info
 Assets in the Qredo blockchain are different from digital assets that are described for trading and finance.
+:::
 
 Qredo blockchain software components are built using Tendermint [https://tendermint.com/](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive and not subject to 51% attacks.  
 
@@ -182,13 +184,6 @@ When the node is queried periodically, the node can provide full UTXO details, t
 
 #### Mapping Address and Amounts
 The Qredo blockchain uses consensus rules to map the Bitcoin address to Alice’s wallet through the MPC. The amount of Bitcoin deposited into the address is added to the Bitcoin balance in Alice’s wallet. The balance is a value in the consensus database with the key “Wallet_Alice.balance”. The balance in the database key increases as more funds are added.
-
-Money is transferred onto the Qredo blockchain using a peg-In mechanism. The peg-in mechanism ensures that, when a user deposits Bitcoin to the Qredo, the network creates an address for the user to send their money to. For example, a user creates a Bitcoin fund for the Qredo-generated Bitcoin address of `1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2`. Peg-in addresses are managed by the MPC cluster.  
-Once this payment is confirmed by the blockchain, the user has a credited fund on the Qredo app with the total amount available for transfer or withdrawal.
-
-These are the main steps in the flow for depositing money.
-
-![](https://qredo.atlassian.net/wiki/download/attachments/121865074/add%20fund%202106.png?api=v2)
 
 #### Monitoring the Bitcoin Address
 
