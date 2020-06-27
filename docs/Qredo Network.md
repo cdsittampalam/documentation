@@ -163,6 +163,26 @@ For depositing money, Alice creates a wallet using the app. Various nodes and se
 
 
 
+#### Blockchain Validator Updates
+The blockchain validator records these events:
+
+ - the wallet Alice has created on Qredo with her IDDoc
+
+ - details of the deposit transaction to a wallet address.
+
+
+#### Watcher and MPC
+The watcher informs the MPC to generate a Bitcoin address for the incoming money on the Qredo transaction. This is also known as a peg-in transaction. 
+
+The watcher adds the Bitcoin address as a watch-only address on the Bitcoin node. This allows the node to see changes in the wallet for the money coming in. When Anne deposits Bitcoin for Alice in the address, the watcher periodically (every minute) requests wallet changes from its Bitcoin node.
+
+
+
+
+
+
+
+
 Money is transferred onto the Qredo blockchain using a peg-In mechanism. The peg-in mechanism ensures that, when a user deposits Bitcoin to the Qredo, the network creates an address for the user to send their money to. For example, a user creates a Bitcoin fund for the Qredo-generated Bitcoin address of `1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2`. Peg-in addresses are managed by the MPC cluster.  
 Once this payment is confirmed by the blockchain, the user has a credited fund on the Qredo app with the total amount available for transfer or withdrawal.
 
