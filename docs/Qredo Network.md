@@ -95,6 +95,20 @@ The Qredo network consists of computers that are categorised as node or services
 
 ![architecture](/doc-images/arch2606.png)
 
+#### User and App
+
+#### Qredo Server
+
+#### Blockchain Validator
+
+#### Watcher
+
+#### Bitcoin
+
+#### MPC Cluster
+
+#### MPC Validator
+
 |   a        |  b        |
 | --- | --- |
 | **User and App** | A Qredo user adds data to a web app for a transaction. For example, a principal enters options to transfer money to another user. Custodians, using the mobile app on their phones, approve or reject the transaction. The approval or rejection unlocks digital signatures in the app. |
