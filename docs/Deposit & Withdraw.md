@@ -8,13 +8,13 @@ Money can be added to Qredo network through a deposit transaction, and can leave
 Deposit Money
 -------------
 
-For a deposit transaction, money is added to a whitelisted external Bitcoin address which is linked to your fund. By default, the default fund and asset that you have set up includes a deposit address. The deposit address is the Bitcoin wallet address that is linked to a Qredo fund. You can alter the address that is allocated to the fund.
+For a deposit transaction, money is automatically added to a whitelisted external Bitcoin address which is linked to your fund. The default fund and asset that you have set up includes a deposit address, which is the Bitcoin wallet address that is linked to a Qredo fund. You can alter the address that is allocated to the fund.
 
 ### Change Address
 
 You start the task for creating a new deposit address from either the Asset level or the Transaction ledger level. 
 
-When creating a new withdrawal address, you need to choose the correct fund and asset for the withdrawal address. You then need to authorise the new address.
+When updating the deposit address, you need to choose the correct fund and asset for the deposit address. 
 
 Once you have selected a new address, you authorise its creation to confirm that it is valid from your side. The custodians then need to approve the creation of the new address in order for a withdrawal transaction to happen.
 
