@@ -11,8 +11,8 @@ You invite a counterparty from the Trusted Network screen on the browser desktop
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/71074058/2-trusted%20network%20screen.png?api=v2)
 
-Send an Email Invite
---------------------
+Send Email Invite
+-----------------
 
 1.  Access the Trusted Network screen from ![](https://qredo.atlassian.net/wiki/download/attachments/71074058/4%20trusted%20network.png?api=v2)
 2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
@@ -26,22 +26,19 @@ Go to either Add a User from the Qredo Network or Add a User from your Contacts.
 You enter an email address for a user on the Qredo network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again. Alternatively, you can add them via LinkedIn, Telegram, or WhatsApp in the same way as adding a counterparty from outside of Qredo.
 
 1.  Enter the email address of the user and click Search.
-
 2.  If the user is on the Qredo network with that email address, a box appears asking you to confirm pairing with the email address.  
-
     ![](https://qredo.atlassian.net/wiki/download/attachments/71074058/2-Email%20confirmation%20popup.png?api=v2)
-
 3.  Click **Confirm**. Check the Trusted Network screen for details of the new invite (see Manage the Invite List).
 
-### Add from your Contacts
+### Add from Contacts
 
 In the Invite to Join Qredo section, click **Copy** and then the button of the platform for sending the invites (LinkedIn, Telegram, or WhatsApp).  
 The invite is sent directly via the selected platform. The users see the invite as a link to the sign up page on the Qredo website.
 
 You can check the Trusted Network screen for details of the new invite.
 
-Manage the Invite List
-----------------------
+Manage Invite List
+------------------
 
 The Trusted Network screen shows the status of your invites for joining the Qredo network as trusted counterparties. Invite entries show as either:  
 ⦁ paired - where the user or contact has accepted the invite.  
@@ -53,7 +50,7 @@ The displayed invites would have been sent to your contacts outside of Qredo, or
 
 An invite that is pending can mean that it has been rejected. If the user has not accepted the invite, they can still invite you to join their network at a later time (as a trusted counterparty).
 
-### Clear the Paired Status
+### Clear Paired Status
 
 To help you manage your invite list, you can clear invite entries that have been paired by double-clicking the buttons labelled **Paired**.
 
@@ -70,22 +67,16 @@ Once you have signed in to the mobile app, the screen appears similar to the fol
 | --- |
 | ![](https://qredo.atlassian.net/wiki/download/thumbnails/71041397/pairing%20same%20network.png?api=v2) |
 
-### Approve a Request  
+### Approve Request  
 
 You first receive a notification on the mobile app.
 
 1.  Tap on the notification for the invitation.
-
 2.  Sign in to the app using the biometric feature of your phone.
-
 3.  Enter your 6-digit passphrase.
-
 4.  To approve the pairing request, tap Approve.
-
 5.  Authenticate using the biometric feature and 6-digit passcode.
-
 6.  Then tap **Confirm** in the Confirmation screen.  
-
 
 You will then see the following screen indicating that Pairing has been approved.
 
@@ -93,7 +84,7 @@ You will then see the following screen indicating that Pairing has been approved
 | --- |
 | ![](https://qredo.atlassian.net/wiki/download/thumbnails/71041397/PairingApprovedOutsideNetwork.png?api=v2) |
 
-### Deny a Request
+### Deny Request
 
 From the Pairing Request screen, you can deny a request.
 
@@ -102,19 +93,16 @@ From the Pairing Request screen, you can deny a request.
 | ![](https://qredo.atlassian.net/wiki/download/thumbnails/71041397/pairing%20same%20network.png?api=v2) |
 
 1.  To deny the pairing request, tap **Deny**.
-
 2.  Follow the same procedures as above for signing in to the phone.
-
 3.  Then tap **Confirm**.  
     You will then see the following screen indicating that pairing has been denied.
-
 
 |     |
 | --- |
 | ![](https://qredo.atlassian.net/wiki/download/thumbnails/71041397/pairing%20denied.png?api=v2) |
 
 
-### Check Approvals and Denials
+### Monitor Responses
 
 If you have approved an invite, you can quickly view that invitation request and those that are pending from the mobile app. You can also view the invites you denied in the same way.  
 
