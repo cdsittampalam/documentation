@@ -108,9 +108,9 @@ When Fund One is created, there is a single deposit address that is automaticall
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/asset%20icon%20in%20the%20holdings%20tab.png?api=v2).
 
-2\. Click **Transactions** to view the transactions.
+2. Click **Transactions** to view the transactions.
 
-3\. Click **Addresses** and the respective subtabs for deposits and withdrawals.
+3. Click **Addresses** and the respective subtabs for deposits and withdrawals.
 
 The following example shows a withdrawal address.
 
@@ -118,8 +118,8 @@ The following example shows a withdrawal address.
 
 ---
 
-Change Default Fund and Assets
-------------------------------
+Change Default Settings
+-----------------------
 
 You can set Fund One to include Bitcoin instead of Bitcoin Testnet. When you change the asset, Bitcoin Testnet is set as the asset for the other default fund, Fund Two.
 
