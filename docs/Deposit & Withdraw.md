@@ -33,7 +33,7 @@ When money is added to a whitelisted address for a fund on Qredo, it is safely s
 | REFERENCE | Reference number for the transaction. |
 | RECIPIENT | Recipient of the deposit transaction, e.g., sent to an exchange. |
 | EXPIRES | The date and time in which the deposit transaction was received at Qredo. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
-| STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded.<br><br>If the custodians have signed the transaction, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
+| STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
 
 
 ### Copy Address
