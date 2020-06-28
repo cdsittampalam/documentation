@@ -92,7 +92,9 @@ The Withdrawal and TX tabs include custody policies comprising of custodians and
 
 A fund owner, e.g. an institution, may work closely with a custody provider to decide on threshold levels for a particular fund.
 
+:::info
 When you create a fund, you can assign any number of custodians for withdrawals and transfers.
+:::
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/Fund%20One%20-Custody.png?api=v2)
 
