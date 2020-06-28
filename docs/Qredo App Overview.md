@@ -2,82 +2,45 @@
 id: Qredo App Overview
 ---
 
-The Qredo app allows crypto and capital market participants to manage funds and transactions on the Qredo network. The Qredo network is a multi-asset layer-2 delivery and settlement network that uses its own fast-finality blockchain. The Qredo network delivers:
+The Qredo Network is an Institutional grade clearing and settlement network for digital assets.
 
-*   instant settlement with no counterparty risk
-    
-*   enhanced security via the Multiparty Computation (MPC) network
-    
-*   flexible governance
-    
-*   private transactions
-    
+Built for professional investors to securely transfer digital assets instantly whilst delivering:
 
-Web and Mobile App
-------------------
-
-The web app and the mobile app allows you to manage transactions on the blockchain and gain from the benefits of the Qredo network. The apps are used in the following ways:
-
-*   Traders and fund managers launch actions through the web app, e.g., transferring funds to another Qredo user.
+*   Zero clearing and settlement risk
     
-*   A principal, custodian, and counterparty can approve or reject these actions through the mobile signing app.
+*   Zero counterparty risk
     
-*   Developers can also use the web app to sign in to the Qredo developer portal, enabling them to use the functionalities of the Qredo network through the REST API.
+*   Elimination of digital asset theft
+    
+*   Independent governance with no third party dependencies
     
 
-![](https://qredo.atlassian.net/wiki/download/attachments/128385074/ledger%20image.png?api=v2)
+![](https://qredo.atlassian.net/wiki/download/attachments/128385074/Qredo%20app%20first%20image.png?api=v2)
 
-![](https://qredo.atlassian.net/wiki/download/attachments/128385074/Qredo%20Mobile%20and%20Web%20App.png?api=v2)
+Qredo Web App
+-------------
 
-### Signing in to the Mobile App
+Qredo Web App provides a suite of account management, treasury and trading tools making it easy to manage your digital asset portfolio’s online. Setup secure Funds to secure your client and trading accounts, customise your governance rules, monitor inbound and outbound trade activity, review pending and actioned payment authorisations with instant access to your trusted counterparty network.
 
-The mobile app receives notifications whenever a request needs to be signed from the web app. For example, as a custodian you receive a notification that a trade initiator wants to transfer money. When you sign an app by approving or rejecting the transaction, the digital signatures
+Traders and fund managers launch actions through the web app, e.g., transferring funds to another Qredo user. All activities that are approved by custodians are securely stored on the Qredo blockchain, while remaining liquid.
 
-When you launch a function from the web app, e.g. starting a trade, the request is either approved or rejected using the mobile app. The approval or rejection unlocks digital signatures, which allow the underlying technologies in Qredo to securely process the request.
-
-The mobile app requires you to enter your Face ID/Touch ID and 6 digit passcode. You are also required to Authorise or Reject a request.
-
-![](https://qredo.atlassian.net/wiki/download/attachments/128385074/faceID2.png?api=v2)
-
-![](https://qredo.atlassian.net/wiki/download/attachments/128385074/6-digit%20PIN%20again.png?api=v2)
-
-Registration
-------------
-
-The registration process lets you join the Qredo network from the Qredo website. By joining, you are set up with the web and the mobile app, ready to use for managing funds and transactions.
-
-Invitations
------------
-
-Once enrolled, you are the account owner and can invite counterparties to join your network. These counterparties are within the Qredo network already, or are your contacts that have not yet joined Qredo.
-
-App Requirements
+Qredo Mobile App
 ----------------
 
-The web app runs on Safari, Chrome, Internet Explorer, Firefox, and Opera.
+The Qredo Mobile App acts as a secure multi-factor signing device, utilising a combination of biometrics, a 6 digit pin and a master seed protected on the devices secure enclave, the Qredo Mobile app uniquely identifies you on the network and and allows you to securely authorise transfer and changes to your account initiated from the desktop browser app.
 
-The mobile sign in app runs on recent Android and iOS versions. These phones must include the biometric capabilities of either the Face ID or Touch ID.
+![](https://qredo.atlassian.net/wiki/download/attachments/128385074/face%20id80.png?api=v2)![](https://qredo.atlassian.net/wiki/download/attachments/128385074/pin80.png?api=v2)
 
-The mobile signing app requires a working phone camera to access the QR-code on the mobile app during the registration process.
+As an appointed custodian, you use the phone to approve transactions which provide the digital signatures for transactions to be secured on the Qredo blockchain. The Qredo Mobile App allows you to be instantly notified as soon as the trade initiator has authorised a transaction, where you can approve the transaction in a few taps.
 
-Qredo Network App Users and Capabilities
-----------------------------------------
+System Requirements
+-------------------
 
-As an account holder, you can:
+The Qredo Web App runs on Safari, Chrome, Internet Explorer, Firefox, and Opera.
 
-*   create funds to store and govern assets on the Qredo network.
-    
-*   set custodian policies to withdraw and transfer funds.
-    
-*   deposit funds onto the Qredo network.
-    
-*   transfer funds to other users on the Qredo network.
-    
-*   withdraw funds from the Qredo network to other external blockchains.
-    
-*   add external trusted counterparties.
-    
+The Qredo Mobile App runs on recent Android and iOS versions. These phones must include the biometric capabilities of either the Face ID or Touch ID.
 
-As an invited external trusted counterparty, you can serve as a custodian of a fund policy, as well as send and receive funds through a trade.
+The Qredo Mobile App requires a working phone camera to access the QR-code on the web app during the registration process.
 
-Future versions of the app will allow business accounts in addition to personal accounts.
+
+
