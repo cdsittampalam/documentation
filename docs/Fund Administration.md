@@ -72,6 +72,8 @@ The summary section has basic information on the fund:
 
 ![](2-Summary%20info%20on%20FundOne.png)
 
+---
+
 ### Membership & Permissions
 
 The Membership & Permissions section shows your name as a fund member with the permission of owner. Fund One is assigned to you as a fund member with the permission of Owner once you have come onboard. The permission of Owner means that you have control over the assets and the custodian policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, and perform the operations of withdrawal and transfers. The fund includes a deposit address that contains funds.
@@ -80,11 +82,15 @@ When you create other funds, you will also be the sole fund member.
 
 ![](50GR%20-%20Fund%20Membership%20and%20permissions.png)
 
+---
+
 ### Custody
 
 The Custody section shows the custody policies of a fund. A custody policy determines the custodians that can sign a transaction, and whose signatures are needed for transfers and/or withdrawals. Each custodian has a permission of transfer and/or withdrawal. However, in Fund One the custodian is the fund owner.
 
 As a custody provider accepting or rejecting transactions on behalf of an investing fund owner, the custody policy settings within a fund are particularly important. For example, depending on the type of investment, transactions within some funds may require more signatures than others.
+
+---
 
 #### Threshold
 
@@ -99,6 +105,8 @@ When you create a fund, you can assign any number of custodians for withdrawals 
 :::
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/Fund%20One%20-Custody.png?api=v2)
+
+---
 
 ### Transactions & Addresses
 
@@ -158,15 +166,21 @@ In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However
 
 You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
 
+---
+
 ### Custody Providers
 
 As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and threshold levels. This can depend on the type of fund and the level of risk that exist. For example, for a more risky investment you may want a higher number of aggregated signatures.
+
+---
 
 ### Start Wizard
 
 From the Summary section in the Holdings page, click the Plus icon.
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/change%20defaults%20on%20summary.png?api=v2)
+
+---
 
 ### Basic Details 
 
@@ -178,6 +192,7 @@ Entering name, description and a theme enables your fund to be identified on the
 4.  Select an asset from **Assets.**
 5.  Click **Continue**.
     
+---
 
 #### Membership and Permissions 
 
