@@ -12,9 +12,42 @@ For a deposit transaction, money is automatically added to a whitelisted externa
 
 When money is added to a whitelisted address for a fund on Qredo, it is safely stored on the Qredo blockchain as a transaction. Once on the blockchain, it is subject to the custodial policies for the fund. The money in the fund is also liquid and ready to be transfered to another Qredo user if required. 
 
-### Change Address
+## View Deposit
 
-You start the task for creating a new deposit address from either the Asset level or the Transaction ledger level. 
+
+1. Access the Holdings page.
+
+2. Go to Asset view.
+
+3. In the TX ledger, click the **Deposit** tab.
+
+4. The TX ledger shows these details:
+
+|     |     |
+| --- | --- |
+| **Column Name** | **Description** |
+| TYPE | Type of transaction. For a deposit, the column name shows as deposit |
+| FUND | Name of the fund. |
+| INITIATED | Date and time of the deposit transaction |
+| AMOUNT | Amount deposited and the type of asset. |
+| REFERENCE | Reference number for the transaction. |
+| RECIPIENT | Recipient of the deposit transaction, e.g., sent to an exchange. |
+| EXPIRES | The date and time in which the deposit transaction was received at Qredo. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
+| STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded.<br><br>If the custodians have signed the transaction, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
+
+
+### Copy Address
+
+To check an existing address in a third-part app, you can copy the address using the Copy Address function. The address is stored in your system's clipboard.
+
+1. Access the Holdings page.
+
+2. Go to Asset view.
+
+3. In the TX ledger, click the **Deposit** tab.
+
+4. Right-click a deposit entry and choose **Copy**.
+
 
 When updating the deposit address, you need to choose the correct fund and asset for the deposit address. 
 
