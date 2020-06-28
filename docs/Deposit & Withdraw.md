@@ -14,13 +14,9 @@ When money is added to a whitelisted address for a fund on Qredo, it is safely s
 
 ## View Deposit
 
-
 1. Access the Holdings page.
-
 2. Go to Asset view.
-
 3. In the TX ledger, click the **Deposit** tab.
-
 4. The TX ledger shows these details:
 
 |     |     |
@@ -41,11 +37,8 @@ When money is added to a whitelisted address for a fund on Qredo, it is safely s
 To check an existing address in a third-part app, you can copy the address using the Copy Address function. The address is stored in your system's clipboard.
 
 1. Access the Holdings page.
-
 2. Go to Asset view.
-
 3. In the TX ledger, click the **Deposit** tab.
-
 4. Right-click a deposit entry and choose **Copy**.
 
 

@@ -191,8 +191,6 @@ Entering name, description and a theme enables your fund to be identified on the
 3.  Choose a theme that shows the fund in the Summary section of the Holdings page.
 4.  Select an asset from **Assets.**
 5.  Click **Continue**.
-    
----
 
 #### Membership and Permissions 
 
