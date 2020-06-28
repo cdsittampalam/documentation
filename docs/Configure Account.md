@@ -7,11 +7,8 @@ The web app includes sections that will allow you to configure accounts in futur
 Future versions will allow you to:
 
 *   upgrade your account plan
-
 *   view/edit company name and domain
-
 *   change the account owner
-
 *   view/edit account permissions and/or members
 
 
@@ -19,9 +16,7 @@ Show Account Settings
 ---------------------
 
 1. Click the user icon on the sidebar.
-
 2. In the displayed account card, click **Account Settings**.
-
 3. In the Settings page, click the various tabs for the different sections of the page.
 
 ---
@@ -39,7 +34,6 @@ Permissions
 The Permissions section shows your Qredo user role.
 
 *   If you joined Qredo yourself, you are the Account Owner.
-
 *   If you were invited by an Account Owner, your role is Trusted Counterparty.
 
 
@@ -74,17 +68,10 @@ Role of the Account Owner
 As the account owner, you can:
 
 *   create one of more funds.
-
 *   enter fund name and description.
-
 *   select the type of assets that can be added to and managed in the fund.
-
 *   set custodian policy (withdrawal or transaction custody policies)
-
 *   choose a deposit address to add to the Qredo network.
-
 *   transfer funds to other users on the Qredo network.
-
 *   withdraw funds from the Qredo network.
-
 *   add external trusted parties.
