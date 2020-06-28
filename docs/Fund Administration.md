@@ -86,11 +86,11 @@ The Custody section shows the custody policies of a fund. A custody policy deter
 
 As a custody provider accepting or rejecting transactions on behalf of an investing fund owner, the custody policy settings within a fund are particularly important. For example, depending on the type of investment, transactions within some funds may require more signatures than others.
 
-####Threshold
+#### Threshold
 
 A policy also includes a threshold that has the minimum number of custodian signatures out of the total number for a transaction to happen.
 
-####Withdrawal and TX Tabs
+#### Withdrawal and TX Tabs
 
 The Withdrawal and TX tabs include custody policies comprising of custodians and the associated threshold levels for withdrawals and transfers. Withdrawals and transfers can have different custodians and threshold levels. For Fund One, there is only one custodian and a threshold policy of 1/1 for both withdrawals and transfers.
 
