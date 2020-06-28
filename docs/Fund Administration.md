@@ -150,7 +150,7 @@ The Create a Fund wizard lets you quickly create a fund and add custody policies
 
 When you select custodians, you can also choose the Threshold level. A Threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level needing more signatures means that custodians have more power to restrict the transaction from taking place. A lower threshold means they have less power to restrict the transaction since fewer signatures are needed.
 
-###Example
+### Example
 
 In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for individual withdrawal and transfer policies. Each policy contains a set Threshold level.
 
@@ -158,17 +158,17 @@ In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However
 
 You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
 
-### Working with a Custody Provider
+### Custody Providers
 
 As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and threshold levels. This can depend on the type of fund and the level of risk that exist. For example, for a more risky investment you may want a higher number of aggregated signatures.
 
-### Start the Wizard
+### Start Wizard
 
 From the Summary section in the Holdings page, click the Plus icon.
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/change%20defaults%20on%20summary.png?api=v2)
 
-### Enter Basic Details of the Fund 
+### Basic Details 
 
 Entering name, description and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that other members in your Qredo network have a fund of the same asset type.
 
@@ -179,20 +179,23 @@ Entering name, description and a theme enables your fund to be identified on the
 5.  Click **Continue**.
     
 
-#### View Notice on Membership and Permissions 
+#### Membership and Permissions 
 
 1.  Read the notice on membership and permissions. This indicates that only one member is available for the fund, and that further enhancements are coming soon.
 2.  Observe your name as the fund member and click **Continue.**
-    
 
-### Add Custodians to the Transfer Policy 
+---    
+
+### Transfer Policy Custodians
 
 1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](https://qredo.atlassian.net/wiki/spaces/QD/pages/71074058/Invite+Trusted+Parties))..  Click **Continue**.
 3.  In the **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
 4.  For each custodian, choose a threshold in the **Threshold** list.
-5.  Click **Continue**.    
+5.  Click **Continue**. 
 
-### Add Custodians to the Withdrawal Policy
+---   
+
+### Withdrawal Policy Custodians
 
 1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](https://qredo.atlassian.net/wiki/spaces/QD/pages/71074058/Invite+Trusted+Parties)).
 2.  Click **Review Fund Details**.
@@ -201,8 +204,9 @@ Entering name, description and a theme enables your fund to be identified on the
 5.  For each custodian, choose a threshold in the **Threshold** list.
 6.  Click **Continue**.
     
+---
 
-### Review Fund Details 
+### Review Details 
 
 You can review the details of the selected custodians for the withdrawal and transfer policies. You can also review the name, description, and look-and-feel of the fund policy on the Summary page.
 
