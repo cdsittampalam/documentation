@@ -33,6 +33,8 @@ Whenever transactions are written to the Qredo blockchain, the transactions are 
 
 Each Rasberry Pi unit has a tamper-proof Hardware Security Module that protects the seed value and public/private key data from attacks in a physical environment. The HSMs adhere to the FIPS (Federal information Processing Standard Publication 140-2) security standard. FIPS 140-2 is a US government computer security standard for cryptographic modules. The standard ensures that cryptographic keys and primitives never leave the hardware appliances that they exist in.
 
+---
+
 MPC Protocol
 ------------
 
@@ -61,7 +63,6 @@ The protocol, relying on client and server communication, performs the following
 7.  Both client and server nodes communicate to sign a new public key.
     
 8.  The public key and digital signature is sent to the watcher to generate a new address
-    
 
 ### Paillier Cryptosystem
 
@@ -74,6 +75,8 @@ The MPC uses SECP256K to ensure that the generated public key is compatible with
 **Note:** SEC means Standards for Efficient Cryptography
 
 SECP256K1 is the discrete elliptic curve group used in Bitcoin's implementation of ECDSA (Elliptic Curve Digital Signature Algorithm). Elliptic curve cryptography allows the properties of elliptic curves to determine values such as public, private keys, and the coefficients for determining key values.
+
+---
 
 BLS Signature Scheme
 --------------------
