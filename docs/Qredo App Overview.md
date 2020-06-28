@@ -29,6 +29,8 @@ Qredo Mobile App
 
 The Qredo Mobile App acts as a secure multi-factor signing device, utilising a combination of biometrics, a 6 digit pin and a master seed protected on the devices secure enclave, the Qredo Mobile app uniquely identifies you on the network and and allows you to securely authorise transfer and changes to your account initiated from the desktop browser app.
 
+![FaceID](/doc-images/phonesignin.png)
+
 ![](https://qredo.atlassian.net/wiki/download/attachments/128385074/face%20id80.png?api=v2)
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/128385074/pin80.png?api=v2)
