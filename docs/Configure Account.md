@@ -20,16 +20,21 @@ Show Account Settings
 
 1.  Click the user icon on the sidebar.
 
+2. In the displayed account card, click **Account Settings**.
 
-2\. In the displayed account card, click **Account Settings**.
+3. In the Settings page, click the various tabs for the different sections of the page.
 
-3\. In the Settings page, click the various tabs for the different sections of the page.
+---
 
-### Account Details
+Account Details
+---------------
 
 The Account Details section shows information that was saved to your account on registration, including your first name, last name, and email address. The account status shows as Active or Inactive.
 
-### Permissions
+---
+
+Permissions
+-----------
 
 The Permissions section shows your Qredo user role.
 
@@ -40,17 +45,28 @@ The Permissions section shows your Qredo user role.
 
 This section also shows your first name, last name, and alias details, which you provided on registration.
 
-### Billing
+---
+
+Billing
+-------
 
 The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal plan only.
 
-### Partner API
+---
+
+Partner API
+-----------
 
 This section provides details on the Partner API (see [https://qredo.atlassian.net/wiki/spaces/QD/pages/79233107/Signing+Up+for+the+Partner+API?moved=true](https://qredo.atlassian.net/wiki/spaces/QD/pages/79233107/Signing+Up+for+the+Partner+API?moved=true))
 
-### Legal
+---
+
+Legal
+-----
 
 The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program by clicking **Copy Link**. Alternatively, you can download the agreement by clicking **Download**.
+
+---
 
 Role of the Account Owner
 -------------------------
