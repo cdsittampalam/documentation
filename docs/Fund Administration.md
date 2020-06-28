@@ -28,7 +28,7 @@ The page also allows you to view details on the transactions and the custody pol
 
 ![All Transactions](All%20Transactions.png)
 
-### Access the Holdings Page
+### Access Holdings Page
 
 1.  Access the Summary Section.
     
@@ -38,7 +38,7 @@ You can then choose one of the following options:
 
 *   **View Fund One:** If you are a new user, you can view details of a default fund, labelled Fund One. Fund One is created for you once you have joined the Qredo Network. While Fund One is designed to help you understand how a Qredo fund works, you can also use Fund One for transactions. The system creates a deposit address for you to receive assets (see [View Fund One](#view-fund-one)).
     
-*   **Change the Default Fund and Assets:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Fund and Assets](#change-default-fund-and-assets)).
+*   **Change Default Settings:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Fund and Assets](#change-default-fund-and-assets)).
     
 *   **Create a Fund:** If you are familiar with the concepts of a Qredo funds and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
     
