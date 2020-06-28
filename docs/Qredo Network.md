@@ -8,15 +8,8 @@ The Qredo network consists of an asset-tracking blockchain secured by a set of c
 
 The Layer 2 characteristics of the Qredo blockchain provide transparency, immutability, and decentralisation.
 
-This page describes the following:
-
-*   [Introduction to the Qredo Network](https://qredo.atlassian.net/wiki/spaces/QD/pages/121865074/Qredo+Network#Introduction-to-the-Qredo-Network)  
-
-*   [Service and Node Architecture](https://qredo.atlassian.net/wiki/spaces/QD/pages/121865074/Qredo+Network#Service-and-Node-Architecture)
-    
-*   [Transaction Flows](https://qredo.atlassian.net/wiki/spaces/QD/pages/121865074/Qredo+Network#Transaction-Flows)
-    
-*   [Crystallization](https://qredo.atlassian.net/wiki/spaces/QD/pages/121865074/Qredo+Network#Crystallization)
+This page describes basic concepts on the Qredo network (see [Introduction](#qredo-network-introduction) For more technical details refer
+to the section on the [Architecture](#Architecture) and onwards.
     
 
 Qredo Network Introduction
@@ -90,6 +83,8 @@ Assets in the Qredo blockchain are different from digital assets that are descri
 
 Qredo blockchain software components are built using Tendermint [https://tendermint.com/](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive and not subject to 51% attacks.  
 
+---
+
 Architecture
 ------------
 
@@ -125,6 +120,7 @@ The MPC cluster is a set of nodes that work together to generate a signed public
 
 Accesses data on the Qredo blockchain on request by the MPC cluster through an independent connection to the blockchain validator nodes. The MPC validator is needed for highly sensitive processes such as fund withdrawal. 
 
+---
 
 Transaction Flows
 -----------------
@@ -182,14 +178,20 @@ The watcher adds the Bitcoin address as a watch-only address on the Bitcoin node
 When the node is queried periodically, the node can provide full UTXO details, together with proof of existence on the underlying chain. 
 :::
 
+---
+
 #### Mapping Address and Amounts
 The Qredo blockchain uses consensus rules to map the Bitcoin address to Alice’s wallet through the MPC. The amount of Bitcoin deposited into the address is added to the Bitcoin balance in Alice’s wallet. The balance is a value in the consensus database with the key “Wallet_Alice.balance”. The balance in the database key increases as more funds are added.
+
+---
 
 #### Monitoring the Bitcoin Address
 
 When monitoring the Bitcoin address, the watcher adds the Bitcoin address as a watch-only address on the Bitcoin node. When Anne deposits Bitcoin for Alice in the address, the watcher periodically (every minute) requests wallet changes from its Bitcoin node.
 
 When the node is queried periodically, the node can provide full UTXO details, together with proof of existence on the underlying chain.
+
+---
 
 ### Transferring Money
 
@@ -222,19 +224,27 @@ The blockchain validator records:
 
 - the completed transaction which allows change from the settlement to released back in to Qredo.
 
+---
+
 #### Watcher and MPC
 
 The watcher informs the MPC nodes to sign a peg-out transaction, which authorises money to go out of Qredo, and generate an external address. The watcher works with the MPC to generate an external address for the unspent funds, which is used by the Bitcoin node for monitoring funds going out of Qredo. 
 
+---
+
 #### MPC Validator
 
 To keep the Qredo network secure when funds leave the network, the MPC validator double-checks the funds during a settlement. The MPC validator accesses the Qredo blockchain on request by the MPC cluster, and uses an independent connection.
+
+---
 
 #### Broadcasting a Transaction
 
 To allow external blockchains to have a record of a settlement transaction, the watcher service broadcasts the transaction to the external blockchains. There is also a corresponding transaction on the Qredo blockchain, which releases the change from the settlement back into Qredo.
 
 A crystallisation process (see section below) is also performed on Qredo blockchain to build an unsigned Bitcoin transaction.
+
+---
 
 Crystallization
 ---------------
