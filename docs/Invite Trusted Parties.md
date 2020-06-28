@@ -14,7 +14,10 @@ You invite a counterparty from the Trusted Network screen on the browser desktop
 Send Email Invite
 -----------------
 
-1.  Access the Trusted Network screen from ![](https://qredo.atlassian.net/wiki/download/attachments/71074058/4%20trusted%20network.png?api=v2)
+1.  Access the Trusted Network screen from 
+
+![](https://qredo.atlassian.net/wiki/download/attachments/71074058/4%20trusted%20network.png?api=v2)
+
 2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/71074058/Add%20Trusted%20Party%20Update.png?api=v2)
