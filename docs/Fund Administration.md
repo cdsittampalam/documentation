@@ -96,7 +96,7 @@ When you create a fund, you can assign any number of custodians for withdrawals 
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/Fund%20One%20-Custody.png?api=v2)
 
-### View List of Transactions and Addresses
+### Transactions & Addresses
 
 When you use Fund One, you will be able to view a list of transactions with the deposit and withdrawal addresses for each transaction.
 
