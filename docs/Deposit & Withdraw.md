@@ -60,8 +60,6 @@ You set up a withdrawal transaction as a trade initiator using the web app. To c
 
 Qredo charges fees to withdraw, including the Qredo fee and the miner's fee, The Qredo fee allows the management of Qredo wallets. While the miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you confirm the transaction.While the miner and Qredo fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
 
-As a fund owner and member, you have the permission to withdraw money from Qredo. This permission is shown in the **Permissions** tab on the Settings section of your account.
-
 ### Custodian Role
 
 As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the withdrawal custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the withdrawal policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to [Fund Administration](https://support.qredo.com/docs/Fund Administration#custody). 
