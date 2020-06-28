@@ -8,17 +8,17 @@ Future versions will allow you to:
 
 *   upgrade your account plan
 
-*   view / edit company name and domain
+*   view/edit company name and domain
 
 *   change the account owner
 
-*   view/edit account permissions / members
+*   view/edit account permissions and/or members
 
 
 Show Account Settings
 ---------------------
 
-1.  Click the user icon on the sidebar.
+1. Click the user icon on the sidebar.
 
 2. In the displayed account card, click **Account Settings**.
 
@@ -57,7 +57,7 @@ The Billing section shows the plan associated with your Qredo account. At presen
 Partner API
 -----------
 
-This section provides details on the Partner API (see [https://qredo.atlassian.net/wiki/spaces/QD/pages/79233107/Signing+Up+for+the+Partner+API?moved=true](https://qredo.atlassian.net/wiki/spaces/QD/pages/79233107/Signing+Up+for+the+Partner+API?moved=true))
+This section provides details on the Partner API. 
 
 ---
 
