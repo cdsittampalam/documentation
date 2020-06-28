@@ -12,10 +12,10 @@ Built for professional investors to securely transfer digital assets instantly w
     
 *   Elimination of digital asset theft
     
-*   Independent governance with no third party dependencies
-    
+*   Independent governance with no third party dependencies    
 
-![](https://qredo.atlassian.net/wiki/download/attachments/128385074/Qredo%20app%20first%20image.png?api=v2)
+![Main Qredo](/doc-images/QredoS.png)
+
 
 Qredo Web App
 -------------
