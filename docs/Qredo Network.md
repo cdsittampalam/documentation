@@ -19,8 +19,8 @@ This page describes the following:
 *   [Crystallization](https://qredo.atlassian.net/wiki/spaces/QD/pages/121865074/Qredo+Network#Crystallization)
     
 
-Introduction to the Qredo Network
----------------------------------
+Qredo Network Introduction
+---------------------------
 
 The Qredo network allows the management of digital assets where transactions are processed through the Qredo blockchain with various nodes and services working together.
 
@@ -39,7 +39,7 @@ Users interact with the Qredo network using the Qredo app that they signed up fo
 
 Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
 
-#### Behaviours the Qredo Network
+### Behaviors
 
 The Qredo network includes behaviours to ensure that transactions are saved securely on the Qredo blockchain.
 
@@ -47,7 +47,7 @@ The Qredo network includes behaviours to ensure that transactions are saved secu
 
 A transaction contains encrypted messages between nodes with signatures in BLS format. Before a transaction is written to the Qredo blockchain, the aggregated digital signatures of participants that sign a transaction need to be recorded. Recording the aggregation of signatures makes the Qredo blockchain serve as a consensus-driven immutable record of asset ownership.
 
-#### Consensus Rules on Signing Participants
+#### Consensus Rules
 
 A transaction requires various signatures from these participants that meet rules and conditions. These include: 
 
@@ -90,8 +90,8 @@ Assets in the Qredo blockchain are different from digital assets that are descri
 
 Qredo blockchain software components are built using Tendermint [https://tendermint.com/](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive and not subject to 51% attacks.  
 
-Service and Node Architecture
------------------------------
+Architecture
+------------
 
 The Qredo network consists of computers that are categorised as node or services, working together to process transactions and create blocks. The Qredo network is different from other cryptocurrency networks where all nodes run the same client software. The computers are deployed in Tier-4 data centers within global financial capitals on a highly-secure hardware infrastructure running on a low-latency network. Each node or service has a dedicated function as summarised in this diagram:
 
@@ -191,10 +191,6 @@ When monitoring the Bitcoin address, the watcher adds the Bitcoin address as a w
 
 When the node is queried periodically, the node can provide full UTXO details, together with proof of existence on the underlying chain.
 
-#### Mapping Address and Amounts
-
-As this peg-in (underlying) transaction is committed to the chain, the Qredo blockchain uses consensus rules to map the Bitcoin address to Alice’s wallet through the MPC. The amount of Bitcoin deposited into the address is added to the Bitcoin balance in Alice’s wallet. The balance is a value in the consensus database with the key “Wallet\_Alice.balance”. The balance in the database key increases as more funds are added.
-
 ### Transferring Money
 
 When transferring money, the participants update the user interface. The transactions are signed by the Qredo server and the blockchain validator node updates the Qredo blockchain. 
@@ -234,22 +230,22 @@ The watcher informs the MPC nodes to sign a peg-out transaction, which authorise
 
 To keep the Qredo network secure when funds leave the network, the MPC validator double-checks the funds during a settlement. The MPC validator accesses the Qredo blockchain on request by the MPC cluster, and uses an independent connection.
 
-#### Broadcasting a Transaction to External Blockchains
+#### Broadcasting a Transaction
 
 To allow external blockchains to have a record of a settlement transaction, the watcher service broadcasts the transaction to the external blockchains. There is also a corresponding transaction on the Qredo blockchain, which releases the change from the settlement back into Qredo.
 
 A crystallisation process (see section below) is also performed on Qredo blockchain to build an unsigned Bitcoin transaction.
 
-Crystallisation
+Crystallization
 ---------------
 
-At the end of every transaction is the crystalization process to ensure that the amounts in each wallet are correct for all Qredo users. To ensure solvency for the system, the process also proves that all coins locked onto the Qredo blockchain system are spendable.
+At the end of every transaction is the crystallization process to ensure that the amounts in each wallet are correct for all Qredo users. To ensure solvency for the system, the process also proves that all coins locked onto the Qredo blockchain system are spendable.
 
 For each user, the process ensures that the amounts are mapped to a UTXO on an external Bitcoin address.  
-For example, if a wallet has 30 Bitcoin between Bob and Alice, the crystalization process will:
+For example, if a wallet has 30 Bitcoin between Bob and Alice, the crystallization process will:
 
 *   map the wallet to Alice's UTXO containing 12 Bitcoin
     
 *   map the wallet to Bob's UTXO containing 18 Bitcoin  
 
-The allocations made during crystallisation are used when a user requests settlement. Their crystalized funds minus any fees are transferred out of the Qredo network, and any change is returned back.
+The allocations made during crystallization are used when a user requests settlement. Their crystalized funds minus any fees are transferred out of the Qredo network, and any change is returned back.
