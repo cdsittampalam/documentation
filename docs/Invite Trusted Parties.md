@@ -5,9 +5,9 @@ As the account owner, you can invite users as trusted parties, allowing you to b
 
 You can invite a user to be a trusted party from within the Qredo network, or from outside of Qredo. Users from within the Qredo network can be an account owner, or a counterparty to another account owner. When choosing a party externally, you can invite them via LinkedIn, Telegram or WhatsApp.  
 
-When you send an invite through the Qredo network, users can approve or reject the invitation on their phone (See [Approve or Deny Counterparty Invites](https://github.com/kdslang/documentation/blob/develop/docs/Approve-and-Deny-Counterparty-Invites.md).
+When you send an invite through the Qredo network, users can approve or reject the invitation on their phone (See [Custodian Approvals](#custodian-approvals).
 
-You invite a counterparty from the Trusted Network screen on the browser desktop app. The Trusted Network screen also lets you manage accepted invitations, and those that are still pending (see [Manage the Invite List](https://github.com/kdslang/documentation/blob/develop/docs/Manage-the-Invite-List.md)).
+You invite a counterparty from the Trusted Network screen on the browser desktop app. The Trusted Network screen also lets you manage accepted invitations, and those that are still pending (see [Manage Invite List](#manage-invite-list)).
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/71074058/2-trusted%20network%20screen.png?api=v2)
 
