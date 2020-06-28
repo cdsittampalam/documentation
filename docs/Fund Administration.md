@@ -15,7 +15,7 @@ Any user that wants to use Qredo to make investments via transactions on the Qre
 
 --- 
 
-The Holdings Page
+Holdings Page
 -----------------
 
 The Holdings page lists the funds under your account. These include one or more default funds, and any funds you created. For each fund, you can have a complete view of the transactions, addresses, and custody policies. You can also choose a fund option from the page.
@@ -23,12 +23,12 @@ The Holdings page lists the funds under your account. These include one or more 
 The Holdings page consists of:the summary section that allows you to create a fund or view attributes of a default fund.
 
 ![Fund One in Holdings](Fund%20One%20default.png)
-
+s
 The page also allows you to view details on the transactions and the custody policies of the fund.
 
 ![All Transactions](All%20Transactions.png)
 
-### Access the Holding Page
+### Access the Holdings Page
 
 1.  Access the Summary Section.
     
@@ -163,7 +163,7 @@ As an investor creating funds, you will need to work closely with a custody prov
 
 ### Start the Wizard
 
-From the Summary section in the holding page, click the Plus icon.
+From the Summary section in the Holdings page, click the Plus icon.
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/change%20defaults%20on%20summary.png?api=v2)
 
