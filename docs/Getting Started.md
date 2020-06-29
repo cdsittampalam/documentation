@@ -105,14 +105,14 @@ An SMS is sent to your phone that contains a link to the signing app on the app 
 
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
 
-![](https://qredo.atlassian.net/wiki/download/thumbnails/54559808/first%20mobile%20phone%20screen.png?api=v2) |
+![splash](/doc-images/splash.png) |
 
 1. If the SMS has not arrived, click on the resend button on the browser app page. The button shows a time limit for resending the SMS.
 2. Click **Continue**.
 
 ### Pair your Phone
 
-Once you have downloaded the app, tap the QR code on the screen against the QR reader on your phone. QR code needs to be bigger
+Once you have downloaded the app, tap the QR code on the screen against the QR reader on your phone. 
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/54559808/pairing%20complete%20web-app%20view.png?api=v2)
 
