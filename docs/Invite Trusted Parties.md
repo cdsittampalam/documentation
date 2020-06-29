@@ -99,24 +99,34 @@ From the Trusted Party screen, you can deny a request.
 4.  Tap Close.
 
 
-You will then see the following screen indicating that pairing has been denied.
+You will then see the following screen indicating that the request has been denied.
 
 ![trusted parties denied](/doc-images/trustedpartydenied.png) 
 
 ### Monitor Responses
 
-If you have approved an invite, you can quickly view that invitation request and those that are pending from the mobile app. You can also view the invites you denied in the same way.  
+You can use the approval ledger for trusted parties in the web app to monitor responses to your invites. The approvals ledger shows trusted parties that have actioned an invite and those that have denied.
 
-From the Pairing Approved screen, click **Approvals**. The Trusted Network screen on the mobile app shows the approved invite under the Actioned tab. Pending invitations appear under the Pending tab.
+1. Click the Approval button.
 
-|     |
-| --- |
-| ![](https://qredo.atlassian.net/wiki/download/thumbnails/71041397/trusted%20network%20approval.png?api=v2) |
+ 
+
+2. Click the Trusted Parties tab.
+
+The ledger shows entries for invites that have been approved or denied. The invites entries are grouped in to *Pending* and *Actioned*.
+
+![action approve](/doc-images/actionapprove.png) 
+
+The ledger also shows these details of the trusted party:
+
+- their location.
+- their email address.
+- their network status.
+- the date in which the invite was actioned.
+- the status as either approved or denied.
 
 
-From the Pairing Approved screen, click **Approvals**.  
 
-The Trusted Network screen on the phone app shows the denied invite under the Actioned tab. Pending invitations appear under the Pending tab.
 
 
 
