@@ -128,7 +128,7 @@ For more details, see [Master Seed Steps](#master-seed-steps).
 
 Once you have set up the mobile app with the master seed, you can sign in for the first time.
 
-For more details, see [Sign In Steps](*sign-in)
+For more details, see [Sign In Steps](#sign-in)
 
 ----
 
