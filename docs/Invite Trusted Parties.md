@@ -49,7 +49,7 @@ The Trusted Network screen shows the status of your invites for joining the Qred
 ⦁ paired - where the user or contact has accepted the invite.  
 ⦁ pending - where the user or contact has not yet accepted the invite.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/70975942/3-trusted%20network%20screen%20update.png?api=v2)
+![TNScreen](doc-images/TNScreen.png)
 
 The displayed invites would have been sent to your contacts outside of Qredo, or to users within the Qredo network. If you have just sent an invite and are waiting for the recipient to accept, the invite shows as pending.
 
