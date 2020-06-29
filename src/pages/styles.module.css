@@ -6,15 +6,40 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
   text-align: center;
   position: relative;
-  overflow: hidden;
+  padding: 124px 0;
 }
 
-@media screen and (max-width: 966px) {
+.heroTitle {
+  font-weight: 500;
+  line-height: 60px;
+  font-size: 64px;
+  color: #191919;
+}
+
+.heroSubtitle {
+  color: #454545;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 300;
+  max-width: 542px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 96px 40px;
+  }
+
+  .heroTitle {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .heroSubtitle {
+    font-size: 18px;
+    line-height: 25px;
   }
 }
 
@@ -27,11 +52,216 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
   width: 100%;
 }
 
+.feature {
+  border-radius: 8px;
+  box-shadow: 0 10px 20px -2px rgba(50, 50, 93, 0.15), 0 5px 12px -5px rgba(0, 0, 0, 0.07);
+  padding: 32px;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature:hover {
+  box-shadow: 0 10px 20px -2px rgba(50, 50, 93, 0.35), 0 5px 12px -5px rgba(0, 0, 0, 0.07);
+}
+
+.titleLink {
+  position: static;
+}
+
+.titleLink:hover {
+  text-decoration: none;
+}
+
+.titleLink::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.title {
+  color: #191919;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* background: cyan; */
+}
+
+.listLink {
+  color: #6A6A6A;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: 16px;
+  display: inline-block;
+  /* background: orange; */
+  padding: 5px 10px;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  margin-left: -10px;
+}
+
+.listLinkLearnMore {
+  color: #C30097;
+  margin-top: 3px;
+  margin-bottom: calc(72px - 32px);
+}
+
 .featureImage {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 980px) {
+  .feature {
+    margin: 0 14px 20px;
+    width: calc(100% - 24px);
+    padding: 24px;
+  }
+
+  .listLinkLearnMore {
+    margin-bottom: 0;
+  }
+}
+
+a {
+  position: relative;
+}
+
+.banner {
+  margin: 80px auto 120px;
+  width: 980px;
+  height: 390px;
+  border-radius: 16px;
+  background-size: 100%;
+  padding: 76px 60px;
+  background-color: #101010;
+  background-image: url('/img/banner-background.jpg');
+  background-repeat: no-repeat;
+  border: 1px solid #E8E8E8;
+}
+
+@media screen and (max-width: 980px) {
+  .banner {
+    margin: 20px auto 52px;
+    width: calc(100vw - 48px);
+    height: calc(100vw - 48px);
+    max-height: 400px;
+    max-width: 400px;
+    background-size: contain;
+    background-position: right;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    background-image: url('/img/banner-background-mobile.jpg');
+  }
+}
+
+.bannerTitle {
+  color: #fff;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+}
+
+.bannerList {
+  margin: 0;
+  padding: 0;
+  color: #FF5AEC;
+  list-style: inside;
+}
+
+.bannerList li + li {
+  margin-top: 16px;
+}
+
+.bannerList a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.contact {
+  width: 100%;
+  background-image: url('/img/contact-background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  height: 438px;
+  color: #fff;
+  padding: 97px 72px;
+  max-width: var(--ifm-container-width);
+  margin: 0 auto;
+  margin-bottom: -220px;
+  z-index: 1;
+  position: relative;
+}
+
+.contactTitle {
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.contactFaq {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #B9B9B9;
+  margin-bottom: 40px;
+}
+
+.contactEmail {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 500;
+  color: #00DFA1;
+}
+
+.contactEmail:hover {
+  color: #00DFA1;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 980px) {
+  .contact {
+    border-radius: 0;
+    padding: 48px 35px;
+    height: auto;
+    background-position: bottom right;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+
+  .contactTitle {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .contactFaq {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .contactEmail {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }

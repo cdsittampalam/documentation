@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Care</title>
+    <defs>
+        <rect id="path-1" x="-1.59161573e-12" y="0" width="380" height="380" rx="8"></rect>
+        <filter x="-8.4%" y="-5.8%" width="116.8%" height="116.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0725251311 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.196078431   0 0 0 0 0.364705882  0 0 0 0.153354458 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design---Homepage--Short-version-" transform="translate(-977.000000, -516.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="2929"></rect>
+            <g id="Boxes" transform="translate(143.000000, 484.000000)">
+                <g id="Box_03-Care" transform="translate(802.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Care" mask="url(#mask-2)">
+                        <g transform="translate(32.000000, 32.000000)">
+                            <ellipse id="Oval" stroke="#6A6A6A" stroke-width="1" cx="40.12" cy="40" rx="25.06" ry="24.94"></ellipse>
+                            <ellipse id="Oval-Copy-5" stroke="#6A6A6A" stroke-width="1" cx="40.12" cy="40" rx="13.8" ry="13.68"></ellipse>
+                            <g id="Master-Seed" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(4.000000, 4.000000)">
+                                <path d="M18.1014346,13.1615316 L36.0848528,10.5924718 L36.0848528,10.5924718 L54.068271,13.1615316 C56.6025417,13.5235703 58.5937544,15.5147829 58.9557931,18.0490536 L61.5248528,36.0324718 L61.5248528,36.0324718 L58.9557931,54.01589 C58.5937544,56.5501607 56.6025417,58.5413734 54.068271,58.9034121 L36.0848528,61.4724718 L36.0848528,61.4724718 L18.2349213,59.34748 C15.6362595,59.0381155 13.572756,57.0157778 13.2110953,54.4238767 L10.6448528,36.0324718 L10.6448528,36.0324718 L13.2139126,18.0490536 C13.5759512,15.5147829 15.5671639,13.5235703 18.1014346,13.1615316 Z" id="Rectangle" stroke="#B9B9B9" stroke-linecap="round" transform="translate(36.084853, 36.032472) rotate(45.000000) translate(-36.084853, -36.032472) "></path>
+                                <path d="M22.5248528,42.1524718 C23.1213203,42.1524718 23.6048528,42.6360043 23.6048528,43.2324718 L23.6048528,55.9524718 C23.6048528,56.5489394 23.1213203,57.0324718 22.5248528,57.0324718 C21.9283853,57.0324718 21.4448528,56.5489394 21.4448528,55.9524718 L21.4448528,43.2324718 C21.4448528,42.6360043 21.9283853,42.1524718 22.5248528,42.1524718 Z" id="Rectangle" fill="#FF5AEC" transform="translate(22.524853, 49.592472) rotate(45.000000) translate(-22.524853, -49.592472) "></path>
+                                <path d="M49.7648528,15.1524718 C50.3613203,15.1524718 50.8448528,15.6360043 50.8448528,16.2324718 L50.8448528,28.9524718 C50.8448528,29.5489394 50.3613203,30.0324718 49.7648528,30.0324718 C49.1683853,30.0324718 48.6848528,29.5489394 48.6848528,28.9524718 L48.6848528,16.2324718 C48.6848528,15.6360043 49.1683853,15.1524718 49.7648528,15.1524718 Z" id="Rectangle" fill="#FF5AEC" transform="translate(49.764853, 22.592472) rotate(45.000000) translate(-49.764853, -22.592472) "></path>
+                                <path d="M43.2848528,48.3924718 L56.0048528,48.3924718 C56.6013203,48.3924718 57.0848528,48.8760043 57.0848528,49.4724718 C57.0848528,50.0689394 56.6013203,50.5524718 56.0048528,50.5524718 L43.2848528,50.5524718 C42.6883853,50.5524718 42.2048528,50.0689394 42.2048528,49.4724718 C42.2048528,48.8760043 42.6883853,48.3924718 43.2848528,48.3924718 Z" id="Rectangle" fill="#FF5AEC" transform="translate(49.644853, 49.472472) rotate(45.000000) translate(-49.644853, -49.472472) "></path>
+                                <path d="M16.2848528,21.3924718 L29.0048528,21.3924718 C29.6013203,21.3924718 30.0848528,21.8760043 30.0848528,22.4724718 C30.0848528,23.0689394 29.6013203,23.5524718 29.0048528,23.5524718 L16.2848528,23.5524718 C15.6883853,23.5524718 15.2048528,23.0689394 15.2048528,22.4724718 C15.2048528,21.8760043 15.6883853,21.3924718 16.2848528,21.3924718 Z" id="Rectangle" fill="#FF5AEC" transform="translate(22.644853, 22.472472) rotate(45.000000) translate(-22.644853, -22.472472) "></path>
+                            </g>
+                            <rect id="Rectangle" stroke="none" x="0" y="0" width="80" height="80"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
