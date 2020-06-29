@@ -16,7 +16,7 @@ Send Email Invite
 
 1.  Access the Trusted Network screen from 
 
-![](https://qredo.atlassian.net/wiki/download/attachments/71074058/4%20trusted%20network.png?api=v2)
+![](/doc-images/TrustedNetworkMain.png)
 
 2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
