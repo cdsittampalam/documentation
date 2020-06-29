@@ -20,7 +20,7 @@ Send Email Invite
 
 2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/71074058/Add%20Trusted%20Party%20Update.png?api=v2)
+![Add Trusted](/doc-images/addtrusted.png)
 
 Go to either Add a User from the Qredo Network or Add a User from your Contacts.
 
