@@ -170,6 +170,8 @@ Before you create a master seed, the phone lets you scroll through an interactiv
 
 You are asked to provide Qredo with access to your Face ID/Touch ID before enabling the biometric feature that you use on your phone.
 
+![addface](/doc-images/addface.png)
+
 1.  Tap **OK.**
 2.  Confirm your action in the operating system’s message.
 3.  Enable Face ID/Touch ID. Once confirmed, a message shows.    
@@ -178,7 +180,7 @@ You are asked to provide Qredo with access to your Face ID/Touch ID before enabl
 
 The screen shows slots for creating your 6 digit passcode.
 
-There are no images attached to this page.
+![choosepin](/doc-images/choosepin.png)
 
 1.  Enter a 6-digit passcode.
 2.  Enter the 6-digit passcode again to verify
