@@ -16,7 +16,7 @@ Send Email Invite
 
 1.  Access the Trusted Network screen from 
 
-![](/doc-images/TrustedNetworkMain.png)
+![TRUSTED](/doc-images/TrustedNetworkMain.png)
 
 2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
