@@ -114,7 +114,7 @@ When you have downloaded the mobile app, a splash screen of the app appears as f
 
 Once you have downloaded the app, tap the QR code on the screen against the QR reader on your phone. 
 
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/pairing%20complete%20web-app%20view.png?api=v2)
+![pairing complete](/doc-images/pairingcomplete.png)
 
 For more information, see [Pairing Steps](#pairing-steps).
 
@@ -147,9 +147,9 @@ Once you have downloaded the phone app, you are ready to pair your phone with th
 You scan a QR-code on the web app through your phone’s camera, which pairs the phone with the mobile app. The pairing process ensures that only your phone can be used together with the web app. The unique QR-code that shows on the web app can only be used once.
 
 1.  Click **Connect your mobile device**. The phone app shows a message requesting access to your camera. 
-2.  Tap **OK**. Then confirm your action in a message triggered from your device’s operating system.
+2.  Tap **OK**. Then confirm your action in a message triggered from your device’s operating system.The QR-code shows on the phone screen.
 
-The QR-code shows on the phone screen.
+![QR](/doc-images/QR1.png)
 
 3.  Scan the QR code on the browser app with your camera. The phone shows that pairing is complete.
 4.  Tap **Continue**. The mobile screen guides you to creating a master seed on your phone.
