@@ -68,9 +68,7 @@ If you do not want to be part of their network, you can deny their invite.
 
 Once you have signed in to the mobile app, the screen appears similar to the following:
 
-|     |
-| --- |
-| ![](https://qredo.atlassian.net/wiki/download/thumbnails/71041397/pairing%20same%20network.png?api=v2) |
+![pairing](/doc-images/pairingsamenetwork.png)
 
 ### Approve Request  
 
@@ -78,34 +76,32 @@ You first receive a notification on the mobile app.
 
 1.  Tap on the notification for the invitation.
 2.  Sign in to the app using the biometric feature of your phone.
-3.  Enter your 6-digit passphrase.
+3.  Enter your 6-digit passphrase. The Trusted Party screen shows.
+
+![pairing](/doc-images/addtrustedphone.png)
+
 4.  To approve the pairing request, tap Approve.
 5.  Authenticate using the biometric feature and 6-digit passcode.
-6.  Then tap **Confirm** in the Confirmation screen.  
+6.  Then tap **Confirm** in the Confirmation screen.  A screen appears to show that approval has been granted.
+7.  Tap Close. 
 
-You will then see the following screen indicating that Pairing has been approved.
+You will then see the following screen indicating that the request has been approved.
 
-|     |
-| --- |
-| ![](https://qredo.atlassian.net/wiki/download/thumbnails/71041397/PairingApprovedOutsideNetwork.png?api=v2) |
+![trusted parties actioned](/doc-images/TrustedPartiesActioned.png) 
 
 ### Deny Request
 
-From the Pairing Request screen, you can deny a request.
+From the Trusted Party screen, you can deny a request.
 
-|     |
-| --- |
-| ![](https://qredo.atlassian.net/wiki/download/thumbnails/71041397/pairing%20same%20network.png?api=v2) |
+1.  To deny the pairing request, tap **Deny** in the Trusted Party screen.
+2.  Authenticate using the biometric feature and 6-digit passcode.
+3.  Then tap **Confirm** in the Confirmation screen. A screen appears to show that approval has been granted.
+4.  Tap Close.
 
-1.  To deny the pairing request, tap **Deny**.
-2.  Follow the same procedures as above for signing in to the phone.
-3.  Then tap **Confirm**.  
-    You will then see the following screen indicating that pairing has been denied.
 
-|     |
-| --- |
-| ![](https://qredo.atlassian.net/wiki/download/thumbnails/71041397/pairing%20denied.png?api=v2) |
+You will then see the following screen indicating that pairing has been denied.
 
+![trusted parties denied](/doc-images/trustedpartydenied.png) 
 
 ### Monitor Responses
 
