@@ -8,6 +8,6 @@ module.exports = {
     Deployment: ['Custodian Mobile App', 'Custodian Server', 'Qredo Validators', 'Qredo Server'],
     'Open Source': ['Policy & Guidelines', 'MPC Library'],
     Roadmap: ['Current Releases', 'Future Releases', 'Feature Requests']
-    'Product Tour'
+    {'Product Tour'}
   },
 };
