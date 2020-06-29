@@ -19,15 +19,14 @@ Show Account Settings
 
 1. Click the user icon on the sidebar.
 2. In the displayed account card, click **Account Settings**. The Settings page appears.
-
-![Settings](/doc-images/Settings.png)
-
 3. In the Settings page, click the various tabs for the different sections of the page.
 
 ---
 
 Account Details
 ---------------
+
+![Settings](/doc-images/Settings.png)
 
 The Account Details section shows information that was saved to your account on registration, including your first name, last name, and email address. The account status shows as Active or Inactive.
 
@@ -50,6 +49,8 @@ This section also shows your first name, last name, and alias details, which you
 
 Billing
 -------
+
+
 
 The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal plan only.
 
