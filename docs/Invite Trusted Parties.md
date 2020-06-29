@@ -16,7 +16,7 @@ Send Email Invite
 
 1.  Access the Trusted Network screen from 
 
-
+![Trusted Network Button](/doc-images/button-trustednetwork.png)
 
 2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
@@ -115,7 +115,7 @@ You can use the approval ledger for trusted parties in the web app to monitor re
 
 The ledger shows entries for invites that have been approved or denied. The invites entries are grouped in to *Pending* and *Actioned*.
 
-![action approve](/doc-images/actionapprove.png) 
+![action approve](/doc-images/actionedapprove.png) 
 
 The ledger also shows these details of the trusted party:
 
