@@ -20,7 +20,7 @@ Show Account Settings
 1. Click the user icon on the sidebar.
 2. In the displayed account card, click **Account Settings**. The Settings page appears.
 
-[!Settings](doc-images/Settings.png)
+![Settings](/doc-images/Settings.png)
 
 3. In the Settings page, click the various tabs for the different sections of the page.
 
@@ -35,6 +35,8 @@ The Account Details section shows information that was saved to your account on 
 
 Permissions
 -----------
+
+![perms](/doc-images/perms.png)
 
 The Permissions section shows your Qredo user role.
 
