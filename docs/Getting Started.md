@@ -214,20 +214,21 @@ The phone shows screens to introduce the seed recovery phrase.
 6. Tap **Got it**.The screens shows 24 empty entries.
 7.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
 
-
 ![confirm](/doc-images/confent.png)
     
 When all entries are correct, the screen shows as follows:
+
+![correct](/doc-images/correctent.png)
+
+
 
 ### Completion
 
 Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the mobile app.
 
+![end](/doc-images/end.png)
+
 You are now ready to sign in for the first time.
-
-Once you have created your master seed, the web app shows the screen that prompts you to sign in.
-
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/reg%20complete.png?api=v2)
 
 Signing in for the first time allows you to use the apps for managing funds and transactions.
 
@@ -243,10 +244,10 @@ Sign In Steps
     
 Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the mobile app. A message appears.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/sign%20in%20request.png?api=v2)
+![signin](/doc-images/signinconf.png)
 
-5. Tap **Yes**.
-6. If you want to deny the request, tap **No.**
+5. Tap **Authorise**.
+6. If you want to deny the request, tap **Deny.**
 
 ### View Requests
 
