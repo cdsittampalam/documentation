@@ -109,7 +109,7 @@ You can use the approval ledger for trusted parties in the web app to monitor re
 
 1. Click the Approval button.
 
- 
+![Button Approve](/doc-images/button-approve.png)  
 
 2. Click the Trusted Parties tab.
 
