@@ -243,7 +243,7 @@ Sign In Steps
 
 2.  Enter your details in **Email address or alias** and **Password**.
 
-![end](/doc-images/end.png)
+![wabsign](/doc-images/websign.png)
 
 3.  To ensure that you do not need to enter your details again the next time you open the mobile app, observe **Remember Me**.   
 4.  Tap **Sign In**.
