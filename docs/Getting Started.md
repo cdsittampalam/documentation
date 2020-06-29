@@ -213,6 +213,9 @@ The phone shows screens to introduce the seed recovery phrase.
 
 6. Tap **Got it**.The screens shows 24 empty entries.
 7.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
+
+
+![confirm](/doc-images/confent.png)
     
 When all entries are correct, the screen shows as follows:
 
