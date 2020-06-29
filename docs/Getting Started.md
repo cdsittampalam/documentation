@@ -202,6 +202,9 @@ The phone shows screens to introduce the seed recovery phrase.
 
 1.  Tap **Next.**
 2.  Enter the 24-word seed recovery phrase.
+
+![choosepin](/doc-images/seedrec.png)
+
 3.  Record your seed recovery phrase in a safe place.
 4.  Tap **Next.**    
 5.  Read through the instruction screen to confirm seed recovery and tap **Got it**. The screens shows 24 empty entries.
