@@ -31,9 +31,9 @@ You enter an email address for a user on the Qredo network. The email address mu
 1.  Enter the email address of the user and click Search.
 2.  If the user is on the Qredo network with that email address, a box appears asking you to confirm pairing with the email address.  
 
-    ![](https://qredo.atlassian.net/wiki/download/attachments/71074058/2-Email%20confirmation%20popup.png?api=v2)
+![Add Trusted](/doc-images/AddTrustedConf.png)
 
-3.  Click **Confirm**. Check the Trusted Network screen for details of the new invite (see Manage the Invite List).
+3.  Click **Confirm**. Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list)).
 
 ### Add from Contacts
 
