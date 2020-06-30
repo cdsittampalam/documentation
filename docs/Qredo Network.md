@@ -149,7 +149,6 @@ For depositing money, Alice creates a wallet using the app. Various nodes and se
 The blockchain validator records these events:
 
  - the wallet Alice has created on Qredo with her IDDoc
-
  - details of the deposit transaction to a wallet address.
 
 #### Watcher and MPC
