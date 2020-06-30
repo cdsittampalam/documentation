@@ -132,11 +132,9 @@ You can set Fund One to include Bitcoin instead of Bitcoin Testnet. When you cha
 
 This feature is especially useful for users that are likely to be instantly receive money in to their default fund. For example, as an exchange user, you may want to instantly receive payments in Bitcoin rather than Bitcoin Test.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/GR50%20-%202Change%20Defaults.png?api=v2)
+![custody fund](/doc-images/changedef.png)
 
 1.  Click **Change Defaults.** The Default Funds screen appears.   
-
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/50GR-ChangeDefaultFunds.png?api=v2)
 
 2. Select Fund One in **For incoming Bitcoin BTC transfers.**
 

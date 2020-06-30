@@ -8,7 +8,7 @@ The Qredo network consists of an asset-tracking blockchain secured by a set of c
 
 The Layer 2 characteristics of the Qredo blockchain provide transparency, immutability, and decentralisation.
 
-This page describes basic concepts on the Qredo network (see [Introduction](#qredo-network-introduction) For more technical details refer
+This page describes basic concepts on the Qredo network (see [Introduction](#qredo-network-introduction)) For more technical details, refer
 to the section on the [Architecture](#architecture) and onwards.
     
 
