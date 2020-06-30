@@ -111,41 +111,45 @@ function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Qredo Customer Center">
-      <header className={classnames('hero', styles.heroBanner)}>
-        <div className="container">
-          <h1 className={styles.heroTitle}>How can we help you?</h1>
-          <p className={styles.heroSubtitle}>Discover how secure and fast movement of digital assets works</p>
-        </div>
-      </header>
-      <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
+      <div className={styles.landingPageBackground}>
+        <header className={classnames('hero', styles.heroBanner)}>
+          <div className="container">
+            <h1 className={styles.heroTitle}>How can we help you?</h1>
+            <p className={styles.heroSubtitle}>Discover how secure and fast movement of digital assets works</p>
+          </div>
+        </header>
+        <main>
+          {features && features.length > 0 && (
+            <section className={styles.features}>
+              <div className="container">
+                <div className="row">
+                  {features.map((props, idx) => (
+                    <Feature key={idx} {...props} />
+                  ))}
+                </div>
               </div>
+            </section>
+          )}
+          <div className={styles.banner}>
+            <h2 className={styles.bannerTitle}>What's new</h2>
+            <ul className={styles.bannerList}>
+              <li><Link>Release Notes: April 2020</Link></li>
+              <li><Link>Release Notes</Link></li>
+              <li><Link>Release Notes</Link></li>
+            </ul>
+          </div>
+
+          <div className={styles.contactWrapper}>
+            <div className={styles.contact}>
+              <h2 className={styles.contactTitle}>Contact our support team</h2>
+
+              <p className={styles.contactFaq}>Frequently asked questions</p>
+
+              <a href="mailto:support@qredo.com" className={styles.contactEmail}>support@qredo.com</a>
             </div>
-          </section>
-        )}
-        <div className={styles.banner}>
-          <h2 className={styles.bannerTitle}>What's new</h2>
-          <ul className={styles.bannerList}>
-            <li><Link>Release Notes: April 2020</Link></li>
-            <li><Link>Release Notes</Link></li>
-            <li><Link>Release Notes</Link></li>
-          </ul>
-        </div>
-
-        <div className={styles.contact}>
-          <h2 className={styles.contactTitle}>Contact our support team</h2>
-
-          <p className={styles.contactFaq}>Frequently asked questions</p>
-
-          <a href="mailto:support@qredo.com" className={styles.contactEmail}>support@qredo.com</a>
-        </div>
-      </main>
+          </div>
+        </main>
+      </div>
     </Layout>
   );
 }

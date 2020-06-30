@@ -9,6 +9,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-font-color-base: #454545;
   --ifm-color-primary: #000000;
   --ifm-color-primary-dark: rgb(7, 7, 7);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -30,8 +31,147 @@
   --ifm-navbar-background-color: #191919;
   --ifm-navbar-padding-vertical: 24px;
   --ifm-navbar-height: 91px;
+  --ifm-global-radius: 8px;
+  --ifm-table-head-background: #FAFAFA;
+  --ifm-table-border-color: #EEEEEE;
+  --ifm-table-head-font-weight: 500;
+  --ifm-code-background: #eee;
+  --ifm-code-color: #454545;
+  --ifm-code-border-radius: 4px;
+  --ifm-code-font-size: 16px;
+
+  --ifm-color-success: #007955;
+  --ifm-color-info: #0086A4;
+  --ifm-color-warning: #806C00;
+  --ifm-color-danger: #DF001F;
 
   --ifm-font-family-base: 'Barlow', sans-serif;
+}
+
+.markdown {
+  --ifm-link-color: #C60098;
+  --ifm-link-hover-color: #830164;
+  --ifm-link-decoration: underline;
+}
+
+.markdown blockquote {
+  border-left: 0;
+  position: relative;
+  padding: 4px 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #191919;
+}
+
+.markdown blockquote::before {
+  content: "";
+  display: block;
+  background-color: #007955;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  border-radius: 1.5px;
+}
+
+.markdown h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 500;
+}
+
+.markdown h2 {
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.markdown h3 {
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 500;
+}
+
+.markdown h4 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+.markdown h5 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.markdown p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #454545;
+}
+
+.markdown img {
+  border-radius: 8px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 7px -1px rgba(38,8,8,0.15);
+}
+
+.markdown ul {
+  list-style: none;
+}
+
+.markdown ul li::before {
+  content: "•";
+  color: #C30097;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em
+}
+
+.markdown table tr {
+  background-color: var(--ifm-table-background);
+  border-top: 0;
+}
+
+.markdown table th {
+  background-color: var(--ifm-table-head-background);
+  color: var(--ifm-table-head-color);
+  font-weight: var(--ifm-table-head-font-weight);
+  font-size: 14px;
+  border: 0;
+  border-bottom: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+}
+
+.markdown table th + th {
+  border-left: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+}
+
+.markdown table td {
+  border: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+  border: 0;
+  padding: var(--ifm-table-cell-padding);
+}
+
+.markdown table td + td {
+  border-left: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+}
+
+.markdown table tr:last-child {
+  border-bottom: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+}
+
+.markdown code {
+  font-weight: 600;
+  border-radius: var(--ifm-code-border-radius);
+  color: var(--ifm-code-color);
+  font-size: var(--ifm-code-font-size);
+  margin: 0;
+  padding: var(--ifm-code-padding-vertical) var(--ifm-code-padding-horizontal);
 }
 
 .docusaurus-highlight-code-line {
@@ -55,15 +195,125 @@
 }
 
 .main-wrapper {
-  background-image: linear-gradient( #fff 911px,  #EEEEEE 911px);
+  background: #fff;
 }
 
 @media screen and (max-width: 980px) {
-  .main-wrapper {
-    background-image: none;
-  }
-
   .footer {
     padding-top: var(--ifm-footer-padding-vertical);
   }
+}
+
+/* ADMONITIONS */
+
+:root {
+  --ifm-alert-color: #454545;
+}
+
+.alert {
+  background-color: #FBFBFB;
+  border: 1px solid #FAFAFA;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.01);
+  overflow: hidden;
+  position: relative;
+  padding-left: 64px;
+}
+
+.alert::before {
+  content: "";
+  display: block;
+  width: 8px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--ifm-color-gray-900);
+}
+
+.alert .admonition-heading {
+  margin-left: -32px;
+}
+
+.alert .admonition-icon {
+  margin-right: 8px;
+}
+
+.alert.alert--success::before {
+  background-color: var(--ifm-color-success);
+}
+
+.alert.alert--success .admonition-heading {
+  color: var(--ifm-color-success);
+}
+
+.alert.alert--success .admonition-icon svg {
+  fill: var(--ifm-color-success);
+}
+
+.alert.alert--info::before {
+  background-color: var(--ifm-color-info);
+}
+
+.alert.alert--info .admonition-heading {
+  color: var(--ifm-color-info);
+}
+
+.alert.alert--info .admonition-icon svg {
+  fill: var(--ifm-color-info);
+}
+
+.alert.alert--warning::before {
+  background-color: var(--ifm-color-warning);
+}
+
+.alert.alert--warning .admonition-heading {
+  color: var(--ifm-color-warning);
+}
+
+.alert.alert--warning .admonition-icon svg {
+  fill: var(--ifm-color-warning);
+}
+
+.alert.alert--danger::before {
+  background-color: var(--ifm-color-danger);
+}
+
+.alert.alert--danger .admonition-heading {
+  color: var(--ifm-color-danger);
+}
+
+.alert.alert--danger .admonition-icon svg {
+  fill: var(--ifm-color-danger);
+}
+
+.admonition h5 {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.admonition-content {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* TABS */
+
+.tabs__item {
+  border-bottom-width: 2px;
+}
+
+.tabs li.tabs__item::before {
+  display: none;
+}
+
+.tabs__item:hover,
+.tabs__item.tabs__item:focus {
+  background-color: transparent;
+  outline: none;
+  color: var(--ifm-tabs-color-active);
+}
+
+.tabs__item--active {
+  border-bottom-color: #C30097;
 }
