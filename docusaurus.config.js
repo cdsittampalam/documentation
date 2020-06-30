@@ -34,12 +34,12 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "What is Qredo",
+              label: "Overview",
               to: "docs/",
             },
             {
-              label: "Getting Started with Qredo",
-              to: "docs/doc2/",
+              label: "Getting Started",
+              to: "docs/Getting%20Started",
             },
           ],
         },

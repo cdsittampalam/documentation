@@ -5,7 +5,7 @@ module.exports = {
     'Customer Care': ['Account Help', 'Account Recovery', 'Payment Help', 'Plans & Pricing', 'Transaction Fees', 'Contact Us', 'FAQ'],
     'Network Members': ['Financial Institutions', 'Exchanges', 'Custodians', 'Traders'],
     Partners: ['Systems Integrators', 'EMS & OMS ISVs', 'Partner API'],
-    Deployment: ['Custodian Mobile App', 'Custodian Server', 'Qredo Validators', 'Qredo Server'],
+    'Deployment Guides': ['Custodian App', 'Custodian Server', 'Qredo Validators', 'Qredo Server'],
     'Open Source': ['Policy & Guidelines', 'MPC Library'],
     Roadmap: ['Current Releases', 'Future Releases', 'Feature Requests']
 
