@@ -83,7 +83,7 @@ To view the full terms and conditions, click the arrow next to **View full terms
 
 If required, you can download the full terms and conditions. You may need this document to distribute and print to other parties.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/accept%20terms%20and%20conditions.png?api=v2)
+![accept](/doc-images/accept.png)
 
 1.  To download the terms and conditions, click **Download**.
 2.  To view the terms and conditions as a PDF file in another browser page or tab, click **Copy Link**.
