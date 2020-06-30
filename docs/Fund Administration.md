@@ -104,7 +104,7 @@ The Withdrawal and TX tabs include custody policies comprising of custodians and
 When you create a fund, you can assign any number of custodians for withdrawals and transfers.
 :::
 
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/Fund%20One%20-Custody.png?api=v2)
+![custody fund](/doc-images/CustodyFund.png)
 
 ---
 

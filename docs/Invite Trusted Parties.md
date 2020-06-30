@@ -115,7 +115,7 @@ You can use the approval ledger for trusted parties in the web app to monitor re
 
 The ledger shows entries for invites that have been approved or denied. The invites entries are grouped in to *Pending* and *Actioned*.
 
-![action approve](/doc-images/actionapprove.png) 
+![action approve](/doc-images/actionedapprove.png) 
 
 The ledger also shows these details of the trusted party:
 
