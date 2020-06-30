@@ -17,7 +17,7 @@ Introduction
 
 The Qredo network allows the management of digital assets where transactions are processed through the Qredo blockchain with various nodes and services working together.
 
-The Qredo blockchain records transactions that happen for these events:a
+The Qredo blockchain records transactions that happen for these events:
 
 *   A new user joins Qredo.
 *   Money is deposited to an account that allows digital assets (e.g., Bitcoins).
@@ -25,7 +25,7 @@ The Qredo blockchain records transactions that happen for these events:a
 *   Money is withdrawn from the Qredo network
     
 
-Users interact with the Qredo network using the Qredo app that they signed up for (see [Qredo App](/wiki/pages/createpage.action?spaceKey=QD&title=Qredo+App&linkCreation=true&fromPageId=121865074)). In addition, a developer user can use the Qredo network by enrolling for the partner API.
+Users interact with the Qredo network using the Qredo app that they signed up for (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). In addition, a developer user can use the Qredo network by enrolling for the partner API.
 
 Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
 
