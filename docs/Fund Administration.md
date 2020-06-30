@@ -195,7 +195,7 @@ Entering name, description and a theme enables your fund to be identified on the
 
 ### Transfer Policy Custodians
 
-1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](docs/Invite%20Trusted%20Parties)).  Click **Continue**.
+1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](/docs/Invite%20Trusted%20Parties)).  Click **Continue**.
 3.  In the **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
 4.  For each custodian, choose a threshold in the **Threshold** list.
 5.  Click **Continue**. 
