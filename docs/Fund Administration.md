@@ -38,7 +38,7 @@ You can then choose one of the following options:
 
 *   **View Fund One:** If you are a new user, you can view details of a default fund, labelled Fund One. Fund One is created for you once you have joined the Qredo Network. While Fund One is designed to help you understand how a Qredo fund works, you can also use Fund One for transactions. The system creates a deposit address for you to receive assets (see [View Fund One](#view-fund-one)).
     
-*   **Change Default Settings:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Fund and Assets](#change-default-fund-and-assets)).
+*   **Change Default Settings:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Settings](#change-default-settings)).
     
 *   **Create a Fund:** If you are familiar with the concepts of a Qredo funds and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
     
@@ -195,7 +195,7 @@ Entering name, description and a theme enables your fund to be identified on the
 
 ### Transfer Policy Custodians
 
-1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](docs/Invite%20Trusted%20Parties)).  Click **Continue**.
+1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](/docs/Invite%20Trusted%20Parties)).  Click **Continue**.
 3.  In the **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
 4.  For each custodian, choose a threshold in the **Threshold** list.
 5.  Click **Continue**. 
@@ -204,7 +204,7 @@ Entering name, description and a theme enables your fund to be identified on the
 
 ### Withdrawal Policy Custodians
 
-1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](https://qredo.atlassian.net/wiki/spaces/QD/pages/71074058/Invite+Trusted+Parties)).
+1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](/docs/Invite%20Trusted%20Parties)).
 2.  Click **Review Fund Details**.
 3.  Observe your name as the fund member and click **Continue**.
 4.  In **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.

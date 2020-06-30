@@ -4,7 +4,7 @@ id: Getting Started
 
 The app section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your web app and the mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
 
-![Page1](/doc-images/Page1.png)
+![Page1](/doc-images/page1.png)
 
 This page shows the steps for web app registration with links to specific steps for setting up the phone app.
 
@@ -17,22 +17,20 @@ You start the process of registering with Qredo from the web app. The process al
 
 1.  Click **Join Qredo**. A lobby page shows an introductory video on Qredo and links to FAQs.    
 
-![Page2](/doc-images/Page2.png)
+![Page2](/doc-images/page2.png)
 
 2. Click **Continue**.
 
 The Establish your Qredo Identity screen appears.
 
-![Identity](/doc-images/IdentQredo.png)
+![Identity](/doc-images/identQredo.png)
 
 ### Establish Qredo Identity
 
 1. Enter your details in:
 
     -  **Full name**
-    
     -  **Email address**
-    
     -  **Mobile number**
    
     :::info
@@ -52,8 +50,6 @@ The Establish your Qredo Identity screen appears.
 
 1.  Enter a strong password in **Set password.**    
 2.  Confirm the password again in **Confirm password.**
-
-
 
 The password must contain:
 
@@ -209,7 +205,7 @@ The phone shows screens to introduce the seed recovery phrase.
 4.  Tap **Next.**    
 5.  Read through the instruction screen to confirm seed recovery. 
 
-![seedinst](/doc-images/seedInst.png)
+![seedinst](/doc-images/seedinst.png)
 
 6. Tap **Got it**.The screens shows 24 empty entries.
 7.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
