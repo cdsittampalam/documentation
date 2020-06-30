@@ -220,8 +220,6 @@ When all entries are correct, the screen shows as follows:
 
 ![correct](/doc-images/correctent.png)
 
-
-
 ### Completion
 
 Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the mobile app.
