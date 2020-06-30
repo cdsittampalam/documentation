@@ -17,7 +17,7 @@ You start the process of registering with Qredo from the web app. The process al
 
 1.  Click **Join Qredo**. A lobby page shows an introductory video on Qredo and links to FAQs.    
 
-![Page2](/doc-images/Page2.png)
+![Page2](/doc-images/page2.png)
 
 2. Click **Continue**.
 
