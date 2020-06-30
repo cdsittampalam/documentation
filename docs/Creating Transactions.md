@@ -146,7 +146,6 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
 
 1.  Go to the **TX Ledger** section in the web app.
-
 2.  Access the **Outbound** tab.
 
 TX Ledger shows the following details:
