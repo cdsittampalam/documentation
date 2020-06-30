@@ -45,8 +45,8 @@ Manage Invite List
 
 The Trusted Network screen shows the status of your invites for joining the Qredo network as trusted counterparties. Invite entries show as either:  
 
-⦁ paired - where the user or contact has accepted the invite.  
-⦁ pending - where the user or contact has not yet accepted the invite.
+*  paired - where the user or contact has accepted the invite.  
+*  pending - where the user or contact has not yet accepted the invite.
 
 ![TNScreen](/doc-images/TNScreen.png)
 
