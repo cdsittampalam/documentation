@@ -55,7 +55,7 @@ Transfer policies determine the type of transaction that a custodian can sign. C
 
 #### Qredo Wallet
 
-Qredo wallet enables the management of money on the Qredo network. A wallet links to an external Bitcoin address and captures deposits into that address as funds it controls on the Qredo blockchain. A wallet is created when money is first added to the Qredo network.
+Qredo wallet enables the management of money on the Qredo network. A wallet links to an external Bitcoin address and captures deposits into that address as funds it controls on the Qredo blockchain. A wallet is created when money is first added to the Qredo network. Addresses need to be created for money coming in or out.
 
 #### Qredo Blockchain
 
@@ -186,7 +186,7 @@ When transferring money, the participants update the user interface. The transac
     
 ### Withdrawing Money
 
-For withdrawing money, or settlement, money is transferred back out of the Qredo network to an external address.  To ensure that a valid wallet is put forward, various nodes and services are used as summarised:
+For withdrawing money, or a settlement, money is transferred back out of the Qredo network to an external address.  To ensure that a valid wallet is put forward, various nodes and services are used as summarised:
 
 ![settle funds](/doc-images/settlefunds.png)
 
@@ -199,7 +199,6 @@ During the transaction, the wallet is locked to prevent any further updates.  Th
 The blockchain validator records:
 
 - the transaction and the signatures
-
 - the completed transaction which allows change from the settlement to released back in to Qredo.
 
 ---
@@ -229,8 +228,7 @@ Crystallization
 
 At the end of every transaction is the crystallization process to ensure that the amounts in each wallet are correct for all Qredo users. To ensure solvency for the system, the process also proves that all coins locked onto the Qredo blockchain system are spendable.
 
-For each user, the process ensures that the amounts are mapped to a UTXO on an external Bitcoin address.  
-For example, if a wallet has 30 Bitcoin between Bob and Alice, the crystallization process will:
+For each user, the process ensures that the amounts are mapped to a UTXO on an external Bitcoin address. For example, if a wallet has 30 Bitcoin between Bob and Alice, the crystallization process will:
 
 *   map the wallet to Alice's UTXO containing 12 Bitcoin
     

@@ -2,7 +2,7 @@
 id: Security & Cryptography
 ---
 
-The Qredo network includes a secure architecture that allows transaction data to remain on the Qredo blockchain, and that transactions can be handled all the time. Cryptography, running behind-the-scenes, ensures that all data is kept hidden, and reduces the likelihood of attacks to impossible odds.
+The Qredo network includes a secure architecture that allows transaction data to remain on the Qredo blockchain, and to allow transactions to be handled 24 by 7. Cryptography, running behind-the-scenes, ensures that all data is kept hidden, and reduces the likelihood of attacks to impossible odds.
 
 This page describes:
 
