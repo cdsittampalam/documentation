@@ -156,7 +156,7 @@ When you select custodians, you can also choose the Threshold level. A Threshold
 
 In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for individual withdrawal and transfer policies. Each policy contains a set Threshold level.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/Managing%20Fund%20A.png?api=v2)
+![Fund A](/doc-images/ManagingFundA.png)
 
 You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
 
@@ -195,7 +195,7 @@ Entering name, description and a theme enables your fund to be identified on the
 
 ### Transfer Policy Custodians
 
-1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](https://qredo.atlassian.net/wiki/spaces/QD/pages/71074058/Invite+Trusted+Parties))..  Click **Continue**.
+1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](docs/Invite%20Trusted%20Parties)).  Click **Continue**.
 3.  In the **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
 4.  For each custodian, choose a threshold in the **Threshold** list.
 5.  Click **Continue**. 
