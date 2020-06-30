@@ -106,7 +106,8 @@ A node on an external cryptocurrency network (such as Bitcoin). The node keeps a
 
 #### MPC Cluster
 
-The MPC cluster is a set of nodes that work together to generate a signed public key by applying the MPC protocol. The protocol, through its use of mathematics behind the scenes, alleviates the need for a private key in order to sign transactions that are added to the Qredo blockchain. The MPC cluster works with both the watcher and the MPC validator.  When adding funds, an MPC node verifies the validity of a request against either a proof supplied with the transaction or by querying the Qredo blockchain validator. Any resultant MPC transaction can be transferred back to the Qredo blockchain through the watcher. The validity of the transaction can be checked by verifying the signatures against the public keys of the MPC cluster. 
+The MPC cluster is a set of nodes that work together to generate a signed public key by applying the MPC protocol. The protocol, through its use of mathematics behind the scenes, alleviates the need for a private key in order to sign transactions that are added to the Qredo blockchain. 
+The MPC cluster works with both the watcher and the MPC validator.  When adding funds, an MPC node verifies the validity of a request against either a proof supplied with the transaction or by querying the Qredo blockchain validator. Any resultant MPC transaction can be transferred back to the Qredo blockchain through the watcher. The validity of the transaction can be checked by verifying the signatures against the public keys of the MPC cluster. 
 
 #### MPC Validator
 
