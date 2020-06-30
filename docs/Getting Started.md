@@ -4,7 +4,7 @@ id: Getting Started
 
 The app section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your web app and the mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
 
-![Page1](/doc-images/Page1.png)
+![Page1](/doc-images/page1.png)
 
 This page shows the steps for web app registration with links to specific steps for setting up the phone app.
 
