@@ -73,7 +73,7 @@ Assets comprise of:
 Assets in the Qredo blockchain are different from digital assets that are described for trading and finance.
 :::
 
-Qredo blockchain software components are built using [Tendermine](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive and not subject to 51% attacks.  
+Qredo blockchain software components are built using [Tendermint](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive and not subject to 51% attacks.  
 
 ---
 
