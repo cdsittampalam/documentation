@@ -23,7 +23,7 @@ You start the process of registering with Qredo from the web app. The process al
 
 The Establish your Qredo Identity screen appears.
 
-![Identity](/doc-images/IdentQredo.png)
+![Identity](/doc-images/identQredo.png)
 
 ### Establish Qredo Identity
 
