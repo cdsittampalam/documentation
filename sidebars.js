@@ -10,4 +10,7 @@ module.exports = {
     Roadmap: ['Current Releases', 'Future Releases', 'Feature Requests']
 
   },
+  ProductTourSidebar: {
+    'Product Tour': ['Product Tour 0', 'Product Tour 1', 'Product Tour 2', 'Product Tour 3'],
+  },
 };
