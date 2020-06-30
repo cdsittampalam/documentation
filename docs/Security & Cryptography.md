@@ -70,7 +70,7 @@ The MPC uses the Paillier crypotsystem when the protocol is run. The Paillier cr
 
 ### SECP256K
 
-The MPC uses SECP256K to ensure that the generated public key is compatible with Bitcoin. SECP256K is the signature algorithm used by Bitcoin. Other cryptocurrencies use SECP256K which will allow Qredo to support Litecoin and Ethereum currencies in future releases.
+The MPC uses [SECP256K] (https://en.bitcoin.it/wiki/Secp256k1) to ensure that the generated public key is compatible with Bitcoin. SECP256K is the signature algorithm used by Bitcoin. Other cryptocurrencies use SECP256K which will allow Qredo to support Litecoin and Ethereum currencies in future releases.
 
 **Note:** SEC means Standards for Efficient Cryptography
 
