@@ -80,7 +80,7 @@ As a custodian, you can approve the withdrawal address for the transaction if it
 6.  Enter a name for the wallet in **Wallet Name**.    
 7.  Type in the wallet address in **Wallet Address**.    
 8.  Click **Continue**.    
-9.  See Authorise the New Withdrawal Address.
+9.  See Authorise an Address (Trade Initiator) below.
     
 ---
 
@@ -173,7 +173,7 @@ Once authorised, the custodian can also approve or reject the transaction.
 Once authorised, you can view its details including the fees that are charged on the transaction.
 
 1.  Tap on the notification that you received on your phone. The Withdraw screen shows with details of the transaction including fees.    
-2.  To authorise, tap **Authorise**. (see Confirm Authorisation).   
+2.  To authorise, tap **Authorise**.   
 3.  To reject, tap **Reject** (see Reject a Transaction).
     
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
