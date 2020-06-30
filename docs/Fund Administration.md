@@ -23,7 +23,7 @@ The Holdings page lists the funds under your account. These include one or more 
 The Holdings page consists of:the summary section that allows you to create a fund or view attributes of a default fund.
 
 ![Fund One in Holdings](/doc-images/FundOnedefault.png)
-s
+
 The page also allows you to view details on the transactions and the custody policies of the fund.
 
 ![All Transactions](/doc-images/AllTransactions.png)
@@ -220,4 +220,4 @@ You can review the details of the selected custodians for the withdrawal and tra
 1.  To change any of the fund details, click **Back** to return to the previous wizard screen. Clicking **Back** again moves to previous screens.
 2.  Click **Confirm and Create Fund**.
     
-Transfers display an error message to the recipient after the confirmation step if the target counterparty does not have a default fund set for the asset. For example, you use Bitcoin but they don't have a Bitcoin fund. created.
+Transfers display an error message to the recipient after the confirmation step if the target counterparty does not have a default fund set for the asset. For example, you use Bitcoin but they don't have a Bitcoin fund.
