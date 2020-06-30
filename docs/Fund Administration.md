@@ -70,7 +70,7 @@ The summary section has basic information on the fund:
 *   Bitcoin Testnet as the asset
     
 
-![](2-Summary%20info%20on%20FundOne.png)
+![summary](/doc-images/suminfo.png)
 
 ---
 
@@ -80,7 +80,7 @@ The Membership & Permissions section shows your name as a fund member with the p
 
 When you create other funds, you will also be the sole fund member.
 
-![](50GR%20-%20Fund%20Membership%20and%20permissions.png)
+![fund membership](/doc-images/fundmem.png)
 
 ---
 
