@@ -1,5 +1,6 @@
 ---
 id: Custodian Administration
 ---
-Lorem ipsum
+
+Coming soon is the capability to add, update, and remove custodians to and from funds.
 
