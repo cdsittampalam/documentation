@@ -2,9 +2,6 @@
 id: Creating Transactions
 ---
 
-Overview
----------
-
 Transactions allow a trade initiator to transfer money to a recipient (or counterparty) within the same fund. All money during a transfer
 stays on the Qredo network, and is secure on the Qredo blockchain. With assets of the Qredo network, instead of in cold storage, crypto and capital market participants
 can easily keep their money liquid by transferring amounts between participants.
@@ -74,7 +71,7 @@ Once authorised, you can double-check details including the fees that are charge
 
 1.  Tap on the notification that you received on your phone. The Transfer screen shows details of the transaction including fees.
 2.  To authorise, tap **Authorise**.
-3.  To reject, tap **Reject** (see Reject a Transaction).
+3.  To reject, tap **Reject**.
 
 For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
