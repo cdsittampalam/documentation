@@ -105,8 +105,6 @@ You receive a notification as soon as the trade initiator has authorised the wit
 *   the name of the asset.    
 *   the name of the trade initiator.    
 *   the expiry time and date of the request.
-    
-screenshot
 
 You can also view other details of the withdrawal address including:
     
