@@ -119,7 +119,7 @@ Accesses data on the Qredo blockchain on request by the MPC cluster through an i
 Transaction Flows
 -----------------
 
-This section shows transaction flows and the functions performed by nodes and services on the Qredo network. These include transactions when a user
+Transaction flows can require functions nodes and services to perform various functions on the Qredo network, including when a user:
 
 *   joins Qredo
 *   deposits money
