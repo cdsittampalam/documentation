@@ -4,7 +4,7 @@ id: Getting Started
 
 The app section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your web app and the mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/start%20page.png?api=v2)
+![Page1](/doc-images/Page1.png)
 
 This page shows the steps for web app registration with links to specific steps for setting up the phone app.
 
@@ -17,7 +17,7 @@ You start the process of registering with Qredo from the web app. The process al
 
 1.  Click **Join Qredo**. A lobby page shows an introductory video on Qredo and links to FAQs.    
 
-![](https://qredo.atlassian.net/wiki/download/attachments/54559808/2-start%20page.png?api=v2)
+![Page2](/doc-images/Page2.png)
 
 2. Click **Continue**.
 
