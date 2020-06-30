@@ -25,7 +25,7 @@ The Qredo blockchain records transactions that happen for these events:
 *   Money is withdrawn from the Qredo network
     
 
-Users interact with the Qredo network using the Qredo app that they signed up for (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). In addition, a developer user can use the Qredo network by enrolling for the partner API.
+Users interact with the Qredo network using the Qredo app that they signed up for (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). In addition, a developer user can use the Qredo network by enrolling for the Partner API. Details on the Partner API are coming soon.
 
 Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
 
@@ -73,7 +73,7 @@ Assets comprise of:
 Assets in the Qredo blockchain are different from digital assets that are described for trading and finance.
 :::
 
-Qredo blockchain software components are built using Tendermint [https://tendermint.com/](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive and not subject to 51% attacks.  
+Qredo blockchain software components are built using [Tendermine](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive and not subject to 51% attacks.  
 
 ---
 
