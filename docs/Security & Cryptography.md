@@ -92,5 +92,5 @@ BLS public and private key pairs are generated when an IDDoc is created for a us
 BLS uses elliptic curve cryptography combined with bi-linear mapping to calculate public keys, private keys, and signatures. Bi-linear mapping features algebra. Through its mathematics, BLS allows the creation of shorter signatures for more efficient signing.
 
 :::info
-Cryptography in Qredo is built from the [Apache Milagro project]: (https://milagro.apache.org/users.html) More information is also available from Qredo's Yellow Paper [here]:(https://www.qredo.com/yellow-paper)
+Cryptography in Qredo is built from the Apache Milagro project. More information is also available from Qredo's Yellow Paper.
 :::
