@@ -5,6 +5,16 @@
  * and scoped locally.
  */
 
+.landingPageBackground {
+  background-image: linear-gradient( #fff 911px,  #EEEEEE 911px);
+}
+
+@media screen and (max-width: 980px) {
+  .landingPageBackground {
+    background-image: none;
+  }
+}
+
 .heroBanner {
   text-align: center;
   position: relative;
@@ -195,6 +205,10 @@ a {
   line-height: 22px;
 }
 
+.contactWrapper {
+  background-image: linear-gradient( #eee 211px,  var(--ifm-footer-background-color) 211px);
+}
+
 .contact {
   width: 100%;
   background-image: url('/img/contact-background.jpg');
@@ -206,7 +220,7 @@ a {
   padding: 97px 72px;
   max-width: var(--ifm-container-width);
   margin: 0 auto;
-  margin-bottom: -220px;
+  /* margin-bottom: -220px; */
   z-index: 1;
   position: relative;
 }
