@@ -51,8 +51,6 @@ The Establish your Qredo Identity screen appears.
 1.  Enter a strong password in **Set password.**    
 2.  Confirm the password again in **Confirm password.**
 
-
-
 The password must contain:
 
    -  10 characters in total
@@ -207,7 +205,7 @@ The phone shows screens to introduce the seed recovery phrase.
 4.  Tap **Next.**    
 5.  Read through the instruction screen to confirm seed recovery. 
 
-![seedinst](/doc-images/seedInst.png)
+![seedinst](/doc-images/seedinst.png)
 
 6. Tap **Got it**.The screens shows 24 empty entries.
 7.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
