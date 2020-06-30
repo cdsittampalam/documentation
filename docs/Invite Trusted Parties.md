@@ -40,6 +40,8 @@ The invite is sent directly via the selected platform. The users see the invite 
 
 You can check the Trusted Network screen for details of the new invite.
 
+---
+
 Manage Invite List
 ------------------
 
@@ -57,6 +59,8 @@ An invite that is pending can mean that it has been rejected. If the user has no
 ### Clear Paired Status
 
 To help you manage your invite list, you can clear invite entries that have been paired by double-clicking the buttons labelled **Paired**.
+
+---
 
 Custodian Approvals
 -------------------
