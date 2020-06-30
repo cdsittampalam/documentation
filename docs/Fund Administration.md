@@ -118,14 +118,10 @@ When Fund One is created, there is a single deposit address that is automaticall
 
 1.  Click on the Asset icon under Fund One. This allows you to enter the Asset view.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/asset%20icon%20in%20the%20holdings%20tab.png?api=v2).
+![address](/doc-images/hldin.png)
 
 2. Click **Transactions** to view the transactions.
 3. Click **Addresses** and the respective subtabs for deposits and withdrawals.
-
-The following example shows a withdrawal address.
-
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/Addresses.png?api=v2)
 
 ---
 
