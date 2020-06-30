@@ -204,7 +204,7 @@ Entering name, description and a theme enables your fund to be identified on the
 
 ### Withdrawal Policy Custodians
 
-1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](https://qredo.atlassian.net/wiki/spaces/QD/pages/71074058/Invite+Trusted+Parties)).
+1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](/docs/Invite%20Trusted%20Parties)).
 2.  Click **Review Fund Details**.
 3.  Observe your name as the fund member and click **Continue**.
 4.  In **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
