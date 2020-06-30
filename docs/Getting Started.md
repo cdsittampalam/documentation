@@ -30,9 +30,7 @@ The Establish your Qredo Identity screen appears.
 1. Enter your details in:
 
     -  **Full name**
-    
     -  **Email address**
-    
     -  **Mobile number**
    
     :::info
