@@ -22,8 +22,6 @@ Send Email Invite
 
 ![Add Trusted](/doc-images/addtrusted.png)
 
-Go to either Add a User from the Qredo Network or Add a User from your Contacts.
-
 ### Add from Qredo
 
 You enter an email address for a user on the Qredo network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again. Alternatively, you can add them via LinkedIn, Telegram, or WhatsApp in the same way as adding a counterparty from outside of Qredo.
@@ -46,6 +44,7 @@ Manage Invite List
 ------------------
 
 The Trusted Network screen shows the status of your invites for joining the Qredo network as trusted counterparties. Invite entries show as either:  
+
 ⦁ paired - where the user or contact has accepted the invite.  
 ⦁ pending - where the user or contact has not yet accepted the invite.
 
