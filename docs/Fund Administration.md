@@ -116,7 +116,7 @@ When you use Fund One, you will be able to view a list of transactions with the 
 
 When Fund One is created, there is a single deposit address that is automatically assigned to receive money. When used, a fund can have multiple withdrawal addresses.
 
-1.  Click on the Asset icon under Fund One 
+1.  Click on the Asset icon under Fund One. This allows you to enter the Asset view.
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/81723458/asset%20icon%20in%20the%20holdings%20tab.png?api=v2).
 
