@@ -170,9 +170,9 @@ As an investor creating funds, you will need to work closely with a custody prov
 
 ### Start Wizard
 
-From the Summary section in the Holdings page, click the Plus icon.
+From the Summary section in the Holdings page, click the Plus icon or **Create New Fund**.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/81723458/change%20defaults%20on%20summary.png?api=v2)
+![Fund A](/doc-images/defchange.png)
 
 ---
 
