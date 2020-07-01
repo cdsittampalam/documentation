@@ -20,7 +20,7 @@ fund that you create is linked to a deposit address.
 1. Access the Holdings page.
 2. To go to asset view, click
 
-![asset](doc-images/asset.png)
+![asset](/doc-images/asset.png)
 
 3. In the TX ledger, click the **Addresses** tab. The table shows the following information on addresses:
 
