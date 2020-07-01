@@ -51,8 +51,6 @@ From the Holdings page, click the plus icon on Fund One.
 
 ![defaultfund](/doc-images/deffund.png) 
 
-![defaultfund2](/doc-images/deffund2.png) 
-
 The Summary info, Membership & Permissions and Custody sections show for Fund One.
 
 If you have changed your default settings to include Bitcoin for Fund One and Bitcoin Testnet for Fund Two, you will see 2 default funds in the Holdings page.
