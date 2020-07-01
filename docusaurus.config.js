@@ -24,8 +24,7 @@ module.exports = {
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
-        },
-        { to: "blog", label: "Blog", position: "left" },
+        }
       ],
     },
     footer: {
@@ -63,10 +62,6 @@ module.exports = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
             {
               label: "GitHub",
               href: "https://github.com/qredo/documentation",
