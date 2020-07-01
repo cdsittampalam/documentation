@@ -40,7 +40,7 @@ The invite is sent directly via the selected platform. The users see the invite 
 
 You can check the Trusted Network screen for details of the new invite.
 
-***
+---
 
 Manage Invite List
 ------------------
