@@ -12,7 +12,7 @@ Future versions will allow atomic swaps that provide instant exchange of differe
 
 ![tick](/doc-images/tick.png)
 
-![3](/doc-images/3.png)
+![trusted](/doc-images/trusted.png)
 
 ![4](/doc-images/4.png)
 
