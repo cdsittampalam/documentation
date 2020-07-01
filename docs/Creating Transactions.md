@@ -10,7 +10,7 @@ Future versions will allow atomic swaps that provide instant exchange of differe
 
 ![coins](/doc-images/coins.png)
 
-![2](/doc-images/2.png)
+![tick](/doc-images/tick.png)
 
 ![3](/doc-images/3.png)
 
