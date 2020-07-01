@@ -49,7 +49,9 @@ View Fund One
 
 From the Holdings page, click the plus icon on Fund One.
 
-![default fund](/doc-images/deffund.png) 
+![defaultfund](/doc-images/deffund.png) 
+
+![defaultfund2](/doc-images/deffund2.png) 
 
 The Summary info, Membership & Permissions and Custody sections show for Fund One.
 
