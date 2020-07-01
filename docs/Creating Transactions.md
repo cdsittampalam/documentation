@@ -8,7 +8,7 @@ can easily keep their money liquid by transferring amounts between participants.
 
 Future versions will allow atomic swaps that provide instant exchange of different digital assets.
 
-![money](/doc-images/moneynoborder.png)
+![coins](/doc-images/coins.png)
 
 ![2](/doc-images/2.png)
 
