@@ -98,11 +98,6 @@ module.exports = {
           // Please change this to your repo.
           editUrl: "https://github.com/qredo/documentation/tree/master/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: "https://github.com/qredo/documentation/tree/master/",
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
