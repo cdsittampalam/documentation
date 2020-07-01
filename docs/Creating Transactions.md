@@ -8,16 +8,6 @@ can easily keep their money liquid by transferring amounts between participants.
 
 Future versions will allow atomic swaps that provide instant exchange of different digital assets.
 
-![coins](/doc-images/coins.png)
-
-![tick](/doc-images/tick.png)
-
-![trusted](/doc-images/trusted.png)
-
-![4](/doc-images/4.png)
-
-
-
 ### Qredo Fees
 
 Qredo charges fees of 1 basis point, or 0.01%, of the amount transferred.
