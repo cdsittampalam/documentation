@@ -3,14 +3,17 @@ id: Deposit & Withdraw
 
 ---
 
-Money can be added to Qredo network through a deposit transaction, and can leave the network through a withdraw transaction.
+For a deposit transaction, users can add money to a whitelisted external Bitcoin address that is linked to your fund. Once added to a whitelisted address for a fund on Qredo, it is safely stored on the Qredo blockchain as a transaction allowing any custodial policies of the fund to be applied. The money in the fund is liquid and ready to be transfered to another Qredo user if required. 
+
+To withdraw, you send money out of a fund on Qredo to an external Bitcoin address. When sent to a whitelisted address, the money becomes available on the underlying blockchain, and is no longer subject to the custody policies and ownership rights of the Qredo network. Qredo gives you the flexibility of adding money back on to the network at a later point in time. 
+
+Any crypto and capital markets participant, such as an institution, investor, or trader, can withdraw money as part of their investment activities.
 
 Deposit Money
 -------------
 
-For a deposit transaction, money is automatically added to a whitelisted external Bitcoin address which is linked to your fund. The default fund and asset that you have set up includes a deposit address, which is the Bitcoin wallet address that is linked to a Qredo fund. 
-
-When money is added to a whitelisted address for a fund on Qredo, it is safely stored on the Qredo blockchain as a transaction allowing any custodial policies of the fund to be applied. The money in the fund is liquid and ready to be transfered to another Qredo user if required. 
+The default fund and asset that you have set up includes a deposit address, which is the Bitcoin wallet address that is linked to a Qredo fund. However, any 
+fund that you create is linked to a deposit address.
 
 ## View Deposit Addresses
 
@@ -59,8 +62,6 @@ You can view deposit transactions to one or more deposit funds in Qredo. Click t
 
 Withdraw Money
 --------------
-
-To withdraw, you send money out of a fund on Qredo to a whitelisted external Bitcoin address. When sent to a whitelisted address, the money becomes available on the underlying blockchain, and is no longer subject to the custody policies and ownership rights of the Qredo network. Qredo gives you the flexibility of adding money back on to the network at a later point in time. Any crypto and capital markets participant, such as an institution, investor, or trader, can withdraw money as part of their investment activities.
 
 You set up a withdrawal transaction as a trade initiator using the web app. To confirm that you want the transaction to happen, you can authorise it through the mobile app.
 
