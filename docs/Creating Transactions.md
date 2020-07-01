@@ -14,9 +14,7 @@ Future versions will allow atomic swaps that provide instant exchange of differe
 
 ![approval](/doc-images/ledger.png)
 
-![Trusted Network](/doc-images/approval.png)
-
-
+![TrustedNetwork](/doc-images/approval.png)
 
 
 
