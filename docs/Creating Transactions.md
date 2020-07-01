@@ -8,13 +8,13 @@ can easily keep their money liquid by transferring amounts between participants.
 
 Future versions will allow atomic swaps that provide instant exchange of different digital assets.
 
-![asset](/doc-images/asset.png)
+![1](/doc-images/1.png)
 
-![ledger](/doc-images/tns.png)
+![2](/doc-images/2.png)
 
-![approval](/doc-images/ledger.png)
+![3](/doc-images/3.png)
 
-![TrustedNetwork](/doc-images/approval.png)
+![4](/doc-images/4.png)
 
 
 
