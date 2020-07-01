@@ -10,14 +10,38 @@ Deposit Money
 
 For a deposit transaction, money is automatically added to a whitelisted external Bitcoin address which is linked to your fund. The default fund and asset that you have set up includes a deposit address, which is the Bitcoin wallet address that is linked to a Qredo fund. 
 
-When money is added to a whitelisted address for a fund on Qredo, it is safely stored on the Qredo blockchain as a transaction. Once on the blockchain, it is subject to the custodial policies for the fund. The money in the fund is also liquid and ready to be transfered to another Qredo user if required. 
+When money is added to a whitelisted address for a fund on Qredo, it is safely stored on the Qredo blockchain as a transaction allowing any custodial policies of the fund to be applied. The money in the fund is liquid and ready to be transfered to another Qredo user if required. 
 
-## View Deposit
+## View Deposit Addresses
 
 1. Access the Holdings page.
-2. Go to Asset view.
-3. In the TX ledger, click the **Deposit** tab.
-4. The TX ledger shows these details:
+2. To go to asset view, click
+
+![asset](doc-images/asset.png)
+
+3. In the TX ledger, click the **Addresses** tab. The table shows the following information on addresses:
+
+|     |     |
+| --- | --- |
+| **Column Name** | **Description** |
+| WALLET NAME | Name that is assigned to the wallet, which includes the name of the fund. |
+| FORMAT | Format of the wallet address. For example, for a Bitcoin address, this format is P2PKH. |
+| ADDRESS | The address string |
+
+
+
+### Copy Address
+
+To check an existing deposit address in a third-party app, you can copy the address using the Copy Address function. The address is stored in your system's clipboard. For example, you may want to check the validity of the address in Blockchain explorer.
+
+Click the **Copy** button of the address entry.
+
+### View Transactions
+
+You can view deposit transactions to one or more deposit funds in Qredo. Click the TX icon.
+
+![TXicon](doc-images/TXicon.png)
+
 
 |     |     |
 | --- | --- |
@@ -30,22 +54,6 @@ When money is added to a whitelisted address for a fund on Qredo, it is safely s
 | RECIPIENT | Recipient of the deposit transaction, e.g., sent to an exchange. |
 | EXPIRES | The date and time in which the deposit transaction was received at Qredo. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
 | STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
-
-
-### Copy Address
-
-To check an existing address in a third-part app, you can copy the address using the Copy Address function. The address is stored in your system's clipboard.
-
-1. Access the Holdings page.
-2. Go to Asset view.
-3. In the TX ledger, click the **Deposit** tab.
-4. Right-click a deposit entry and choose **Copy**.
-
-
-When updating the deposit address, you need to choose the correct fund and asset for the deposit address. 
-
-Once you have selected a new address, you authorise its creation to confirm that it is valid from your side. The custodians then need to approve the creation of the new address in order for a withdrawal transaction to happen.
-
 
 ---
 
@@ -72,23 +80,41 @@ If you do not have a withdrawal address, you need to create one before the trans
 
 As a custodian, you can approve the withdrawal address for the transaction if it is whitelisted. However, if the address is deemed insecure, you can reject the new address (see [Approve an Address (Custodian)](#approve-an-address-custodian))
 
-1.  Choose the **Withdraw** option in Select Type.    
-2.  Click **Continue**. The No withdrawal address box shows.    
-3.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows.   
-4.  Select the fund that you want to add the address to in **Source Fund**.    
-5.  Choose the asset type in **Asset**.    
-6.  Enter a name for the wallet in **Wallet Name**.    
-7.  Type in the wallet address in **Wallet Address**.    
-8.  Click **Continue**.    
-9.  See Authorise an Address (Trade Initiator) below.
+You start your action from the Asset or the Ledger view.
+
+1. To access the Asset view, click 
+
+
+2. To access the Ledger view, click 
+
+
+3. Click the **New TX** button. The Select Type window shows.
+
+![start withdraw](doc-images/StartWithdraw.png)
+
+4.  Choose the **Withdraw** option in Select Type.    
+5.  Click **Continue**. The No withdrawal address box shows.    
+6.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows. 
+
+![add withdraw](doc-images/AddWith.png)
+  
+7.  Select the fund that you want to add the address to in **Source Fund**.    
+8.  Choose the asset type in **Asset**.    
+9.  Enter a name for the wallet in **Wallet Name**.    
+10.  Type in the wallet address in **Wallet Address**.    
+11.  Click **Continue**.    
+12.  See Authorise an Address (Trade Initiator) below.
     
 ---
 
 #### Authorise an Address (Trade Initiator)
 
-As the initiator of the withdrawal, you authorise the creation of a new withdrawal address which confirms your decision using the phone app.
+As the initiator of the withdrawal, you confirm your decision through authorising using the phone app.
 
-1.  Tap the notification that you received on your phone. The Withdraw screen shows details of the transaction including fees.    
+1.  Tap the notification that you received on your phone. The Withdraw screen shows details of the transaction including fees.   
+
+![auth withdraw](/doc-images/authwithadd.png)
+ 
 2.  To authorise, tap **Authorise**.    
 3.  To reject, tap **Reject**.
     
@@ -100,18 +126,21 @@ For the action you select, you then sign in with your biometric features and 6-d
 
 You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal Address screen on your phone asks you to approve or reject the new address. The screen also shows the following information: 
 
+![custodian withdraw](/doc-images/cuswithadd.png)
+
 *   name of the wallet address.
 *   the fund of the withdrawal address.   
 *   the name of the asset.    
 *   the name of the trade initiator.    
 *   the expiry time and date of the request.
-
+    
 You can also view other details of the withdrawal address including:
     
 *   the alphanumeric string of the address    
 *   details of the trade initiator (including email address and alias).    
 *   the date in which the address creation was initiated
    
+![with detail](/doc-images/withdetail.png)
     
 1. Tap on the notification on your phone. The Withdrawal screen the appears asking you to approve or reject the new address. 
 2.  Click **Show Details** to view more details of the transaction.
@@ -130,29 +159,38 @@ You also set the date and time or number of days for custodian approval, accordi
 
 You launch the withdrawal process from either the Transaction Ledger or the Asset level.
 
-1.  Choose the **Withdraw** option in the Select Type box.   
-2.  Click **Continue**. The Withdraw screen shows.
-3.  In the From section, select the fund that you want to withdraw assets from in the **Fund** list.   
-4.  Choose the asset that you want to withdraw in the **Asset** list.    
-5.  Select the address that you want to send the money to in the **To** list.    
-6.  Enter the amount that you want to withdraw in **Amount**.    
-7.  Type in a reference number in **Reference**.    
-8.  To select a date for when the withdrawal takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.    
-9.  To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.    
-10.  Click **Review Withdrawal**.    
+In the same way as a withdrawal address, you start your action from the Asset or Ledger view.
+
+1.  Click the **New TX** button. The Select Type window shows.
+2.  Choose the **Withdraw** option in the Select Type box.   
+3.  Click **Continue**. The Withdraw screen shows.
+
+![Trusted Network Button](/doc-images/withdrawmain.png)
+
+4.  In the From section, select the fund that you want to withdraw assets from in the **Fund** list.   
+5.  Choose the asset that you want to withdraw in the **Asset** list.    
+6.  Select the address that you want to send the money to in the **To** list.    
+7.  Enter the amount that you want to withdraw in **Amount**.    
+8.  Type in a reference number in **Reference**.    
+9.  To select a date for when the withdrawal takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.    
+10.  To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.    
+11.  Click **Review Withdrawal**.    
 
 ---
 
 #### Review the Withdrawal
 
-In the **Review Withdrawal** screen, you can see details of the withdrawal transaction. These include:
+In the **Review Withdrawal** screen, you can see details of the withdrawal transaction. 
+
+![withdrawmain](/doc-images/reviewwithdraw.png)
+
+These include:
 
 *   the amount to withdraw    
 *   the source fund    
 *   the transaction reference number    
 *   the estimated withdrawal fee
     
-
 Details of the withdrawal fees is shown when you click the question mark icon. This includes:
 
 *   Qredo fees for the settlement.    
@@ -170,9 +208,12 @@ Once authorised, the custodian can also approve or reject the transaction.
 
 Once authorised, you can view its details including the fees that are charged on the transaction.
 
-1.  Tap on the notification that you received on your phone. The Withdraw screen shows with details of the transaction including fees.    
+1.  Tap on the notification that you received on your phone. The Withdraw screen shows with details of the transaction including fees. 
+
+![Authwith](/doc-images/authwith.png)
+   
 2.  To authorise, tap **Authorise**.   
-3.  To reject, tap **Reject** (see Reject a Transaction).
+3.  To reject, tap **Reject**.
     
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
@@ -182,6 +223,8 @@ A withdrawal transaction can only be sent out of Qredo if it has met or has exce
 
 You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal screen on your phone asks you to approve or reject the new transaction. The screen also shows the following information:
 
+![ApproveDetails](/doc-images/approvewith.png)
+
 *   type of asset and amount.
 *   the name linked to the recipient address.    
 *   the name of the trade initiator.   
@@ -189,12 +232,14 @@ You receive a notification as soon as the trade initiator has authorised the wit
 *   the expiry date and time for approval.   
 
 You can also view other details linked to the transaction under the Show Detail arrow including:
+
+![WithDetails](/doc-images/withdetails.png)
     
 *   the fund of the withdrawal.    
 *   the destination wallet name.    
 *   the alphanumeric string of the wallet address.   
 *   the name, email address, and network alias of the trade initiator.   
-*   details of the Qredo fee
+*   details of the Qredo fee.
     
 The Qredo fee allows the management of Qredo wallets. There is also the miner's fee that covers the work and resources they need to generate blocks on the underlying network.
 
@@ -223,8 +268,10 @@ A withdrawal transaction can only be sent out of Qredo if it has met or has exce
 
 #### Address Approvals
 
-1.  Click the **Addresses** tab,    
-2.  Click the **Pending** or **Actioned** sub-tabs.
+1   Click (the Approvals icon)
+     
+2.  Click the **Addresses** tab,    
+3.  Click the **Pending** or **Actioned** sub-tabs.
 
 The Pending sub tab shows pending approvals.
 
@@ -243,6 +290,10 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 *   AUTHORISED   
 *   IGNORED
+
+The following is an example entry in the ledger entry:
+
+![Address Approval](/doc-images/addressappr.png)
 
 ---
     
@@ -267,6 +318,35 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 *   AUTHORISED   
 *   IGNORED
+
+The following is an example entry in the approval ledger:
+
+![Transaction Approval](/doc-images/addressappr.png)
+
+### Transactions
+
+You can view the transaction progress of withdrawals from Qredo in the ledger section.
+
+1   Click (the Ledger icon)     
+2.  Click the **Addresses** tab,    
+3.  Click the **Pending** or **Actioned** sub-tabs.
+4. Go to the TX Ledger section in the web app.
+5. Access the Outbound tab.
+
+TX Ledger shows the following details:
+
+|     |     |
+| --- | --- |
+| **Column** | **Description** |
+| TYPE | |
+| FUND | |
+| INITIATED | |
+| AMOUNT ||
+| REFERENCE ||
+| RECIPIENT | |
+| EXPIRES | |
+| STATUS  
+
 
 
 
