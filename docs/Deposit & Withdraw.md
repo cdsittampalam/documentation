@@ -262,14 +262,11 @@ For the action you select, you sign in with your biometric features and 6-digit 
 
 As the trade initiator, you can check the approval progress for address creation and transactions. Both addresses and transactions require approval from custodians.
 
-Go to the Approvals section in the web app.
-
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
 #### Address Approvals
 
-1   Click (the Approvals icon)
-     
+1   Click ![approval](/doc-images/tick.png) 
 2.  Click the **Addresses** tab,    
 3.  Click the **Pending** or **Actioned** sub-tabs.
 
