@@ -25,7 +25,7 @@ The Qredo blockchain records transactions that happen for these events:
 *   Money is withdrawn from the Qredo network
     
 
-Users interact with the Qredo network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). In addition, a developer user can use the Qredo network by enrolling for the Partner API. Details on the Partner API are coming soon.
+Users interact with the Qredo network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). A developer user can use the Qredo network by enrolling for the Partner API. Details on the Partner API are coming soon.
 
 Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
 
@@ -33,9 +33,10 @@ Qredo currently supports Bitcoin. However, future versions will include Ethereum
 
 The Qredo network includes behaviours to ensure that transactions are saved securely on the Qredo blockchain.
 
-#### Aggregated Digital Signatures
+#### Digital Signatures
 
-A transaction contains encrypted messages between nodes with signatures in BLS format. Before a transaction is written to the Qredo blockchain, the aggregated digital signatures of participants that sign a transaction need to be recorded. Recording the aggregation of signatures makes the Qredo blockchain serve as a consensus-driven immutable record of asset ownership.
+A transaction contains encrypted messages between nodes with one or more signatures in BLS format. When a user signs up for the Qredo network, their own signature is added to the Qredo blockchain in the form of an IDDoc. Transactions, in the case of transfers and withdrawals are written to the Qredo blockchain with the aggregated digital signatures of the participants that sign a transaction. Recording the aggregation of signatures makes the Qredo blockchain serve as a consensus-driven immutable record of asset ownership. 
+A transaction cannot be written to the Qredo blockchain without the aggregated signatures.
 
 #### Consensus Rules
 
@@ -98,7 +99,7 @@ The blockchain validator node creates blocks on the Qredo blockchain from incomi
 
 #### Watcher
 
-The watcher mediates between the blockchain validator, MPC cluster, and Bitcoin network nodes. The service must not allow theft if compromised. However, a denial of service attack is possible, and the watcher would have to be redeployed. The watcher plays a key role when a new wallet is created, when money is deposited to a user’s account, and when a settlement is made.
+The watcher mediates between the blockchain validator, MPC cluster, and Bitcoin network nodes. The service must not allow theft if compromised. The watcher plays a key role when a new wallet is created, when money is deposited to a user’s account, and when a settlement is made.
 
 #### Bitcoin
 
