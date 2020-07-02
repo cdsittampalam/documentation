@@ -25,7 +25,7 @@ The Qredo blockchain records transactions that happen for these events:
 *   Money is withdrawn from the Qredo network
     
 
-Users interact with the Qredo network using the Qredo app that they signed up for (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). In addition, a developer user can use the Qredo network by enrolling for the Partner API. Details on the Partner API are coming soon.
+Users interact with the Qredo network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). In addition, a developer user can use the Qredo network by enrolling for the Partner API. Details on the Partner API are coming soon.
 
 Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
 
