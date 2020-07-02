@@ -99,7 +99,7 @@ The blockchain validator node creates blocks on the Qredo blockchain from incomi
 
 #### Watcher
 
-The watcher mediates between the blockchain validator, MPC cluster, and Bitcoin network nodes. The service must not allow theft if compromised. The watcher plays a key role when a new wallet is created, when money is deposited to a user’s account, and when a settlement is made.
+The watcher mediates between the blockchain validator, MPC cluster, and Bitcoin network nodes. The service is designed to prevent theft if compromised. The watcher plays a key role when a new wallet is created, when money is deposited to a user’s account, and when a settlement is made.
 
 #### Bitcoin
 

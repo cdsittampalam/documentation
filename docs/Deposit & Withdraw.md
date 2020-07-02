@@ -351,28 +351,3 @@ If the custodians have approved the transaction, the status is set to COMPLETE. 
 
 
 
-
-Column Name
-
-Description
-
-TYPE
-
-
-
-AMOUNT
-
-
-RECIPIENT
-
-Recipient of the asset. For a withdrawal, the recipient is the name you assigned for that withdrawal.
-
-STATUS
-
-The status shows as “Awaiting Authorisation”.
-
-ACTIONED
-
-The date and time in which the transaction was created.
-
-
