@@ -61,7 +61,9 @@ Details of the withdrawal fees is shown when you click the question mark icon.
 
 1. To see details of fees, click the question mark icon.
 2. To start the transfer, click **Initiate Transfer**. You are then prompted to check your phone app.
-2. To return to the previous screen, click **Back**.
+3. To return to the previous screen, click **Back**.
+
+When a counterparty receives money, they will receive an email notification of the transaction.
 
 ---
 

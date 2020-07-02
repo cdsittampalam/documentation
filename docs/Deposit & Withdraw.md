@@ -15,6 +15,8 @@ Deposit Money
 The default fund and asset that you have set up includes a deposit address, which is the Bitcoin wallet address that is linked to a Qredo fund. However, any 
 fund that you create is linked to a deposit address. Details on deposit addresses appear in both asset and ledger view. 
 
+You are notified when money arrives at your address via an email.
+
 ## View Deposit Addresses
 
 1. Access the Holdings page.
@@ -349,5 +351,7 @@ TX Ledger shows the following details:
 
 If the custodians have approved the transaction, the status is set to COMPLETE. If custodians have signed the transaction and it has not successfully completed (written to the blockchain) because it did not meet the thrreshold level, the status is set to THRESHOLD NOT MET. If the transaction has been rejected by all custodians, the status is set to REJECTED.
 
+The following shows an example transaction ledger:
 
+![Transaction Approval](/doc-images/outTX.png)
 
