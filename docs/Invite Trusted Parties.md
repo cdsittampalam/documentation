@@ -9,7 +9,7 @@ When you send an invite through the Qredo network, users can approve or reject t
 
 You invite a counterparty from the Trusted Network screen on the browser desktop app. The Trusted Network screen also lets you manage accepted invitations, and those that are still pending (see [Manage Invite List](#manage-invite-list)).
 
-![trusted](/doc-images/2-trusted-network-screen.png)
+![trusted](/doc-images/2trustednetworkscreen.png)
 
 Send Email Invite
 -----------------
