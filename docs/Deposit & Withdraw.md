@@ -45,7 +45,7 @@ Click the **Copy** button on the address entry.
 
 You can view deposit transactions to one or more deposit funds in Qredo .
 
-![TXicon](doc-images/TXicon.png)
+![TX](doc-images/TXInb.png)
 
 |     |     |
 | --- | --- |
