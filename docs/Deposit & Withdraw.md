@@ -266,7 +266,7 @@ A withdrawal transaction can only be sent out of Qredo if it has met or has exce
 
 #### Address Approvals
 
-1   Click 
+1.  Click 
   
     ![tick](/doc-images/tick.png) 
 
