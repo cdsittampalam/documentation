@@ -13,14 +13,15 @@ Deposit Money
 -------------
 
 The default fund and asset that you have set up includes a deposit address, which is the Bitcoin wallet address that is linked to a Qredo fund. However, any 
-fund that you create is linked to a deposit address.
+fund that you create is linked to a deposit address. Details on deposit addresses appear in both asset and ledger view. 
 
 ## View Deposit Addresses
 
 1. Access the Holdings page.
-2. To go to asset view, click:
+2. Click relevant icons:
 
 ![coins](/doc-images/coins.png)
+![ledger](/doc-images/ledger.png)
 
 3. In the TX ledger, click the **Addresses** tab. The table shows the following information on addresses:
 
@@ -41,7 +42,7 @@ Click the **Copy** button of the address entry.
 
 ### View Transactions
 
-You can view deposit transactions to one or more deposit funds in Qredo. Click:
+You can view deposit transactions to one or more deposit funds in Qredo .
 
 ![TXicon](doc-images/TXicon.png)
 
