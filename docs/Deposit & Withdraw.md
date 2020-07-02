@@ -266,7 +266,8 @@ A withdrawal transaction can only be sent out of Qredo if it has met or has exce
 
 #### Address Approvals
 
-1   Click ![approval](/doc-images/tick.png) 
+1   Click 
+    ![approval](/doc-images/tick.png) 
 2.  Click the **Addresses** tab,    
 3.  Click the **Pending** or **Actioned** sub-tabs.
 
