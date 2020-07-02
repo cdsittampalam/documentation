@@ -321,7 +321,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 The following is an example entry in the approval ledger:
 
-![Transaction Approval](/doc-images/addressappr.png)
+![Transaction Approval](/doc-images/transactionappr.png)
 
 ### Transactions
 
