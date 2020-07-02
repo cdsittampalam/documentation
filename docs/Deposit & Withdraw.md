@@ -142,7 +142,7 @@ You can also view other details of the withdrawal address including:
 *   details of the trade initiator (including email address and alias).    
 *   the date in which the address creation was initiated
    
-![with detail](/doc-images/withdetail.png)
+![with detail](/doc-images/withdrawaldetails.png)
     
 1. Tap on the notification on your phone. The Withdrawal screen the appears asking you to approve or reject the new address. 
 2.  Click **Show Details** to view more details of the transaction.
