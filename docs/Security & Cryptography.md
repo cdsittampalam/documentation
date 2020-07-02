@@ -47,7 +47,7 @@ The MPC protocol runs when generating a Bitcoin wallet address for money coming 
 
 The MPC protocol communicates with the blockchain validator nodes via the watcher service to ensure that it can process the correct wallet.
 
-The protocol, relying on client and server communication, performs the following process for preparing and creating a public key that it needs for signing a transaction. The process involves all client and server MPC nodes across data centers. Both the public key and digital signatures are used for creating an address.
+Applying the protocol, a client and server need to compute details on keys in order to prepare and create a public key for signing a transaction. To remove single points of failures, the process takes place across all data centers.
 
 1.  A client and server node each generate their respective key material.
     
@@ -57,7 +57,7 @@ The protocol, relying on client and server communication, performs the following
     
 4.  The keys are stored in an AWS database.
     
-5.  The AES key is encrypted for the client and server nodes in .all the data centers.
+5.  The AES key is encrypted for the client and server nodes in all the data centers.
     
 6.  The AES key is decrypted for all the client and server nodes.
     
