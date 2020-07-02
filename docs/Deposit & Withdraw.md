@@ -45,7 +45,7 @@ Click the **Copy** button on the address entry.
 
 ### View Transactions
 
-You can view deposit transactions to one or more deposit funds in Qredo .
+You can view deposit transactions to one or more funds that you are the owner of in Qredo. All deposit transactions are listed in the Inbound tab. 
 
 ![TX](/doc-images/TXInb.png)
 
@@ -327,7 +327,7 @@ The following is an example entry in the approval ledger:
 
 ### Transactions
 
-You can view the transaction progress of withdrawals from Qredo in the ledger section.
+You can view the transaction progress of withdrawals from Qredo in the ledger section. The transactions covers all funds that you are the owner of.
 
 1   Click (the Ledger icon)     
 2.  Click the **Addresses** tab,    
