@@ -49,7 +49,7 @@
 }
 
 .markdown {
-  --ifm-link-color: #C60098;
+  --ifm-link-color: #C30097;
   --ifm-link-hover-color: #830164;
   --ifm-link-decoration: underline;
 }
@@ -80,49 +80,62 @@
 }
 
 .markdown h1 {
-  font-size: 64px;
-  line-height: 80px;
-  font-weight: 500;
+  --ifm-h1-font-size: 58px;
+  --ifm-heading-font-weight: 500;
+  --ifm-heading-line-height: 60px;
+  padding-bottom: 70px;
 }
 
 .markdown h2 {
-  font-size: 56px;
-  line-height: 60px;
-  font-weight: 500;
+  --ifm-h2-font-size: 50px;
+  --ifm-heading-font-weight: 500;
+  --ifm-heading-line-height: 70px;
+  padding-bottom: 8px;
 }
 
 .markdown h3 {
-  font-size: 40px;
-  line-height: 53px;
-  font-weight: 500;
+  --ifm-h3-font-size: 28px;
+  --ifm-heading-font-weight: 200;
+  --ifm-heading-line-height: 32px;
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
 
 .markdown h4 {
-  font-size: 32px;
-  line-height: 42px;
-  font-weight: 500;
+  --ifm-h4-font-size: 24px;
+  --ifm-heading-font-weight: 500;
+  --ifm-heading-line-height: 30px;
+  /* As this padding are set without reseting margin, it cannot be replaced by margin only. */
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
 
 .markdown h5 {
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: 600;
+  --ifm-h5-font-size: 20px;
+  --ifm-heading-font-weight: 400;
+  --ifm-heading-line-height: 26px;
+  text-transform: uppercase;
 }
 
 .markdown p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #454545;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--ifm-font-color-base);
 }
 
 .markdown img {
   border-radius: 8px;
   border: 1px solid #eee;
   box-shadow: 0 4px 7px -1px rgba(38,8,8,0.15);
+  margin: 20px 0;
 }
 
 .markdown ul {
   list-style: none;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
 
 .markdown ul li::before {
@@ -131,6 +144,10 @@
   display: inline-block;
   width: 1em;
   margin-left: -1em
+}
+
+.markdown ul li {
+  padding-bottom: 4px;
 }
 
 .markdown table tr {
