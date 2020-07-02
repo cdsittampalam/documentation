@@ -18,13 +18,11 @@ fund that you create is linked to a deposit address.
 ## View Deposit Addresses
 
 1. Access the Holdings page.
-2. To go to asset view, click
+2. To go to asset view, click:
 
 ![coins](/doc-images/coins.png)
 
 3. In the TX ledger, click the **Addresses** tab. The table shows the following information on addresses:
-
-![depositaddresses](/doc-images/CopyDep.png)
 
 |     |     |
 | --- | --- |
@@ -32,6 +30,8 @@ fund that you create is linked to a deposit address.
 | WALLET NAME | Name that is assigned to the wallet, which includes the name of the fund. |
 | FORMAT | Format of the wallet address. For example, for a Bitcoin address, this format is P2PKH. |
 | ADDRESS | The address string |
+
+![depositaddresses](/doc-images/CopyDep.png)
 
 ### Copy Address
 
