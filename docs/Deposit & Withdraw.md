@@ -338,15 +338,39 @@ TX Ledger shows the following details:
 |     |     |
 | --- | --- |
 | **Column** | **Description** |
-| TYPE | |
-| FUND | |
-| INITIATED | |
-| AMOUNT ||
-| REFERENCE ||
-| RECIPIENT | |
-| EXPIRES | |
+| TYPE | Type of transaction. For a withdrawal, the column name shows as withdrawal. |
+| FUND | Name of the fund for the transaction.|
+| INITIATED | Trade initiator that started the transaction. |
+| AMOUNT |The amount of the transaction and the type of asset.|
+| REFERENCE | Reference number of the transaction. This number can be used when contacting support at Qredo. |
+| RECIPIENT | Recipient of the asset. For a withdrawal, this is the name you assigned for that withdrawal. |
+| EXPIRES | Expiry date of a transaction that is awaiting approval from a custodian, or authorisation from the trade initiator.|
 | STATUS  
 
 
+
+
+Column Name
+
+Description
+
+TYPE
+
+
+
+AMOUNT
+
+
+RECIPIENT
+
+Recipient of the asset. For a withdrawal, the recipient is the name you assigned for that withdrawal.
+
+STATUS
+
+The status shows as “Awaiting Authorisation”.
+
+ACTIONED
+
+The date and time in which the transaction was created.
 
 
