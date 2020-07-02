@@ -41,10 +41,9 @@ Click the **Copy** button of the address entry.
 
 ### View Transactions
 
-You can view deposit transactions to one or more deposit funds in Qredo. Click the TX icon.
+You can view deposit transactions to one or more deposit funds in Qredo. Click:
 
 ![TXicon](doc-images/TXicon.png)
-
 
 |     |     |
 | --- | --- |
@@ -83,11 +82,13 @@ As a custodian, you can approve the withdrawal address for the transaction if it
 
 You start your action from the Asset or the Ledger view.
 
-1. To access the Asset view, click 
+1. To access the Asset view, click:
 
+![coins](/doc-images/coins.png)
 
-2. To access the Ledger view, click 
+2. To access the Ledger view, click: 
 
+![coins](/doc-images/ledger.png)
 
 3. Click the **New TX** button. The Select Type window shows.
 
