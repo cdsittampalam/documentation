@@ -92,13 +92,13 @@ You start your action from the Asset or the Ledger view.
 
 2. Click the **New TX** button. The Select Type window shows.
 
-![start withdraw](/doc-images/StartWithdraw.png)
+![startwithdraw](/doc-images/StartWithdrawR.png)
 
 3.  Choose the **Withdraw** option in Select Type.    
 4.  Click **Continue**. The No withdrawal address box shows.    
 5.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows. 
 
-![add withdraw](doc-images/AddWith.png)
+![add withdraw](/doc-images/AddWith.png)
   
 6.  Select the fund that you want to add the address to in **Source Fund**.    
 7.  Choose the asset type in **Asset**.    
