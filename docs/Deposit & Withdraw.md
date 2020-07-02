@@ -84,30 +84,28 @@ As a custodian, you can approve the withdrawal address for the transaction if it
 
 You start your action from the Asset or the Ledger view.
 
-1. To access the Asset view, click:
+1. Click the Asset view or Ledger view icons:
 
-![coins](/doc-images/coins.png)
+   ![coins](/doc-images/coins.png) 
 
-2. To access the Ledger view, click: 
+   ![ledger](/doc-images/ledger.png) 
 
-![coins](/doc-images/ledger.png)
-
-3. Click the **New TX** button. The Select Type window shows.
+2. Click the **New TX** button. The Select Type window shows.
 
 ![start withdraw](doc-images/StartWithdraw.png)
 
-4.  Choose the **Withdraw** option in Select Type.    
-5.  Click **Continue**. The No withdrawal address box shows.    
-6.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows. 
+3.  Choose the **Withdraw** option in Select Type.    
+4.  Click **Continue**. The No withdrawal address box shows.    
+5.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows. 
 
 ![add withdraw](doc-images/AddWith.png)
   
-7.  Select the fund that you want to add the address to in **Source Fund**.    
-8.  Choose the asset type in **Asset**.    
-9.  Enter a name for the wallet in **Wallet Name**.    
-10.  Type in the wallet address in **Wallet Address**.    
-11.  Click **Continue**.    
-12.  See Authorise an Address (Trade Initiator) below.
+6.  Select the fund that you want to add the address to in **Source Fund**.    
+7.  Choose the asset type in **Asset**.    
+8.  Enter a name for the wallet in **Wallet Name**.    
+9.  Type in the wallet address in **Wallet Address**.    
+10.  Click **Continue**.    
+11.  See Authorise an Address (Trade Initiator) below.
     
 ---
 
