@@ -2,7 +2,7 @@
 id: Security & Cryptography
 ---
 
-The Qredo network includes a secure architecture that allows transaction data to remain on the Qredo blockchain, and to allow transactions to be handled 24 by 7. Cryptography, running behind-the-scenes, ensures that all data is kept hidden, and reduces the likelihood of attacks to impossible odds.
+The Qredo network includes a secure architecture that allows transaction data to remain on the Qredo blockchain, and be handled 24 by 7. Cryptography, running behind-the-scenes, ensures that all data is kept hidden, and reduces the likelihood of attacks to impossible odds.
 
 This page describes:
 
@@ -22,12 +22,13 @@ The physical Qredo network is distributed where devices are stored in six Tier-4
 
 Each data center contains dedicated computing equipment to support the MPC, Qredo blockchain, and watcher components. This includes:
 
-*   a Qredo appliance housing two Rasberry Pi units for the Qredo blockchain non-validator validator and an MPC node. The MPC node can be a client or serve node.
+*   a Qredo appliance housing two Rasberry Pi units for the Qredo blockchain non-validator (backup node) and an MPC node. The MPC node can be a client or server node.
     
-*   a PC that holds the watcher and validator services in Docker containers.
+*   a PC that holds the watcher and Blockchain validator services in Docker containers.
     
-
 Whenever transactions are written to the Qredo blockchain, the transactions are backed up on another device. Similarly, encrypted MPC keys are copied to each of the server and clients across multiple data centers.
+
+Communication takes place between data centers over routers. Between the Rasberry Pi units on the device, communication takes place over SSH.
 
 ### Hardware Security Module
 
