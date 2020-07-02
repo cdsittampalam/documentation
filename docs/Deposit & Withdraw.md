@@ -39,7 +39,7 @@ fund that you create is linked to a deposit address. Details on deposit addresse
 
 To check an existing deposit address in a third-party app, you can copy the address using the Copy Address function. The address is stored in your system's clipboard. For example, you may want to check the validity of the address in Blockchain explorer.
 
-Click the **Copy** button of the address entry.
+Click the **Copy** button on the address entry.
 
 ### View Transactions
 
