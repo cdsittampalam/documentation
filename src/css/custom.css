@@ -334,3 +334,18 @@
 .tabs__item--active {
   border-bottom-color: #C30097;
 }
+
+/* SIDEBAR NAVIGATION */
+
+.menu__link {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.menu__link.menu__link--sublist {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: Barlow, sans-serif;
+  color: black;
+}
