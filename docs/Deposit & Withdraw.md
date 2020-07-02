@@ -345,9 +345,9 @@ TX Ledger shows the following details:
 | REFERENCE | Reference number of the transaction. This number can be used when contacting support at Qredo. |
 | RECIPIENT | Recipient of the asset. For a withdrawal, this is the name you assigned for that withdrawal. |
 | EXPIRES | Expiry date of a transaction that is awaiting approval from a custodian, or authorisation from the trade initiator.|
-| STATUS  | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded.
+| STATUS  | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not yet responded.
 
-If the custodians have signed the transaction and have approved, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED.
+If the custodians have approved the transaction, the status is set to COMPLETE. If custodians have signed the transaction and it has not successfully completed (written to the blockchain) because it did not meet the thrreshold level, the status is set to THRESHOLD NOT MET. If the transaction has been rejected by all custodians, the status is set to REJECTED.
 
 
 
