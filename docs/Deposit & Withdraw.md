@@ -92,7 +92,7 @@ You start your action from the Asset or the Ledger view.
 
 2. Click the **New TX** button. The Select Type window shows.
 
-![start withdraw](doc-images/StartWithdraw.png)
+![start withdraw](/doc-images/StartWithdraw.png)
 
 3.  Choose the **Withdraw** option in Select Type.    
 4.  Click **Continue**. The No withdrawal address box shows.    
