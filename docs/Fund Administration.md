@@ -22,7 +22,7 @@ The Holdings page lists the funds under your account. These include one or more 
 
 The Holdings page consists of:the summary section that allows you to create a fund or view attributes of a default fund.
 
-![Fund One in Holdings](/doc-images/Fund1D.png)
+![Fund One in Holdings](/doc-images/Fund1DX.png)
 
 The page also allows you to view details on the transactions and the custody policies of the fund.
 
