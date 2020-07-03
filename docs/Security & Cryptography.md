@@ -22,9 +22,9 @@ The physical Qredo network is distributed where devices are stored in six Tier-4
 
 Each data center contains dedicated computing equipment to support the MPC, Qredo blockchain, and watcher components. This includes:
 
-*   a Qredo appliance housing two Rasberry Pi units for the Qredo blockchain non-validator (backup node) and an MPC node. The MPC node can be a client or server node.
+*   Qredo appliances housing Rasberry Pi units for MPC nodes. The MPC node can be a client or server node.
     
-*   a PC that holds the watcher and Blockchain validator services in Docker containers.
+*   a PC that holds the watcher and Blockchain validator services.
     
 Whenever transactions are written to the Qredo blockchain, the transactions are backed up on another device. Similarly, encrypted MPC keys are copied to each of the server and clients across multiple data centers.
 
@@ -47,7 +47,7 @@ The MPC protocol runs when generating a Bitcoin wallet address for money coming 
 
 The MPC protocol communicates with the blockchain validator nodes via the watcher service to ensure that it can process the correct wallet.
 
-Applying the protocol, a client and server need to compute details on keys in order to prepare and create a public key for signing a transaction. To remove single points of failures, the process takes place across all data centers.
+Applying the protocol, a client and server need to compute details on keys in order to prepare and create a public key for signing a transaction. To remove single points of failures, the process takes place across all data centers, where a MPC client and MPC server are in different data centers.
 
 1.  A client and server node each generate their respective key material.
     
