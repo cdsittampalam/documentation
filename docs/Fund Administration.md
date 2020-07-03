@@ -104,7 +104,7 @@ The Withdrawal and TX tabs include custody policies comprising of custodians and
 When you create a fund, you can assign any number of custodians for withdrawals and transfers.
 :::
 
-![custody fund](/doc-images/CustodyFund.png)
+![custody fund](/doc-images/FundOneCustody.png)
 
 ---
 
@@ -113,7 +113,7 @@ When you create a fund, you can assign any number of custodians for withdrawals 
 When you use Fund One, you will be able to view a list of transactions with the deposit and withdrawal addresses for each transaction. These transactions have
 already happened in the past and have been approved.
 
-![address](/doc-images/Addr.png)
+![address](/doc-images/50GRViewoftransactions.png)
 
 When Fund One is created, there is a single deposit address that is automatically assigned to receive money. When used, a fund can have multiple withdrawal addresses.
 
