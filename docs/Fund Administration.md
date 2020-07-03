@@ -96,7 +96,7 @@ As a custody provider accepting or rejecting transactions on behalf of an invest
 
 A policy also includes a threshold that has the minimum number of custodian signatures out of the total number for a transaction to happen.
 
-#### Withdrawal and TX Tabs
+#### Withdrawal Policy and TX Policy Tabs
 
 The Withdrawal and TX tabs include custody policies comprising of custodians and the associated threshold levels for withdrawals and transfers. Withdrawals and transfers can have different custodians and threshold levels. For Fund One, there is only one custodian and a threshold policy of 1/1 for both withdrawals and transfers.
 
@@ -104,7 +104,7 @@ The Withdrawal and TX tabs include custody policies comprising of custodians and
 When you create a fund, you can assign any number of custodians for withdrawals and transfers.
 :::
 
-![custody fund](/doc-images/FundOneCustody.png)
+![custody fund](/doc-images/Custodyinfo1.png)
 
 ---
 
