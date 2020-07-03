@@ -80,7 +80,7 @@ The Membership & Permissions section shows your name as a fund member with the p
 
 When you create other funds, you will also be the sole fund member.
 
-![fundmembership](/doc-images/FundMembershipandpermissions.png)
+![fundmembership] (/doc-images/FundMembershipandpermissions.png)
 
 ---
 
