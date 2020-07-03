@@ -90,8 +90,6 @@ The Custody section shows the custody policies of a fund. A custody policy deter
 
 As a custody provider accepting or rejecting transactions on behalf of an investing fund owner, the custody policy settings within a fund are particularly important. For example, depending on the type of investment, transactions within some funds may require more signatures than others.
 
----
-
 #### Threshold
 
 A policy also includes a threshold that has the minimum number of custodian signatures out of the total number for a transaction to happen.
@@ -113,7 +111,7 @@ When you create a fund, you can assign any number of custodians for withdrawals 
 When you use Fund One, you will be able to view a list of transactions with the deposit and withdrawal addresses for each transaction. These transactions have
 already happened in the past and have been approved.
 
-![Transaction view](/doc-images/TransactionView.png)
+![Transaction view](/doc-images/TransactionViewR.png)
 
 When Fund One is created, there is a single deposit address that is automatically assigned to receive money. When used, a fund can have multiple withdrawal addresses.
 
