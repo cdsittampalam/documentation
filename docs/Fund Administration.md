@@ -133,7 +133,7 @@ You can set Fund One to include Bitcoin instead of Bitcoin Testnet. When you cha
 
 This feature is especially useful for users that are likely to be instantly receive money in to their default fund. For example, as an exchange user, you may want to instantly receive payments in Bitcoin rather than Bitcoin Test.
 
-![custody fund](/doc-images/changedef.png)
+![custody fund](/doc-images/changedefaultsonsummary.png)
 
 1.  Click **Change Defaults.** The Default Funds screen appears.   
 
@@ -173,7 +173,7 @@ As an investor creating funds, you will need to work closely with a custody prov
 
 From the Summary section in the Holdings page, click the Plus icon or **Create New Fund**.
 
-![Fund A](/doc-images/defchange.png)
+![Fund A](/doc-images/startwiz.png)
 
 ---
 
