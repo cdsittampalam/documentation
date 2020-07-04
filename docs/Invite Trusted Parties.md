@@ -11,14 +11,14 @@ You invite a counterparty from the Trusted Network screen on the browser desktop
 
 ![trusted](/doc-images/2trustednetworkscreen.png)
 
-Send Email Invite
------------------
-
-1.  Access the Trusted Network screen from 
+You can access the Trusted Network screen from:
 
 ![Trusted Network Button](/doc-images/button-trustednetwork.png)
 
-2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
+Send Email Invite
+-----------------
+
+Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
 ![Add Trusted](/doc-images/addtrusted.png)
 
@@ -108,13 +108,12 @@ You will then see the following screen indicating that the request has been deni
 
 ### Monitor Responses
 
-You can use the approval ledger for trusted parties in the web app to monitor responses to your invites. The approvals ledger shows trusted parties that have actioned an invite and those that have denied.
-
-1. Click 
+You can use the approval ledger for trusted parties in the web app to monitor responses to your invites. The approvals section shows trusted parties that have actioned an invite and those that have denied.
+You can access the approvals section by clicking:
 
 ![Button Approve](/doc-images/button-approve.png)  
 
-2. Click the Trusted Parties tab.
+In the Approvals section, click the Trusted Parties tab.
 
 The ledger shows entries for invites that have been approved or denied. The invites entries are grouped in to **Pending** and **Actioned**.
 
