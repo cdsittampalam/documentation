@@ -117,7 +117,7 @@ In the Approvals view, click the Trusted Parties tab.
 
 The ledger shows entries for invites that have been approved or denied. The invites entries are grouped in to **Pending** and **Actioned**.
 
-![action approve](/doc-images/Approvals1ent.png)
+![action approve](/doc-images/actionapprove2.png)
 
 The ledger also shows these details of the trusted party:
 
