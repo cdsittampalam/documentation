@@ -169,7 +169,7 @@ As an investor creating funds, you will need to work closely with a custody prov
 
 From the Summary section in the Holdings page, click the Plus icon or **Create New Fund**.
 
-![Fund A](/doc-images/startwiz.png)
+![address](/doc-images/startwiz.png)
 
 ---
 
