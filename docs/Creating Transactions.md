@@ -26,7 +26,11 @@ For transferring money, the Qredo app consists of a wizard that lets you transfe
 
 You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 
-You launch the withdrawal process from either the Transaction Ledger or the Asset level.
+You start your action from the Asset or Ledger view by clicking either:
+
+![coins](/doc-images/coins.png)
+
+![ledger](/doc-images/ledger.png).
 
 1. Choose the **Transfer** option in the Select Type box.
 2. Click **Continue**. The Transfer screen shows.
@@ -115,9 +119,12 @@ Track Progress
 
 As the trade initiator, you can check the progress of the transfer. Transactions require approval from custodians.
 
-Go to the Approvals section in the web app.
-
 A transfer transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
+
+You can view approvals from the Approval view, which appears by clicking:
+
+![tick](/doc-images/tick.png)
+
 
 ---
 
@@ -147,6 +154,10 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
 
+You can view transaction progress in the Ledger view by clicking
+
+![Ledger](/doc-images/ledger.png)
+
 1.  Go to the **TX Ledger** section in the web app.
 2.  Access the **Outbound** tab.
 
@@ -163,5 +174,3 @@ TX Ledger shows the following details:
 | RECIPIENT | Label added to the transfer transaction, e.g., sent to an exchange. |
 | EXPIRES | The date and time in which the transfer transaction needs to happen. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
 | STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
-
-
