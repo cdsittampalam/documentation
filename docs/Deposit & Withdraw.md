@@ -20,7 +20,12 @@ You are notified when money arrives at your address via an email.
 
 ## View Deposit Addresses
 
-You view deposit addresses from either Asset view or Ledger view by clicking either: ![coins](/doc-images/coins.png) or  ![ledger](/doc-images/ledger.png).
+You view deposit addresses from either Asset view or Ledger view by clicking either: 
+
+![coins](/doc-images/coins.png) 
+
+![ledger](/doc-images/ledger.png).
+
 Asset view lets you view deposit addresses for an asset. Ledger view lets you see deposit addresses across all assets.
 
 The following shows addresses in Ledger view.
