@@ -81,7 +81,7 @@ You first receive a notification on the mobile app.
 2.  Sign in to the app using the biometric feature of your phone.
 3.  Enter your 6-digit passphrase. The Trusted Party screen shows.
 
-![pairing](/doc-images/addtrustedphone.png)
+![pairing](/doc-images/addtrustedphone1.png)
 
 4.  To approve the pairing request, tap **Approve**.
 5.  Authenticate using the biometric feature and 6-digit passcode.
