@@ -11,14 +11,14 @@ You invite a counterparty from the Trusted Network screen on the browser desktop
 
 ![trusted](/doc-images/2trustednetworkscreen.png)
 
+You access the Trusted Network by clicking the Trusted Network button:
+
+![Account](/doc-images/trusted.png)
+
 Send Email Invite
 -----------------
 
-1.  Access the Trusted Network screen from 
-
-![Trusted Network Button](/doc-images/button-trustednetwork.png)
-
-2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
+Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
 ![Add Trusted](/doc-images/addtrusted.png)
 
