@@ -17,16 +17,13 @@ fund that you create is linked to a deposit address. Details on deposit addresse
 
 You are notified when money arrives at your address via an email.
 
+
 ## View Deposit Addresses
 
-1. Access the Holdings page.
-2. Click the Asset view or Ledger view icons:
+You view deposit addresses from either Asset view or Ledger view by clicking either: ![coins](/doc-images/coins.png) or  ![ledger](/doc-images/ledger.png).
+Asset view lets you view deposit addresses for an asset. Ledger view lets you see deposit addresses across all assets.
 
-   ![coins](/doc-images/coins.png) 
-
-   ![ledger](/doc-images/ledger.png) 
-
-3. In the TX ledger, click the **Addresses** tab. The table shows the following information on addresses:
+The following shows addresses in Ledger view.
 
 |     |     |
 | --- | --- |
@@ -39,13 +36,13 @@ You are notified when money arrives at your address via an email.
 
 ### Copy Address
 
-To check an existing deposit address in a third-party app, you can copy the address using the Copy Address function. The address is stored in your system's clipboard. For example, you may want to check the validity of the address in Blockchain explorer.
+To check an existing deposit address in a third-party app, you can copy the address using the Copy Address function. The address is stored in your system's clipboard. For example, you can copy an address to check its validity in Blockchain explorer.
 
 Click the **Copy** button on the address entry.
 
 ### View Transactions
 
-You can view deposit transactions to one or more funds that you are the owner of in Qredo. All deposit transactions are listed in the Inbound tab. 
+In the ledger, you can view deposit transactions to one or more funds that you are the owner of in Qredo. All deposit transactions are listed in the Inbound tab. 
 
 ![TX](/doc-images/TXInb.png)
 
