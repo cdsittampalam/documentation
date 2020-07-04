@@ -323,7 +323,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 The following is an example actioned entry in the Approval view with the status of IGNORED:
 
-![Transaction Approval](/doc-images/transactionappr.png)
+![Transaction Approval](/doc-images/transaction1appr.png)
 
 ### Transactions
 
