@@ -331,7 +331,9 @@ The transaction for the fund appears in the Ledger. However, the ledger also inc
 
 You can view the transaction progress in the Ledger view by clicking
 
-![Ledger](/doc-images/ledger.png) and accessing the Outbound tab.
+![Ledger](/doc-images/ledger.png) 
+
+You then access the Outbound tab.
 
 TX Ledger shows the following details:
 
