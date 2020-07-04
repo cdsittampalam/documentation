@@ -321,7 +321,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 *   AUTHORISED   
 *   IGNORED
 
-The following is an example entry in the approval ledger:
+The following is an example actioned entry in the Approval view with the status of IGNORED:
 
 ![Transaction Approval](/doc-images/transactionappr.png)
 
