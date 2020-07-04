@@ -252,3 +252,12 @@ Once you have signed in to the web app, you are requested by Qredo to authentica
 ### View Requests
 
 If you tap **Request details** in the Sign in request note, it shows the time, date, location, and device of the request.
+
+---
+
+Navigation
+----------
+
+The main screen of the web app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
+
+ 
