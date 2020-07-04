@@ -264,17 +264,18 @@ For the action you select, you sign in with your biometric features and 6-digit 
 ### Track Progress
 
 As the trade initiator, you can check the approval progress for address creation and transactions. Both addresses and transactions require approval from custodians.
-
+y
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
+
+You can view address approvals from the Approval section, which appears by clicking:
+
+![tick](/doc-images/tick.png) 
+
 
 #### Address Approvals
 
-1.  Click 
-  
-    ![tick](/doc-images/tick.png) 
-
-2.  Click the **Addresses** tab,    
-3.  Click the **Pending** or **Actioned** sub-tabs.
+1.  Click the **Addresses** tab,    
+2.  Click the **Pending** or **Actioned** sub-tabs.
 
 The Pending sub tab shows pending approvals.
 
@@ -328,7 +329,11 @@ The following is an example entry in the approval ledger:
 
 ### Transactions
 
-You can view the transaction progress of withdrawals from Qredo in the ledger section. The transactions covers all funds that you are the owner of.
+The transaction for the fund appears in the Ledger. However, the ledger also includes transactions for all other funds
+
+You can view the transaction progress of withdrawals from Qredo in the ledger section by clicking 
+
+![Ledger](/doc-images/ledger.png)
 
 1   Click (the Ledger icon)     
 2.  Click the **Addresses** tab,    
