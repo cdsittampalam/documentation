@@ -45,7 +45,7 @@ You can choose the following options from the page:
 View Fund One
 -------------
 
-From the Holdings page, click the plus icon next to Fund One.
+From the Holdings page, click the plus icon next to the Fund One entry.
 
 ![defaultfund](/doc-images/deffund1R.png) 
 
@@ -113,7 +113,7 @@ already happened in the past and have been approved.
 
 When Fund One is created, there is a single deposit address that is automatically assigned to receive money. When used, a fund can have multiple withdrawal addresses.
 
-1.  Click on the Asset icon under Fund One. This allows you to enter the Asset view.
+1.  Click on details of the asset under the Fund One entry. 
 
 ![address](/doc-images/hldin.png)
 
