@@ -20,6 +20,10 @@ Holdings Page
 
 The Holdings page lists the funds under your account. These include one or more default funds, and any funds you created. For each fund, you can have a complete view of the transactions, addresses, and custody policies. You can also choose a fund option from the page.
 
+You access the Holdings page by clicking the Asset icon:
+
+![Account](/doc-images/coins.png)
+
 The Holdings page consists of:the summary section that allows you to create a fund or view attributes of a default fund.
 
 ![Fund One in Holdings](/doc-images/Fund1DX.png)
@@ -28,26 +32,20 @@ The page also allows you to view details on the transactions and the custody pol
 
 ![All Transactions](/doc-images/AllTransactions2.png)
 
-### Access Holdings Page
-
-1.  Access the Summary Section.
-    
-2.  Click the coin icon for a fund.
-
-You can then choose one of the following options:
+You can choose the following options from the page:
 
 *   **View Fund One:** If you are a new user, you can view details of a default fund, labelled Fund One. Fund One is created for you once you have joined the Qredo Network. While Fund One is designed to help you understand how a Qredo fund works, you can also use Fund One for transactions. The system creates a deposit address for you to receive assets (see [View Fund One](#view-fund-one)).
     
 *   **Change Default Settings:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Settings](#change-default-settings)).
     
 *   **Create a Fund:** If you are familiar with the concepts of a Qredo funds and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
-    
+
 ---
 
 View Fund One
 -------------
 
-From the Holdings page, click the plus icon on Fund One.
+From the Holdings page, click the plus icon next to Fund One.
 
 ![defaultfund](/doc-images/deffund1R.png) 
 
