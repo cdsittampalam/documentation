@@ -32,6 +32,8 @@ The page also allows you to view details on the transactions and the custody pol
 
 ![All Transactions](/doc-images/AllTransactions2.png)
 
+### Task Options
+
 You can choose the following options from the page:
 
 *   **View Fund One:** If you are a new user, you can view details of a default fund, labelled Fund One. Fund One is created for you once you have joined the Qredo Network. While Fund One is designed to help you understand how a Qredo fund works, you can also use Fund One for transactions. The system creates a deposit address for you to receive assets (see [View Fund One](#view-fund-one)).
