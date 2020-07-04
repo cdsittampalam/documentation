@@ -11,14 +11,14 @@ You invite a counterparty from the Trusted Network screen on the browser desktop
 
 ![trusted](/doc-images/2trustednetworkscreen.png)
 
-You access the Trusted Network by clicking the Trusted Network button:
-
-![Account](/doc-images/trusted.png)
-
 Send Email Invite
 -----------------
 
-Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
+1.  Access the Trusted Network screen from 
+
+![Trusted Network Button](/doc-images/button-trustednetwork.png)
+
+2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
 ![Add Trusted](/doc-images/addtrusted.png)
 
@@ -127,6 +127,12 @@ The ledger also shows these details of the trusted party:
 - their network status.
 - the date in which the invite was actioned.
 - the status as either approved or denied.
+
+The status shows the following information:
+
+- For invite entries that are pending, the status shows as AWAITING CONFIRMATION.
+- For invite entries that have been actioned, the status shows as AUTHORISED or IGNORED.
+
 
 
 
