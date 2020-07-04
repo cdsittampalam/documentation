@@ -260,4 +260,14 @@ Navigation
 
 The main screen of the web app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
 
+|     |     |
+| --- | --- |
+| **Button** | **Description** |
+| ![asset](/doc-images/coins.png)| The Asset view gives you details on all activites on a particular fund. This allows you to monitor and launch tasks from the fund.  |
+| ![Ledger](/doc-images/ledger.png) | The Ledger view provides you information on all inbound and outbound transactions for all your funds. This lets you monitor activity at the account level. |
+| ![Approvals](/doc-images/tick.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
+| ![TrustedNetwork](/doc-images/tick.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |
+| ![Account](/doc-images/initials.png) | The Account view gives you details about your account. You can monitor various areas of your account, such as the account details, plan, and legal documents. |
+
+
  
