@@ -351,6 +351,6 @@ TX Ledger shows the following details:
 
 If the custodians have approved the transaction, the status is set to COMPLETE. If custodians have signed the transaction and it has not successfully completed (written to the Qredo blockchain) because it did not meet the threshold level, the status is set to THRESHOLD NOT MET. If the transaction has been rejected by all custodians, the status is set to REJECTED.
 
-The following shows an example transaction ledger:
+The following shows an example transaction ledger with the status set to AWAITING AUTHORISATION.
 
 ![Transaction Approval](/doc-images/outTX1.png)
