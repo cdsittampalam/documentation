@@ -295,7 +295,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 The following is an example entry showing a pending approval with the status of AWAITING AUTHORISATION:
 
-![Address Approval](/doc-images/addressappr.png)
+![Address Approval](/doc-images/addressappr1.png)
 
 ---
 
