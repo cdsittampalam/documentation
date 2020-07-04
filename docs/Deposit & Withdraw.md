@@ -86,6 +86,8 @@ As a custodian, you can approve the withdrawal address for the transaction if it
 
 You start your action from the Asset or the Ledger view.
 
+#### Create a New Address
+
 1. Click the Asset view or Ledger view icons:
 
    ![coins](/doc-images/coins.png) 
@@ -162,6 +164,8 @@ You also set the date and time or number of days for custodian approval, accordi
 You launch the withdrawal process from either the Transaction Ledger or the Asset level.
 
 In the same way as a withdrawal address, you start your action from the Asset or Ledger view.
+
+#### Steps
 
 1.  Click the **New TX** button. The Select Type window shows.
 2.  Choose the **Withdraw** option in the Select Type box.   
