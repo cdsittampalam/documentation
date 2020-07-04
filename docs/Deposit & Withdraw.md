@@ -49,7 +49,7 @@ Click the **Copy** button on the address entry.
 
 In the ledger, you can view deposit transactions to one or more funds that you are the owner of in Qredo. All deposit transactions are listed in the Inbound tab.
 
-![TX](/doc-images/TXInb.png)
+![TX](/doc-images/TXIbd.png)
 
 |     |     |
 | --- | --- |
