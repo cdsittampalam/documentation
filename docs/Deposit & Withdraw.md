@@ -293,7 +293,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 *   AUTHORISED   
 *   IGNORED
 
-The following is an example entry in the ledger entry:
+The following is an example entry showing a pending approval with the status of AWAITING AUTHORISATION:
 
 ![Address Approval](/doc-images/addressappr.png)
 
