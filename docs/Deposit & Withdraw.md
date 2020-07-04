@@ -353,4 +353,4 @@ If the custodians have approved the transaction, the status is set to COMPLETE. 
 
 The following shows an example transaction ledger:
 
-![Transaction Approval](/doc-images/outTX.png)
+![Transaction Approval](/doc-images/outTX1.png)
