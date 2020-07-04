@@ -91,23 +91,22 @@ You start your action from the Asset or the Ledger view.
 
 #### Create a New Address
 
-1. Click the Asset view or Ledger view icons:
-2. Click the **New TX** button. The Select Type window shows.
+1. Click the **New TX** button. The Select Type window shows.
 
 ![startwithdraw](/doc-images/StartWithdrawR.png)
 
 3.  Choose the **Withdraw** option in Select Type.    
-4.  Click **Continue**. The No withdrawal address box shows.    
-5.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows. 
+3.  Click **Continue**. The No withdrawal address box shows.    
+4.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows. 
 
 ![add withdraw](/doc-images/AddWith.png)
   
-6.  Select the fund that you want to add the address to in **Source Fund**.    
-7.  Choose the asset type in **Asset**.    
-8.  Enter a name for the wallet in **Wallet Name**.    
-9.  Type in the wallet address in **Wallet Address**.    
-10.  Click **Continue**.    
-11.  See Authorise an Address (Trade Initiator) below.
+5.  Select the fund that you want to add the address to in **Source Fund**.    
+6.  Choose the asset type in **Asset**.    
+7.  Enter a name for the wallet in **Wallet Name**.    
+8.  Type in the wallet address in **Wallet Address**.    
+9.  Click **Continue**.    
+10.  See Authorise an Address (Trade Initiator) below.
     
 ---
 
