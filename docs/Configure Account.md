@@ -11,15 +11,15 @@ Future versions will allow you to:
 *   change the account owner
 *   view/edit account permissions and/or members
 
+Details on your account is accessed from the Account icon that contains your own initials:
 
-
+![Account](/doc-images/initials.png)
 
 Show Account Settings
 ---------------------
 
-1. Click the user icon on the sidebar.
-2. In the displayed account card, click **Account Settings**. The Settings page appears.
-3. In the Settings page, click the various tabs for the different sections of the page.
+1. In the displayed account card, click **Account Settings**. The Settings page appears.
+2. In the Settings page, click the various tabs for the different sections of the page.
 
 ---
 

@@ -2,9 +2,7 @@
 id: Getting Started
 ---
 
-The app section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be able to sign and start your activities on the Qredo network with your web app and mobile app.
-
- From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
+The app section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your web app and the mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
 
 ![Page1](/doc-images/page1.png)
 
@@ -261,5 +259,15 @@ Navigation
 ----------
 
 The main screen of the web app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
+
+|     |     |
+| --- | --- |
+| **Button** | **Description** |
+| ![asset](/doc-images/coins.png)| The Asset view gives you details on all activites on a particular fund. This allows you to monitor and launch tasks from the fund.  |
+| ![Ledger](/doc-images/ledger.png) | The Ledger view provides you information on all inbound and outbound transactions for all your funds. This lets you monitor activity at the account level. |
+| ![Approvals](/doc-images/tick.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
+| ![TrustedNetwork](/doc-images/tick.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |
+| ![Account](/doc-images/initials.png) | The Account view gives you details about your account. You can monitor various areas of your account, such as the account details, plan, and legal documents. |
+
 
  
