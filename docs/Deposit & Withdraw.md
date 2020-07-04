@@ -265,7 +265,7 @@ As the trade initiator, you can check the approval progress for address creation
 
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
-You can view approvals from the Approval section, which appears by clicking:
+You can view approvals from the Approval view, which appears by clicking:
 
 ![tick](/doc-images/tick.png)
 
@@ -329,15 +329,9 @@ The following is an example entry in the approval ledger:
 
 The transaction for the fund appears in the Ledger. However, the ledger also includes transactions for all other funds
 
-You can view the transaction progress of withdrawals from Qredo in the ledger section by clicking
+You can view the transaction progress in the Ledger view by clicking
 
-![Ledger](/doc-images/ledger.png)
-
-1   Click (the Ledger icon)     
-2.  Click the **Addresses** tab,    
-3.  Click the **Pending** or **Actioned** sub-tabs.
-4. Go to the TX Ledger section in the web app.
-5. Access the Outbound tab.
+![Ledger](/doc-images/ledger.png) and accessing the Outbound tab.
 
 TX Ledger shows the following details:
 
@@ -353,7 +347,7 @@ TX Ledger shows the following details:
 | EXPIRES | Expiry date of a transaction that is awaiting approval from a custodian, or authorisation from the trade initiator.|
 | STATUS  | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not yet responded.
 
-If the custodians have approved the transaction, the status is set to COMPLETE. If custodians have signed the transaction and it has not successfully completed (written to the blockchain) because it did not meet the thrreshold level, the status is set to THRESHOLD NOT MET. If the transaction has been rejected by all custodians, the status is set to REJECTED.
+If the custodians have approved the transaction, the status is set to COMPLETE. If custodians have signed the transaction and it has not successfully completed (written to the Qredo blockchain) because it did not meet the threshold level, the status is set to THRESHOLD NOT MET. If the transaction has been rejected by all custodians, the status is set to REJECTED.
 
 The following shows an example transaction ledger:
 

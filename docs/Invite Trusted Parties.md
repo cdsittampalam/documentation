@@ -86,11 +86,11 @@ You first receive a notification on the mobile app.
 4.  To approve the pairing request, tap **Approve**.
 5.  Authenticate using the biometric feature and 6-digit passcode.
 6.  Then tap **Confirm** in the Confirmation screen.  A screen appears to show that approval has been granted.
-7.  Tap **Close**. 
+7.  Tap **Close**.
 
 You will then see the following screen indicating that the request has been approved.
 
-![trusted parties actioned](/doc-images/TrustedPartiesActioned.png) 
+![trusted parties actioned](/doc-images/TrustedPartiesActioned.png)
 
 ### Deny Request
 
@@ -104,20 +104,20 @@ From the Trusted Party screen, you can deny a request.
 
 You will then see the following screen indicating that the request has been denied.
 
-![trusted parties denied](/doc-images/trustedpartydenied.png) 
+![trusted parties denied](/doc-images/trustedpartydenied.png)
 
 ### Monitor Responses
 
-You can use the approval ledger for trusted parties in the web app to monitor responses to your invites. The approvals section shows trusted parties that have actioned an invite and those that have denied.
-You can access the approvals section by clicking:
+You can use the approval ledger for trusted parties in the web app to monitor responses to your invites. The Approvals view shows trusted parties that have actioned an invite and those that have denied.
+You can access the Approvals view by clicking:
 
 ![Button Approve](/doc-images/button-approve.png)  
 
-In the Approvals section, click the Trusted Parties tab.
+In the Approvals view, click the Trusted Parties tab.
 
 The ledger shows entries for invites that have been approved or denied. The invites entries are grouped in to **Pending** and **Actioned**.
 
-![action approve](/doc-images/actionedapprove1.png) 
+![action approve](/doc-images/actionedapprove1.png)
 
 The ledger also shows these details of the trusted party:
 
@@ -131,12 +131,3 @@ The status shows the following information:
 
 - For invite entries that are pending, the status shows as AWAITING CONFIRMATION.
 - For invite entries that have been actioned, the status shows as AUTHORISED or IGNORED.
-
-
-
-
-
-
-
-
-

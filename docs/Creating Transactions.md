@@ -124,8 +124,6 @@ A transfer transaction can only be sent out of Qredo if it has met or has exceed
 You can view approvals from the Approval view, which appears by clicking:
 
 ![tick](/doc-images/tick.png)
-
-
 ---
 
 ### Transaction Approvals
@@ -156,10 +154,7 @@ You can view the transaction progress of transfers from Qredo in the TX Ledger s
 
 You can view transaction progress in the Ledger view by clicking
 
-![Ledger](/doc-images/ledger.png)
-
-1.  Go to the **TX Ledger** section in the web app.
-2.  Access the **Outbound** tab.
+![Ledger](/doc-images/ledger.png) and accessing the Inbound tab.
 
 TX Ledger shows the following details:
 
