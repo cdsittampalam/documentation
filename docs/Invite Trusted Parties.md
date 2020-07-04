@@ -26,7 +26,7 @@ Send Email Invite
 
 You enter an email address for a user on the Qredo network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again. Alternatively, you can add them via LinkedIn, Telegram, or WhatsApp in the same way as adding a counterparty from outside of Qredo.
 
-1.  Enter the email address of the user and click Search.
+1.  Enter the email address of the user and click **Search**.
 2.  If the user is on the Qredo network with that email address, a box appears asking you to confirm pairing with the email address.  
 
 ![Add Trusted](/doc-images/AddTrustedConf.png)
@@ -83,10 +83,10 @@ You first receive a notification on the mobile app.
 
 ![pairing](/doc-images/addtrustedphone.png)
 
-4.  To approve the pairing request, tap Approve.
+4.  To approve the pairing request, tap **Approve**.
 5.  Authenticate using the biometric feature and 6-digit passcode.
 6.  Then tap **Confirm** in the Confirmation screen.  A screen appears to show that approval has been granted.
-7.  Tap Close. 
+7.  Tap **Close**. 
 
 You will then see the following screen indicating that the request has been approved.
 
@@ -99,7 +99,7 @@ From the Trusted Party screen, you can deny a request.
 1.  To deny the pairing request, tap **Deny** in the Trusted Party screen.
 2.  Authenticate using the biometric feature and 6-digit passcode.
 3.  Then tap **Confirm** in the Confirmation screen. A screen appears to show that approval has been granted.
-4.  Tap Close.
+4.  Tap **Close**.
 
 
 You will then see the following screen indicating that the request has been denied.
@@ -110,13 +110,13 @@ You will then see the following screen indicating that the request has been deni
 
 You can use the approval ledger for trusted parties in the web app to monitor responses to your invites. The approvals ledger shows trusted parties that have actioned an invite and those that have denied.
 
-1. Click the Approval button.
+1. Click 
 
 ![Button Approve](/doc-images/button-approve.png)  
 
 2. Click the Trusted Parties tab.
 
-The ledger shows entries for invites that have been approved or denied. The invites entries are grouped in to *Pending* and *Actioned*.
+The ledger shows entries for invites that have been approved or denied. The invites entries are grouped in to **Pending** and **Actioned**.
 
 ![action approve](/doc-images/actionedapprove1.png) 
 
