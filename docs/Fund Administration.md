@@ -22,7 +22,7 @@ You access the Holdings page by clicking the Asset icon:
 
 ![Account](/doc-images/coins.png)
 
-The Holdings page consists of:the summary section that allows you to create a fund or view attributes of a default fund.
+The Holdings page consists of the summary section that allows you to create a fund or view attributes of a default fund.
 
 ![Fund One in Holdings](/doc-images/Fund1DX.png)
 
@@ -56,10 +56,9 @@ If you have changed your default settings to include Bitcoin for Fund One and Bi
 The summary section has basic information on the fund:
 
 *   The Fund ID to help differentiate funds with similar names and descriptions
-*   The type of asset in the fund as Bitcoin testnet
+*   The type of asset in the fund as Bitcoin Testnet
 *   The name of the fund as "Fund One"
 *   A brief description about the fund
-*   Bitcoin Testnet as the asset
 
 
 ![summary](/doc-images/3Summaryinfo.png)
@@ -68,7 +67,7 @@ The summary section has basic information on the fund:
 
 ### Membership & Permissions
 
-The Membership & Permissions section shows your name as a fund member with the permission of owner. The permission of owner means that you have control over the assets and the custody policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, and perform the operations of withdrawal and transfers. The fund automatically includes a deposit address for receiving funds.
+The Membership & Permissions section shows your name as a fund member with the permission of owner. The permission of owner means that you have control over the assets and the custody policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, and perform the operations of withdrawal and transfer. The fund automatically includes a deposit address for receiving funds.
 
 ![fundmembership](/doc-images/FundMembershipandpermissions.png)
 
@@ -76,7 +75,7 @@ The Membership & Permissions section shows your name as a fund member with the p
 
 ### Custody
 
-The Custody section shows the custody policies of a fund. A custody policy determines the custodians that can sign a transaction, and whose signatures are needed for transfers and/or withdrawals. Each custodian has a permission of transfer and/or withdrawal. However, in Fund One the custodian is the fund owner.
+The Custody section shows the custody policies of a fund. A custody policy determines the custodians that can sign a transaction, and whose signatures are needed for transfers and/or withdrawals to occur. Each custodian has a permission of transfer and/or withdrawal. However, in Fund One the custodian is the fund owner.
 
 As a custody provider accepting or rejecting transactions on behalf of an investing fund owner, the custody policy settings within a fund are particularly important. For example, depending on the type of investment, transactions within some funds may require more signatures than others.
 
