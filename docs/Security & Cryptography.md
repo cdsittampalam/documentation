@@ -69,7 +69,7 @@ The MPC uses the Paillier cryptosystem when the protocol is run. The Paillier cr
 
 ### SECP256K
 
-The MPC uses [SECP256K] (https://en.bitcoin.it/wiki/Secp256k1) to ensure that the generated public key is compatible with Bitcoin. SECP256K is the signature algorithm used by Bitcoin. Other cryptocurrencies use SECP256K, which will allow Qredo to support Litecoin and Ethereum currencies in future releases.
+The MPC uses [SECP256K](https://en.bitcoin.it/wiki/Secp256k1) to ensure that the generated public key is compatible with Bitcoin. SECP256K is the signature algorithm used by Bitcoin. Other cryptocurrencies use SECP256K, which will allow Qredo to support Litecoin and Ethereum currencies in future releases.
 
 **Note:** SEC means Standards for Efficient Cryptography
 
@@ -91,5 +91,5 @@ BLS public and private key pairs are generated when an IDDoc is created for a us
 BLS uses elliptic curve cryptography combined with bi-linear mapping to calculate public keys, private keys, and signatures. Bi-linear mapping features algebra. Through its mathematics, BLS allows the creation of shorter signatures for more efficient signing.
 
 :::info
-Cryptography in Qredo is built from the [Apache Milagro project] (https://milagro.apache.org/users.html). More information is also available from Qredo's Yellow Paper on the main Qredo website.
+Cryptography in Qredo is built from the [Apache Milagro project](https://milagro.apache.org/users.html). More information is also available from Qredo's Yellow Paper on the main Qredo website.
 :::
