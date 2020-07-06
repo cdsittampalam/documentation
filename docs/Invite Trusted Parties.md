@@ -64,7 +64,7 @@ If there are many invites in the list, you can manage the list to show fewer inv
 Custodian Approvals
 -------------------
 
-As a user on the Qredo network, you would have received an invite on your phone to become part of another user's network. When invited, you become a trusted counterparty where you can become a custodian of their fund policies, as well as send and receive money. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
+As a user on the Qredo network, you would have received an invite on your phone to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
 
 If you do not want to be part of their network, you can deny their invite.
 
@@ -73,8 +73,6 @@ Once you have signed in to the mobile app, the screen appears similar to the fol
 ![pairing](/doc-images/pairingsamenetwork.png)
 
 ### Approve Request  
-
-You first receive a notification on the mobile app.
 
 1.  Tap on the notification for the invitation.
 2.  Sign in to the app using the biometric feature of your phone.
@@ -91,17 +89,15 @@ You will then see the following screen indicating that the request has been appr
 
 ![trusted parties actioned](/doc-images/TrustedPartiesActioned.png)
 
-### Deny Request
+### Reject Request
 
-From the Trusted Party screen, you can deny a request.
-
-1.  To deny the pairing request, tap **Deny** in the Trusted Party screen.
+1.  To reject the pairing request, tap **Reject** in the Trusted Party screen.
 2.  Authenticate using the biometric feature and 6-digit passcode.
 3.  Then tap **Confirm** in the Confirmation screen. A screen appears to show that approval has been granted.
 4.  Tap **Close**.
 
 
-You will then see the following screen indicating that the request has been denied.
+You will then see the following screen indicating that the request has been rejected.
 
 ![trusted parties denied](/doc-images/trustedpartydenied.png)
 
