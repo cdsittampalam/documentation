@@ -136,9 +136,9 @@ and Fund One now contains Bitcoin.
 Create a Fund Wizard
 --------------------
 
-The Create a Fund wizard lets you quickly create a fund using wizard steps. Each fund you create can have the same or different asset depending on your needs. You can also set the same or different custodians for withdrawal and transfer policies. These policies can also include different Threshold levels.
+The Create a Fund wizard takes you through the steps for creating a fund. Each fund you create can have the same or different asset depending on your needs. You can also set the same or different custodians for withdrawal and transfer policies. 
 
-When you select custodians, you can also choose the Threshold level. A Threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level needing more signatures means that custodians have more power to restrict the transaction from taking place. A lower threshold means they have less power to restrict the transaction since fewer signatures are needed.
+When you select custodians, you can also choose the Threshold level. A Threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3 needs fewer signatures for a transaction to take place.  
 
 ### Example
 
