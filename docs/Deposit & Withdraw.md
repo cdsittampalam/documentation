@@ -81,7 +81,7 @@ If you do not have a withdrawal address, you need to create one before the trans
 
 As a custodian, you can approve the withdrawal address for the transaction if it is whitelisted. However, if the address is deemed insecure, you can reject the new address (see [Approve an Address (Custodian)](#approve-an-address-custodian))
 
-You start your action from either the Asset or Ledger view.
+You start your action from either the Asset view or Ledger view.
 
 
 #### Create a New Address
@@ -152,7 +152,7 @@ For withdrawing money, the Qredo app consists of a wizard that lets you withdraw
 
 You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 
-In the same way as a withdrawal address, you start your action from the Asset or Ledger view.
+In the same way as a withdrawal address, you start your action from the Asset view or Ledger view.
 
 #### Steps
 
@@ -186,14 +186,13 @@ These include:
 *   the transaction reference number    
 *   the estimated withdrawal fee
 
-Details of the withdrawal fees is shown when you click the question mark icon. This includes:
+Details of the withdrawal fees is shown when you click the question mark icon. Fees includes:
 
 *   Qredo fees for the settlement.    
 *   Miner fees that cover the work and resources they need to generate blocks on the underlying network.    
-
-1.  To see details of fees, click the question mark icon.    
-2.  To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
-3. To return to the previous screen, click **Back**.
+ 
+1.  To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
+2. To return to the previous screen, click **Back**.
 
 Once authorised, the custodian can also approve or reject the transaction.
 
@@ -201,7 +200,7 @@ Once authorised, the custodian can also approve or reject the transaction.
 
 #### Authorise the Withdrawal
 
-Once authorised, you can view its details including the fees that are charged on the transaction.
+Before authorising, you can view its details including the fees that are charged on the transaction.
 
 1.  Tap on the notification that you received on your phone. The Withdraw screen shows with details of the transaction including fees.
 
