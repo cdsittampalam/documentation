@@ -57,7 +57,7 @@ If you have sent to an invite contacts via LinkedIn, Telegram or WhatsApp, an in
 
 ### Clear Paired Status
 
-To help you manage your invite list, you can clear invite entries that have been paired by double-clicking the buttons labelled **Paired**.
+If there are many invites in the list, you can manage the list to show fewer invites by clearing the paired entries. Double-click the button for each entry labelled **Paired**.
 
 ---
 
