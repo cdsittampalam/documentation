@@ -30,7 +30,7 @@ Traders and fund managers launch actions through the web app, e.g., transferring
 Qredo Mobile App
 ----------------
 
-The Qredo mobile app acts as a secure multi-factor signing device, utilising a combination of biometrics, a 6 digit pin and a master seed (or secret key) protected on the device's secure enclave. The Qredo mobile app uniquely identifies you on the network and and allows you to securely authorise transfer and changes to your account initiated from the desktop browser app.
+The Qredo mobile app acts as a secure multi-factor signing device, utilising a combination of biometrics, a 6 digit pin and a master seed (or secret key) protected on the device's secure enclave. The Qredo mobile app uniquely identifies you on the network and allows you to securely authorise transfer and changes to your account initiated from the desktop browser app.
 
 ![Side By Side Images](/doc-images/Sidebysideimages.png)
 
