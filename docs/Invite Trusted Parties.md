@@ -99,24 +99,23 @@ You will then see the following screen indicating that the request has been acti
 
 ### Monitor Responses
 
-You can use the approval ledger for trusted parties in the web app to monitor responses to your invites. The Approvals view shows trusted parties that have actioned an invite and those that have denied.
+In the Approvals view, you can monitor responses to your invites. The Approvals view shows trusted parties that have approved and/or rejected invites.
 You can access the Approvals view by clicking:
 
 ![Button Approve](/doc-images/button-approve.png)  
 
 In the Approvals view, click the Trusted Parties tab.
 
-The ledger shows entries for invites that have been approved or denied. The invites entries are grouped in to **Pending** and **Actioned**.
+The view shows entries for invites that have been approved or denied. The invites entries are grouped in to **Pending** and **Actioned**.
 
 ![action approve](/doc-images/actionedapprove3.png)
 
-The ledger also shows these details of the trusted party:
+The Approvals view, also shows these details of the trusted party:
 
 - their location.
 - their email address.
 - their network status.
 - the date in which the invite was actioned.
-- the status as either approved or denied.
 
 The status shows the following information:
 
