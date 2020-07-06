@@ -8,9 +8,7 @@ As the user with the role of Account Owner, you have complete control over funds
 Any type of user can create funds in order to manage assets. The following are examples:
 
 *   **Institutions** These users, e.g. large banks, can create funds for investment where custodians can accept or reject transactions made by the investing institution.
-
 *   **Custody Provider** A custody provider may also be able to own a fund and seek other financial stakeholders to approve or reject transactions.
-
 *   **Traders** Traders can create transactions once they have created the funds.
 
 ---
