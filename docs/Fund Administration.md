@@ -8,12 +8,12 @@ As the Account Owner, you have complete control over funds. You can view informa
 Any user that wants to use Qredo to make investments via transactions on the Qredo network can use funds or create funds themselves. The following are examples:
 
 *   **Institutions** These users, e.g. large banks, can create funds for investment where custodians can accept or reject transactions made by the investing institution.
-    
+
 *   **Custody Provider** A custody provider may also be able to own a fund and seek other financial stakeholders to approve or reject transactions.
-    
+
 *   **Traders** Traders can create transactions once they have created the funds.
 
---- 
+---
 
 Holdings Page
 -----------------
@@ -37,9 +37,9 @@ The page also allows you to view details on the transactions and the custody pol
 You can choose the following options from the page:
 
 *   **View Fund One:** If you are a new user, you can view details of a default fund, labelled Fund One. Fund One is created for you once you have joined the Qredo Network. While Fund One is designed to help you understand how a Qredo fund works, you can also use Fund One for transactions. The system creates a deposit address for you to receive assets (see [View Fund One](#view-fund-one)).
-    
+
 *   **Change Default Settings:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Settings](#change-default-settings)).
-    
+
 *   **Create a Fund:** If you are familiar with the concepts of a Qredo funds and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
 
 ---
@@ -49,7 +49,7 @@ View Fund One
 
 From the Holdings page, click the plus icon next to the Fund One entry.
 
-![defaultfund](/doc-images/deffund1R.png) 
+![defaultfund](/doc-images/deffund1R.png)
 
 The Summary info, Membership & Permissions and Custody sections show for Fund One.
 
@@ -60,15 +60,15 @@ If you have changed your default settings to include Bitcoin for Fund One and Bi
 The summary section has basic information on the fund:
 
 *   The Fund ID to help differentiate funds with similar names and descriptions
-    
+
 *   The type of asset in the fund as Bitcoin testnet
-    
+
 *   The name of the fund as "Fund One"
-    
+
 *   A brief description about the fund
-    
+
 *   Bitcoin Testnet as the asset
-    
+
 
 ![summary](/doc-images/3Summaryinfo.png)
 
@@ -115,7 +115,7 @@ already happened in the past and have been approved.
 
 When Fund One is created, there is a single deposit address that is automatically assigned to receive money. When used, a fund can have multiple withdrawal addresses.
 
-1.  Click on details of the asset under the Fund One entry. 
+1.  Click on details of the asset under the Fund One entry.
 
 ![address](/doc-images/hldin.png)
 
@@ -130,6 +130,8 @@ Change Default Settings
 You can set Fund One to include Bitcoin instead of Bitcoin Testnet. When you change the asset, Bitcoin Testnet is set as the asset for the other default fund, Fund Two.
 
 This feature is especially useful for users that are likely to be instantly receive money in to their default fund. For example, as an exchange user, you may want to instantly receive payments in Bitcoin rather than Bitcoin Test.
+
+Future versions of Qredo will have other currencies available in funds.
 
 ![custody fund](/doc-images/changedefaultsonsummaryR.png)
 
@@ -175,7 +177,7 @@ From the Summary section in the Holdings page, click the Plus icon or **Create N
 
 ---
 
-### Basic Details 
+### Basic Details
 
 Entering name, description and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that other members in your Qredo network have a fund of the same asset type.
 
@@ -185,7 +187,7 @@ Entering name, description and a theme enables your fund to be identified on the
 4.  Select an asset from **Assets.**
 5.  Click **Continue**.
 
-#### Membership and Permissions 
+#### Membership and Permissions
 
 1.  Read the notice on membership and permissions. This indicates that only one member is available for the fund, and that further enhancements are coming soon.
 2.  Observe your name as the fund member and click **Continue.**
@@ -197,7 +199,7 @@ Entering name, description and a theme enables your fund to be identified on the
 1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](/docs/Invite%20Trusted%20Parties)).  Click **Continue**.
 3.  In the **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
 4.  For each custodian, choose a threshold in the **Threshold** list.
-5.  Click **Continue**. 
+5.  Click **Continue**.
 
 ---   
 
@@ -209,14 +211,14 @@ Entering name, description and a theme enables your fund to be identified on the
 4.  In **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
 5.  For each custodian, choose a threshold in the **Threshold** list.
 6.  Click **Continue**.
-    
+
 ---
 
-### Review Details 
+### Review Details
 
 You can review the details of the selected custodians for the withdrawal and transfer policies. You can also review the name, description, and look-and-feel of the fund policy on the Summary page.
 
 1.  To change any of the fund details, click **Back** to return to the previous wizard screen. Clicking **Back** again moves to previous screens.
 2.  Click **Confirm and Create Fund**.
-    
+
 Transfers display an error message to the recipient after the confirmation step if the target counterparty does not have a default fund set for the asset. For example, you use Bitcoin but they don't have a Bitcoin fund.
