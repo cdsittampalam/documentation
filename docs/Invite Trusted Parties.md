@@ -24,7 +24,7 @@ Click the **Add Trusted Party** button on the Trusted Network screen to show the
 
 ### Add from Qredo
 
-You enter an email address for a user on the Qredo network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again. Alternatively, you can add them via LinkedIn, Telegram, or WhatsApp in the same way as adding a counterparty from outside of Qredo.
+You enter an email address for a user on the Qredo network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again. 
 
 1.  Enter the email address of the user and click **Search**.
 2.  If the user is on the Qredo network with that email address, a box appears asking you to confirm pairing with the email address.  
