@@ -112,10 +112,10 @@ The view shows entries for invites that have been approved or denied. The invite
 
 The Approvals view also shows these details of the trusted party:
 
-- their location.
-- their email address.
-- their network status.
-- the date in which the invite was actioned.
+- Location of the trusted party.
+- Email address of the trusted party.
+- Network status of the trusted party.
+- Date in which the invite was actioned.
 
 The status shows the following information:
 
