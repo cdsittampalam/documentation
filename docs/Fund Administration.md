@@ -36,7 +36,7 @@ You can choose the following options from the page:
 
 *   **View Fund One:** If you are a new user, you can view details of a default fund, labelled Fund One. Fund One is created for you once you have joined the Qredo Network. While Fund One is designed to help you understand how a Qredo fund works, you can also use Fund One for transactions. The system creates a deposit address for you to receive assets (see [View Fund One](#view-fund-one)).
 *   **Change Default Settings:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Settings](#change-default-settings)).
-*   **Create a Fund:** If you are familiar with the concepts of a Qredo funds and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
+*   **Create a Fund:** If you are familiar with the concepts of a Qredo fund and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
 
 ---
 
@@ -56,13 +56,9 @@ If you have changed your default settings to include Bitcoin for Fund One and Bi
 The summary section has basic information on the fund:
 
 *   The Fund ID to help differentiate funds with similar names and descriptions
-
 *   The type of asset in the fund as Bitcoin testnet
-
 *   The name of the fund as "Fund One"
-
 *   A brief description about the fund
-
 *   Bitcoin Testnet as the asset
 
 
