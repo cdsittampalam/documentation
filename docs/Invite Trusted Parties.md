@@ -1,7 +1,7 @@
 ---
 id: Invite Trusted Parties
 ---
-As the account owner, you can invite users as trusted parties, allowing you to build your Qredo network. A trusted party can send and receive money and/or approve and reject as a nominated custodian. 
+As the account owner, you can invite users as trusted parties, allowing you to build your Qredo network. A trusted party can send and receive money, and/or approve and reject as a nominated custodian. 
 
 You can invite a user to be a trusted party from within the Qredo network, or from outside of Qredo. Users from within the Qredo network can be an account owner, or a counterparty to another account owner. When choosing a party externally, you can invite them via LinkedIn, Telegram or WhatsApp.  
 
