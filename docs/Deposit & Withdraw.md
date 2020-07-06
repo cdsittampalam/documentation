@@ -202,7 +202,7 @@ Once authorised, the custodian can also approve or reject the transaction.
 
 Before authorising, you can view its details including the fees that are charged on the transaction.
 
-1.  Tap on the notification that you received on your phone. The Withdraw screen shows with details of the transaction including fees.
+1.  Tap the notification that you received on your phone. The Withdraw screen shows with details of the transaction including fees.
 
 ![Authwith](/doc-images/authwithadd.png)
 
@@ -239,7 +239,7 @@ You can also view other details linked to the transaction under the Show Detail 
 
 #### Steps
 
-1.  Tap on the notification on your phone. The Withdrawal screen shows.    
+1.  Tap the notification on your phone. The Withdrawal screen shows.    
 2.  Click **Show Details** to view more details of the transaction.
 3.  To approve, tap **Approve**.    
 4.  To reject, tap **Reject**.
@@ -252,7 +252,7 @@ For the action you select, you sign in with your biometric features and 6-digit 
 
 As the trade initiator, you can check the approval progress for address creation and transactions. Both addresses and transactions require approval from custodians.
 
-A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
+A withdrawal transaction can only happen if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
 You can view approvals from the Approval view, which appears by clicking:
 
@@ -318,7 +318,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 The transaction for the fund appears in the Ledger. However, the ledger also includes transactions for all other funds
 
-You can view the transaction progress in the Ledger view by clicking
+You can view the transaction progress in the Ledger view by clicking the ledger icon
 
 ![Ledger](/doc-images/ledger.png)
 
