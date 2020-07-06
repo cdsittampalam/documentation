@@ -114,14 +114,14 @@ The MPC cluster works with both the watcher and the MPC validator.  When adding 
 
 #### MPC Validator
 
-Accesses data on the Qredo blockchain on request by the MPC cluster through an independent connection to the blockchain validator nodes. The MPC validator is needed for highly sensitive processes such as fund withdrawal.
+The MPC Validator accesses data on the Qredo blockchain on request of the MPC cluster through an independent connection to the blockchain validator nodes. The MPC validator is needed for highly sensitive processes such as a withdrawal.
 
 ---
 
 Transaction Flows
 -----------------
 
-Transaction flows can require functions nodes and services to perform various functions on the Qredo network, including when a user:
+Transaction flows require nodes and services to perform various functions on the Qredo network, including when a user:
 
 *   joins Qredo
 *   deposits money
