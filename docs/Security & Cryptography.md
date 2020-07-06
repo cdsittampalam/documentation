@@ -7,9 +7,7 @@ The Qredo network includes a secure architecture that allows transaction data to
 This page describes:
 
 *   data center security
-
 *   MPC protocol
-
 *   BLS signature scheme
 
 
@@ -22,7 +20,7 @@ The physical Qredo network is distributed where devices are stored in six Tier-4
 
 Each data center contains dedicated computing equipment to support the MPC, Qredo blockchain, and watcher components. This includes:
 
-*   Qredo appliances housing Rasberry Pi units for MPC nodes. The MPC node can be a client or server node.
+*   Qredo appliances housing Rasberry Pi units for the MPC nodes. Each MPC node can be a client or server node.
 
 *   a PC that holds the watcher and Blockchain validator services.
 
@@ -47,7 +45,7 @@ The MPC protocol runs when generating a wallet address for money coming in to th
 
 The MPC protocol communicates with the blockchain validator nodes via the watcher service to ensure that it can process the correct wallet.
 
-Applying the protocol, a client and server need to compute details on keys in order to prepare and create a public key for signing a transaction. To remove single points of failures, the process takes place across all data centers, where a MPC client and MPC server are in different data centers.
+Applying the protocol, a client and server need to compute details on keys in order to prepare and create a public key for signing a transaction. To remove single points of failures, the process takes place across all data centers.
 
 1.  A client and server node each generate their respective key material.
 
@@ -67,7 +65,7 @@ Applying the protocol, a client and server need to compute details on keys in or
 
 ### Paillier Cryptosystem
 
-The MPC uses the Paillier crypotsystem when the protocol is run. The Paillier cryptosystem handles secrets for communication between two parties. The cryptosystem uses the homomorphic encryption method which performs calculations on encrypted text (or cypher text) to generate another level of encrypted results. By way of the mathematics, the cryptosystem ensures that the result of the decryption is the same as the original decrypted cipher text.
+The MPC uses the Paillier cryptosystem when the protocol is run. The Paillier cryptosystem handles secrets for communication between two parties. The cryptosystem uses the homomorphic encryption method which performs calculations on encrypted text (or cypher text) to generate another level of encrypted results. By way of the mathematics, the cryptosystem ensures that the result of the decryption is the same as the original decrypted cipher text.
 
 ### SECP256K
 
@@ -75,7 +73,7 @@ The MPC uses [SECP256K]: https://en.bitcoin.it/wiki/Secp256k1 to ensure that the
 
 **Note:** SEC means Standards for Efficient Cryptography
 
-SECP256K1 is the discrete elliptic curve group used in Bitcoin's implementation of ECDSA (Elliptic Curve Digital Signature Algorithm). Elliptic curve cryptography allows the properties of elliptic curves to determine values such as public, private keys, and the coefficients for determining key values.
+SECP256K1 is the discrete elliptic curve group used in Bitcoin's implementation of ECDSA (Elliptic Curve Digital Signature Algorithm). Elliptic curve cryptography allows the points of elliptic curves to determine values such as public, private keys, and the coefficients for determining key values.
 
 ---
 
