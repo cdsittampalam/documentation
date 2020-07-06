@@ -3,9 +3,9 @@ id: Fund Administration
 
 ---
 
-As the Account Owner, you have complete control over funds. You can view information on funds and transactions, and create funds to use on the Qredo network. A fund in Qredo is a financial vehicle in your account that contains all the assets for use in transfer, deposit, and withdrawal transactions. A fund is also associated with custody policies.
+As the user with the role of Account Owner, you have complete control over funds. You can view information on funds and transactions, and create funds to use on the Qredo network. A fund in Qredo is a financial vehicle in your account that contains all the assets for use in transfer, deposit, and withdrawal transactions. A fund is also associated with custody policies.
 
-Any user that wants to use Qredo to make investments via transactions on the Qredo network can use funds or create funds themselves. The following are examples:
+Any type of user can create funds in order to manage assets. The following are examples:
 
 *   **Institutions** These users, e.g. large banks, can create funds for investment where custodians can accept or reject transactions made by the investing institution.
 
