@@ -202,7 +202,7 @@ The phone shows screens to introduce the seed recovery phrase.
 ![seedinst](/doc-images/seedinst.png)
 
 6. Tap **Okay, got it**.The screens shows 24 empty entries.
-7.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
+7. Tap each entry and choose the word that matches the one in the phrase entry you recorded.
 
 ![confirm](/doc-images/confent.png)
     
@@ -233,7 +233,7 @@ Sign In Steps
 
 ![wabsign](/doc-images/websign.png)
 
-3.  To ensure that you do not need to enter your details again the next time you open the mobile app, observe **Remember Me**.   
+3.  To ensure that you do not need to enter your details again the next time you open the web app, observe **Remember Me**.   
 4.  Tap **Sign In**.
     
 Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the mobile app. A message appears.
