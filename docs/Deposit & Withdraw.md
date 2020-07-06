@@ -13,7 +13,7 @@ Deposit Money
 -------------
 
 The default fund and asset that you have set up includes a deposit address, which is the Bitcoin wallet address that is linked to a Qredo fund. However, any
-fund that you create is linked to a deposit address. Details on deposit addresses appear in both asset and ledger view.
+fund that you create is linked to a deposit address. The address is securely created using the MPC protocol. Details on deposit addresses appear in both asset and ledger view.
 
 You are notified when money arrives at your address via an email.
 
