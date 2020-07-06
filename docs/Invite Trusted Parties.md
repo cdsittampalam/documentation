@@ -81,7 +81,7 @@ If you do not want to be part of their network, you can reject their invite.
 6.  Then tap **Confirm** in the Confirmation screen.  A screen appears to show that approval has been granted.
 7.  Tap **Close**.
 
-You will then see the following screen indicating that the request has been actioned with the status of approved.
+You will then see the following screen indicating that the request has been actioned with the status of APPROVED.
 
 ![trusted parties actioned](/doc-images/TrustedPartiesActioned.png)
 
