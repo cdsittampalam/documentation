@@ -156,7 +156,8 @@ The blockchain validator records these events:
 #### Watcher and MPC
 The watcher informs the MPC to generate a cryptocurrency address for the incoming money on the Qredo transaction. This is also known as a peg-in transaction.
 
-The watcher adds the address as a watch-only address on the Bitcoin node. This allows the node to see changes in the wallet for the money coming in. When Anne deposits money for Alice in the address, the watcher periodically (every minute) requests wallet changes from its Bitcoin node.
+The watcher adds the address as a watch-only address on the Bitcoin node. This allows the node to see changes in the wallet for the money coming in. When Anne deposits money for Alice in the address, the watcher periodically (every minute) requests wallet changes from its Bitcoin node. When the node is queried periodically, the node can provide full UTXO details, together with proof of existence on the underlying chain.
+
 
 :::info
 When the node is queried periodically, the node can provide full UTXO details, together with proof of existence on the underlying chain.
@@ -166,14 +167,6 @@ When the node is queried periodically, the node can provide full UTXO details, t
 
 #### Mapping Address and Amounts
 The Qredo blockchain uses consensus rules to map the cryptocurrency address to Alice’s wallet through the MPC. The amount of money deposited into the address is added to the balance in Alice’s wallet. The balance is a value in the consensus database with the key “Wallet_Alice.balance”. The balance in the database key increases as more funds are added.
-
----
-
-#### Monitoring the Address
-
-When monitoring the cryptocurrency address, the watcher adds the address as a watch-only address on the Bitcoin node. When Anne deposits money for Alice in the address, the watcher periodically (every minute) requests wallet changes from its Bitcoin node.
-
-When the node is queried periodically, the node can provide full UTXO details, together with proof of existence on the underlying chain.
 
 ---
 
