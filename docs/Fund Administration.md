@@ -142,7 +142,7 @@ When you select custodians, you can also choose the Threshold level. A Threshold
 
 ### Example
 
-In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for individual withdrawal and transfer policies. Each policy contains a set Threshold level.
+In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for both policies. Each policy contains a set Threshold level.
 
 ![Fund A](/doc-images/ManagingFundA.png)
 
