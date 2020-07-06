@@ -245,17 +245,12 @@ Once you have signed in to the web app, you are requested by Qredo to authentica
 7. Once you tapped Authorise or Deny, you will see a confirmation screen.
 8. Click Confirm. An Approval Granted or Approval Rejected screen appears.
 
-
-### View Requests
-
-If you tap **Request details** in the Sign in request note, it shows the time, date, location, and device of the request.
-
 ---
 
 Navigation
 ----------
 
-The main screen of the web app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
+The screens of the web app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
 
 |     |     |
 | --- | --- |
