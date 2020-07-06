@@ -91,7 +91,7 @@ Type in the code in **Email address validation code**. The page for downloading 
 
 ### Download Phone App
 
-An SMS is sent to your phone that contains a link to the signing app on the app store of your device. The SMS should arrive promptly.
+An SMS is sent to your phone that contains a link to the mobile app on the app store. The SMS should arrive promptly.
 
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
 
