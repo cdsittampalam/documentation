@@ -36,7 +36,7 @@ The Qredo mobile app acts as a secure multi-factor signing device, utilising a c
 
 As an appointed custodian, you use the phone to approve transactions which provide the digital signatures for transactions to be secured on the Qredo blockchain.  The Qredo Mobile App allows you to be instantly notified as soon as the trade initiator has authorised a transaction, where you can approve the transaction in a few taps.
 
-You can authorise/approve a request when:
+You can also authorise/approve a request when:
 * logging in via the web browser.
 * other users request to join the Qredo network.
 * whitelisting cryptocurrency addresses.

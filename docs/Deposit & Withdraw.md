@@ -3,7 +3,7 @@ id: Deposit & Withdraw
 
 ---
 
-For a deposit transaction, users can add money to a whitelisted external cryptocurrency address that is linked to your fund. Once added to a whitelisted address for a fund on Qredo, it is safely stored on the Qredo blockchain as a transaction allowing any custodial policies of the fund to be applied. The money in the fund is liquid and ready to be transfered to another Qredo user if required.
+For a deposit transaction, users can add money to a whitelisted external cryptocurrency address that is linked to your fund. Once added to a whitelisted address for a fund on Qredo, the money is safely stored on the Qredo blockchain as a transaction and is subject to the custodial policies of its associated fund. The Qredo network ensure that deposited money remains liquid, and is ready to transfered to another Qredo user if needed.
 
 To withdraw, you send money out of a fund on Qredo to an external cryptocurrency address. When sent to a whitelisted address, the money becomes available on the underlying blockchain, and is no longer subject to the custody policies and ownership rights of the Qredo network. Qredo gives you the flexibility of adding money back on to the network at a later point in time.
 
