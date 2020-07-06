@@ -35,7 +35,7 @@ You enter an email address for a user on the Qredo network. The email address mu
 
 ### Add from Contacts
 
-In the Invite to Join Qredo section, click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent directly via the selected platform. The users see the invite as a link to the sign up page on the Qredo website.
+In the Invite to Join Qredo section, click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent directly via the selected service. The users see the invite as a link to the sign up page on the Qredo website.
 
 You can check the Trusted Network screen for details of the new invite.
 
@@ -53,7 +53,7 @@ The Trusted Network screen shows the status of your invites. Invite entries show
 
 The displayed invites would have been sent to your contacts outside of Qredo, or to users within the Qredo network. If you have just sent an invite and are waiting for the recipient to accept, the invite shows as pending.
 
-If you have sent to contacts  invite that is pending can mean that it has been rejected. If the user has not accepted the invite, they can still invite you to join their network at a later time (as a trusted counterparty).
+If you have sent to an invite contacts via LinkedIn, Telegram or WhatsApp, an invite that is pending can mean that it has been rejected. If the user has not accepted the invite, they can still invite you to join their network at a later time as their trusted party.
 
 ### Clear Paired Status
 
