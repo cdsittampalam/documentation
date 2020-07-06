@@ -46,8 +46,8 @@ Manage Invite List
 
 The Trusted Network screen shows the status of your invites. Invite entries show as either:  
 
-*  paired - where the user or contact has accepted the invite.  
-*  pending - where the user or contact has not yet accepted the invite.
+*  PAIRED - where the user or contact has accepted the invite.  
+*  PENDING - where the user or contact has not yet accepted the invite.
 
 ![Trustednetworkupdate](/doc-images/3trustednetworkscreenupdate.png)
 
