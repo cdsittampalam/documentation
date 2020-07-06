@@ -45,7 +45,7 @@ System Requirements
 
 The Qredo web app runs on Safari, Chrome, Internet Explorer, Firefox, and Opera.
 
-The Qredo mobile App runs on recent Android and iOS versions. These phones must include the biometric capabilities of either the Face ID or Touch ID.
+The Qredo Mobile App runs on iOS versions of OSX13 and above support. Future releases will support Android. These phones must include the biometric capabilities of either the Face ID or Touch ID. 
 
 The Qredo mobile app requires a working phone camera to access the QR-code on the web app during the registration process.
 
