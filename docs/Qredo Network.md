@@ -104,11 +104,11 @@ The watcher mediates between the blockchain validator, MPC cluster, and cryptocu
 
 #### Bitcoin
 
-A node on an external cryptocurrency network. The node keeps a copy of the underlying chain (such as the Bitcoin blockchain), and allows the Qredo app to monitor payments in and out of Qredo. The watcher can connect to multiple nodes to increase certainty on the state of the external network. Future versions will include nodes that support other currencies.
+The node, residing on an external cryptocurrency network, keeps a copy of the underlying chain (such as the Bitcoin blockchain). The node allows the monitoring of payments in and out of Qredo. The watcher can connect to multiple nodes to increase certainty on the state of the external network. Future versions will include nodes that support other currencies.
 
 #### MPC Cluster
 
-The MPC cluster is a set of nodes that work together to generate a signed public key by applying the MPC protocol. The protocol, through its use of mathematics behind the scenes, alleviates the need for a private key in order to sign transactions that are added to the Qredo blockchain.
+The MPC cluster is a set of nodes that work together to generate a signed public key by applying the MPC protocol. The protocol, through its use of mathematics behind the scenes, alleviates the need for a private key in order to sign transactions that are added to the Qredo blockchain. More information on the MPC is described in [Security & Cryptography](/docs/Security%20&%20Cryptography).
 
 The MPC cluster works with both the watcher and the MPC validator.  When adding funds, an MPC node verifies the validity of a request against either a proof supplied with the transaction or by querying the Qredo blockchain validator. Any resultant MPC transaction can be transferred back to the Qredo blockchain through the watcher. The validity of the transaction can be checked by verifying the signatures against the public keys of the MPC cluster.
 
