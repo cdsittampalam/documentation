@@ -44,16 +44,16 @@ You can check the Trusted Network screen for details of the new invite (see the 
 Manage Invite List
 ------------------
 
-The Trusted Network screen shows the status of your invites. Invite entries show as either:  
+The Trusted Network screen shows the status of your invites sent to either contacts outside of Qredo or to users within the Qredo network. Invite entries show as either:  
 
 *  PAIRED - where the user or contact has accepted the invite.  
 *  PENDING - where the user or contact has not yet accepted the invite.
 
 ![Trustednetworkupdate](/doc-images/3trustednetworkscreenupdate.png)
 
-The displayed invites would have been sent to your contacts outside of Qredo, or to users within the Qredo network. If you have just sent an invite and are waiting for the recipient to accept, the invite shows as pending.
+If you have just sent an invite and are waiting for the recipient to accept, the invite shows PENDING.
 
-If you have sent to an invite contacts via LinkedIn, Telegram or WhatsApp, an invite that is pending can mean that it has been rejected. If the user has not accepted the invite, they can still invite you to join their network at a later time as their trusted party.
+If you have sent an invite to contacts via LinkedIn, Telegram or WhatsApp, the status of PENDING can mean that it has been rejected. If the user has not accepted the invite, they can still invite you to join their network at a later time as their trusted party.
 
 ### Clear Paired Status
 
@@ -89,7 +89,7 @@ You will then see the following screen indicating that the request has been acti
 
 1.  To reject the pairing request, tap **Reject** in the Trusted Party screen.
 2.  Authenticate using the biometric feature and 6-digit passcode.
-3.  Then tap **Confirm** in the Confirmation screen. A screen appears to show that approval has been granted.
+3.  Tap **Confirm** in the Confirmation screen. A screen appears to show that approval has been granted.
 4.  Tap **Close**.
 
 
