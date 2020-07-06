@@ -316,7 +316,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 ### Transactions
 
-The transaction for the fund appears in the Ledger. However, the ledger also includes transactions for all other funds
+Transactions are presented in Ledger view which shows transactions for all funds. 
 
 You can view the transaction progress in the Ledger view by clicking the ledger icon
 
@@ -336,7 +336,7 @@ TX Ledger shows the following details:
 | REFERENCE | Reference number of the transaction. This number can be used when contacting support at Qredo. |
 | RECIPIENT | Recipient of the asset. For a withdrawal, this is the name you assigned for that withdrawal. |
 | EXPIRES | Expiry date of a transaction that is awaiting approval from a custodian, or authorisation from the trade initiator.|
-| STATUS  | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not yet responded.
+| STATUS  | The status of the transaction as AWAITING APPROVAL (if the custodians have not responded). The status also shows as AWAITING AUTHORISATION (if not yet authorised).
 
 If the custodians have approved the transaction, the status is set to COMPLETE. If custodians have signed the transaction and it has not successfully completed (written to the Qredo blockchain) because it did not meet the threshold level, the status is set to THRESHOLD NOT MET. If the transaction has been rejected by all custodians, the status is set to REJECTED.
 
