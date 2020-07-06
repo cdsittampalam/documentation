@@ -67,7 +67,7 @@ You set up a withdrawal transaction as a trade initiator using the web app. To c
 
 ### Qredo Fees
 
-Qredo charges fees to withdraw, including the Qredo fee and the miner's fee, The Qredo fee allows the management of Qredo wallets. While the miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you confirm the transaction.While the miner and Qredo fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
+Qredo charges fees to withdraw, which include the Qredo fee and the miner's fee, The Qredo fee allows the management of Qredo wallets. While the miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you confirm the transaction.While the miner and Qredo fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
 
 ### Custodian Role
 
@@ -81,7 +81,7 @@ If you do not have a withdrawal address, you need to create one before the trans
 
 As a custodian, you can approve the withdrawal address for the transaction if it is whitelisted. However, if the address is deemed insecure, you can reject the new address (see [Approve an Address (Custodian)](#approve-an-address-custodian))
 
-You start your action from the Asset or the Ledger view.
+You start your action from either the Asset or Ledger view.
 
 
 #### Create a New Address
@@ -100,8 +100,7 @@ You start your action from the Asset or the Ledger view.
 6.  Choose the asset type in **Asset**.    
 7.  Enter a name for the wallet in **Wallet Name**.    
 8.  Type in the wallet address in **Wallet Address**.    
-9.  Click **Continue**.    
-10.  See Authorise an Address (Trade Initiator) below.
+9.  Click **Continue**. See Authorise an Address (Trade Initiator) below.
 
 ---
 
