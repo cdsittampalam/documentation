@@ -22,15 +22,11 @@ You are notified when money arrives at your address via an email.
 
 ## View Deposit Addresses
 
-You view deposit addresses from either Asset view or Ledger view by clicking either the Asset or Ledger icons:
+You view deposit addresses from Asset view by clicking either the Asset icon:
 
 ![coins](/doc-images/coins.png)
 
-![ledger](/doc-images/ledger.png).
-
-Asset view lets you view deposit addresses for an asset. Ledger view lets you see deposit addresses across all assets.
-
-The following shows addresses in Ledger view.
+The following shows address entries in Asset view.
 
 |     |     |
 | --- | --- |
@@ -43,7 +39,7 @@ The following shows addresses in Ledger view.
 
 ### Copy Address
 
-To check an existing deposit address in a third-party app, you can copy the address using the Copy Address function. The address is stored in your system's clipboard. For example, you can copy an address to check its validity in Blockchain explorer.
+To ensure that a deposit address is valid, you can copy the address using the Copy Address function before adding it to a third-party application. The address is stored in your system's clipboard. For example, you can copy an address before adding to Blockchain explorer.
 
 Click the **Copy** button on the address entry.
 
