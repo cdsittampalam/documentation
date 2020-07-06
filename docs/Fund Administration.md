@@ -68,7 +68,7 @@ The summary section has basic information on the fund:
 
 ### Membership & Permissions
 
-The Membership & Permissions section shows your name as a fund member with the permission of owner. Fund One is assigned to you as a fund member with the permission of Owner once you have come onboard. The permission of Owner means that you have control over the assets and the custodian policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, and perform the operations of withdrawal and transfers. The fund includes a deposit address that contains funds.
+The Membership & Permissions section shows your name as a fund member with the permission of owner. The permission of Owner means that you have control over the assets and the custodian policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, and perform the operations of withdrawal and transfers. The fund includes a deposit address that contains funds.
 
 When you create other funds, you will also be the sole fund member.
 
