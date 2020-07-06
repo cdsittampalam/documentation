@@ -172,7 +172,7 @@ The Qredo blockchain uses consensus rules to map the cryptocurrency address to A
 
 ### Transferring Money
 
-When transferring money, the participants update the user interface. The transactions are signed by the Qredo server and the blockchain validator node updates the Qredo blockchain.
+When transferring money, the participants update the user interface. The transactions are signed by the Qredo server, and the blockchain validator node updates the Qredo blockchain.
 
 1.  Alice and Bob are both on the Qredo network.
 2.  Bob arranges to send money to Alice.
