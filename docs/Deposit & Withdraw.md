@@ -45,7 +45,7 @@ Click the **Copy** button on the address entry.
 
 ### View Transactions
 
-In the ledger, you can view deposit transactions to one or more funds that you are the owner of in Qredo. All deposit transactions are listed in the Inbound tab.
+In Ledger view, you can see deposit transactions to one or more funds that you are the owner of. All deposit transactions are listed in the Inbound tab.
 
 ![TX](/doc-images/TXIbd.png)
 
