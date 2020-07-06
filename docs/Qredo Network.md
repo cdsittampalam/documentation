@@ -35,7 +35,7 @@ The Qredo network includes behaviours to ensure that transactions are saved secu
 
 #### Digital Signatures
 
-A transaction contains encrypted messages between nodes with one or more signatures in BLS format. When a user signs up for the Qredo network, their own signature is added to the Qredo blockchain in the form of an IDDoc. Transactions, in the case of transfers and withdrawals are written to the Qredo blockchain with the aggregated digital signatures of the participants that sign a transaction. Recording the aggregation of signatures makes the Qredo blockchain serve as a consensus-driven immutable record of asset ownership.
+A transaction contains encrypted messages between nodes with one or more signatures in BLS format. When a user signs up for the Qredo network, their own signature is added to the Qredo blockchain in the form of an IDDoc. Transactions, in the case of transfers and withdrawals, are written to the Qredo blockchain with the aggregated digital signatures of the participants that sign a transaction. Recording the aggregation of signatures on the Qredo blockchain makes the blockchain serve as a consensus-driven immutable record of asset ownership.
 A transaction cannot be written to the Qredo blockchain without the aggregated signatures.
 
 #### Consensus Rules
