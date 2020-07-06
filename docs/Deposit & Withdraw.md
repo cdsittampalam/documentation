@@ -235,10 +235,6 @@ You can also view other details linked to the transaction under the Show Detail 
 *   the name, email address, and network alias of the trade initiator.   
 *   details of the Qredo fee.
 
-The Qredo fee allows the management of Qredo wallets. There is also the miner's fee that covers the work and resources they need to generate blocks on the underlying network.
-
-The miner and Qredo fee is fixed for every transaction. Qredo periodically change these fixed fees.
-
 ---
 
 #### Steps
