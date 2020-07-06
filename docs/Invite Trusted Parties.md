@@ -1,7 +1,7 @@
 ---
 id: Invite Trusted Parties
 ---
-As the account owner, you can invite users as trusted parties, allowing you to build your Qredo network. A trusted party can send and receive money, and/or approve and reject as a nominated custodian. 
+As the account owner, you can invite users as trusted parties, allowing you to build your Qredo network. A trusted party can send and receive money, and/or approve and reject as a nominated custodian.
 
 You can invite a user to be a trusted party from within the Qredo network, or from outside of Qredo. Users from within the Qredo network can be an account owner, or a counterparty to another account owner. When choosing a party externally, you can invite them via LinkedIn, Telegram or WhatsApp.  
 
@@ -24,7 +24,7 @@ Click the **Add Trusted Party** button on the Trusted Network screen to show the
 
 ### Add from Qredo
 
-You enter an email address for a user on the Qredo network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again. 
+You enter an email address for a user on the Qredo network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again.
 
 1.  Enter the email address of the user and click **Search**.
 2.  If the user is on the Qredo network with that email address, a box appears asking you to confirm pairing with the email address.  
@@ -72,7 +72,7 @@ If you do not want to be part of their network, you can reject their invite.
 
 1.  Tap on the notification for the invitation.
 2.  Sign in to the app using the biometric feature of your phone.
-3.  Enter your 6-digit passphrase. The Trusted Party screen shows.
+3.  Enter your 6-digit PIN. The Trusted Party screen shows.
 
 ![pairing](/doc-images/addtrustedphone1.png)
 
