@@ -33,13 +33,13 @@ The following shows address entries in Asset view.
 | **Column Name** | **Description** |
 | WALLET NAME | Name that is assigned to the wallet, which includes the name of the fund. |
 | FORMAT | Format of the wallet address. For example, for a Bitcoin address, this format is P2PKH. |
-| ADDRESS | The address string |
+| ADDRESS | The address string. |
 
 ![depositaddresses](/doc-images/CopyDep.png)
 
 ### Copy Address
 
-To ensure that a deposit address is valid, you can copy the address using the Copy Address function before adding it to a third-party application. The address is stored in your system's clipboard. For example, you can copy an address before adding to Blockchain explorer.
+To ensure that a deposit address is valid, you can copy the address using the Copy Address function before adding it to a third-party application. When copied, the address is stored in your system's clipboard. For example, you can copy an address before adding to Blockchain explorer.
 
 Click the **Copy** button on the address entry.
 
