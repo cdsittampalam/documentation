@@ -20,7 +20,7 @@ The physical Qredo network is distributed where devices are stored in six Tier-4
 
 Each data center contains dedicated computing equipment to support the MPC, Qredo blockchain, and watcher components. This includes:
 
-*   Qredo appliances housing Rasberry Pi units for the MPC nodes. Each MPC node can be a client or server node.
+*   Qredo appliances that house Rasberry Pi units for the MPC nodes. Each MPC node can be a client or server node.
 
 *   a PC that holds the watcher and Blockchain validator services.
 
@@ -30,7 +30,7 @@ Communication takes place between data centers over routers. Between the Rasberr
 
 ### Hardware Security Module
 
-Each Rasberry Pi unit has a tamper-proof Hardware Security Module that protects the seed value and public/private key data from attacks in a physical environment. The HSMs adhere to the FIPS (Federal information Processing Standard Publication 140-2) security standard. FIPS 140-2 is a US government computer security standard for cryptographic modules. The standard ensures that cryptographic keys and primitives never leave the hardware appliances that they exist in.
+Each Rasberry Pi unit has a tamper-proof Hardware Security Module that protects the seed value and public/private key data from attacks in a physical environment. The HSMs adhere to the FIPS (Federal information Processing Standard Publication 140-2) security standard. FIPS 140-2 is a US government computer security standard for cryptographic modules which ensures that cryptographic keys and primitives never leave the hardware appliances that they exist in.
 
 ---
 
@@ -45,7 +45,7 @@ The MPC protocol runs when generating a wallet address for money coming in to th
 
 The MPC protocol communicates with the blockchain validator nodes via the watcher service to ensure that it can process the correct wallet.
 
-Applying the protocol, a client and server need to compute details on keys in order to prepare and create a public key for signing a transaction. To remove single points of failures, the process takes place across all data centers.
+Applying the protocol, a client and server need to compute details on keys in order to prepare and create a public key for signing a transaction. To remove single points of failures, the process takes place across all data centers. The process is summarised as follows:
 
 1.  A client and server node each generate their respective key material.
 
@@ -61,7 +61,7 @@ Applying the protocol, a client and server need to compute details on keys in or
 
 7.  Both client and server nodes communicate to sign a new public key.
 
-8.  The public key and digital signature is sent to the watcher to generate a new address
+8.  The public key and digital signature is sent to the watcher to generate a new address.
 
 ### Paillier Cryptosystem
 
@@ -69,7 +69,7 @@ The MPC uses the Paillier cryptosystem when the protocol is run. The Paillier cr
 
 ### SECP256K
 
-The MPC uses [SECP256K]: https://en.bitcoin.it/wiki/Secp256k1 to ensure that the generated public key is compatible with Bitcoin. SECP256K is the signature algorithm used by Bitcoin. Other cryptocurrencies use SECP256K which will allow Qredo to support Litecoin and Ethereum currencies in future releases.
+The MPC uses [SECP256K]: https://en.bitcoin.it/wiki/Secp256k1 to ensure that the generated public key is compatible with Bitcoin. SECP256K is the signature algorithm used by Bitcoin. Other cryptocurrencies use SECP256K, which will allow Qredo to support Litecoin and Ethereum currencies in future releases.
 
 **Note:** SEC means Standards for Efficient Cryptography
 
@@ -91,5 +91,5 @@ BLS public and private key pairs are generated when an IDDoc is created for a us
 BLS uses elliptic curve cryptography combined with bi-linear mapping to calculate public keys, private keys, and signatures. Bi-linear mapping features algebra. Through its mathematics, BLS allows the creation of shorter signatures for more efficient signing.
 
 :::info
-Cryptography in Qredo is built from the Apache Milagro project. More information is also available from Qredo's Yellow Paper.
+Cryptography in Qredo is built from the [Apache Milagro project]: https://milagro.apache.org/users.html. More information is also available from Qredo's Yellow Paper on the main Qredo website.
 :::
