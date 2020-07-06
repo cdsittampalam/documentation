@@ -36,13 +36,14 @@ The Qredo network includes behaviours to ensure that transactions are saved secu
 #### Digital Signatures
 
 A transaction contains encrypted messages between nodes with one or more signatures in BLS format. When a user signs up for the Qredo network, their own signature is added to the Qredo blockchain in the form of an IDDoc. Transactions, in the case of transfers and withdrawals, are written to the Qredo blockchain with the aggregated digital signatures of the participants that sign a transaction. 
+
 Recording the aggregation of signatures on the Qredo blockchain makes the blockchain serve as a consensus-driven immutable record of asset ownership. A transaction cannot be written to the Qredo blockchain without the aggregated signatures.
 
 #### Consensus Rules
 
 A transaction requires various signatures from these participants that meet rules and conditions. These include:
 
-- The **principal** who decides on the custodian, custodian groups, and thresholds. They provide a signature when money is transferred to a counterparty recipient, added or withdrawn from the Qredo network.
+- The **principal** who decides on the custodian, custodian groups, and thresholds. They provide a signature when money is transferred to a counterparty recipient, added, or withdrawn from the Qredo network.
 - The **counterparty** who provides a signature for a transfer that the principal has signed. Signing confirms that they want to receive funds from the principal.
 - The **custodian** who approves or rejects a transaction. When they approve, a signature is provided for the transaction. The custodian is part of a custodian group created by the principal, and is linked to the fund of that transaction. Depending on the threshold, one or more custodians in the group need to provide their signatures.
 
@@ -71,10 +72,10 @@ Assets comprise of:
 *   MPC key lists
 
 :::info
-Assets in the Qredo blockchain are different from digital assets that are described for trading and finance.
+Assets, when specifically refered to for the Qredo blockchain, are different from digital assets that are described for trading and finance.
 :::
 
-Qredo blockchain software components are built using [Tendermint](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive and not subject to 51% attacks.  
+Qredo blockchain software components are built using [Tendermint](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive.  
 
 ---
 
