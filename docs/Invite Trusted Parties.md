@@ -66,11 +66,7 @@ Custodian Approvals
 
 As a user on the Qredo network, you would have received an invite on your phone to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
 
-If you do not want to be part of their network, you can deny their invite.
-
-Once you have signed in to the mobile app, the screen appears similar to the following:
-
-![pairing](/doc-images/pairingsamenetwork.png)
+If you do not want to be part of their network, you can reject their invite.
 
 ### Approve Request  
 
@@ -85,7 +81,7 @@ Once you have signed in to the mobile app, the screen appears similar to the fol
 6.  Then tap **Confirm** in the Confirmation screen.  A screen appears to show that approval has been granted.
 7.  Tap **Close**.
 
-You will then see the following screen indicating that the request has been approved.
+You will then see the following screen indicating that the request has been actioned with the status of approved.
 
 ![trusted parties actioned](/doc-images/TrustedPartiesActioned.png)
 
@@ -97,7 +93,7 @@ You will then see the following screen indicating that the request has been appr
 4.  Tap **Close**.
 
 
-You will then see the following screen indicating that the request has been rejected.
+You will then see the following screen indicating that the request has been actioned with the status of rejected.
 
 ![trusted parties denied](/doc-images/trustedpartydenied.png)
 
