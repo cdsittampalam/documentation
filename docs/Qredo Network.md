@@ -20,7 +20,7 @@ The Qredo network allows the management of digital assets where transactions are
 The Qredo blockchain records transactions that happen for these events:
 
 *   A new user joins Qredo.
-*   Money is deposited to an account that allows digital assets.
+*   Money is deposited to an account.
 *   Money is transferred from one Qredo user to another.
 *   Money is withdrawn from the Qredo network
 
