@@ -75,7 +75,7 @@ The Membership & Permissions section shows your name as a fund member with the p
 
 ### Custody
 
-The Custody section shows the custody policies of a fund. A custody policy determines the custodians that can sign a transaction, and whose signatures are needed for transfers and/or withdrawals to occur. Each custodian has a permission of transfer and/or withdrawal. However, in Fund One the custodian is the fund owner.
+The Custody section shows the custody policies of a fund. A custody policy determines the custodians that can sign a transaction, and whose signatures are needed for transfers and/or withdrawals to occur. Each nominated custodian has a permission for either transfer or withdrawal, or for both actions. However, in Fund One the custodian is the fund owner.
 
 As a custody provider accepting or rejecting transactions on behalf of an investing fund owner, the custody policy settings within a fund are particularly important. For example, depending on the type of investment, transactions within some funds may require more signatures than others.
 
