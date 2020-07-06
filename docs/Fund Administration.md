@@ -140,19 +140,19 @@ The Create a Fund wizard takes you through the steps for creating a fund. Each f
 
 When you select custodians, you can also choose the Threshold level. A Threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3 needs fewer signatures for a transaction to take place.  
 
+You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
+
 ### Example
 
 In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for both policies. Each policy contains a set Threshold level.
 
 ![Fund A](/doc-images/ManagingFundA.png)
 
-You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
-
 ---
 
 ### Custody Providers
 
-As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and threshold levels. This can depend on the type of fund and the level of risk that exist. For example, for a more risky investment you may want a higher number of aggregated signatures.
+As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and threshold levels. 
 
 ---
 
