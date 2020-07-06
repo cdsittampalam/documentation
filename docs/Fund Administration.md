@@ -166,7 +166,7 @@ From the Summary section in the Holdings page, click the Plus icon or **Create N
 
 ### Basic Details
 
-Entering name, description and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that other members in your Qredo network have a fund of the same asset type.
+Entering name, description and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that users who are counterparties to a transfer on your Qredo network have access to the asset of the fund. 
 
 1.  Fill in the name of the fund in **Fund Name.**
 2.  Enter details to describe the fund in **Description.**
