@@ -16,7 +16,7 @@ Any type of user can create funds in order to manage assets. The following are e
 Holdings Page
 -----------------
 
-The Holdings page lists the funds under your account. These include one or more default funds, and any funds you created. For each fund, you can have a complete view of the transactions, addresses, and custody policies. You can also choose a fund option from the page.
+The Holdings page lists the funds under your account. These include one or more default funds, and any funds you have created. For each fund, you can have a complete view of the transactions, addresses, and custody policies. You can also choose a fund option from the page.
 
 You access the Holdings page by clicking the Asset icon:
 
@@ -35,9 +35,7 @@ The page also allows you to view details on the transactions and the custody pol
 You can choose the following options from the page:
 
 *   **View Fund One:** If you are a new user, you can view details of a default fund, labelled Fund One. Fund One is created for you once you have joined the Qredo Network. While Fund One is designed to help you understand how a Qredo fund works, you can also use Fund One for transactions. The system creates a deposit address for you to receive assets (see [View Fund One](#view-fund-one)).
-
 *   **Change Default Settings:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Settings](#change-default-settings)).
-
 *   **Create a Fund:** If you are familiar with the concepts of a Qredo funds and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
 
 ---
