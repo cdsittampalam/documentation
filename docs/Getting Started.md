@@ -71,7 +71,7 @@ The password must contain:
 
 ### View Full Terms and Conditions
 
-If required, you can download the full terms and conditions. You may need this document to distribute and print to other parties.
+You can download the full terms and conditions if you need to distribute and print the document for other parties.
 
 ![accept](/doc-images/accept.png)
 
