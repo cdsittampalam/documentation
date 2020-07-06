@@ -3,16 +3,16 @@ id: Deposit & Withdraw
 
 ---
 
-For a deposit transaction, users can add money to a whitelisted external Bitcoin address that is linked to your fund. Once added to a whitelisted address for a fund on Qredo, it is safely stored on the Qredo blockchain as a transaction allowing any custodial policies of the fund to be applied. The money in the fund is liquid and ready to be transfered to another Qredo user if required.
+For a deposit transaction, users can add money to a whitelisted external cryptocurrency address that is linked to your fund. Once added to a whitelisted address for a fund on Qredo, it is safely stored on the Qredo blockchain as a transaction allowing any custodial policies of the fund to be applied. The money in the fund is liquid and ready to be transfered to another Qredo user if required.
 
-To withdraw, you send money out of a fund on Qredo to an external Bitcoin address. When sent to a whitelisted address, the money becomes available on the underlying blockchain, and is no longer subject to the custody policies and ownership rights of the Qredo network. Qredo gives you the flexibility of adding money back on to the network at a later point in time.
+To withdraw, you send money out of a fund on Qredo to an external cryptocurrency address. When sent to a whitelisted address, the money becomes available on the underlying blockchain, and is no longer subject to the custody policies and ownership rights of the Qredo network. Qredo gives you the flexibility of adding money back on to the network at a later point in time.
 
 Any crypto and capital markets participant, such as an institution, investor, or trader, can withdraw money as part of their investment activities.
 
 Deposit Money
 -------------
 
-The default fund and asset that you have set up includes a deposit address, which is the Bitcoin wallet address that is linked to a Qredo fund. However, any
+The default fund and asset that you have set up includes a deposit address, which is the cryptocurrency wallet address that is linked to a Qredo fund. However, any
 fund that you create is linked to a deposit address. The address is securely created using the MPC protocol. Details on deposit addresses appear in both asset and ledger view.
 
 You are notified when money arrives at your address via an email.
@@ -154,7 +154,7 @@ For the action you select, you then sign in with your biometric features and 6-d
 
 ### Create a Transaction
 
-For withdrawing money, the Qredo app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination Bitcoin address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal.
+For withdrawing money, the Qredo app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination cryptocurrency address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal.
 
 You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 
@@ -331,7 +331,7 @@ The transaction for the fund appears in the Ledger. However, the ledger also inc
 
 You can view the transaction progress in the Ledger view by clicking
 
-![Ledger](/doc-images/ledger.png) 
+![Ledger](/doc-images/ledger.png)
 
 You then access the Outbound tab.
 
