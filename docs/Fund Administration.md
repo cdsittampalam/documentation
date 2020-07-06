@@ -137,7 +137,7 @@ Create a Fund Wizard
 
 The Create a Fund wizard takes you through the steps for creating a fund. Each fund you create can have the same or different asset depending on your needs. You can also set the same or different custodians for withdrawal and transfer policies. 
 
-When you select custodians, you can also choose the Threshold level. A Threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3 needs fewer signatures for a transaction to take place.  
+When you select custodians, you can also choose the Threshold level. A Threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3, needs fewer signatures for a transaction to take place.  
 
 You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
 
@@ -165,7 +165,7 @@ From the Summary section in the Holdings page, click the Plus icon or **Create N
 
 ### Basic Details
 
-Entering name, description and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that users who are counterparties to a transfer on your Qredo network have access to the asset of the fund. 
+Entering name, description, and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that users who are counterparties to a transfer on your Qredo network have access to the asset of the fund. 
 
 1.  Fill in the name of the fund in **Fund Name.**
 2.  Enter details to describe the fund in **Description.**
@@ -207,4 +207,3 @@ You can review the details of the selected custodians for the withdrawal and tra
 1.  To change any of the fund details, click **Back** to return to the previous wizard screen. Clicking **Back** again moves to previous screens.
 2.  Click **Confirm and Create Fund**.
 
-Transfers display an error message to the recipient after the confirmation step if the target counterparty does not have a default fund set for the asset. For example, you use Bitcoin but they don't have a Bitcoin fund.
