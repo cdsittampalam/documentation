@@ -66,9 +66,7 @@ The password must contain:
 ### Accept Terms and Conditions
 
 1. Read the terms and conditions on this page around GDPR compliance and data privacy. 
-
 2. To move to the next screen, tick the box and click **Accept & Continue** (see [Validate email address](#validate-email-address).
-
 3. To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
 
 ### View Full Terms and Conditions
