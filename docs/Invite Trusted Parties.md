@@ -89,7 +89,7 @@ You will then see the following screen indicating that the request has been acti
 
 1.  To reject the pairing request, tap **Reject** in the Trusted Party screen.
 2.  Authenticate using the biometric feature and 6-digit passcode.
-3.  Tap **Confirm** in the Confirmation screen. A screen appears to show that approval has been granted.
+3.  Tap **Confirm** in the Confirmation screen. A screen appears which shows that approval has been granted.
 4.  Tap **Close**.
 
 
@@ -104,13 +104,13 @@ You can access the Approvals view by clicking:
 
 ![Button Approve](/doc-images/button-approve.png)  
 
-In the Approvals view, click the Trusted Parties tab.
+In the Approvals view, click the **Trusted Parties** tab.
 
 The view shows entries for invites that have been approved or denied. The invites entries are grouped in to **Pending** and **Actioned**.
 
 ![action approve](/doc-images/actionedapprove3.png)
 
-The Approvals view, also shows these details of the trusted party:
+The Approvals view also shows these details of the trusted party:
 
 - their location.
 - their email address.
