@@ -53,13 +53,10 @@ In Ledger view, you can see deposit transactions to one or more funds that you a
 | --- | --- |
 | **Column Name** | **Description** |
 | TYPE | Type of transaction. For a deposit, the column name shows as deposit |
-| FUND | Name of the fund. |
-| INITIATED | Date and time of the deposit transaction |
-| AMOUNT | Amount deposited and the type of asset. |
-| REFERENCE | Reference number for the transaction. |
-| RECIPIENT | Recipient of the deposit transaction, e.g., sent to an exchange. |
-| EXPIRES | The date and time in which the deposit transaction was received at Qredo. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
-| STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
+| RECEIVED | Date and time in which the deposit transaction was received. |
+| TX | Amount deposited in to the account. |
+| REFERENCE | Reference number for the deposit transaction. |
+| SENDER | Name of the sender. |
 
 ---
 
