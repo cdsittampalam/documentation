@@ -70,8 +70,6 @@ The summary section has basic information on the fund:
 
 The Membership & Permissions section shows your name as a fund member with the permission of owner. The permission of owner means that you have control over the assets and the custody policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, and perform the operations of withdrawal and transfers. The fund automatically includes a deposit address for receiving funds.
 
-When you create other funds, you will also be the sole fund member.
-
 ![fundmembership](/doc-images/FundMembershipandpermissions.png)
 
 ---
@@ -105,7 +103,7 @@ already happened in the past and have been approved.
 
 ![Transaction view](/doc-images/AllTransactions2.png)
 
-When Fund One is created, there is a single deposit address that is automatically assigned to receive money. When used, a fund can have multiple withdrawal addresses.
+If you use a default fund, you can also set up multiple withdrawal addresses.
 
 1.  Click on details of the asset under the Fund One entry.
 
@@ -119,21 +117,18 @@ When Fund One is created, there is a single deposit address that is automaticall
 Change Default Settings
 -----------------------
 
-You can set Fund One to include Bitcoin instead of Bitcoin Testnet. When you change the asset, Bitcoin Testnet is set as the asset for the other default fund, Fund Two.
+You can set Fund One to include Bitcoin instead of Bitcoin Testnet as the default asset. When you change the asset, Bitcoin Testnet is set as the asset for the other default fund, Fund Two.
 
-This feature is especially useful for users that are likely to be instantly receive money in to their default fund. For example, as an exchange user, you may want to instantly receive payments in Bitcoin rather than Bitcoin Test.
+This feature is especially useful for users that are likely to be quickly receiving money in to their default fund, and do not need to set up test transactions. 
 
 Future versions of Qredo will have other currencies available in funds.
 
 ![custody fund](/doc-images/changedefaultsonsummaryR.png)
 
 1.  Click **Change Defaults.** The Default Funds screen appears.   
-
 2. Select Fund One in **For incoming Bitcoin BTC transfers.**
-
 3. Select Fund Two in **For incoming Bitcoin Testnet transfers**. The button shows as **Updated**,  
 and Fund One now contains Bitcoin.
-
 4. Click **Done** after the confirmation message.
 
 ---
