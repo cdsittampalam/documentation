@@ -137,7 +137,7 @@ Once you have downloaded the phone app, you are ready to pair your phone with th
 You scan a QR-code on the web app through your phone’s camera, which pairs the phone with the mobile app. The pairing process ensures that only your phone can be used together with the web app. The unique QR-code that shows on the web app can only be used once.
 
 1.  Click **Connect your mobile device**. The phone app shows a message requesting access to your camera. 
-2.  Tap **OK**. Then confirm your action in a message triggered from your device’s operating system.The QR-code shows on the phone screen.
+2.  Tap **OK**. Then confirm your action in a message triggered from your device’s operating system. The QR-code shows on the phone screen.
 
 ![QR](/doc-images/QR1.png)
 
@@ -201,7 +201,7 @@ The phone shows screens to introduce the seed recovery phrase.
 
 ![seedinst](/doc-images/seedinst.png)
 
-6. Tap **Got it**.The screens shows 24 empty entries.
+6. Tap **Okay, got it**.The screens shows 24 empty entries.
 7.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
 
 ![confirm](/doc-images/confent.png)
