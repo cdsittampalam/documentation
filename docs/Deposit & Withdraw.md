@@ -106,9 +106,9 @@ You start your action from either the Asset or Ledger view.
 
 #### Authorise an Address (Trade Initiator)
 
-As the initiator of the withdrawal, you confirm your decision through authorising using the phone app.
+As the initiator of the withdrawal, you confirm your decision by authorising using the phone app.
 
-1.  Tap the notification that you received on your phone. The Withdraw screen shows details of the transaction including fees.   
+1.  Tap the notification that you received on your phone. The Withdraw Address screen shows details of the transaction including fees.   
 
 ![auth withdraw](/doc-images/authwithadd.png)
 
@@ -133,9 +133,9 @@ You receive a notification as soon as the trade initiator has authorised the wit
 
 You can also view other details of the withdrawal address including:
 
-*   the alphanumeric string of the address    
+*   the alphanumeric string of the address.   
 *   details of the trade initiator (including email address and alias).    
-*   the date in which the address creation was initiated
+*   the date in which the address creation was initiated.
 
 1. Tap on the notification on your phone. The Withdrawal screen the appears asking you to approve or reject the new address.
 2.  Click **Show Details** to view more details of the transaction.
