@@ -4,7 +4,7 @@ title: Qredo Network
 sidebar_label: Qredo Network
 ---
 
-The Qredo network consists of an asset-tracking blockchain secured by a set of consensus-driven MPC (Multiparty Computation) nodes. Together, these ensure that Qredo’s open Layer 2 protocol can accelerate any blockchain to achieve near-instant digital asset delivery. Digital assets comprise of money in the form of cryptocurrency.
+The Qredo network is an institutional grade clearing and settlement network for digital assets. Consisting of an asset-tracking blockchain, the Qredo network is secured by a set of consensus-driven MPC (Multiparty Computation) nodes. Together, these ensure that Qredo’s open Layer 2 protocol can accelerate any blockchain to achieve near-instant digital asset delivery. Digital assets comprise of money in the form of cryptocurrency.
 
 The Layer 2 characteristics of the Qredo blockchain provide transparency, immutability, and decentralisation.
 
