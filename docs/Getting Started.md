@@ -242,6 +242,9 @@ Once you have signed in to the web app, you are requested by Qredo to authentica
 
 5. Tap **Authorise**.
 6. If you want to deny the request, tap **Deny.**
+7. Once you tapped Authorise or Deny, you will see a confirmation screen.
+8. Click Confirm. An Approval Granted or Approval Rejected screen appears.
+
 
 ### View Requests
 
