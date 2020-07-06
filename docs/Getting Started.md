@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-The app section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your web app and the mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
+The app section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your Qredo web app and the Qredo mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
 
 ![Page1](/doc-images/page1.png)
 
@@ -11,7 +11,7 @@ This page shows the steps for web app registration with links to specific steps 
 Web App Steps
 -------------
 
-You start the process of registering with Qredo from the web app. The process also involves setup steps in the phone app.
+You start the process of registering with Qredo from the web app. 
 
 ### Start Registration
 
@@ -34,11 +34,7 @@ The Establish your Qredo Identity screen appears.
     -  **Mobile number**
    
     :::info
-    You can enter a private or work email address with a unique name. 
-
-    If you are joining as a new user, you will use a new email address. 
-
-    If you have been invited, you can use the email address where you received the invitation.
+    You can enter a private or work email address. If you have been invited, you can use the email address where you received the invitation.
     :::
     
 2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo network alias must not contain special characters.
