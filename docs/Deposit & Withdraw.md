@@ -15,14 +15,14 @@ Deposit Money
 -------------
 
 The default fund and asset that you have set up includes a deposit address, which is the cryptocurrency wallet address that is linked to a Qredo fund. However, any
-fund that you create is linked to a deposit address. The address is securely created using the MPC protocol. Details on deposit addresses appear in both asset and ledger view.
+fund that you create is linked to a deposit address. The address is securely created using the MPC protocol. Details on deposit addresses appear in both Asset and Ledger view.
 
 You are notified when money arrives at your address via an email.
 
 
 ## View Deposit Addresses
 
-You view deposit addresses from either Asset view or Ledger view by clicking either:
+You view deposit addresses from either Asset view or Ledger view by clicking either the Asset or Ledger icons:
 
 ![coins](/doc-images/coins.png)
 
