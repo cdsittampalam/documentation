@@ -291,9 +291,9 @@ The following is an example entry showing a pending approval with the status of 
 #### Transaction Approvals
 
 1.  Click the **Transactions** tab,   
-2.  Click the **Pending** or **Actioned** sub-tabs.
+2.  Click the **Pending** or **Actioned** tabs.
 
-The pending subtab shows pending approvals.
+The pending tab shows pending approvals.
 
 |     |     |
 | --- | --- |
