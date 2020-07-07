@@ -1,7 +1,7 @@
 module.exports = {
   title: "Qredo Help Center",
   tagline: "Knowledge Base and Customer Support for Qredos",
-  url: "https://thronecloud.github.io",
+  url: "https://support.qredo.com/",
   baseUrl: "/",
   favicon: "/img/favicon.ico",
   organizationName: "qredo", // Usually your GitHub org/user name.
@@ -24,8 +24,7 @@ module.exports = {
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
-        },
-        { to: "blog", label: "Blog", position: "left" },
+        }
       ],
     },
     footer: {
@@ -64,10 +63,6 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "blog",
-            },
-            {
               label: "GitHub",
               href: "https://github.com/qredo/documentation",
             },
@@ -95,11 +90,6 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: "Qredo Network",
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl: "https://github.com/qredo/documentation/tree/master/",
-        },
-        blog: {
-          showReadingTime: true,
           // Please change this to your repo.
           editUrl: "https://github.com/qredo/documentation/tree/master/",
         },
