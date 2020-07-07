@@ -151,18 +151,18 @@ You can view the transaction progress of transfers from Qredo in the TX Ledger s
 
 You can view transaction progress in the Ledger view by clicking
 
-![Ledger](/doc-images/ledger.png) and accessing the Inbound tab.
+![Ledger](/doc-images/ledger.png) 
 
 TX Ledger shows the following details:
 
 |     |     |
 | --- | --- |
 | **Column** | **Description** |
-| TYPE | Type of transaction. For a transfer, the column name shows as transfer. |
+| TYPE | Type of transaction. For a transfer, the column name shows as Transfer. |
 | FUND | Name of the fund. |
-| INITIATED | Date and time in which the transfer transaction was started. |
-| AMOUNT | Amount for transfer and the type of asset. |
-| REFERENCE | Reference number for the transaction. |
-| RECIPIENT | Label added to the transfer transaction, e.g., sent to an exchange. |
+| INITIATED | Date and time in which the transfer transaction started. |
+| AMOUNT | Amount of the transfer and the type of asset. |
+| REFERENCE | Reference number for the transfer. |
+| RECIPIENT | Label added to the transfer, e.g., sent to an exchange. |
 | EXPIRES | The date and time in which the transfer transaction needs to happen. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
-| STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
+| STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction and it has met the threshold, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
