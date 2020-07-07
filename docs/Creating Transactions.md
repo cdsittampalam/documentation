@@ -78,9 +78,9 @@ Once authorised, you can double-check details including the fees that are charge
 2.  To authorise, tap **Authorise**.
 3.  To reject, tap **Reject**.
 
-For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+You then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
-A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
+A transfer transaction can happen if it has met or exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund linked to the transaction.
 
 ---
 
