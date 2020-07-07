@@ -21,11 +21,11 @@ For approving a transfer (see [Approve a Transfer](#approve-a-transfer)).
 Create Transfer
 ---------------
 
-For transferring money, the Qredo app consists of a wizard that lets you transfer a specific amount to a Qredo user. You must ensure that you enter the correct asset, amount, counterparty, and fund for the transfer.
+The Qredo app consists of a wizard that lets you transfer a specific amount to a Qredo user. You must ensure that you enter the correct asset, amount, counterparty, and fund for the transfer.
 
 You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 
-You start your action from the Asset or Ledger view by clicking either:
+You start your action from the Asset view or Ledger view by clicking either:
 
 ![coins](/doc-images/coins.png)
 
@@ -33,12 +33,12 @@ You start your action from the Asset or Ledger view by clicking either:
 
 1. Choose the **Transfer** option in the Select Type box.
 2. Click **Continue**. The Transfer screen shows.
-3. In the From section, select the fund that you want to transfer assets to a counterparty in the **Fund** list.
+3. In the From section, select the fund for the transfer in the **Fund** list.
 4.  Choose the asset that you want to transfer in the **Asset** list.
-5.  Enter details of the user that you want to transfer the money to by typing either their name, email address, or network alias in the **To** list.
-6.  Enter the sum of money that you want to withdraw in **Amount**.
+5.  Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
+6.  Enter the sum of money that you want to transfer in **Amount**.
 7.  Type in a reference number in **Reference**.
-8.  To select a date for when the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
+8.  To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
 9.  To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
 10.  Click **Review Transfer**.
 
