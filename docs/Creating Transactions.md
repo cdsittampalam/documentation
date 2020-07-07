@@ -121,6 +121,7 @@ As the trade initiator, you can check the progress of custodian approval for the
 You can view approvals from the Approval view by clicking:
 
 ![tick](/doc-images/tick.png)
+
 ---
 
 ### Transaction Approvals
