@@ -3,21 +3,20 @@ id: Creating Transactions
 ---
 
 Transactions allow a trade initiator to transfer money to a recipient (or counterparty) within the same fund. All money during a transfer
-stays on the Qredo network, and is secure on the Qredo blockchain. With assets of the Qredo network, instead of in cold storage, crypto and capital market participants
-can easily keep their money liquid by transferring amounts between participants.
+stays on the Qredo network, and is secure on the Qredo blockchain. Liquidity is maintained, so that money can move between participants at any time.
 
 Future versions will allow atomic swaps that provide instant exchange of different digital assets.
 
 ### Qredo Fees
 
-Qredo charges fees of 1 basis point, or 0.01%, of the amount transferred.
+Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred.
 
 As a fund owner and member, you have the permission to transfer money from one Qredo user to another. This permission is shown in the **Permissions** tab on the Settings section of your account.
 
 ### Custodian Role
 
-As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the transfer custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the transfer policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
-For approving a transfer (see [Approve a Transfer](#approve-a-transfer).
+As a custodian, you can decide if a transfer started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the transfer custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the transfer policy linked to the fund. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
+For approving a transfer (see [Approve a Transfer](#approve-a-transfer)).
 
 Create Transfer
 ---------------
