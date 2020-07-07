@@ -78,7 +78,7 @@ Once authorised, you can double-check details including the fees that are charge
 2.  To authorise, tap **Authorise**.
 3.  To reject, tap **Reject**.
 
-You then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+For the authorise or reject action, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
 A transfer transaction can happen if it has met or exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund linked to the transaction.
 
@@ -97,30 +97,28 @@ As the custodian, you receive a notification as soon as the trade initiator has 
 
 You can also view other details linked to the transaction under the Show Detail arrow including:
 
-*   the name, beneficiary name, email address, network alias, beneficiary, and account number of the recipient.
+*   the name, beneficiary name, email address, network alias, and account number of the recipient.
 *   the email address and network alias of the trade initiator.
 *   the date and time in which the transfer was initiated.
 *   details of the Qredo fee.
 
 ### Steps
 
-1.  Tap on the notification on your phone. The Withdrawal screen shows.
+1.  Tap on the notification on your phone. The Transfer screen shows.
 2.  Click **Show Details** to view more details of the transaction.
 3.  To approve, tap **Approve**.
 4.  To reject, tap **Reject**.
 
-For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+For the approve or reject action, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
 ---
 
 Track Progress
 --------------
 
-As the trade initiator, you can check the progress of the transfer. Transactions require approval from custodians.
+As the trade initiator, you can check the progress of custodian approval for the transfer.
 
-A transfer transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
-
-You can view approvals from the Approval view, which appears by clicking:
+You can view approvals from the Approval view by clicking:
 
 ![tick](/doc-images/tick.png)
 ---
@@ -128,21 +126,21 @@ You can view approvals from the Approval view, which appears by clicking:
 ### Transaction Approvals
 
 1.  Click the **Transactions** tab,
-2.  Click the **Pending** or **Actioned** sub-tabs.
+2.  Click the **Pending** or **Actioned** tabs.
 
-The pending subtab shows pending approvals.
+The Pending tab shows pending approvals.
 
 |     |     |
 | --- | --- |
 | **Column** | **Description** |
-| TYPE | Type of transaction. For a transfer, the column name shows as transfer. |
-| AMOUNT | The amount of the transaction and the type of asset. |
+| TYPE | Type of transaction. For a transfer, the column name shows as Transfer. |
+| AMOUNT | The amount of the transfer and the type of asset. |
 | RECIPIENT | Recipient of the asset. |
-| STATUS | The status shows as “Awaiting Authorisation”. |
-| ACTIONED | The date and time in which the transaction was created. |
+| STATUS | The status of the transfer which is “Awaiting Authorisation”. |
+| ACTIONED | The date and time in which the transfer was created. |
 
 
-The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the transaction approval was actioned. There are two states in the ACTIONED column. These include:
+The Actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the transaction approval was actioned. There are two states in the ACTIONED column. These include:
 
 *   AUTHORISED
 *   IGNORED
