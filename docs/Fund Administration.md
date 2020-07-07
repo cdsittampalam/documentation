@@ -69,7 +69,7 @@ The summary section has basic information on the fund:
 
 The Membership & Permissions section shows your name as a fund member with the permission of owner. The permission of owner means that you have control over the assets and the custody policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, and perform the operations of withdrawal and transfer. The fund automatically includes a deposit address for receiving funds.
 
-![fundmembership](/doc-images/FundMembershipandpermissions.png)
+![fundmembership](/doc-images/fundperms.png)
 
 ---
 
