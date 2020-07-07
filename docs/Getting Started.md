@@ -138,13 +138,12 @@ You scan a QR-code on the web app through your phone’s camera, which pairs the
 
 1.  Click **Connect your mobile device**. The phone app shows a message requesting access to your camera. 
 2.  Tap **OK**. Then confirm your action in a message triggered from your device’s operating system. The QR-code shows on the phone screen.
-
-![QR](/doc-images/QR1.png)
-
 3.  Scan the QR code on the browser app with your camera. The phone shows that pairing is complete.
 4.  Tap **Continue**. The mobile screen guides you to creating a master seed on your phone.
 
 The web app indicates that the phone has been paired.
+
+![QR](/doc-images/QR1.png)
 
 ### Master Seed Steps
 
