@@ -118,7 +118,7 @@ Track Progress
 
 As the trade initiator, you can check the progress of custodian approval for the transfer.
 
-You can view approvals from the Approval view by clicking:
+You can view approvals from the Approval view by clicking the approvals icon:
 
 ![tick](/doc-images/tick.png)
 
@@ -150,7 +150,7 @@ The Actioned tab shows the same column fields. However, the ACTIONED column refl
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
 
-You can view transaction progress in the Ledger view by clicking
+You can view transaction progress in the Ledger view by clicking the ledger icon.
 
 ![Ledger](/doc-images/ledger.png) 
 

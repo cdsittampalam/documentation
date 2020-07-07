@@ -254,7 +254,7 @@ As the trade initiator, you can check the approval progress for address creation
 
 A withdrawal transaction can only happen if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
-You can view approvals from the Approval view, which appears by clicking:
+You can view approvals from the Approval view, which appears by clicking the Approvals icon:
 
 ![tick](/doc-images/tick.png)
 
