@@ -56,7 +56,7 @@ In the **Review Transfer** screen, you can see details of the transfer transacti
 *   the estimated transfer fee
 *   balance after the transfer
 
-Details of the withdrawal fees is shown when you click the question mark icon.
+Details of the transfer fees is shown when you click the question mark icon.
 
 ---
 
