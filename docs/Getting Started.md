@@ -225,9 +225,6 @@ Sign In Steps
 -------------
 
 1.  Tap **Sign In**. A log in screen appears.
-
-![end](/doc-images/end.png)
-
 2.  Enter your details in **Email address or alias** and **Password**.
 
 ![wabsign](/doc-images/websign.png)
