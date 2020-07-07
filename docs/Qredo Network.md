@@ -226,7 +226,6 @@ At the end of every transaction is the crystallization process to ensure that th
 For each user, the process ensures that the amounts are mapped to a UTXO on an external address. For example, if a wallet has 30 Bitcoin between Bob and Alice, the crystallization process will:
 
 *   map the wallet to Alice's UTXO containing 12 Bitcoin
-
 *   map the wallet to Bob's UTXO containing 18 Bitcoin  
 
 The allocations made during crystallization are used when a user requests settlement. Their crystalized funds minus any fees are transferred out of the Qredo network, and any change is returned back.
