@@ -30,6 +30,8 @@ The page also allows you to view details on the transactions and the custody pol
 
 ![All Transactions](/doc-images/AllTransactions2.png)
 
+![All Transactions](/doc-images/AllTransactions3.png)
+
 ### Task Options
 
 You can choose the following options from the page:
