@@ -61,7 +61,7 @@ The summary section has basic information on the fund:
 *   A brief description about the fund
 
 
-![summary](/doc-images/3Summaryinfo.png)
+![summary](/doc-images/4Summaryinfo.png)
 
 ---
 
