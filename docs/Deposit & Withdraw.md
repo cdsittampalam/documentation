@@ -318,7 +318,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 Transactions are presented in Ledger view which shows transactions for all funds. 
 
-You can view the transaction progress in the Ledger view by clicking the ledger icon
+You can view the transaction progress in the Ledger view by clicking the Ledger icon
 
 ![Ledger](/doc-images/ledger.png)
 
