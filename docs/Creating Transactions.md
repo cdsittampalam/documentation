@@ -3,39 +3,42 @@ id: Creating Transactions
 ---
 
 Transactions allow a trade initiator to transfer money to a recipient (or counterparty) within the same fund. All money during a transfer
-stays on the Qredo network, and is secure on the Qredo blockchain. With assets of the Qredo network, instead of in cold storage, crypto and capital market participants
-can easily keep their money liquid by transferring amounts between participants.
+stays on the Qredo network, and is secure on the Qredo blockchain. Liquidity is maintained, so that money can move between participants at any time.
 
 Future versions will allow atomic swaps that provide instant exchange of different digital assets.
 
 ### Qredo Fees
 
-Qredo charges fees of 1 basis point, or 0.01%, of the amount transferred.
+Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred.
 
 As a fund owner and member, you have the permission to transfer money from one Qredo user to another. This permission is shown in the **Permissions** tab on the Settings section of your account.
 
 ### Custodian Role
 
-As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the transfer custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the transfer policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
-For approving a transfer (see [Approve a Transfer](#approve-a-transfer).
+As a custodian, you can decide if a transfer started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the transfer custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the transfer policy linked to the fund. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
+For approving a transfer (see [Approve a Transfer](#approve-a-transfer)).
 
 Create Transfer
 ---------------
 
-For transferring money, the Qredo app consists of a wizard that lets you transfer a specific amount to a Qredo user. You must ensure that you enter the correct asset, amount, counterparty, and fund for the transfer.
+The Qredo app consists of a wizard that lets you transfer a specific amount to a Qredo user. You must ensure that you enter the correct asset, amount, counterparty, and fund for the transfer.
 
 You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 
-You launch the withdrawal process from either the Transaction Ledger or the Asset level.
+You start your action from the Asset view or Ledger view by clicking either:
+
+![coins](/doc-images/coins.png)
+
+![ledger](/doc-images/ledger.png).
 
 1. Choose the **Transfer** option in the Select Type box.
 2. Click **Continue**. The Transfer screen shows.
-3. In the From section, select the fund that you want to transfer assets to a counterparty in the **Fund** list.
+3. In the From section, select the fund for the transfer in the **Fund** list.
 4.  Choose the asset that you want to transfer in the **Asset** list.
-5.  Enter details of the user that you want to transfer the money to by typing either their name, email address, or network alias in the **To** list.
-6.  Enter the sum of money that you want to withdraw in **Amount**.
+5.  Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
+6.  Enter the sum of money that you want to transfer in **Amount**.
 7.  Type in a reference number in **Reference**.
-8.  To select a date for when the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
+8.  To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
 9.  To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
 10.  Click **Review Transfer**.
 
@@ -53,7 +56,7 @@ In the **Review Transfer** screen, you can see details of the transfer transacti
 *   the estimated transfer fee
 *   balance after the transfer
 
-Details of the withdrawal fees is shown when you click the question mark icon.
+Details of the transfer fees is shown when you click the question mark icon.
 
 ---
 
@@ -61,7 +64,9 @@ Details of the withdrawal fees is shown when you click the question mark icon.
 
 1. To see details of fees, click the question mark icon.
 2. To start the transfer, click **Initiate Transfer**. You are then prompted to check your phone app.
-2. To return to the previous screen, click **Back**.
+3. To return to the previous screen, click **Back**.
+
+When a counterparty receives money, they will receive an email notification of the transaction.
 
 ---
 
@@ -73,9 +78,9 @@ Once authorised, you can double-check details including the fees that are charge
 2.  To authorise, tap **Authorise**.
 3.  To reject, tap **Reject**.
 
-For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+For the authorise or reject action, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
-A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
+A transfer transaction can happen if it has met or exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund linked to the transaction.
 
 ---
 
@@ -92,51 +97,51 @@ As the custodian, you receive a notification as soon as the trade initiator has 
 
 You can also view other details linked to the transaction under the Show Detail arrow including:
 
-*   the name, beneficiary name, email address, network alias, beneficiary, and account number of the recipient.
+*   the name, beneficiary name, email address, network alias, and account number of the recipient.
 *   the email address and network alias of the trade initiator.
 *   the date and time in which the transfer was initiated.
 *   details of the Qredo fee.
 
 ### Steps
 
-1.  Tap on the notification on your phone. The Withdrawal screen shows.
+1.  Tap on the notification on your phone. The Transfer screen shows.
 2.  Click **Show Details** to view more details of the transaction.
 3.  To approve, tap **Approve**.
 4.  To reject, tap **Reject**.
 
-For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+For the approve or reject action, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
 ---
 
 Track Progress
 --------------
 
-As the trade initiator, you can check the progress of the transfer. Transactions require approval from custodians.
+As the trade initiator, you can check the progress of custodian approval for the transfer.
 
-Go to the Approvals section in the web app.
+You can view approvals from the Approval view by clicking the Approvals icon:
 
-A transfer transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
+![tick](/doc-images/tick.png)
 
 ---
 
 ### Transaction Approvals
 
 1.  Click the **Transactions** tab,
-2.  Click the **Pending** or **Actioned** sub-tabs.
+2.  Click the **Pending** or **Actioned** tabs.
 
-The pending subtab shows pending approvals.
+The Pending tab shows pending approvals.
 
 |     |     |
 | --- | --- |
 | **Column** | **Description** |
-| TYPE | Type of transaction. For a transfer, the column name shows as transfer. |
-| AMOUNT | The amount of the transaction and the type of asset. |
+| TYPE | Type of transaction. For a transfer, the column name shows as Transfer. |
+| AMOUNT | The amount of the transfer and the type of asset. |
 | RECIPIENT | Recipient of the asset. |
-| STATUS | The status shows as “Awaiting Authorisation”. |
-| ACTIONED | The date and time in which the transaction was created. |
+| STATUS | The status of the transfer which is “Awaiting Authorisation”. |
+| ACTIONED | The date and time in which the transfer was created. |
 
 
-The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the transaction approval was actioned. There are two states in the ACTIONED column. These include:
+The Actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the transaction approval was actioned. There are two states in the ACTIONED column. These include:
 
 *   AUTHORISED
 *   IGNORED
@@ -145,21 +150,20 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
 
-1.  Go to the **TX Ledger** section in the web app.
-2.  Access the **Outbound** tab.
+You can view transaction progress in the Ledger view by clicking the Ledger icon.
+
+![Ledger](/doc-images/ledger.png) 
 
 TX Ledger shows the following details:
 
 |     |     |
 | --- | --- |
 | **Column** | **Description** |
-| TYPE | Type of transaction. For a transfer, the column name shows as transfer. |
+| TYPE | Type of transaction. For a transfer, the column name shows as Transfer. |
 | FUND | Name of the fund. |
-| INITIATED | Date and time in which the transfer transaction was started. |
-| AMOUNT | Amount for transfer and the type of asset. |
-| REFERENCE | Reference number for the transaction. |
-| RECIPIENT | Label added to the transfer transaction, e.g., sent to an exchange. |
+| INITIATED | Date and time in which the transfer transaction started. |
+| AMOUNT | Amount of the transfer and the type of asset. |
+| REFERENCE | Reference number for the transfer. |
+| RECIPIENT | Label added to the transfer, e.g., sent to an exchange. |
 | EXPIRES | The date and time in which the transfer transaction needs to happen. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
-| STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
-
-
+| STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction and it has met the threshold, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |

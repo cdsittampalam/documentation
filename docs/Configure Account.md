@@ -11,22 +11,22 @@ Future versions will allow you to:
 *   change the account owner
 *   view/edit account permissions and/or members
 
+Details on your account is accessed from the Account icon that contains your own initials:
 
-
+![Account](/doc-images/initials.png)
 
 Show Account Settings
 ---------------------
 
-1. Click the user icon on the sidebar.
-2. In the displayed account card, click **Account Settings**. The Settings page appears.
-3. In the Settings page, click the various tabs for the different sections of the page.
+1. In the displayed account card, click **Account Settings**. The Settings page appears.
+2. In the Settings page, click the various tabs for the different sections of the page.
 
 ---
 
 Account Details
 ---------------
 
-![Settings](/doc-images/Settings.png)
+![Settings](/doc-images/Account1.png)
 
 The Account Details section shows information that was saved to your account on registration, including your first name, last name, and email address. The account status shows as Active or Inactive.
 
@@ -35,7 +35,7 @@ The Account Details section shows information that was saved to your account on 
 Permissions
 -----------
 
-![perms](/doc-images/perms.png)
+![perms](/doc-images/Perm1.png)
 
 The Permissions section shows your Qredo user role.
 
@@ -50,7 +50,7 @@ This section also shows your first name, last name, and alias details, which you
 Billing
 -------
 
-![Billing](/doc-images/Billing.png)
+![Billing](/doc-images/1Billing.png)
 
 The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal plan only.
 
@@ -67,7 +67,7 @@ This section provides details on the Partner API.
 Legal
 -----
 
-![Legal](/doc-images/Legal.png)
+![Legal](/doc-images/1Legal.png)
 
 The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program by clicking **Copy Link**. Alternatively, you can download the agreement by clicking **Download**.
 

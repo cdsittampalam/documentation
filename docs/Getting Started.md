@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-The app section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your web app and the mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
+The app section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your Qredo web app and the Qredo mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
 
 ![Page1](/doc-images/page1.png)
 
@@ -11,7 +11,7 @@ This page shows the steps for web app registration with links to specific steps 
 Web App Steps
 -------------
 
-You start the process of registering with Qredo from the web app. The process also involves setup steps in the phone app.
+You start the process of registering with Qredo from the web app. 
 
 ### Start Registration
 
@@ -34,11 +34,7 @@ The Establish your Qredo Identity screen appears.
     -  **Mobile number**
    
     :::info
-    You can enter a private or work email address with a unique name. 
-
-    If you are joining as a new user, you will use a new email address. 
-
-    If you have been invited, you can use the email address where you received the invitation.
+    You can enter a private or work email address. If you have been invited, you can use the email address where you received the invitation.
     :::
     
 2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo network alias must not contain special characters.
@@ -69,15 +65,13 @@ The password must contain:
 
 ### Accept Terms and Conditions
 
-Read the terms and conditions on this page around GDPR compliance and data privacy. 
-
-To move to the next screen, tick the box and click **Accept & Continue** (see Validate your email address).
-
-To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
+1. Read the terms and conditions on this page around GDPR compliance and data privacy. 
+2. To move to the next screen, tick the box and click **Accept & Continue** (see [Validate email address](#validate-email-address).
+3. To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
 
 ### View Full Terms and Conditions
 
-If required, you can download the full terms and conditions. You may need this document to distribute and print to other parties.
+You can download the full terms and conditions if you need to distribute and print the document for other parties.
 
 ![accept](/doc-images/accept.png)
 
@@ -97,7 +91,7 @@ Type in the code in **Email address validation code**. The page for downloading 
 
 ### Download Phone App
 
-An SMS is sent to your phone that contains a link to the signing app on the app store of your device. The SMS should arrive promptly.
+An SMS is sent to your phone that contains a link to the mobile app on the app store. The SMS should arrive promptly.
 
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
 
@@ -143,7 +137,7 @@ Once you have downloaded the phone app, you are ready to pair your phone with th
 You scan a QR-code on the web app through your phone’s camera, which pairs the phone with the mobile app. The pairing process ensures that only your phone can be used together with the web app. The unique QR-code that shows on the web app can only be used once.
 
 1.  Click **Connect your mobile device**. The phone app shows a message requesting access to your camera. 
-2.  Tap **OK**. Then confirm your action in a message triggered from your device’s operating system.The QR-code shows on the phone screen.
+2.  Tap **OK**. Then confirm your action in a message triggered from your device’s operating system. The QR-code shows on the phone screen.
 
 ![QR](/doc-images/QR1.png)
 
@@ -207,8 +201,8 @@ The phone shows screens to introduce the seed recovery phrase.
 
 ![seedinst](/doc-images/seedinst.png)
 
-6. Tap **Got it**.The screens shows 24 empty entries.
-7.  Tap in each entry and choose the word that matches the word in the phrase entry you recorded.
+6. Tap **Okay, got it**.The screens shows 24 empty entries.
+7. Tap each entry and choose the word that matches the one in the phrase entry you recorded.
 
 ![confirm](/doc-images/confent.png)
     
@@ -239,7 +233,7 @@ Sign In Steps
 
 ![wabsign](/doc-images/websign.png)
 
-3.  To ensure that you do not need to enter your details again the next time you open the mobile app, observe **Remember Me**.   
+3.  To ensure that you do not need to enter your details again the next time you open the web app, observe **Remember Me**.   
 4.  Tap **Sign In**.
     
 Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the mobile app. A message appears.
@@ -248,7 +242,24 @@ Once you have signed in to the web app, you are requested by Qredo to authentica
 
 5. Tap **Authorise**.
 6. If you want to deny the request, tap **Deny.**
+7. Once you tapped Authorise or Deny, you will see a confirmation screen.
+8. Click Confirm. An Approval Granted or Approval Rejected screen appears.
 
-### View Requests
+---
 
-If you tap **Request details** in the Sign in request note, it shows the time, date, location, and device of the request.
+Navigation
+----------
+
+The screens of the web app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
+
+|     |     |
+| --- | --- |
+| **Button** | **Description** |
+| ![asset](/doc-images/coins.png)| The Asset view gives you details on all activites on a particular fund. This allows you to monitor and launch tasks from the fund.  |
+| ![Ledger](/doc-images/ledger.png) | The Ledger view provides you information on all inbound and outbound transactions for all your funds. This lets you monitor activity at the account level. |
+| ![Approvals](/doc-images/tick.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
+| ![TrustedNetwork](/doc-images/tick.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |
+| ![Account](/doc-images/initials.png) | The Account view gives you details about your account. You can monitor various areas of your account, such as the account details, plan, and legal documents. |
+
+
+ 
