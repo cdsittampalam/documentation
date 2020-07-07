@@ -91,7 +91,7 @@ The Withdrawal and TX tabs include custody policies comprising of custodians and
 When you create a fund, you can assign any number of custodians for withdrawals and transfers.
 :::
 
-![custody fund](/doc-images/Custodyinfo1.png)
+![custody fund](/doc-images/Custodyinfo3.png)
 
 ---
 
