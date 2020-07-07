@@ -11,7 +11,7 @@ You invite a counterparty from the Trusted Network screen on the browser desktop
 
 ![trusted](/doc-images/2trustednetworkscreen.png)
 
-You can access the Trusted Network screen from:
+You can access the Trusted Network screen by clicking the Trusted Network icon:
 
 ![Trusted Network Button](/doc-images/button-trustednetwork.png)
 
@@ -100,7 +100,7 @@ You will then see the following screen indicating that the request has been acti
 ### Monitor Responses
 
 In the Approvals view, you can monitor responses to your invites. The Approvals view shows trusted parties that have approved and/or rejected invites.
-You can access the Approvals view by clicking:
+You can access the Approvals view by clicking the Approval icon:
 
 ![Button Approve](/doc-images/button-approve.png)  
 
