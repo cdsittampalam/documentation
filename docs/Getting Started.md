@@ -169,7 +169,7 @@ You are asked to provide Qredo with access to your Face ID/Touch ID before enabl
 
 The screen shows slots for creating your 6 digit passcode.
 
-![choosepin](/doc-images/choosepin.png)
+![choosepin](/doc-images/pinchoose.png)
 
 1.  Enter a 6-digit passcode.
 2.  Enter the 6-digit passcode again to verify
