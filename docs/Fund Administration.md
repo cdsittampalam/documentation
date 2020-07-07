@@ -24,8 +24,6 @@ You access the Holdings page by clicking the Asset icon:
 
 The Holdings page consists of the summary section that allows you to create a fund or view attributes of a default fund.
 
-![Fund One in Holdings](/doc-images/Fund1DX.png)
-
 ![Fund One in Default](/doc-images/HoldingsA.png)
 
 The page also allows you to view details on the transactions and the custody policies of the fund.
