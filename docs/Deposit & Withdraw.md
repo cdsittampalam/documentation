@@ -79,8 +79,6 @@ When sending money from Qredo, you choose an existing whitelisted withdrawal add
 
 If you do not have a withdrawal address, you need to create one before the transaction.
 
-As a custodian, you can approve the withdrawal address for the transaction if it is whitelisted. However, if the address is deemed insecure, you can reject the new address (see [Approve an Address (Custodian)](#approve-an-address-custodian))
-
 You start your action from either the Asset view or Ledger view.
 
 
@@ -128,33 +126,6 @@ You can also view other details of the withdrawal address including:
 3.  To reject, tap **Reject**.
 
 For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm on the confirmation screens.
-
----
-
-#### Approve an Address (Custodian)
-
-You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal Address screen on your phone asks you to approve or reject the new address. The screen also shows the following information:
-
-![custodian withdraw](/doc-images/cuswithadd.png)
-
-*   name of the wallet address.
-*   the fund of the withdrawal address.   
-*   the name of the asset.    
-*   the name of the trade initiator.    
-*   the expiry time and date of the request.
-
-You can also view other details of the withdrawal address including:
-
-*   the alphanumeric string of the address.   
-*   details of the trade initiator (including email address and alias).    
-*   the date in which the address creation was initiated.
-
-1. Tap on the notification on your phone. The Withdrawal screen the appears asking you to approve or reject the new address.
-2.  Click **Show Details** to view more details of the transaction.
-3.  To approve, tap **Approve**.    
-4.  To reject, tap **Reject**.    
-
-For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
 ---
 
@@ -237,9 +208,7 @@ You receive a notification as soon as the trade initiator has authorised the wit
 *   the transaction reference number.   
 *   the expiry date and time for approval.   
 
-You can also view other details linked to the transaction under the Show Detail arrow including:
-
-![WithDetails](/doc-images/approvewith.png)
+You can also view other details linked to the transaction under the Show Details arrow including:
 
 *   the fund of the withdrawal.    
 *   the destination wallet name.    
