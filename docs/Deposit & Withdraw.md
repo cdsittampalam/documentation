@@ -82,7 +82,7 @@ If you do not have a withdrawal address, you need to create one before the trans
 You start your action from either the Asset view or Ledger view.
 
 
-#### Create a New Address
+#### Steps
 
 1. Click the **New TX** button. The Select Type window shows.
 
