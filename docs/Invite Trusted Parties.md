@@ -35,7 +35,9 @@ You enter an email address for a user on the Qredo network. The email address mu
 
 ### Add from Contacts
 
-In the Invite to Join Qredo section, click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent directly to a recipient via the selected service. The users see the invite as a link to the sign up page on the Qredo website.
+In the Invite to Join Qredo section, 
+
+click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent directly to a recipient via the selected service. The users see the invite as a link to the sign up page on the Qredo website.
 
 You can check the Trusted Network screen for details of the new invite (see the next section).
 
