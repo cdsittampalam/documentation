@@ -164,15 +164,19 @@ In the **Review Withdrawal** screen, you can see details of the withdrawal trans
 
 These include:
 
-*   the amount to withdraw    
-*   the source fund    
-*   the transaction reference number    
-*   the estimated withdrawal fee
-
-Details of the withdrawal fees is shown when you click the question mark icon. Fees includes:
-
-*   Qredo fees for the settlement.    
-*   Miner fees that cover the work and resources they need to generate blocks on the underlying network.    
+*   Asset and amount to withdraw    
+*   Source fund    
+*   Transaction reference number
+*   Expiry date and time information    
+*   Blockchain miner's fee
+*   Total withdrawal cost (including the amount to withdraw and the miner's fee)
+*   Balance after the total withdrawal cost is deducted
+*   From details: 
+     * Name of the trade initiator
+     * Email address of the trade initiator
+     * Network alias of the trade initiator
+*   To details:
+     * Withdraw wallet address   
 
 1.  To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
 2. To return to the previous screen, click **Back**.
