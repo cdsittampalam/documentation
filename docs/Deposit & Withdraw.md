@@ -124,7 +124,6 @@ You can also view other details of the withdrawal address including:
 *   details of the trade initiator (including email address and alias).    
 *   the date in which the address creation was initiated.
 
-
 2.  To authorise, tap **Authorise**.    
 3.  To reject, tap **Reject**.
 
