@@ -18,7 +18,7 @@ Details on your account is accessed from the Account icon that contains your own
 Show Account Settings
 ---------------------
 
-1. Click the Account icon. The account card appears.
+1. Click the Account icon. Your account card appears.
 
 ![Account](/doc-images/initials.png)
 
