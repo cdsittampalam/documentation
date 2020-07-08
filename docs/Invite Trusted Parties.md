@@ -95,7 +95,7 @@ You will then see the following screen indicating that the request has been acti
 
 You will then see the following screen indicating that the request has been actioned with the status of rejected.
 
-![trusted parties denied](/doc-images/trustedpartydenied.png)
+![trusted parties denied](/doc-images/TPRej.png)
 
 ### Monitor Responses
 
