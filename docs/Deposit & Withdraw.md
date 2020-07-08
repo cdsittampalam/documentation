@@ -112,7 +112,7 @@ As the initiator of the withdrawal, you confirm your decision by authorising usi
 
 ![auth withdraw](/doc-images/AuthWith.png)
 
- name of the wallet address.
+*   name of the wallet address.
 *   the fund of the withdrawal address.   
 *   the name of the asset.    
 *   the name of the trade initiator.    
