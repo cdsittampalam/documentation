@@ -39,15 +39,14 @@ The Account Details section shows information that was saved to your account on 
 Permissions
 -----------
 
-![perms](/doc-images/1perms.png)
-
 The Permissions section shows your Qredo user role.
 
 *   If you joined Qredo yourself, you are the Account Owner.
 *   If you were invited by an Account Owner, your role is Trusted Counterparty.
 
-
 This section also shows your first name, last name, and alias details, which you provided on registration.
+
+![perms](/doc-images/1perms.png)
 
 ---
 
