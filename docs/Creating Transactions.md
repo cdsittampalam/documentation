@@ -62,15 +62,19 @@ These include:
 *   Source fund    
 *   Transaction reference number
 *   Expiry date and time information    
-*   Blockchain miner's fee
-*   Total withdrawal cost (including the amount to withdraw and the miner's fee)
-*   Balance after the total withdrawal cost is deducted
+*   Qredo transfer fee
+*   Total transfer cost (including the amount to transfer and the transfer fee)
+*   Balance after the total transfer cost is deducted
 *   From details: 
      * Name of the trade initiator
      * Email address of the trade initiator
      * Network alias of the trade initiator
 *   To details:
-     * Withdraw wallet address   
+     * Counterparty name
+     * Counterparty email address
+     * Counterparty network alias
+     * Beneficiary details  
+     * Account number     
 
 ---
 
