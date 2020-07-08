@@ -92,7 +92,7 @@ You start your action from either the Asset view or Ledger view.
 3.  Click **Continue**. The No withdrawal address box shows.    
 4.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows.
 
-![add withdraw](/doc-images/AddWith.png)
+![add withdraw](/doc-images/Addwith.png)
 
 5.  Select the fund that you want to add the address to in **Source Fund**.    
 6.  Choose the asset type in **Asset**.    
