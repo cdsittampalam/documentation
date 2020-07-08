@@ -74,7 +74,7 @@ If you do not want to be part of their network, you can reject their invite.
 2.  Sign in to the app using the biometric feature of your phone.
 3.  Enter your 6-digit PIN. The Trusted Party screen shows.
 
-![pairing](/doc-images/addtrustedphone1.png)
+![pairing](/doc-images/trustedP.png)
 
 4.  To approve the pairing request, tap **Approve**.
 5.  Authenticate using the biometric feature and 6-digit passcode.
