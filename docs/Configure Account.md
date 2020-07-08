@@ -18,7 +18,11 @@ Details on your account is accessed from the Account icon that contains your own
 Show Account Settings
 ---------------------
 
-1. In the displayed account card, click **Account Settings**. The Settings page appears.
+1. Click the Account icon. The account card appears.
+
+![Account](/doc-images/initials.png)
+
+2. Click the button to display account details. The Settings page appears.
 2. In the Settings page, click the various tabs for the different sections of the page.
 
 ---
