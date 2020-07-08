@@ -110,7 +110,7 @@ As the initiator of the withdrawal, you confirm your decision by authorising usi
 
 1.  Tap the notification that you received on your phone. The Withdraw Address screen shows details of the transaction including fees.   
 
-![auth withdraw](/doc-images/authwithadd.png)
+![auth withdraw](/doc-images/AuthWith.png)
 
 2.  To authorise, tap **Authorise**.    
 3.  To reject, tap **Reject**.
