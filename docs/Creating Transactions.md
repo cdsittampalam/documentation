@@ -36,6 +36,9 @@ You start your action from the Asset view or Ledger view by clicking either:
 ![transaction](/doc-images/selecttypetrans.png)
 
 2. Click **Continue**. The Transfer screen shows, and includes a scrollbar that lets you scroll down to other options.
+
+![transfer](/doc-images/transfermain.png)
+
 3. In the From section, select the fund for the transfer in the **Fund** list.
 4. Choose the asset that you want to transfer in the **Asset** list.
 5. Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
