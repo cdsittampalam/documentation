@@ -239,7 +239,7 @@ You receive a notification as soon as the trade initiator has authorised the wit
 
 You can also view other details linked to the transaction under the Show Detail arrow including:
 
-![WithDetails](/doc-images/withdetails.png)
+![WithDetails](/doc-images/approvewith.png)
 
 *   the fund of the withdrawal.    
 *   the destination wallet name.    
