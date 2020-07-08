@@ -20,7 +20,7 @@ Show Account Settings
 
 1. Click the Account icon. Your account card appears.
 
-![Account](/doc-images/accountcard.png)
+![Account](/doc-images/accountcard1.png)
 
 2. Click the button to display account details. The Settings page appears.
 2. In the Settings page, click the various tabs for the different sections of the page.
