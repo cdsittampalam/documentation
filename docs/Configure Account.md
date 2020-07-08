@@ -56,7 +56,7 @@ Billing
 
 The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal plan only.
 
-![Billing](/doc-images/1billing.png)
+![Billing](/doc-images/2billing.png)
 
 ---
 
@@ -66,7 +66,7 @@ Partner API
 
 This section provides details on the Partner API. 
 
-![Billing](/doc-images/1partner.png)
+![Billing](/doc-images/partnerapi.png)
 
 ---
 
