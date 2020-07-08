@@ -39,7 +39,7 @@ The Account Details section shows information that was saved to your account on 
 Permissions
 -----------
 
-![perms](/doc-images/Perm1.png)
+![perms](/doc-images/1perms.png)
 
 The Permissions section shows your Qredo user role.
 
