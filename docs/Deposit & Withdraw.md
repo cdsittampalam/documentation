@@ -229,7 +229,7 @@ A withdrawal transaction can only be sent out of Qredo if it has met or has exce
 
 You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal screen on your phone asks you to approve or reject the new transaction. The screen also shows the following information:
 
-![ApproveDetails](/doc-images/approvewith.png)
+![ApproveDetails](/doc-images/apprwith.png)
 
 *   type of asset and amount.
 *   the name linked to the recipient address.    
