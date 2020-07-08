@@ -89,7 +89,11 @@ A transfer transaction can happen if it has met or exceeded the threshold level 
 Approve a Transfer
 ------------------
 
-As the custodian, you receive a notification as soon as the trade initiator has authorised the transfer. The Transfer screen on your phone asks you to approve or reject the transfer. The screen also shows the following information:
+As the custodian, you receive a notification as soon as the trade initiator has authorised the transfer. The Transfer screen on your phone asks you to approve or reject the transfer. 
+
+![ledger](/doc-images/apprtransfer.png)
+
+The screen also shows the following information:
 
 *   type of asset and amount.
 *   the recipient of the transfer.
