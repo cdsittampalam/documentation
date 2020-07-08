@@ -66,6 +66,8 @@ Partner API
 
 This section provides details on the Partner API. 
 
+![Billing](/doc-images/1partner.png)
+
 ---
 
 Legal
