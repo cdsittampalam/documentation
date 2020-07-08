@@ -160,7 +160,7 @@ In the same way as a withdrawal address, you start your action from the Asset vi
 
 In the **Review Withdrawal** screen, you can see details of the withdrawal transaction.
 
-![withdrawmain](/doc-images/reviewwithdraw.png)
+![withdrawmain](/doc-images/reviewwithdraw1.png)
 
 These include:
 
