@@ -29,7 +29,7 @@ You start your action from the Asset view or Ledger view by clicking either:
 
 ![coins](/doc-images/coins.png)
 
-![ledger](/doc-images/ledger.png).
+![ledger](/doc-images/ledger.png)
 
 1. Choose the **Transfer** option in the Select Type box.
 2. Click **Continue**. The Transfer screen shows.
@@ -73,6 +73,8 @@ When a counterparty receives money, they will receive an email notification of t
 ### Authorise the Transfer
 
 Once authorised, you can double-check details including the fees that are charged on the transaction.
+
+![ledger](/doc-images/authtransfer.png)
 
 1.  Tap on the notification that you received on your phone. The Transfer screen shows details of the transaction including fees.
 2.  To authorise, tap **Authorise**.
