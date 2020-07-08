@@ -112,6 +112,19 @@ As the initiator of the withdrawal, you confirm your decision by authorising usi
 
 ![auth withdraw](/doc-images/AuthWith.png)
 
+ name of the wallet address.
+*   the fund of the withdrawal address.   
+*   the name of the asset.    
+*   the name of the trade initiator.    
+*   the expiry time and date of the request.
+
+You can also view other details of the withdrawal address including:
+
+*   the alphanumeric string of the address.   
+*   details of the trade initiator (including email address and alias).    
+*   the date in which the address creation was initiated.
+
+
 2.  To authorise, tap **Authorise**.    
 3.  To reject, tap **Reject**.
 
