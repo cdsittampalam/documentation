@@ -83,7 +83,7 @@ If you do not want to be part of their network, you can reject their invite.
 
 You will then see the following screen indicating that the request has been actioned with the status of APPROVED.
 
-![trusted parties actioned](/doc-images/TrustedPartiesActioned.png)
+![trusted parties actioned](/doc-images/TPappr.png)
 
 ### Reject Request
 
