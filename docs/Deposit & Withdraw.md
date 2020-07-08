@@ -65,9 +65,9 @@ Withdraw Money
 
 You set up a withdrawal transaction as a trade initiator using the web app. To confirm that you want the transaction to happen, you can authorise it through the mobile app.
 
-### Qredo Fees
+### Blockchain Miner's Fee
 
-Qredo charges fees to withdraw, which include the Qredo fee and the miner's fee, The Qredo fee allows the management of Qredo wallets. While the miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you confirm the transaction.While the miner and Qredo fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
+Qredo charges fees to withdraw, which includes the Blockchain miner's fee, The fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
 
 ### Custodian Role
 
@@ -141,14 +141,14 @@ In the same way as a withdrawal address, you start your action from the Asset vi
 
 1.  Click the **New TX** button. The Select Type window shows.
 2.  Choose the **Withdraw** option in the Select Type box.   
-3.  Click **Continue**. The Withdraw screen shows.
+3.  Click **Continue**. The Withdraw screen shows, and includes a scrollbar that lets you scroll down to other options.
 
 ![Trusted Network Button](/doc-images/withdrawmain.png)
 
 4.  In the From section, select the fund that you want to withdraw assets from in the **Fund** list.   
 5.  Choose the asset that you want to withdraw in the **Asset** list.    
 6.  Select the address that you want to send the money to in the **To** list.    
-7.  Enter the amount that you want to withdraw in **Amount**.    
+7.  Enter the amount that you want to withdraw in **Amount**. The Blockchain Miner's fee and total withdrawal cost appears.   
 8.  Type in a reference number in **Reference**.    
 9.  To select a date for when the withdrawal takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.    
 10.  To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.    
