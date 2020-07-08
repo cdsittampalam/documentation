@@ -30,9 +30,9 @@ Show Account Settings
 Account Details
 ---------------
 
-![Settings](/doc-images/1accountdetail.png)
-
 The Account Details section shows information that was saved to your account on registration, including your first name, last name, and email address. The account status shows as Active or Inactive.
+
+![Settings](/doc-images/1accountdetail.png)
 
 ---
 
