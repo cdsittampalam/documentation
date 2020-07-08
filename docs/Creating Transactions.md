@@ -32,15 +32,18 @@ You start your action from the Asset view or Ledger view by clicking either:
 ![ledger](/doc-images/ledger.png)
 
 1. Choose the **Transfer** option in the Select Type box.
-2. Click **Continue**. The Transfer screen shows.
+
+![transaction](/doc-images/selecttypetrans.png)
+
+2. Click **Continue**. The Transfer screen shows, and includes a scrollbar that lets you scroll down to other options.
 3. In the From section, select the fund for the transfer in the **Fund** list.
-4.  Choose the asset that you want to transfer in the **Asset** list.
-5.  Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
-6.  Enter the sum of money that you want to transfer in **Amount**.
-7.  Type in a reference number in **Reference**.
-8.  To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
-9.  To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
-10.  Click **Review Transfer**.
+4. Choose the asset that you want to transfer in the **Asset** list.
+5. Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
+6. Enter the sum of money that you want to transfer in **Amount**.
+7. Type in a reference number in **Reference**.
+8. To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
+9. To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
+10. Click **Review Transfer**.
 
 ---
 

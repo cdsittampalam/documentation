@@ -143,7 +143,7 @@ In the same way as a withdrawal address, you start your action from the Asset vi
 2.  Choose the **Withdraw** option in the Select Type box.   
 3.  Click **Continue**. The Withdraw screen shows, and includes a scrollbar that lets you scroll down to other options.
 
-![Trusted Network Button](/doc-images/withdrawmain.png)
+![Withdraw main](/doc-images/withdrawmain.png)
 
 4.  In the From section, select the fund that you want to withdraw assets from in the **Fund** list.   
 5.  Choose the asset that you want to withdraw in the **Asset** list.    
