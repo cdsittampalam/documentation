@@ -46,6 +46,8 @@ The Permissions section shows your Qredo user role.
 
 This section also shows your first name, last name, and alias details, which you provided on registration.
 
+For more details, see [Role of the Account Owner](#role-of-the-account-owner)
+
 ![perms](/doc-images/1perms.png)
 
 ---
@@ -73,9 +75,9 @@ This section provides details on the Partner API.
 Legal
 -----
 
-![Legal](/doc-images/1Legal.png)
-
 The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program by clicking **Copy Link**. Alternatively, you can download the agreement by clicking **Download**.
+
+![Legal](/doc-images/1legal.png)
 
 ---
 
