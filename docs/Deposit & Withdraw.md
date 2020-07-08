@@ -216,7 +216,7 @@ Before authorising, you can view its details including the fees that are charged
 
 1.  Tap the notification that you received on your phone. The Withdraw screen shows with details of the transaction including fees.
 
-![Authwith](/doc-images/authwithadd.png)
+![Authwith](/doc-images/authwithd.png)
 
 2.  To authorise, tap **Authorise**.   
 3.  To reject, tap **Reject**.
