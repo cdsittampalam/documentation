@@ -9,7 +9,7 @@ Future versions will allow atomic swaps that provide instant exchange of differe
 
 ### Qredo Fees
 
-Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred.
+Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred. Information on the fee appears when you enter details and review the transfer transaction.
 
 As a fund owner and member, you have the permission to transfer money from one Qredo user to another. This permission is shown in the **Permissions** tab on the Settings section of your account.
 
@@ -42,7 +42,7 @@ You start your action from the Asset view or Ledger view by clicking either:
 3. In the From section, select the fund for the transfer in the **Fund** list.
 4. Choose the asset that you want to transfer in the **Asset** list.
 5. Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
-6. Enter the sum of money that you want to transfer in **Amount**.
+6. Enter the sum of money that you want to transfer in **Amount**. The Qredo fee and total transfer cost appears.  
 7. Type in a reference number in **Reference**.
 8. To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
 9. To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
@@ -52,17 +52,25 @@ You start your action from the Asset view or Ledger view by clicking either:
 
 ### Review Transfer
 
-In the **Review Transfer** screen, you can see details of the transfer transaction. These include:
+In the **Review Transfer** screen, you can see details of the transfer transaction.
 
-*   the amount to transfer
-*   the source fund
-*   the asset
-*   the transaction reference number
-*   the expiry date and time
-*   the estimated transfer fee
-*   balance after the transfer
+![withdrawmain](/doc-images/reviewtrans1.png)
 
-Details of the transfer fees is shown when you click the question mark icon.
+These include:
+
+*   Asset and amount to transfer    
+*   Source fund    
+*   Transaction reference number
+*   Expiry date and time information    
+*   Blockchain miner's fee
+*   Total withdrawal cost (including the amount to withdraw and the miner's fee)
+*   Balance after the total withdrawal cost is deducted
+*   From details: 
+     * Name of the trade initiator
+     * Email address of the trade initiator
+     * Network alias of the trade initiator
+*   To details:
+     * Withdraw wallet address   
 
 ---
 

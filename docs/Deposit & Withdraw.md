@@ -67,7 +67,7 @@ You set up a withdrawal transaction as a trade initiator using the web app. To c
 
 ### Blockchain Miner's Fee
 
-Qredo charges fees to withdraw, which includes the Blockchain miner's fee, The fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
+Qredo charges fees to withdraw, which includes the Blockchain miner's fee, The fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
 
 ### Custodian Role
 
@@ -178,7 +178,7 @@ These include:
 *   To details:
      * Withdraw wallet address   
 
-1.  To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
+1. To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
 2. To return to the previous screen, click **Back**.
 
 Once authorised, the custodian can also approve or reject the transaction.
