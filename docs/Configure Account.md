@@ -53,9 +53,10 @@ This section also shows your first name, last name, and alias details, which you
 Billing
 -------
 
-![Billing](/doc-images/1Billing.png)
 
 The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal plan only.
+
+![Billing](/doc-images/1billing.png)
 
 ---
 
