@@ -234,7 +234,7 @@ Sign In Steps
     
 Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the mobile app. A message appears.
 
-![signin](/doc-images/signinconf.png)
+![signin](/doc-images/1signinconf.png)
 
 5. Tap **Authorise**.
 6. If you want to deny the request, tap **Deny.**
