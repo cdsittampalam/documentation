@@ -26,7 +26,7 @@ Click the **Add Trusted Party** button on the Trusted Network screen to show the
 
 You enter an email address for a user on the Qredo network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again.
 
-1.  Enter the email address of the user and click **Search**.
+1.  In the Search the Qredo Network section, enter the email address of the user and click **Search**.
 2.  If the user is on the Qredo network with that email address, a box appears asking you to confirm pairing with the email address.  
 
 ![Add Trusted](/doc-images/AddTrustedConf.png)
@@ -35,9 +35,9 @@ You enter an email address for a user on the Qredo network. The email address mu
 
 ### Add from Contacts
 
-In the Invite to Join Qredo section, 
+In the Invite to Qredo Network section, the URL of the Join page appears. This allows a recipient of the invitation to go directly to the Join page on the Qredo website.
 
-click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent directly to a recipient via the selected service. The users see the invite as a link to the sign up page on the Qredo website.
+click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent to the recipient via the selected service. 
 
 You can check the Trusted Network screen for details of the new invite (see the next section).
 
