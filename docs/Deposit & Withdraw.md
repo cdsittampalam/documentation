@@ -125,7 +125,7 @@ You can also view other details of the withdrawal address including:
 2.  To authorise, tap **Authorise**.    
 3.  To reject, tap **Reject**.
 
-For the action you select, you then sign in with your biometric features and 6-digit passcode, and tap confirm on the confirmation screens.
+For the action you select, you then sign in with your biometric features and 6-digit PIN, and tap confirm on the confirmation screens.
 
 ---
 
@@ -173,7 +173,7 @@ Details of the withdrawal fees is shown when you click the question mark icon. F
 
 *   Qredo fees for the settlement.    
 *   Miner fees that cover the work and resources they need to generate blocks on the underlying network.    
- 
+
 1.  To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
 2. To return to the previous screen, click **Back**.
 
@@ -297,7 +297,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 ### Transactions
 
-Transactions are presented in Ledger view which shows transactions for all funds. 
+Transactions are presented in Ledger view which shows transactions for all funds.
 
 You can view the transaction progress in the Ledger view by clicking the Ledger icon
 

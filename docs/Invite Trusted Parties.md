@@ -77,7 +77,7 @@ If you do not want to be part of their network, you can reject their invite.
 ![pairing](/doc-images/trustedP1.png)
 
 4.  To approve the pairing request, tap **Approve**.
-5.  Authenticate using the biometric feature and 6-digit passcode.
+5.  Authenticate using the biometric feature and 6-digit PIN.
 6.  Then tap **Confirm** in the Confirmation screen.  A screen appears to show that approval has been granted.
 7.  Tap **Close**.
 
@@ -88,7 +88,7 @@ You will then see the following screen indicating that the request has been acti
 ### Reject Request
 
 1.  To reject the pairing request, tap **Reject** in the Trusted Party screen.
-2.  Authenticate using the biometric feature and 6-digit passcode.
+2.  Authenticate using the biometric feature and 6-digit PIN.
 3.  Tap **Confirm** in the Confirmation screen. A screen appears which shows that approval has been granted.
 4.  Tap **Close**.
 

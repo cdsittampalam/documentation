@@ -11,7 +11,7 @@ This page shows the steps for web app registration with links to specific steps 
 Web App Steps
 -------------
 
-You start the process of registering with Qredo from the web app. 
+You start the process of registering with Qredo from the web app.
 
 ### Start Registration
 
@@ -32,11 +32,11 @@ The Establish your Qredo Identity screen appears.
     -  **Full name**
     -  **Email address**
     -  **Mobile number**
-   
+
     :::info
     You can enter a private or work email address. If you have been invited, you can use the email address where you received the invitation.
     :::
-    
+
 2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo network alias must not contain special characters.
 3. Click **Continue**. The Set a strong password screen appears.
 
@@ -50,13 +50,13 @@ The Establish your Qredo Identity screen appears.
 The password must contain:
 
    -  10 characters in total
-    
+
    -  1 uppercase letter
-    
+
    -  1 number
-    
+
    -  1 special character
-    
+
    -  1 lowercase letter    
 
 3. Click **Continue**. The Accept our terms and conditions page appears.
@@ -65,7 +65,7 @@ The password must contain:
 
 ### Accept Terms and Conditions
 
-1. Read the terms and conditions on this page around GDPR compliance and data privacy. 
+1. Read the terms and conditions on this page around GDPR compliance and data privacy.
 2. To move to the next screen, tick the box and click **Accept & Continue** (see [Validate email address](#validate-email-address).
 3. To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
 
@@ -77,9 +77,9 @@ You can download the full terms and conditions if you need to distribute and pri
 
 1.  To download the terms and conditions, click **Download**.
 2.  To view the terms and conditions as a PDF file in another browser page or tab, click **Copy Link**.
-3.  Tick the box and click **Accept & Continue**. The Validate your email address screen shows. 
+3.  Tick the box and click **Accept & Continue**. The Validate your email address screen shows.
 
-![validate email](/doc-images/valemail.png) 
+![validate email](/doc-images/valemail.png)
 
 ### Validate Email Address
 
@@ -95,14 +95,14 @@ An SMS is sent to your phone that contains a link to the mobile app on the app s
 
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
 
-![splash](/doc-images/splash2.png) 
+![splash](/doc-images/splash2.png)
 
 1. If the SMS has not arrived, click on the resend button on the browser app page. The button shows a time limit for resending the SMS.
 2. Click **Continue**.
 
 ### Pair your Phone
 
-Once you have downloaded the app, tap the QR code on the screen against the QR reader on your phone. 
+Once you have downloaded the app, tap the QR code on the screen against the QR reader on your phone.
 
 ![pairing complete](/doc-images/pairingcomplete.png)
 
@@ -136,7 +136,7 @@ Once you have downloaded the phone app, you are ready to pair your phone with th
 
 You scan a QR-code on the web app through your phone’s camera, which pairs the phone with the mobile app. The pairing process ensures that only your phone can be used together with the web app. The unique QR-code that shows on the web app can only be used once.
 
-1.  Click **Connect your mobile device**. The phone app shows a message requesting access to your camera. 
+1.  Click **Connect your mobile device**. The phone app shows a message requesting access to your camera.
 2.  Tap **OK**. Then confirm your action in a message triggered from your device’s operating system. The QR-code shows on the phone screen.
 3.  Scan the QR code on the browser app with your camera. The phone shows that pairing is complete.
 4.  Tap **Continue**. The mobile screen guides you to creating a master seed on your phone.
@@ -151,7 +151,7 @@ Once you have completed pairing, you are ready to create your master seed. The m
 
 If in the unlikely event that data is lost, you will need to recover your master seed through your seed recovery phrase. The seed recovery phrase, consisting of a unique 24-word combination, is different to a common password, which you may be more likely to forget or lose.
 
-In addition, you will also set up a 6-digit passcode. The passcode is used with the biometric feature of your phone that is either the Face ID or Touch ID.
+In addition, you will also set up a 6-digit PIN. The PIN is used with the biometric feature of your phone that is either the Face ID or Touch ID.
 
 Before you create a master seed, the phone lets you scroll through an interactive guide. Tap **Get Started** and the buttons in the subsequent screens.
 
@@ -165,14 +165,14 @@ You are asked to provide Qredo with access to your Face ID/Touch ID before enabl
 2.  Confirm your action in the operating system’s message.
 3.  Enable Face ID/Touch ID. Once confirmed, a message shows.    
 
-#### Create 6-Digit Passcode
+#### Create 6-Digit PIN
 
-The screen shows slots for creating your 6 digit passcode.
+The screen shows slots for creating your 6 digit PIN.
 
 ![choosepin](/doc-images/pinchoose.png)
 
-1.  Enter a 6-digit passcode.
-2.  Enter the 6-digit passcode again to verify
+1.  Enter a 6-digit PIN.
+2.  Enter the 6-digit PIN again to verify
 3.  In the confirmation screen, tap **Continue**.
 
 ### Important Notes on the Seed Recovery Phrase
@@ -196,7 +196,7 @@ The phone shows screens to introduce the seed recovery phrase.
 
 3.  Record your seed recovery phrase in a safe place.
 4.  Tap **Next.**    
-5.  Read through the instruction screen to confirm seed recovery. 
+5.  Read through the instruction screen to confirm seed recovery.
 
 ![seedinst](/doc-images/seedinst.png)
 
@@ -204,7 +204,7 @@ The phone shows screens to introduce the seed recovery phrase.
 7. Tap each entry and choose the word that matches the one in the phrase entry you recorded.
 
 ![confirm](/doc-images/confent.png)
-    
+
 When all entries are correct, the screen shows as follows:
 
 ![correct](/doc-images/correctent.png)
@@ -231,7 +231,7 @@ Sign In Steps
 
 3.  To ensure that you do not need to enter your details again the next time you open the web app, observe **Remember Me**.   
 4.  Tap **Sign In**.
-    
+
 Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the mobile app. A message appears.
 
 ![signin](/doc-images/1signinconf.png)
@@ -256,6 +256,3 @@ The screens of the web app includes these buttons for navigating to different se
 | ![Approvals](/doc-images/tick.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
 | ![TrustedNetwork](/doc-images/tick.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |
 | ![Account](/doc-images/initials.png) | The Account view gives you details about your account. You can monitor various areas of your account, such as the account details, plan, and legal documents. |
-
-
- 

@@ -80,7 +80,7 @@ Once authorised, you can double-check details including the fees that are charge
 2.  To authorise, tap **Authorise**.
 3.  To reject, tap **Reject**.
 
-For the authorise or reject action, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+For the authorise or reject action, you sign in with your biometric features and 6-digit PIN, and tap confirm in the confirmation screens.
 
 A transfer transaction can happen if it has met or exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund linked to the transaction.
 
@@ -89,7 +89,7 @@ A transfer transaction can happen if it has met or exceeded the threshold level 
 Approve a Transfer
 ------------------
 
-As the custodian, you receive a notification as soon as the trade initiator has authorised the transfer. The Transfer screen on your phone asks you to approve or reject the transfer. 
+As the custodian, you receive a notification as soon as the trade initiator has authorised the transfer. The Transfer screen on your phone asks you to approve or reject the transfer.
 
 ![ledger](/doc-images/apprtransfer.png)
 
@@ -115,7 +115,7 @@ You can also view other details linked to the transaction under the Show Detail 
 3.  To approve, tap **Approve**.
 4.  To reject, tap **Reject**.
 
-For the approve or reject action, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+For the approve or reject action, you sign in with your biometric features and 6-digit PIN, and tap confirm in the confirmation screens.
 
 ---
 
@@ -158,7 +158,7 @@ You can view the transaction progress of transfers from Qredo in the TX Ledger s
 
 You can view transaction progress in the Ledger view by clicking the Ledger icon.
 
-![Ledger](/doc-images/ledger.png) 
+![Ledger](/doc-images/ledger.png)
 
 TX Ledger shows the following details:
 
