@@ -231,12 +231,14 @@ Once you have signed in to the web app, you are requested by Qredo to authentica
 7. Once you tapped Authorise or Deny, you will see a confirmation screen.
 8. Click Confirm. An Approval Granted or Approval Rejected screen appears.
 
+Once granted, the Holdings page in the web app appears. The Holdings page is set up with a fund, Fund One, containing a deposit address. You can start using the app from Fund One.
+
 ---
 
 Navigation
 ----------
 
-The screens of the web app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
+The Holdings page, and other screens, includes these buttons for navigating to different parts of the app. 
 
 |     |     |
 | --- | --- |
