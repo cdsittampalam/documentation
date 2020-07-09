@@ -50,13 +50,9 @@ The Establish your Qredo Identity screen appears.
 The password must contain:
 
    -  10 characters in total
-
    -  1 uppercase letter
-
    -  1 number
-
    -  1 special character
-
    -  1 lowercase letter    
 
 3. Click **Continue**. The Accept our terms and conditions page appears.
