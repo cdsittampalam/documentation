@@ -75,12 +75,11 @@ As a custodian, you can decide if a withdrawal started by a trade initiator shou
 
 ### Create a New Address
 
-When sending money from Qredo, you choose an existing whitelisted withdrawal address. If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see [Create a Transaction](#create-a-transaction))
+If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address.
 
-If you do not have a withdrawal address, you need to create one before the transaction.
+If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see [Create a Transaction](#create-a-transaction))
 
 You start your action from either the Asset view or Ledger view.
-
 
 #### Steps
 
@@ -88,9 +87,11 @@ You start your action from either the Asset view or Ledger view.
 
 ![startwithdraw](/doc-images/StartWithdrawR.png)
 
-3.  Choose the **Withdraw** option in Select Type.    
-3.  Click **Continue**. The No withdrawal address box shows.    
-4.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows.
+2.  Choose the **Withdraw** option in Select Type.    
+3.  Click **Continue**. The Withdraw screen shows.  
+4.  To set up a withdraw address on the fund, choose a fund from the **Fund** list and click the **Add Withdrawal Address** button.
+5.  To set up a withdraw address on an asset, choose an asset from the **Asset** list and click the the **Add Withdrawal Address** button.
+6.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows.
 
 ![add withdraw](/doc-images/Addwith.png)
 
