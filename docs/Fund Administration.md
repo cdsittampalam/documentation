@@ -161,9 +161,13 @@ From the Summary section in the Holdings page, click the Plus icon or **Create N
 
 ![address](/doc-images/startwiz.png)
 
+The first page of the wizard appears.
+
 ---
 
 ### Basic Details
+
+![create fund](/doc-images/createfund1.png)
 
 Entering name, description, and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that users who are counterparties to a transfer on your Qredo network have access to the asset of the fund. 
 

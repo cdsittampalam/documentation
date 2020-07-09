@@ -74,7 +74,7 @@ When setting a password, choose:
 
 2. Click **Forgotten Password**. The Reset Password screen appears.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/87621886/resetp.png?api=v2)
+![reseet password](/doc-images/resetp.png)
 
 3. Enter your email address in **Email address** and click **Reset password**.
 
@@ -84,7 +84,7 @@ When setting a password, choose:
 
 6. Click **Continue**. The Change Password screen shows.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/87621886/changepwd.png?api=v2)
+![change password](/doc-images/changepwd.png)
 
 7. Type in the password in **Current Password.**
 
@@ -104,6 +104,8 @@ When setting a password, choose:
 
 When the password change is confirmed, you receive an email in your inbox. You are also informed of the update on your phone.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/87621886/password%20updated.png%3Fapi=v2?api=v2)
+image
 
+:::info
 Tapping **Approvals** lets you track previous forgotten password changes.
+:::
