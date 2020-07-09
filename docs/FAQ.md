@@ -22,7 +22,7 @@ To confirm that you made the password change, you receive a request on your mobi
 
 1.  Click the icon to access Account view as in this example.    
 
-![User card](/doc-images/usercard.png)
+![User card](/doc-images/usercard1.png)
 
 2. From the displayed account card, click **User Settings**. The User Details screen shows your name, email address, and hashed-out password.
 
