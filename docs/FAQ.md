@@ -2,8 +2,7 @@
 id: FAQ
 ---
 
-Change my Password
-------------------
+### Change my Password
 
 To safeguard your data, you can change your Qredo web app password at any time.
 
@@ -29,7 +28,7 @@ To confirm that you made the password change, you receive a request on your mobi
 
 3. Click **Change password**. The Change Password screen shows.
 
-![change password](/doc-images/changepwd)
+![change password](/doc-images/changepwd.png)
 
 4. Type in your existing password in **Current Password**.
 
