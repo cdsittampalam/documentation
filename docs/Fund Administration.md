@@ -161,7 +161,7 @@ From the Summary section in the Holdings page, click the Plus icon or **Create N
 
 ![address](/doc-images/startwiz.png)
 
-The first page of the wizard appears.
+The first page of the wizard appears covering basic details.
 
 ---
 
@@ -175,16 +175,24 @@ Entering name, description, and a theme enables your fund to be identified on th
 2.  Enter details to describe the fund in **Description.**
 3.  Choose a theme that shows the fund in the Summary section of the Holdings page.
 4.  Select an asset from **Assets.**
-5.  Click **Continue**.
+5.  Click **Continue**. 
+
+The second page of the wizard shows covering membership and permissions. 
 
 #### Membership and Permissions
+
+![create fund](/doc-images/memship.png)
 
 1.  Read the notice on membership and permissions. This indicates that only one member is available for the fund, and that further enhancements are coming soon.
 2.  Observe your name as the fund member and click **Continue.**
 
+The third page of the wizard shows covering transfer policy custodians. 
+
 ---    
 
 ### Transfer Policy Custodians
+
+![create fund](/doc-images/createfund3.png)
 
 1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](/docs/Invite%20Trusted%20Parties)).  Click **Continue**.
 3.  In the **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
