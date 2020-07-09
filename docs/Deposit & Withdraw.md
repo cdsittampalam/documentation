@@ -89,14 +89,13 @@ You start your action from either the Asset view or Ledger view.
 
 2.  Choose the **Withdraw** option in Select Type.    
 3.  Click **Continue**. The Withdraw screen shows.  
-4.  To set up a withdraw address on the fund, choose a fund from the **Fund** list and click the **Add Withdrawal Address** button.
-5.  To set up a withdraw address on an asset, choose an asset from the **Asset** list and click the the **Add Withdrawal Address** button.
-6.  Click **Add Withdrawal Address**. The Add Withdrawal Address screen shows.
+4.  To set up a withdraw address on the fund, choose a fund from the **Fund** list and click the **Add Withdrawal Address** button. The Add Withdrawal Address screen shows.
 
-![add withdraw](/doc-images/Addwith.png)
+![add withdrawal add](/doc-images/StartWithdrawR.png)
 
-5.  Select the fund that you want to add the address to in **Source Fund**.    
-6.  Choose the asset type in **Asset**.    
+5.  To set up a withdraw address on an asset, choose an asset from the **Asset** list and click the **Add Withdrawal Address** button. The same screen appears.
+6.  In the Add Withdrawal Address screen, select the fund that you want to add the address to in **Source Fund**.    
+7.  Choose the asset type in **Asset**.    
 7.  Enter a name for the wallet in **Wallet Name**.    
 8.  Type in the wallet address in **Wallet Address**.    
 9.  Click **Continue**. See Authorise an Address (Trade Initiator) below.
