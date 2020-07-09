@@ -192,7 +192,7 @@ The third page of the wizard shows covering transfer policy custodians.
 
 ### Transfer Policy Custodians
 
-![create fund](/doc-images/createfund3.png)
+![createfund3](/doc-images/createfund3.png)
 
 1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](/docs/Invite%20Trusted%20Parties)).  Click **Continue**.
 3.  In the **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
