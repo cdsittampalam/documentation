@@ -18,6 +18,8 @@ Details on your account is accessed from the Account icon that contains your own
 Show Account Settings
 ---------------------
 
+The web app shows summary information of your account in a pop-up card view. From the account card, you can access the Settings page.
+
 1. Click the Account icon. Your account card appears.
 
 ![Account](/doc-images/accountcard1.png)
