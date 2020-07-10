@@ -369,10 +369,16 @@ For both Approval and Ledger view, you can view a summary screen that holds deta
 * Green header for approved transactions.
 * Red for rejected transactions.
 
-The following shows an example:
+The following shows an example summary status of a completed transaction:
+
+![Transfer Complete](/doc-images/Transfercomp.png)
 
 1. Click the Ledger or Approval view icon.
 2. In Approval view, access the Transaction or Custody tab and click the three buttons at the end of a table row.
 3. In Transaction view, click the three buttons at the end of a table row.
+
+:::info
+Clicking the downward arrow in the screen shows more details of the transaction, such as the amount of the asset and the fund.
+:::
 
 
