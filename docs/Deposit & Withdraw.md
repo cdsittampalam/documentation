@@ -243,13 +243,18 @@ You can view approvals from the Approval view, which appears by clicking the App
 
 ![tick](/doc-images/tick.png)
 
+These include details of:
+
+* withdrawal address approvals
+* transactions approvals that cover those from the trade initiator and one or more custodians.
+* custodian approvals specifically for the fund of the transaction
 
 #### Address Approvals
 
 1.  Click the **Addresses** tab,    
 2.  Click the **Pending** or **Actioned** sub-tabs.
 
-The Pending sub tab shows pending approvals.
+The Pending sub tab shows these fields and pending approvals.
 
 |     |     |
 | --- | --- |
@@ -278,7 +283,7 @@ The following is an example entry showing a pending approval with the status of 
 1.  Click the **Transactions** tab,   
 2.  Click the **Pending** or **Actioned** tabs.
 
-The pending tab shows pending approvals.
+The pending tab shows these fields and pending approvals.
 
 |     |     |
 | --- | --- |
@@ -290,7 +295,7 @@ The pending tab shows pending approvals.
 | ACTIONED | The date and time in which the transaction was created. |
 
 
-The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
+The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the transaction approval was actioned. There are two states in the ACTIONED column. These include:
 
 *   APPROVED   
 *   REJECTED
@@ -299,11 +304,39 @@ The following is an example actioned entry in the Approval view with the status 
 
 ![Transaction Approval](/doc-images/trapr.png)
 
+---
+
+### Custodian Approvals
+
+1.  Click the **Custody** tab,    
+2.  Click the **Pending** or **Actioned** sub-tabs.
+
+The pending tab shows these fields and pending approvals.
+
+|     |     |
+| --- | --- |
+| **Column** | **Description** |
+| ITEM | The transaction or withdrawal item. |
+| REQUESTED BY | The trade initiator that requested custodian approval. |
+| REQUESTED | The time and date in which the custodian approval was actioned. |
+| STATUS | The status shows as “Awaiting Approval”. |
+
+The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the custodian approval was actioned. There are two states in the ACTIONED column. These include:
+
+*   APPROVED   
+*   REJECTED
+*   EXPIRED
+
+The following is an example actioned entry in the Approval view with the status of APPROVED:
+
+![Transaction Approval](/doc-images/cusappr.png)
+
+
 ### Transactions
 
-Transactions are presented in Ledger view which shows transactions for all funds.
+Transactions are presented in Ledger view which shows transactions for all funds, both those that are pending and those that have been written to the blockchain.
 
-You can view the transaction progress in the Ledger view by clicking the Ledger icon
+You can view the transaction progress in the Ledger view by clicking the Ledger icon,
 
 ![Ledger](/doc-images/ledger.png)
 
