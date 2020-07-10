@@ -11,6 +11,13 @@ Any type of user can create funds in order to manage assets. The following are e
 *   **Custody Provider** A custody provider can create a fund and seek other financial stakeholders to approve or reject transactions.
 *   **Traders** Traders can create transactions once they have created the funds.
 
+This page consists of the following sections 
+
+* Holdings page
+* Fund One
+* Change the default setting of a fund
+* Fund wizard
+
 ---
 
 Holdings Page
