@@ -309,7 +309,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 ---
 
-### Custodian Approvals
+#### Custodian Approvals
 
 1.  Click the **Custody** tab,    
 2.  Click the **Pending** or **Actioned** sub-tabs.
@@ -335,7 +335,7 @@ The following is an example actioned entry in the Approval view with the status 
 ![Transaction Approval](/doc-images/cusappr.png)
 
 
-### Transactions
+#### Transaction View (Ledger)
 
 Transactions are presented in Ledger view which shows transactions for all funds, both those that are pending and those that have been written to the blockchain.
 
@@ -365,7 +365,7 @@ The following shows an example transaction ledger with the status set to AWAITIN
 
 ![Transaction Approval](/doc-images/outTX1.png)
 
-### Progress Details
+#### Progress Details
 
 For both Approval and Ledger view, you can view a summary screen that holds details of the progress of a single transaction. Each type of summary screen header has a particular colour outlined as follows:
 
