@@ -11,9 +11,9 @@ For a withdrawal transaction, you send money out of a fund on Qredo to an extern
 When recorded on the Qredo blockchain, a transaction is always linked to the underlying blockchain. 
 :::
 
-This page includes the following sections:
-- [Deposit Money]()
-- [Withdraw Money]() 
+This page includes the following main sections:
+- [Deposit Money](#deposit-money)
+- [Withdraw Money](#withdraw-money) 
 
 Deposit Money
 -------------
