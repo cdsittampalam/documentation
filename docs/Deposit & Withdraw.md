@@ -264,12 +264,12 @@ The Pending sub tab shows pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   AUTHORISED   
-*   IGNORED
+*   APPROVED   
+*   REJECTED
 
-The following is an example entry showing a pending approval with the status of AWAITING AUTHORISATION:
+The following is an example entry showing a pending approval with the status of APPROVED:
 
-![Address Approval](/doc-images/addressappr1.png)
+![Address Approval](/doc-images/addressappr2.png)
 
 ---
 
