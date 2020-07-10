@@ -11,7 +11,7 @@ This page shows:
 - [Phone setup steps](#phone-steps)
 - [Sign in steps](#sign-in-steps)
 
-The [Navigation](#navigation)section shows you the main sections of the web app for launching your tasks.
+The [Navigation](#navigation) section shows you the main sections of the web app for launching your tasks.
 
 Web App Steps
 -------------
