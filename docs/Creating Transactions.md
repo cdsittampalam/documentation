@@ -19,10 +19,10 @@ As a custodian, you can decide if a transfer started by a trade initiator should
 For approving a transfer (see [Approve a Transfer](#approve-a-transfer)).
 
 This page includes the following sections:
-- [Create Transfer]()
-- [Authorise Transfer]
-- [Approve Transfer]
-- [Track progress]
+- [Create Transfer](#create-transfer)
+- [Authorise Transfer](#authorise-transfer)
+- [Approve Transfer](#approve-transfer)
+- [Track progress](#track-progress)
 
 Create Transfer
 ---------------
