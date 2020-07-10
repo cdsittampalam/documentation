@@ -79,17 +79,17 @@ You can download the full terms and conditions if you need to distribute and pri
 2.  To view the terms and conditions as a PDF file in another browser page or tab, click **Copy Link**.
 3.  Tick the box and click **Accept & Continue**. The Validate your email address screen shows.
 
-![validate email](/doc-images/valemail.png)
-
 ### Validate Email Address
+
+![validate email](/doc-images/valemail.png)
 
 You would have received an email from Qredo containing an evaluation code.
 
 Type in the code in **Email address validation code**. The page for downloading the mobile app shows.
 
-![download](/doc-images/download.png)
-
 ### Download Phone App
+
+![download](/doc-images/download.png)
 
 An SMS is sent to your phone that contains a link to the mobile app on the app store. The SMS should arrive promptly.
 
