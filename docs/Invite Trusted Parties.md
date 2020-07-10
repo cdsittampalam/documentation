@@ -16,9 +16,9 @@ You can access the Trusted Network screen by clicking the Trusted Network icon:
 ![Trusted Network Button](/doc-images/button-trustednetwork.png)
 
 The summary of steps are as follows:
-- [Send Email Invite]()
-- [Manage Invite List]()
-- [Custodian Approvals]()
+- [Send Email Invite](#send-email-invite)
+- [Manage Invite List](#manage-invite-list)
+- [Custodian Approvals](#custodian-approvals)
 
 Send Email Invite
 -----------------
