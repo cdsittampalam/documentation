@@ -19,7 +19,6 @@ fund that you create is linked to a deposit address. The address is securely cre
 
 You are notified when money arrives at your address via an email.
 
-
 ## View Deposit Addresses
 
 You view deposit addresses from Asset view by clicking either the Asset icon:
@@ -361,3 +360,19 @@ If the custodians have approved the transaction, the status is set to COMPLETE. 
 The following shows an example transaction ledger with the status set to AWAITING AUTHORISATION.
 
 ![Transaction Approval](/doc-images/outTX1.png)
+
+### Progress Details
+
+For both Approval and Ledger view, you can view a summary screen that holds details of the progress of a single transaction. Each type of summary screen header has a particular colour outlined as follows:
+
+* Black and white header for transactions that are waiting.
+* Green header for approved transactions.
+* Red for rejected transactions.
+
+The following shows an example:
+
+1. Click the Ledger or Approval view icon.
+2. In Approval view, access the Transaction or Custody tab and click the three buttons at the end of a table row.
+3. In Transaction view, click the three buttons at the end of a table row.
+
+
