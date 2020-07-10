@@ -22,7 +22,7 @@ The web app shows summary information of your account in a pop-up card view. Fro
 
 1. Click the Account icon. Your account card appears.
 
-![Account](/doc-images/accountcard1.png)
+![Account](/doc-images/acctcard.png)
 
 2. Click the button to display account details. The Settings page appears.
 2. In the Settings page, click the various tabs for the different sections of the page.
