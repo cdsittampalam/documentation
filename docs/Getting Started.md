@@ -22,15 +22,14 @@ You start the process of registering with Qredo from the web app.
 
 1.  Click **Join Qredo**. A lobby page shows an introductory video on Qredo and links to FAQs.    
 
-![Page2](/doc-images/page2.png)
-
 2. Click **Continue**.
 
 The Establish your Qredo Identity screen appears.
 
-![Identity](/doc-images/identQredo.png)
 
 ### Establish Qredo Identity
+
+![Establish Identity](/doc-images/EstabIdentity.png)
 
 1. Enter your details in:
 
