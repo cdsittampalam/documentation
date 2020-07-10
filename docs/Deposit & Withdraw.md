@@ -76,7 +76,7 @@ Qredo charges fees to withdraw, which includes the Blockchain miner's fee, The f
 
 As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the withdrawal custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the withdrawal policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
 
-### Create a New Address
+### Create New Address
 
 If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address.
 
@@ -105,7 +105,7 @@ You start your action from either the Asset view or Ledger view.
 
 ---
 
-#### Authorise an Address (Trade Initiator)
+#### Authorise Address (Trade Initiator)
 
 As the initiator of the withdrawal, you confirm your decision by authorising using the phone app.
 
@@ -132,7 +132,7 @@ For the action you select, you then sign in with your biometric features and 6-d
 
 ---
 
-### Create a Transaction
+### Create Transaction
 
 For withdrawing money, the Qredo app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination cryptocurrency address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal.
 
@@ -159,7 +159,7 @@ In the same way as a withdrawal address, you start your action from the Asset vi
 
 ---
 
-#### Review the Withdrawal
+#### Review Withdrawal
 
 In the **Review Withdrawal** screen, you can see details of the withdrawal transaction.
 
@@ -188,7 +188,7 @@ Once authorised, the custodian can also approve or reject the transaction.
 
 ---
 
-#### Authorise the Withdrawal
+#### Authorise Withdrawal
 
 Before authorising, you can view its details including the fees that are charged on the transaction.
 
@@ -203,7 +203,7 @@ A withdrawal transaction can only be sent out of Qredo if it has met or has exce
 
 ---
 
-#### Approve a Withdrawal
+#### Approve Withdrawal
 
 You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal screen on your phone asks you to approve or reject the new transaction. The screen also shows the following information:
 
