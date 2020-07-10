@@ -14,9 +14,9 @@ Any type of user can create funds in order to manage assets. The following are e
 This page consists of the following sections:
 
 * [Holdings page](#holdings-page)
-* [Fund One](#view-fund-one)
-* [Change the default setting of a fund](#change-default-settings)
-* [Fund wizard](#create-a-fund-wizard)
+* [View Fund One](#view-fund-one)
+* [Change Default Settings](#change-default-settings)
+* [Create a Fund wizard](#create-a-fund-wizard)
 
 ---
 
