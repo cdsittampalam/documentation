@@ -103,9 +103,6 @@ already happened in the past and have been approved.
 If you use a default fund, you can also set up multiple withdrawal addresses.
 
 1.  Click on details of the asset under the Fund One entry.
-
-![address](/doc-images/holdon.png)
-
 2. Click **Transactions** to view the transactions.
 3. Click **Addresses** and the respective subtabs for deposits and withdrawals.
 
