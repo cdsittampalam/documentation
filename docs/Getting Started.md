@@ -44,9 +44,9 @@ The Establish your Qredo Identity screen appears.
 2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo network alias must not contain special characters.
 3. Click **Continue**. The Set a strong password screen appears.
 
-![passwd](/doc-images/passwd.png)
-
 ### Set Password
+
+![passwd](/doc-images/passwd.png)
 
 1.  Enter a strong password in **Set password.**    
 2.  Confirm the password again in **Confirm password.**
@@ -61,9 +61,9 @@ The password must contain:
 
 3. Click **Continue**. The Accept our terms and conditions page appears.
 
-![t+c](/doc-images/t+c.png)
-
 ### Accept Terms and Conditions
+
+![t+c](/doc-images/t+c.png)
 
 1. Read the terms and conditions on this page around GDPR compliance and data privacy.
 2. To move to the next screen, tick the box and click **Accept & Continue** (see [Validate email address](#validate-email-address).
