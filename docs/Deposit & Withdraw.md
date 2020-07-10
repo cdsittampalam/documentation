@@ -8,8 +8,12 @@ For a deposit transaction, users can add money to a whitelisted cryptocurrency a
 For a withdrawal transaction, you send money out of a fund on Qredo to an external cryptocurrency address. When sent to a whitelisted address, the money is no longer subject to the custody policies and ownership rights of the Qredo network. Qredo gives you the flexibility of adding money back on to the network at a later point in time.
 
 :::info
-When recorded on the Qredo blockchain, a transaction is always linked to the underlying blockchain. Money never leaves the underlying chain.
+When recorded on the Qredo blockchain, a transaction is always linked to the underlying blockchain. 
 :::
+
+This page includes the following sections:
+- [Deposit Money]()
+- [Withdraw Money]() 
 
 Deposit Money
 -------------
@@ -19,7 +23,7 @@ fund that you create is linked to a deposit address. The address is securely cre
 
 You are notified when money arrives at your address via an email.
 
-## View Deposit Addresses
+### View Deposit Addresses
 
 You view deposit addresses from Asset view by clicking either the Asset icon:
 
