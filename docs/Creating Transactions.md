@@ -20,8 +20,8 @@ For approving a transfer (see [Approve a Transfer](#approve-a-transfer)).
 
 This page includes the following sections:
 - [Create Transfer]()
-- [Authorise a Transfer]
-- [Approve the Transfer]
+- [Authorise Transfer]
+- [Approve Transfer]
 - [Track progress]
 
 Create Transfer
@@ -84,7 +84,7 @@ These include:
 
 ---
 
-### Start the Transfer
+### Start Transfer
 
 1. To see details of fees, click the question mark icon.
 2. To start the transfer, click **Initiate Transfer**. You are then prompted to check your phone app.
@@ -94,7 +94,7 @@ When a counterparty receives money, they will receive an email notification of t
 
 ---
 
-Authorise the Transfer
+Authorise Transfer
 ----------------------
 
 Once authorised, you can double-check details including the fees that are charged on the transaction.
@@ -111,7 +111,7 @@ A transfer transaction can happen if it has met or exceeded the threshold level 
 
 ---
 
-Approve the Transfer
+Approve Transfer
 --------------------
 
 As the custodian, you receive a notification as soon as the trade initiator has authorised the transfer. The Transfer screen on your phone asks you to approve or reject the transfer.
