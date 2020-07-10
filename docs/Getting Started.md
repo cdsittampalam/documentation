@@ -46,8 +46,6 @@ The Establish your Qredo Identity screen appears.
 
 ### Set Password
 
-![passwd](/doc-images/passwd.png)
-
 1.  Enter a strong password in **Set password.**    
 2.  Confirm the password again in **Confirm password.**
 
@@ -72,8 +70,6 @@ The password must contain:
 ### View Full Terms and Conditions
 
 You can download the full terms and conditions if you need to distribute and print the document for other parties.
-
-![accept](/doc-images/accept.png)
 
 1.  To download the terms and conditions, click **Download**.
 2.  To view the terms and conditions as a PDF file in another browser page or tab, click **Copy Link**.
