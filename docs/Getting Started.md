@@ -7,11 +7,11 @@ The Join section of the website lets you get started for joining the Qredo netwo
 ![Page1](/doc-images/page1.png)
 
 This page shows:
-- Web app steps
-- Phone setup steps
-- Sign in steps
+- [Web app steps](#web-app-steps)
+- [Phone setup steps](#phone-steps)
+- [Sign in steps](#sign-in-steps)
 
-The Navigation section shows you the main sections of the web app for launching your tasks.
+The [Navigation](#navigation)section shows you the main sections of the web app for launching your tasks.
 
 Web App Steps
 -------------
