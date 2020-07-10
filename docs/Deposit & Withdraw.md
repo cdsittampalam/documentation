@@ -258,7 +258,7 @@ The Pending sub tab shows pending approvals.
 | FUND | Name of the fund. |
 | ASSET | Type of asset, e.g., Bitcoin. |
 | ADDRESS | Address that has been created. |
-| ACTIONED | Date and time in which the approval request was sent. |
+| REQUESTED | Date and time in which the approval request was sent. |
 | STATUS | Status of the approval as “awaiting confirmation”. |
 
 
