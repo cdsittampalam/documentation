@@ -110,7 +110,7 @@ When you use Fund One, you will be able to view a list of transactions with the 
 already happened in the past and have been approved. The balances you see can help you decide on moving money via withdrawal and transactions.
 
 :::info
-For details on setting up transactions, refer to [Deposit & Withdraw](/docs/Deposit%20&%20Withdraw) and [Creating Transactions](/docs/Creating%20Transactions).
+For details on moving money, refer to [Deposit & Withdraw](/docs/Deposit%20&%20Withdraw) and [Creating Transactions](/docs/Creating%20Transactions).
 :::
 
 ![Transaction view](/doc-images/AllTransactions2.png)
