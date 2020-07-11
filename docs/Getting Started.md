@@ -141,11 +141,11 @@ The web app indicates that the phone has been paired.
 
 ![QR](/doc-images/comppairing.png)
 
-abc
 
-![2](/doc-images/comppairing1.png)
 
 ### Master Seed Steps
+
+![2](/doc-images/comppairing1.png)
 
 Once you have completed pairing, you are ready to create your master seed. The master seed is a security feature that bonds your Qredo identify with your phone. It is stored on your device’s secure enclave. To ensure that the master seed is backed up, it is registered on the Qredo network.
 
