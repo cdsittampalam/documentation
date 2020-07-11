@@ -76,7 +76,7 @@ The summary section has basic information on the fund:
 
 ### Membership & Permissions
 
-The Membership & Permissions section shows your name as a fund member with the permission of owner. The permission of owner means that you have control over the assets and the custody policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, and perform the operations of withdrawal and transfer. The fund automatically includes a deposit address for receiving funds.
+The Membership & Permissions section shows your name as a fund member with the permission of owner. The permission of owner means that you have control over the assets and the custody policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, view and use deposit addresses, and perform the operations of withdrawal and transfer. The fund automatically includes a deposit address for receiving funds.
 
 ![fundmembership](/doc-images/fundperms.png)
 
@@ -107,7 +107,7 @@ When you create a fund, you can assign any number of custodians for withdrawals 
 ### Transactions & Addresses
 
 When you use Fund One, you will be able to view a list of transactions with the deposit and withdrawal addresses for each transaction. These transactions have
-already happened in the past and have been approved.
+already happened in the past and have been approved. The balances you see can help you decide on moving money via withdrawal and transactions.
 
 ![Transaction view](/doc-images/AllTransactions2.png)
 
@@ -141,7 +141,7 @@ and Fund One now contains Bitcoin.
 Create a Fund Wizard
 --------------------
 
-The Create a Fund wizard takes you through the steps for creating a fund. Each fund you create can have the same or different asset depending on your needs. You can also set the same or different custodians for withdrawal and transfer policies. 
+The Create a Fund wizard takes you through the steps for creating a fund. Each fund you create consists of assets. You can also set the same or different custodians for withdrawal and transfer policies. 
 
 When you select custodians, you can also choose the Threshold level. A Threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3, needs fewer signatures for a transaction to take place.  
 
