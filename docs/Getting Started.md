@@ -141,7 +141,7 @@ The web app indicates that the phone has been paired.
 
 ![QR](/doc-images/comppairing.png)
 
-![QR2](/doc-images/comppairing1.png)
+![2](/doc-images/comppairing1.png)
 
 ### Master Seed Steps
 
