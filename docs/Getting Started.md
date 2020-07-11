@@ -143,8 +143,6 @@ The web app indicates that the phone has been paired.
 
 ### Master Seed Steps
 
-![pair](/doc-images/comppairing2.png)
-
 Once you have completed pairing, you are ready to create your master seed. The master seed is a security feature that bonds your Qredo identify with your phone. It is stored on your device’s secure enclave. To ensure that the master seed is backed up, it is registered on the Qredo network.
 
 If in the unlikely event that data is lost, you will need to recover your master seed through your seed recovery phrase. The seed recovery phrase, consisting of a unique 24-word combination, is different to a common password, which you may be more likely to forget or lose.
@@ -210,8 +208,6 @@ When all entries are correct, the screen shows as follows:
 ### Completion
 
 Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the mobile app.
-
-![end](/doc-images/end.png)
 
 You are now ready to sign in for the first time.
 
