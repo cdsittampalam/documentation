@@ -109,6 +109,10 @@ When you create a fund, you can assign any number of custodians for withdrawals 
 When you use Fund One, you will be able to view a list of transactions with the deposit and withdrawal addresses for each transaction. These transactions have
 already happened in the past and have been approved. The balances you see can help you decide on moving money via withdrawal and transactions.
 
+:::info
+For details on setting up transactions, refer to [Deposit & Withdraw](/docs/Deposit%20&%20Withdraw) and [Creating Transactions](/docs/Creating%20Transactions).
+:::
+
 ![Transaction view](/doc-images/AllTransactions2.png)
 
 If you use a default fund, you can also set up multiple withdrawal addresses.
