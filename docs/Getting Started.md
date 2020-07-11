@@ -141,6 +141,8 @@ The web app indicates that the phone has been paired.
 
 ![QR](/doc-images/comppairing.png)
 
+abc
+
 ![2](/doc-images/comppairing1.png)
 
 ### Master Seed Steps
