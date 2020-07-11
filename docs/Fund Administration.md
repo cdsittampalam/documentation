@@ -113,7 +113,7 @@ already happened in the past and have been approved. The balances you see can he
 
 If you use a default fund, you can also set up multiple withdrawal addresses.
 
-1.  Click on details of the asset under the Fund One entry.
+1. Click on details of the asset under the Fund One entry.
 2. Click **Transactions** to view the transactions.
 3. Click **Addresses** and the respective subtabs for deposits and withdrawals.
 
