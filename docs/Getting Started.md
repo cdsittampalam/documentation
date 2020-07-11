@@ -91,7 +91,7 @@ An SMS is sent to your phone that contains a link to the mobile app on the app s
 
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
 
-![splash](/doc-images/splash.png)
+![splash](/doc-images/splash3.png)
 
 1. If the SMS has not arrived, click on the resend button on the browser app page. The button shows a time limit for resending the SMS.
 2. Click **Continue**.
@@ -140,6 +140,8 @@ You scan a QR-code on the web app through your phone’s camera, which pairs the
 The web app indicates that the phone has been paired.
 
 ![QR](/doc-images/comppairing.png)
+
+![QR2](/doc-images/comppairing1.png)
 
 ### Master Seed Steps
 
