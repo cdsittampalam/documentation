@@ -205,7 +205,7 @@ To allow external blockchains to have a record of a settlement transaction, the 
 
 A crystallisation process (see section below) is also performed on Qredo blockchain to build an unsigned transaction.
 
-CrystalliSation
+Crystallisation
 ---------------
 
 At the end of every transaction is the crystallisation process to ensure that the amounts in each wallet are correct for all Qredo users. To ensure solvency for the system, the process also proves that all coins locked onto the Qredo blockchain system are spendable.
