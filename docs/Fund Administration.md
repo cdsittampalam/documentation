@@ -20,8 +20,6 @@ The main sections and steps in this page are as follows:
 * [Change Default Settings](#change-default-settings)
 * [Create a Fund wizard](#create-a-fund-wizard)
 
----
-
 Holdings Page
 -----------------
 
@@ -49,8 +47,6 @@ You can choose the following options from the page:
 *   **Change Default Settings:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Settings](#change-default-settings)).
 *   **Create a Fund:** If you are familiar with the concepts of a Qredo fund and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
 
----
-
 View Fund One
 -------------
 
@@ -72,15 +68,11 @@ The summary section has basic information on the fund:
 
 ![summary](/doc-images/4Summaryinfo.png)
 
----
-
 ### Membership & Permissions
 
 The Membership & Permissions section shows your name as a fund member with the permission of owner. The permission of owner means that you have control over the assets and the custody policies of the fund. As the fund member, you can set custody policies to withdraw and transfer funds, view and use deposit addresses, and perform the operations of withdrawal and transfer. The fund automatically includes a deposit address for receiving funds.
 
 ![fundmembership](/doc-images/fundperms.png)
-
----
 
 ### Custody
 
@@ -102,8 +94,6 @@ When you create a fund, you can assign any number of custodians for withdrawals 
 
 ![custody fund](/doc-images/Custodyinfo3.png)
 
----
-
 ### Transactions & Addresses
 
 When you use Fund One, you will be able to view a list of transactions with the deposit and withdrawal addresses for each transaction. These transactions have
@@ -120,8 +110,6 @@ If you use a default fund, you can also set up multiple withdrawal addresses.
 1. Click on details of the asset under the Fund One entry.
 2. Click **Transactions** to view the transactions.
 3. Click **Addresses** and the respective subtabs for deposits and withdrawals.
-
----
 
 Change Default Settings
 -----------------------
@@ -140,8 +128,6 @@ Future versions of Qredo will have other currencies available in funds.
 and Fund One now contains Bitcoin.
 4. Click **Done** after the confirmation message.
 
----
-
 Create a Fund Wizard
 --------------------
 
@@ -157,13 +143,9 @@ In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However
 
 ![Fund A](/doc-images/ManagingFundA.png)
 
----
-
 ### Custody Providers
 
 As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and threshold levels. 
-
----
 
 ### Start Wizard
 
@@ -172,8 +154,6 @@ From the Summary section in the Holdings page, click the Plus icon or **Create N
 ![address](/doc-images/startwiz.png)
 
 The first page of the wizard appears covering basic details.
-
----
 
 ### Basic Details
 
@@ -198,8 +178,6 @@ The second page of the wizard shows covering membership and permissions.
 
 The third page of the wizard shows covering transfer policy custodians. 
 
----    
-
 ### Transfer Policy Custodians
 
 ![3createfund](/doc-images/fund3create.png)
@@ -209,8 +187,6 @@ The third page of the wizard shows covering transfer policy custodians.
 4.  For each custodian, choose a threshold in the **Threshold** list.
 5.  Click **Continue**.
 
----   
-
 ### Withdrawal Policy Custodians
 
 1.  Observe the notice indicating that a custodian must exist from the trusted network (see [Invite Trusted Parties](/docs/Invite%20Trusted%20Parties)).
@@ -219,8 +195,6 @@ The third page of the wizard shows covering transfer policy custodians.
 4.  In **Add custodians**, enter and pick a custodian from the list using name, email address, or Network Alias.
 5.  For each custodian, choose a threshold in the **Threshold** list.
 6.  Click **Continue**.
-
----
 
 ### Review Details
 
