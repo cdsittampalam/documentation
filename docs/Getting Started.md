@@ -116,8 +116,6 @@ Once you have set up the mobile app with the master seed, you can sign in for th
 
 For more details, see [Sign In Steps](#sign-in)
 
-----
-
 Phone Steps
 -----------
 
@@ -213,8 +211,6 @@ You are now ready to sign in for the first time.
 
 Signing in for the first time allows you to use the apps for managing funds and transactions.
 
----
-
 Sign In Steps
 -------------
 
@@ -240,8 +236,6 @@ Once granted, the Holdings page in the web app appears. The Holdings page is set
 ![fundone](/doc-images/FundOnedefault.png)
 
 See [Fund Administration](/docs/Fund%20Administration) for more details on funds. 
-
----
 
 Navigation
 ----------
