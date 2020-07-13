@@ -53,8 +53,6 @@ You start your action from the Asset view or Ledger view by clicking either:
 9. To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
 10. Click **Review Transfer**.
 
----
-
 ### Review Transfer
 
 In the **Review Transfer** screen, you can see details of the transfer transaction.
@@ -81,8 +79,6 @@ These include:
      * Beneficiary details  
      * Account number     
 
----
-
 ### Start Transfer
 
 1. To see details of fees, click the question mark icon.
@@ -90,8 +86,6 @@ These include:
 3. To return to the previous screen, click **Back**.
 
 When a counterparty receives money, they will receive an email notification of the transaction.
-
----
 
 Authorise Transfer
 ----------------------
@@ -107,8 +101,6 @@ Once authorised, you can double-check details including the fees that are charge
 For the authorise or reject action, you sign in with your biometric features and 6-digit PIN, and tap confirm in the confirmation screens.
 
 A transfer transaction can happen if it has met or exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund linked to the transaction.
-
----
 
 Approve Transfer
 --------------------
@@ -141,8 +133,6 @@ You can also view other details linked to the transaction under the Show Detail 
 
 For the approve or reject action, you sign in with your biometric features and 6-digit PIN, and tap confirm in the confirmation screens.
 
----
-
 Track Progress
 --------------
 
@@ -151,8 +141,6 @@ As the trade initiator, you can check the progress of custodian approval for the
 You can view approvals from the Approval view by clicking the Approvals icon:
 
 ![tick](/doc-images/tick.png)
-
----
 
 ### Transaction Approvals
 
