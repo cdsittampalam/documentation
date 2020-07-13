@@ -2,7 +2,7 @@
 id: Security & Cryptography
 ---
 
-The Qredo network includes a secure architecture that allows transaction data to remain on the Qredo blockchain, and be handled 24 by 7. Cryptography, running behind-the-scenes, ensures that all data is kept hidden, and reduces the likelihood of attacks to impossible odds.
+The Qredo Network includes a secure architecture that allows transaction data to remain on the Qredo blockchain, and be handled 24 by 7. Cryptography, running behind-the-scenes, ensures that all data is kept hidden, and reduces the likelihood of attacks to impossible odds.
 
 This page describes:
 
@@ -14,7 +14,7 @@ This page describes:
 Data Centre Security
 --------------------
 
-The physical Qredo network is distributed where devices are stored in six Tier-4 data centres. The data centres are based in global financial capitals of Hong Kong, Tokyo, Singapore, London, Chicago, and New York. Tier-4 data centres deliver redundancy for all computing equipment to ensure maximum security.
+The physical Qredo Network is distributed where devices are stored in six Tier-4 data centres. The data centres are based in global financial capitals of Hong Kong, Tokyo, Singapore, London, Chicago, and New York. Tier-4 data centres deliver redundancy for all computing equipment to ensure maximum security.
 
 ### Data Centre Components
 
@@ -36,7 +36,7 @@ MPC Protocol
 
 The MPC (Multiparty Computation) protocol is based on MPC cryptography. The protocol is applied on a set of MPC nodes that work together to generate a signed public key and a public wallet address. Through its use of mathematics in a unique way, the MPC removes the need to sign transactions with a private key. Instead, the protocol uses its own aggregated signatures for the signing. This removal takes away the risk of private key theft.
 
-The MPC protocol runs when generating a wallet address for money coming in to the Qredo network. The protocol also runs when creating an address to accept the change from a settlement. In both cases, the transactions are signed.
+The MPC protocol runs when generating a wallet address for money coming in to the Qredo Network. The protocol also runs when creating an address to accept the change from a settlement. In both cases, the transactions are signed.
 
 ### MPC Communication Flow
 
@@ -76,11 +76,11 @@ SECP256K1 is the discrete elliptic curve group used in Bitcoin's implementation
 BLS Signature Scheme
 --------------------
 
-To determine asset ownership and governance on the Qredo blockchain, the Qredo network uses the BLS (Boneh–Lynn–Shacham) signature scheme. For example, each time a custodian approves a transfer, a BLS signature is generated. BLS allows the sharing of public keys as well as the aggregation of signatures that is required to apply the consensus rules in Qredo. The signature scheme provides a highly efficient way of aggregation over other signature aggregation methods.
+To determine asset ownership and governance on the Qredo blockchain, the Qredo Network uses the BLS (Boneh–Lynn–Shacham) signature scheme. For example, each time a custodian approves a transfer, a BLS signature is generated. BLS allows the sharing of public keys as well as the aggregation of signatures that is required to apply the consensus rules in Qredo. The signature scheme provides a highly efficient way of aggregation over other signature aggregation methods.
 
 ### Key Generation
 
-BLS public and private key pairs are generated when an IDDoc is created for a user who joins the Qredo network. A seed value, stored in the secure enclave of a secure hardware appliance, generates a private and public key pair.
+BLS public and private key pairs are generated when an IDDoc is created for a user who joins the Qredo Network. A seed value, stored in the secure enclave of a secure hardware appliance, generates a private and public key pair.
 
 ### BLS Encryption Method
 
