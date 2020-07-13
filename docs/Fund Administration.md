@@ -23,7 +23,7 @@ The main sections and steps in this page are as follows:
 Holdings Page
 -----------------
 
-The Holdings page lists the funds under your account. These include one or more default funds, and any funds you have created. For each fund, you can have a complete view of the transactions, addresses, and custody policies. 
+The Holdings page lists the funds under your account. These include one or more default funds, and any funds you have created. For each fund, you can have a complete view of the transactions, addresses, and custody policies.
 
 Funds that exist in the Holdings page can be organised according to assets as part of a portfolio strategy.
 
@@ -116,7 +116,7 @@ Change Default Settings
 
 You can set Fund One to include Bitcoin instead of Bitcoin Testnet as the default asset. When you change the asset, Bitcoin Testnet is set as the asset for the other default fund, Fund Two.
 
-This feature is especially useful for users that are likely to be quickly receiving money in to their default fund, and do not need to set up test transactions. 
+This feature is especially useful for users that are likely to be quickly receiving money in to their default fund, and do not need to set up test transactions.
 
 Future versions of Qredo will have other currencies available in funds.
 
@@ -131,21 +131,21 @@ and Fund One now contains Bitcoin.
 Create a Fund Wizard
 --------------------
 
-The Create a Fund wizard takes you through the steps for creating a fund. Each fund you create consists of assets. You can also set the same or different custodians for withdrawal and transfer policies. 
+The Create a Fund wizard takes you through the steps for creating a fund. Each fund you create consists of assets. You can also set the same or different custodians for withdrawal and transfer policies.
 
-When you select custodians, you can also choose the Threshold level. A Threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3, needs fewer signatures for a transaction to take place.  
+When you select custodians, you can also choose the threshold level. A threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3, needs fewer signatures for a transaction to take place.  
 
 You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
 
 ### Example
 
-In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for both policies. Each policy contains a set Threshold level.
+In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for both policies. Each policy contains a set threshold level.
 
 ![Fund A](/doc-images/ManagingFundA.png)
 
 ### Custody Providers
 
-As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and the Threshold. 
+As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and the threshold.
 
 ### Start Wizard
 
@@ -159,15 +159,15 @@ The first page of the wizard appears covering basic details.
 
 ![create fund](/doc-images/createfund1.png)
 
-Entering name, description, and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that users who are counterparties to a transfer on your Qredo network have access to the asset of the fund. 
+Entering name, description, and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that users who are counterparties to a transfer on your Qredo network have access to the asset of the fund.
 
 1.  Fill in the name of the fund in **Fund Name.**
 2.  Enter details to describe the fund in **Description.**
 3.  Choose a theme that shows the fund in the Summary section of the Holdings page.
 4.  Select an asset from **Assets.**
-5.  Click **Continue**. 
+5.  Click **Continue**.
 
-The second page of the wizard shows covering membership and permissions. 
+The second page of the wizard shows covering membership and permissions.
 
 #### Membership and Permissions
 
@@ -176,7 +176,7 @@ The second page of the wizard shows covering membership and permissions.
 1.  Read the notice on membership and permissions. This indicates that only one member is available for the fund, and that further enhancements are coming soon.
 2.  Observe your name as the fund member and click **Continue.**
 
-The third page of the wizard shows covering transfer policy custodians. 
+The third page of the wizard shows covering transfer policy custodians.
 
 ### Transfer Policy Custodians
 
@@ -202,4 +202,3 @@ You can review the details of the selected custodians for the withdrawal and tra
 
 1.  To change any of the fund details, click **Back** to return to the previous wizard screen. Clicking **Back** again moves to previous screens.
 2.  Click **Confirm and Create Fund**.
-

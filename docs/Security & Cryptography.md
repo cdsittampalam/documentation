@@ -6,26 +6,26 @@ The Qredo network includes a secure architecture that allows transaction data to
 
 This page describes:
 
-*   data center security
+*   data centre security
 *   MPC protocol
 *   BLS signature scheme
 
 
-Data Center Security
+Data Centre Security
 --------------------
 
-The physical Qredo network is distributed where devices are stored in six Tier-4 data centers. The data centers are based in global financial capitals of Hong Kong, Tokyo, Singapore, London, Chicago, and New York. Tier-4 data centers deliver redundancy for all computing equipment to ensure maximum security.
+The physical Qredo network is distributed where devices are stored in six Tier-4 data centres. The data centres are based in global financial capitals of Hong Kong, Tokyo, Singapore, London, Chicago, and New York. Tier-4 data centres deliver redundancy for all computing equipment to ensure maximum security.
 
-### Data Center Components
+### Data Centre Components
 
-Each data center contains dedicated computing equipment to support the MPC, Qredo blockchain, and watcher components. This includes:
+Each data centre contains dedicated computing equipment to support the MPC, Qredo blockchain, and watcher components. This includes:
 
 *   Qredo appliances that house Rasberry Pi units for the MPC nodes and the MPC validator. Each MPC node can be a client or server node.
 *   a PC that holds the watcher and Blockchain validator services.
 
-Whenever transactions are written to the Qredo blockchain, the transactions are backed up on another device. Similarly, encrypted MPC keys are copied to each of the server and clients across multiple data centers.
+Whenever transactions are written to the Qredo blockchain, the transactions are backed up on another device. Similarly, encrypted MPC keys are copied to each of the server and clients across multiple data centres.
 
-Communication takes place between data centers over routers. Between the Rasberry Pi units on the device, communication takes place over SSH.
+Communication takes place between data centres over routers. Between the Rasberry Pi units on the device, communication takes place over SSH.
 
 ### Hardware Security Module
 
@@ -42,7 +42,7 @@ The MPC protocol runs when generating a wallet address for money coming in to th
 
 The MPC protocol communicates with the blockchain validator nodes via the watcher service to ensure that it can process the correct wallet.
 
-Applying the protocol, a client and server need to compute details on keys in order to prepare and create a public key for signing a transaction. To remove single points of failures, the process takes place across all data centers. The process is summarised as follows:
+Applying the protocol, a client and server need to compute details on keys in order to prepare and create a public key for signing a transaction. To remove single points of failures, the process takes place across all data centres. The process is summarised as follows:
 
 1.  A client and server node each generate their respective key material.
 
@@ -52,7 +52,7 @@ Applying the protocol, a client and server need to compute details on keys in or
 
 4.  The keys are stored in an AWS database.
 
-5.  The AES key is encrypted for the client and server nodes in all the data centers.
+5.  The AES key is encrypted for the client and server nodes in all the data centres.
 
 6.  The AES key is decrypted for all the client and server nodes.
 
@@ -84,7 +84,7 @@ BLS public and private key pairs are generated when an IDDoc is created for a us
 
 ### BLS Encryption Method
 
-BLS uses elliptic curve cryptography combined with bi-linear mapping to calculate public keys, private keys, and signatures. Bi-linear mapping features algebra. Through its mathematics, BLS allows the creation of shorter signatures for more efficient signing.
+BLS uses elliptic curve cryptography combined with bi-linear mapping to calculate public keys, private keys, and signatures. Bi-linear mapping features algebra to find equivalent expressions. Through its mathematics, BLS allows the creation of shorter signatures for more efficient signing.
 
 :::info
 Cryptography in Qredo is built from the [Apache Milagro project](https://milagro.apache.org/users.html). More information is also available from Qredo's Yellow Paper on the main Qredo website.

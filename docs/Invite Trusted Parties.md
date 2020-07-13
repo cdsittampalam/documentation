@@ -76,7 +76,7 @@ If you do not want to be part of their network, you can reject their invite.
 
 ### Approve Request  
 
-1.  Tap on the notification for the invitation.
+1.  Tap on the notification for the invite.
 2.  Sign in to the app using the biometric feature of your phone.
 3.  Enter your 6-digit PIN. The Trusted Party screen shows.
 
