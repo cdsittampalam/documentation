@@ -17,7 +17,7 @@ As a fund owner and member, you have the permission to transfer money from one Q
 
 As a custodian, you can decide if a transfer started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the transfer custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the transfer policy linked to the fund. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
 
-This page includes the following sections:
+The main steps and sections in this page are as follows:
 - [Create Transfer](#create-transfer)
 - [Authorise Transfer](#authorise-transfer)
 - [Approve Transfer](#approve-transfer)
