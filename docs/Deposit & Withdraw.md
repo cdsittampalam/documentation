@@ -50,7 +50,7 @@ Click the **Copy** button on the address entry.
 
 In Ledger view, you can see deposit transactions to one or more funds that you are the owner of. All deposit transactions are listed in the Inbound tab.
 
-![TX](/doc-images/TXIbd.png)
+![TX](/doc-images/TXibd.png)
 
 |     |     |
 | --- | --- |
