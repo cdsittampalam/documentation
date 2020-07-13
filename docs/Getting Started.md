@@ -6,7 +6,7 @@ The Join section of the website lets you get started for joining the Qredo netwo
 
 ![Page1](/doc-images/page1.png)
 
-This page shows:
+The main steps in the page are as follows:
 - [Web app steps](#web-app-steps)
 - [Phone setup steps](#phone-steps)
 - [Sign in steps](#sign-in-steps)
