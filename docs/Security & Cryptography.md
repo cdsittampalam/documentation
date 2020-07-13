@@ -31,8 +31,6 @@ Communication takes place between data centers over routers. Between the Rasberr
 
 Each Rasberry Pi unit has a tamper-proof Hardware Security Module that protects the seed value and public/private key data from attacks in a physical environment. The HSMs adhere to the FIPS (Federal information Processing Standard Publication 140-2) security standard. FIPS 140-2 is a US government computer security standard for cryptographic modules which ensures that cryptographic keys and primitives never leave the hardware appliances that they exist in.
 
----
-
 MPC Protocol
 ------------
 
@@ -74,7 +72,6 @@ The MPC uses [SECP256K](https://en.bitcoin.it/wiki/Secp256k1) to ensure that the
 
 SECP256K1 is the discrete elliptic curve group used in Bitcoin's implementation of ECDSA (Elliptic Curve Digital Signature Algorithm). Elliptic curve cryptography allows the points of elliptic curves to determine values such as public, private keys, and the coefficients for determining key values.
 
----
 
 BLS Signature Scheme
 --------------------
