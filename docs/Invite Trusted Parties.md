@@ -49,8 +49,6 @@ click **Copy** and then the button of the service for the invites (LinkedIn, Tel
 
 You can check the Trusted Network screen for details of the new invite (see the next section).
 
----
-
 Manage Invite List
 ------------------
 
@@ -68,8 +66,6 @@ If you have sent an invite to contacts via LinkedIn, Telegram or WhatsApp, the s
 ### Clear Paired Status
 
 If there are many invites in the list, you can manage the list to show fewer invites by clearing the paired entries. Double-click the button for each entry labelled **Paired**.
-
----
 
 Custodian Approvals
 -------------------
