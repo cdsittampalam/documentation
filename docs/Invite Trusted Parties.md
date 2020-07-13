@@ -1,11 +1,11 @@
 ---
 id: Invite Trusted Parties
 ---
-As the account owner, you can invite users as trusted parties, allowing you to build your Qredo network. A trusted party can send and receive money, and/or approve and reject as a nominated custodian.
+As the account owner, you can invite users as trusted parties, allowing you to build your Qredo Network. A trusted party can send and receive money, and/or approve and reject as a nominated custodian.
 
-You can invite a user to be a trusted party from within the Qredo network, or from outside of Qredo. Users from within the Qredo network can be an account owner, or a counterparty to another account owner. When choosing a party externally, you can invite them via LinkedIn, Telegram or WhatsApp.  
+You can invite a user to be a trusted party from within the Qredo Network, or from outside of Qredo. Users from within the Qredo Network can be an account owner, or a counterparty to another account owner. When choosing a party externally, you can invite them via LinkedIn, Telegram or WhatsApp.  
 
-When you send an invite through the Qredo network, users can approve or reject the invitation on their phone.
+When you send an invite through the Qredo Network, users can approve or reject the invitation on their phone.
 
 You invite a counterparty from the Trusted Network screen on the browser desktop app. The Trusted Network screen also lets you manage accepted invitations, and those that are still pending.
 
@@ -29,14 +29,14 @@ Click the **Add Trusted Party** button on the Trusted Network screen to show the
 
 ### Add from Qredo
 
-You enter an email address for a user on the Qredo network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again.
+You enter an email address for a user on the Qredo Network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again.
 
 1.  In the Search the Qredo Network section, enter the email address of the user and click **Search**.
-2.  If the user is on the Qredo network with that email address, a box appears asking you to confirm pairing with the email address.  
+2.  If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address.  
 
 ![Add Trusted](/doc-images/AddTrustedConf.png)
 
-3.  Click **Confirm**. The screens shows that the request was sent. 
+3.  Click **Confirm**. The screens shows that the request was sent.
 4.  Click Close.
 
 Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list)).
@@ -45,14 +45,14 @@ Check the Trusted Network screen for details of the new invite see ([Manage the 
 
 In the Invite to Qredo Network section, the URL of the Join page appears. This allows a recipient of the invitation to go directly to the Join page on the Qredo website.
 
-click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent to the recipient via the selected service. 
+click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent to the recipient via the selected service.
 
 You can check the Trusted Network screen for details of the new invite (see the next section).
 
 Manage Invite List
 ------------------
 
-The Trusted Network screen shows the status of your invites sent to either contacts outside of Qredo or to users within the Qredo network. Invite entries show as either:  
+The Trusted Network screen shows the status of your invites sent to either contacts outside of Qredo or to users within the Qredo Network. Invite entries show as either:  
 
 *  PAIRED - where the user or contact has accepted the invite.  
 *  PENDING - where the user or contact has not yet accepted the invite.
@@ -70,7 +70,7 @@ If there are many invites in the list, you can manage the list to show fewer inv
 Custodian Approvals
 -------------------
 
-As a user on the Qredo network, you would have received an invite on your phone to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
+As a user on the Qredo Network, you would have received an invite on your phone to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
 
 If you do not want to be part of their network, you can reject their invite.
 

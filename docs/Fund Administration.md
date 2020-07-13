@@ -3,7 +3,7 @@ id: Fund Administration
 
 ---
 
-As the user with the role of Account Owner, you have complete control over funds. You can view information on funds and transactions, and create funds to use on the Qredo network. A fund in Qredo is a financial vehicle in your account that lets you organise all assets for use in transfer, deposit, and withdrawal transactions. A fund is also associated with custody policies where custodians govern the funds.
+As the user with the role of Account Owner, you have complete control over funds. You can view information on funds and transactions, and create funds to use on the Qredo Network. A fund in Qredo is a financial vehicle in your account that lets you organise all assets for use in transfer, deposit, and withdrawal transactions. A fund is also associated with custody policies where custodians govern the funds.
 
 Enterprise customers in future versions will be allowed to add multiple users and configure roles and permissions on each fund.
 
@@ -159,7 +159,7 @@ The first page of the wizard appears covering basic details.
 
 ![create fund](/doc-images/createfund1.png)
 
-Entering name, description, and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that users who are counterparties to a transfer on your Qredo network have access to the asset of the fund.
+Entering name, description, and a theme enables your fund to be identified on the Holdings page. When setting an asset type, you should ensure that users who are counterparties to a transfer on your Qredo Network have access to the asset of the fund.
 
 1.  Fill in the name of the fund in **Fund Name.**
 2.  Enter details to describe the fund in **Description.**

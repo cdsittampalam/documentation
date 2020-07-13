@@ -2,12 +2,12 @@
 id: Qredo App Overview
 ---
 
-The Qredo app allows you to use the Qredo network. The Qredo network is an institutional grade clearing and settlement network for digital assets.
+The Qredo app allows you to use the Qredo Network. The Qredo Network is an institutional grade clearing and settlement network for digital assets.
 
-Built for professional investors, the Qredo network securely transfers digital assets instantly whilst delivering:
+Built for professional investors, the Qredo Network securely transfers digital assets instantly whilst delivering:
 
 *   zero clearing and settlement risk    
-*   zero counterparty risk 
+*   zero counterparty risk
 *   elimination of digital asset theft    
 *   independent governance with no third party dependencies    
 
@@ -17,13 +17,13 @@ Built for professional investors, the Qredo network securely transfers digital a
 Qredo Web App
 -------------
 
-The Qredo web app provides a suite of account management, treasury and trading features making it easy to manage your digital asset portfolios online within the Qredo network. Set up secure funds to 
+The Qredo web app provides a suite of account management, treasury and trading features making it easy to manage your digital asset portfolios online within the Qredo Network. Set up secure funds to
 * secure your client and trading accounts.
 * customise your governance rules.
 * monitor inbound and outbound trade activity.
 * review pending and actioned payment authorisations with instant access to your trusted counterparty network.
 
-As an app user, e.g. a trader or a fund manager, you can launch your transactions through the web interface. Once approved by custodians as stated in the custody policy, your transaction is securely stored on the Qredo blockchain. 
+As an app user, e.g. a trader or a fund manager, you can launch your transactions through the web interface. Once approved by custodians as stated in the custody policy, your transaction is securely stored on the Qredo blockchain.
 
 Qredo Mobile App
 ----------------
@@ -36,7 +36,7 @@ As an appointed custodian, you use the Qredo mobile app to approve transactions 
 
 The authorisation and approval flow also allows signs in from:
 * logging in activities via the web browser.
-* other users requesting to join the Qredo network.
+* other users requesting to join the Qredo Network.
 * whitelisting cryptocurrency addresses.
 
 System Requirements
@@ -44,9 +44,6 @@ System Requirements
 
 The Qredo web app runs on Safari, Chrome, Internet Explorer, Firefox, and Opera.
 
-The Qredo Mobile App runs on iOS versions of OSX13 and above. Future releases will support Android. These phones must include the biometric capabilities of either the Face ID or Touch ID. 
+The Qredo Mobile App runs on iOS versions of OSX13 and above. Future releases will support Android. These phones must include the biometric capabilities of either the Face ID or Touch ID.
 
 The Qredo mobile app requires a working phone camera to access the QR-code on the web app during the registration process.
-
-
-

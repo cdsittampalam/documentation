@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-The Join section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your Qredo web app and the Qredo mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
+The Join section of the website lets you get started for joining the Qredo Network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo Network with your Qredo web app and the Qredo mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
 
 ![Page1](/doc-images/page1.png)
 
@@ -41,7 +41,7 @@ The Establish your Qredo Identity screen appears.
     You can enter a private or work email address. If you have been invited, you can use the email address where you received the invitation.
     :::
 
-2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo network alias must not contain special characters.
+2. Create a unique username in **Qredo Network Alias**. This name is used within the apps whenever the system refers to information on your account. Note that the Qredo Network alias must not contain special characters.
 3. Click **Continue**. The Set a strong password screen appears.
 
 ### Set Password
@@ -141,7 +141,7 @@ The web app indicates that the phone has been paired.
 
 ### Master Seed Steps
 
-Once you have completed pairing, you are ready to create your master seed. The master seed is a security feature that bonds your Qredo identify with your phone. It is stored on your device’s secure enclave. To ensure that the master seed is backed up, it is registered on the Qredo network.
+Once you have completed pairing, you are ready to create your master seed. The master seed is a security feature that bonds your Qredo identify with your phone. It is stored on your device’s secure enclave. To ensure that the master seed is backed up, it is registered on the Qredo Network.
 
 If in the unlikely event that data is lost, you will need to recover your master seed through your seed recovery phrase. The seed recovery phrase, consisting of a unique 24-word combination, is different to a common password, which you may be more likely to forget or lose.
 
@@ -232,7 +232,7 @@ Once granted, the Holdings page in the web app appears. The Holdings page is set
 
 ![fundone](/doc-images/FundOnedefault.png)
 
-See [Fund Administration](/docs/Fund%20Administration) for more details on funds. 
+See [Fund Administration](/docs/Fund%20Administration) for more details on funds.
 
 Navigation
 ----------
@@ -242,7 +242,7 @@ The screens of the web app includes these buttons for navigating to different se
 |     |     |
 | --- | --- |
 | **Button** | **Description** |
-| ![asset](/doc-images/coins.png)| The Asset view gives you details on all activites on a particular fund. This allows you to monitor and launch tasks from the fund.  |
+| ![asset](/doc-images/coins.png)| The Asset view gives you details on all activities on a particular fund. This allows you to monitor and launch tasks from the fund.  |
 | ![Ledger](/doc-images/ledger.png) | The Ledger view provides you information on all inbound and outbound transactions for all your funds. This lets you monitor activity at the account level. |
 | ![Approvals](/doc-images/approval.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
 | ![TrustedNetwork](/doc-images/tick.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |

@@ -52,7 +52,7 @@ Billing
 -------
 
 
-The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal Plan only. 
+The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal Plan only.
 In future versions, users can be part of an Enterprise Plan.
 
 ![Billing](/doc-images/2billing.png)
@@ -62,7 +62,7 @@ Partner API
 -----------
 
 
-This section provides details on the Partner API. 
+This section provides details on the Partner API.
 
 ![Billing](/doc-images/partnerapi.png)
 
@@ -83,7 +83,7 @@ As the account owner, you can:
 *   enter fund name and description.
 *   select the type of assets that can be added to and managed in the fund.
 *   set custodian policy (withdrawal or transaction custody policies)
-*   choose a deposit address to add to the Qredo network.
-*   transfer funds to other users on the Qredo network.
-*   withdraw funds from the Qredo network.
+*   choose a deposit address to add to the Qredo Network.
+*   transfer funds to other users on the Qredo Network.
+*   withdraw funds from the Qredo Network.
 *   add external trusted parties.

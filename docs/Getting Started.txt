@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-The Join section of the website lets you get started for joining the Qredo network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your Qredo web app and the Qredo mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
+The Join section of the website lets you get started for joining the Qredo Network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo network with your Qredo web app and the Qredo mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
 
 ![Page1](/doc-images/page1.png)
 
@@ -15,7 +15,7 @@ You start the process of registering with Qredo from the web app.
 
 ### Start Registration
 
-1.  Click **Join Qredo**. A lobby page shows an introductory video on Qredo and links to FAQs.    
+1.  Click **Join Qredo**. A lobby page shows an introductory video on Qredo and links to FAQs.
 
 ![Page2](/doc-images/page2.png)
 
@@ -42,7 +42,7 @@ The Establish your Qredo Identity screen appears.
 
 ### Set Password
 
-1.  Enter a strong password in **Set password.**    
+1.  Enter a strong password in **Set password.**
 2.  Confirm the password again in **Confirm password.**
 
 The password must contain:
@@ -51,7 +51,7 @@ The password must contain:
    -  1 uppercase letter
    -  1 number
    -  1 special character
-   -  1 lowercase letter    
+   -  1 lowercase letter
 
 3. Click **Continue**. The Accept our terms and conditions page appears.
 
@@ -153,7 +153,7 @@ You are asked to provide Qredo with access to your Face ID/Touch ID before enabl
 
 1.  Tap **OK.**
 2.  Confirm your action in the operating system’s message.
-3.  Enable Face ID/Touch ID. Once confirmed, a message shows.    
+3.  Enable Face ID/Touch ID. Once confirmed, a message shows.
 
 #### Create 6-Digit PIN
 
@@ -174,7 +174,7 @@ Note down every single word in the seed recovery phrase.
 
 Store the seed recovery phrase in a safe place.
 
-Do not store the seed recovery phrase electronically.   
+Do not store the seed recovery phrase electronically.
 :::
 
 The phone shows screens to introduce the seed recovery phrase.
@@ -185,7 +185,7 @@ The phone shows screens to introduce the seed recovery phrase.
 ![seedrec](/doc-images/Mseed.png)
 
 3.  Record your seed recovery phrase in a safe place.
-4.  Tap **Next.**    
+4.  Tap **Next.**
 5.  Read through the instruction screen to confirm seed recovery.
 
 ![seedinst](/doc-images/seedinst.png)
@@ -219,7 +219,7 @@ Sign In Steps
 
 ![wabsign](/doc-images/websign.png)
 
-3.  To ensure that you do not need to enter your details again the next time you open the web app, observe **Remember Me**.   
+3.  To ensure that you do not need to enter your details again the next time you open the web app, observe **Remember Me**.
 4.  Tap **Sign In**.
 
 Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the mobile app. A message appears.
@@ -235,19 +235,19 @@ Once granted, the Holdings page in the web app appears. The Holdings page is set
 
 ![fundone](/doc-images/FundOnedefault.png)
 
-See [Fund Administration](/docs/Fund%20Administration) for more details on funds. 
+See [Fund Administration](/docs/Fund%20Administration) for more details on funds.
 
 ---
 
 Navigation
 ----------
 
-The Holdings page, and other screens, includes these buttons for navigating to different parts of the app. 
+The Holdings page, and other screens, includes these buttons for navigating to different parts of the app.
 
 |     |     |
 | --- | --- |
 | **Button** | **Description** |
-| ![asset](/doc-images/coins.png)| The Asset view gives you details on all activites on a particular fund. This allows you to monitor and launch tasks from the fund.  |
+| ![asset](/doc-images/coins.png)| The Asset view gives you details on all activities on a particular fund. This allows you to monitor and launch tasks from the fund.  |
 | ![Ledger](/doc-images/ledger.png) | The Ledger view provides you information on all inbound and outbound transactions for all your funds. This lets you monitor activity at the account level. |
 | ![Approvals](/doc-images/tick.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
 | ![TrustedNetwork](/doc-images/tick.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |

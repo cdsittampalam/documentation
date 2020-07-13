@@ -3,7 +3,7 @@ id: Creating Transactions
 ---
 
 Transactions allow a trade initiator to transfer money to a recipient (or counterparty) within the same fund. All money during a transfer
-stays on the Qredo network, and is secure on the Qredo blockchain. Liquidity is maintained, so that money can move between participants at any time.
+stays on the Qredo Network, and is secure on the Qredo blockchain. Liquidity is maintained, so that money can move between participants at any time.
 
 Future versions will allow atomic swaps that provide instant exchange of different digital assets.
 
@@ -68,7 +68,7 @@ These include:
 *   Qredo transfer fee
 *   Total transfer cost (including the amount to transfer and the transfer fee)
 *   Balance after the total transfer cost is deducted
-*   From details: 
+*   From details:
      * Name of the trade initiator
      * Email address of the trade initiator
      * Network alias of the trade initiator

@@ -3,17 +3,17 @@ id: Deposit & Withdraw
 
 ---
 
-For a deposit transaction, users can add money to a whitelisted cryptocurrency address that is linked to your fund. Once added, the money is safely stored on the Qredo blockchain as a transaction and is subject to the custodial policies of its associated fund. The Qredo network ensure that deposited money remains liquid, and is ready to transfered to another Qredo user if needed.
+For a deposit transaction, users can add money to a whitelisted cryptocurrency address that is linked to your fund. Once added, the money is safely stored on the Qredo blockchain as a transaction and is subject to the custodial policies of its associated fund. The Qredo Network ensure that deposited money remains liquid, and is ready to be transferred to another Qredo user if needed.
 
-For a withdrawal transaction, you send money out of a fund on Qredo to an external cryptocurrency address. When sent to a whitelisted address, the money is no longer subject to the custody policies and ownership rights of the Qredo network. Qredo gives you the flexibility of adding money back on to the network at a later point in time.
+For a withdrawal transaction, you send money out of a fund on Qredo to an external cryptocurrency address. When sent to a whitelisted address, the money is no longer subject to the custody policies and ownership rights of the Qredo Network. Qredo gives you the flexibility of adding money back on to the network at a later point in time.
 
 :::info
-When recorded on the Qredo blockchain, a transaction is always linked to the underlying blockchain. 
+When recorded on the Qredo blockchain, a transaction is always linked to the underlying blockchain.
 :::
 
 This page includes the following main sections:
 - [Deposit Money](#deposit-money)
-- [Withdraw Money](#withdraw-money) 
+- [Withdraw Money](#withdraw-money)
 
 Deposit Money
 -------------
@@ -166,7 +166,7 @@ These include:
 *   Blockchain miner's fee
 *   Total withdrawal cost (including the amount to withdraw and the miner's fee)
 *   Balance after the total withdrawal cost is deducted
-*   From details: 
+*   From details:
      * Name of the trade initiator
      * Email address of the trade initiator
      * Network alias of the trade initiator
@@ -366,5 +366,3 @@ The following shows an example summary status of a completed withdrawal:
 :::info
 Clicking the downward arrow in the screen shows more details of the transaction, such as the amount of the asset and the fund.
 :::
-
-
