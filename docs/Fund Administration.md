@@ -60,10 +60,10 @@ If you have changed your default settings to include Bitcoin for Fund One and Bi
 
 The summary section has basic information on the fund:
 
-*   The Fund ID to help differentiate funds with similar names and descriptions
-*   The type of asset in the fund as Bitcoin Testnet
-*   The name of the fund as "Fund One"
-*   A brief description about the fund
+*   The Fund ID to help differentiate funds with similar names and descriptions.
+*   The type of asset in the fund as Bitcoin Testnet.
+*   The name of the fund as "Fund One".
+*   A brief description about the fund.
 
 
 ![summary](/doc-images/4summaryinfo.png)
@@ -122,7 +122,7 @@ Future versions of Qredo will have other currencies available in funds.
 
 ![custody fund](/doc-images/changedefaultsonsummaryR.png)
 
-1.  Click **Change Defaults.** The Default Funds screen appears.   
+1. Click **Change Defaults.** The Default Funds screen appears.   
 2. Select Fund One in **For incoming Bitcoin BTC transfers.**
 3. Select Fund Two in **For incoming Bitcoin Testnet transfers**. The button shows as **Updated**,  
 and Fund One now contains Bitcoin.
@@ -145,7 +145,7 @@ In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However
 
 ### Custody Providers
 
-As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and threshold levels. 
+As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and the Threshold. 
 
 ### Start Wizard
 
