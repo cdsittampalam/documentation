@@ -355,7 +355,7 @@ For both the Approval and Ledger view, a summary screen shows details of the pro
 * Transactions that are approved show in green.
 * Transactions that are rejected appear in red.
 
-The following shows an example summary status of a completed transaction:
+The following shows an example summary status of a completed withdrawal:
 
 ![Transfer Complete](/doc-images/Transfercomp.png)
 
