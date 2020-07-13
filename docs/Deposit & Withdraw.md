@@ -61,8 +61,6 @@ In Ledger view, you can see deposit transactions to one or more funds that you a
 | REFERENCE | Reference number for the deposit transaction. |
 | SENDER | Name of the sender. |
 
----
-
 Withdraw Money
 --------------
 
@@ -103,8 +101,6 @@ You start your action from either the Asset view or Ledger view.
 8.  Type in the wallet address in **Wallet Address**.    
 9.  Click **Continue**. See Authorise an Address (Trade Initiator) below.
 
----
-
 #### Authorise Address (Trade Initiator)
 
 As the initiator of the withdrawal, you confirm your decision by authorising using the phone app.
@@ -130,8 +126,6 @@ You can also view other details of the withdrawal address including:
 
 For the action you select, you then sign in with your biometric features and 6-digit PIN, and tap confirm on the confirmation screens.
 
----
-
 ### Create Transaction
 
 For withdrawing money, the Qredo app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination cryptocurrency address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal.
@@ -156,8 +150,6 @@ In the same way as a withdrawal address, you start your action from the Asset vi
 9.  To select a date for when the withdrawal takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.    
 10.  To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.    
 11.  Click **Review Withdrawal**.    
-
----
 
 #### Review Withdrawal
 
@@ -201,8 +193,6 @@ Before authorising, you can view its details including the fees that are charged
 
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
----
-
 #### Approve Withdrawal
 
 You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal screen on your phone asks you to approve or reject the new transaction. The screen also shows the following information:
@@ -223,8 +213,6 @@ You can also view other details linked to the transaction under the Show Details
 *   the name, email address, and network alias of the trade initiator.   
 *   details of the Qredo fee.
 
----
-
 #### Steps
 
 1.  Tap the notification on your phone. The Withdrawal screen shows.    
@@ -233,8 +221,6 @@ You can also view other details linked to the transaction under the Show Details
 4.  To reject, tap **Reject**.
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
-
----
 
 ### Track Progress
 
@@ -279,8 +265,6 @@ The following is an example entry showing a pending approval with the status of 
 
 ![Address Approval](/doc-images/addressappr2.png)
 
----
-
 #### Transaction Approvals
 
 1.  Click the **Transactions** tab,   
@@ -306,8 +290,6 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
 ![Transaction Approval](/doc-images/trapr.png)
-
----
 
 #### Custodian Approvals
 
