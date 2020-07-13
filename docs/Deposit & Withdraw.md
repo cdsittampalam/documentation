@@ -249,7 +249,7 @@ You can view approvals from the Approval view, which appears by clicking the App
 These include details of:
 
 * withdrawal address approvals
-* transactions approvals that cover those from the trade initiator and one or more custodians.
+* transactions approvals that cover those from the trade initiator and one or more custodians
 * custodian approvals specifically for the fund of the transaction
 
 #### Address Approvals
@@ -367,11 +367,11 @@ The following shows an example transaction ledger with the status set to AWAITIN
 
 #### Progress Details
 
-For both Approval and Ledger view, you can view a summary screen that holds details of the progress of a single transaction. Each type of summary screen header has a particular colour outlined as follows:
+For both the Approval and Ledger view, a summary screen shows details of the progress of a single transaction. Summary screen headers can show in a particular colour to represent a category:
 
-* Black and white header for transactions that are waiting.
-* Green header for approved transactions.
-* Red for rejected transactions.
+* Transactions that are waiting appear in black and white.
+* Transactions that are approved show in green.
+* Transactions that are rejected appear in red.
 
 The following shows an example summary status of a completed transaction:
 
