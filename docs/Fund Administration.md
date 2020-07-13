@@ -25,7 +25,7 @@ This page consists of the following sections:
 Holdings Page
 -----------------
 
-The Holdings page lists the funds under your account. These include one or more default funds, and any funds you have created. For each fund, you can have a complete view of the transactions, addresses, and custody policies. You can also choose a fund option from the page.
+The Holdings page lists the funds under your account. These include one or more default funds, and any funds you have created. For each fund, you can have a complete view of the transactions, addresses, and custody policies. 
 
 Funds that exist in the Holdings page can be organised according to assets as part of a portfolio strategy.
 
