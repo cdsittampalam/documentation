@@ -52,11 +52,10 @@ Billing
 -------
 
 
-The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal Plan only.
+The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal Plan only. 
+In future versions, users can be part of an Enterprise Plan.
 
 ![Billing](/doc-images/2billing.png)
-
-In future versions, users can be part of an Enterprise Plan.
 
 
 Partner API
