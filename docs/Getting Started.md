@@ -191,9 +191,6 @@ The phone shows screens to introduce the seed recovery phrase.
 3.  Record your seed recovery phrase in a safe place.
 4.  Tap **Next.**    
 5.  Read through the instruction screen to confirm seed recovery.
-
-![seedinst](/doc-images/seedinst.png)
-
 6. Tap **Okay, got it**.The screens shows 24 empty entries.
 7. Tap each entry and choose the word that matches the one in the phrase entry you recorded.
 
