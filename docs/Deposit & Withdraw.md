@@ -337,7 +337,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 #### Transaction View (Ledger)
 
-Transactions are presented in Ledger view which shows transactions for all funds under your account. The transactions includes both those that are pending and those that have been written to the blockchain.
+Transactions are presented in Ledger view which shows transactions for all funds under your account. The transactions includes both those that are pending, and those that have been written to the blockchain.
 
 You can view the transaction progress in the Ledger view by clicking the Ledger icon,
 
