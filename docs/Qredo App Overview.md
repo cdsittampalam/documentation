@@ -25,6 +25,7 @@ The Qredo web app provides a suite of account management, treasury and trading f
 
 As an app user, e.g. a trader or a fund manager, you can launch your transactions through the web interface. Once approved by custodians as stated in the custody policy, your transaction is securely stored on the Qredo blockchain. 
 
+
 ---
 
 Qredo Mobile App
@@ -40,6 +41,7 @@ The authorisation and approval flow also allows signs in from:
 * logging in activities via the web browser.
 * other users requesting to join the Qredo network.
 * whitelisting cryptocurrency addresses.
+
 
 ---
 
