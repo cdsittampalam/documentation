@@ -4,38 +4,38 @@ title: Qredo Network
 sidebar_label: Qredo Network
 ---
 
-The Qredo network is an institutional grade clearing and settlement network for digital assets. Consisting of an asset-tracking blockchain, the Qredo network is secured by a set of consensus-driven MPC (Multiparty Computation) nodes. Together, these ensure that Qredo’s open Layer 2 protocol can accelerate any blockchain to achieve near-instant digital asset delivery. Digital assets comprise of money in the form of cryptocurrency.
+The Qredo Network is an institutional grade clearing and settlement network for digital assets. Consisting of an asset-tracking blockchain, the Qredo Network is secured by a set of consensus-driven MPC (Multiparty Computation) nodes. Together, these ensure that Qredo’s open Layer 2 protocol can accelerate any blockchain to achieve near-instant digital asset delivery. Digital assets comprise of money in the form of cryptocurrency.
 
 The Layer 2 characteristics of the Qredo blockchain provide transparency, immutability, and decentralisation.
 
-This page describes basic concepts on the Qredo network (see [Introduction](#qredo-network-introduction)). For more technical details, refer
+This page describes basic concepts on the Qredo Network (see [Introduction](#qredo-network-introduction)). For more technical details, refer
 to the section on the [Architecture](#architecture) and onwards.
 
 
 Introduction
 ------------
 
-The Qredo network allows the management of digital assets where transactions are processed through the Qredo blockchain with various nodes and services working together.
+The Qredo Network allows the management of digital assets where transactions are processed through the Qredo blockchain with various nodes and services working together.
 
 The Qredo blockchain records transactions that happen for these events:
 
 *   A new user joins Qredo.
 *   Money is deposited to an account.
 *   Money is transferred from one Qredo user to another.
-*   Money is withdrawn from the Qredo network
+*   Money is withdrawn from the Qredo Network
 
 
-Users interact with the Qredo network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). A developer user can use the Qredo network by enrolling for the Partner API. Details on the Partner API are coming soon.
+Users interact with the Qredo Network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). A developer user can use the Qredo Network by enrolling for the Partner API. Details on the Partner API are coming soon.
 
 Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
 
-### Behaviors
+### Behaviours
 
-The Qredo network includes behaviours to ensure that transactions are saved securely on the Qredo blockchain.
+The Qredo Network includes behaviours to ensure that transactions are saved securely on the Qredo blockchain.
 
 #### Digital Signatures
 
-A transaction contains encrypted messages between nodes with one or more signatures in BLS format. When a user signs up for the Qredo network, their own signature is added to the Qredo blockchain in the form of an IDDoc. Transactions, in the case of transfers and withdrawals, are written to the Qredo blockchain with the aggregated digital signatures of the participants that sign a transaction. 
+A transaction contains encrypted messages between nodes with one or more signatures in BLS format. When a user signs up for the Qredo Network, their own signature is added to the Qredo blockchain in the form of an IDDoc. Transactions, in the case of transfers and withdrawals, are written to the Qredo blockchain with the aggregated digital signatures of the participants that sign a transaction.
 
 Recording the aggregation of signatures on the Qredo blockchain makes the blockchain serve as a consensus-driven immutable record of asset ownership. A transaction cannot be written to the Qredo blockchain without the aggregated signatures.
 
@@ -43,7 +43,7 @@ Recording the aggregation of signatures on the Qredo blockchain makes the blockc
 
 A transaction requires various signatures from these participants that meet rules and conditions. These include:
 
-- The **principal** who decides on the custodian, custodian groups, and thresholds. They provide a signature when money is transferred to a counterparty recipient, added, or withdrawn from the Qredo network.
+- The **principal** who decides on the custodian, custodian groups, and thresholds. They provide a signature when money is transferred to a counterparty recipient, added, or withdrawn from the Qredo Network.
 - The **counterparty** who provides a signature for a transfer that the principal has signed. Signing confirms that they want to receive funds from the principal.
 - The **custodian** who approves or rejects a transaction. When they approve, a signature is provided for the transaction. The custodian is part of a custodian group created by the principal, and is linked to the fund of that transaction. Depending on the threshold, one or more custodians in the group need to provide their signatures.
 
@@ -57,7 +57,7 @@ Transfer policies determine the type of transaction that a custodian can sign. C
 
 #### Qredo Wallet
 
-Qredo wallet enables the management of money on the Qredo network. A wallet links to an external cryptocurrency address and captures deposits into that address as funds it controls on the Qredo blockchain. A wallet is created when money is first added to the Qredo network. Addresses need to be created for money coming in or out.
+Qredo wallet enables the management of money on the Qredo Network. A wallet links to an external cryptocurrency address and captures deposits into that address as funds it controls on the Qredo blockchain. A wallet is created when money is first added to the Qredo Network. Addresses need to be created for money coming in or out.
 
 #### Qredo Blockchain
 
@@ -72,7 +72,7 @@ Assets comprise of:
 *   MPC key lists
 
 :::info
-Assets, when specifically refered to for the Qredo blockchain, are different from digital assets that are described for trading and finance.
+Assets, when specifically referred to for the Qredo blockchain, are different from digital assets that are described for trading and finance.
 :::
 
 Qredo blockchain software components are built using [Tendermint](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive.  
@@ -82,7 +82,7 @@ Qredo blockchain software components are built using [Tendermint](https://tender
 Architecture
 ------------
 
-The Qredo network consists of computers that are categorised as nodes or services, working together to process transactions and create blocks. The Qredo network is different from other cryptocurrency networks where all nodes run the same client software. The computers are deployed in Tier-4 data centers within global financial capitals on a highly-secure hardware infrastructure running on a low-latency network. Each node or service has a dedicated function as summarised in this diagram:
+The Qredo Network consists of computers that are categorised as nodes or services, working together to process transactions and create blocks. The Qredo Network is different from other cryptocurrency networks where all nodes run the same client software. The computers are deployed in Tier-4 data centers within global financial capitals on a highly-secure hardware infrastructure running on a low-latency network. Each node or service has a dedicated function as summarised in this diagram:
 
 ![architecture](/doc-images/arch2606.png)
 
@@ -96,7 +96,7 @@ The Qredo server processes the signatures from the transactions.
 
 #### Blockchain Validator
 
-The blockchain validator node creates blocks on the Qredo blockchain from incoming transactions. The node keeps a copy of the Qredo blockchain. As of June 2020, the Qredo network has six blockchain validators of which >2/3 (subject to voting weight) must verify and authorise every new block.
+The blockchain validator node creates blocks on the Qredo blockchain from incoming transactions. The node keeps a copy of the Qredo blockchain. As of June 2020, the Qredo Network has six blockchain validators of which >2/3 (subject to voting weight) must verify and authorise every new block.
 
 #### Watcher
 
@@ -116,12 +116,10 @@ The MPC cluster works with both the watcher and the MPC validator.  When adding 
 
 The MPC Validator accesses data on the Qredo blockchain on request of the MPC cluster through an independent connection to the blockchain validator nodes. The MPC validator is needed for highly sensitive processes such as a withdrawal.
 
----
-
 Transaction Flows
 -----------------
 
-Transaction flows require nodes and services to perform various functions on the Qredo network, including when a user:
+Transaction flows require nodes and services to perform various functions on the Qredo Network, including when a user:
 
 *   joins Qredo
 *   deposits money
@@ -163,25 +161,22 @@ The watcher adds the address as a watch-only address on the Bitcoin node. This a
 When the node is queried periodically, the node can provide full UTXO details, together with proof of existence on the underlying chain.
 :::
 
----
-
 #### Mapping Address and Amounts
 The Qredo blockchain uses consensus rules to map the cryptocurrency address to Alice’s wallet through the MPC. The amount of money deposited into the address is added to the balance in Alice’s wallet. The balance is a value in the consensus database with the key “Wallet_Alice.balance”. The balance in the database key increases as more funds are added.
 
----
 
 ### Transferring Money
 
 When transferring money, the participants update the user interface. The transactions are signed by the Qredo server, and the blockchain validator node updates the Qredo blockchain.
 
-1.  Alice and Bob are both on the Qredo network.
+1.  Alice and Bob are both on the Qredo Network.
 2.  Bob arranges to send money to Alice.
 3.  Bob creates an updated wallet which is based on his original one, but also contains a transfer of funds to Alice’s wallet. This transaction needs to be signed by Bob and either Alice or Charlie before it is valid. The signing ensures it is accepted by the consensus rules and entered onto the Qredo blockchain.
 4.  As the wallet update is committed to the Qredo blockchain, the consensus rules ensure that an action is triggered to transfer an amount from the wallet balance of Alice's to Bob’s.
 
 ### Withdrawing Money
 
-For withdrawing money, or a settlement, money is transferred back out of the Qredo network to an external address.  To ensure that a valid wallet is put forward, various nodes and services are used as summarised:
+For withdrawing money, or a settlement, money is transferred back out of the Qredo Network to an external address.  To ensure that a valid wallet is put forward, various nodes and services are used as summarised:
 
 ![settle funds](/doc-images/settlefunds.png)
 
@@ -196,19 +191,13 @@ The blockchain validator records:
 - the transaction and the signatures
 - the completed transaction which allows change from the settlement to released back in to Qredo.
 
----
-
 #### Watcher and MPC
 
 The watcher informs the MPC nodes to sign a peg-out transaction, which authorises money to go out of Qredo, and generate an external address. The watcher works with the MPC to generate an external address for the unspent funds, which is used by the Bitcoin node for monitoring funds going out of Qredo.
 
----
-
 #### MPC Validator
 
-To keep the Qredo network secure when funds leave the network, the MPC validator double-checks the funds during a settlement. The MPC validator accesses the Qredo blockchain on request by the MPC cluster, and uses an independent connection.
-
----
+To keep the Qredo Network secure when funds leave the network, the MPC validator double-checks the funds during a settlement. The MPC validator accesses the Qredo blockchain on request by the MPC cluster, and uses an independent connection.
 
 #### Broadcasting a Transaction
 
@@ -216,16 +205,14 @@ To allow external blockchains to have a record of a settlement transaction, the 
 
 A crystallisation process (see section below) is also performed on Qredo blockchain to build an unsigned transaction.
 
----
-
-Crystallization
+Crystallisation
 ---------------
 
-At the end of every transaction is the crystallization process to ensure that the amounts in each wallet are correct for all Qredo users. To ensure solvency for the system, the process also proves that all coins locked onto the Qredo blockchain system are spendable.
+At the end of every transaction is the crystallisation process to ensure that the amounts in each wallet are correct for all Qredo users. To ensure solvency for the system, the process also proves that all coins locked onto the Qredo blockchain system are spendable.
 
-For each user, the process ensures that the amounts are mapped to a UTXO on an external address. For example, if a wallet has 30 Bitcoin between Bob and Alice, the crystallization process will:
+For each user, the process ensures that the amounts are mapped to a UTXO on an external address. For example, if a wallet has 30 Bitcoin between Bob and Alice, the crystallisation process will:
 
 *   map the wallet to Alice's UTXO containing 12 Bitcoin
 *   map the wallet to Bob's UTXO containing 18 Bitcoin  
 
-The allocations made during crystallization are used when a user requests settlement. Their crystalized funds minus any fees are transferred out of the Qredo network, and any change is returned back.
+The allocations made during crystallisation are used when a user requests settlement. Their crystalLised funds minus any fees are transferred out of the Qredo Network, and any change is returned back.
