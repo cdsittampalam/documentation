@@ -142,6 +142,9 @@ You can view approvals from the Approval view by clicking the Approvals icon:
 
 ![tick](/doc-images/tick.png)
 
+These include details of transfer approvals that cover those from the trade initiator and one or more custodians. You can also view custody approvals specifically
+for the fund of the transaction.
+
 ### Transaction Approvals
 
 1.  Click the **Transactions** tab,
@@ -165,6 +168,31 @@ The Actioned tab shows the same column fields. However, the ACTIONED column refl
 *   IGNORED
 
 ![transaction](/doc-images/trapr3.png)
+
+#### Custodian Approvals
+
+1.  Click the **Custody** tab,    
+2.  Click the **Pending** or **Actioned** sub-tabs.
+
+The pending tab shows these fields and pending approvals.
+
+|     |     |
+| --- | --- |
+| **Column** | **Description** |
+| ITEM | The transaction or withdrawal item. |
+| REQUESTED BY | The trade initiator that requested custodian approval. |
+| REQUESTED | The time and date in which the custodian approval was actioned. |
+| STATUS | The status shows as “Awaiting Approval”. |
+
+The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the custodian approval was actioned. There are two states in the ACTIONED column. These include:
+
+*   APPROVED   
+*   REJECTED
+*   EXPIRED
+
+The following is an example actioned entry in the Approval view with the status of APPROVED:
+
+![Transaction Approval](/doc-images/cusappr2.png)
 
 ### Transfer Progress
 

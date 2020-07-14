@@ -23,7 +23,7 @@ fund that you create is linked to a deposit address. The address is securely cre
 
 You are notified when money arrives at your address via an email.
 
-### Deposit Addresses
+### View Deposit Addresses
 
 You view deposit addresses from Asset view by clicking either the Asset icon:
 
@@ -46,7 +46,7 @@ To ensure that a deposit address is valid, you can copy the address using the Co
 
 Click the **Copy** button on the address entry.
 
-### Deposit Transactions
+### View Transactions
 
 In Ledger view, you can see deposit transactions to one or more funds that you are the owner of. All deposit transactions are listed in the Inbound tab.
 
@@ -56,7 +56,6 @@ In Ledger view, you can see deposit transactions to one or more funds that you a
 | --- | --- |
 | **Column Name** | **Description** |
 | TYPE | Type of transaction. For a deposit, the column name shows as deposit |
-| FUND | Fund of the deposit transaction. |
 | RECEIVED | Date and time in which the deposit transaction was received. |
 | TX | Amount deposited in to the account. |
 | REFERENCE | Reference number for the deposit transaction. |
@@ -178,6 +177,8 @@ These include:
 2. To return to the previous screen, click **Back**.
 
 Once authorised, the custodian can also approve or reject the transaction.
+
+---
 
 #### Authorise Withdrawal
 
@@ -356,7 +357,7 @@ For both the Approval and Ledger view, a summary screen shows details of the pro
 
 The following shows an example summary status of a completed withdrawal:
 
-![Transfer Complete](/doc-images/Withconfirm.png)
+![Withdraw Complete](/doc-images/Withconfirm.png) 
 
 1. Click the Ledger or Approval view icon.
 2. In Approval view, access the Transaction or Custody tab and click the three buttons at the end of a table row.
