@@ -164,6 +164,8 @@ The Actioned tab shows the same column fields. However, the ACTIONED column refl
 *   AUTHORISED
 *   IGNORED
 
+![transaction](/doc-images/trapr3.png)
+
 ### Transfer Progress
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
