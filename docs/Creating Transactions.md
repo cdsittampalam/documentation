@@ -197,3 +197,17 @@ For both the Approval and Ledger view, a summary screen shows details of the pro
 * Transactions that are waiting appear in black and white.
 * Transactions that are approved show in green.
 * Transactions that are rejected appear in red.
+
+
+The following shows an example summary status of a completed transfer:
+
+![Transfer Complete](/doc-images/Transfercomp.png)
+
+1. Click the Ledger or Approval view icon.
+2. In Approval view, access the Transaction or Custody tab and click the three buttons at the end of a table row.
+3. In Transaction view, click the three buttons at the end of a table row.
+
+:::info
+Clicking the downward arrow in the screen shows more details of the transaction, such as the amount of the asset and the fund.
+:::
+
