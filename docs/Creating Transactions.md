@@ -187,3 +187,5 @@ TX Ledger shows the following details:
 | RECIPIENT | Label added to the transfer, e.g., sent to an exchange. |
 | EXPIRES | The date and time in which the transfer transaction needs to happen. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
 | STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction and it has met the threshold, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
+
+![Transaction Approval](/doc-images/outTX2.png)
