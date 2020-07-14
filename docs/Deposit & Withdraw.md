@@ -179,8 +179,6 @@ These include:
 
 Once authorised, the custodian can also approve or reject the transaction.
 
----
-
 #### Authorise Withdrawal
 
 Before authorising, you can view its details including the fees that are charged on the transaction.
