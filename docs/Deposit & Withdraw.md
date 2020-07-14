@@ -186,7 +186,7 @@ Before authorising, you can view its details including the fees that are charged
 
 1.  Tap the notification that you received on your phone. The Withdraw screen shows with details of the transaction including fees.
 
-![withdraw auth](/doc-images/authwithd.png)
+![Authwith](/doc-images/authwithd.png)
 
 2.  To authorise, tap **Authorise**.   
 3.  To reject, tap **Reject**.
@@ -289,7 +289,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
-![Transaction Approval](/doc-images/trapr.png)
+![Transaction Approval](/doc-images/trapr2.png)
 
 #### Custodian Approvals
 
