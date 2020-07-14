@@ -189,3 +189,11 @@ TX Ledger shows the following details:
 | STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction and it has met the threshold, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
 
 ![Transaction Approval](/doc-images/outTX2.png)
+
+#### Progress Details
+
+For both the Approval and Ledger view, a summary screen shows details of the progress of a single transfer transaction. Summary screen headers can show in a particular colour to represent a category:
+
+* Transactions that are waiting appear in black and white.
+* Transactions that are approved show in green.
+* Transactions that are rejected appear in red.
