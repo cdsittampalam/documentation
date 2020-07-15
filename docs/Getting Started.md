@@ -156,7 +156,7 @@ You are asked to provide Qredo with access to your Face ID/Touch ID before enabl
 
 The screen shows slots for creating your 6 digit PIN.
 
-![choosepin](/doc-images/pinchoose.png)
+![choosepin](/doc-images/pin.png)
 
 1.  Enter a 6-digit PIN.
 2.  Enter the 6-digit PIN again to verify
