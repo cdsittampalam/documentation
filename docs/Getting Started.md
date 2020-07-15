@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-The Join section of the website lets you get started for joining the Qredo Network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo Network with your Qredo web app and the Qredo mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
+You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network with your Qredo web app and the Qredo mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
 
 ![Page1](/doc-images/page1.png)
 
@@ -16,13 +16,9 @@ The [Navigation](#navigation) section shows you the main sections of the web app
 Web App Steps
 -------------
 
-You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs.  
-From this page, you can also log in to the web app.
-
 ### Start Registration
 
 Click **Continue**.  The Establish your Qredo Identity screen appears.
-
 
 ### Establish Qredo Identity
 
@@ -58,7 +54,7 @@ The password must contain:
 
 ### Accept Terms and Conditions
 
-![t+c](/doc-images/t+c.png)
+![t+c](/doc-images/tandc.png)
 
 1. Read the terms and conditions on this page around GDPR compliance and data privacy.
 2. To move to the next screen, tick the box and click **Accept & Continue** (see [Validate email address](#validate-email-address).
