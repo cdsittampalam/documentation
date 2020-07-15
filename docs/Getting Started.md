@@ -130,7 +130,7 @@ You scan a QR-code on the web app through your phone’s camera, which pairs the
 
 The web app indicates that the phone has been paired.
 
-![QR](/doc-images/compairing.png)
+![QR](/doc-images/comppairing.png)
 
 ### Master Seed Steps
 
