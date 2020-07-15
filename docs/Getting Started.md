@@ -72,6 +72,8 @@ You can download the full terms and conditions if you need to distribute and pri
 
 ![validate email](/doc-images/valemail.png)
 
+![valdate email](/doc-images/valmail.png)
+
 You would have received an email from Qredo containing an evaluation code.
 
 Type in the code in **Email address validation code**. The page for downloading the mobile app shows.
