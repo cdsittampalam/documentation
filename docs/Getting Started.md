@@ -26,7 +26,7 @@ Click **Continue**.  The Establish your Qredo Identity screen appears.
 
 ### Establish Qredo Identity
 
-![Establish Identity](/doc-images/EstabIdentity.png)
+![Establish Identity](/doc-images/etab.png)
 
 1. Enter your details in:
 
