@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-The Join section of the website lets you get started for joining the Qredo Network via a series of screens. At the end of the journey, you will be ready to start your activities on the Qredo Network with your Qredo web app and the Qredo mobile app. From the app section of the website, you can also learn about Qredo through the various documentation links and video clips.
+You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network with your Qredo web app and the Qredo mobile app. 
 
 ![Page1](/doc-images/page1.png)
 
@@ -16,20 +16,13 @@ The [Navigation](#navigation) section shows you the main sections of the web app
 Web App Steps
 -------------
 
-You start the process of registering with Qredo from the web app.
-
 ### Start Registration
 
-1.  Click **Join Qredo**. A lobby page shows an introductory video on Qredo and links to FAQs.    
-
-2. Click **Continue**.
-
-The Establish your Qredo Identity screen appears.
-
+Click **Continue**.  The Establish your Qredo Identity screen appears.
 
 ### Establish Qredo Identity
 
-![Establish Identity](/doc-images/EstabIdentity.png)
+![Establish Identity](/doc-images/etab.png)
 
 1. Enter your details in:
 
@@ -61,7 +54,7 @@ The password must contain:
 
 ### Accept Terms and Conditions
 
-![t+c](/doc-images/t+c.png)
+![t+c](/doc-images/tandc.png)
 
 1. Read the terms and conditions on this page around GDPR compliance and data privacy.
 2. To move to the next screen, tick the box and click **Accept & Continue** (see [Validate email address](#validate-email-address).
@@ -77,7 +70,7 @@ You can download the full terms and conditions if you need to distribute and pri
 
 ### Validate Email Address
 
-![validate email](/doc-images/valemail.png)
+![validate email](/doc-images/valmail.png)
 
 You would have received an email from Qredo containing an evaluation code.
 
@@ -85,7 +78,7 @@ Type in the code in **Email address validation code**. The page for downloading 
 
 ### Download Phone App
 
-![download](/doc-images/download.png)
+![download](/doc-images/dload.png)
 
 An SMS is sent to your phone that contains a link to the mobile app on the app store. The SMS should arrive promptly.
 
@@ -100,7 +93,7 @@ When you have downloaded the mobile app, a splash screen of the app appears as f
 
 Once you have downloaded the app, tap the QR code on the screen against the QR reader on your phone.
 
-![pairing complete](/doc-images/pairingcomplete.png)
+![splashupdate](/doc-images/splash-upd.png)
 
 For more information, see [Pairing Steps](#pairing-steps).
 
@@ -163,13 +156,13 @@ You are asked to provide Qredo with access to your Face ID/Touch ID before enabl
 
 The screen shows slots for creating your 6 digit PIN.
 
-![choosepin](/doc-images/pinchoose.png)
+![choosepin](/doc-images/pin.png)
 
 1.  Enter a 6-digit PIN.
 2.  Enter the 6-digit PIN again to verify
 3.  In the confirmation screen, tap **Continue**.
 
-### Important Notes on the Seed Recovery Phrase
+### Important Seed Recovery Notes
 
 :::note
 Write down your seed recovery phrase clearly.
@@ -230,7 +223,7 @@ Once you have signed in to the web app, you are requested by Qredo to authentica
 
 Once granted, the Holdings page in the web app appears. The Holdings page is set up with a default fund, Fund One, containing a deposit address. You can start using the app from Fund One.
 
-![fundone](/doc-images/FundOnedefault.png)
+![fundone](/doc-images/Fund1D.png)
 
 See [Fund Administration](/docs/Fund%20Administration) for more details on funds.
 
@@ -244,6 +237,6 @@ The screens of the web app includes these buttons for navigating to different se
 | **Button** | **Description** |
 | ![asset](/doc-images/coins.png)| The Asset view gives you details on all activities on a particular fund. This allows you to monitor and launch tasks from the fund.  |
 | ![Ledger](/doc-images/ledger.png) | The Ledger view provides you information on all inbound and outbound transactions for all your funds. This lets you monitor activity at the account level. |
-| ![Approvals](/doc-images/approval.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
-| ![TrustedNetwork](/doc-images/tick.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |
+| ![Approvals](/doc-images/tick.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
+| ![TrustedNetwork](/doc-images/trusted.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |
 | ![Account](/doc-images/initials.png) | The Account view gives you details about your account. You can monitor various areas of your account, such as the account details, plan, and legal documents. |

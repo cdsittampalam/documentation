@@ -289,7 +289,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
-![Transaction Approval](/doc-images/trapr.png)
+![Transaction Approval](/doc-images/trapr2.png)
 
 #### Custodian Approvals
 
@@ -357,7 +357,7 @@ For both the Approval and Ledger view, a summary screen shows details of the pro
 
 The following shows an example summary status of a completed withdrawal:
 
-![Transfer Complete](/doc-images/Transfercomp.png)
+![Withdraw Complete](/doc-images/Withconfirm.png) 
 
 1. Click the Ledger or Approval view icon.
 2. In Approval view, access the Transaction or Custody tab and click the three buttons at the end of a table row.

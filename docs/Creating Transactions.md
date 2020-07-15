@@ -142,6 +142,9 @@ You can view approvals from the Approval view by clicking the Approvals icon:
 
 ![tick](/doc-images/tick.png)
 
+These include details of transfer approvals that cover those from the trade initiator and one or more custodians. You can also view custody approvals specifically
+for the fund of the transaction.
+
 ### Transaction Approvals
 
 1.  Click the **Transactions** tab,
@@ -164,6 +167,33 @@ The Actioned tab shows the same column fields. However, the ACTIONED column refl
 *   AUTHORISED
 *   IGNORED
 
+![transaction](/doc-images/trapr3.png)
+
+#### Custodian Approvals
+
+1.  Click the **Custody** tab,    
+2.  Click the **Pending** or **Actioned** sub-tabs.
+
+The pending tab shows these fields and pending approvals.
+
+|     |     |
+| --- | --- |
+| **Column** | **Description** |
+| ITEM | The transaction or withdrawal item. |
+| REQUESTED BY | The trade initiator that requested custodian approval. |
+| REQUESTED | The time and date in which the custodian approval was actioned. |
+| STATUS | The status shows as “Awaiting Approval”. |
+
+The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the custodian approval was actioned. There are two states in the ACTIONED column. These include:
+
+*   APPROVED   
+*   REJECTED
+*   EXPIRED
+
+The following is an example actioned entry in the Approval view with the status of APPROVED:
+
+![Transaction Approval](/doc-images/cusappr2.png)
+
 ### Transfer Progress
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
@@ -185,3 +215,27 @@ TX Ledger shows the following details:
 | RECIPIENT | Label added to the transfer, e.g., sent to an exchange. |
 | EXPIRES | The date and time in which the transfer transaction needs to happen. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
 | STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction and it has met the threshold, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
+
+![Transaction Approval](/doc-images/outTX2.png)
+
+#### Progress Details
+
+For both the Approval and Ledger view, a summary screen shows details of the progress of a single transfer transaction. Summary screen headers can show in a particular colour to represent a category:
+
+* Transactions that are waiting appear in black and white.
+* Transactions that are approved show in green.
+* Transactions that are rejected appear in red.
+
+
+The following shows an example summary status of a completed transfer:
+
+![Transfer Complete](/doc-images/Transfercomp.png)
+
+1. Click the Ledger or Approval view icon.
+2. In Approval view, access the Transaction or Custody tab and click the three buttons at the end of a table row.
+3. In Transaction view, click the three buttons at the end of a table row.
+
+:::info
+Clicking the downward arrow in the screen shows more details of the transaction, such as the amount of the asset and the fund.
+:::
+
