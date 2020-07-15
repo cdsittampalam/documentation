@@ -16,15 +16,12 @@ The [Navigation](#navigation) section shows you the main sections of the web app
 Web App Steps
 -------------
 
-You start the process of registering with Qredo from the web app.
+You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs.  
+From this page, you can also log in to the web app.
 
 ### Start Registration
 
-1.  Click **Join Qredo**. A lobby page shows an introductory video on Qredo and links to FAQs.    
-
-2. Click **Continue**.
-
-The Establish your Qredo Identity screen appears.
+Click **Continue**.  The Establish your Qredo Identity screen appears.
 
 
 ### Establish Qredo Identity
