@@ -78,8 +78,6 @@ Type in the code in **Email address validation code**. The page for downloading 
 
 ### Download Phone App
 
-![download](/doc-images/download.png)
-
 ![download](/doc-images/dload.png)
 
 An SMS is sent to your phone that contains a link to the mobile app on the app store. The SMS should arrive promptly.
@@ -87,6 +85,8 @@ An SMS is sent to your phone that contains a link to the mobile app on the app s
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
 
 ![splash](/doc-images/splash.png)
+
+![splashupdate](/doc-images/splash-update.png)
 
 1. If the SMS has not arrived, click on the resend button on the browser app page. The button shows a time limit for resending the SMS.
 2. Click **Continue**.
