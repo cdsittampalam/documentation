@@ -146,7 +146,7 @@ Before you create a master seed, the phone lets you scroll through an interactiv
 
 You are asked to provide Qredo with access to your Face ID/Touch ID before enabling the biometric feature that you use on your phone.
 
-![face](/doc-images/face.PNG)
+![face](/doc-images/face.png)
 
 1.  Tap **OK.**
 2.  Confirm your action in the operating system’s message.
