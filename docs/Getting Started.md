@@ -223,7 +223,7 @@ Once you have signed in to the web app, you are requested by Qredo to authentica
 
 Once granted, the Holdings page in the web app appears. The Holdings page is set up with a default fund, Fund One, containing a deposit address. You can start using the app from Fund One.
 
-![fundone](/doc-images/FundOnedefault.png)
+![fundone](/doc-images/Fund1D.png)
 
 See [Fund Administration](/docs/Fund%20Administration) for more details on funds.
 
