@@ -86,7 +86,7 @@ When you have downloaded the mobile app, a splash screen of the app appears as f
 
 ![splash](/doc-images/splash.png)
 
-![splashupdate](/doc-images/splash-update.png)
+![splashupdate](/doc-images/splash-upd.png)
 
 1. If the SMS has not arrived, click on the resend button on the browser app page. The button shows a time limit for resending the SMS.
 2. Click **Continue**.
