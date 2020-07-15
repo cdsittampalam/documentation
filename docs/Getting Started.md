@@ -3,6 +3,7 @@ id: Getting Started
 ---
 
 You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network with your Qredo web app and the Qredo mobile app. 
+
 ![Page1](/doc-images/page1.png)
 
 The main steps in the page are as follows:
@@ -161,7 +162,7 @@ The screen shows slots for creating your 6 digit PIN.
 2.  Enter the 6-digit PIN again to verify
 3.  In the confirmation screen, tap **Continue**.
 
-### Important Notes on the Seed Recovery Phrase
+### Important Seed Recovery Notes
 
 :::note
 Write down your seed recovery phrase clearly.
