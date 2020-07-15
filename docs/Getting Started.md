@@ -80,6 +80,8 @@ Type in the code in **Email address validation code**. The page for downloading 
 
 ![download](/doc-images/download.png)
 
+![download](/doc-images/dload.png)
+
 An SMS is sent to your phone that contains a link to the mobile app on the app store. The SMS should arrive promptly.
 
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
