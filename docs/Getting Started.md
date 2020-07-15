@@ -188,7 +188,7 @@ The phone shows screens to introduce the seed recovery phrase.
 7. Tap each entry and choose the word that matches the one in the phrase entry you recorded.
 
 ![confirm](/doc-images/confent.png)
-
+=
 When all entries are correct, the screen shows as follows:
 
 ![correct](/doc-images/correctent.png)
@@ -237,6 +237,6 @@ The screens of the web app includes these buttons for navigating to different se
 | **Button** | **Description** |
 | ![asset](/doc-images/coins.png)| The Asset view gives you details on all activities on a particular fund. This allows you to monitor and launch tasks from the fund.  |
 | ![Ledger](/doc-images/ledger.png) | The Ledger view provides you information on all inbound and outbound transactions for all your funds. This lets you monitor activity at the account level. |
-| ![Approvals](/doc-images/approval.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
-| ![TrustedNetwork](/doc-images/tick.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |
+| ![Approvals](/doc-images/tick.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
+| ![TrustedNetwork](/doc-images/trusted.png) | The Trusted Network view provides you details on invites to trusted parties. This lets you monitor to your invites to ensure you can manage your network. |
 | ![Account](/doc-images/initials.png) | The Account view gives you details about your account. You can monitor various areas of your account, such as the account details, plan, and legal documents. |
