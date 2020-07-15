@@ -188,7 +188,7 @@ The phone shows screens to introduce the seed recovery phrase.
 7. Tap each entry and choose the word that matches the one in the phrase entry you recorded.
 
 ![confirm](/doc-images/confent.png)
-=
+
 When all entries are correct, the screen shows as follows:
 
 ![correct](/doc-images/correctent.png)
