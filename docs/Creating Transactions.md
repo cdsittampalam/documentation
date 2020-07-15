@@ -198,7 +198,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
 
-You can view transaction progress in the Ledger view by clicking the Ledger icon.b
+You can view transaction progress in the Ledger view by clicking the Ledger icon.
 
 ![Ledger](/doc-images/ledger.png)
 
