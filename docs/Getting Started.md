@@ -70,7 +70,7 @@ You can download the full terms and conditions if you need to distribute and pri
 
 ### Validate Email Address
 
-![validate email](/doc-images/valemail.png)
+![validate email](/doc-images/valmail.png)
 
 You would have received an email from Qredo containing an evaluation code.
 
