@@ -4,11 +4,11 @@ id: Security & Cryptography
 
 The Qredo Network includes a secure architecture that allows transaction data to remain on the Qredo blockchain, and be handled 24 by 7. Cryptography, running behind-the-scenes, ensures that all data is kept hidden, and reduces the likelihood of attacks to impossible odds.
 
-This page describes:
+This page describes the following:
 
-*   data centre security
-*   MPC protocol
-*   BLS signature scheme
+*   [Data centre security](#data-centre-security)
+*   [MPC protocol](#mpc-protocol)
+*   [BLS signature scheme] (#bls-signature-scheme)
 
 
 Data Centre Security
