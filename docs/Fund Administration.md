@@ -5,6 +5,8 @@ id: Fund Administration
 
 As the user with the role of Account Owner, you have complete control over funds. You can view information on funds and transactions, and create funds to use on the Qredo Network. A fund in Qredo is a financial vehicle in your account that lets you organise all assets for use in transfer, deposit, and withdrawal transactions. A fund is also associated with custody policies where custodians govern the funds.
 
+A default fund is created for you that helps you understand how a fund works before you create one or funds for trading. There is also a deposit address on the fund for receiving money.
+
 Enterprise customers in future versions will be allowed to add multiple users and configure roles and permissions on each fund.
 
 Any type of user can create funds in order to manage assets. The following are examples:
@@ -16,8 +18,8 @@ Any type of user can create funds in order to manage assets. The following are e
 Summary of Steps
 ----------------
 
-* To familiarise yourself with the main web page on funds, you can [view the Holdings page]().
-* To find out how a fund works, you [View Fund One]() to see different parts of a fund.
+* To familiarise yourself with the main web page on funds, you can [view the Holdings page](#view-the-holdings-page).
+* To find out how a fund works, you [View Fund One](#view-fund-one) to see different parts of a fund.
 * Fund One contains a default asset of Bitcoin Testnet. However, you can [change the default settings]()
 * If you are familiar with funds in Qredo, you can do the steps in the [create a fund wizard]() 
 
