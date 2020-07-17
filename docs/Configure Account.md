@@ -25,7 +25,7 @@ Currently, you can view information on the:
 *   [Partner API](#partner-api)
 *   [legal agreement](#legal-agreement)
 
-You can also copy and download the legal agreement.
+You can also [copy](#copy-agreement) and [download](#download-agreement) the legal agreement.
 
 # View Account Settings
 
