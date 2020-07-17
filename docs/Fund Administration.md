@@ -13,6 +13,10 @@ Any type of user can create funds in order to manage assets. The following are e
 *   **Custody Provider** A custody provider can create a fund and seek other financial stakeholders to approve or reject transactions.
 *   **Traders** Traders can create transactions once they have created the funds.
 
+
+
+Summary of Steps
+
 The main sections and steps in this page are as follows:
 
 * [Holdings page](#holdings-page)
@@ -133,9 +137,13 @@ Create a Fund Wizard
 
 The Create a Fund wizard takes you through the steps for creating a fund. Each fund you create consists of assets. You can also set the same or different custodians for withdrawal and transfer policies.
 
-When you select custodians, you can also choose the threshold level. A threshold includes the minimum number of custodian signatures out of the total number for a transaction to happen. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3, needs fewer signatures for a transaction to take place.  
+When you select custodians, you can also choose the threshold level. 
 
 You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
+
+:::info
+More details on how custodians and thresholds work is provided in (/docs/Qredo%20Network#behaviours)
+:::
 
 ### Example
 
