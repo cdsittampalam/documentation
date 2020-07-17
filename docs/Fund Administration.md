@@ -142,7 +142,7 @@ When you select custodians, you can also choose the threshold level.
 You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
 
 :::info
-More details on how custodians and thresholds work is provided in [Behaviours](/docs/Qredo%20Network#behaviours)
+More details on how custodians and thresholds work is provided in [Behaviours](/docs/Qredo%20Network#behaviours) section of the Qredo Network Overview page.
 :::
 
 ### Example
