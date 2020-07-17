@@ -100,7 +100,7 @@ If you do not have a withdrawal address, you need to create one before the trans
 10.  Type in the wallet address in **Wallet Address**.    
 11.  Click **Continue**. See Authorise an Address (Trade Initiator) below.
 
-#### Authorise Address (Trade Initiator)
+### Authorise Address (Trade Initiator)
 
 As the initiator of the withdrawal, you confirm your decision by authorising using the phone app.
 
@@ -148,7 +148,7 @@ You also set the date and time or number of days for custodian approval, accordi
 10. To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.    
 11. Click **Review Withdrawal**.    
 
-#### Review Withdrawal
+### Review Withdrawal
 
 In the **Review Withdrawal** screen, you can see details of the withdrawal transaction.
 
@@ -177,7 +177,7 @@ The Blockchain miner's fee covers the work and resources they need to generate b
 1. To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
 2. To return to the previous screen, click **Back**.
 
-#### Authorise Withdrawal
+### Authorise Withdrawal
 
 Before authorising, you can view its details including the fees that are charged on the transaction.
 
@@ -190,7 +190,7 @@ Before authorising, you can view its details including the fees that are charged
 
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
-#### Approve Withdrawal
+### Approve Withdrawal
 
 As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the withdrawal custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the withdrawal policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to the [Behaviours] section in the Qredo Network page(/docs/Qredo%20Network/#behaviours).
 
@@ -219,7 +219,8 @@ You can also view other details linked to the transaction under the Show Details
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
 
-### Track Progress
+Track Progress
+--------------
 
 As the trade initiator, you can check the approval progress for address creation and transactions. Both addresses and transactions require approval from custodians.
 
