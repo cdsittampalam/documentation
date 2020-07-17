@@ -30,7 +30,8 @@ Click the **Add Trusted Party** button on the Trusted Network screen to show the
 
 ![Add Trusted](/doc-images/addtrusted.png)
 
-### Add from Qredo
+Add from Qredo
+--------------
 
 You enter an email address for a user on the Qredo Network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again.
 
