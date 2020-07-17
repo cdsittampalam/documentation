@@ -166,7 +166,7 @@ Entering name, description, and a theme enables your fund to be identified on th
 
 The second page of the wizard shows covering membership and permissions.
 
-#### Fund Membership and Permissions
+### Fund Membership and Permissions
 
 ![create fund](/doc-images/memship.png)
 
