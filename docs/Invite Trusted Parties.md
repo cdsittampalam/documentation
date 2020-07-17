@@ -39,7 +39,7 @@ You enter an email address for a user on the Qredo Network. The email address mu
 Send from Contacts
 -----------------
 
-1.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
+1.  From the Trusted Network screen, click the **Add Trusted Party** button. The Add Trusted Party screen shows.
 
     ![Add Trusted](/doc-images/addtrusted.png)
 
