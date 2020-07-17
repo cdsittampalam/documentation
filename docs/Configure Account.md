@@ -37,7 +37,7 @@ You can also copy and download the legal agreement.
 
    ![Account](/doc-images/acctcard.png)
 
-The Settings page appears.
+   The Settings page appears.
 
 3. Click the various tabs for the different sections of the page.
 
@@ -63,7 +63,7 @@ For more details, see [Role of the Account Owner](#role-of-the-account-owner)
 ## Billing Options
 
 The Billing section shows the Personal Plan associated with your Qredo account, and details of the Enterprise Plan that is available in a future release.
-To upgrade to an Enterprise Plan, please contact Qredo [support@qredo.com](email_to:support@qredo.com).
+To upgrade to an Enterprise Plan, please contact Qredo [support@qredo.com]<support@qredo.com>.
 
 ![Billing](/doc-images/2billing.png)
 
