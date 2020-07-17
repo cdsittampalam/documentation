@@ -22,7 +22,7 @@ Summary of Steps
 - As the trade initiator, you can [create a transaction](#create-transaction)
 - As the trade initiator, you can [track progress](#track-progress) in different ways
 
-A custodian that is nominated can [approve a withdrawal]() 
+A custodian that is nominated can [approve a withdrawal](#approve-withdrawal) 
 
 View Deposit Addresses
 ----------------------
