@@ -19,7 +19,7 @@ Summary of Steps
 ----------------
 
 * To familiarise yourself with the main web page on funds, you can [view the Holdings page](#view-the-holdings-page).
-* To find out how a fund works, you [View Fund One](#view-fund-one) to see different parts of a fund.
+* To find out how a fund works, you can [view Fund One](#view-fund-one) to see different parts of a fund.
 * Fund One contains a default asset of Bitcoin Testnet. However, you can [change the default settings](#change-default-settings)
 * If you are familiar with funds in Qredo, you can do the steps in the [create a fund wizard](#create-a-fund-wizard) 
 
