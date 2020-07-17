@@ -57,7 +57,7 @@ As a user on the Qredo Network, you would have received an invite on your phone 
 2.  Sign in to the app using the biometric feature of your phone.
 3.  Enter your 6-digit PIN. The Trusted Party screen shows.
 
-![parties](/doc-images/trustedP1.png)
+    ![parties](/doc-images/trustedP1.png)
 
 4.  To approve the pairing request, tap **Approve**.
 5.  Authenticate using the biometric feature and 6-digit PIN.
@@ -90,7 +90,7 @@ In the Approvals view, you can monitor responses to your invites. The Approvals 
 
 1. Click the the Approval icon to access the Approvals view.
 
-![Button Approve](/doc-images/button-approve.png)  
+   ![Button Approve](/doc-images/button-approve.png)  
 
 2. In the Approvals view, click the **Trusted Parties** tab.
 
