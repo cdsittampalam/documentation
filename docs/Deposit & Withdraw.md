@@ -11,9 +11,18 @@ For a withdrawal transaction, you send money out of a fund on Qredo to an extern
 When recorded on the Qredo blockchain, a transaction is always linked to the underlying blockchain.
 :::
 
-This page includes the following main sections:
-- [Deposit Money](#deposit-money)
-- [Withdraw Money](#withdraw-money)
+Summary of Steps
+----------------
+
+- For funds that are deposited, you can 
+  - [view deposit addresses]()
+  - [copy an existing address]()
+  - [view deposit transactions]()
+- As the trade initiator, you can [create a withdrawal address]()
+- As the trade initiator, you can [create a transfer]()
+- As the trade initiator, you can [track progress]()in different ways
+
+A custodian that is nominated can [approve a transaction]() 
 
 Deposit Money
 -------------
@@ -315,7 +324,6 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
 ![Transaction Approval](/doc-images/cusappr.png)
-
 
 #### Transaction View (Ledger)
 
