@@ -87,11 +87,12 @@ Monitor Responses
 -----------------
 
 In the Approvals view, you can monitor responses to your invites. The Approvals view shows trusted parties that have approved and/or rejected invites.
-You can access the Approvals view by clicking the Approval icon:
+
+1. Click the the Approval icon to access the Approvals view.
 
 ![Button Approve](/doc-images/button-approve.png)  
 
-In the Approvals view, click the **Trusted Parties** tab.
+2. In the Approvals view, click the **Trusted Parties** tab.
 
 The view shows entries for invites that have been approved or denied. The invites entries are grouped in to **Pending** and **Actioned**.
 
