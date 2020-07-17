@@ -15,7 +15,7 @@ Currently, you can:
 *   check Qredo user permissions.
 *   view current individual plan and enterprise plan details (available in future versions).
 *   find out details of the Partner API.
-*   view copy and download the legal agreement.
+*   view, copy and download the legal agreement.
 
 ### Future Version Features
 
