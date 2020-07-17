@@ -146,7 +146,7 @@ More details on how custodians and thresholds work is provided in [Behaviours](/
 
 ![address](/doc-images/startwiz.png)
 
-2. Enter [basic details].
+2. Enter [basic details](#basic-details).
 3. Fill in details on [membership and permissions].
 4. Choose [transfer policy custodians].
 5. Select [withdrawal policy custodians].
@@ -166,7 +166,7 @@ Entering name, description, and a theme enables your fund to be identified on th
 
 The second page of the wizard shows covering membership and permissions.
 
-#### Membership and Permissions
+#### Fund Membership and Permissions
 
 ![create fund](/doc-images/memship.png)
 
