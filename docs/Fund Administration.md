@@ -147,10 +147,10 @@ More details on how custodians and thresholds work is provided in [Behaviours](/
 ![address](/doc-images/startwiz.png)
 
 2. Enter [basic details](#basic-details).
-3. Fill in details on [membership and permissions].
-4. Choose [transfer policy custodians].
-5. Select [withdrawal policy custodians].
-6. [Review Details]
+3. Fill in details on [fund membership and permissions](#fund-membership-and-permissions).
+4. Choose [transfer policy custodians](#transfer-policy-custodians).
+5. Select [withdrawal policy custodians](#withdrawal-policy-custodians).
+6. [Review Details](#review-details)
 
 ### Basic Details
 
