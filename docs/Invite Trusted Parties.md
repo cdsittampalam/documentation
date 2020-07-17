@@ -7,8 +7,8 @@ Summmary of Steps
 -----------------
 
 - When sending invites to trusted parties, you can:
-  - add from Qredo
-  - add from contacts
+  - send from Qredo
+  - send from contacts
 - As a user already on the Qredo network, you can:
   - accept an invite
   - reject an invite
@@ -16,69 +16,44 @@ Summmary of Steps
 - Once you have your invite list, you can also manage your invite list
 
 
-You can access the Trusted Network screen by clicking the Trusted Network icon:
-
-![Trusted Network Button](/doc-images/button-trustednetwork.png)
-
-
-
-
-Send Email Invite
------------------
-
-Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
-
-![Add Trusted](/doc-images/addtrusted.png)
-
-Add from Qredo
+Send from Qredo
 --------------
 
 You enter an email address for a user on the Qredo Network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again.
 
-1.  In the Search the Qredo Network section, enter the email address of the user and click **Search**.
-2.  If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address.  
+1.  From any of the web app screens, click the Trusted Network icon:
 
-![Add Trusted](/doc-images/AddTrustedConf.png)
+    ![Trusted Network Button](/doc-images/button-trustednetwork.png)
 
-3.  Click **Confirm**. The screens shows that the request was sent.
-4.  Click Close.
+2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
-Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list)).
+    ![Add Trusted](/doc-images/addtrusted.png)
+    
+3.  In the Search the Qredo Network section, enter the email address of the user and click **Search**. If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address.  
+    
+    ![Add Trusted](/doc-images/AddTrustedConf.png)
 
-### Add from Contacts
+4.  Click **Confirm**. The screens shows that the request was sent.
+5.  Click Close.
+6.  Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list)).
 
-In the Invite to Qredo Network section, the URL of the Join page appears. This allows a recipient of the invitation to go directly to the Join page on the Qredo website.
+Send from Contacts
+-----------------
 
-click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent to the recipient via the selected service.
+1.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
-You can check the Trusted Network screen for details of the new invite (see the next section).
+    ![Add Trusted](/doc-images/addtrusted.png)
 
-Manage Invite List
-------------------
+     In the Invite to Qredo Network section, the URL of the Join page appears. This allows a recipient of the invitation to go directly to the Join page on the Qredo website.
 
-The Trusted Network screen shows the status of your invites sent to either contacts outside of Qredo or to users within the Qredo Network. Invite entries show as either:  
+2.  Click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent to the recipient via the selected service.
+3.  Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list)).
 
-*  PAIRED - where the user or contact has accepted the invite.  
-*  PENDING - where the user or contact has not yet accepted the invite.
 
-![Trustednetworkupdate](/doc-images/3trustednetworkscreenupdate.png)
-
-If you have just sent an invite and are waiting for the recipient to accept, the invite shows PENDING.
-
-If you have sent an invite to contacts via LinkedIn, Telegram or WhatsApp, the status of PENDING can mean that it has been rejected. If the user has not accepted the invite, they can still invite you to join their network at a later time as their trusted party.
-
-### Clear Paired Status
-
-If there are many invites in the list, you can manage the list to show fewer invites by clearing the paired entries. Double-click the button for each entry labelled **Paired**.
-
-Custodian Approvals
--------------------
+Accept an Invite
+----------------
 
 As a user on the Qredo Network, you would have received an invite on your phone to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
-
-If you do not want to be part of their network, you can reject their invite.
-
-### Approve Request  
 
 1.  Tap on the notification for the invite.
 2.  Sign in to the app using the biometric feature of your phone.
@@ -95,7 +70,10 @@ You will then see the following screen indicating that the request has been acti
 
 ![trusted parties actioned](/doc-images/TPappr.png)
 
-### Reject Request
+Reject an Invite
+----------------
+
+If you do not want to be part of their network, you can reject their invite. 
 
 1.  To reject the pairing request, tap **Reject** in the Trusted Party screen.
 2.  Authenticate using the biometric feature and 6-digit PIN.
@@ -107,7 +85,8 @@ You will then see the following screen indicating that the request has been acti
 
 ![trusted parties denied](/doc-images/TPRej.png)
 
-### Monitor Responses
+Monitor Responses
+-----------------
 
 In the Approvals view, you can monitor responses to your invites. The Approvals view shows trusted parties that have approved and/or rejected invites.
 You can access the Approvals view by clicking the Approval icon:
@@ -131,3 +110,21 @@ The status shows the following information:
 
 - For invite entries that are pending, the status shows as AWAITING CONFIRMATION.
 - For invite entries that have been actioned, the status shows as AUTHORISED or IGNORED.
+
+Manage Invite List
+------------------
+
+The Trusted Network screen shows the status of your invites sent to either contacts outside of Qredo or to users within the Qredo Network. Invite entries show as either:  
+
+*  PAIRED - where the user or contact has accepted the invite.  
+*  PENDING - where the user or contact has not yet accepted the invite.
+
+![Trustednetworkupdate](/doc-images/3trustednetworkscreenupdate.png)
+
+If you have just sent an invite and are waiting for the recipient to accept, the invite shows PENDING.
+
+If you have sent an invite to contacts via LinkedIn, Telegram or WhatsApp, the status of PENDING can mean that it has been rejected. If the user has not accepted the invite, they can still invite you to join their network at a later time as their trusted party.
+
+### Clear Paired Status
+
+If there are many invites in the list, you can manage the list to show fewer invites by clearing the paired entries. Double-click the button for each entry labelled **Paired**.
