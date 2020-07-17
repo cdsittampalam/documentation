@@ -7,14 +7,13 @@ Summmary of Steps
 -----------------
 
 - When sending invites to trusted parties, you can:
-  - send from Qredo
-  - send from contacts
+  - [send from Qredo](#send-from-qredo)
+  - [send from contacts](#send-from-contacts)
 - As a user already on the Qredo network, you can:
-  - accept an invite
-  - reject an invite
-- As the user who sent the invite, you can monitor responses
-- Once you have your invite list, you can also manage your invite list
-
+  - [accept an invite](#accept-an-invite) 
+  - [reject an invite](#reject-an-invite)
+- As the user who sent the invite, you can [monitor responses](#monitor-responses)
+- Once you have your invite list, you can also [manage your invite list](#manage-invite-list)
 
 Send from Qredo
 --------------
