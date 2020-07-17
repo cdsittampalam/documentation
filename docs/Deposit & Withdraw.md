@@ -20,7 +20,7 @@ Summary of Steps
   - [view deposit transactions]()
 - As the trade initiator, you can [create a withdrawal address]()
 - As the trade initiator, you can [create a transfer]()
-- As the trade initiator, you can [track progress]()in different ways
+- As the trade initiator, you can [track progress]() in different ways
 
 A custodian that is nominated can [approve a transaction]() 
 
@@ -30,13 +30,18 @@ Deposit Money
 The default fund and asset that you have set up includes a deposit address, which is the cryptocurrency wallet address that is linked to a Qredo fund. However, any
 fund that you create is linked to a deposit address. The address is securely created using the MPC protocol. Details on deposit addresses appear in both Asset and Ledger view.
 
-You are notified when money arrives at your address via an email.
-
 ### View Deposit Addresses
 
-You view deposit addresses from Asset view by clicking either the Asset icon:
+The default fund and asset that you have set up includes a deposit address, which is the cryptocurrency wallet address that is linked to a Qredo fund. However, any
+fund that you create is linked to a deposit address. The address is securely created using the MPC protocol. 
+
+You are notified when money arrives at your address via an email.
+
+1. Click the asset or ledger icon.
 
 ![coins](/doc-images/coins.png)
+
+![Ledger](/doc-images/ledger.png) 
 
 The following shows address entries in Asset view.
 
@@ -70,45 +75,33 @@ In Ledger view, you can see deposit transactions to one or more funds that you a
 | REFERENCE | Reference number for the deposit transaction. |
 | SENDER | Name of the sender. |
 
-Withdraw Money
---------------
-
-You set up a withdrawal transaction as a trade initiator using the web app. To confirm that you want the transaction to happen, you can authorise it through the mobile app.
-
-### Blockchain Miner's Fee
-
-Qredo charges fees to withdraw, which includes the Blockchain miner's fee, The fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
-
-### Custodian Role
-
-As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the withdrawal custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the withdrawal policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
-
-### Create New Address
+Create New Address
+------------------
 
 If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address.
 
-If you have a whitelisted address, go to the steps for setting up a withdrawal transaction (see [Create a Transaction](#create-a-transaction))
+1. Click the asset or ledger icon.
 
-You start your action from either the Asset view or Ledger view.
+![coins](/doc-images/coins.png)
 
-#### Steps
+![Ledger](/doc-images/ledger.png) 
 
-1. Click the **New TX** button. The Select Type window shows.
+2. Click the **New TX** button. The Select Type window shows.
 
 ![startwithdraw](/doc-images/StartWithdrawR.png)
 
-2.  Choose the **Withdraw** option in Select Type.    
-3.  Click **Continue**. The Withdraw screen shows.  
-4.  To set up a withdraw address on the fund, choose a fund from the **Fund** list and click the **Add Withdrawal Address** button. The Add Withdrawal Address screen shows.
+3.  Choose the **Withdraw** option in Select Type.    
+4.  Click **Continue**. The Withdraw screen shows.  
+5.  To set up a withdraw address on the fund, choose a fund from the **Fund** list and click the **Add Withdrawal Address** button. The Add Withdrawal Address screen shows.
 
 ![add withdrawal add](/doc-images/addwithadd.png)
 
-5.  To set up a withdraw address on an asset, choose an asset from the **Asset** list and click the **Add Withdrawal Address** button. The same screen appears.
-6.  In the Add Withdrawal Address screen, select the fund that you want to add the address to in **Source Fund**.    
-7.  Choose the asset type in **Asset**.    
-7.  Enter a name for the wallet in **Wallet Name**.    
-8.  Type in the wallet address in **Wallet Address**.    
-9.  Click **Continue**. See Authorise an Address (Trade Initiator) below.
+6.  To set up a withdraw address on an asset, choose an asset from the **Asset** list and click the **Add Withdrawal Address** button. The same screen appears.
+7.  In the Add Withdrawal Address screen, select the fund that you want to add the address to in **Source Fund**.    
+8.  Choose the asset type in **Asset**.    
+9.  Enter a name for the wallet in **Wallet Name**.    
+10.  Type in the wallet address in **Wallet Address**.    
+11.  Click **Continue**. See Authorise an Address (Trade Initiator) below.
 
 #### Authorise Address (Trade Initiator)
 
@@ -135,17 +128,15 @@ You can also view other details of the withdrawal address including:
 
 For the action you select, you then sign in with your biometric features and 6-digit PIN, and tap confirm on the confirmation screens.
 
-### Create Transaction
+Create Transaction
+------------------
 
 For withdrawing money, the Qredo app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination cryptocurrency address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal.
 
 You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 
-In the same way as a withdrawal address, you start your action from the Asset view or Ledger view.
-
-#### Steps
-
-1.  Click the **New TX** button. The Select Type window shows.
+1.  Begin the task from in the Asset view or Ledger view.
+2.  Click the **New TX** button. The Select Type window shows.
 2.  Choose the **Withdraw** option in the Select Type box.   
 3.  Click **Continue**. The Withdraw screen shows, and includes a scrollbar that lets you scroll down to other options.
 
@@ -172,7 +163,7 @@ These include:
 *   Source fund    
 *   Transaction reference number
 *   Expiry date and time information    
-*   Blockchain miner's fee
+*   Blockchain miner's fee (see note)
 *   Total withdrawal cost (including the amount to withdraw and the miner's fee)
 *   Balance after the total withdrawal cost is deducted
 *   From details:
@@ -182,12 +173,16 @@ These include:
 *   To details:
      * Withdraw wallet address   
 
+:::info
+Qredo charges fees to withdraw, which includes the Blockchain miner's fee, The fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
+:::
+
+
+
 1. To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
 2. To return to the previous screen, click **Back**.
 
 Once authorised, the custodian can also approve or reject the transaction.
-
----
 
 #### Authorise Withdrawal
 
@@ -203,6 +198,8 @@ Before authorising, you can view its details including the fees that are charged
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
 #### Approve Withdrawal
+
+As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the withdrawal custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the withdrawal policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to the [Behaviours] section in the Qredo Network page(/docs/Qredo%20Network/#behaviours).
 
 You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal screen on your phone asks you to approve or reject the new transaction. The screen also shows the following information:
 
@@ -230,6 +227,33 @@ You can also view other details linked to the transaction under the Show Details
 4.  To reject, tap **Reject**.
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+
+
+
+
+### Blockchain Miner's Fee
+
+
+
+### Custodian Role
+
+
+
+
+
+
+
+#### Steps
+
+
+
+
+
+---
+
+
+
+
 
 ### Track Progress
 
