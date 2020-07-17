@@ -230,11 +230,11 @@ You can view approvals from the Approval view, which appears by clicking the App
 
 These include details of:
 
-* [withdrawal address approvals]
-* [transactions approvals] that cover those from the trade initiator and one or more custodians
-* [custodian approvals] specifically for the fund of the transaction
-* [Transactions in Ledger View]() for all funds under your account.
-* [progress details]() in the form of a summary screen in both Approval and Ledger view. 
+* [withdrawal address approvals](#address-approvals)
+* [transactions approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians
+* [custodian approvals](#custodian-approvals) specifically for the fund of the transaction
+* [Transactions in Ledger View](#transaction-view-ledger) for all funds under your account.
+* [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view. 
 
 :::info 
 Transactions in Ledger view includes both those that are pending, and those that have been written to the blockchain.
