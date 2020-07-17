@@ -14,13 +14,14 @@ When recorded on the Qredo blockchain, a transaction is always linked to the und
 Summary of Steps
 ----------------
 
-- For funds that are deposited, you can 
+For Deposit addresses, you can  
   - [view deposit addresses](#view-deposit-addresses)
-  - [copy an existing address](#copy-address)
-  - [view deposit transactions](#view-transactions)
-- As the trade initiator, you can [create a withdrawal address](#create-new-address)
-- As the trade initiator, you can [create a transaction](#create-transaction)
-- As the trade initiator, you can [track progress](#track-progress) in different ways
+  - [copy an address](#copy-address)
+  - [view transactions](#view-transactions)
+For withdrawals, a trade initiator can:
+  - [create a new address](#create-new-address)
+  - [create a transaction](#create-transaction)
+  - [track progress](#track-progress) in different ways
 
 A custodian that is nominated can [approve a withdrawal](#approve-withdrawal) 
 
@@ -75,7 +76,7 @@ In Ledger view, you can see deposit transactions to one or more funds that you a
 Create New Address
 ------------------
 
-If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address.
+If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address. As the initiator of the withdrawal, you confirm your decision by authorising using the phone app.
 
 1. Click the asset or ledger icon.
 
@@ -101,8 +102,6 @@ If you do not have a withdrawal address, you need to create one before the trans
 11.  Click **Continue**. See Authorise an Address (Trade Initiator) below.
 
 ### Authorise Address (Trade Initiator)
-
-As the initiator of the withdrawal, you confirm your decision by authorising using the phone app.
 
 1.  Tap the notification that you received on your phone. The Withdraw Address screen shows details of the transaction including fees.   
 
