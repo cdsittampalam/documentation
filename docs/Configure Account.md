@@ -26,31 +26,26 @@ In future versions, you will be able to:
 *   change the account owner.
 *   view/edit account permissions and/or members.
 
-Details on your account is accessed from the Account icon that contains your own initials:
+View Account Settings
+---------------------
+
+1. From any of the main pages, click the Account icon that contains your own initials:
 
 ![Account](/doc-images/initials.png)
 
-Show Account Settings
----------------------
-
-The web app shows summary information of your account in a pop-up card view. From the account card, you can access the Settings page.
-
-1. Click the Account icon. Your account card appears.
+2. In the displayed account card, click the button to display account details. The Settings page appears.
 
 ![Account](/doc-images/acctcard.png)
 
-2. Click the button to display account details. The Settings page appears.
-2. In the Settings page, click the various tabs for the different sections of the page.
+3. Click the various tabs for the different sections of the page.
 
-Account Details
----------------
+### Account Details
 
 The Account Details section shows information that was saved to your account on registration, including your first name, last name, and email address. The account status shows as Active or Inactive.
 
 ![Settings](/doc-images/1accountdetail.png)
 
-Permissions
------------
+### Permissions
 
 The Permissions section shows your Qredo user role.
 
@@ -63,27 +58,21 @@ For more details, see [Role of the Account Owner](#role-of-the-account-owner)
 
 ![perms](/doc-images/1perms.png)
 
-Billing
--------
+### Billing
 
-
-The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal Plan only.
-In future versions, users can be part of an Enterprise Plan.
+The Billing section shows the Personal Plan associated with your Qredo account, and details of the Enterprise Plan that is available in a future release.
+To upgrade to an Enterprise Plan, please contact Qredo.
 
 ![Billing](/doc-images/2billing.png)
 
+### Partner API
 
-Partner API
------------
-
-
-This section provides details on the Partner API.
+This section provides details on the Partner API and who the API is geared for.
 
 ![Billing](/doc-images/partnerapi.png)
 
 
-Legal
------
+### Legal
 
 The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program by clicking **Copy Link**. Alternatively, you can download the agreement by clicking **Download**.
 
