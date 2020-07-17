@@ -3,7 +3,7 @@ id: Deposit & Withdraw
 
 ---
 
-For a deposit transaction, users can add money to a whitelisted cryptocurrency address that is linked to your fund. Once added, the money is safely stored on the Qredo blockchain as a transaction and is subject to the custodial policies of its associated fund. The Qredo Network ensure that deposited money remains liquid, and is ready to be transferred to another Qredo user if needed.
+For a deposit transaction, users can add money to a whitelisted cryptocurrency address that is linked to your fund (either the default fund or one you created). Once added, the money is safely stored on the Qredo blockchain as a transaction and is subject to the custodial policies of its associated fund. Details on deposit addresses appear in both Asset and Ledger view. The Qredo Network ensures that deposited money remains liquid, and is ready to be transferred to another Qredo user if needed.
 
 For a withdrawal transaction, you send money out of a fund on Qredo to an external cryptocurrency address. When sent to a whitelisted address, the money is no longer subject to the custody policies and ownership rights of the Qredo Network. Qredo gives you the flexibility of adding money back on to the network at a later point in time.
 
@@ -23,12 +23,6 @@ Summary of Steps
 - As the trade initiator, you can [track progress]() in different ways
 
 A custodian that is nominated can [approve a transaction]() 
-
-Deposit Money
--------------
-
-The default fund and asset that you have set up includes a deposit address, which is the cryptocurrency wallet address that is linked to a Qredo fund. However, any
-fund that you create is linked to a deposit address. The address is securely created using the MPC protocol. Details on deposit addresses appear in both Asset and Ledger view.
 
 ### View Deposit Addresses
 
@@ -177,12 +171,8 @@ These include:
 Qredo charges fees to withdraw, which includes the Blockchain miner's fee, The fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
 :::
 
-
-
 1. To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
 2. To return to the previous screen, click **Back**.
-
-Once authorised, the custodian can also approve or reject the transaction.
 
 #### Authorise Withdrawal
 
@@ -227,33 +217,6 @@ You can also view other details linked to the transaction under the Show Details
 4.  To reject, tap **Reject**.
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
-
-
-
-
-### Blockchain Miner's Fee
-
-
-
-### Custodian Role
-
-
-
-
-
-
-
-#### Steps
-
-
-
-
-
----
-
-
-
-
 
 ### Track Progress
 
