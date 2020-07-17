@@ -11,7 +11,7 @@ For a withdrawal transaction, you send money out of a fund on Qredo to an extern
 When recorded on the Qredo blockchain, a transaction is always linked to the underlying blockchain.
 :::
 
-Summary of Stepsdepo
+Summary of Steps
 ----------------
 
 For deposits, you can:  
@@ -231,9 +231,9 @@ You can view approvals from the Approval view, which appears by clicking the App
 
 These include details of:
 
-* [address approvals](#address-approvals)
-* [transactions approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians
-* [custodian approvals](#custodian-approvals) specifically for the fund of the transaction
+* [address approvals](#address-approvals) from the trade initiator of a specific fund.
+* [transactions approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians.
+* [custodian approvals](#custodian-approvals) specifically for the fund of the transaction.
 * [Transactions in Ledger View](#transaction-view-ledger) for all funds under your account.
 * [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view. 
 
