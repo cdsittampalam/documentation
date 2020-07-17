@@ -31,9 +31,11 @@ In future versions, you will be able to:
 
 ![Account](/doc-images/initials.png)
 
-2. In the displayed account card, click the button to display account details. The Settings page appears.
+2. In the displayed account card, click the Account Settings button to display account details. 
 
 ![Account](/doc-images/acctcard.png)
+
+The Settings page appears.
 
 3. Click the various tabs for the different sections of the page.
 
