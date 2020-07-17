@@ -19,7 +19,7 @@ Summary of Steps
   - [copy an existing address]()
   - [view deposit transactions]()
 - As the trade initiator, you can [create a withdrawal address]()
-- As the trade initiator, you can [create a transfer]()
+- As the trade initiator, you can [create a transaction]()
 - As the trade initiator, you can [track progress]() in different ways
 
 A custodian that is nominated can [approve a transaction]() 
@@ -209,8 +209,6 @@ You can also view other details linked to the transaction under the Show Details
 *   the name, email address, and network alias of the trade initiator.   
 *   details of the Qredo fee.
 
-#### Steps
-
 1.  Tap the notification on your phone. The Withdrawal screen shows.    
 2.  Click **Show Details** to view more details of the transaction.
 3.  To approve, tap **Approve**.    
@@ -230,9 +228,16 @@ You can view approvals from the Approval view, which appears by clicking the App
 
 These include details of:
 
-* withdrawal address approvals
-* transactions approvals that cover those from the trade initiator and one or more custodians
-* custodian approvals specifically for the fund of the transaction
+* [withdrawal address approvals]
+* [transactions approvals] that cover those from the trade initiator and one or more custodians
+* [custodian approvals] specifically for the fund of the transaction
+* [Transactions in Ledger View]() for all funds under your account.
+* [progress details]() in the form of a summary screen in both Approval and Ledger view. 
+
+:::info 
+Transactions in Ledger view includes both those that are pending, and those that have been written to the blockchain.
+:::
+
 
 #### Address Approvals
 
@@ -250,7 +255,6 @@ The Pending sub tab shows these fields and pending approvals.
 | ADDRESS | Address that has been created. |
 | REQUESTED | Date and time in which the approval request was sent. |
 | STATUS | Status of the approval as “awaiting confirmation”. |
-
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
 
@@ -314,13 +318,11 @@ The following is an example actioned entry in the Approval view with the status 
 
 #### Transaction View (Ledger)
 
-Transactions are presented in Ledger view which shows transactions for all funds under your account. The transactions includes both those that are pending, and those that have been written to the blockchain.
-
-You can view the transaction progress in the Ledger view by clicking the Ledger icon,
+1. Click the Ledger icon,
 
 ![Ledger](/doc-images/ledger.png)
 
-You then access the Outbound tab.
+2. Click the Outbound tab.
 
 TX Ledger shows the following details:
 
