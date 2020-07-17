@@ -73,12 +73,19 @@ This section provides details on the Partner API and who the API is geared for.
 
 ![Billing](/doc-images/partnerapi.png)
 
-
 ## Legal Agreement
 
-The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program by clicking **Copy Link**. Alternatively, you can download the agreement by clicking **Download**.
+The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program. Or, you can directly download the agreement. 
 
 ![Legal](/doc-images/1Legal.png)
+
+### Copy Agreement
+
+From the page, click **Copy Link**.
+
+### Download Agreement
+
+From the page, click **Download**.
 
 ## Role of the Account Owner
 
