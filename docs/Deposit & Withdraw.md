@@ -294,7 +294,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 ![Transaction Approval](/doc-images/trapr2.png)
 
-#### Custodian Approvals
+### Custodian Approvals
 
 1.  Click the **Custody** tab,    
 2.  Click the **Pending** or **Actioned** sub-tabs.
@@ -319,7 +319,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 ![Transaction Approval](/doc-images/cusappr.png)
 
-#### Transaction View (Ledger)
+### Transaction View (Ledger)
 
 1. Click the Ledger icon,
 
@@ -347,7 +347,7 @@ The following shows an example transaction ledger with the status set to AWAITIN
 
 ![Transaction Approval](/doc-images/outTX1.png)
 
-#### Progress Details
+### Progress Details
 
 For both the Approval and Ledger view, a summary screen shows details of the progress of a single transaction. Summary screen headers can show in a particular colour to represent a category:
 
