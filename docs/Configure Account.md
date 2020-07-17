@@ -63,7 +63,7 @@ For more details, see [Role of the Account Owner](#role-of-the-account-owner)
 ## Billing Options
 
 The Billing section shows the Personal Plan associated with your Qredo account, and details of the Enterprise Plan that is available in a future release.
-To upgrade to an Enterprise Plan, please contact Qredo.
+To upgrade to an Enterprise Plan, please contact Qredo [support@qredo.com](support@qredo.com).
 
 ![Billing](/doc-images/2billing.png)
 
