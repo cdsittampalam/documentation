@@ -230,7 +230,7 @@ You can view approvals from the Approval view, which appears by clicking the App
 
 These include details of:
 
-* [withdrawal address approvals](#address-approvals)
+* [address approvals](#address-approvals)
 * [transactions approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians
 * [custodian approvals](#custodian-approvals) specifically for the fund of the transaction
 * [Transactions in Ledger View](#transaction-view-ledger) for all funds under your account.
