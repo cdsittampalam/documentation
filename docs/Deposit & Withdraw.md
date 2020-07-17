@@ -22,9 +22,10 @@ Summary of Steps
 - As the trade initiator, you can [create a transaction](#create-transaction)
 - As the trade initiator, you can [track progress](#track-progress) in different ways
 
-A custodian that is nominated can [approve a transaction]() 
+A custodian that is nominated can [approve a withdrawal]() 
 
-### View Deposit Addresses
+View Deposit Addresses
+----------------------
 
 The default fund and asset that you have set up includes a deposit address, which is the cryptocurrency wallet address that is linked to a Qredo fund. However, any
 fund that you create is linked to a deposit address. The address is securely created using the MPC protocol. 
@@ -48,13 +49,15 @@ The following shows address entries in Asset view.
 
 ![depositaddresses](/doc-images/CopyDep.png)
 
-### Copy Address
+Copy Address
+------------
 
 To ensure that a deposit address is valid, you can copy the address using the Copy Address function before adding it to a third-party application. When copied, the address is stored in your system's clipboard. For example, you can copy an address before adding to Blockchain explorer.
 
 Click the **Copy** button on the address entry.
 
-### View Transactions
+View Transactions
+-----------------
 
 In Ledger view, you can see deposit transactions to one or more funds that you are the owner of. All deposit transactions are listed in the Inbound tab.
 
