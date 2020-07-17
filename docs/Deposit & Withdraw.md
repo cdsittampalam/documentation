@@ -15,7 +15,7 @@ Summary of Steps
 ----------------
 
 - For funds that are deposited, you can 
-  - [view deposit addresses](#view-deposit-ddresses)
+  - [view deposit addresses](#view-deposit-addresses)
   - [copy an existing address](#copy-address)
   - [view deposit transactions](#view-transactions)
 - As the trade initiator, you can [create a withdrawal address](#create-new-address)
