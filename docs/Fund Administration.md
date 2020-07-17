@@ -76,17 +76,23 @@ As a custody provider accepting or rejecting transactions on behalf of an invest
 
 A policy also includes a threshold that has the minimum number of custodian signatures out of the total number for a transaction to happen.
 
+Within the Custody section, you can also click the Withdrawal Policy and TX Policy tabs.
+
 #### Withdrawal Policy and TX Policy Tabs
 
-The Withdrawal and TX tabs include custody policies comprising of custodians and the associated threshold levels for withdrawals and transfers. Withdrawals and transfers can have different custodians and threshold levels. For Fund One, there is only one custodian and a threshold policy of 1/1 for both withdrawals and transfers.
+The Withdrawal and TX tabs include custody policies comprising of custodians and the associated threshold levels for withdrawals and transfers. Withdrawals and transfers can have different custodians and threshold levels. 
+
+In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for both policies. Each policy contains a set threshold level.
+
+![Fund A](/doc-images/ManagingFundA.png)
+
+For Fund One, there is only one custodian and a threshold policy of 1/1 for both withdrawals and transfers.
 
 :::info
 When you create a fund, you can assign any number of custodians for withdrawals and transfers.
 :::
 
 ![custody fund](/doc-images/Custodyinfo3.png)
-
-
 
 ### View Transactions & Addresses
 
@@ -134,23 +140,15 @@ You can repeat the steps to create multiple funds differentiated by the asset ty
 More details on how custodians and thresholds work is provided in [Behaviours](/docs/Qredo%20Network#behaviours) section of the Qredo Network Overview page.
 :::
 
-### Example
-
-In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for both policies. Each policy contains a set threshold level.
-
-![Fund A](/doc-images/ManagingFundA.png)
-
-### Custody Providers
-
-As an investor creating funds, you will need to work closely with a custody provider in order to decide policies and the threshold.
-
-### Start Wizard
-
-From the Summary section in the Holdings page, click the Plus icon or **Create New Fund**.
+1. From the Summary section in the Holdings page, click the Plus icon or **Create New Fund**.
 
 ![address](/doc-images/startwiz.png)
 
-The first page of the wizard appears covering basic details.
+2. Enter [basic details].
+3. Fill in details on [membership and permissions].
+4. Choose [transfer policy custodians].
+5. Select [withdrawal policy custodians].
+6. [Review Details]
 
 ### Basic Details
 
