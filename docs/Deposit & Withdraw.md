@@ -15,12 +15,12 @@ Summary of Steps
 ----------------
 
 - For funds that are deposited, you can 
-  - [view deposit addresses]()
-  - [copy an existing address]()
-  - [view deposit transactions]()
-- As the trade initiator, you can [create a withdrawal address]()
-- As the trade initiator, you can [create a transaction]()
-- As the trade initiator, you can [track progress]() in different ways
+  - [view deposit addresses](#view-deposit-ddresses)
+  - [copy an existing address](#copy-address)
+  - [view deposit transactions](#view-transactions)
+- As the trade initiator, you can [create a withdrawal address](#create-new-address)
+- As the trade initiator, you can [create a transaction](#create-transaction)
+- As the trade initiator, you can [track progress](#track-progress) in different ways
 
 A custodian that is nominated can [approve a transaction]() 
 
@@ -142,8 +142,8 @@ You also set the date and time or number of days for custodian approval, accordi
 7.  Enter the amount that you want to withdraw in **Amount**. The Blockchain Miner's fee and total withdrawal cost appears.   
 8.  Type in a reference number in **Reference**.    
 9.  To select a date for when the withdrawal takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.    
-10.  To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.    
-11.  Click **Review Withdrawal**.    
+10. To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.    
+11. Click **Review Withdrawal**.    
 
 #### Review Withdrawal
 
@@ -168,7 +168,7 @@ These include:
      * Withdraw wallet address   
 
 :::info
-Qredo charges fees to withdraw, which includes the Blockchain miner's fee, The fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
+The Blockchain miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
 :::
 
 1. To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
@@ -237,7 +237,6 @@ These include details of:
 :::info 
 Transactions in Ledger view includes both those that are pending, and those that have been written to the blockchain.
 :::
-
 
 #### Address Approvals
 
