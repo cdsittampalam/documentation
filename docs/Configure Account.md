@@ -10,11 +10,11 @@ The web app includes sections that will allow you to configure accounts in futur
 
 Currently, you can view information on the:
 
-*   account
-*   user permissions.
-*   billing options
-*   Partner API.
-*   legal agreement.
+*   [account](#account)
+*   [user permissions](#user-permissions)
+*   [billing options](#billing-options)
+*   [Partner API](#partner-api)
+*   [legal agreement](#legal-agreement)
 
 You can also copy and download the legal agreement.
 
