@@ -43,9 +43,9 @@ View Fund One
 -------------
 
 1. From the Holdings page, click the FundOne menu item.
-2. To view summary details, observe the Summary info section.
-3. To see Membership & Permissions information, click the Membership & Permissions tab.
-4. To see custody policy information, click the Custody tab.
+2. To view summary details, observe the [Summary info](#summary) section.
+3. To see Membership & Permissions information, click the [Membership & Permissions](#membership--permissions) tab.
+4. To see custody policy information, click the [Custody] (#custody) tab.
 
 If you have changed your default settings to include Bitcoin for Fund One and Bitcoin Testnet for Fund Two, you will see 2 default funds in the Holdings page.
 
@@ -88,7 +88,7 @@ When you create a fund, you can assign any number of custodians for withdrawals 
 
 
 
-### Transactions & Addresses
+### View Transactions & Addresses
 
 When you use Fund One, you will be able to view a list of transactions with the deposit and withdrawal addresses for each transaction. These transactions have
 already happened in the past and have been approved. The balances you see can help you decide on moving money via withdrawal and transactions.
@@ -118,8 +118,7 @@ Future versions of Qredo will have other currencies available in funds.
 
 1. Click **Change Defaults.** The Default Funds screen appears.   
 2. Select Fund One in **For incoming Bitcoin BTC transfers.**
-3. Select Fund Two in **For incoming Bitcoin Testnet transfers**. The button shows as **Updated**,  
-and Fund One now contains Bitcoin.
+3. Select Fund Two in **For incoming Bitcoin Testnet transfers**. The button shows as **Updated**, and Fund One now contains Bitcoin.
 4. Click **Done** after the confirmation message.
 
 Create a Fund Wizard
