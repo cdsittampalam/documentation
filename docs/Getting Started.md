@@ -6,10 +6,10 @@ You start the process of registering with Qredo from the web app.  A lobby page 
 
 ![Page1](/doc-images/page1.png)
 
-The main steps in the page are as follows:
-- [Web app steps](#web-app-steps)
-- [Phone setup steps](#phone-steps)
-- [Sign in steps](#sign-in-steps)
+There are 3 sets of steps as follows:
+1. [Web app steps](#web-app-steps)
+2. [Phone setup steps](#phone-steps)
+3. [Sign in steps](#sign-in-steps)
 
 The [Navigation](#navigation) section shows you the main sections of the web app for launching your tasks.
 
