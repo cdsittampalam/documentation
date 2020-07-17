@@ -8,13 +8,15 @@ The web app includes sections that will allow you to configure accounts in futur
 
 ## Current Version Features
 
-Currently, you can:
+Currently, you can view the following details:
 
-*   view account details.
-*   check Qredo user permissions.
-*   view current individual plan and enterprise plan details (available in future versions).
-*   find out details of the Partner API.
-*   view, copy and download the legal agreement.
+*   account information.
+*   Qredo user permissions.
+*   individual and enterprise plans
+*   Partner API.
+*   legal agreement.
+
+You can also copy and download the legal agreement.
 
 ## Future Version Features
 
