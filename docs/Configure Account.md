@@ -6,6 +6,15 @@ id: Configure Account
 
 The web app includes sections that will allow you to configure accounts in future versions of the app. 
 
+## Future Version Features
+
+In future versions, you will be able to:
+
+*   upgrade your account plan.
+*   view/edit company name and domain.
+*   change the account owner.
+*   view/edit account permissions and/or members.
+
 ## Current Version Features
 
 Currently, you can view information on the:
@@ -17,15 +26,6 @@ Currently, you can view information on the:
 *   [legal agreement](#legal-agreement)
 
 You can also copy and download the legal agreement.
-
-## Future Version Features
-
-In future versions, you will be able to:
-
-*   upgrade your account plan.
-*   view/edit company name and domain.
-*   change the account owner.
-*   view/edit account permissions and/or members.
 
 # View Account Settings
 
