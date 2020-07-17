@@ -11,13 +11,14 @@ For a withdrawal transaction, you send money out of a fund on Qredo to an extern
 When recorded on the Qredo blockchain, a transaction is always linked to the underlying blockchain.
 :::
 
-Summary of Steps
+Summary of Stepsdepo
 ----------------
 
-For Deposit addresses, you can  
+For deposits, you can:  
   - [view deposit addresses](#view-deposit-addresses)
   - [copy an address](#copy-address)
   - [view transactions](#view-transactions)
+
 For withdrawals, a trade initiator can:
   - [create a new address](#create-new-address)
   - [create a transaction](#create-transaction)
