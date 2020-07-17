@@ -242,7 +242,7 @@ These include details of:
 Transactions in Ledger view includes both those that are pending, and those that have been written to the blockchain.
 :::
 
-#### Address Approvals
+### Address Approvals
 
 1.  Click the **Addresses** tab,    
 2.  Click the **Pending** or **Actioned** sub-tabs.
@@ -268,7 +268,7 @@ The following is an example entry showing a pending approval with the status of 
 
 ![Address Approval](/doc-images/addressappr2.png)
 
-#### Transaction Approvals
+### Transaction Approvals
 
 1.  Click the **Transactions** tab,   
 2.  Click the **Pending** or **Actioned** tabs.
