@@ -31,11 +31,11 @@ You can also copy and download the legal agreement.
 
 1. From any of the main pages, click the Account icon that contains your own initials:
 
-![Account](/doc-images/initials.png)
+   ![Account](/doc-images/initials.png)
 
 2. In the displayed account card, click the Account Settings button to display account details. 
 
-![Account](/doc-images/acctcard.png)
+   ![Account](/doc-images/acctcard.png)
 
 The Settings page appears.
 
