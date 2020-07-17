@@ -13,25 +13,20 @@ Any type of user can create funds in order to manage assets. The following are e
 *   **Custody Provider** A custody provider can create a fund and seek other financial stakeholders to approve or reject transactions.
 *   **Traders** Traders can create transactions once they have created the funds.
 
-
-
 Summary of Steps
+----------------
 
-The main sections and steps in this page are as follows:
+* To familiarise yourself with the main web page on funds, you can [view the Holdings page]().
+* To find out how a fund works, you [View Fund One]() to see different parts of a fund.
+* Fund One contains a default asset of Bitcoin Testnet. However, you can [change the default settings]()
+* If you are familiar with funds in Qredo, you can do the steps in the [create a fund wizard]() 
 
-* [Holdings page](#holdings-page)
-* [View Fund One](#view-fund-one)
-* [Change Default Settings](#change-default-settings)
-* [Create a Fund wizard](#create-a-fund-wizard)
+View the Holdings Page
+----------------------
 
-Holdings Page
------------------
+The Holdings page lists the funds under your account. These include one or more default funds, and any funds you have created. Funds that exist in the Holdings page can be organised according to assets as part of a portfolio strategy.
 
-The Holdings page lists the funds under your account. These include one or more default funds, and any funds you have created. For each fund, you can have a complete view of the transactions, addresses, and custody policies.
-
-Funds that exist in the Holdings page can be organised according to assets as part of a portfolio strategy.
-
-You access the Holdings page by clicking the Asset icon:
+From any of the main pages, click the Asset icon:
 
 ![Account](/doc-images/coins.png)
 
@@ -43,20 +38,14 @@ The page also allows you to view details on the transactions and the custody pol
 
 ![All Transactions](/doc-images/AllTransactions3.png)
 
-### Task Options
-
-You can choose the following options from the page:
-
-*   **View Fund One:** If you are a new user, you can view details of a default fund, labelled Fund One. Fund One is created for you once you have joined the Qredo Network. While Fund One is designed to help you understand how a Qredo fund works, you can also use Fund One for transactions. The system creates a deposit address for you to receive assets (see [View Fund One](#view-fund-one)).
-*   **Change Default Settings:** Fund One contains Bitcoin Testnet, which allows you to familiarise yourself with Qredo and how transactions work. However, you can also include Fund Two as another default fund, where Fund One contains Bitcoin and Fund Two contains Bitcoin Testnet (see [Change Default Settings](#change-default-settings)).
-*   **Create a Fund:** If you are familiar with the concepts of a Qredo fund and you just want to create funds, you can go straight to the steps for creating a fund (see [Create a Fund Wizard](#create-a-fund-wizard)).
 
 View Fund One
 -------------
 
-From the Holdings page, click the FundOne menu item.
-
-The Summary info, Membership & Permissions and Custody sections show for Fund One.
+1. From the Holdings page, click the FundOne menu item.
+2. To view summary details, observe the Summary info section.
+3. To see Membership & Permissions information, click the Membership & Permissions tab.
+4. To see custody policy information, click the Custody tab.
 
 If you have changed your default settings to include Bitcoin for Fund One and Bitcoin Testnet for Fund Two, you will see 2 default funds in the Holdings page.
 
@@ -68,7 +57,6 @@ The summary section has basic information on the fund:
 *   The type of asset in the fund as Bitcoin Testnet.
 *   The name of the fund as "Fund One".
 *   A brief description about the fund.
-
 
 ![summary](/doc-images/4summaryinfo.png)
 
@@ -97,6 +85,8 @@ When you create a fund, you can assign any number of custodians for withdrawals 
 :::
 
 ![custody fund](/doc-images/Custodyinfo3.png)
+
+
 
 ### Transactions & Addresses
 
