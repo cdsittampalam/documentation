@@ -2,14 +2,29 @@
 id: Configure Account
 ---
 
-The web app includes sections that will allow you to configure accounts in future versions of the app. Currently, the Settings page lets you view various details of your own account.
+Overview
+--------
 
-Future versions will allow you to:
+The web app includes sections that will allow you to configure accounts in future versions of the app. 
 
-*   upgrade your account plan
-*   view/edit company name and domain
-*   change the account owner
-*   view/edit account permissions and/or members
+### Current Version Features
+
+Currently, you can:
+
+*   view account details.
+*   check Qredo user permissions.
+*   view current individual plan and enterprise plan details (available in future versions).
+*   find out details of the Partner API.
+*   view copy and download the legal agreement.
+
+### Future Version Features
+
+In future versions, you will be able to:
+
+*   upgrade your account plan.
+*   view/edit company name and domain.
+*   change the account owner.
+*   view/edit account permissions and/or members.
 
 Details on your account is accessed from the Account icon that contains your own initials:
 
