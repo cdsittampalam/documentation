@@ -8,11 +8,11 @@ The web app includes sections that will allow you to configure accounts in futur
 
 ## Current Version Features
 
-Currently, you can view the following details:
+Currently, you can view information on the:
 
-*   account information.
-*   Qredo user permissions.
-*   individual and enterprise plans
+*   account
+*   user permissions.
+*   billing options
 *   Partner API.
 *   legal agreement.
 
@@ -41,13 +41,13 @@ The Settings page appears.
 
 3. Click the various tabs for the different sections of the page.
 
-## Account Details
+## Account
 
 The Account Details section shows information that was saved to your account on registration, including your first name, last name, and email address. The account status shows as Active or Inactive.
 
 ![Settings](/doc-images/1accountdetail.png)
 
-## Permissions
+## User Permissions
 
 The Permissions section shows your Qredo user role.
 
@@ -60,7 +60,7 @@ For more details, see [Role of the Account Owner](#role-of-the-account-owner)
 
 ![perms](/doc-images/1perms.png)
 
-## Billing
+## Billing Options
 
 The Billing section shows the Personal Plan associated with your Qredo account, and details of the Enterprise Plan that is available in a future release.
 To upgrade to an Enterprise Plan, please contact Qredo.
@@ -74,7 +74,7 @@ This section provides details on the Partner API and who the API is geared for.
 ![Billing](/doc-images/partnerapi.png)
 
 
-## Legal
+## Legal Agreement
 
 The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program by clicking **Copy Link**. Alternatively, you can download the agreement by clicking **Download**.
 
