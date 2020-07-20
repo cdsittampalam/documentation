@@ -39,7 +39,9 @@ You enter an email address for a user on the Qredo Network. The email address mu
 6. Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list))
 
 Send from Contacts
------------------
+------------------
+
+You can invite trusted parties from your contacts on LinkedIn, Telegram, or WhatsApp.
 
 1.  From the Trusted Network screen, click the **Add Trusted Party** button. The Add Trusted Party screen shows.
 
