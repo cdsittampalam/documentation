@@ -30,9 +30,7 @@ You enter an email address for a user on the Qredo Network. The email address mu
     
 3.  In the Search the Qredo Network section, enter the email address of the user and click **Search**. 
 
-    If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address.  
-    
-    ![Add Trusted](/doc-images/AddTrustedConf.png)
+    If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address. 
 
 4.  Click **Confirm**. The screens shows that the request was sent.
 5.  Click Close.
