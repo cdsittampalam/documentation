@@ -12,10 +12,10 @@ Future versions will allow atomic swaps that provide instant exchange of differe
 Summary of Steps
 ----------------
 
-- As the trade initiator, you start by following the steps to [create a transfer]().
-- As the custodian, you can [approve the transfer](). 
+- As the trade initiator, you start by following the steps to [create a transfer](#create-transfer). 
+- As the custodian, you can [approve the transfer](#approve-transfer). 
 
-You can [track progress]() in different ways.
+You can [track progress](#track-progress) in different ways.
 
 ### Qredo Fees
 
@@ -137,7 +137,13 @@ Track Progress
 As the trade initiator, you can check the progress of custodian approval for the transfer. These include details of transfer approvals that cover those from the trade initiator and one or more custodians. You can also view custody approvals specifically
 for the fund of the transaction.
 
-You can view approvals from the Approval view. 
+Details that can be tracked include the following:
+
+* [transactions approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians.
+* [custodian approvals](#custodian-approvals) specifically for the fund of the transaction.
+* [transactions in Ledger View](#transaction-view-ledger) for all funds under your account.
+* [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view. 
+
 
 ### Transaction Approvals
 
@@ -167,7 +173,7 @@ The Actioned tab shows the same column fields. However, the ACTIONED column refl
 
 ![transaction](/doc-images/trapr3.png)
 
-#### Custodian Approvals
+### Custodian Approvals
 
 1.  From the Approvals view, click the **Custody** tab,    
 2.  Click the **Pending** or **Actioned** sub-tabs.
@@ -218,7 +224,7 @@ TX Ledger shows the following details:
 
 ![Transaction Approval](/doc-images/outTX2.png)
 
-#### Progress Details
+### Progress Details
 
 For both the Approval and Ledger view, a summary screen shows details of the progress of a single transfer transaction. Summary screen headers can show in a particular colour to represent a category:
 
