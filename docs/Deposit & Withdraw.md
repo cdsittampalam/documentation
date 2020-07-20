@@ -131,6 +131,8 @@ Create Transaction
 For withdrawing money, the Qredo app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination cryptocurrency address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal. You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 You review and approve the transaction before a custodian is notified.
 
+You are also notified when a withdraw transaction is complete via an email.
+
 1.  Begin the task from in the Asset view or Ledger view.
 2.  Click the **New TX** button. The Select Type window shows.
 2.  Choose the **Withdraw** option in the Select Type box.   
