@@ -227,9 +227,7 @@ As the trade initiator, you can check the approval progress for address creation
 
 A withdrawal transaction can only happen if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
-You can view approvals from the Approval view, which appears by clicking the Approvals icon:
-
-![tick](/doc-images/tick.png)
+You can view approvals from the Approval view.
 
 These include details of:
 
@@ -245,7 +243,11 @@ Transactions in Ledger view includes both those that are pending, and those that
 
 ### Address Approvals
 
-1.  Click the **Addresses** tab,    
+1.  Click the Approvals icons
+
+![tick](/doc-images/tick.png)
+
+2.  Click the **Addresses** tab,    
 2.  Click the **Pending** or **Actioned** sub-tabs.
 
 The Pending sub tab shows these fields and pending approvals.

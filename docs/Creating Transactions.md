@@ -170,7 +170,7 @@ The Actioned tab shows the same column fields. However, the ACTIONED column refl
 
 #### Custodian Approvals
 
-1.  Click the **Custody** tab,    
+1.  From the Approvals view, click the **Custody** tab,    
 2.  Click the **Pending** or **Actioned** sub-tabs.
 
 The pending tab shows these fields and pending approvals.
@@ -197,7 +197,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
 
-You can view transaction progress in the Ledger view by clicking the Ledger icon.
+Click the Ledger icon.
 
 ![Ledger](/doc-images/ledger.png)
 
