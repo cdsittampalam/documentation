@@ -7,8 +7,8 @@ Summmary of Steps
 -----------------
 
 - When sending invites to trusted parties, you can:
-  - [send from Qredo](#send-from-qredo)
-  - [send from contacts](#send-from-contacts)
+  - [send from Qredo](#invite-from-qredo)
+  - [send from contacts](#invite-from-contacts)
 - As a user already on the Qredo network, you can:
   - [accept an invite](#accept-an-invite) 
   - [reject an invite](#reject-an-invite)
