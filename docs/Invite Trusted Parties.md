@@ -20,23 +20,23 @@ Send from Qredo
 
 You enter an email address for a user on the Qredo Network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again.
 
-1.  From any of the web app screens, click the Trusted Network icon:
+1. From any of the web app screens, click the Trusted Network icon:
 
-    ![Trusted Network Button](/doc-images/button-trustednetwork.png)
+   ![Trusted Network Button](/doc-images/button-trustednetwork.png)
 
-2.  Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
+2. Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
-    ![Add Trusted](/doc-images/addtrusted.png)
+   ![Add Trusted](/doc-images/addtrusted.png)
     
-3.  In the Search the Qredo Network section, enter the email address of the user and click **Search**. 
+3. In the Search the Qredo Network section, enter the email address of the user and click **Search**. 
 
-    If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address. 
+   If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address. 
 
-    ![Add Trusted](/doc-images/AddTrustedConf.png)
+   ![Add Trusted](/doc-images/AddTrustedConf.png)
 
-4.  Click **Confirm**. The screens shows that the request was sent.
-5.  Click Close.
-6.  Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list))
+4. Click **Confirm**. The screens shows that the request was sent.
+5. Click Close.
+6. Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list))
 
 Send from Contacts
 -----------------
