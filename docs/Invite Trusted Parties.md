@@ -26,13 +26,13 @@ You enter an email address for a user on the Qredo Network. The email address mu
 
 2. Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
-   ![Add Trusted](/doc-images/addtrusted.png)
+![Add Trusted](/doc-images/addtrusted.png)
     
 3. In the Search the Qredo Network section, enter the email address of the user and click **Search**. 
 
    If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address. 
 
-   ![Add Trusted](/doc-images/AddTrustedConf.png)
+![Add Trusted](/doc-images/AddTrustedConf.png)
 
 4. Click **Confirm**. The screens shows that the request was sent.
 5. Click Close.
@@ -43,7 +43,7 @@ Send from Contacts
 
 1.  From the Trusted Network screen, click the **Add Trusted Party** button. The Add Trusted Party screen shows.
 
-    ![Add Trusted](/doc-images/addtrusted.png)
+![Add Trusted](/doc-images/addtrusted.png)
 
     In the Invite to Qredo Network section, the URL of the Join page appears. This allows a recipient of the invitation to go directly to the Join page on the Qredo website.
 2.  Click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent to the recipient via the selected service.
@@ -59,7 +59,7 @@ As a user on the Qredo Network, you would have received an invite on your phone 
 2. Sign in to the app using the biometric feature of your phone.
 3. Enter your 6-digit PIN. The Trusted Party screen shows.
 
-   ![parties](/doc-images/trustedP1.png)
+![parties](/doc-images/trustedP1.png)
 
 4. To approve the pairing request, tap **Approve**.
 5. Authenticate using the biometric feature and 6-digit PIN.
