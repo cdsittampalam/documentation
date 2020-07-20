@@ -17,7 +17,7 @@ Summary of Steps
 For deposits, you can:  
   - [view deposit addresses](#view-deposit-addresses)
   - [copy an address](#copy-address)
-  - [view transactions](#view-transactions)
+  - [view deposit transactions](#view-transactions)
 
 For withdrawals, a trade initiator can:
   - [create a new address](#create-new-address)
