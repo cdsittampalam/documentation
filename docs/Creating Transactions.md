@@ -195,7 +195,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 ![Transaction Approval](/doc-images/cusappr2.png)
 
-### Transfer Progress
+### Transactions View (Ledger)
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
 
@@ -221,7 +221,7 @@ TX Ledger shows the following details:
 
 ![Transaction Approval](/doc-images/outTX2.png)
 
-### Transactions View (Ledger)
+### 
 
 For both the Approval and Ledger view, a summary screen shows details of the progress of a single transfer transaction. Summary screen headers can show in a particular colour to represent a category:
 
