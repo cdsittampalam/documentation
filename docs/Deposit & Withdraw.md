@@ -227,14 +227,12 @@ As the trade initiator, you can check the approval progress for address creation
 
 A withdrawal transaction can only happen if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
-You can view approvals from the Approval view.
-
-These include details of:
+Details that can be tracked include the following:
 
 * [address approvals](#address-approvals) from the trade initiator of a specific fund.
 * [transactions approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians.
 * [custodian approvals](#custodian-approvals) specifically for the fund of the transaction.
-* [Transactions in Ledger View](#transaction-view-ledger) for all funds under your account.
+* [transactions in Ledger View](#transaction-view-ledger) for all funds under your account.
 * [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view. 
 
 :::info 

@@ -17,7 +17,6 @@ Summary of Steps
 
 You can [track progress]() in different ways.
 
-
 ### Qredo Fees
 
 Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred. Information on the fee appears when you enter details and review the transfer transaction.
@@ -197,9 +196,11 @@ The following is an example actioned entry in the Approval view with the status 
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
 
-Click the Ledger icon.
+1. Click the Ledger icon.
 
 ![Ledger](/doc-images/ledger.png)
+
+2. Click the Outbound tab.
 
 TX Ledger shows the following details:
 
