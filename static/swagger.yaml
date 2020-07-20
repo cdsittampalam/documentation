@@ -1,0 +1,2581 @@
+basePath: /api/v1
+consumes:
+- application/json
+definitions:
+  AddPolicyUserRequest:
+    description: AddPolicyUserRequest - add user to a policy
+    properties:
+      userID:
+        type: string
+    type: object
+  Asset:
+    description: Asset type
+    properties:
+      code:
+        type: string
+      name:
+        type: string
+      unitCode:
+        type: string
+    type: object
+  AssetFund:
+    description: AssetFund - default fund for asset
+    properties:
+      asset:
+        type: string
+      fundID:
+        type: string
+    type: object
+  CounterpartyMember:
+    description: CounterpartyMember is a trusted counterparty
+    properties:
+      created:
+        format: int64
+        type: integer
+      email:
+        type: string
+      firstName:
+        type: string
+      internal:
+        type: boolean
+      lastName:
+        type: string
+      pending:
+        type: boolean
+      userID:
+        type: string
+      username:
+        type: string
+    type: object
+  CustodianStatus:
+    description: CustodianStatus is the status of a single participant
+    properties:
+      actionID:
+        type: string
+      firstName:
+        type: string
+      lastName:
+        type: string
+      status:
+        enum:
+        - none
+        - pending
+        - expired
+        - approved
+        - rejected
+        type: string
+      timestamp:
+        format: int64
+        type: integer
+      userID:
+        type: string
+      username:
+        type: string
+    type: object
+  CustodygroupInfo:
+    description: CustodygroupInfo holds information about a custody group
+    properties:
+      id:
+        type: string
+      members:
+        items:
+          $ref: '#/definitions/CustodygroupMember'
+        type: array
+      members_count:
+        format: int64
+        type: integer
+      threshold:
+        format: int64
+        type: integer
+    type: object
+  CustodygroupMember:
+    description: CustodygroupMember represents a custody group member entry
+    properties:
+      firstName:
+        type: string
+      lastName:
+        type: string
+      user_id:
+        type: string
+    type: object
+  FeedItem:
+    description: FeedItem represent a single item of the user feed
+    properties:
+      description:
+        type: string
+      expireTime:
+        format: int64
+        type: integer
+      id:
+        type: string
+      timestamp:
+        format: int64
+        type: integer
+      type:
+        $ref: '#/definitions/UserAction'
+      uri:
+        type: string
+    type: object
+  FundAddAssetRequest:
+    description: FundAddAssetRequest - add asset to a fund
+    properties:
+      code:
+        type: string
+    type: object
+  Holding:
+    description: Holding - amount of an asset
+    properties:
+      amount:
+        format: int64
+        type: integer
+      code:
+        type: string
+    type: object
+  Permissions:
+    additionalProperties:
+      type: boolean
+    description: Permissions of a fund
+    type: object
+  Status:
+    description: Status for UserStatuses
+    format: int64
+    type: integer
+  StatusDetails:
+    description: StatusDetails for transaction
+    properties:
+      accountNo:
+        type: string
+      amount:
+        format: int64
+        type: integer
+      asset:
+        type: string
+      benefitOf:
+        type: string
+      expires:
+        format: int64
+        type: integer
+      fees:
+        format: int64
+        type: integer
+      fundID:
+        type: string
+      fundName:
+        type: string
+      netAmount:
+        format: int64
+        type: integer
+      recipientAddress:
+        type: string
+      recipientEmail:
+        type: string
+      recipientFirstName:
+        type: string
+      recipientLastName:
+        type: string
+      recipientUsername:
+        type: string
+      reference:
+        type: string
+      requestedBy:
+        type: string
+    type: object
+  StatusText:
+    description: StatusText -
+    properties:
+      status:
+        $ref: '#/definitions/Status'
+      statusText:
+        type: string
+    type: object
+  TxHistoryItem:
+    description: TxHistoryItem is a single record of a transaction history
+    properties:
+      TxID:
+        type: string
+      accountNo:
+        type: string
+      address:
+        type: string
+      amount:
+        format: int64
+        type: integer
+      asset:
+        type: string
+      benefitOf:
+        type: string
+      chainTxID:
+        type: string
+      counterpartyID:
+        type: string
+      counterpartyName:
+        type: string
+      expireTime:
+        format: int64
+        type: integer
+      fees:
+        format: int64
+        type: integer
+      fundID:
+        type: string
+      netAmount:
+        format: int64
+        type: integer
+      reference:
+        type: string
+      status:
+        enum:
+        - pending_initiate
+        - pending
+        - expired
+        - approved
+        - initiate_rejected
+        - custody_rejected
+        - chain_rejected
+        type: string
+      timestamp:
+        format: int64
+        type: integer
+      type:
+        enum:
+        - none
+        - deposit
+        - withdraw
+        - transferIn
+        - transferOut
+        type: string
+    type: object
+  UserAction:
+    description: UserAction type for UserActions.Type
+    format: int64
+    type: integer
+  UserActionStatus:
+    description: UserActionStatus type for UserActions.Status
+    format: int64
+    type: integer
+  UserCompany:
+    description: UserCompany represents the Company (company) the user's in
+    properties:
+      id:
+        type: string
+      name:
+        type: string
+      permissions:
+        items:
+          format: int64
+          type: integer
+        type: array
+    type: object
+  UserDetails:
+    description: UserDetails struct
+    properties:
+      email:
+        type: string
+      firstName:
+        type: string
+      lastName:
+        type: string
+      userID:
+        type: string
+      username:
+        type: string
+    type: object
+  UserFund:
+    description: UserFund -
+    properties:
+      fundID:
+        type: string
+      holdings:
+        items:
+          $ref: '#/definitions/Holding'
+        type: array
+      name:
+        type: string
+      theme:
+        format: int64
+        type: integer
+    type: object
+  WithdrawWhitelistAddress:
+    description: WithdrawWhitelistAddress is a single whitelisted withdraw address
+    properties:
+      address:
+        type: string
+      asset:
+        type: string
+      fundID:
+        type: string
+      name:
+        type: string
+    type: object
+  addCounterparty:
+    description: AddCounterpartyRequest - add a new counterparty
+    properties:
+      email:
+        type: string
+    type: object
+  addFund:
+    description: AddFundRequest - add a new fund
+    properties:
+      assets:
+        items:
+          type: string
+        type: array
+      custodygroup_tx:
+        properties:
+          members:
+            items:
+              type: string
+            type: array
+          threshold:
+            format: int64
+            type: integer
+        type: object
+      custodygroup_withdraw:
+        properties:
+          members:
+            items:
+              type: string
+            type: array
+          threshold:
+            format: int64
+            type: integer
+        type: object
+      description:
+        type: string
+      members:
+        items:
+          type: string
+        type: array
+      name:
+        type: string
+      theme:
+        format: int64
+        type: integer
+    type: object
+  approvalDetailAddress:
+    description: ApprovalDetailAddress is the details for approval Address types
+    properties:
+      address:
+        type: string
+      asset:
+        type: string
+      fund:
+        type: string
+      fundID:
+        type: string
+      name:
+        type: string
+    type: object
+  approvalDetailCounterparty:
+    description: ApprovalDetailCounterparty is the details for approval Counterparty types
+    properties:
+      email:
+        type: string
+      firstName:
+        type: string
+      lastName:
+        type: string
+      username:
+        type: string
+    type: object
+  approvalDetailCustody:
+    description: ApprovalDetailCustody is the details for approval Custody types
+    properties:
+      TxID:
+        type: string
+      accountNo:
+        type: string
+      amount:
+        format: int64
+        type: integer
+      asset:
+        type: string
+      benefitOf:
+        type: string
+      expires:
+        format: int64
+        type: integer
+      fees:
+        format: int64
+        type: integer
+      fundID:
+        type: string
+      netAmount:
+        format: int64
+        type: integer
+      recipientAddress:
+        type: string
+      recipientAddressName:
+        type: string
+      recipientEmail:
+        type: string
+      recipientFirstName:
+        type: string
+      recipientLastName:
+        type: string
+      recipientUsername:
+        type: string
+      reference:
+        type: string
+      requestedBy:
+        type: string
+      type:
+        enum:
+        - none
+        - deposit
+        - withdraw
+        - transferIn
+        - transferOut
+        type: string
+    type: object
+  approvalDetailIdentity:
+    description: ApprovalDetailIdentity is the details for approval Identity types
+    properties:
+      device:
+        type: string
+      ip:
+        type: string
+      location:
+        type: string
+    type: object
+  approvalDetailTransaction:
+    description: ApprovalDetailTransaction is the details for approval Transaction types
+    properties:
+      TxID:
+        type: string
+      amount:
+        format: int64
+        type: integer
+      asset:
+        type: string
+      recipientAddress:
+        type: string
+      recipientAddressName:
+        type: string
+      recipientEmail:
+        type: string
+      recipientFirstName:
+        type: string
+      recipientLastName:
+        type: string
+      recipientUsername:
+        type: string
+      type:
+        enum:
+        - none
+        - deposit
+        - withdraw
+        - transferIn
+        - transferOut
+        type: string
+    type: object
+  approvalItem:
+    description: ApprovalItem is a single approval history item
+    properties:
+      actioned:
+        format: int64
+        type: integer
+      details:
+        type: object
+      expired:
+        format: int64
+        type: integer
+      id:
+        type: string
+      requested:
+        format: int64
+        type: integer
+      status:
+        enum:
+        - none
+        - pending
+        - expired
+        - approved
+        - rejected
+        type: string
+      type:
+        type: string
+    type: object
+  approvalItems:
+    description: ApprovalItems is a list of approvals
+    properties:
+      list:
+        items:
+          $ref: '#/definitions/approvalItem'
+        type: array
+    type: object
+  assetsList:
+    description: AssetsList - a list of assets
+    properties:
+      assets:
+        items:
+          $ref: '#/definitions/Asset'
+        type: array
+    type: object
+  counterparties:
+    description: Counterparties is a list of trusted counterparties
+    properties:
+      members:
+        items:
+          $ref: '#/definitions/CounterpartyMember'
+        type: array
+    type: object
+  counterpartyStatusResponse:
+    description: CounterpartyStatusResponse - check counterparty status by email
+    properties:
+      status:
+        enum:
+        - none
+        - trusted
+        - pending
+        type: string
+      userExists:
+        type: boolean
+    type: object
+  credentialsReset:
+    description: |-
+      ChangePasswordRequest initiates password change
+      Requires either current password or OTC
+    properties:
+      newPassword:
+        type: string
+      password:
+        type: string
+    type: object
+  depositAddressRequest:
+    description: DepositAddressRequest - a new deposit address request
+    properties:
+      asset:
+        type: string
+      fundID:
+        type: string
+      type:
+        type: string
+    type: object
+  depositAddressTxResponse:
+    description: DepositAddressTxResponse - a new deposit address if confirmed
+    properties:
+      address:
+        type: string
+      asset:
+        type: string
+      balance:
+        format: int64
+        type: integer
+      status:
+        enum:
+        - none
+        - pending
+        - expired
+        - approved
+        - rejected
+        type: string
+      type:
+        type: string
+    type: object
+  depositAddressesResponse:
+    description: DepositAddressesResponse - list deposit addresses
+    properties:
+      list:
+        items:
+          $ref: '#/definitions/depositAddressTxResponse'
+        type: array
+    type: object
+  emailVerifyRequest:
+    description: EmailVerifyRequest to verify the email OTC
+    properties:
+      OTC:
+        type: string
+    type: object
+  emailVerifyResponse:
+    description: EmailVerifyResponse when email is verified
+    properties:
+      qr:
+        type: string
+      token:
+        type: string
+      userID:
+        type: string
+    type: object
+  errorAddCounterpartyReponse:
+    properties:
+      code:
+        format: int64
+        type: integer
+      detail:
+        properties:
+          field:
+            type: string
+          type:
+            type: string
+        type: object
+      msg:
+        type: string
+    type: object
+  errorUserRegisterReponse:
+    properties:
+      code:
+        format: int64
+        type: integer
+      detail:
+        properties:
+          field:
+            type: string
+          type:
+            type: string
+        type: object
+      msg:
+        type: string
+    type: object
+  feesRequest:
+    description: FeesRequest - calc transaction fees
+    properties:
+      amount:
+        format: int64
+        type: integer
+      asset:
+        type: string
+      type:
+        enum:
+        - none
+        - deposit
+        - withdraw
+        - transferIn
+        - transferOut
+        type: string
+    type: object
+  feesResponse:
+    description: FeesResponse - calc transaction fees
+    properties:
+      amountToSend:
+        format: int64
+        type: integer
+      fees:
+        format: int64
+        type: integer
+      netAmount:
+        format: int64
+        type: integer
+    type: object
+  forgottenPassword:
+    description: ForgottenPasswordRequest initiates email verification for forgotten password
+    properties:
+      email:
+        type: string
+    type: object
+  fundInfoResponse:
+    description: FundInfo - info about a fund
+    properties:
+      assets:
+        items:
+          $ref: '#/definitions/Asset'
+        type: array
+      custodygroup_tx:
+        $ref: '#/definitions/CustodygroupInfo'
+      custodygroup_withdraw:
+        $ref: '#/definitions/CustodygroupInfo'
+      description:
+        type: string
+      fund_id:
+        type: string
+      holdings:
+        items:
+          $ref: '#/definitions/Holding'
+        type: array
+      members:
+        items:
+          $ref: '#/definitions/fundMember'
+        type: array
+      name:
+        type: string
+      theme:
+        format: int64
+        type: integer
+    type: object
+  fundMember:
+    description: FundMember - a fund member with permisions
+    properties:
+      firstName:
+        type: string
+      lastName:
+        type: string
+      permissions:
+        $ref: '#/definitions/Permissions'
+      userID:
+        type: string
+    type: object
+  loginRequest:
+    description: LoginRequest is the authentication login request
+    properties:
+      email:
+        type: string
+      password:
+        type: string
+    type: object
+  loginResponse:
+    description: LoginResponse when the authentication is successful
+    properties:
+      loginSessionURI:
+        type: string
+      serverID:
+        type: string
+      status:
+        $ref: '#/definitions/userStatusResponse'
+      token:
+        type: string
+      userID:
+        type: string
+      userInfo:
+        $ref: '#/definitions/userInfoResponse'
+    type: object
+  mobileConfirmRequest:
+    description: MobileConfirmRequest on registering a mobile device
+    properties:
+      idDocSignatureHex:
+        type: string
+    type: object
+  mobilePayloadAuthorizeTransfer:
+    description: PayloadNewTransfer is the data for UserActionNewTransfer
+    properties:
+      accountNo:
+        type: string
+      amount:
+        format: int64
+        type: integer
+      asset:
+        type: string
+      benefitOf:
+        type: string
+      counterpartyID:
+        type: string
+      email:
+        type: string
+      expires:
+        format: int64
+        type: integer
+      expiresIn:
+        format: int64
+        type: integer
+      expiresOn:
+        format: int64
+        type: integer
+      fees:
+        format: int64
+        type: integer
+      firstName:
+        type: string
+      fundID:
+        type: string
+      fundName:
+        type: string
+      initiatedTime:
+        format: int64
+        type: integer
+      initiatorDetails:
+        $ref: '#/definitions/UserDetails'
+      lastName:
+        type: string
+      netAmount:
+        format: int64
+        type: integer
+      reference:
+        type: string
+      requestedBy:
+        type: string
+      username:
+        type: string
+    type: object
+  mobilePayloadAuthorizeWithdraw:
+    description: PayloadNewWithdraw is the data for UserActionNewWithdraw
+    properties:
+      accountNo:
+        type: string
+      address:
+        type: string
+      addressName:
+        type: string
+      amount:
+        format: int64
+        type: integer
+      asset:
+        type: string
+      benefitOf:
+        type: string
+      expires:
+        format: int64
+        type: integer
+      expiresIn:
+        format: int64
+        type: integer
+      expiresOn:
+        format: int64
+        type: integer
+      fees:
+        format: int64
+        type: integer
+      fundID:
+        type: string
+      fundName:
+        type: string
+      initiatedTime:
+        format: int64
+        type: integer
+      initiatorDetails:
+        $ref: '#/definitions/UserDetails'
+      netAmount:
+        format: int64
+        type: integer
+      reference:
+        type: string
+      requestedBy:
+        type: string
+    type: object
+  mobilePayloadNewCounterparty:
+    description: PayloadNewCounterparty is the data for UserActionNewCounterparty
+    properties:
+      email:
+        type: string
+      firstName:
+        type: string
+      lastName:
+        type: string
+      timestamp:
+        format: int64
+        type: integer
+      trusteeEmail:
+        type: string
+      trusteeUserID:
+        type: string
+      userID:
+        type: string
+      username:
+        type: string
+    type: object
+  mobilePayloadNewLogin:
+    description: PayloadIdentityAction is the data for UserActionLogin, UserActionChangePassword and UserActionForgottenPassword
+    properties:
+      device:
+        type: string
+      expires:
+        format: int64
+        type: integer
+      ip:
+        type: string
+      location:
+        type: string
+      timestamp:
+        format: int64
+        type: integer
+    type: object
+  mobilePayloadNewWithdrawAddress:
+    description: PayloadNewWhitelistWithdrawAddress is the data for UserActionNewWhitelistWithdrawAddress
+    properties:
+      address:
+        type: string
+      addressName:
+        type: string
+      asset:
+        type: string
+      assetName:
+        type: string
+      expires:
+        format: int64
+        type: integer
+      fundID:
+        type: string
+      fundName:
+        type: string
+      initiatedTime:
+        format: int64
+        type: integer
+      initiatorDetails:
+        $ref: '#/definitions/UserDetails'
+      timestamp:
+        format: int64
+        type: integer
+    type: object
+  mobileRegisterRequest:
+    description: MobileRegisterRequest on registering a mobile device
+    properties:
+      blsPublicKey:
+        type: string
+      pmi:
+        type: string
+    type: object
+  mobileRegisterResponse:
+    description: MobileRegisterResponse -
+    properties:
+      accountCode:
+        type: string
+      clientID:
+        type: string
+      clientSecret:
+        type: string
+      idDoc:
+        type: string
+      userID:
+        type: string
+    type: object
+  mobileReset:
+    description: MobileResetRequest initiates email verification for mobile reset
+    properties:
+      email:
+        type: string
+      password:
+        type: string
+      type: {}
+    type: object
+  mobileResetPIN:
+    description: MobileResetPINRequest completes the user client secret and PMI reset
+    properties:
+      pmi:
+        type: string
+      pmiSignature:
+        type: string
+      type: {}
+    type: object
+  newTransferRequest:
+    description: NewTransferRequest - a new withdraw request
+    properties:
+      accountNo:
+        type: string
+      amount:
+        format: int64
+        type: integer
+      asset:
+        type: string
+      benefitOf:
+        type: string
+      counterpartyID:
+        type: string
+      expiresIn:
+        format: int64
+        type: integer
+      expiresOn:
+        format: int64
+        type: integer
+      fundID:
+        type: string
+      reference:
+        type: string
+    type: object
+  newWithdrawRequest:
+    description: NewWithdrawRequest - a new withdraw request
+    properties:
+      accountNo:
+        type: string
+      address:
+        type: string
+      amount:
+        format: int64
+        type: integer
+      asset:
+        type: string
+      benefitOf:
+        type: string
+      expiresIn:
+        format: int64
+        type: integer
+      expiresOn:
+        format: int64
+        type: integer
+      fundID:
+        type: string
+      reference:
+        type: string
+    type: object
+  partnerKeyResponse:
+    description: Key holds partner key id and key
+    properties:
+      key:
+        type: string
+      key_id:
+        type: string
+      last_update:
+        format: int64
+        type: integer
+    type: object
+  partnerKeysResponse:
+    description: Keys is an array of PartnerKey structs
+    properties:
+      keys:
+        items:
+          $ref: '#/definitions/partnerKeyResponse'
+        type: array
+    type: object
+  partnerPublicKeyResponse:
+    description: GetPublicKeyResponse represents Public key details
+    properties:
+      data:
+        type: string
+    type: object
+  policy:
+    description: Policy - a fund policy
+    properties:
+      members:
+        items:
+          $ref: '#/definitions/policyMember'
+        type: array
+      membersCount:
+        format: int64
+        type: integer
+      policy_id:
+        type: string
+      threshold:
+        format: int64
+        type: integer
+    type: object
+  policyMember:
+    description: PolicyMember - a fund policy member
+    properties:
+      firstName:
+        type: string
+      lastName:
+        type: string
+      userID:
+        type: string
+    type: object
+  policyThreshold:
+    description: PolicyThreshold - a fund policy threshold
+    properties:
+      threshold:
+        format: int64
+        type: integer
+    type: object
+  qrResetResponse:
+    description: QRResetResponse on generate new QR token
+    properties:
+      qr:
+        type: string
+    type: object
+  registerRequest:
+    description: RegisterRequest on new user registration
+    properties:
+      email:
+        type: string
+      firstName:
+        type: string
+      lastName:
+        type: string
+      password:
+        type: string
+      phone:
+        type: string
+      username:
+        type: string
+    type: object
+  registerResponse:
+    description: |-
+      RegisterResponse on new user registration
+      Returns VerifyURI to POST the email verification code
+    properties:
+      verifyURI:
+        type: string
+    type: object
+  registerSendSMS:
+    description: SendRegisterSMSRequest to send the welcome SMS
+    properties:
+      phone:
+        description: The Phone is optional
+        type: string
+    type: object
+  resetCredentialsStatusResponse:
+    description: ResetCredentialsStatusResponse when the user credentials are reset
+    properties:
+      status:
+        enum:
+        - none
+        - pending
+        - expired
+        - approved
+        - rejected
+        type: string
+    type: object
+  resetCredentialsURI:
+    description: ResetCredentialsStatusURI - Status URI response
+    properties:
+      statusURI:
+        type: string
+      token:
+        type: string
+    type: object
+  statusResponse:
+    description: StatusResponse - status response
+    properties:
+      code:
+        format: int64
+        type: integer
+      detail:
+        type: object
+      msg:
+        type: string
+    type: object
+  txHistory:
+    description: TxHistory - transaction history list
+    properties:
+      List:
+        items:
+          $ref: '#/definitions/TxHistoryItem'
+        type: array
+    type: object
+  txStatusResponse:
+    description: TxStatusResponse - transaction status
+    properties:
+      approvedCount:
+        format: int64
+        type: integer
+      expires:
+        format: int64
+        type: integer
+      initiatedTimestamp:
+        format: int64
+        type: integer
+      initiatorActionTime:
+        format: int64
+        type: integer
+      initiatorAuthorized:
+        type: boolean
+      initiatorName:
+        type: string
+      reference:
+        type: string
+      status:
+        items:
+          $ref: '#/definitions/CustodianStatus'
+        type: array
+      statusDetails:
+        $ref: '#/definitions/StatusDetails'
+      thresholdRequired:
+        format: int64
+        type: integer
+      txID:
+        type: string
+      txStatus:
+        enum:
+        - pending_initiate
+        - pending
+        - expired
+        - approved
+        - initiate_rejected
+        - custody_rejected
+        - chain_rejected
+        type: string
+    type: object
+  txURIResponse:
+    description: TXURIResponse - TX Status URI response
+    properties:
+      txURI:
+        type: string
+    type: object
+  userAction:
+    description: UserAction - user action
+    properties:
+      description:
+        type: string
+      expireTime:
+        format: int64
+        type: integer
+      id:
+        type: string
+      message:
+        items:
+          format: uint8
+          type: integer
+        type: array
+      messageHex:
+        type: string
+      payload:
+        items:
+          format: uint8
+          type: integer
+        type: array
+      status:
+        $ref: '#/definitions/UserActionStatus'
+      timestamp:
+        format: int64
+        type: integer
+      type:
+        $ref: '#/definitions/UserAction'
+    type: object
+  userActionApproveRequest:
+    description: UserActionApprove - user action
+    properties:
+      signature:
+        items:
+          format: uint8
+          type: integer
+        type: array
+      signatureHex:
+        type: string
+      status:
+        $ref: '#/definitions/UserActionStatus'
+    type: object
+  userDefaultFunds:
+    description: UserDefaultFunds - user default funds
+    properties:
+      assets:
+        items:
+          $ref: '#/definitions/AssetFund'
+        type: array
+    type: object
+  userFeedResponse:
+    description: UserFeedResponse - The user feed
+    properties:
+      feed:
+        items:
+          $ref: '#/definitions/FeedItem'
+        type: array
+      total:
+        format: int64
+        type: integer
+      userID:
+        type: string
+    type: object
+  userFundsResponse:
+    description: UserFundsResponse - The user funds
+    properties:
+      funds:
+        items:
+          $ref: '#/definitions/UserFund'
+        type: array
+      total:
+        format: int64
+        type: integer
+    type: object
+  userInfoResponse:
+    description: UserInfoResponse -
+    properties:
+      companies:
+        items:
+          $ref: '#/definitions/UserCompany'
+        type: array
+      email:
+        type: string
+      firstName:
+        type: string
+      lastName:
+        type: string
+      phone:
+        type: string
+      username:
+        type: string
+    type: object
+  userLoginMFAResponse:
+    description: LoginSessionResponse when the authentication is successful
+    properties:
+      status:
+        type: string
+      token:
+        type: string
+    type: object
+  userStatusResponse:
+    description: UserStatusResponse -
+    properties:
+      email:
+        $ref: '#/definitions/StatusText'
+      mobile:
+        $ref: '#/definitions/StatusText'
+    type: object
+  withdrawWhitelistAddressRequest:
+    description: WithdrawWhitelistAddressRequest - a new withdraw whitelist address request
+    properties:
+      address:
+        type: string
+      asset:
+        type: string
+      name:
+        type: string
+    type: object
+  withdrawWhitelistAddressTxResponse:
+    description: WithdrawWhitelistAddressTxResponse - approval status for new withdraw whitelist address
+    properties:
+      status:
+        enum:
+        - none
+        - pending
+        - expired
+        - approved
+        - rejected
+        type: string
+    type: object
+  withdrawWhitelistAddressesResponse:
+    description: WhitelistWithdrawAddressesResponse - list withdraw whitelist addresses
+    properties:
+      list:
+        items:
+          $ref: '#/definitions/WithdrawWhitelistAddress'
+        type: array
+    type: object
+host: dev.qredo.net
+info:
+  title: Qredo Server API.
+paths:
+  /approvals/{approvalDetailType}:
+    get:
+      description: List approvals
+      operationId: approvalsHistory
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The Approval detail type
+        enum:
+        - identity
+        - counterparty
+        - transaction
+        - address
+        - custody
+        in: path
+        name: approvalDetailType
+        required: true
+        type: string
+      responses:
+        "200":
+          description: approvalItems
+          schema:
+            $ref: '#/definitions/approvalItems'
+      tags:
+      - browser
+      - approvals
+  /deposit:
+    post:
+      description: |-
+        Create a new deposit address. Returns Tx URI that will return the deposit address
+        when it gets approved by the principal
+      operationId: newDepositAddress
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/depositAddressRequest'
+      responses:
+        "200":
+          description: txURIResponse
+          schema:
+            $ref: '#/definitions/txURIResponse'
+      tags:
+      - browser
+      - deposit
+  /deposit/{txID}:
+    get:
+      description: Get the deposit address Tx status
+      operationId: mfaTxDeposit
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The Deposit TxID
+        in: path
+        name: txID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: depositAddressTxResponse
+          schema:
+            $ref: '#/definitions/depositAddressTxResponse'
+      tags:
+      - browser
+      - deposit
+  /fees:
+    post:
+      description: Calc transaction fees
+      operationId: fees
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      responses:
+        "200":
+          description: feesResponse
+          schema:
+            $ref: '#/definitions/feesResponse'
+      tags:
+      - browser
+      - transactions
+  /fund/{fundID}:
+    get:
+      description: Get fund information
+      operationId: fundInfo
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The FundID
+        in: path
+        name: fundID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: fundInfoResponse
+          schema:
+            $ref: '#/definitions/fundInfoResponse'
+      tags:
+      - browser
+      - funds
+  /fund/{fundID}/addresses:
+    get:
+      description: Get the deposit addresses for a fund
+      operationId: listFundAddresses
+      parameters:
+      - description: The FundID
+        in: path
+        name: fundID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: depositAddressesResponse
+          schema:
+            $ref: '#/definitions/depositAddressesResponse'
+      tags:
+      - browser
+      - deposit
+  /fund/{fundID}/asset:
+    post:
+      description: Add fund asset
+      operationId: fundAddAsset
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The FundID
+        in: path
+        name: fundID
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/FundAddAssetRequest'
+      responses:
+        "200":
+          description: assetsList
+          schema:
+            $ref: '#/definitions/assetsList'
+      tags:
+      - browser
+      - funds
+  /fund/{fundID}/asset/{assetID}:
+    delete:
+      description: Delete asset from a fund
+      operationId: fundDelAsset
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The FundID
+        in: path
+        name: fundID
+        required: true
+        type: string
+      - description: The AssetID
+        in: path
+        name: assetID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: assetsList
+          schema:
+            $ref: '#/definitions/assetsList'
+      tags:
+      - browser
+      - funds
+  /fund/{fundID}/asset/{assetID}/history:
+    get:
+      description: Get fund transactions history
+      operationId: fundTxHistory
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The FundID
+        in: path
+        name: fundID
+        required: true
+        type: string
+      - description: The AssetID
+        in: path
+        name: assetID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: txHistory
+          schema:
+            $ref: '#/definitions/txHistory'
+      tags:
+      - browser
+      - funds
+      - transactions
+  /fund/{fundID}/whitelist:
+    get:
+      description: Get the whitelist withdraw addresses for a fund
+      operationId: listWhitelistAddresses
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The FundID
+        in: path
+        name: fundID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: withdrawWhitelistAddressesResponse
+          schema:
+            $ref: '#/definitions/withdrawWhitelistAddressesResponse'
+      tags:
+      - browser
+      - withdraw
+      - funds
+    post:
+      description: Add a new whitelist address for withdraw. Returns Tx URI that will return the status of the approval
+      operationId: newWithdrawWhitelistAddress
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The FundID
+        in: path
+        name: fundID
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/withdrawWhitelistAddressRequest'
+      responses:
+        "200":
+          description: txURIResponse
+          schema:
+            $ref: '#/definitions/txURIResponse'
+      tags:
+      - browser
+      - withdraw
+      - funds
+  /fund/{fundID}/whitelist/{txID}:
+    get:
+      description: Get the withdraw whitelist address Tx status
+      operationId: mfaWithdrawWhitelistAddressStatus
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The Deposit TxID
+        in: path
+        name: txID
+        required: true
+        type: string
+      - description: The FundID
+        in: path
+        name: fundID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: withdrawWhitelistAddressTxResponse
+          schema:
+            $ref: '#/definitions/withdrawWhitelistAddressTxResponse'
+      tags:
+      - browser
+      - withdraw
+      - funds
+  /fund/assets:
+    get:
+      description: Get a list of supported assets
+      operationId: supportedAssets
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      responses:
+        "200":
+          description: assetsList
+          schema:
+            $ref: '#/definitions/assetsList'
+      tags:
+      - browser
+      - funds
+  /m/user/{userID}/action/{actionID}:
+    get:
+      description: Get a single user action
+      operationId: userActionResponse
+      responses:
+        "200":
+          description: userAction
+          schema:
+            $ref: '#/definitions/userAction'
+      tags:
+      - mobile
+    post:
+      description: Approve user action
+      operationId: userActionApproveRequest
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/userActionApproveRequest'
+      responses:
+        "200": {}
+      tags:
+      - mobile
+  /m/user/{userID}/confirm:
+    post:
+      description: Confirm the mobile registration. Finish the registration process by probiding ID Document signature
+      operationId: mobileConfirm
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/mobileConfirmRequest'
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: loginResponse
+          schema:
+            $ref: '#/definitions/loginResponse'
+      tags:
+      - mobile
+      - register
+  /m/user/login:
+    post:
+      description: Start user login in browser
+      operationId: loginMobile
+      responses:
+        "200":
+          description: loginResponse
+          schema:
+            $ref: '#/definitions/loginResponse'
+      tags:
+      - mobile
+      - auth
+  /policy/{policyID}:
+    get:
+      description: Get policy info
+      operationId: policyInfo
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The PolicyID
+        in: path
+        name: policyID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: policy
+          schema:
+            $ref: '#/definitions/policy'
+      tags:
+      - browser
+      - funds
+  /policy/{policyID}/threshold:
+    post:
+      description: Modify policy threshold
+      operationId: policyThreshold
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The PolicyID
+        in: path
+        name: policyID
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/policyThreshold'
+      responses:
+        "200":
+          description: policy
+          schema:
+            $ref: '#/definitions/policy'
+      tags:
+      - browser
+      - funds
+  /policy/{policyID}/user:
+    post:
+      description: Add user to a policy
+      operationId: addPolicyUser
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The PolicyID
+        in: path
+        name: policyID
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/AddPolicyUserRequest'
+      responses:
+        "200":
+          description: policy
+          schema:
+            $ref: '#/definitions/policy'
+      tags:
+      - browser
+      - funds
+  /policy/{policyID}/user/{userID}:
+    delete:
+      description: Delete user from a policy
+      operationId: delPolicyUser
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - description: The PolicyID
+        in: path
+        name: policyID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: policy
+          schema:
+            $ref: '#/definitions/policy'
+      tags:
+      - browser
+      - funds
+  /transactions:
+    get:
+      description: Get user transactions history
+      operationId: txHistory
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: Filter by FundID
+        in: query
+        name: fundID
+        type: string
+      - description: Filter by AssetID
+        in: query
+        name: assetID
+        type: string
+      - description: Filter by In or Out transactions
+        enum:
+        - all
+        - in
+        - out
+        in: query
+        name: direction
+        type: string
+      responses:
+        "200":
+          description: txHistory
+          schema:
+            $ref: '#/definitions/txHistory'
+      tags:
+      - browser
+      - transactions
+  /transfer:
+    post:
+      description: Create a new transfer. Returns Tx URI that will return the approval status of the transaction
+      operationId: newTransfer
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/newTransferRequest'
+      responses:
+        "200":
+          description: txURIResponse
+          schema:
+            $ref: '#/definitions/txURIResponse'
+      tags:
+      - browser
+      - transfer
+  /transfer/{txID}:
+    get:
+      description: Get the approval status of the custodians of the transfer
+      operationId: transferStatus
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      responses:
+        "200":
+          description: txStatusResponse
+          schema:
+            $ref: '#/definitions/txStatusResponse'
+      tags:
+      - browser
+      - transfer
+    post:
+      description: Resend the push message
+      operationId: resendPushMessageTransfer
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      responses:
+        "200": {}
+      tags:
+      - browser
+      - transfer
+  /user/{userID}/counterparties:
+    get:
+      description: List trusted counterparties
+      operationId: listCounterparties
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: counterparties
+          schema:
+            $ref: '#/definitions/counterparties'
+      tags:
+      - browser
+      - counterparty
+  /user/{userID}/counterparty:
+    post:
+      description: Add trusted counterparty
+      operationId: addCounterparty
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/addCounterparty'
+      responses:
+        "200":
+          description: counterparties
+          schema:
+            $ref: '#/definitions/counterparties'
+        "404":
+          description: errorAddCounterpartyReponse
+          schema:
+            $ref: '#/definitions/errorAddCounterpartyReponse'
+        "409":
+          description: errorAddCounterpartyReponse
+          schema:
+            $ref: '#/definitions/errorAddCounterpartyReponse'
+      tags:
+      - browser
+      - counterparty
+  /user/{userID}/counterparty/{hexEmail}:
+    delete:
+      description: Delete counterparty by email
+      operationId: delCounterparty
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - description: Email address hex-encoded
+        in: path
+        name: hexEmail
+        required: true
+        type: string
+      responses:
+        "200":
+          description: counterparties
+          schema:
+            $ref: '#/definitions/counterparties'
+      tags:
+      - browser
+      - counterparty
+    get:
+      description: Get counterparty by email
+      operationId: checkCounterpartyAddress
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - description: Email address hex-encoded
+        in: path
+        name: hexEmail
+        required: true
+        type: string
+      responses:
+        "200":
+          description: counterpartyStatusResponse
+          schema:
+            $ref: '#/definitions/counterpartyStatusResponse'
+      tags:
+      - browser
+      - counterparty
+  /user/{userID}/credentials/{actionID}:
+    get:
+      description: Get user credentials reset status
+      operationId: credentialsResetStatus
+      responses:
+        "200":
+          description: resetCredentialsStatusResponse
+          schema:
+            $ref: '#/definitions/resetCredentialsStatusResponse'
+      tags:
+      - browser
+      - reset
+  /user/{userID}/defaultfunds:
+    get:
+      description: Get user default funds
+      operationId: getUserDefaultFunds
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: userDefaultFunds
+          schema:
+            $ref: '#/definitions/userDefaultFunds'
+      tags:
+      - browser
+      - funds
+    post:
+      description: Get user default funds
+      operationId: setUserDefaultFunds
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/userDefaultFunds'
+      responses:
+        "200":
+          description: userDefaultFunds
+          schema:
+            $ref: '#/definitions/userDefaultFunds'
+      tags:
+      - browser
+      - funds
+  /user/{userID}/feed:
+    get:
+      description: Get user info
+      operationId: userFeed
+      parameters:
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - description: Last feed ID
+        in: query
+        name: last
+        type: string
+      - default: "100"
+        description: Limit the number of items
+        in: query
+        name: limit
+        type: string
+      responses:
+        "200":
+          description: userFeedResponse
+          schema:
+            $ref: '#/definitions/userFeedResponse'
+      tags:
+      - browser
+  /user/{userID}/funds:
+    get:
+      description: Get user funds
+      operationId: userFunds
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: userFundsResponse
+          schema:
+            $ref: '#/definitions/userFundsResponse'
+      tags:
+      - browser
+      - funds
+    post:
+      description: Add new fund
+      operationId: addFund
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/addFund'
+      responses:
+        "200":
+          description: fundInfoResponse
+          schema:
+            $ref: '#/definitions/fundInfoResponse'
+      tags:
+      - browser
+      - funds
+  /user/{userID}/info:
+    get:
+      description: Get user info
+      operationId: userInfo
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: userInfoResponse
+          schema:
+            $ref: '#/definitions/userInfoResponse'
+      tags:
+      - browser
+  /user/{userID}/login:
+    get:
+      description: Check the MFA status of the login process. Returns the login JWT token of success MFA
+      operationId: userLoginSession
+      parameters:
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - description: The MFA session ID
+        in: query
+        name: "n"
+        required: true
+        type: string
+      responses:
+        "200":
+          description: userLoginMFAResponse
+          schema:
+            $ref: '#/definitions/userLoginMFAResponse'
+      tags:
+      - browser
+  /user/{userID}/mobile:
+    post:
+      description: Pair mobile app. Start the mobile registration flow. That URL is generated in the QR code
+      operationId: mobileRegister
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/mobileRegisterRequest'
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - description: The pair session secret
+        in: query
+        name: "n"
+        required: true
+        type: string
+      responses:
+        "200":
+          description: mobileRegisterResponse
+          schema:
+            $ref: '#/definitions/mobileRegisterResponse'
+      tags:
+      - mobile
+      - register
+  /user/{userID}/partner:
+    get:
+      description: List partner API keys for {userID}
+      operationId: partnerKeys
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      responses:
+        "200":
+          description: partnerKeysResponse
+          schema:
+            $ref: '#/definitions/partnerKeysResponse'
+      tags:
+      - browser
+      - partner
+  /user/{userID}/partner/{keyID}/public:
+    delete:
+      description: Delete publicKey for {keyID}
+      operationId: publicKey
+      responses:
+        "200": {}
+      tags:
+      - browser
+      - partner
+    get:
+      description: Get publicKey for {keyID}
+      operationId: publicKey
+      responses:
+        "200":
+          description: partnerPublicKeyResponse
+          schema:
+            $ref: '#/definitions/partnerPublicKeyResponse'
+      tags:
+      - browser
+      - partner
+    post:
+      description: Get publicKey for {keyID}
+      operationId: publicKey
+      responses:
+        "200": {}
+      tags:
+      - browser
+      - partner
+  /user/{userID}/partner/new:
+    post:
+      description: Generate new partner key for {userID}
+      operationId: newPartnerKey
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      responses:
+        "200":
+          description: partnerKeyResponse
+          schema:
+            $ref: '#/definitions/partnerKeyResponse'
+      tags:
+      - browser
+      - partner
+  /user/{userID}/partner/regenerate/{keyID}:
+    post:
+      description: Regenerate {keyID} for {userID}
+      operationId: regeneratePartnerKey
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - description: KeyID
+        in: path
+        name: keyID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: partnerKeyResponse
+          schema:
+            $ref: '#/definitions/partnerKeyResponse'
+      tags:
+      - browser
+      - partner
+  /user/{userID}/reset/qr:
+    post:
+      description: Generate new QR code
+      operationId: resetQR
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      responses:
+        "200":
+          description: qrResetResponse
+          schema:
+            $ref: '#/definitions/qrResetResponse'
+      tags:
+      - browser
+      - register
+  /user/{userID}/send/sms:
+    post:
+      description: Send the welcome SMS
+      operationId: registerSendSMS
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/registerSendSMS'
+      responses:
+        "200":
+          description: statusResponse
+          schema:
+            $ref: '#/definitions/statusResponse'
+      tags:
+      - browser
+      - register
+  /user/{userID}/status:
+    get:
+      description: Get user status
+      operationId: userStatus
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The UserID
+        in: path
+        name: userID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: userStatusResponse
+          schema:
+            $ref: '#/definitions/userStatusResponse'
+      tags:
+      - browser
+      - register
+  /user/login:
+    post:
+      description: Start user login in browser
+      operationId: loginUser
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/loginRequest'
+      responses:
+        "200":
+          description: loginResponse
+          schema:
+            $ref: '#/definitions/loginResponse'
+      tags:
+      - browser
+      - auth
+  /user/register:
+    post:
+      description: Reqister new user
+      operationId: registerUser
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/registerRequest'
+      responses:
+        "200":
+          description: registerResponse
+          schema:
+            $ref: '#/definitions/registerResponse'
+        "400":
+          description: errorUserRegisterReponse
+          schema:
+            $ref: '#/definitions/errorUserRegisterReponse'
+        "409":
+          description: errorUserRegisterReponse
+          schema:
+            $ref: '#/definitions/errorUserRegisterReponse'
+      tags:
+      - browser
+      - register
+  /user/reset/forgotten:
+    post:
+      description: Sends a verification OTC email for forgotten password
+      operationId: forgottenPassword
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/forgottenPassword'
+      responses:
+        "200":
+          description: registerResponse
+          schema:
+            $ref: '#/definitions/registerResponse'
+      tags:
+      - browser
+      - reset
+  /user/reset/mobileinitiate:
+    post:
+      description: Sends a verification OTC email for mobile reset PIN or Master seed
+      operationId: mobileReset
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/mobileReset'
+      responses:
+        "200":
+          description: registerResponse
+          schema:
+            $ref: '#/definitions/registerResponse'
+      tags:
+      - mobile
+      - reset
+  /user/reset/password:
+    post:
+      description: Initiate password change
+      operationId: credentialsReset
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/credentialsReset'
+      responses:
+        "200":
+          description: resetCredentialsURI
+          schema:
+            $ref: '#/definitions/resetCredentialsURI'
+      tags:
+      - browser
+      - reset
+  /user/reset/pin:
+    post:
+      description: Reset Mobile PIN
+      operationId: mobileResetPIN
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/mobileResetPIN'
+      responses:
+        "200":
+          description: mobileRegisterResponse
+          schema:
+            $ref: '#/definitions/mobileRegisterResponse'
+      tags:
+      - mobile
+      - reset
+  /user/verify:
+    post:
+      description: Verify new user and complete registration
+      operationId: emailVerifyUser
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/emailVerifyRequest'
+      - description: Nonce
+        in: query
+        name: "n"
+        required: true
+        type: string
+      responses:
+        "200":
+          description: emailVerifyResponse
+          schema:
+            $ref: '#/definitions/emailVerifyResponse'
+        "400":
+          description: errorUserRegisterReponse
+          schema:
+            $ref: '#/definitions/errorUserRegisterReponse'
+        "409":
+          description: errorUserRegisterReponse
+          schema:
+            $ref: '#/definitions/errorUserRegisterReponse'
+      tags:
+      - browser
+      - mobile
+      - register
+      - reset
+  /withdraw:
+    post:
+      description: Create a new withdraw. Returns Tx URI that will return the approval status of the transaction
+      operationId: newWithdraw
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The Deposit TxID
+        in: path
+        name: txID
+        required: true
+        type: string
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/newWithdrawRequest'
+      responses:
+        "200":
+          description: txURIResponse
+          schema:
+            $ref: '#/definitions/txURIResponse'
+      tags:
+      - browser
+      - withdraw
+  /withdraw/{txID}:
+    get:
+      description: Get the approval status of the custodians of the withdraw
+      operationId: withdrawStatus
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      - description: The Deposit TxID
+        in: path
+        name: txID
+        required: true
+        type: string
+      responses:
+        "200":
+          description: txStatusResponse
+          schema:
+            $ref: '#/definitions/txStatusResponse'
+      tags:
+      - browser
+      - withdraw
+    post:
+      description: Resend the push message
+      operationId: resendPushMessageWithdraw
+      parameters:
+      - description: Authorization token
+        in: header
+        name: x-token
+        required: true
+        type: string
+      responses:
+        "200": {}
+      tags:
+      - browser
+      - withdraw
+produces:
+- application/json
+schemes:
+- http
+- https
+swagger: "2.0"
