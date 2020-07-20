@@ -55,16 +55,16 @@ Accept an Invite
 
 As a user on the Qredo Network, you would have received an invite on your phone to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
 
-1.  Tap on the notification for the invite.
-2.  Sign in to the app using the biometric feature of your phone.
-3.  Enter your 6-digit PIN. The Trusted Party screen shows.
+1. Tap on the notification for the invite.
+2. Sign in to the app using the biometric feature of your phone.
+3. Enter your 6-digit PIN. The Trusted Party screen shows.
 
     ![parties](/doc-images/trustedP1.png)
 
-4.  To approve the pairing request, tap **Approve**.
-5.  Authenticate using the biometric feature and 6-digit PIN.
-6.  Then tap **Confirm** in the Confirmation screen.  A screen appears to show that approval has been granted.
-7.  Tap **Close**.
+4. To approve the pairing request, tap **Approve**.
+5. Authenticate using the biometric feature and 6-digit PIN.
+6. Then tap **Confirm** in the Confirmation screen.  A screen appears to show that approval has been granted.
+7. Tap **Close**.
 
 You will then see the following screen indicating that the request has been actioned with the status of APPROVED.
 
@@ -75,10 +75,10 @@ Reject an Invite
 
 If you do not want to be part of their network, you can reject their invite. 
 
-1.  To reject the pairing request, tap **Reject** in the Trusted Party screen.
-2.  Authenticate using the biometric feature and 6-digit PIN.
-3.  Tap **Confirm** in the Confirmation screen. A screen appears which shows that approval has been granted.
-4.  Tap **Close**.
+1. To reject the pairing request, tap **Reject** in the Trusted Party screen.
+2. Authenticate using the biometric feature and 6-digit PIN.
+3. Tap **Confirm** in the Confirmation screen. A screen appears which shows that approval has been granted.
+4. Tap **Close**.
 
 
 You will then see the following screen indicating that the request has been actioned with the status of rejected.
