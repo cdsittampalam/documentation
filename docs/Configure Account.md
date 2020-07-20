@@ -2,11 +2,12 @@
 id: Configure Account
 ---
 
-# Overview
+Overview
+--------
 
 The web app includes sections that will allow you to configure accounts in future versions of the app. 
 
-## Future Version Features
+### Future Version Features
 
 In future versions, you will be able to:
 
@@ -15,7 +16,7 @@ In future versions, you will be able to:
 *   change the account owner.
 *   view/edit account permissions and/or members.
 
-## Current Version Features
+### Current Version Features
 
 Currently, you can view information on the:
 
@@ -27,7 +28,10 @@ Currently, you can view information on the:
 
 You can also [copy](#copy-agreement) and [download](#download-agreement) the legal agreement.
 
-# View Account Settings
+Follow the steps to [View Account Settings](#view-account-settings)
+
+View Account Settings
+---------------------
 
 1. From any of the main pages, click the Account icon that contains your own initials:
 
@@ -41,13 +45,13 @@ You can also [copy](#copy-agreement) and [download](#download-agreement) the leg
 
 3. Click the various tabs for the different sections of the page.
 
-## Account
+### Account
 
 The Account Details section shows information that was saved to your account on registration, including your first name, last name, and email address. The account status shows as Active or Inactive.
 
 ![Settings](/doc-images/1accountdetail.png)
 
-## User Permissions
+### User Permissions
 
 The Permissions section shows your Qredo user role.
 
@@ -60,34 +64,35 @@ For more details, see [Role of the Account Owner](#role-of-the-account-owner)
 
 ![perms](/doc-images/1perms.png)
 
-## Billing Options
+### Billing Options
 
 The Billing section shows the Personal Plan associated with your Qredo account, and details of the Enterprise Plan that is available in a future release.
 To upgrade to an Enterprise Plan, please contact Qredo <support@qredo.com>.
 
 ![Billing](/doc-images/2billing.png)
 
-## Partner API
+### Partner API
 
 This section provides details on the Partner API and who the API is geared for.
 
 ![Billing](/doc-images/partnerapi.png)
 
-## Legal Agreement
+### Legal Agreement
 
 The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program. Or, you can directly download the agreement. 
 
 ![Legal](/doc-images/1Legal.png)
 
-### Copy Agreement
+#### Copy Agreement
 
 From the page, click **Copy Link**.
 
-### Download Agreement
+#### Download Agreement
 
 From the page, click **Download**.
 
-## Role of the Account Owner
+Role of the Account Owner
+-------------------------
 
 As the account owner, you can:
 
