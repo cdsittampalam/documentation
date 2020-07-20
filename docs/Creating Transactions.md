@@ -12,7 +12,7 @@ Future versions will allow atomic swaps that provide instant exchange of differe
 Summary of Steps
 ----------------
 
-- As the trade initiator, you start by following the steps to [create a transfer](). 
+- As the trade initiator, you start by following the steps to [create a transfer]().
 - As the custodian, you can [approve the transfer](). 
 
 You can [track progress]() in different ways.
@@ -23,11 +23,6 @@ You can [track progress]() in different ways.
 Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred. Information on the fee appears when you enter details and review the transfer transaction.
 
 As a fund owner and member, you have the permission to transfer money from one Qredo user to another. This permission is shown in the **Permissions** tab on the Settings section of your account.
-
-### Custodian Role
-
-
-
 
 Create Transfer
 ---------------
@@ -95,8 +90,7 @@ These include:
 
 When a counterparty receives money, they will receive an email notification of the transaction.
 
-Authorise Transfer
-----------------------
+### Authorise Transfer
 
 Once authorised, you can double-check details including the fees that are charged on the transaction.
 
@@ -110,8 +104,7 @@ For the authorise or reject action, you sign in with your biometric features and
 
 A transfer transaction can happen if it has met or exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund linked to the transaction.
 
-Approve Transfer
---------------------
+### Approve Transfer
 
 As the custodian, you receive a notification as soon as the trade initiator has authorised the transfer. The Transfer screen on your phone asks you to approve or reject the transfer.
 
@@ -132,8 +125,6 @@ You can also view other details linked to the transaction under the Show Detail 
 *   the date and time in which the transfer was initiated.
 *   details of the Qredo fee.
 
-### Steps
-
 1.  Tap on the notification on your phone. The Transfer screen shows.
 2.  Click **Show Details** to view more details of the transaction.
 3.  To approve, tap **Approve**.
@@ -144,19 +135,19 @@ For the approve or reject action, you sign in with your biometric features and 6
 Track Progress
 --------------
 
-As the trade initiator, you can check the progress of custodian approval for the transfer.
-
-You can view approvals from the Approval view by clicking the Approvals icon:
-
-![tick](/doc-images/tick.png)
-
-These include details of transfer approvals that cover those from the trade initiator and one or more custodians. You can also view custody approvals specifically
+As the trade initiator, you can check the progress of custodian approval for the transfer. These include details of transfer approvals that cover those from the trade initiator and one or more custodians. You can also view custody approvals specifically
 for the fund of the transaction.
+
+You can view approvals from the Approval view. 
 
 ### Transaction Approvals
 
-1.  Click the **Transactions** tab,
-2.  Click the **Pending** or **Actioned** tabs.
+1.  Click the Approvals icon.
+
+![tick](/doc-images/tick.png)
+
+2.  Click the **Transactions** tab,
+3.  Click the **Pending** or **Actioned** tabs.
 
 The Pending tab shows pending approvals.
 
