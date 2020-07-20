@@ -32,11 +32,11 @@ View Account Settings
 
 1. From any of the main pages, click the Account icon that contains your own initials:
 
-![Account](/doc-images/initials.png)
+   ![Account](/doc-images/initials.png)
 
 2. In the displayed account card, click the Account Settings button to display account details. 
 
-![Account](/doc-images/Accountcard.png)
+   ![Account](/doc-images/Accountcard.png)
 
    The Settings page appears.
 
@@ -82,11 +82,11 @@ The Legal section shows the Qredo legal agreement that you would have agreed to 
 
 #### Copy Agreement
 
-From the page, click **Copy Link**.
+From the Legal section, click **Copy Link**.
 
 #### Download Agreement
 
-From the page, click **Download**.
+From the Legal section, click **Download**.
 
 Role of the Account Owner
 -------------------------
