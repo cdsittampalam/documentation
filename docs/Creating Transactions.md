@@ -5,23 +5,21 @@ id: Creating Transactions
 Transactions allow a trade initiator to transfer money to a recipient (or counterparty) within the same fund. All money during a transfer
 stays on the Qredo Network, and is secure on the Qredo blockchain. Liquidity is maintained, so that money can move between participants at any time.
 
-Future versions will allow atomic swaps that provide instant exchange of different digital assets.
-
-### Qredo Fees
-
-Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred. Information on the fee appears when you enter details and review the transfer transaction.
-
-As a fund owner and member, you have the permission to transfer money from one Qredo user to another. This permission is shown in the **Permissions** tab on the Settings section of your account.
-
-### Custodian Role
-
 As a custodian, you can decide if a transfer started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the transfer custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the transfer policy linked to the fund. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
 
-The main steps and sections in this page are as follows:
-- [Create Transfer](#create-transfer)
-- [Authorise Transfer](#authorise-transfer)
-- [Approve Transfer](#approve-transfer)
-- [Track progress](#track-progress)
+Future versions will allow atomic swaps that provide instant exchange of different digital assets.
+
+Summary of Steps
+----------------
+
+- As the trade initiator, you start by following the steps to [create a transfer](#create-transfer). These also include details of:
+  - [review transfer](#review-transfer)
+  - [start transfer](#start-transfer)
+  - [authorise transfer](#authorise-transfer)
+  
+- As the custodian, you can [approve the transfer](#approve-transfer). 
+
+You can [track progress](#track-progress) in different ways.
 
 Create Transfer
 ---------------
@@ -30,28 +28,30 @@ The Qredo app consists of a wizard that lets you transfer a specific amount to a
 
 You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 
-You start your action from the Asset view or Ledger view by clicking either:
+You are also notified when a transfer transaction is complete through an email.
+
+1.Start your action from the Asset view or Ledger view by clicking either:
 
 ![coins](/doc-images/coins.png)
 
 ![ledger](/doc-images/ledger.png)
 
-1. Choose the **Transfer** option in the Select Type box.
+2. Choose the **Transfer** option in the Select Type box.
 
 ![transaction](/doc-images/selecttypetrans.png)
 
-2. Click **Continue**. The Transfer screen shows, and includes a scrollbar that lets you scroll down to other options.
+3. Click **Continue**. The Transfer screen shows, and includes a scrollbar that lets you scroll down to other options.
 
 ![transfer](/doc-images/transfermain.png)
 
-3. In the From section, select the fund for the transfer in the **Fund** list.
-4. Choose the asset that you want to transfer in the **Asset** list.
-5. Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
-6. Enter the sum of money that you want to transfer in **Amount**. The Qredo fee and total transfer cost appears.  
-7. Type in a reference number in **Reference**.
-8. To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
-9. To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
-10. Click **Review Transfer**.
+4. In the From section, select the fund for the transfer in the **Fund** list.
+5. Choose the asset that you want to transfer in the **Asset** list.
+6. Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
+7. Enter the sum of money that you want to transfer in **Amount**. The Qredo fee and total transfer cost appears.  
+8. Type in a reference number in **Reference**.
+9. To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
+10. To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
+11. Click **Review Transfer**.
 
 ### Review Transfer
 
@@ -81,14 +81,12 @@ These include:
 
 ### Start Transfer
 
-1. To see details of fees, click the question mark icon.
-2. To start the transfer, click **Initiate Transfer**. You are then prompted to check your phone app.
-3. To return to the previous screen, click **Back**.
+1. To start the transfer, click **Initiate Transfer**. You are then prompted to check your phone app.
+2. To return to the previous screen, click **Back**.
 
 When a counterparty receives money, they will receive an email notification of the transaction.
 
-Authorise Transfer
-----------------------
+### Authorise Transfer
 
 Once authorised, you can double-check details including the fees that are charged on the transaction.
 
@@ -102,8 +100,7 @@ For the authorise or reject action, you sign in with your biometric features and
 
 A transfer transaction can happen if it has met or exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund linked to the transaction.
 
-Approve Transfer
---------------------
+### Approve Transfer
 
 As the custodian, you receive a notification as soon as the trade initiator has authorised the transfer. The Transfer screen on your phone asks you to approve or reject the transfer.
 
@@ -122,9 +119,7 @@ You can also view other details linked to the transaction under the Show Detail 
 *   the name, beneficiary name, email address, network alias, and account number of the recipient.
 *   the email address and network alias of the trade initiator.
 *   the date and time in which the transfer was initiated.
-*   details of the Qredo fee.
-
-### Steps
+*   details of the Qredo fee. Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred. 
 
 1.  Tap on the notification on your phone. The Transfer screen shows.
 2.  Click **Show Details** to view more details of the transaction.
@@ -136,19 +131,25 @@ For the approve or reject action, you sign in with your biometric features and 6
 Track Progress
 --------------
 
-As the trade initiator, you can check the progress of custodian approval for the transfer.
-
-You can view approvals from the Approval view by clicking the Approvals icon:
-
-![tick](/doc-images/tick.png)
-
-These include details of transfer approvals that cover those from the trade initiator and one or more custodians. You can also view custody approvals specifically
+As the trade initiator, you can check the progress of custodian approval for the transfer. These include details of transfer approvals that cover those from the trade initiator and one or more custodians. You can also view custody approvals specifically
 for the fund of the transaction.
+
+Details that can be tracked include the following:
+
+* [transaction approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians.
+* [custodian approvals](#custodian-approvals) specifically for the fund of the transaction.
+* [transactions in Ledger View](#transfer-progress) for all funds under your account.
+* [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view. 
+
 
 ### Transaction Approvals
 
-1.  Click the **Transactions** tab,
-2.  Click the **Pending** or **Actioned** tabs.
+1.  Click the Approvals icon.
+
+![tick](/doc-images/tick.png)
+
+2.  Click the **Transactions** tab,
+3.  Click the **Pending** or **Actioned** tabs.
 
 The Pending tab shows pending approvals.
 
@@ -169,9 +170,9 @@ The Actioned tab shows the same column fields. However, the ACTIONED column refl
 
 ![transaction](/doc-images/trapr3.png)
 
-#### Custodian Approvals
+### Custodian Approvals
 
-1.  Click the **Custody** tab,    
+1.  From the Approvals view, click the **Custody** tab,    
 2.  Click the **Pending** or **Actioned** sub-tabs.
 
 The pending tab shows these fields and pending approvals.
@@ -194,13 +195,15 @@ The following is an example actioned entry in the Approval view with the status 
 
 ![Transaction Approval](/doc-images/cusappr2.png)
 
-### Transfer Progress
+### Transactions View (Ledger)
 
 You can view the transaction progress of transfers from Qredo in the TX Ledger section.
 
-You can view transaction progress in the Ledger view by clicking the Ledger icon.
+1. Click the Ledger icon.
 
 ![Ledger](/doc-images/ledger.png)
+
+2. Click the Outbound tab.
 
 TX Ledger shows the following details:
 
@@ -218,14 +221,13 @@ TX Ledger shows the following details:
 
 ![Transaction Approval](/doc-images/outTX2.png)
 
-#### Progress Details
+### Progress Details
 
 For both the Approval and Ledger view, a summary screen shows details of the progress of a single transfer transaction. Summary screen headers can show in a particular colour to represent a category:
 
 * Transactions that are waiting appear in black and white.
 * Transactions that are approved show in green.
 * Transactions that are rejected appear in red.
-
 
 The following shows an example summary status of a completed transfer:
 

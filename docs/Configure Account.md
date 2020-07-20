@@ -2,40 +2,53 @@
 id: Configure Account
 ---
 
-The web app includes sections that will allow you to configure accounts in future versions of the app. Currently, the Settings page lets you view various details of your own account.
+The web app includes sections that will allow you to configure accounts in future versions of the app. 
 
-Future versions will allow you to:
+### Future Version Features
 
-*   upgrade your account plan
-*   view/edit company name and domain
-*   change the account owner
-*   view/edit account permissions and/or members
+In future versions, you will be able to:
 
-Details on your account is accessed from the Account icon that contains your own initials:
+*   upgrade your account plan.
+*   view/edit company name and domain.
+*   change the account owner.
+*   view/edit account permissions and/or members.
 
-![Account](/doc-images/initials.png)
+### Current Version Features
 
-Show Account Settings
+Currently, you can view information on the:
+
+*   [account](#account)
+*   [user permissions](#user-permissions)
+*   [billing options](#billing-options)
+*   [Partner API](#partner-api)
+*   [legal agreement](#legal-agreement)
+
+You can also [copy](#copy-agreement) and [download](#download-agreement) the legal agreement.
+
+Follow the steps to [View Account Settings](#view-account-settings)
+
+View Account Settings
 ---------------------
 
-The web app shows summary information of your account in a pop-up card view. From the account card, you can access the Settings page.
+1. From any of the main pages, click the Account icon that contains your own initials:
 
-1. Click the Account icon. Your account card appears.
+   ![Account](/doc-images/initials.png)
 
-![Account](/doc-images/acctcard.png)
+2. In the displayed account card, click the Account Settings button to display account details. 
 
-2. Click the button to display account details. The Settings page appears.
-2. In the Settings page, click the various tabs for the different sections of the page.
+   ![Account](/doc-images/Accountcard.png)
 
-Account Details
----------------
+   The Settings page appears.
+
+3. Click the various tabs for the different sections of the page.
+
+### Account
 
 The Account Details section shows information that was saved to your account on registration, including your first name, last name, and email address. The account status shows as Active or Inactive.
 
 ![Settings](/doc-images/1accountdetail.png)
 
-Permissions
------------
+### User Permissions
 
 The Permissions section shows your Qredo user role.
 
@@ -48,31 +61,32 @@ For more details, see [Role of the Account Owner](#role-of-the-account-owner)
 
 ![perms](/doc-images/1perms.png)
 
-Billing
--------
+### Billing Options
 
-
-The Billing section shows the plan associated with your Qredo account. At present, Qredo includes the Personal Plan only.
-In future versions, users can be part of an Enterprise Plan.
+The Billing section shows the Personal Plan associated with your Qredo account, and details of the Enterprise Plan that is available in a future release.
+To upgrade to an Enterprise Plan, please contact Qredo <support@qredo.com>.
 
 ![Billing](/doc-images/2billing.png)
 
+### Partner API
 
-Partner API
------------
-
-
-This section provides details on the Partner API.
+This section provides details on the Partner API and who the API is geared for.
 
 ![Billing](/doc-images/partnerapi.png)
 
+### Legal Agreement
 
-Legal
------
-
-The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program by clicking **Copy Link**. Alternatively, you can download the agreement by clicking **Download**.
+The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program. Or, you can directly download the agreement. 
 
 ![Legal](/doc-images/1Legal.png)
+
+#### Copy Agreement
+
+From the Legal section, click **Copy Link**.
+
+#### Download Agreement
+
+From the Legal section, click **Download**.
 
 Role of the Account Owner
 -------------------------

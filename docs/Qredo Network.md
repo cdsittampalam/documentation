@@ -25,7 +25,9 @@ The Qredo blockchain records transactions that happen for these events:
 *   Money is withdrawn from the Qredo Network
 
 
-Users interact with the Qredo Network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). A developer user can use the Qredo Network by enrolling for the Partner API. Details on the Partner API are coming soon.
+Users interact with the Qredo Network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). When you have signed up to the Qredo app, you can invite users to be a trusted party from within the Qredo Network, or from outside of Qredo via LinkedIn, Telegram or WhatsApp.  
+
+A developer user can use the Qredo Network by enrolling for the Partner API. Details on the Partner API are coming soon.
 
 Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
 
@@ -49,7 +51,7 @@ A transaction requires various signatures from these participants that meet rule
 
 #### Threshold
 
-For a transaction to be approved and written to the Qredo blockchain, the threshold determines how many custodian signatures are needed within a custodian group. For example, for a threshold of 2/3, at least 2 out of 3 signatures are needed for a transaction to be written to the blockchain.
+For a transaction to be approved and written to the Qredo blockchain, the threshold determines how many custodian signatures are needed within a custodian group. For example, for a threshold of 2/3, at least 2 out of 3 signatures are needed for a transaction to be written to the blockchain. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3, needs fewer signatures for a transaction to take place.  
 
 #### Transfer Policies
 
