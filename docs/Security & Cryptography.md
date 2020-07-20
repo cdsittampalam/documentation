@@ -8,7 +8,7 @@ This page describes the following:
 
 *   [Data centre security](#data-centre-security)
 *   [MPC protocol](#mpc-protocol)
-*   [BLS signature scheme] (#bls-signature-scheme)
+*   [BLS signature scheme](#bls-signature-scheme)
 
 
 Data Centre Security

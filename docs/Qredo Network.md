@@ -25,7 +25,7 @@ The Qredo blockchain records transactions that happen for these events:
 *   Money is withdrawn from the Qredo Network
 
 
-Users interact with the Qredo Network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). The Qredo app works on invitations. When you have signed up, you can invite a user to be a trusted party from within the Qredo Network, or from outside of Qredo. When choosing a trusted party externally, you can invite them via LinkedIn, Telegram or WhatsApp.  
+Users interact with the Qredo Network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). When you have signed up to the Qredo app, you can invite users to be a trusted party from within the Qredo Network, or from outside of Qredo via LinkedIn, Telegram or WhatsApp.  
 
 A developer user can use the Qredo Network by enrolling for the Partner API. Details on the Partner API are coming soon.
 
