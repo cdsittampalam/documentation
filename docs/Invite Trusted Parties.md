@@ -76,6 +76,9 @@ Reject an Invite
 If you do not want to be part of their network, you can reject their invite. 
 
 1. To reject the pairing request, tap **Reject** in the Trusted Party screen.
+
+ ![Add Trusted](/doc-images/addtrusted.png)
+
 2. Authenticate using the biometric feature and 6-digit PIN.
 3. Tap **Confirm** in the Confirmation screen. A screen appears which shows that approval has been granted.
 4. Tap **Close**.
