@@ -34,6 +34,10 @@ You enter an email address for a user on the Qredo Network. The email address mu
     
     ![Add Trusted](/doc-images/AddTrustedConf.png)
 
+4.  Click **Confirm**. The screens shows that the request was sent.
+5.  Click Close.
+6.  Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list))
+
 4.  Click **Confirm.**  The screen shows that the request was sent.
 5.  Click Close.
 6.  Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list)).
