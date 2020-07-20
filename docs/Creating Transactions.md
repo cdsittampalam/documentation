@@ -12,7 +12,11 @@ Future versions will allow atomic swaps that provide instant exchange of differe
 Summary of Steps
 ----------------
 
-- As the trade initiator, you start by following the steps to [create a transfer](#create-transfer). 
+- As the trade initiator, you start by following the steps to [create a transfer](#create-transfer). These also include details of:
+  - [review transfer](#review-transfer)
+  - [start transfer](#start-transfer)
+  - [authorise transfer](#authorise-transfer)
+  
 - As the custodian, you can [approve the transfer](#approve-transfer). 
 
 You can [track progress](#track-progress) in different ways.
@@ -26,28 +30,28 @@ You also set the date and time or number of days for custodian approval, accordi
 
 You are also notified when a transfer transaction is complete through an email.
 
-You start your action from the Asset view or Ledger view by clicking either:
+1.Start your action from the Asset view or Ledger view by clicking either:
 
 ![coins](/doc-images/coins.png)
 
 ![ledger](/doc-images/ledger.png)
 
-1. Choose the **Transfer** option in the Select Type box.
+2. Choose the **Transfer** option in the Select Type box.
 
 ![transaction](/doc-images/selecttypetrans.png)
 
-2. Click **Continue**. The Transfer screen shows, and includes a scrollbar that lets you scroll down to other options.
+3. Click **Continue**. The Transfer screen shows, and includes a scrollbar that lets you scroll down to other options.
 
 ![transfer](/doc-images/transfermain.png)
 
-3. In the From section, select the fund for the transfer in the **Fund** list.
-4. Choose the asset that you want to transfer in the **Asset** list.
-5. Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
-6. Enter the sum of money that you want to transfer in **Amount**. The Qredo fee and total transfer cost appears.  
-7. Type in a reference number in **Reference**.
-8. To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
-9. To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
-10. Click **Review Transfer**.
+4. In the From section, select the fund for the transfer in the **Fund** list.
+5. Choose the asset that you want to transfer in the **Asset** list.
+6. Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
+7. Enter the sum of money that you want to transfer in **Amount**. The Qredo fee and total transfer cost appears.  
+8. Type in a reference number in **Reference**.
+9. To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
+10. To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
+11. Click **Review Transfer**.
 
 ### Review Transfer
 
