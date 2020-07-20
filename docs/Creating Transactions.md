@@ -19,7 +19,6 @@ You can [track progress](#track-progress) in different ways.
 
 ### Qredo Fees
 
-Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred. Information on the fee appears when you enter details and review the transfer transaction.
 
 As a fund owner and member, you have the permission to transfer money from one Qredo user to another. This permission is shown in the **Permissions** tab on the Settings section of your account.
 
@@ -83,9 +82,8 @@ These include:
 
 ### Start Transfer
 
-1. To see details of fees, click the question mark icon.
-2. To start the transfer, click **Initiate Transfer**. You are then prompted to check your phone app.
-3. To return to the previous screen, click **Back**.
+1. To start the transfer, click **Initiate Transfer**. You are then prompted to check your phone app.
+2. To return to the previous screen, click **Back**.
 
 When a counterparty receives money, they will receive an email notification of the transaction.
 
