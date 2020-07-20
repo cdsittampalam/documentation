@@ -114,11 +114,7 @@ For more details, see [Sign In Steps](#sign-in)
 Phone Steps
 -----------
 
-The phone steps include:
-
-* pairing steps
-* master seed steps
-* signing in steps
+The phone steps include pairing and master seed steps.
 
 ### Pairing Steps
 Once you have downloaded the phone app, you are ready to pair your phone with the web app. You will see a landing page for the mobile app on your phone.
