@@ -5,7 +5,18 @@ id: Creating Transactions
 Transactions allow a trade initiator to transfer money to a recipient (or counterparty) within the same fund. All money during a transfer
 stays on the Qredo Network, and is secure on the Qredo blockchain. Liquidity is maintained, so that money can move between participants at any time.
 
+As a custodian, you can decide if a transfer started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the transfer custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the transfer policy linked to the fund. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
+
 Future versions will allow atomic swaps that provide instant exchange of different digital assets.
+
+Summary of Steps
+----------------
+
+- As the trade initiator, you start by following the steps to [create a transfer](). 
+- As the custodian, you can [approve the transfer](). 
+
+You can [track progress]() in different ways.
+
 
 ### Qredo Fees
 
@@ -15,13 +26,8 @@ As a fund owner and member, you have the permission to transfer money from one Q
 
 ### Custodian Role
 
-As a custodian, you can decide if a transfer started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the transfer custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the transfer policy linked to the fund. For more details on thresholds and custody policies, refer to [Fund Administration](/docs/Fund%20Administration).
 
-The main steps and sections in this page are as follows:
-- [Create Transfer](#create-transfer)
-- [Authorise Transfer](#authorise-transfer)
-- [Approve Transfer](#approve-transfer)
-- [Track progress](#track-progress)
+
 
 Create Transfer
 ---------------
@@ -29,6 +35,8 @@ Create Transfer
 The Qredo app consists of a wizard that lets you transfer a specific amount to a Qredo user. You must ensure that you enter the correct asset, amount, counterparty, and fund for the transfer.
 
 You also set the date and time or number of days for custodian approval, according to the length of your approval process.
+
+You are also notified when a transfer transaction is complete through an email.
 
 You start your action from the Asset view or Ledger view by clicking either:
 
