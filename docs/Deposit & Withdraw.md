@@ -21,7 +21,9 @@ For deposits, you can:
 
 For withdrawals, a trade initiator can:
   - [create a new address](#create-new-address)
-  - [create a transaction](#create-transaction)
+  - [create a transaction](#create-transaction). These include details of:
+    - [review withdrawal](#review-withdrawal)
+    - [authorise withdrawal](#authorise-withdrawal)
   - [track progress](#track-progress) in different ways
 
 A custodian that is nominated can [approve a withdrawal](#approve-withdrawal) 
