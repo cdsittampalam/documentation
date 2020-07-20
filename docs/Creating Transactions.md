@@ -221,7 +221,7 @@ TX Ledger shows the following details:
 
 ![Transaction Approval](/doc-images/outTX2.png)
 
-### 
+### Progress Details
 
 For both the Approval and Ledger view, a summary screen shows details of the progress of a single transfer transaction. Summary screen headers can show in a particular colour to represent a category:
 
