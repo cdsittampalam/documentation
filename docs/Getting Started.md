@@ -16,6 +16,8 @@ The [Navigation](#navigation) section shows you the main sections of the web app
 Web App Steps
 -------------
 
+The web app steps include steps for registration.
+
 ### Start Registration
 
 Click **Continue**.  The Establish your Qredo Identity screen appears.
