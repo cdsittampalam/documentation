@@ -59,7 +59,7 @@ As a user on the Qredo Network, you would have received an invite on your phone 
 2. Sign in to the app using the biometric feature of your phone.
 3. Enter your 6-digit PIN. The Trusted Party screen shows.
 
-    ![parties](/doc-images/trustedP1.png)
+   ![parties](/doc-images/trustedP1.png)
 
 4. To approve the pairing request, tap **Approve**.
 5. Authenticate using the biometric feature and 6-digit PIN.
@@ -76,9 +76,6 @@ Reject an Invite
 If you do not want to be part of their network, you can reject their invite. 
 
 1. To reject the pairing request, tap **Reject** in the Trusted Party screen.
-
- ![Add Trusted](/doc-images/addtrusted.png)
-
 2. Authenticate using the biometric feature and 6-digit PIN.
 3. Tap **Confirm** in the Confirmation screen. A screen appears which shows that approval has been granted.
 4. Tap **Close**.
