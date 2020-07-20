@@ -2,9 +2,6 @@
 id: Configure Account
 ---
 
-Overview
---------
-
 The web app includes sections that will allow you to configure accounts in future versions of the app. 
 
 ### Future Version Features
