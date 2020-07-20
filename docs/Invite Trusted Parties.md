@@ -15,7 +15,7 @@ Summmary of Steps
 - As the user who sent the invite, you can [monitor responses](#monitor-responses)
 - Once you have your invite list, you can also [manage your invite list](#manage-invite-list)
 
-Send from Qredo
+Invite from Qredo
 --------------
 
 You enter an email address for a user on the Qredo Network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again.
@@ -38,10 +38,8 @@ You enter an email address for a user on the Qredo Network. The email address mu
 5. Click Close.
 6. Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list))
 
-Send from Contacts
-------------------
-
-You can invite trusted parties from your contacts on LinkedIn, Telegram, or WhatsApp.
+Invite from Contacts
+--------------------
 
 1.  From the Trusted Network screen, click the **Add Trusted Party** button. The Add Trusted Party screen shows.
 
