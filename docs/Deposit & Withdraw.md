@@ -21,9 +21,7 @@ For deposits, you can:
 
 For withdrawals, a trade initiator can:
   - [create a new address](#create-new-address)
-  - [create a transaction](#create-transaction). These include details of:
-    - [review withdrawal](#review-withdrawal)
-    - [authorise withdrawal](#authorise-withdrawal)
+  - [create a transaction](#create-transaction)
   - [track progress](#track-progress) in different ways
 
 A custodian that is nominated can [approve a withdrawal](#approve-withdrawal) 
@@ -229,12 +227,16 @@ As the trade initiator, you can check the approval progress for address creation
 
 A withdrawal transaction can only happen if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
 
-Details that can be tracked include the following:
+You can view approvals from the Approval view, which appears by clicking the Approvals icon:
+
+![tick](/doc-images/tick.png)
+
+These include details of:
 
 * [address approvals](#address-approvals) from the trade initiator of a specific fund.
-* [transactions approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians.
+* [transaction approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians.
 * [custodian approvals](#custodian-approvals) specifically for the fund of the transaction.
-* [transactions in Ledger View](#transaction-view-ledger) for all funds under your account.
+* [Transactions in Ledger View](#transaction-view-ledger) for all funds under your account.
 * [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view. 
 
 :::info 
@@ -243,12 +245,8 @@ Transactions in Ledger view includes both those that are pending, and those that
 
 ### Address Approvals
 
-1.  Click the Approvals icons
-
-![tick](/doc-images/tick.png)
-
-2.  Click the **Addresses** tab,    
-3.  Click the **Pending** or **Actioned** sub-tabs.
+1.  Click the **Addresses** tab,    
+2.  Click the **Pending** or **Actioned** sub-tabs.
 
 The Pending sub tab shows these fields and pending approvals.
 
@@ -273,8 +271,7 @@ The following is an example entry showing a pending approval with the status of 
 
 ### Transaction Approvals
 
-1.  Ensure that you in the Approval view.
-2.  Click the **Transactions** tab,   
+1.  Click the **Transactions** tab,   
 2.  Click the **Pending** or **Actioned** tabs.
 
 The pending tab shows these fields and pending approvals.
@@ -300,8 +297,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 ### Custodian Approvals
 
-1.  Ensure that you are in the Approval view.
-2.  Click the **Custody** tab,    
+1.  Click the **Custody** tab,    
 2.  Click the **Pending** or **Actioned** sub-tabs.
 
 The pending tab shows these fields and pending approvals.
