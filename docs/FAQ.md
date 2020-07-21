@@ -74,7 +74,7 @@ When setting a password, choose:
 
 2. Click **Forgotten Password**. The Reset Password screen appears.
 
-![reseet password](/doc-images/resetp.png)
+![reset password](/doc-images/resetp.png)
 
 3. Enter your email address in **Email address** and click **Reset password**.
 
@@ -115,6 +115,8 @@ Tapping **Approvals** lets you track previous forgotten password changes.
 For a new whitelisted address, you can resend an approval request if you are still waiting for approval from one or more custodians. The pending section of the approvals ledger lists the address approval requests. Once you have resent, the custodian can then follow the steps to approve a new withdrawal address.
 
 1.  Click the Approvals icon.
+
+![Approvals](/doc-images/tick.png)
     
 2.  Click the **Addresses** tab.
     
@@ -132,6 +134,8 @@ For a new whitelisted address, you can resend an approval request if you are sti
 For a withdrawal transaction, you can resend approval requests for those that are pending or have expired. You can resend requests from the pending section of the approvals ledger.
 
 1.  Click the Approvals icon.
+
+![Approvals](/doc-images/tick.png)
     
 2.  Click the **Transactions** tab.
     
@@ -149,6 +153,8 @@ For a withdrawal transaction, you can resend approval requests for those that ar
 For a transfer transaction, you can resend approval requests for those that are pending or have expired. You can resend requests from the pending section of the approvals ledger.
 
 1.  Click the Approvals icon.
+
+![Approvals](/doc-images/tick.png)
     
 2.  Click the **Transactions** tab.
     
