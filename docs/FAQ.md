@@ -114,14 +114,14 @@ Tapping **Approvals** lets you track previous forgotten password changes.
 
 ### Reissue a Withdraw Transaction
 
-For a withdraw transaction that has been rejected or expired, you can reissue a new withdraw transaction from the Transaction ledger.
+For a withdraw transaction that has been rejected or where the custodian approval period has expired, you can reissue a new withdraw transaction from the Transaction ledger.
 
 1.  From any of the main screens, click the Transaction icon:
 
 ![Ledger](/doc-images/ledger.png)
     
-2.  From the ledger, select a withdraw transaction that is expired or rejected.
+2.  From the ledger, click the three buttons for a withdraw transaction that is expired or rejected.
     
-3.  Select **Reissue**.
+3.  Select **Re-issue** from the displayed menu.
     
 4.  Follow the steps in [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction).
