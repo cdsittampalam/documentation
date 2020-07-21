@@ -110,6 +110,22 @@ image
 Tapping **Approvals** lets you track previous forgotten password changes.
 :::
 
+### Reissue an Address Approval Request
+
+For a new whitelisted address, you can resend an approval request if you are still waiting for approval from one or more custodians. The pending section of the approvals ledger lists the address approval requests. Once you have resent, the custodian can then follow the steps to approve a new withdrawal address.
+
+1.  Click the Approvals icon.
+    
+2.  Click the **Addresses** tab.
+    
+3.  Click the **Pending** sub tab.
+    
+4.  Select an entry in the approvals ledger.
+    
+5.  Select **Resend Approval Request**.
+    
+6.  Follow the steps to [approve the withdrawal address as a custodian](/docs/Deposit%20&%20Withdraw#approve-withdrawal)
+
 
 ### Reissue a Withdrawal Approval Request
 
@@ -143,9 +159,6 @@ For a transfer transaction, you can resend approval requests for those that are 
 5.  Select **Resend Approval Request**.
     
 6.  Follow the steps to [approve the transfer transaction as a custodian](/docs/Creating%20Transactions#approve-transfer)
-
-
-
 
 
 ### Reissue a Transfer Transaction
