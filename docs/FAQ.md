@@ -69,8 +69,6 @@ When setting a password, choose:
 *   1 special character
     
 1.  Click the **Login** link from the Join page.
-    
-![](https://qredo.atlassian.net/wiki/download/attachments/87621886/forgottenp.png?api=v2)
 
 2. Click **Forgotten Password**. The Reset Password screen appears.
 
