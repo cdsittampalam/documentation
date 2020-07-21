@@ -142,7 +142,7 @@ For a transfer transaction, you can resend approval requests for those that are 
     
 5.  Select **Resend Approval Request**.
     
-6.  Follow the steps to approve the withdrawal transaction as a custodian (see [Approve the Withdrawal Transaction as the Custodian](https://qredo.atlassian.net/wiki/spaces/RW/pages/113313695/Approve+the+Withdrawal+Transaction+as+the+Custodian) )
+6.  Follow the steps to [approve the transfer transaction as a custodian](/docs/Creating%20Transactions#approve-transfer)
 
 
 
