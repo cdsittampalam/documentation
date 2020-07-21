@@ -118,4 +118,4 @@ For a withdraw transaction that has been rejected or expired, you can reissue a 
     
 3.  Select **Reissue**.
     
-4.  Follow the steps in [Create Transaction] (/docs/Deposit%20&%20Withdraw#create-transaction).
+4.  Follow the steps in [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction).
