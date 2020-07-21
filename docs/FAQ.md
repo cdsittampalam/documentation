@@ -20,9 +20,7 @@ The new password must contain:
     
 To confirm that you made the password change, you receive a request on your mobile app to authorise the change.
 
-1.  Click the icon to access Account view as in this example.    
-
-
+1.  Click the icon to access Account view.    
 
 2. From the displayed account card, click **User Settings**. 
 
@@ -111,6 +109,44 @@ image
 :::info
 Tapping **Approvals** lets you track previous forgotten password changes.
 :::
+
+
+### Reissue a Withdrawal Approval Request
+
+For a withdrawal transaction, you can resend approval requests for those that are pending or have expired. You can resend requests from the pending section of the approvals ledger.
+
+1.  Click the Approvals icon.
+    
+2.  Click the **Transactions** tab.
+    
+3.  Click the **Pending** sub tab.
+    
+4.  Select an entry in the approvals ledger.
+    
+5.  Select **Resend Approval Request**.
+    
+6.  Follow the steps to [approve the withdrawal transaction as a custodian](/docs/Deposit%20&%20Withdraw#approve-withdrawal) 
+
+
+### Reissue a Transfer Approval Request
+
+For a transfer transaction, you can resend approval requests for those that are pending or have expired. You can resend requests from the pending section of the approvals ledger.
+
+1.  Click the Approvals icon.
+    
+2.  Click the **Transactions** tab.
+    
+3.  Click the **Pending** sub tab.
+    
+4.  Select an entry in the approvals ledger.
+    
+5.  Select **Resend Approval Request**.
+    
+6.  Follow the steps to approve the withdrawal transaction as a custodian (see [Approve the Withdrawal Transaction as the Custodian](https://qredo.atlassian.net/wiki/spaces/RW/pages/113313695/Approve+the+Withdrawal+Transaction+as+the+Custodian) )
+
+
+
+
 
 ### Reissue a Transfer Transaction
 
