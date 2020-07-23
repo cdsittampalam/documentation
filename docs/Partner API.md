@@ -114,7 +114,7 @@ only the API key is needed.
 1. Access the Partner API at https://partner-api.qredo.network/.
 2. Choose a URL.
    - Copy the following URL to the address bar: (https://demo-api.qredo.net/api/v1/p) or 
-   - Select **https://demo-api.qredo.net(BasePath) - Demo Server** from the server list.
+   - Select https://demo-api.qredo.net(BasePath) - **Demo Server** from the server list.
 3. Click Authorise.
 4. Paste the generated API key in the box.
 
@@ -140,7 +140,7 @@ The signature is used to sign areas where security needs to be applied including
 3.  Access the Partner API at https://partner-api.qredo.network/.
 4. Choose a URL.
    - Copy the following URL to the address bar: (https://api.qredo.net/api/v1/p) or 
-   - Select **https://api.qredo.net(BasePath) - API Server** from the server list.
+   - Select https://api.qredo.net(BasePath) - **API Server** from the server list.
 5. Click Authorise.
 4. Paste the generated API key in the box.
 6. Add the public key.
