@@ -48,7 +48,7 @@ From the Partner API you can
 *   become familiar with how the API works through [API Endpoints](api-endpoints), [Quick-Start](#quick-start-guide) and [Reference] documentation sections.
 *   use the [Swagger UI](https://partner-api.qredo.network/) to test the endpoints.
 
-You should use the Qredo Desktop app to help you for various functions. For signing functions, you will need to use the Qredo Signing app.
+You will need to use the Qredo Desktop app to help you for various functions, e.g., for finding users to add as trusted parties. For signing functions, you will need to use the Qredo Signing app.
     
 How to register
 ---------------
