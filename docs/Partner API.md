@@ -22,8 +22,7 @@ This document explains what information partners are going to need about Qredoâ€
 
 The Partner API is still work in progress. Qredo plan to add the following in future releases:
 
-*   Client libraries
-    
+*   Client libraries    
 *   Dedicated URLs for test, production and live environments
     
 
@@ -84,6 +83,8 @@ Notes on Managing your API Key
 
 You also need to generate a public and private key combination to use with the Partner API key.
 
+### Generate an API Key
+
 1. Click **Generate Key**. In the New Partner API Key screen, the Key ID and Partner API Key show.
 
 ![partnerapi](/doc-images/apikeypartner.png)
@@ -101,6 +102,14 @@ On the Settings page, your current API key appears hashed out. The new key only 
 1.  Click **Regenerate** Key.
 2.  Click **Copy** in the New Partner API Key screen.
 
+### Add a Public Key to the Swagger UI
 
+A public key needs to be added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
+
+The signature is used to sign areas where security needs to be applied including:
+
+* the URL of the full path.
+* the nonce (or number) that is generated for cryptographic purposes.
+* the payload (body) for POST/PUT requests that contained added data.
 
 
