@@ -43,10 +43,10 @@ How to use it
 
 From the Partner API you can
 
-*   [register]() with the Partner API on the Qredo website.
-*   [connect to the Partner API]() using the API key and public key authentication mechanisms.   
-*   become familiar with how the API works through [API Endpoints](), [Quick-Start]() and [Reference] documentation sections.
-*   use the [Swagger UI] to test the endpoints.
+*   [register](#how-to-register) with the Partner API on the Qredo website.
+*   [connect to the Partner API](#connect-to-the-partner-api) using the API key and public key authentication mechanisms.   
+*   become familiar with how the API works through [API Endpoints](api-endpoints), [Quick-Start](#quick-start-guide) and [Reference] documentation sections.
+*   use the [Swagger UI](https://partner-api.qredo.network/) to test the endpoints.
     
 How to register
 ---------------
