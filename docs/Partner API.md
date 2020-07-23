@@ -234,9 +234,7 @@ When you add a fund, custody groups containing members are added to a fund. Cust
 *   `custodygroup_tx` Custody group for a transfer
     
 
-The members that are added to funds need to have been added as trusted parties. You specify the user IDs of the members.
-
-What are these members? Are they Administrators, Principals? This is not visible from the swagger.
+The members, e.g. Administrators and/or Principals, that are added to funds need to have been added as trusted parties. You specify the user IDs of the members.
 
 There is also a threshold that determines how many custodian signatures are needed for an asset to be transferred or withdrawn.
 
