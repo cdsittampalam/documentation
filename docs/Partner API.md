@@ -105,9 +105,26 @@ On the Settings page, your current API key appears hashed out. The new key only 
 
 ### Add to Headers
 
-Once you have generated the API key, you add the API key to the headers to connect to your environment of choice. The Partner API is currently set up for the demo and server environments.
-The Swagger UI allows you to choose an environment and add the API key. For the server or Live environment, you need to generate a public and private key combination to use with the API key. However for the demo environment,
-using the API key on its own is sufficient.
+Once you have generated the API key, you add the API key to the HTTP headers to allow you to connect to URLs in the desired environments. The Partner API can be set up in on demo or server environments.
+The Swagger UI allows you to choose an environment and add the API key, which populates the headers. For the server or Live environment, you need to generate, in addition to the API key, a public key that is signed by a private key. For the demo environment,
+only the API key is needed.
+
+Demo Environment
+
+1. Access the Partner API at https://partner-api.qredo.network/.
+2. Choose a URL.
+   - Copy the following URL to the address bar: (https://demo-api.qredo.net/api/v1/p) or 
+   - Select **https://demo-api.qredo.net(BasePath) - Demo Server** from the server list.
+3. Click Authorise.
+4. Paste the generated API key in the box.
+
+The header format for requests in the demo environment must contain the API key. All request bodies should have content type 'application/json'.
+
+The following is an example request header in cURL format:
+
+``
+curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
+``
 
 
 
