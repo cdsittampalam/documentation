@@ -47,13 +47,11 @@ How to register
 Signing up to the Partner API is available for a Qredo user from the Qredo Desktop app once they have registered. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
 
 1.  Ensure that are logged in to the app as a Qredo user.
-    
 2.  Go to **Settings** > **Partner API**.  
 
 ![Billing](/doc-images/partnerapi.png)
 
 3. Read through the descriptions on the API and click **Apply**.
-
 4. Fill out the form to apply for the Partner API and click **Submit.**
 
 ![Billing](/doc-images/enrolepartner.png)
@@ -74,9 +72,7 @@ All users that generate an API key have the same permissions when they use the P
 Notes on Managing your API Key
 
 *   You must ensure that the API key is not distributed to another party.
-    
 *   You must not add the API key to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
-    
 *   You must keep the API key carefully in a safe location.
 
 You also need to generate a public and private key combination to use with the Partner API key.
@@ -93,9 +89,9 @@ The Qredo server does not store the API key on the page. Thus, each time you arr
 If you have lost your API key and need to replace it, you can return to the Settings page in the Qredo app to generate a new key.
 
 On the Settings page, your current API key appears hashed out. The new key only appears when you regenerate the key.
+:::
 
 1.  Click **Regenerate** Key.
-    
 2.  Click **Copy** in the New Partner API Key screen.
-:::
+
 
