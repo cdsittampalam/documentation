@@ -84,8 +84,6 @@ Notes on Managing your API Key
 *   You must keep the API key carefully in a safe location.
 :::
 
-You also need to generate a public and private key combination to use with the Partner API key.
-
 ### Generate an API Key
 
 1. Click **Generate Key**. In the New Partner API Key screen, the Key ID and Partner API Key show.
@@ -105,7 +103,15 @@ On the Settings page, your current API key appears hashed out. The new key only 
 3.  Click **Regenerate** Key.
 4.  Click **Copy** in the New Partner API Key screen.
 
-### Add a Public Key
+### Add to Headers
+
+Once you have generated the API key, you add the API key to the headers to connect to your environment of choice. The Partner API is currently set up for the demo and server environments.
+The Swagger UI allows you to choose an environment and add the API key. For the server or Live environment, you need to generate a public and private key combination to use with the API key. However for the demo environment,
+using the API key on its own is sufficient.
+
+
+
+Add a Public Key
 
 A public key needs to be added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
 
