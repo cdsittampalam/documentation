@@ -235,6 +235,12 @@ In order to add a fund, you need to assign members of a custody group. The membe
 https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
 ``
 
+#### Example Response
+
+```
+{"company_id":"1f4sRjsZD612GdSvokktFReylZp","total_count":1,"list":[{"trusted_entity_id":"4eWKPAjec5WRXvJbU8P58WCRnfXQ77WYUtR91NWcPNvJ","name":"Izumi Katsuyoshi","address":"IKatsuyoshi@gmail.com","type":"user","internal":false,"created":1595516739}]}
+```
+
 ### Add Fund
 
 Each trusted party (company or user) must be associated with a fund, which can be used by various trusted parties on the Qredo Network. You need to first add a fund before performing withdraws or transfers.
@@ -251,36 +257,37 @@ There is also a threshold that determines how many custodian signatures are need
 
 There are assets associated with this example fund that include `BTC-TESTNET`.
 
-The following includes the `custodygroup_withdraw` group with a `threshold` of 3 and 4 `members`. There is also the `custodygroup_tx` group with a `threshold` of 4 and 4 `members`. Note that custody groups cannot be modified.
+The following includes the `custodygroup_withdraw` group with a `threshold` of 1 with 1 `member`. There is also the `custodygroup_tx` group with a `threshold` of 1 containing 1 `member`. Note that custody groups cannot be modified.
 
 #### Example Request
 
 ```
-{  
- "name": "Fund 1", 
- "description": "Fund for demonstration purposes", 
- "theme": 2,   "custodygroup_withdraw": 
-{     
- "threshold": 3, 
- "members": [       
-    "1dnfLZolYD72zasqtmtTXXoaNNJ",  
-    "1dnfLeHXkaxasdg4akvxglwKTKV",      
-    "1dnfLsfgsaxQPs2v5kvxglwKTKV",          
-    ]   
-    },   
-  "custodygroup_tx": {     
-  "threshold": 4,     
-  "members": [       
-     "1dnfLZolYD72zasqtmtTXXoaNNJ",      
-     "1dnfLeHXkaxasdg4akvxglwKTKV",  
-     "1dnfLsfgsaxQPs2v5kvxglwKTKV",   
-     "1dnfLeHXkaxQPs2v5kvxglwKTKV"     
-     ]   
-     },   
-  "assets": ["BTC-TESTNET"]}
-```
+{
+  "name": "Fund 1",
+  "description": "Fund for demonstration purposes",
+  "theme": 2,
+  "custodygroup_withdraw": {
+    "threshold": 1,
+    "members": [
+      "4eWKPAjec5WRXvJbU8P58WCRnfXQ77WYUtR91NWcPNvJ"
+      
+    ]
+  },
+  "custodygroup_tx": {
+    "threshold": 1,
+    "members": [
+      "4eWKPAjec5WRXvJbU8P58WCRnfXQ77WYUtR91NWcPNvJ"
+     
+    ]
+  },
+  "assets": [
+    "BTC-TESTNET"
+  ]
+}
 
 #### Example Response
+
+The response shows an assigned ""fund_id"" 
 
 ```
 {
