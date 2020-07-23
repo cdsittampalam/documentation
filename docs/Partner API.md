@@ -228,7 +228,7 @@ Currently no example available for a successful response.
 
 ### Get Trusted Party
 
-In order to add a fund, you need to assign members of a custody group. The members are trusted party users that have been added to a company. Get Trusted Party lets you find out the trusted parties for a company.
+In order to add a fund, you need to assign members of a custody group. The members are trusted party users that have been added to a company. The Get Trusted Party endpoint lets you find out the "trusted_entity_id" of each trusted party user.
 
 ### Add Fund
 
@@ -240,7 +240,6 @@ When you add a fund, custody groups containing members are added to a fund. Cust
     
 *   `custodygroup_tx` Custody group for a transfer
     
-
 The members, e.g. Administrators and/or Principals, that are added to funds need to have been added as trusted parties. You specify the user IDs of the members.
 
 There is also a threshold that determines how many custodian signatures are needed for an asset to be transferred or withdrawn.
@@ -250,7 +249,6 @@ There are assets associated with this example fund that include `BTC-TESTNET`.
 The following includes the `custodygroup_withdraw` group with a `threshold` of 3 and 4 `members`. There is also the `custodygroup_tx` group with a `threshold` of 4 and 4 `members`. Note that custody groups cannot be modified.
 
 #### Example Request
-
 
 ```
 {  
