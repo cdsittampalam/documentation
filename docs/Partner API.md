@@ -125,10 +125,10 @@ Once connected to the API, you have access to all the endpoints. You use the end
 | --- | --- |
 | Company | A Company is an entity on the Qredo Network. Within a company are all the holdings and funds that are used on the Qredo Network. You create one or more companies, and update and search the companies by entering part of the companyname. 
             A company can also be a trusted party to another company. Note that all endpoint functions require a company-id. | 
-| TrustedNetwork | YES | 
-| Holding | YES | 
-| Fund | YES | 
-| Transfer | YES |
+| Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., Exchanges to an institution. Trusted parties can also include users. You can also find various trusted parties for a company, and delete a trusted party if needed. | 
+| Holding | This is information on all the assets for a single company in the Qredo network that are within one or more funds. | 
+| Fund | A fund is where you keep your assets and custody policies. You can add a fund to the Qredo network. You can also get existing funds and search for funds on the network. You can find the deposit address for a fund. For withdrawal addresses, you can add these to an individual fund. | 
+| Transfer | Transfers are where money that is on the Qredo network is moved from one user to another. You can add a new transfer and find out the transfer status. |
 | Withdrawal | YES | 
 
 
@@ -145,4 +145,3 @@ Once connected to the API, you have access to all the endpoints. You use the end
     
 *   Withdrawals - Withdrawals are for funds that are sent out of the Qredo blockchain to a different cryptocurrency address. You can add a new withdrawal and find out the withdrawal status.
     
-*   Currently, the partner API does not appear to have any endpoints for creating users. What are the endpoints for creating users?
