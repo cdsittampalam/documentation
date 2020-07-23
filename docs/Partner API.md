@@ -17,6 +17,14 @@ For API schema and other technical documentation, please explore our [API Refere
 *   Instantiate flexible governance policies    
 *   Near instant digital asset delivery    
 *   Eliminate counterparty risk
+
+This document explains what information partners are going to need about Qredo’s Partner API. Qredo’s Partner API is built using the REST API.
+
+The Partner API is still work in progress. Qredo plan to add the following in future releases:
+
+*   Client libraries
+    
+*   Dedicated URLs for test, production and live environments
     
 
 Eligibility Criteria
@@ -92,5 +100,7 @@ On the Settings page, your current API key appears hashed out. The new key only 
 
 1.  Click **Regenerate** Key.
 2.  Click **Copy** in the New Partner API Key screen.
+
+
 
 
