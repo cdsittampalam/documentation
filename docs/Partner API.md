@@ -145,3 +145,195 @@ The following is a summary of the endpoints and the type of requests (POST, PUT,
 | Fund | YES | NO  | NO  | YES |
 | Transfer | YES | NO  | NO  | YES |
 | Withdrawal | YES | NO  | NOpro | YES |
+
+
+Quick-Start Guide
+-----------------
+
+This quick-start guide shows users how to build your Qredo network programmatically using these endpoints. 
+
+*   Create Company    
+*   Add Trusted Party    
+*   Add Fund    
+*   Get deposit address    
+*   Add funds to the deposit address
+    
+
+### Create Company
+
+You can create a company by adding basic information in a POST request. The POST request returns the reference (`ref`)and `company_id`. Each request is a POST allows you to create one company. To help you enter data quicker, some of the values are already prepopulated.
+
+The country ID you enter must conform to the ISO 3166-1 country code.
+
+You can repeat the process to create multiple companies. Other companies you create can be used as a trusted party in your trusted network.
+
+In this example, a new company called John Doe Corp is entered in `name`. This is based in London, UK with the the `domain` of `johndoe.co.uk`.
+
+#### Example Request
+
+```
+{ 
+  "name": "John Doe Group", 
+  "city": "Birmingham", 
+  "country": "UK",  
+  "domain": "johndoe.co.uk",
+  "ref": "9827feec-4eae-4e80-bda3-daa7c3b97add" 
+}
+```
+
+#### Example Response
+
+
+```
+{
+  "ref": "1eoq9DPiGaRvpbyp6L2Vai4uIU2",
+  "company_id": "9827feec-4eae-4e80-bda3-daa7c3b97ad1
+}
+```
+
+#### Parameters
+
+The following parameters are entered. The asterisk indicates mandatory parameters.
+
+|     |     |
+| --- | --- |
+| **name\*** | `string`  <br>`title: Name` |
+| **city\*** | `string`  <br>`title: City` |
+| **country\*** | `string`  <br>`title: Country code`<br><br>ISO 3166-1 country code |
+| **domain\*** | `string`  <br>`title: Domain` |
+| ref | `string`  <br>`title: Reference`  <br>`default:`<br><br>Company reference ID |
+| **company\_id\*** | `string`  <br>`title: Company Id` |
+
+### Add Trusted Party
+
+Using the `company_id` for the company you created, you can add either a company or user as a trusted party. You need to specify both the `address` web address for the trusted party and the `type` of trusted party either as `company` or `user`.
+
+The users would have been added to the Qredo network through the Qredo Web App.
+
+#### Example Request for a Company
+
+Error rendering macro 'code': Invalid value specified for parameter 'lang'
+
+```
+{
+  "address": "acme.com",
+  "type": "company"
+  }
+```
+
+#### Example Request for a User
+
+Error rendering macro 'code': Invalid value specified for parameter 'lang'
+
+```
+{
+  "address": "IKatsuyoshi@gmail.com",
+  "type": "user"
+  }
+```
+
+#### Example Response
+
+Currently no example available for a successful response.
+
+#### Parameters
+
+|     |     |
+| --- | --- |
+| **address\*** | `string`  <br>`title: Address`<br><br>The domain name (for Company) or email address (for individual) of the trusted party |
+| **type\*** | `string`  <br>`title: Trusted party type`<br><br>The type of trusted party.<br><br>`Enum:`  <br>`[ company, user ]` |
+
+### Add Fund
+
+Each trusted party (company or user) must be associated with a fund, which can be used by various trusted parties on the Qredo Network. You need to first add a fund before performing withdraws or transfers.
+
+When you add a fund, custody groups containing members are added to a fund. Custody group members are those that are nominated as custodians where their signatures are needed to allow the movement of money in the form of transfers and withdrawals. These include:
+
+*   `custodygroup_withdraw` Custody group for a withdrawal
+    
+*   `custodygroup_tx` Custody group for a transfer
+    
+
+The members that are added to funds need to have been added as trusted parties. You specify the user IDs of the members.
+
+What are these members? Are they Administrators, Principals? This is not visible from the swagger.
+
+There is also a threshold that determines how many custodian signatures are needed for an asset to be transferred or withdrawn.
+
+There are assets associated with this example fund that include `BTC-TESTNET`.
+
+The following includes the `custodygroup_withdraw` group with a `threshold` of 3 and 4 `members`. There is also the `custodygroup_tx` group with a `threshold` of 4 and 4 `members`.
+
+Threshold is just a number what does this represent? In the UI it is 1/3 or 1/2?
+
+What is the theme? What are the theme options and why are these needed?
+
+Note that custody groups cannot be modified.
+
+#### Example Request
+
+Error rendering macro 'code': Invalid value specified for parameter 'lang'
+
+```
+{  
+ "name": "Fund 1", 
+ "description": "Fund for demonstration purposes", 
+ "theme": 2,   "custodygroup_withdraw": 
+{     
+ "threshold": 3, 
+ "members": [       
+    "1dnfLZolYD72zasqtmtTXXoaNNJ",  
+    "1dnfLeHXkaxasdg4akvxglwKTKV",      
+    "1dnfLsfgsaxQPs2v5kvxglwKTKV",          
+    ]   
+    },   
+  "custodygroup_tx": {     
+  "threshold": 4,     
+  "members": [       
+     "1dnfLZolYD72zasqtmtTXXoaNNJ",      
+     "1dnfLeHXkaxasdg4akvxglwKTKV",  
+     "1dnfLsfgsaxQPs2v5kvxglwKTKV",   
+     "1dnfLeHXkaxQPs2v5kvxglwKTKV"     
+     ]   
+     },   
+  "assets": ["BTC-TESTNET"]}
+```
+
+#### Example Response
+
+Error rendering macro 'code': Invalid value specified for parameter 'lang'
+
+```
+{
+"fund_id": "1dnfLZolYD72zasqtmtTXXoaNNJ",
+"custodygroup_withdraw": "1dnfLYHOGn8gScmInkMXSPzitj5",
+"custodygroup_tx": "1dnfLeHXkaxQPs2v5kvxglwKTKV"
+}
+```
+
+### Get Deposit Address
+
+Before performing trading functions, you can obtain the deposit addresses associated with the fund. This is useful if you want to add funds, e.g., for testing purposes.
+
+You specify the `company_id` for the trusted party and the `fund_id` to obtain a list of deposit addresses.
+
+In this example, we use `company_id` ()
+
+#### Example Response
+
+{ "total\_count": 0, "list": \[ { "asset": "BTC-TESTNET", "address": "n2GoFtw8aTH6yoMK9UW3fxrSp3iTL6jwUX", "balance": 0.001 } \] }
+
+Error rendering macro 'code': Invalid value specified for parameter 'lang'
+
+```
+{   
+"total_count": 0,   
+"list": [     
+   {       
+   "asset": "BTC-TESTNET",
+   "address": "n2GoFtw8aTH6yoMK9UW3fxrSp3iTL6jwUX",       
+   "balance": 0.001     
+    }   
+  ] 
+}
+```
