@@ -228,12 +228,11 @@ Currently no example available for a successful response.
 
 In order to add a fund, you need to assign members of a custody group. The members are trusted party users that have been added to a company. The Get Trusted Party endpoint lets you find out the "trusted_entity_id" of each trusted party user.
 
-
 #### Example Request
 
 ```
 https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
-``
+```
 
 #### Example Response
 
