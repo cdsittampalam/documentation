@@ -47,6 +47,8 @@ From the Partner API you can
 *   [connect to the Partner API](#connect-to-the-partner-api) using the API key and public key authentication mechanisms.   
 *   become familiar with how the API works through [API Endpoints](api-endpoints), [Quick-Start](#quick-start-guide) and [Reference] documentation sections.
 *   use the [Swagger UI](https://partner-api.qredo.network/) to test the endpoints.
+
+You should use the Qredo Desktop app to help you for various functions. For signing functions, you will need to use the Qredo Signing app.
     
 How to register
 ---------------
@@ -55,7 +57,6 @@ Signing up to the Partner API is available for a Qredo user from the Qredo Deskt
 
 1.  Ensure that are logged in to the app as a Qredo user.
 2.  Go to **Settings** > **Partner API**.  
-
 
 ![Billing](/doc-images/partnerapi2.png)
 
@@ -99,8 +100,8 @@ If you have lost your API key and need to replace it, you can return to the Sett
 On the Settings page, your current API key appears hashed out. The new key only appears when you regenerate the key.
 :::
 
-1.  Click **Regenerate** Key.
-2.  Click **Copy** in the New Partner API Key screen.
+3.  Click **Regenerate** Key.
+4.  Click **Copy** in the New Partner API Key screen.
 
 ### Add a Public Key
 
@@ -196,6 +197,8 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 Using the `company_id` for the company you created, you can add either a company or user as a trusted party. You need to specify both the `address` web address for the trusted party and the `type` of trusted party either as `company` or `user`.
 
 The users would have been added to the Qredo network through the Qredo Web App.
+
+If you add a trusted party that is a user, you will receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party on 
 
 #### Example Request for a Company
 
