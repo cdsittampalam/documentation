@@ -204,8 +204,6 @@ If you add a trusted party that is a user, you will receive an approval request 
 
 #### Example Request for a Company
 
-Error rendering macro 'code': Invalid value specified for parameter 'lang'
-
 ```
 {
   "address": "acme.com",
@@ -229,6 +227,13 @@ Currently no example available for a successful response.
 ### Get Trusted Party
 
 In order to add a fund, you need to assign members of a custody group. The members are trusted party users that have been added to a company. The Get Trusted Party endpoint lets you find out the "trusted_entity_id" of each trusted party user.
+
+
+#### Example Request
+
+```
+https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
+``
 
 ### Add Fund
 
