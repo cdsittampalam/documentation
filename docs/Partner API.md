@@ -196,11 +196,11 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 
 ### Add Trusted Party
 
-Using the `company_id` for the company you created, you can add either a company or user as a trusted party. You need to specify both the `address` web address for the trusted party and the `type` of trusted party either as `company` or `user`.
+Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' company, you have to specify the web address. If the trusted party is of 'type' user, you have to state the email address. In this example, you will add a user and a company.
 
 The users would have been added to the Qredo network through the Qredo Web App.
 
-If you add a trusted party that is a user, you will receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party on 
+When add a trusted party that is a user, you will receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party on 
 
 #### Example Request for a Company
 
@@ -227,6 +227,8 @@ Currently no example available for a successful response.
 ### Get Trusted Party
 
 In order to add a fund, you need to assign members of a custody group. The members are trusted party users that have been added to a company. The Get Trusted Party endpoint lets you find out the "trusted_entity_id" of each trusted party user.
+
+You will use the Get Trusted Party request, to obtain the trusted party user that you added in Add Trusted Party.
 
 #### Example Request
 
@@ -256,7 +258,7 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedp
 
 ### Add Fund
 
-Each trusted party (company or user) must be associated with a fund, which can be used by various trusted parties on the Qredo Network. You need to first add a fund before performing withdraws or transfers.
+Each trusted party (company or user) must be associated with a fund, which can be used by various trusted parties on the Qredo Network. First, you need to add a fund before performing withdraws or transfers.
 
 When you add a fund, custody groups containing members are added to a fund. Custody group members are those that are nominated as custodians where their signatures are needed to allow the movement of money in the form of transfers and withdrawals. These include:
 
@@ -270,7 +272,9 @@ There is also a threshold that determines how many custodian signatures are need
 
 There are assets associated with this example fund that include `BTC-TESTNET`.
 
-The following includes the `custodygroup_withdraw` group with a `threshold` of 1 with 1 `member`. There is also the `custodygroup_tx` group with a `threshold` of 1 containing 1 `member`. Note that custody groups cannot be modified.
+In the example, the `custodygroup_withdraw` group with a `threshold` of 1 with 1 `member`. There is also the `custodygroup_tx` group with a `threshold` of 1 containing 1 `member`. Note that custody groups cannot be modified.
+
+The fund is added to company id: "1f4sRjsZD612GdSvokktFReylZp".
 
 #### Example Request
 
