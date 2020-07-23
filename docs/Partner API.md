@@ -40,7 +40,6 @@ From the Partner API you can
 *   [connect to the Partner API]() using the API key and public key authentication mechanisms.   
 *   become familiar with how the API works through the [Getting Started]() and [Reference] documentation sections.
 *   use the [Swagger UI] to test the endpoints.
-
     
 How to register
 ---------------
@@ -53,12 +52,15 @@ Signing up to the Partner API is available for a Qredo user from the Qredo Deskt
 
 ![](https://qredo.atlassian.net/wiki/download/attachments/79233107/Partner%20API%20Settings%20Apply1%20Resized.png?api=v2)
 
+
+![Billing](/doc-images/partnerapi.png)
+
+
 3. Read through the descriptions on the API and click **Apply**.
 
 4. Fill out the form to apply for the Partner API and click **Submit.**
 
-
-| ![](https://qredo.atlassian.net/wiki/download/thumbnails/79233107/enrole%20partner%20programme.png?api=v2) |
+![Billing](/doc-images/enrolepartner.png)
 
 
 Connect to the Partner API
@@ -76,8 +78,6 @@ Notes on Managing your API Key
     
 *   You must keep the API key carefully in a safe location.
     
-
-### Steps
 
 
 
