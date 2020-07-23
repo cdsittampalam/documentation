@@ -89,16 +89,15 @@ You also need to generate a public and private key combination to use with the P
 
 The Qredo server does not store the API key on the page. Thus, each time you arrive back to the Partner API page, you need to regenerate a new key. Generating a new key is required if you lose the original key.
 
-Replace API Key
----------------
+info:::
 
-If you have lost your API key, you can return to the Settings page in the Qredo app to generate a new key.
-
-![](https://qredo.atlassian.net/wiki/download/attachments/79233107/4%20regenerate%20API%20key.png?api=v2)
+If you have lost your API key and need to replace it, you can return to the Settings page in the Qredo app to generate a new key.
 
 On the Settings page, your current API key appears hashed out. The new key only appears when you regenerate the key.
 
 1.  Click **Regenerate** Key.
     
 2.  Click **Copy** in the New Partner API Key screen.
+
+:::
 
