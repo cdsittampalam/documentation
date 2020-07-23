@@ -223,13 +223,6 @@ Error rendering macro 'code': Invalid value specified for parameter 'lang'
 
 Currently no example available for a successful response.
 
-#### Parameters
-
-|     |     |
-| --- | --- |
-| **address\*** | `string`  <br>`title: Address`<br><br>The domain name (for Company) or email address (for individual) of the trusted party |
-| **type\*** | `string`  <br>`title: Trusted party type`<br><br>The type of trusted party.<br><br>`Enum:`  <br>`[ company, user ]` |
-
 ### Add Fund
 
 Each trusted party (company or user) must be associated with a fund, which can be used by various trusted parties on the Qredo Network. You need to first add a fund before performing withdraws or transfers.
