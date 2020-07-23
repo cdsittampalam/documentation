@@ -240,17 +240,10 @@ There is also a threshold that determines how many custodian signatures are need
 
 There are assets associated with this example fund that include `BTC-TESTNET`.
 
-The following includes the `custodygroup_withdraw` group with a `threshold` of 3 and 4 `members`. There is also the `custodygroup_tx` group with a `threshold` of 4 and 4 `members`.
-
-Threshold is just a number what does this represent? In the UI it is 1/3 or 1/2?
-
-What is the theme? What are the theme options and why are these needed?
-
-Note that custody groups cannot be modified.
+The following includes the `custodygroup_withdraw` group with a `threshold` of 3 and 4 `members`. There is also the `custodygroup_tx` group with a `threshold` of 4 and 4 `members`. Note that custody groups cannot be modified.
 
 #### Example Request
 
-Error rendering macro 'code': Invalid value specified for parameter 'lang'
 
 ```
 {  
@@ -278,8 +271,6 @@ Error rendering macro 'code': Invalid value specified for parameter 'lang'
 ```
 
 #### Example Response
-
-Error rendering macro 'code': Invalid value specified for parameter 'lang'
 
 ```
 {
