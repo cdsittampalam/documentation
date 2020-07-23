@@ -109,7 +109,7 @@ Once you have generated the API key, you add the API key to the HTTP headers to 
 The Swagger UI allows you to choose an environment and add the API key, which populates the headers. For the server or Live environment, you need to generate, in addition to the API key, a public key that is signed by a private key. For the demo environment,
 only the API key is needed.
 
-Demo Environment
+#### Demo Environment
 
 1. Access the Partner API at https://partner-api.qredo.network/.
 2. Choose a URL.
@@ -122,10 +122,10 @@ The header format for requests in the demo environment must contain the API key.
 
 The following is an example request header in cURL format:
 
-``
+```
 curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
-``
-Server Environment
+```
+#### Server Environment
 
 A public key needs to be added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
 
