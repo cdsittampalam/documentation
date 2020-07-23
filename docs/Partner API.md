@@ -81,15 +81,11 @@ Notes on Managing your API Key
 
 You also need to generate a public and private key combination to use with the Partner API key.
 
+1. Click **Generate Key**. In the New Partner API Key screen, the Key ID and Partner API Key show.
 
+![partnerapi](/doc-images/apikeypartner.png)
 
-
-5\. Click **Generate Key**. In the New Partner API Key screen,  
-the Key ID and Partner API Key show.
-
-![](https://qredo.atlassian.net/wiki/download/attachments/79233107/2-%20resized%20New%20Partner%20API%20Key%20db.png?api=v2)
-
-6\. Click **Copy.**
+2. Click **Copy.**
 
 The Qredo server does not store the API key on the page. Thus, each time you arrive back to the Partner API page, you need to regenerate a new key. Generating a new key is required if you lose the original key.
 
