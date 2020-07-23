@@ -49,7 +49,7 @@ Signing up to the Partner API is available for a Qredo user from the Qredo Deskt
 1.  Ensure that are logged in to the app as a Qredo user.
 2.  Go to **Settings** > **Partner API**.  
 
-![Billing](/doc-images/partnerapi1.png)
+![Billing](/doc-images/partnerapi2.png)
 
 3. Read through the descriptions on the API and click **Apply**.
 4. Fill out the form to apply for the Partner API and click **Submit.**
