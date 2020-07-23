@@ -58,11 +58,14 @@ Signing up to the Partner API is available for a Qredo user from the Qredo Deskt
 
 ![Billing](/doc-images/enrolepartner.png)
 
+After a confirmation message appears, the Partner API screen shows the **Generate Key** button.
 
-
+![](https://qredo.atlassian.net/wiki/download/attachments/79233107/2-Generate%20Key%20image.png?api=v2)
 
 Connect to the Partner API
 --------------------------
+
+From the Partner API page, you can connect to the API using the Partner API key.
 
 The Partner API key is needed for security reasons to ensure that only you can access specific endpoints in the Partner API. The API Key is linked to your partner developer account and provides you with permission to access any endpoint in the API through the Qredo developer portal.
 
@@ -70,16 +73,16 @@ All users that generate an API key have the same permissions when they use the P
 
 Notes on Managing your API Key
 
-*   You must ensure that the API key s not distributed to another party.
+*   You must ensure that the API key is not distributed to another party.
     
 *   You must not add the API key to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
     
 *   You must keep the API key carefully in a safe location.
 
+You also need to generate a public and private key combination to use with the Partner API key.
 
-After a confirmation message appears, the Partner API screen shows the **Generate Key** button.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/79233107/2-Generate%20Key%20image.png?api=v2)
+
 
 5\. Click **Generate Key**. In the New Partner API Key screen,  
 the Key ID and Partner API Key show.
