@@ -191,19 +191,6 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 }
 ```
 
-#### Parameters
-
-The following parameters are entered. The asterisk indicates mandatory parameters.
-
-|     |     |
-| --- | --- |
-| **name\*** | `string`  <br>`title: Name` |
-| **city\*** | `string`  <br>`title: City` |
-| **country\*** | `string`  <br>`title: Country code`<br><br>ISO 3166-1 country code |
-| **domain\*** | `string`  <br>`title: Domain` |
-| ref | `string`  <br>`title: Reference`  <br>`default:`<br><br>Company reference ID |
-| **company\_id\*** | `string`  <br>`title: Company Id` |
-
 ### Add Trusted Party
 
 Using the `company_id` for the company you created, you can add either a company or user as a trusted party. You need to specify both the `address` web address for the trusted party and the `type` of trusted party either as `company` or `user`.
@@ -322,8 +309,6 @@ In this example, we use `company_id` ()
 #### Example Response
 
 { "total\_count": 0, "list": \[ { "asset": "BTC-TESTNET", "address": "n2GoFtw8aTH6yoMK9UW3fxrSp3iTL6jwUX", "balance": 0.001 } \] }
-
-Error rendering macro 'code': Invalid value specified for parameter 'lang'
 
 ```
 {   
