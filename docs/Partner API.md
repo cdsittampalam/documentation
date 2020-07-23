@@ -284,6 +284,7 @@ The following includes the `custodygroup_withdraw` group with a `threshold` of 1
     "BTC-TESTNET"
   ]
 }
+```
 
 #### Example Response
 
@@ -310,7 +311,10 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5
 
 #### Example Response
 
+```
 { "total\_count": 0, "list": \[ { "asset": "BTC-TESTNET", "address": "n2GoFtw8aTH6yoMK9UW3fxrSp3iTL6jwUX", "balance": 0.001 } \] }
+
+```
 
 ```
 {   
