@@ -112,4 +112,8 @@ The signature is used to sign areas where security needs to be applied including
 * the nonce (or number) that is generated for cryptographic purposes.
 * the payload (body) for POST/PUT requests that contained added data.
 
+When running requests, the x-headers contains the following information:
+    
+* x-sign: the signature
+* x-nonce: the nonce used in the signature
 
