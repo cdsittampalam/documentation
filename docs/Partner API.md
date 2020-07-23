@@ -287,7 +287,7 @@ The following includes the `custodygroup_withdraw` group with a `threshold` of 1
 
 #### Example Response
 
-The response shows an assigned ""fund_id"" 
+The response shows an assigned 'fund_id' and IDs assigned for each custody group of 'custodygroup_withdraw' and 'custodygroup_tx'. 
 
 ```
 {
