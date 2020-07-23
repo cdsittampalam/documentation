@@ -167,7 +167,7 @@ The country ID you enter must conform to the ISO 3166-1 country code.
 
 You can repeat the process to create multiple companies. Other companies you create can be used as a trusted party in your trusted network.
 
-In this example, a new company called John Doe Corp is entered in `name`. This is based in London, UK with the the `domain` of `johndoe.co.uk`.
+In this example, a new company called John Doe Corp is entered in `name`. This is based in Brimingham, UK with the the `domain` of `johndoe.co.uk`.
 
 #### Example Request
 
