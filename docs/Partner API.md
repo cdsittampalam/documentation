@@ -55,11 +55,9 @@ Signing up to the Partner API is available for a Qredo user from the Qredo Deskt
 3. Read through the descriptions on the API and click **Apply**.
 4. Fill out the form to apply for the Partner API and click **Submit.**
 
-![Billing](/doc-images/enrolepartner3.png)
-
 After a confirmation message appears, the Partner API screen shows the **Generate Key** button.
 
-![](https://qredo.atlassian.net/wiki/download/attachments/79233107/2-Generate%20Key%20image.png?api=v2)
+![partnerapi](/doc-images/generatekeyimage.png)
 
 Connect to the Partner API
 --------------------------
