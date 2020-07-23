@@ -125,10 +125,7 @@ The following is an example request header in cURL format:
 ``
 curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ``
-
-
-
-Add a Public Key
+Server Environment
 
 A public key needs to be added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
 
@@ -140,7 +137,13 @@ The signature is used to sign areas where security needs to be applied including
 
 1.  Generate a public and private key pair on the command line using openssl. 
 2.  Extract the public key from the key pair using the command line.
-3.  Add the public key to the partner API page.
+3.  Access the Partner API at https://partner-api.qredo.network/.
+4. Choose a URL.
+   - Copy the following URL to the address bar: (https://api.qredo.net/api/v1/p) or 
+   - Select **https://api.qredo.net(BasePath) - API Server** from the server list.
+5. Click Authorise.
+4. Paste the generated API key in the box.
+6. Add the public key.
 
 API Endpoints
 -------------
