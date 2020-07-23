@@ -131,16 +131,3 @@ Once connected to the API, you have access to all the endpoints. You use the end
 | Withdrawal | Withdrawals is where money in a fund is sent out of the Qredo blockchain to a different cryptocurrency address. You can add a new withdrawal and find out the withdrawal status. | 
 
 
-
-*   Company - A Company is an entity on the Qredo Network. Within a company are all the holdings and funds that are used on the Qredo Network. You create one or more companies, and update and search the companies by entering part of the company name.
-    
-*   Trusted Network - This allows you to add other trusted parties to build your trusted network. These can include other companies, e.g., Exchanges to an institution. Trusted parties can also include users. You can also find various trusted parties for a company, and deleted a trusted party if needed.
-    
-*   Holdings - This is information on all the assets for the company, including those that are held across all funds.
-    
-*   Fund - A fund is where you keep your assets and custody policies. You can add a fund to the network. You can also get existing funds and search for funds on the network. For deposit addresses, you can obtain existing addresses. For withdrawal addresses, you can add these to an individual fund.
-    
-*   Transfers - Transfers are where money that is on the Qredo network is transferred from one user to another who has been invited as a trusted counterparty. You can add a new transfer and find out the transfer status.
-    
-*   Withdrawals - Withdrawals are for funds that are sent out of the Qredo blockchain to a different cryptocurrency address. You can add a new withdrawal and find out the withdrawal status.
-    
