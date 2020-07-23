@@ -102,7 +102,7 @@ On the Settings page, your current API key appears hashed out. The new key only 
 1.  Click **Regenerate** Key.
 2.  Click **Copy** in the New Partner API Key screen.
 
-### Add a Public Key to the Swagger UI
+### Add a Public Key
 
 A public key needs to be added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
 
@@ -112,8 +112,7 @@ The signature is used to sign areas where security needs to be applied including
 * the nonce (or number) that is generated for cryptographic purposes.
 * the payload (body) for POST/PUT requests that contained added data.
 
-When running requests, the x-headers contains the following information:
-    
-* x-sign: the signature
-* x-nonce: the nonce used in the signature
+1.  Generate a public and private key pair on the command line using openssl. 
+2.  Extract the public key from the key pair using the command line.
+3.  Add the public key to the partner API page  
 
