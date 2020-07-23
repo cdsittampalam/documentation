@@ -242,12 +242,14 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedp
   "total_count":1,
   "list":
      [
-       {"trusted_entity_id":"4eWKPAjec5WRXvJbU8P58WCRnfXQ77WYUtR91NWcPNvJ",
+       {
+         "trusted_entity_id":"4eWKPAjec5WRXvJbU8P58WCRnfXQ77WYUtR91NWcPNvJ",
          "name":"Izumi Katsuyoshi",
          "address":"IKatsuyoshi@gmail.com",
          "type":"user",
          "internal":false,
-         "created":1595516739}
+         "created":1595516739
+       }
      ]
 }
 ```
