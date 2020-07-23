@@ -55,8 +55,8 @@ How to register
 
 Signing up to the Partner API is available for a Qredo user from the Qredo Desktop app once they have registered. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
 
-1.  Ensure that are logged in to the app as a Qredo user.
-2.  Go to **Settings** > **Partner API**.  
+1. Ensure that are logged in to the app as a Qredo user.
+2. Go to **Settings** > **Partner API**.  
 
 ![Billing](/doc-images/partnerapi2.png)
 
