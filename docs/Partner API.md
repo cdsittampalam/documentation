@@ -2,5 +2,104 @@
 id: Partner API
 ---
 
+About
+-----
 
+Qredo’s Partner API enables authorized Qredo Partners to operate the Qredo Platform programmatically from their application. OMS and EMS ISVs, Exchanges and other financial service providers can create accounts, initiate transactions on behalf of users, and approve transactions where they have been ordained as a Custodian over an end user's or corporate user’s fund.
+
+For API schema and other technical documentation, please explore our [API Reference]()documentation or [Swagger UI]().
+
+*   Institutional-grade DeFi platform    
+*   Secure your customer’s digital assets    
+*   Offer MPC secured fund management    
+*   Hardware security hardened network    
+*   Multi-custodian signature capable    
+*   Instantiate flexible governance policies    
+*   Near instant digital asset delivery    
+*   Eliminate counterparty risk
+    
+
+Eligibility Criteria
+--------------------
+
+Qredo’s Partner program is those who are committed to building a new era in capital markets for institutional-grade decentralized financial applications. We seek partners who think about the following criteria:
+
+*   Composability - Are you developing other applications, centralized or decentralized, that can add additional value to joint customers?   
+*   Integrity - Do you value the safety of your customer’s digital assets as if they were your own digital assets?    
+*   Extensibility - Is your platform extensible, so that the value chain created by joint works can be extended by other DeFi applications?
+    
+
+If so, please get in touch.
+
+How to use it
+-------------
+
+From the Partner API you can
+
+*   Get to know how the Partner API works
+*   Use the API when developing and testing your application    
+*   View the reference documentation for the API
+    
+How to register
+---------------
+
+Signing up to the Partner API is available for a Qredo user that has registered on the Qredo website. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
+
+### Partner API Key
+
+The Partner API key is needed for security reasons to ensure that only you can access specific endpoints in the Partner API. The API Key is linked to your partner developer account and provides you with permission to access any endpoint in the API through the Qredo developer portal.
+
+All users that generate an API key have the same permissions when they use the Partner API.
+
+Notes on Managing your API Key
+
+*   You must ensure that the API key s not distributed to another party.
+    
+*   You must not add the API key to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
+    
+*   You must keep the API key carefully in a safe location.
+    
+
+### Steps
+
+1.  Ensure that are logged in to the app as a Qredo user.
+    
+2.  Go to **Settings** > **Partner API**.
+    
+
+![](https://qredo.atlassian.net/wiki/download/attachments/79233107/Partner%20API%20Settings%20Apply1%20Resized.png?api=v2)
+
+3\. Read through the descriptions on the API and click **Apply**.
+
+4\. Fill out the form to apply for the Partner API and click **Submit.**
+
+|     |
+| --- |
+| ![](https://qredo.atlassian.net/wiki/download/thumbnails/79233107/enrole%20partner%20programme.png?api=v2) |
+
+After a confirmation message appears, the Partner API screen shows the **Generate Key** button.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/79233107/2-Generate%20Key%20image.png?api=v2)
+
+5\. Click **Generate Key**. In the New Partner API Key screen,  
+the Key ID and Partner API Key show.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/79233107/2-%20resized%20New%20Partner%20API%20Key%20db.png?api=v2)
+
+6\. Click **Copy.**
+
+The Qredo server does not store the API key on the page. Thus, each time you arrive back to the Partner API page, you need to regenerate a new key. Generating a new key is required if you lose the original key.
+
+Replace API Key
+---------------
+
+If you have lost your API key, you can return to the Settings page in the Qredo app to generate a new key.
+
+![](https://qredo.atlassian.net/wiki/download/attachments/79233107/4%20regenerate%20API%20key.png?api=v2)
+
+On the Settings page, your current API key appears hashed out. The new key only appears when you regenerate the key.
+
+1.  Click **Regenerate** Key.
+    
+2.  Click **Copy** in the New Partner API Key screen.
 
