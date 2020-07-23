@@ -45,7 +45,7 @@ From the Partner API you can
 
 *   [register]() with the Partner API on the Qredo website.
 *   [connect to the Partner API]() using the API key and public key authentication mechanisms.   
-*   become familiar with how the API works through the [Getting Started]() and [Reference] documentation sections.
+*   become familiar with how the API works through [API Endpoints](), [Quick-Start]() and [Reference] documentation sections.
 *   use the [Swagger UI] to test the endpoints.
     
 How to register
@@ -116,12 +116,10 @@ The signature is used to sign areas where security needs to be applied including
 2.  Extract the public key from the key pair using the command line.
 3.  Add the public key to the partner API page.
 
-Getting Started
----------------
+API Endpoints
+-------------
 
 Once connected to the API, you have access to all the endpoints. You use the endpoints once you have created a company through the CreateCompany endpoint. From the Company endpoint, you manage the following endpoints:
-
-
 
 | **Endpoint** | **Description** | 
 | --- | --- |
