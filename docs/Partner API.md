@@ -135,9 +135,9 @@ The signature is used to sign areas where security needs to be applied including
 * the nonce (or number) that is generated for cryptographic purposes.
 * the payload (body) for POST/PUT requests that contained added data.
 
-1.  Generate a public and private key pair on the command line using openssl. 
-2.  Extract the public key from the key pair using the command line.
-3.  Access the Partner API at https://partner-api.qredo.network/.
+1. Generate a public and private key pair on the command line using openssl. 
+2. Extract the public key from the key pair using the command line.
+3. Access the Partner API at https://partner-api.qredo.network/.
 4. Choose a URL.
    - Copy the following URL to the address bar: (https://api.qredo.net/api/v1/p) or 
    - Select https://api.qredo.net(BasePath) - **API Server** from the server list.
