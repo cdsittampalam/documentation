@@ -215,8 +215,6 @@ Error rendering macro 'code': Invalid value specified for parameter 'lang'
 
 #### Example Request for a User
 
-Error rendering macro 'code': Invalid value specified for parameter 'lang'
-
 ```
 {
   "address": "IKatsuyoshi@gmail.com",
@@ -227,6 +225,10 @@ Error rendering macro 'code': Invalid value specified for parameter 'lang'
 #### Example Response
 
 Currently no example available for a successful response.
+
+### Get Trusted Party
+
+In order to add a fund, you need to assign members of a custody group. The members are trusted party users that have been added to a company. Get Trusted Party lets you find out the trusted parties for a company.
 
 ### Add Fund
 
