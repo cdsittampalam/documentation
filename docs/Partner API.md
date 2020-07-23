@@ -36,16 +36,33 @@ How to use it
 
 From the Partner API you can
 
-*   Get to know how the Partner API works
-*   Use the API when developing and testing your application    
-*   View the reference documentation for the API
+*   [register]() with the Partner API on the Qredo website.
+*   [connect to the Partner API]() using the API key and public key authentication mechanisms.   
+*   become familiar with how the API works through the [Getting Started]() and [Reference] documentation sections.
+*   use the [Swagger UI] to test the endpoints.
+
     
 How to register
 ---------------
 
-Signing up to the Partner API is available for a Qredo user that has registered on the Qredo website. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
+Signing up to the Partner API is available for a Qredo user from the Qredo Desktop app once they have registered. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
 
-### Partner API Key
+1.  Ensure that are logged in to the app as a Qredo user.
+    
+2.  Go to **Settings** > **Partner API**.  
+
+![](https://qredo.atlassian.net/wiki/download/attachments/79233107/Partner%20API%20Settings%20Apply1%20Resized.png?api=v2)
+
+3. Read through the descriptions on the API and click **Apply**.
+
+4. Fill out the form to apply for the Partner API and click **Submit.**
+
+
+| ![](https://qredo.atlassian.net/wiki/download/thumbnails/79233107/enrole%20partner%20programme.png?api=v2) |
+
+
+Connect to the Partner API
+--------------------------
 
 The Partner API key is needed for security reasons to ensure that only you can access specific endpoints in the Partner API. The API Key is linked to your partner developer account and provides you with permission to access any endpoint in the API through the Qredo developer portal.
 
@@ -62,20 +79,7 @@ Notes on Managing your API Key
 
 ### Steps
 
-1.  Ensure that are logged in to the app as a Qredo user.
-    
-2.  Go to **Settings** > **Partner API**.
-    
 
-![](https://qredo.atlassian.net/wiki/download/attachments/79233107/Partner%20API%20Settings%20Apply1%20Resized.png?api=v2)
-
-3\. Read through the descriptions on the API and click **Apply**.
-
-4\. Fill out the form to apply for the Partner API and click **Submit.**
-
-|     |
-| --- |
-| ![](https://qredo.atlassian.net/wiki/download/thumbnails/79233107/enrole%20partner%20programme.png?api=v2) |
 
 After a confirmation message appears, the Partner API screen shows the **Generate Key** button.
 
