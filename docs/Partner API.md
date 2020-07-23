@@ -76,11 +76,13 @@ The Partner API key is needed for security reasons to ensure that only you can a
 
 All users that generate an API key have the same permissions when they use the Partner API.
 
+:::note
 Notes on Managing your API Key
 
 *   You must ensure that the API key is not distributed to another party.
 *   You must not add the API key to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
 *   You must keep the API key carefully in a safe location.
+:::
 
 You also need to generate a public and private key combination to use with the Partner API key.
 
