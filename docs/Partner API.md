@@ -343,13 +343,13 @@ Before performing trading functions, you can obtain the deposit addresses associ
 
 You specify the `company_id` for the trusted party and the `fund_id` to obtain a list of deposit addresses.
 
-#### Example Request
+#### Request
 
 ```
 https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJNqlje2bVNjPG2S/deposit
 ```
 
-#### Example Response
+#### Response
 
 ```
 {   
