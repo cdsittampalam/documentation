@@ -38,7 +38,7 @@ You first need to enrole for the Partner API on the Qredo website. Once your app
 Once connected, you can become familiar with how the API works by referring to these parts of the page:
 
 * [API endpoints](#api-endpoints)
-* [Quick-start guide](#quick-start-guide)
+* [quick-start guide](#quick-start-guide)
 
 To test the endpoints, refer to the [Swagger UI](https://partner-api.qredo.network/).
 
@@ -116,7 +116,7 @@ For the Server (or Live) environment, you need to generate, in addition to the A
 2. Choose the URL.
    - Copy the following URL to the address bar: (https://demo-api.qredo.net/api/v1/p) or 
    - Select https://demo-api.qredo.net(BasePath) - **Demo Server** from the server list.
-3. Click Authorise.
+3. Click **Authorise**.
 4. Paste the generated API key in the box.
 
 The header format for requests in the demo environment must contain the API key. All request bodies should have content type 'application/json'.
@@ -125,13 +125,13 @@ The header format for requests in the demo environment must contain the API key.
 
 A public key needs to be added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
 
-The signature is used to sign areas where the security needs to be applied including:
+The signature is used to sign areas where security needs to be applied including:
 
 * the URL of the full path.
 * the nonce (or number) that is generated for cryptographic purposes.
 * the payload (body) for POST/PUT requests that contained added data.
 
-The following two http headers are added to the request:
+The following two http headers are added to each request:
 
 x-sign: the signature
 x-nonce: the nonce used in the signature
