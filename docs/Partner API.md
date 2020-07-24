@@ -75,9 +75,9 @@ You generate an API key when you want to connect to the demo environment for tes
 :::note
 Notes on Managing your API Key
 
+*   To ensure that you complete all the testing before going Live, you must ensure that you generate the API key for the demo environment first.
 *   You must ensure that the API key is not distributed to another party.
 *   You must not add the API key to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
-*   You must keep the API key carefully in a safe location.
 :::
 
 ### Generate an API Key
@@ -101,7 +101,9 @@ On the Settings page, your current API key appears hashed out. The new key only 
 
 ### Add Keys to Headers
 
-Once you have generated the API key, you add the API key to the HTTP headers to allow you to connect to URLs in the desired environments. The Partner API can be set up in on demo or server environments.
+Once you have generated the API key, you add the API key to the Swagger UI. 
+
+the HTTP headers to allow you to connect to URLs in the desired environments. The Partner API can be set up in on demo or server environments.
 The Swagger UI allows you to choose an environment and add the API key, which populates the headers. For the server or Live environment, you need to generate, in addition to the API key, a public key that is signed by a private key. For the demo environment,
 only the API key is needed.
 
