@@ -50,8 +50,6 @@ You can use the Qredo Desktop app to help you add other users as trusted parties
 Sign Up for the Partner API
 ----------------------------
 
-Once you are a Qredo user, you can sign up for the Partner API. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
-
 1. Go to **Settings** > **Partner API**.  
 
 ![Billing](/doc-images/partnerapi2.png)
@@ -66,11 +64,7 @@ After a confirmation message appears, the Partner API screen shows the **Generat
 Connect to the Partner API
 --------------------------
 
-The Partner API key is needed for security reasons to ensure that only you can access the endpoints in the Partner API. 
-
-All users that generate an API key have the same permissions when they use the Partner API.
-
-You generate an API key when you want to connect to the demo environment for testing; you also generate a key in the server environment for going Live.
+The Partner API key is a security feature that ensures that only you can access the Partner API endpoints. You generate an API key when you want to connect to the demo environment for testing; you also generate a key in the server environment for going Live.
 
 :::note
 Notes on Managing your API Key
