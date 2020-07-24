@@ -33,7 +33,7 @@ If so, please get in touch.
 Where to Go?
 ------------
 
-You first need to enrole for the Partner API on the Qredo website. Once your application has been granted as an eligible user, you need to [Connect to the Partner API](#connect-to-the-partner-api) using an API key
+You first need to enrole for the Partner API on the Qredo website. Once your application has been granted, you need to [Connect to the Partner API](#connect-to-the-partner-api) using an API key
 
 Once connected, you can become familiar with how the API works by referring to these parts of the page:
 
