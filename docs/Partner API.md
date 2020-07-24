@@ -174,7 +174,7 @@ Once connected to the API, you have access to all the endpoints.
 
 ### Parameters
 
-However, GET method parameters are passed in a query string rather than the body of the URL. All other request parameters are sent in the request body and use 'application/json'.
+GET method parameters are passed in a query string rather than the body of the URL. All other request parameters are sent in the request body and use 'application/json'.
 
 ### Endpoint Methods
 
