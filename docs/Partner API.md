@@ -206,11 +206,11 @@ This quick-start guide shows users how to build your Qredo network programmatica
 
 You can create a company by adding basic information in a POST request. The POST request returns the reference (`ref`)and `company_id`. Each request allows you to create one company. To help you enter data quicker, some of the values are already prepopulated.
 
-The country ID you enter must conform to the ISO 3166-1 country code.
+The 'country' ID you enter must conform to the ISO 3166-1 country code.
 
 You can repeat the process to create multiple companies. Other companies you create can be used as a trusted party in your trusted network.
 
-In this example, a new company called John Doe Corp is entered in `name`. This is based in Brimingham, UK with the the `domain` of `johndoe.co.uk`.
+In this example, a new company called John Doe Corp is entered in `name`. This is based in Brimingham, UK with the the `domain` of johndoe.co.uk.
 
 #### Request
 
@@ -236,9 +236,9 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 
 ### Add Trusted Party
 
-Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' company, you have to specify the web address. If the trusted party is of 'type' user, you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user, and acme.com as the company.
+Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' 'company', you have to specify the web address. If the trusted party is of 'type' 'user', you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user, and acme.com as the company.
 
-Users would have been added to the Qredo network through the Qredo Web App. When add a trusted party that is a user, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a Get Trusted Party request. 
+Users would have been added to the Qredo network through the Qredo Signing app. When add a trusted party that is a user, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a Get Trusted Party request. 
 
 #### Request
 
