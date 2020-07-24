@@ -33,12 +33,9 @@ If so, please get in touch.
 Where to Go
 -----------
 
-From the Partner API you can
+You first need to register with the Partner API on the Qredo website. Once registered, you need to [Connect to the Partner API](#connect-to-the-partner-api) using an API key
 
-*   [register](#how-to-register) with the Partner API on the Qredo website.
-*   [connect to the Partner API](#connect-to-the-partner-api) using the API key and public key authentication mechanisms.   
-*   become familiar with how the API works through [API Endpoints](api-endpoints), [Quick-Start](#quick-start-guide) and [Reference] documentation sections.
-*   use the [Swagger UI](https://partner-api.qredo.network/) to test the endpoints.
+To become familiar with how the API works, refer to various sections in the documentation and the [Swagger UI](https://partner-api.qredo.network/) to test the endpoints.
 
 :::info
 The Partner API is still work in progress. Qredo plan to add the following in future releases:
