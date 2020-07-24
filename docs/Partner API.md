@@ -59,14 +59,12 @@ Once you are a Qredo user, you can sign up for the Partner API. Once Qredo has g
 3. Read through the descriptions on the API and click **Apply**.
 4. Fill out the form to apply for the Partner API and click **Submit.**
 
-After a confirmation message appears, the Partner API screen shows the **Generate Key** button.
+After a confirmation message appears, the Partner API screen shows the **Generate Key** button allowing you to connect to the API.
 
 ![partnerapi](/doc-images/generatekeyimage.png)
 
 Connect to the Partner API
 --------------------------
-
-From the Partner API page, you can connect to the API using the Partner API key.
 
 The Partner API key is needed for security reasons to ensure that only you can access specific endpoints in the Partner API. 
 
