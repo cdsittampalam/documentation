@@ -222,13 +222,9 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 
 Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' company, you have to specify the web address. If the trusted party is of 'type' user, you have to state the email address. In this example, you add IKatsuyoshi@gmail.com as the user, and acme.com as the company.
 
-The users would have been added to the Qredo network through the Qredo Web App.
-
-When add a trusted party that is a user, you will receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party on 
+Users would have been added to the Qredo network through the Qredo Web App. When add a trusted party that is a user, you will receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party on 
 
 #### Request
-
-
 
 ```
 {
@@ -237,8 +233,6 @@ When add a trusted party that is a user, you will receive an approval request on
   }
 ```
 
-#### Example Request for a User
-
 ```
 {
   "address": "IKatsuyoshi@gmail.com",
@@ -246,7 +240,7 @@ When add a trusted party that is a user, you will receive an approval request on
   }
 ```
 
-#### Example Response
+#### Response
 
 Currently no example available for a successful response.
 
@@ -256,13 +250,13 @@ In order to add a fund, you need to assign members of a custody group. The membe
 
 You will use the Get Trusted Party request, to obtain the trusted party user that you added in Add Trusted Party.
 
-#### Example Request
+#### Request
 
 ```
 https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
 ```
 
-#### Example Response
+#### Response
 
 ```
 {
