@@ -18,6 +18,18 @@ The Qredo Platform delivers the following:
 *   Near instant digital asset delivery    
 *   Eliminate counterparty risk
 
+Eligibility Criteria
+--------------------
+
+Qredo’s Partner program is those who are committed to building a new era in capital markets for institutional-grade decentralized financial applications. We seek partners who think about the following criteria:
+
+*   Composability - Are you developing other applications, centralized or decentralized, that can add additional value to joint customers?   
+*   Integrity - Do you value the safety of your customer’s digital assets as if they were your own digital assets?    
+*   Extensibility - Is your platform extensible, so that the value chain created by joint works can be extended by other DeFi applications?
+    
+If so, please get in touch.
+
+
 Where to Go
 -----------
 
@@ -35,27 +47,10 @@ The Partner API is still work in progress. Qredo plan to add the following in fu
 *   Dedicated URLs for test, production and live environments
 :::
     
-
-Eligibility Criteria
---------------------
-
-Qredo’s Partner program is those who are committed to building a new era in capital markets for institutional-grade decentralized financial applications. We seek partners who think about the following criteria:
-
-*   Composability - Are you developing other applications, centralized or decentralized, that can add additional value to joint customers?   
-*   Integrity - Do you value the safety of your customer’s digital assets as if they were your own digital assets?    
-*   Extensibility - Is your platform extensible, so that the value chain created by joint works can be extended by other DeFi applications?
-    
-If so, please get in touch.
-
-How to use it
--------------
-
-
-
 You will need to use the Qredo Desktop app to help you for various functions, e.g., for finding users to add as trusted parties. For signing functions, you will need to use the Qredo Signing app.
     
-How to register
----------------
+Register
+--------
 
 Signing up to the Partner API is available for a Qredo user from the Qredo Desktop app once they have registered. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
 
