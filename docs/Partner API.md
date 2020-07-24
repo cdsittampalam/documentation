@@ -30,19 +30,15 @@ Qredo’s Partner program is those who are committed to building a new era in ca
 If so, please get in touch.
 
 
-Where to Go
------------
+Where to Go?
+------------
 
 You first need to register with the Partner API on the Qredo website. Once registered, you need to [Connect to the Partner API](#connect-to-the-partner-api) using an API key
 
-To become familiar with how the API works, refer to various sections in the documentation and the [Swagger UI](https://partner-api.qredo.network/) to test the endpoints.
+To become familiar with how the API works, refer to various sections on this page 
 
-:::info
-The Partner API is still work in progress. Qredo plan to add the following in future releases:
+To test the endpoints, refer to the [Swagger UI](https://partner-api.qredo.network/).
 
-*   Client libraries    
-*   Dedicated URLs for test, production and live environments
-:::
     
 You will need to use the Qredo Desktop app to help you for various functions, e.g., for finding users to add as trusted parties. For signing functions, you will need to use the Qredo Signing app.
     
@@ -220,7 +216,7 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 
 ### Add Trusted Party
 
-Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' company, you have to specify the web address. If the trusted party is of 'type' user, you have to state the email address. In this example, you add IKatsuyoshi@gmail.com as the user, and acme.com as the company.
+Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' company, you have to specify the web address. If the trusted party is of 'type' user, you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user, and acme.com as the company.
 
 Users would have been added to the Qredo network through the Qredo Web App. When add a trusted party that is a user, you will receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party on 
 
@@ -252,7 +248,7 @@ Users would have been added to the Qredo network through the Qredo Web App. When
 
 The Get Trusted Party endpoint lets you find out details of the trusted parties that exist in a company. Using the Get Trusted Party endpoint is also useful for finding out the "trusted_entity_id" of a trusted party user that you want to include as a member of a custody group when you create a fund.  
 
-You will use the Get Trusted Party request, to obtain the trusted party user that you added in Add Trusted Party.
+You will use the Get Trusted Party request, to obtain the trusted party user of Izumi Katsuyoshi that you added in Add Trusted Party.
 
 #### Request
 
