@@ -46,8 +46,8 @@ The Partner API is still work in progress. Qredo plan to add the following in fu
     
 You will need to use the Qredo Desktop app to help you for various functions, e.g., for finding users to add as trusted parties. For signing functions, you will need to use the Qredo Signing app.
     
-Register
---------
+Register for the Partner API
+----------------------------
 
 Signing up to the Partner API is available for a Qredo user from the Qredo Desktop app once they have registered. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
 
@@ -63,8 +63,8 @@ After a confirmation message appears, the Partner API screen shows the **Generat
 
 ![partnerapi](/doc-images/generatekeyimage.png)
 
-Connect 
--------
+Connect to the Partner API
+--------------------------
 
 From the Partner API page, you can connect to the API using the Partner API key.
 
@@ -99,7 +99,7 @@ On the Settings page, your current API key appears hashed out. The new key only 
 3.  Click **Regenerate** Key.
 4.  Click **Copy** in the New Partner API Key screen.
 
-### Add to Headers
+### Add Keys to Headers
 
 Once you have generated the API key, you add the API key to the HTTP headers to allow you to connect to URLs in the desired environments. The Partner API can be set up in on demo or server environments.
 The Swagger UI allows you to choose an environment and add the API key, which populates the headers. For the server or Live environment, you need to generate, in addition to the API key, a public key that is signed by a private key. For the demo environment,
