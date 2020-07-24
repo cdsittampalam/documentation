@@ -40,12 +40,12 @@ Once connected, familiar yourself with the API from these parts of the page:
 * [API endpoints](#api-endpoints)
 * [quick-start guide](#quick-start-guide)
 
-To test the endpoints, refer to the [Swagger UI](https://partner-api.qredo.network/).
+For in-depth testing, refer to the [Swagger UI](https://partner-api.qredo.network/).
 
 Using the Qredo App
 -------------------
 
-You will need to use the Qredo Desktop app to help you add other users as trusted parties. If these users do not exist in the app, you will need to register each of these users. For these trusted party users, the Qredo Signing app is needed to make approvals via a phone. 
+You can use the Qredo Desktop app to help you add other users as trusted parties, where they are ordained as custodians. If these users do not exist, you will need to register these users. For each trusted party user, the Qredo Signing app is needed to make one-tap approvals via the phone. 
     
 Sign Up for the Partner API
 ----------------------------
