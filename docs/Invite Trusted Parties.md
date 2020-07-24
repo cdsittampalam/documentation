@@ -7,8 +7,8 @@ Summmary of Steps
 -----------------
 
 - When sending invites to trusted parties, you can:
-  - [send from Qredo](#invite-from-qredo)
-  - [send from contacts](#invite-from-contacts)
+  - [invite from Qredo](#invite-from-qredo)
+  - [invite from contacts](#invite-from-contacts)
 - As a user already on the Qredo network, you can:
   - [accept an invite](#accept-an-invite) 
   - [reject an invite](#reject-an-invite)
@@ -45,7 +45,7 @@ Invite from Contacts
 
 ![Add Trusted](/doc-images/addtrusted.png)
 
-    In the Invite to Qredo Network section, the URL of the Join page appears. This allows a recipient of the invitation to go directly to the Join page on the Qredo website.
+In the Invite to Qredo Network section, the URL of the Join page appears. This allows a recipient of the invitation to go directly to the Join page on the Qredo website.
 2.  Click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent to the recipient via the selected service.
 3.  Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list)).
 

@@ -268,7 +268,7 @@ Users would have been added to the Qredo network through the Qredo Web App. When
 
 The Get Trusted Party endpoint lets you find out details of the trusted parties that exist in a company. Using the Get Trusted Party endpoint is also useful for finding out the "trusted_entity_id" of a trusted party user that you want to include as a member of a custody group when you create a fund.  
 
-You will use the Get Trusted Party request, to obtain the trusted party user of Izumi Katsuyoshi that you added in Add Trusted Party.
+In this example. you use the Get Trusted Party request to obtain the trusted party user of Izumi Katsuyoshi that you added in Add Trusted Party.
 
 #### Request
 
