@@ -214,7 +214,7 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 ```
 {
   "ref": "1eoq9DPiGaRvpbyp6L2Vai4uIU2",
-  "company_id": "9827feec-4eae-4e80-bda3-daa7c3b97ad1
+  "company_id": "9827feec-4eae-4e80-bda3-daa7c3b97ad1"
 }
 ```
 
@@ -241,8 +241,12 @@ Users would have been added to the Qredo network through the Qredo Web App. When
 ```
 
 #### Response
+```
+{
+ "code":200,"msg":"OK"
+  }
+```
 
-Currently no example available for a successful response.
 
 ### Get Trusted Party
 
