@@ -298,7 +298,7 @@ In the example, the `custodygroup_withdraw` group with a `threshold` of 1 with 1
 
 The fund is added to company id: "1f4sRjsZD612GdSvokktFReylZp".
 
-#### Example Request
+#### Request
 
 ```
 {
@@ -325,7 +325,7 @@ The fund is added to company id: "1f4sRjsZD612GdSvokktFReylZp".
 }
 ```
 
-#### Example Response
+#### Response
 
 The response shows an assigned 'fund_id' and IDs assigned for each custody group of 'custodygroup_withdraw' and 'custodygroup_tx'. 
 
