@@ -108,7 +108,6 @@ The following is an example request header in cURL format:
 ```
 curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ```
-
 For the Server (or Live) environment, you need to generate, in addition to the API key, a public key that is signed by a private key. 
 
 #### Demo Environment
@@ -122,8 +121,6 @@ For the Server (or Live) environment, you need to generate, in addition to the A
 
 The header format for requests in the demo environment must contain the API key. All request bodies should have content type 'application/json'.
 
-
-```
 #### Server Environment
 
 A public key needs to be added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
