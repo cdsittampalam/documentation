@@ -102,7 +102,7 @@ On the Settings page, your current API key appears hashed out. The new key only 
 ### Add Keys to Swagger
 
 Once you have generated the API key, you add the API key to the Swagger UI. The key is written to HTTP headers to ensure you connect to URLs in the desired environments. 
-The Swagger UI allows you to choose an environment and add the API key, which populates the headers. For the server or Live environment, you need to generate, in addition to the API key, a public key that is signed by a private key. For the demo environment,
+For the Server (or Live) environment, you need to generate, in addition to the API key, a public key that is signed by a private key. For the demo environment,
 only the API key is needed.
 
 #### Demo Environment
