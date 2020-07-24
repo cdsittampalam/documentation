@@ -102,13 +102,19 @@ On the Settings page, your current API key appears hashed out. The new key only 
 ### Add Keys to Swagger
 
 Once you have generated the API key, you add the API key to the Swagger UI. The key is written to HTTP headers to ensure you connect to URLs in the desired environments. 
-For the Server (or Live) environment, you need to generate, in addition to the API key, a public key that is signed by a private key. For the demo environment,
-only the API key is needed.
+
+The following is an example request header in cURL format:
+
+```
+curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
+```
+
+For the Server (or Live) environment, you need to generate, in addition to the API key, a public key that is signed by a private key. 
 
 #### Demo Environment
 
 1. Access the Partner API at https://partner-api.qredo.network/.
-2. Choose a URL.
+2. Choose the URL.
    - Copy the following URL to the address bar: (https://demo-api.qredo.net/api/v1/p) or 
    - Select https://demo-api.qredo.net(BasePath) - **Demo Server** from the server list.
 3. Click Authorise.
@@ -116,10 +122,7 @@ only the API key is needed.
 
 The header format for requests in the demo environment must contain the API key. All request bodies should have content type 'application/json'.
 
-The following is an example request header in cURL format:
 
-```
-curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ```
 #### Server Environment
 
