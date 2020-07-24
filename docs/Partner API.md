@@ -64,14 +64,14 @@ After a confirmation message appears, the Partner API screen shows the **Generat
 Connect to the Partner API
 --------------------------
 
-The Partner API key is a security feature that ensures that only you can access the Partner API endpoints. You generate an API key when you want to connect to the demo environment for testing; you also generate a key in the server environment for going Live.
+The Partner API key is a security feature that ensures that only you can access the Partner API endpoints. You generate an API key when you want to connect to the demo environment for testing; you also generate a key in the server environment for going Live. Each environment uses different keys.
 
 :::note
 Notes on Managing your API Key
 
 *   To ensure that you complete all testing before going Live, you must ensure that you generate the API key for the demo environment first.
-*   You must ensure that the API key is not distributed to another party.
-*   You must not add the API key to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
+*   You must ensure that the API keys are not distributed to another party.
+*   You must not add any of the API keys to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
 :::
 
 ### Generate an API Key
@@ -81,11 +81,11 @@ Notes on Managing your API Key
 ![partnerapi](/doc-images/apikeypartner.png)
 
 2. Click **Copy.**
-
-The Qredo server does not store the API key on the page. Thus, each time you arrive back to the Partner API page, you need to regenerate a new key. Generating a new key is required if you lose the original key.
+ Generating a new key is required if you lose the original key.
 
 :::note
-If you have lost your API key and need to replace it, you can return to the Settings page in the Qredo app to generate a new key.
+If you have lost your API key and need to replace it, you can return to the Settings page in the Qredo app to generate a new key. 
+The Qredo server does not store the API key on the page. Thus, each time you arrive back to the Partner API page, you need to regenerate a new key.
 
 On the Settings page, your current API key appears hashed out. The new key only appears when you regenerate the key.
 
