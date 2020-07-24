@@ -41,11 +41,12 @@ You enter an email address for a user on the Qredo Network. The email address mu
 Invite from Contacts
 --------------------
 
+In the Add Trusted Party screen, the URL of the Join page appears. This allows a recipient of the invitation to go directly to the Join page on the Qredo website.
+
 1.  From the Trusted Network screen, click the **Add Trusted Party** button. The Add Trusted Party screen shows.
 
 ![Add Trusted](/doc-images/addtrusted.png)
 
-In the Invite to Qredo Network section, the URL of the Join page appears. This allows a recipient of the invitation to go directly to the Join page on the Qredo website.
 2.  Click **Copy** and then the button of the service for the invites (LinkedIn, Telegram, or WhatsApp). The invite is sent to the recipient via the selected service.
 3.  Check the Trusted Network screen for details of the new invite see ([Manage the Invite List](#manage-invite-list)).
 
