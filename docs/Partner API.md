@@ -47,13 +47,12 @@ Using the Qredo App
 
 You will need to use the Qredo Desktop app to help you add other users as trusted parties. If these users do not exist in the app, you will need to register each of these users. For these trusted party users, the Qredo Signing app is needed to make approvals via a phone. 
     
-Register for the Partner API
+Sign Up for the Partner API
 ----------------------------
 
-Signing up to the Partner API is available for a Qredo user from the Qredo Desktop app once they have registered. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
+Once you are a Qredo user, you can sign up for the Partner API. Once Qredo has granted your application to be a Partner API developer, the app allows you to generate your own API Key.
 
-1. Ensure that are logged in to the app as a Qredo user.
-2. Go to **Settings** > **Partner API**.  
+1. Go to **Settings** > **Partner API**.  
 
 ![Billing](/doc-images/partnerapi2.png)
 
