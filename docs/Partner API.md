@@ -168,13 +168,13 @@ Once connected to the API, you have access to all the endpoints.
 | Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., Exchanges to an institution. Trusted parties can also include users. You can also find various trusted parties for a company, and delete a trusted party if needed. | 
 | Holding | This is information on all the assets for a single company in the Qredo network that are within one or more funds. | 
 | Fund | A fund is where you keep your assets and custody policies. You can also get existing funds and search for funds on the network. You can find the deposit address for a fund. For withdrawal addresses, you can add these to an individual fund. | 
-| Transfer | Transfers are where money that is on the Qredo network is moved from one trusted party to another. You can add a new transfer and find out the transfer status. |
+| Transfer | Transfers is where money that is on the Qredo network is moved from one trusted party to another. You can add a new transfer and find out the transfer status. |
 | Withdrawal | Withdrawals is where money in a fund is sent out of the Qredo blockchain to a different cryptocurrency address. You can add a new withdrawal and find out the withdrawal status. | 
 
 
 ### Parameters
 
-Request parameters are sent in the request body and use application/json. However, GET method parameters are passed in a query string rather than the body of the URL.
+However, GET method parameters are passed in a query string rather than the body of the URL. All other request parameters are sent in the request body and use 'application/json'.
 
 ### Endpoint Methods
 
@@ -204,7 +204,7 @@ This quick-start guide shows users how to build your Qredo network programmatica
 
 ### Create Company
 
-You can create a company by adding basic information in a POST request. The POST request returns the reference (`ref`)and `company_id`. Each request is a POST allows you to create one company. To help you enter data quicker, some of the values are already prepopulated.
+You can create a company by adding basic information in a POST request. The POST request returns the reference (`ref`)and `company_id`. Each request allows you to create one company. To help you enter data quicker, some of the values are already prepopulated.
 
 The country ID you enter must conform to the ISO 3166-1 country code.
 
@@ -238,7 +238,7 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 
 Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' company, you have to specify the web address. If the trusted party is of 'type' user, you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user, and acme.com as the company.
 
-Users would have been added to the Qredo network through the Qredo Web App. When add a trusted party that is a user, you will receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party on 
+Users would have been added to the Qredo network through the Qredo Web App. When add a trusted party that is a user, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a Get Trusted Party request. 
 
 #### Request
 
