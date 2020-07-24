@@ -294,9 +294,9 @@ Custody groups cannot be modified.
 
 A fund also includes a threshold that determines how many custodian signatures from custody group members that are needed for the asset movement to take place. Each fund you create also includes one or more assets. 
 
-In the example, the `custodygroup_withdraw` group with a `threshold` of 1 with 1 `member`. There is also the `custodygroup_tx` group with a `threshold` of 1 containing 1 `member`. This example fund contains `BTC-TESTNET`.
+This examples includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`.
 
-The fund is added to company id: "1f4sRjsZD612GdSvokktFReylZp".
+The fund is added to 'company_id:' "1f4sRjsZD612GdSvokktFReylZp".
 
 #### Request
 
@@ -327,7 +327,7 @@ The fund is added to company id: "1f4sRjsZD612GdSvokktFReylZp".
 
 #### Response
 
-The response shows an assigned 'fund_id' and IDs assigned for each custody group of 'custodygroup_withdraw' and 'custodygroup_tx'. 
+The response shows an assigned 'fund_id' and IDs assigned to each custody group. 
 
 ```
 {
