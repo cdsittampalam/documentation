@@ -95,14 +95,14 @@ On the Settings page, your current API key appears hashed out. The new key only 
 
 ### Add Keys to Swagger
 
-Once you have generated an API key, you add the API key to the Swagger UI. The key is written to HTTP headers to ensure you connect to URLs in the desired environments. 
+Once you have generated an API key, you add it to the Swagger UI. The key is written to HTTP headers to ensure you connect to URLs in the desired environments. 
 
 The following is an example request header in cURL format:
 
 ```
 curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ```
-For the Server (or Live) environment, you need to generate, in addition to the API key, a public key that is signed by a private key. 
+For the Server (or Live) environment, you also need to generate a public key that is signed by a private key. 
 
 #### Demo Environment
 
