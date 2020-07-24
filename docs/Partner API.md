@@ -21,7 +21,7 @@ The Qredo Platform delivers the following:
 Eligibility Criteria
 --------------------
 
-Qredo’s Partner program is those who are committed to building a new era in capital markets for institutional-grade decentralized financial applications. We seek partners who think about the following criteria:
+Qredo’s Partner program is for those who are committed to building a new era in capital markets for institutional-grade decentralized financial applications. We seek partners who think about the following criteria:
 
 *   Composability - Are you developing other applications, centralized or decentralized, that can add additional value to joint customers?   
 *   Integrity - Do you value the safety of your customer’s digital assets as if they were your own digital assets?    
@@ -33,14 +33,19 @@ If so, please get in touch.
 Where to Go?
 ------------
 
-You first need to register with the Partner API on the Qredo website. Once registered, you need to [Connect to the Partner API](#connect-to-the-partner-api) using an API key
+You first need to enrole for the Partner API on the Qredo website. Once your application has been granted as an eligible user, you need to [Connect to the Partner API](#connect-to-the-partner-api) using an API key
 
-To become familiar with how the API works, refer to various sections on this page 
+Once connected, you can become familiar with how the API works by referring to these parts of the page:
+
+* [API endpoints](#api-endpoints)
+* [Quick-start guide](#quick-start-guide)
 
 To test the endpoints, refer to the [Swagger UI](https://partner-api.qredo.network/).
 
-    
-You will need to use the Qredo Desktop app to help you for various functions, e.g., for finding users to add as trusted parties. For signing functions, you will need to use the Qredo Signing app.
+Using the Qredo App
+-------------------
+
+You will need to use the Qredo Desktop app to help you add other users as trusted parties. If these users do not exist in the app, you will need to register each of these users. For these trusted party users, the Qredo Signing app is needed to make approvals via a phone. 
     
 Register for the Partner API
 ----------------------------
@@ -64,7 +69,7 @@ Connect to the Partner API
 
 From the Partner API page, you can connect to the API using the Partner API key.
 
-The Partner API key is needed for security reasons to ensure that only you can access specific endpoints in the Partner API. The API Key is linked to your partner developer account and provides you with permission to access any endpoint in the API through the Qredo developer portal.
+The Partner API key is needed for security reasons to ensure that only you can access specific endpoints in the Partner API. The API Key is linked to your account and provides you with permission to access any endpoint in the API through the Qredo developer portal.
 
 All users that generate an API key have the same permissions when they use the Partner API.
 
