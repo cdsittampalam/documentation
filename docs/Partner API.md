@@ -66,7 +66,7 @@ After a confirmation message appears, the Partner API screen shows the **Generat
 Connect to the Partner API
 --------------------------
 
-The Partner API key is needed for security reasons to ensure that only you can access specific endpoints in the Partner API. 
+The Partner API key is needed for security reasons to ensure that only you can access the endpoints in the Partner API. 
 
 All users that generate an API key have the same permissions when they use the Partner API.
 
@@ -92,10 +92,10 @@ The Qredo server does not store the API key on the page. Thus, each time you arr
 If you have lost your API key and need to replace it, you can return to the Settings page in the Qredo app to generate a new key.
 
 On the Settings page, your current API key appears hashed out. The new key only appears when you regenerate the key.
-:::
 
-3.  Click **Regenerate** Key.
-4.  Click **Copy** in the New Partner API Key screen.
+1.  Click **Regenerate** Key.
+2.  Click **Copy** in the New Partner API Key screen.
+:::
 
 ### Add Keys to Headers
 
