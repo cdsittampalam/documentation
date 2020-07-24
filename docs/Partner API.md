@@ -196,7 +196,7 @@ You can repeat the process to create multiple companies. Other companies you cre
 
 In this example, a new company called John Doe Corp is entered in `name`. This is based in Brimingham, UK with the the `domain` of `johndoe.co.uk`.
 
-#### Example Request
+#### Request
 
 ```
 { 
@@ -208,7 +208,7 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 }
 ```
 
-#### Example Response
+#### Response
 
 
 ```
@@ -220,13 +220,15 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 
 ### Add Trusted Party
 
-Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' company, you have to specify the web address. If the trusted party is of 'type' user, you have to state the email address. In this example, you will add a user and a company.
+Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' company, you have to specify the web address. If the trusted party is of 'type' user, you have to state the email address. In this example, you add IKatsuyoshi@gmail.com as the user, and acme.com as the company.
 
 The users would have been added to the Qredo network through the Qredo Web App.
 
 When add a trusted party that is a user, you will receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party on 
 
-#### Example Request for a Company
+#### Request
+
+
 
 ```
 {
