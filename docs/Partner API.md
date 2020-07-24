@@ -156,9 +156,11 @@ Once connected to the API, you have access to all the endpoints. You use the end
 | Withdrawal | Withdrawals is where money in a fund is sent out of the Qredo blockchain to a different cryptocurrency address. You can add a new withdrawal and find out the withdrawal status. | 
 
 
-### Parameters and End Point Methods
+### Parameters
 
 Request parameters are sent in the request body and use application/json. However, GET method parameters are passed in a query string rather than the body of the URL.
+
+### Endpoint Methods
 
 The following is a summary of the endpoints and the methods they handle (POST, PUT, DELETE, and GET).
 
