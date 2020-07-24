@@ -125,7 +125,7 @@ The header format for requests in the demo environment must contain the API key.
 
 A public key needs to be added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
 
-The signature is used to sign areas where security needs to be applied including:
+The signature is used to sign areas where the security needs to be applied including:
 
 * the URL of the full path.
 * the nonce (or number) that is generated for cryptographic purposes.
