@@ -7,7 +7,7 @@ About
 
 Qredo’s Partner API enables authorized Qredo Partners to operate the Qredo Platform programmatically from their application. OMS and EMS ISVs, Exchanges and other financial service providers can create accounts, initiate transactions on behalf of users, and approve transactions where they have been ordained as a Custodian over an end user's or corporate user’s fund.
 
-For API schema and other technical documentation, please explore our [API Reference]()documentation or [Swagger UI]().
+The Qredo Platform delivers the following:
 
 *   Institutional-grade DeFi platform    
 *   Secure your customer’s digital assets    
@@ -18,12 +18,22 @@ For API schema and other technical documentation, please explore our [API Refere
 *   Near instant digital asset delivery    
 *   Eliminate counterparty risk
 
-This document explains what information partners are going to need about Qredo’s Partner API. Qredo’s Partner API is built using the REST API.
+Where to Go
+-----------
 
+From the Partner API you can
+
+*   [register](#how-to-register) with the Partner API on the Qredo website.
+*   [connect to the Partner API](#connect-to-the-partner-api) using the API key and public key authentication mechanisms.   
+*   become familiar with how the API works through [API Endpoints](api-endpoints), [Quick-Start](#quick-start-guide) and [Reference] documentation sections.
+*   use the [Swagger UI](https://partner-api.qredo.network/) to test the endpoints.
+
+:::info
 The Partner API is still work in progress. Qredo plan to add the following in future releases:
 
 *   Client libraries    
 *   Dedicated URLs for test, production and live environments
+:::
     
 
 Eligibility Criteria
@@ -35,18 +45,12 @@ Qredo’s Partner program is those who are committed to building a new era in ca
 *   Integrity - Do you value the safety of your customer’s digital assets as if they were your own digital assets?    
 *   Extensibility - Is your platform extensible, so that the value chain created by joint works can be extended by other DeFi applications?
     
-
 If so, please get in touch.
 
 How to use it
 -------------
 
-From the Partner API you can
 
-*   [register](#how-to-register) with the Partner API on the Qredo website.
-*   [connect to the Partner API](#connect-to-the-partner-api) using the API key and public key authentication mechanisms.   
-*   become familiar with how the API works through [API Endpoints](api-endpoints), [Quick-Start](#quick-start-guide) and [Reference] documentation sections.
-*   use the [Swagger UI](https://partner-api.qredo.network/) to test the endpoints.
 
 You will need to use the Qredo Desktop app to help you for various functions, e.g., for finding users to add as trusted parties. For signing functions, you will need to use the Qredo Signing app.
     
