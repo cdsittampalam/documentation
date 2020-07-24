@@ -102,6 +102,8 @@ The following is an example request header in cURL format:
 ```
 curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ```
+All request bodies should have content type 'application/json'.
+
 For the Server (or Live) environment, you also need to generate a public key that is signed by a private key. 
 
 #### Demo Environment
@@ -113,7 +115,7 @@ For the Server (or Live) environment, you also need to generate a public key tha
 3. Click **Authorise**.
 4. Paste the generated API key in the box.
 
-The header format for requests in the demo environment must contain the API key. All request bodies should have content type 'application/json'.
+The header format for requests in the demo environment must contain the API key. 
 
 #### Server Environment
 
