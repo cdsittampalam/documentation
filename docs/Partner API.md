@@ -115,11 +115,9 @@ For the Server (or Live) environment, you also need to generate a public key tha
 3. Click **Authorise**.
 4. Paste the generated API key in the box.
 
-The header format for requests in the demo environment must contain the API key. 
-
 #### Server Environment
 
-A public key needs to be added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
+When you are ready to go Live, you must generate a public key that is added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
 
 The signature is used to sign areas where security needs to be applied including:
 
