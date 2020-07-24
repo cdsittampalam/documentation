@@ -131,6 +131,14 @@ The signature is used to sign areas where the security needs to be applied inclu
 * the nonce (or number) that is generated for cryptographic purposes.
 * the payload (body) for POST/PUT requests that contained added data.
 
+The following two http headers are added to the request:
+
+x-sign: the signature
+x-nonce: the nonce used in the signature
+
+The signature is in base64 url safe encoding (RFC 4648).
+
+
 1. Generate a public and private key pair on the command line using openssl. 
 
 ```
