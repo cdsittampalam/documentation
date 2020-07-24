@@ -133,8 +133,8 @@ The signature is used to sign areas where security needs to be applied including
 
 The following two http headers are added to each request:
 
-x-sign: the signature
-x-nonce: the nonce used in the signature
+'x-sign:' the signature
+'x-nonce:' the nonce used in the signature
 
 The signature is in base64 url safe encoding (RFC 4648).
 
@@ -153,7 +153,7 @@ openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 4. Choose a URL.
    - Copy the following URL to the address bar: (https://api.qredo.net/api/v1/p) or 
    - Select https://api.qredo.net(BasePath) - **API Server** from the server list.
-5. Click Authorise.
+5. Click ***Authorise**.
 4. Paste the generated API key in the box.
 6. Add the public key.
 
