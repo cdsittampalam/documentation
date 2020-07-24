@@ -132,7 +132,15 @@ The signature is used to sign areas where the security needs to be applied inclu
 * the payload (body) for POST/PUT requests that contained added data.
 
 1. Generate a public and private key pair on the command line using openssl. 
+
+```
+openssl genrsa -out private.pem 2048
+```
 2. Extract the public key from the key pair using the command line.
+
+```
+openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+```
 3. Access the Partner API at https://partner-api.qredo.network/.
 4. Choose a URL.
    - Copy the following URL to the address bar: (https://api.qredo.net/api/v1/p) or 
