@@ -63,8 +63,8 @@ After a confirmation message appears, the Partner API screen shows the **Generat
 
 ![partnerapi](/doc-images/generatekeyimage.png)
 
-Connect to the Partner API
---------------------------
+Connect 
+-------
 
 From the Partner API page, you can connect to the API using the Partner API key.
 
