@@ -69,7 +69,7 @@ Connect to the Partner API
 
 From the Partner API page, you can connect to the API using the Partner API key.
 
-The Partner API key is needed for security reasons to ensure that only you can access specific endpoints in the Partner API. The API Key is linked to your account and provides you with permission to access any endpoint in the API through the Qredo developer portal.
+The Partner API key is needed for security reasons to ensure that only you can access specific endpoints in the Partner API. 
 
 All users that generate an API key have the same permissions when they use the Partner API.
 
