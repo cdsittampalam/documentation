@@ -95,7 +95,7 @@ On the Settings page, your current API key appears hashed out. The new key only 
 
 ### Add Keys to Swagger
 
-Once you have generated the API key, you add the API key to the Swagger UI. The key is written to HTTP headers to ensure you connect to URLs in the desired environments. 
+Once you have generated an API key, you add the API key to the Swagger UI. The key is written to HTTP headers to ensure you connect to URLs in the desired environments. 
 
 The following is an example request header in cURL format:
 
