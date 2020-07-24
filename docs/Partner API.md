@@ -238,7 +238,7 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 
 Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' 'company', you have to specify the web address. If the trusted party is of 'type' 'user', you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user, and acme.com as the company.
 
-Users would have been added to the Qredo network through the Qredo Signing app. When add a trusted party that is a user, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a Get Trusted Party request. 
+Users would have been added to the Qredo network through the Qredo Signing app. When add a trusted party that is a user, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
 
 #### Request
 
@@ -264,11 +264,11 @@ Users would have been added to the Qredo network through the Qredo Signing app. 
 ```
 
 
-### Get Trusted Party
+### Return all trusted parties for a company Request
 
-The Get Trusted Party endpoint lets you find out details of the trusted parties that exist in a company. Using the Get Trusted Party endpoint is also useful for finding out the "trusted_entity_id" of a trusted party user that you want to include as a member of a custody group when you create a fund.  
+This endpoint lets you find out details of the trusted parties that exist in a company. Using the endpoint is also useful for finding out the 'trusted_entity_id' of a trusted party user that you want to include as a member of a custody group when you create a fund.  
 
-In this example. you use the Get Trusted Party request to obtain the trusted party user of Izumi Katsuyoshi that you added in Add Trusted Party.
+In this example. you use make a request to obtain the trusted party user of Izumi Katsuyoshi that you added in 'Add trusted party'.
 
 #### Request
 
@@ -308,7 +308,7 @@ A fund is the organisational unit that customers assign their portfolios into. E
 Custody groups cannot be modified. 
 :::
 
-A fund also includes a threshold that determines how many custodian signatures from custody group members that are needed for the asset movement to take place. Each fund you create also includes one or more assets. 
+A fund also includes a 'threshold' that determines how many custodian signatures from custody group members that are needed for the asset movement to take place. Each fund you create also includes one or more assets. 
 
 This examples includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`.
 
