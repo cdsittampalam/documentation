@@ -70,6 +70,8 @@ The Partner API key is needed for security reasons to ensure that only you can a
 
 All users that generate an API key have the same permissions when they use the Partner API.
 
+You generate an API key when you want to connect to the demo environment for testing; you also generate a key in the server environment for going Live.
+
 :::note
 Notes on Managing your API Key
 
