@@ -282,21 +282,19 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedp
 
 ### Add Fund
 
-Each trusted party (company or user) must be associated with a fund, which can be used by various trusted parties on the Qredo Network. First, you need to add a fund before performing withdraws or transfers.
-
-When you add a fund, custody groups containing members are added to a fund. Custody group members are those that are nominated as custodians where their signatures are needed to allow the movement of money in the form of transfers and withdrawals. These include:
+A fund is the organisational unit that customers assign their portfolios into. Each fund includes custody groups containing members that are added to a fund. You select the members from the trusted party users that you have added. Custody group members are those that are nominated as custodians where their signatures are needed to allow the movement of money in the form of transfers and withdrawals. These include:
 
 *   `custodygroup_withdraw` Custody group for a withdrawal
     
 *   `custodygroup_tx` Custody group for a transfer
     
-The members, e.g. Administrators and/or Principals, that are added to funds need to have been added as trusted parties. You specify the user IDs of the members.
+:::info
+Custody groups cannot be modified. 
+:::
 
-There is also a threshold that determines how many custodian signatures are needed for an asset to be transferred or withdrawn.
+A fund also includes a threshold that determines how many custodian signatures are needed for an asset to be transferred or withdrawn. Each fund you create also includes one or more assets. 
 
-There are assets associated with this example fund that include `BTC-TESTNET`.
-
-In the example, the `custodygroup_withdraw` group with a `threshold` of 1 with 1 `member`. There is also the `custodygroup_tx` group with a `threshold` of 1 containing 1 `member`. Note that custody groups cannot be modified.
+In the example, the `custodygroup_withdraw` group with a `threshold` of 1 with 1 `member`. There is also the `custodygroup_tx` group with a `threshold` of 1 containing 1 `member`. This example fund contains `BTC-TESTNET`.
 
 The fund is added to company id: "1f4sRjsZD612GdSvokktFReylZp".
 
