@@ -353,8 +353,7 @@ The following two http headers are added to each request:
 The signature is in base64 url safe encoding (RFC 4648).
 
 
-1. 
-
+1. Follow the steps in [Generate an API Key](#generate-an-api-key)
 2. Generate a public and private key pair on the command line using openssl. 
 
 ```
