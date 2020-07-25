@@ -340,7 +340,7 @@ You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME corp and the follo
 
 ### Get Deposit Address
 
-You can obtain the deposit addresses associated with the fund, which is useful for checking how much is in the balance. 
+You can obtain the deposit addresses associated with the fund and find out the balance and the asset of the fund. 
 
 You specify the `company_id` for the trusted party and the `fund_id`.
 
