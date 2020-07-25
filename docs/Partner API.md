@@ -42,7 +42,7 @@ Where to Go?
 Using the Qredo App
 -------------------
 
-You can use the Qredo Desktop app to help you add other users as trusted parties, where they can be ordained as custodians or as counterparties in a transfer. If these users do not already exist in the app, you will need to register these users. For each trusted party user, you use the Qredo Signing app to make over-the-phone one-tap approvals where necessary. 
+You can use the Qredo Desktop app to help you add other users as trusted parties. Users that are trusted parties can be ordained as custodians, or be counterparties to a trade initiator in a transfer. If these users do not already exist in the app, you will need to register these users. For each trusted party user, you use the Qredo Signing app to make over-the-phone one-tap approvals where necessary. 
     
 Sign Up for the Partner API
 ----------------------------
@@ -61,7 +61,7 @@ After a confirmation message appears, the Partner API screen shows the **Generat
 Connect to the Partner API
 --------------------------
 
-The Partner API key is a security feature which ensures that only you can access the Partner API endpoints. You generate an API key when connecting to the demo environment for testing; you also generate a key in the server environment for going Live. 
+The Partner API key is a security feature which ensures that only you can access the Partner API endpoints. You generate an API key when connecting to the demo environment for testing. You also generate an API key in the server environment for going Live. 
 
 :::note
 
@@ -79,9 +79,9 @@ The Partner API key is a security feature which ensures that only you can access
 2. Click **Copy.**
 
 :::note
-If you have lost your API key, you can return to the Settings page in the Qredo app to generate a new key. 
+If you have lost your API key, you can return to the Settings page to generate a new key. 
 
-1.  On the Settingss page, click **Regenerate** Key.
+1.  Click **Regenerate** Key.
 2.  Click **Copy** in the New Partner API Key screen.
 :::
 
@@ -110,11 +110,11 @@ Once connected to the API, you have access to all the endpoints.
 | **Endpoint** | **Description** | 
 | --- | --- |
 | Company | A Company is an entity on the Qredo Network. Within a company is the holding and one or more funds. You create one or more companies, update each company, and search companies by entering part of the company name.  A company can also be a trusted party to another company. | 
-| Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., exchanges for an institution. Users can also be trusted parties, typically those for the companies you created as trusted parties. You can also find various trusted parties (company and users), and delete a trusted party. | 
-| Holding | This is information on all the assets for a company on the Qredo network contained in the company's funds. | 
+| Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., exchanges for an institution. Users can also be trusted parties, e.g., those for the companies you created as trusted parties. You can also find various trusted parties (company and users), and delete a trusted party. | 
+| Holding | This is information on all the assets for a company on the Qredo network, which is contained in the company's funds. | 
 | Fund | A fund contains assets and custody policies. You can find information on the fund and the deposit address. For an individual fund, you can add withdrawal addresses. | 
-| Transfer | Transfers let you move money one trusted party to another on the Qredo network. You can add a new transfer and find out the transfer status. |
-| Withdrawal | Withdrawals let you send money to a different cryptocurrency address where it is removed from the Qredo blockchain. Once out of the Qredo blockchain, the money is no longer subject to the custody rules of the Qredo Network. You can add a new withdrawal address and find out the withdrawal status. | 
+| Transfer | Transfers let you move money from one trusted party to another on the Qredo network. You can add a new transfer and find out the transfer status. |
+| Withdrawal | Withdrawals let you send money to a different cryptocurrency address. Once money is withdrawn, it is of the Qredo blockchain and the custody rules no longer apply. You can add a new withdrawal address and find out the withdrawal status. | 
 
 
 ### Endpoint Methods
@@ -132,13 +132,13 @@ The following is a summary of the methods used by each endpoint.
 
 ### Parameters
 
-GET method parameters are passed in the query string of the URL. All other request parameters are sent in the request body and use 'application/json'.
+GET method parameters are passed in the query string of the URL. All other request parameters are sent in the request body and use application/json'.
 
 
 Quick-Start Guide
 -----------------
 
-This quick-start guide shows you how to build your Qredo network programmatically using these endpoints through the Swagger UI. 
+This quick-start guide shows you how to build your Qredo network programmatically using these endpoints based on the functions in the Swagger UI. 
 
 *   Create Company    
 *   Add Trusted Party    
@@ -177,7 +177,7 @@ In this example, a new company called John Doe Corp is entered in `name`. This c
 }
 ```
 
-You repeat the process to create ACME CORP as a company.
+You repeat the above step to create ACME CORP as a company.
 
 #### Request
 
@@ -204,11 +204,13 @@ You repeat the process to create ACME CORP as a company.
 
 ### Add Trusted Party
 
-Using the `company_id` for John Doe Group, you can add ACME Corp as a trusted party. For the trusted party of 'type' 'company', you specify the web address. 
+Using the `company_id` of John Doe Group, you can add ACME Corp as a trusted party. For the trusted party of `type` that is `company`, you specify the web address. 
 
-Using the 'company_id' of ACME corp, you add a trusted user as a trusted party for that company, and state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user.
+Using the 'company_id' of ACME corp, you add a user as a trusted party for that company, and state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com.
 
-The trusted party that is a user must have been added to the Qredo network through the Qredo Desktop app. The response indicates that the message is successful. When adding the trusted party using the below request, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
+The response returned from the request indicates that the message is successful.
+
+The trusted party that is a user must have been added to the Qredo network through the Qredo Desktop app. When adding the trusted party using the below request, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
 
 You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** for John Doe Group in Swagger and the following request:
 
@@ -294,7 +296,7 @@ A fund includes a 'threshold' that determines how many custodian signatures from
 
 The response shows an assigned 'fund_id' and IDs assigned to each custody group. 
 
-This examples includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`.
+This example includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`.
 
 The fund is added to 'company_id:' "1fB50nbY9Tw2TT12K6VH46gDKWE".
 
@@ -340,7 +342,7 @@ You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME corp and the follo
 
 ### Get Deposit Address
 
-You can obtain the deposit addresses associated with the fund and find out the balance and the asset of the fund. 
+You can obtain the deposit address associated with the fund, and find out both the balance and asset of the fund. 
 
 You specify the `company_id` for the trusted party and the `fund_id`.
 
@@ -381,10 +383,10 @@ As well as the API key, you generate a public key that is added to the Swagger U
 
 The following http headers are added to each request:
 
-'x-sign:' the signature
+'x-sign:' the signature itself
 'x-nonce:' the nonce used in the signature
 
-The signature is in the base64 url safe encoding (RFC 4648).
+The signature is in the base64 url safe encoding format (RFC 4648).
 
 1. [Generate an API Key](#generate-an-api-key)
 2. Generate a public and private key pair using openssl. 
