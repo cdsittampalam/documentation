@@ -92,7 +92,7 @@ On the Settings page, your current API key appears hashed out. The new key only 
 
 ### Add Key to Demo Environment
 
-Once you have generated the API key, you add the key to the demo environment area in the Swagger UI. The key is written to HTTP headers to ensure you can securely connect to the endpoints in the demo environment. 
+Once you have generated the API key, you add it to the demo environment area in the Swagger UI. The key is written to HTTP headers to ensure you can securely connect to the endpoints in the demo environment. 
 
 The following is an example request header in cURL format:
 
