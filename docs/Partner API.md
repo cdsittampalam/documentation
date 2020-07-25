@@ -115,7 +115,7 @@ Once connected to the API, you have access to all the endpoints.
 | **Endpoint** | **Description** | 
 | --- | --- |
 | Company | A Company is an entity on the Qredo Network. Within a company is the holding and one or more funds. You create one or more companies, update each company, and search companies by entering part of the company name.  A company can also be a trusted party to another company. | 
-| Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., Exchanges to an institution. Trusted parties can also include users. You can also find various trusted parties for a company, and delete a trusted party if needed. | 
+| Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., exchanges for an institution. Trusted parties can also include users. You can also find various trusted parties for a company, and delete a trusted party. | 
 | Holding | This is information on all the assets for a single company in the Qredo network that are within one or more funds. | 
 | Fund | A fund is where you keep your assets and custody policies. You can also get existing funds and search for funds on the network. You can find the deposit address for a fund. For withdrawal addresses, you can add these to an individual fund. | 
 | Transfer | Transfers is where money that is on the Qredo network is moved from one trusted party to another. You can add a new transfer and find out the transfer status. |
