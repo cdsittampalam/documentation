@@ -118,10 +118,10 @@ Once connected to the API, you have access to all the endpoints.
 | Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., exchanges for an institution. Trusted parties can also include users. You can also find various trusted parties for a company, and delete a trusted party. | 
 | Holding | This is information on all the assets for a company on the Qredo network contained in the company's funds. | 
 | Fund | A fund contains assets and custody policies. You can also: 
-         * get existing funds
-         * search for funds on the network
-         * find the deposit address for a fund 
-         * add withdrawal addresses to a individual fund. | 
+* get existing funds
+* search for funds on the network
+* find the deposit address for a fund 
+* add withdrawal addresses to a individual fund. | 
 | Transfer | Transfers is where money that is on the Qredo network is moved from one trusted party to another. You can add a new transfer and find out the transfer status. |
 | Withdrawal | Withdrawals is where money in a fund is sent out of the Qredo blockchain to a different cryptocurrency address. You can add a new withdrawal and find out the withdrawal status. | 
 
