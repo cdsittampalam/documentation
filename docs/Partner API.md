@@ -42,7 +42,7 @@ Where to Go?
 Using the Qredo App
 -------------------
 
-You can use the Qredo Desktop app to help you add other users as trusted parties, where they can be ordained as custodians or as counterparties in a transfer. If these users do not already exist in the app, you will need to register these users. For each trusted party user, you use the Qredo Signing app to make one-tap approvals where necessary. 
+You can use the Qredo Desktop app to help you add other users as trusted parties, where they can be ordained as custodians or as counterparties in a transfer. If these users do not already exist in the app, you will need to register these users. For each trusted party user, you use the Qredo Signing app to make over-the-phone one-tap approvals where necessary. 
     
 Sign Up for the Partner API
 ----------------------------
@@ -61,7 +61,7 @@ After a confirmation message appears, the Partner API screen shows the **Generat
 Connect to the Partner API
 --------------------------
 
-The Partner API key is a security feature that ensuring that only you can access the Partner API endpoints. You generate an API key when connecting to the demo environment for testing; you also generate a key in the server environment for going Live. Each environment uses different keys.
+The Partner API key is a security feature which ensures that only you can access the Partner API endpoints. You generate an API key when connecting to the demo environment for testing; you also generate a key in the server environment for going Live. 
 
 :::note
 
