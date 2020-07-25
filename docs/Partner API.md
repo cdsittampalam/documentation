@@ -292,6 +292,8 @@ Custody groups cannot be modified.
 
 A fund includes a 'threshold' that determines how many custodian signatures from custody group members are needed for a transaction of a particular type to take place. Each fund you create includes one or more assets. 
 
+The response shows an assigned 'fund_id' and IDs assigned to each custody group. 
+
 This examples includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`.
 
 The fund is added to 'company_id:' "1fB50nbY9Tw2TT12K6VH46gDKWE".
@@ -327,8 +329,6 @@ You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME corp and the follo
 ```
 
 #### Response
-
-The response shows an assigned 'fund_id' and IDs assigned to each custody group. 
 
 ```
 {
