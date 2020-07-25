@@ -17,7 +17,6 @@ The Qredo Platform delivers the following:
 *   Instantiate flexible governance policies    
 *   Near instant digital asset delivery    
 *   Eliminate counterparty risk
-
 Eligibility Criteria
 --------------------
 
@@ -33,14 +32,20 @@ If so, please get in touch.
 Where to Go?
 ------------
 
-You first need to enrole for the Partner API on the Qredo website. Once your application has been granted, you need to [Connect to the Partner API](#connect-to-the-partner-api) using an API key.
+* Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api)
+* [Connect to the Partner API](#connect-to-the-partner-api) using an API key to use it in the demo environment
+* Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide)
+* Test the API using the [Swagger UI](https://partner-api.qredo.network/)
+* [Set up the Live]() environment
 
-Once connected, familiar yourself with the API from these parts of the page:
+You first need to enrole for the Partner API on the Qredo website. Once your application has been granted, you need to 
+
+Once connected, 
 
 * [API endpoints](#api-endpoints)
 * [quick-start guide](#quick-start-guide)
 
-For in-depth testing, refer to the [Swagger UI](https://partner-api.qredo.network/).
+For in-depth testing, refer to the .
 
 Using the Qredo App
 -------------------
@@ -93,9 +98,9 @@ On the Settings page, your current API key appears hashed out. The new key only 
 2.  Click **Copy** in the New Partner API Key screen.
 :::
 
-### Add Keys to Swagger
+### Add Keys to Demo Environment
 
-Once you have generated an API key, you add it to the Swagger UI. The key is written to HTTP headers to ensure you connect to URLs in the desired environments. 
+Once you have generated an API key, you add the key to the demo environment area in Swagger UI. The key is written to HTTP headers to ensure you can securely connect to the endpoints in the demo environment. 
 
 The following is an example request header in cURL format:
 
@@ -106,7 +111,6 @@ All request bodies should have content type 'application/json'.
 
 For the Server (or Live) environment, you also need to generate a public key that is signed by a private key. 
 
-#### Demo Environment
 
 1. Access the Partner API at https://partner-api.qredo.network/.
 2. Choose the URL.
