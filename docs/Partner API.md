@@ -90,20 +90,15 @@ On the Settings page, your current API key appears hashed out. The new key only 
 2.  Click **Copy** in the New Partner API Key screen.
 :::
 
-### Add Keys to Swagger
+### Add Key to Demo Environment
 
-Once you have generated an API key, you add it to the Swagger UI. The key is written to HTTP headers to ensure you connect to URLs in the desired environments. 
+Once you have generated the API key, you add the key to the demo environment area in the Swagger UI. The key is written to HTTP headers to ensure you can securely connect to the endpoints in the demo environment. 
 
 The following is an example request header in cURL format:
 
 ```
 curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ```
-All request bodies should have content type 'application/json'.
-
-For the Server (or Live) environment, you also need to generate a public key that is signed by a private key. 
-
-#### Demo Environment
 
 1. Access the Partner API at https://partner-api.qredo.network/.
 2. Choose the URL.
@@ -111,42 +106,6 @@ For the Server (or Live) environment, you also need to generate a public key tha
    - Select https://demo-api.qredo.net(BasePath) - **Demo Server** from the server list.
 3. Click **Authorise**.
 4. Paste the generated API key in the box.
-
-#### Server Environment
-
-When you are ready to go Live, you must generate a public key that is added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
-
-The signature is used to sign areas where security needs to be applied including:
-
-* the URL of the full path.
-* the nonce (or number) that is generated for cryptographic purposes.
-* the payload (body) for POST/PUT requests that contained added data.
-
-The following two http headers are added to each request:
-
-'x-sign:' the signature
-'x-nonce:' the nonce used in the signature
-
-The signature is in base64 url safe encoding (RFC 4648).
-
-
-1. Generate a public and private key pair on the command line using openssl. 
-
-```
-openssl genrsa -out private.pem 2048
-```
-2. Extract the public key from the key pair using the command line.
-
-```
-openssl rsa -in private.pem -outform PEM -pubout -out public.pem
-```
-3. Access the Partner API at https://partner-api.qredo.network/.
-4. Choose a URL.
-   - Copy the following URL to the address bar: (https://api.qredo.net/api/v1/p) or 
-   - Select https://api.qredo.net(BasePath) - **API Server** from the server list.
-5. Click ***Authorise**.
-4. Paste the generated API key in the box.
-6. Add the public key.
 
 API Endpoints
 -------------
