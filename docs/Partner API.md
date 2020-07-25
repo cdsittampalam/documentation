@@ -42,7 +42,7 @@ Where to Go?
 Using the Qredo App
 -------------------
 
-You can use the Qredo Desktop app to help you add other users as trusted parties. Users that are trusted parties can be ordained as custodians, or be counterparties to a trade initiator in a transfer. If these users do not already exist in the app, you will need to register these users. For each trusted party user, you use the Qredo Signing app to make over-the-phone one-tap approvals where necessary.
+You can use the Qredo Desktop app to help you add other users as Trusted Parties. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer. If these users do not already exist in the app, you will need to register these users through the interface. For each trusted party user, you use the Qredo Signing app to make one-tap approvals on your phone.
 
 Sign Up for the Partner API
 ----------------------------
@@ -96,24 +96,24 @@ curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9
 ```
 
 1. Access the Partner API at https://partner-api.qredo.network/.
-2. Choose the URL.
-   - Copy this URL to the address bar: [https://demo-api.qredo.net/api/v1/p] or
-   - Select [https://demo-api.qredo.net(BasePath)] - **Demo Server** from the server list.
+2. Choose the URL:
+   - Copy this URL to the address bar: [https://demo-api.qredo.net/api/v1/p]. Or,
+   - select [https://demo-api.qredo.net(BasePath)] - **Demo Server** from the server list.
 3. Click **Authorise**.
 4. Paste the generated API key in the box.
 
 API Endpoints
 -------------
 
-Once connected to the API, you have access to all the endpoints.
+Once connected to the Partner API, you have access to all the endpoints.
 
 | **Endpoint** | **Description** |
 | --- | --- |
-| Company | A Company is an entity on the Qredo Network. Within a company is the holding and one or more funds. You create one or more companies, update each company, and search companies by entering part of the company name.  A company can also be a trusted party to another company. |
-| Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., exchanges for an institution. Users can also be trusted parties, e.g., those for the companies you created as trusted parties. You can also find various trusted parties (company and users), and delete a trusted party. |
-| Holding | This is information on all the assets for a company on the Qredo network, which is contained in the company's funds. |
+| Company | A Company is an entity on the Qredo Network. Within a company is the holding that contains one or more funds. You create one or more companies, update each company, and search companies by entering part of the company name.  A company can also be a Trusted Party to another company. |
+| Trusted Network | A Trusted Network lets you add other Trusted Parties. These can include other companies, e.g., exchanges for an institution. Users can also be Trusted Parties, e.g., those for the companies you created as Trusted Parties. You can also find various Trusted Parties (company and users), and delete a Trusted Party. |
+| Holding | This is information on all the assets for a company on the Qredo network. |
 | Fund | A fund contains assets and custody policies. You can find information on the fund and the deposit address. For an individual fund, you can add withdrawal addresses. |
-| Transfer | Transfers let you move money from one trusted party to another on the Qredo network. You can add a new transfer and find out the transfer status. |
+| Transfer | Transfers let you move money from one Trusted Party to another on the Qredo network. You can add a new transfer and find out the transfer status. |
 | Withdrawal | Withdrawals let you send money to a different cryptocurrency address. Once money is withdrawn, it is off the Qredo blockchain and the custody rules no longer apply. You can add a new withdrawal address, and find out the withdrawal status. |
 
 
