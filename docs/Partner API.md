@@ -156,7 +156,7 @@ This quick-start guide shows you how to build your Qredo network programmaticall
 
 You can create a company by adding basic information in a POST request. The POST request returns the reference (`ref`) and `company_id`. Each request allows you to create one company. To help you enter data quicker, some of the values are already prepopulated in the Swagger UI.
 
-You can repeat the process to create multiple companies as trusted parties.
+You can repeat the process to create multiple companies as trusted parties, which form part of your trusted network on Qredo.
 
 In this example, a new company called John Doe Corp is entered in `name`. This is based in Brimingham, UK with the the `domain` of johndoe.co.uk.
 
@@ -181,6 +181,31 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
   "company_id": "9827feec-4eae-4e80-bda3-daa7c3b97ad1"
 }
 ```
+
+You can repeat the process to create acme.com as a company.
+
+#### Request
+
+```
+{
+  "name": "ACME Corp",
+  "city": "London",
+  "country": "FR",
+  "domain": "acmecorp.com",
+  "ref": "9821feec-4eae-4e80-bda3-daa7c3b97acd"
+}
+
+```
+
+#### Response
+
+```
+{
+  "company_id":"1fB50nbY9Tw2TT12K6VH46gDKWE",
+  "ref":"9821feec-4eae-4e80-bda3-daa7c3b97acd"
+}
+```
+
 
 ### Add Trusted Party
 
