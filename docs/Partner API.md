@@ -290,7 +290,7 @@ A fund is the organisational unit for assigning portfolios. Each fund includes c
 Custody groups cannot be modified. 
 :::
 
-A fund includes a 'threshold' that determines how many custodian signatures from custody group members are needed for the transaction to take place. Each fund you create includes one or more assets. 
+A fund includes a 'threshold' that determines how many custodian signatures from custody group members are needed for a transaction of a particular type to take place. Each fund you create includes one or more assets. 
 
 This examples includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`.
 
@@ -356,8 +356,6 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5
 ```
 
 #### Response
-
-The response shows the deposit address and a balance.
 
 ```
 {   
