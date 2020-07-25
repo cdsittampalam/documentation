@@ -89,7 +89,7 @@ If you have lost your API key, you can return to the Settings page in the Qredo 
 
 Once you have generated the API key, you add it to the demo environment area in the Swagger UI. The key is written to HTTP headers for connecting securely to the endpoints in the demo environment. 
 
-The following is an example request header in cURL format:
+The following is an example request header in cURL format (obtainable from the Swagger UI):
 
 ```
 curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
@@ -110,7 +110,7 @@ Once connected to the API, you have access to all the endpoints.
 | **Endpoint** | **Description** | 
 | --- | --- |
 | Company | A Company is an entity on the Qredo Network. Within a company is the holding and one or more funds. You create one or more companies, update each company, and search companies by entering part of the company name.  A company can also be a trusted party to another company. | 
-| Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., exchanges for an institution. Trusted parties can also include users. You can also find various trusted parties for a company, and delete a trusted party. | 
+| Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., exchanges for an institution. Users can also be trusted parties, typically those for the companies you created as trusted parties. You can also find various trusted parties (company and users), and delete a trusted party. | 
 | Holding | This is information on all the assets for a company on the Qredo network contained in the company's funds. | 
 | Fund | A fund contains assets and custody policies. You can find information on the fund and the deposit address. For an individual fund, you can add withdrawal addresses. | 
 | Transfer | Transfers let you move money one trusted party to another on the Qredo network. You can add a new transfer and find out the transfer status. |
