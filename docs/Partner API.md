@@ -28,7 +28,6 @@ Qredo’s Partner program is for those who are committed to building a new era i
     
 If so, please get in touch.
 
-
 Where to Go?
 ------------
 
@@ -37,15 +36,6 @@ Where to Go?
 * Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide)
 * Test the API using the [Swagger UI](https://partner-api.qredo.network/)
 * [Set up the Live]() environment
-
-You first need to enrole for the Partner API on the Qredo website. Once your application has been granted, you need to 
-
-Once connected, 
-
-* [API endpoints](#api-endpoints)
-* [quick-start guide](#quick-start-guide)
-
-For in-depth testing, refer to the .
 
 Using the Qredo App
 -------------------
