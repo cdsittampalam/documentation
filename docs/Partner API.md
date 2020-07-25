@@ -114,7 +114,7 @@ Once connected to the API, you have access to all the endpoints.
 | Holding | This is information on all the assets for a company on the Qredo network, which is contained in the company's funds. | 
 | Fund | A fund contains assets and custody policies. You can find information on the fund and the deposit address. For an individual fund, you can add withdrawal addresses. | 
 | Transfer | Transfers let you move money from one trusted party to another on the Qredo network. You can add a new transfer and find out the transfer status. |
-| Withdrawal | Withdrawals let you send money to a different cryptocurrency address. Once money is withdrawn, it is of the Qredo blockchain and the custody rules no longer apply. You can add a new withdrawal address and find out the withdrawal status. | 
+| Withdrawal | Withdrawals let you send money to a different cryptocurrency address. Once money is withdrawn, it is ofF the Qredo blockchain and the custody rules no longer apply. You can add a new withdrawal address, and find out the withdrawal status. | 
 
 
 ### Endpoint Methods
