@@ -209,9 +209,13 @@ You repeat the process to create acme.com as a company.
 
 ### Add Trusted Party
 
-Using the `company_id` for John Doe Group, you can add ACME Corp as a trusted party. If the trusted party is of 'type' 'company', you have to specify the web address. If the trusted party is of 'type' 'user', you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user, and acme.com as the company.
+Using the `company_id` for John Doe Group, you can add ACME Corp as a trusted party. For the trusted party of 'type' 'company', you specify the web address. 
 
-Users would have been added to the Qredo network through the Qredo Signing app. When add a trusted party that is a user, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
+Using the 'company_id' of ACME corp, you add a trusted user as a trusted party for that company. If the trusted party is of 'type' 'user', you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user.
+
+The user would have been added to the Qredo network through the Qredo Signing app. When add a trusted party that is a user, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
+
+You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** in Swagger and the following request that delivers a response:
 
 #### Request
 
@@ -221,6 +225,15 @@ Users would have been added to the Qredo network through the Qredo Signing app. 
   "type": "company"
   }
 ```
+#### Response
+```
+{
+ "code":200,"msg":"OK"
+  }
+```
+
+
+You then enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger and the following request that delivers a response:
 
 ```
 {
@@ -253,7 +266,7 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedp
 
 ```
 {
-  "company_id": "1f4sRjsZD612GdSvokktFReylZp",
+  "company_id": "1fB50nbY9Tw2TT12K6VH46gDKWE",
   "total_count":1,
   "list":
      [
