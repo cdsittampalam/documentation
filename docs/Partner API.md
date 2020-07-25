@@ -295,11 +295,14 @@ A fund is the organisational unit for assigning portfolios. Each fund includes c
 Custody groups cannot be modified. 
 :::
 
-A fund includes a 'threshold' that determines how many custodian signatures from custody group members are needed for the transaction to take place. Each fund you create also includes one or more assets. 
+A fund includes a 'threshold' that determines how many custodian signatures from custody group members are needed for the transaction to take place. Each fund you create includes one or more assets. 
 
 This examples includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`.
 
-The fund is added to 'company_id:' "1f4sRjsZD612GdSvokktFReylZp".
+The fund is added to 'company_id:' "1fB50nbY9Tw2TT12K6VH46gDKWE".
+
+You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME corp and the following request.
+
 
 #### Request
 
@@ -342,9 +345,14 @@ The response shows an assigned 'fund_id' and IDs assigned to each custody group.
 
 ### Get Deposit Address
 
-Before performing trading functions, you can obtain the deposit addresses associated with the fund. This is useful if you want to add funds, e.g., for testing purposes.
+You can obtain the deposit addresses associated with the fund, which is useful for checking how much is in the balance. 
 
-You specify the `company_id` for the trusted party and the `fund_id` to obtain a list of deposit addresses.
+You specify the `company_id` for the trusted party and the `fund_id`.
+
+1. Enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for the 'company_id' of ACME corp.
+
+2. Enter **1dnfLZolYD72zasqtmtTXXoaNNJ** in Swagger for the 'fund_id' of ACME corp.
+
 
 #### Request
 
@@ -353,6 +361,8 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5
 ```
 
 #### Response
+
+The response shows the deposit address and a balance.
 
 ```
 {   
@@ -370,7 +380,7 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5
 Set Up Live
 -----------
 
-You generate a public key that is added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
+As well as the API key, you generate a public key that is added to the Swagger UI. The public key allows a signature to be generated for signing each request. 
 
 The signature is used to sign areas where security needs to be applied including:
 
