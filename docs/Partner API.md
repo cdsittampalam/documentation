@@ -42,7 +42,7 @@ Where to Go?
 Using the Qredo App
 -------------------
 
-You can use the Qredo Desktop app to help you add other users as trusted parties, where they are ordained as custodians. If these users do not exist, you will need to register these users. For each trusted party user, the Qredo Signing app is needed to make one-tap approvals via the phone. 
+You can use the Qredo Desktop app to help you add other users as trusted parties, where they are ordained as custodians. If these users do not exist in the app, you will need to register these users. For each trusted party user, you use the Qredo Signing app to make one-tap approvals via the phone. 
     
 Sign Up for the Partner API
 ----------------------------
@@ -54,20 +54,19 @@ Sign Up for the Partner API
 3. Read through the descriptions on the API and click **Apply**.
 4. Fill out the form to apply for the Partner API and click **Submit.**
 
-After a confirmation message appears, the Partner API screen shows the **Generate Key** button allowing you to connect to the API.
+After a confirmation message appears, the Partner API screen shows the **Generate Key** button for connecting to the API.
 
 ![partnerapi](/doc-images/generatekeyimage.png)
 
 Connect to the Partner API
 --------------------------
 
-The Partner API key is a security feature that ensures that only you can access the Partner API endpoints. You generate an API key when you want to connect to the demo environment for testing; you also generate a key in the server environment for going Live. Each environment uses different keys.
+The Partner API key is a security feature that ensuring that only you can access the Partner API endpoints. You generate an API key when connecting to the demo environment for testing; you also generate a key in the server environment for going Live. Each environment uses different keys.
 
 :::note
-Notes on Managing your API Key
 
 *   To ensure that you complete all testing before going Live, you must ensure that you generate the API key for the demo environment first.
-*   You must ensure that the API keys are not distributed to another party.
+*   You must ensure that API keys are not distributed to another party.
 *   You must not add any of the API keys to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
 :::
 
@@ -78,15 +77,11 @@ Notes on Managing your API Key
 ![partnerapi](/doc-images/apikeypartner.png)
 
 2. Click **Copy.**
- Generating a new key is required if you lose the original key.
 
 :::note
-If you have lost your API key and need to replace it, you can return to the Settings page in the Qredo app to generate a new key. 
-The Qredo server does not store the API key on the page. Thus, each time you arrive back to the Partner API page, you need to regenerate a new key.
+If you have lost your API key, you can return to the Settings page in the Qredo app to generate a new key. 
 
-On the Settings page, your current API key appears hashed out. The new key only appears when you regenerate the key.
-
-1.  Click **Regenerate** Key.
+1.  On the Settingss page, click **Regenerate** Key.
 2.  Click **Copy** in the New Partner API Key screen.
 :::
 
@@ -380,9 +375,7 @@ The response shows the deposit address and a balance.
 Set Up Live
 -----------
 
-As well as the API key, you generate a public key that is added to the Swagger UI. The public key allows a signature to be generated for signing each request. 
-
-The signature is used to sign areas where security needs to be applied including:
+As well as the API key, you generate a public key that is added to the Swagger UI. The public key allows a signature to be generated for signing each request, and is applicable to these areas: 
 
 * the URL of the full path.
 * the nonce (or number) that is generated for cryptographic purposes.
@@ -395,8 +388,7 @@ The following two http headers are added to each request:
 
 The signature is in base64 url safe encoding (RFC 4648).
 
-
-1. Follow the steps in [Generate an API Key](#generate-an-api-key)
+1. [Generate an API Key](#generate-an-api-key)
 2. Generate a public and private key pair on the command line using openssl. 
 
 ```
@@ -409,7 +401,7 @@ openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 ```
 4. Access the Partner API at https://partner-api.qredo.network/.
 5. Choose a URL.
-   - Copy the following URL to the address bar: [https://api.qredo.net/api/v1/p] or 
+   - Copy this URL to the address bar: [https://api.qredo.net/api/v1/p] or 
    - Select [https://api.qredo.net(BasePath)] - **API Server** from the server list.
 6. Click ***Authorise**.
 7. Paste the generated API key in the box.
