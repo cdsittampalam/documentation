@@ -35,7 +35,7 @@ Where to Go?
 * [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in the demo environment
 * Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide)
 * Test the API using the [Swagger UI](https://partner-api.qredo.network/)
-* [Set up the Live]() environment
+* [Set up the Live](#set-up-live) environment
 
 Using the Qredo App
 -------------------
