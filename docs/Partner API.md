@@ -7,11 +7,11 @@ About
 
 Qredo’s Partner API enables authorized Qredo Partners to operate the Qredo Platform programmatically from their application. OMS and EMS ISVs, Exchanges and other financial service providers can create accounts, initiate transactions on behalf of users, and approve transactions where they have been ordained as a Custodian over an end user's or corporate user’s fund.
 
-The Qredo Platform delivers the following:
+The features of the Qredo Platform are summarised as follows:
 
 *   Institutional-grade DeFi platform    
 *   Secure your customer’s digital assets    
-*   Offer MPC secured fund management    
+*   Offers MPC secured fund management    
 *   Hardware security hardened network    
 *   Multi-custodian signature capable    
 *   Instantiate flexible governance policies    
