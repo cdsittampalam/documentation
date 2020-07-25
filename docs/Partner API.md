@@ -17,6 +17,7 @@ The Qredo Platform delivers the following:
 *   Instantiate flexible governance policies    
 *   Near instant digital asset delivery    
 *   Eliminate counterparty risk
+
 Eligibility Criteria
 --------------------
 
