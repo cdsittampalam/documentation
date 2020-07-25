@@ -137,13 +137,13 @@ The following is a summary of the methods used by each endpoint.
 
 ### Parameters
 
-GET method parameters are passed in a query string rather than the body of the URL. All other request parameters are sent in the request body and use 'application/json'.
+GET method parameters are passed in the query string of the URL. All other request parameters are sent in the request body and use 'application/json'.
 
 
 Quick-Start Guide
 -----------------
 
-This quick-start guide shows users how to build your Qredo network programmatically using these endpoints. 
+This quick-start guide shows you how to build your Qredo network programmatically using these endpoints using the Swagger UI. 
 
 *   Create Company    
 *   Add Trusted Party    
@@ -154,11 +154,9 @@ This quick-start guide shows users how to build your Qredo network programmatica
 
 ### Create Company
 
-You can create a company by adding basic information in a POST request. The POST request returns the reference (`ref`)and `company_id`. Each request allows you to create one company. To help you enter data quicker, some of the values are already prepopulated.
+You can create a company by adding basic information in a POST request. The POST request returns the reference (`ref`) and `company_id`. Each request allows you to create one company. To help you enter data quicker, some of the values are already prepopulated in the Swagger UI.
 
-The 'country' ID you enter must conform to the ISO 3166-1 country code.
-
-You can repeat the process to create multiple companies. Other companies you create can be used as a trusted party in your trusted network.
+You can repeat the process to create multiple companies as trusted parties.
 
 In this example, a new company called John Doe Corp is entered in `name`. This is based in Brimingham, UK with the the `domain` of johndoe.co.uk.
 
