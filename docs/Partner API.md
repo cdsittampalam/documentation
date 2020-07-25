@@ -182,7 +182,7 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 }
 ```
 
-You can repeat the process to create acme.com as a company.
+You repeat the process to create acme.com as a company.
 
 #### Request
 
@@ -209,7 +209,7 @@ You can repeat the process to create acme.com as a company.
 
 ### Add Trusted Party
 
-Using the `company_id` for the company you created, you can add either a company or user as a trusted party. If the trusted party is of 'type' 'company', you have to specify the web address. If the trusted party is of 'type' 'user', you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user, and acme.com as the company.
+Using the `company_id` for John Doe Group, you can add ACME Corp as a trusted party. If the trusted party is of 'type' 'company', you have to specify the web address. If the trusted party is of 'type' 'user', you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user, and acme.com as the company.
 
 Users would have been added to the Qredo network through the Qredo Signing app. When add a trusted party that is a user, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
 
