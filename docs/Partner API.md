@@ -65,8 +65,8 @@ The Partner API key is a security feature which ensures that only you can access
 
 :::note
 
-*   To ensure that you complete all testing before going Live, you must ensure that you generate the API key for the demo environment first.
-*   You must ensure that API keys are not distributed to another party.
+*   To ensure that you complete all testing before going Live, you must generate the API key for the demo environment first (and use the API in that environment).
+*   You must make sure that API keys are not distributed to another party.
 *   You must not add any of the API keys to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
 :::
 
