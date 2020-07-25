@@ -286,7 +286,7 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedp
 
 ### Add Fund
 
-A fund is the organisational unit that customers assign their portfolios into. Each fund includes custody groups containing members that are added to a fund. You select the members from the trusted party users that you have added. Custody group members are those that are nominated as custodians where their signatures are needed to allow the movement of money in the form of transfers and withdrawals. These include:
+A fund is the organisational unit for assigning portfolios. Each fund includes custody groups containing members. You select the members from the trusted party users that you previously added. Custody group members are those that are nominated as custodians where their signatures are needed to approve the movement of money. These include:
 
 *   `custodygroup_withdraw` Custody group for a withdrawal
     
