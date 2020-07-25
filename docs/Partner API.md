@@ -251,7 +251,7 @@ This endpoint shows details of the trusted parties that exist in a company. You 
 
 In this example. you obtain the trusted party user of Izumi Katsuyoshi that you added in 'Add trusted party'.
 
-You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME corp and the following request that delivers a response:
+You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME corp and the following request:
 
 #### Request
 
@@ -281,7 +281,7 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedp
 
 ### Add Fund
 
-A fund is the organisational unit for assigning portfolios. Each fund includes custody groups containing members. You select the members from the trusted party users that you previously added. Custody group members are those that are nominated as custodians where their signatures are needed to approve the transaction. These include:
+A fund is the organisational unit for assigning portfolios. Each fund includes custody groups containing members. You select the members from the trusted party users that you previously added. Custody group members are nominated as custodians where their signatures are needed to approve transactions. These include:
 
 *   `custodygroup_withdraw` Custody group for a withdrawal
 *   `custodygroup_tx` Custody group for a transfer
