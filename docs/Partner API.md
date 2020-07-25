@@ -33,16 +33,16 @@ If so, please get in touch.
 Where to Go?
 ------------
 
-* Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api)
-* [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in the demo environment
-* Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide)
-* Test the API using the [Swagger UI](https://partner-api.qredo.network/)
-* [Set up the Live](#set-up-live) environment
+* Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api).
+* [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in the demo environment.
+* Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide).
+* Refer to the API using the [Swagger UI](https://partner-api.qredo.network/) to help you test and develop knowledge.
+* [Set up the Live](#set-up-live) environment once ready to Go-Live.
 
 Using the Qredo App
 -------------------
 
-You can use the Qredo Desktop app to help you add other users as trusted parties, where they are ordained as custodians. If these users do not exist in the app, you will need to register these users. For each trusted party user, you use the Qredo Signing app to make one-tap approvals via the phone. 
+You can use the Qredo Desktop app to help you add other users as trusted parties, where they can be ordained as custodians or as counterparties in a transfer. If these users do not already exist in the app, you will need to register these users. For each trusted party user, you use the Qredo Signing app to make one-tap approvals where necessary. 
     
 Sign Up for the Partner API
 ----------------------------
