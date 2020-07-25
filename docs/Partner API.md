@@ -379,20 +379,20 @@ As well as the API key, you generate a public key that is added to the Swagger U
 * the nonce (or number) that is generated for cryptographic purposes.
 * the payload (body) for POST/PUT requests that contained added data.
 
-The following two http headers are added to each request:
+The following http headers are added to each request:
 
 'x-sign:' the signature
 'x-nonce:' the nonce used in the signature
 
-The signature is in base64 url safe encoding (RFC 4648).
+The signature is in the base64 url safe encoding (RFC 4648).
 
 1. [Generate an API Key](#generate-an-api-key)
-2. Generate a public and private key pair on the command line using openssl. 
+2. Generate a public and private key pair using openssl. 
 
 ```
 openssl genrsa -out private.pem 2048
 ```
-3. Extract the public key from the key pair using the command line.
+3. Extract the public key from the key pair.
 
 ```
 openssl rsa -in private.pem -outform PEM -pubout -out public.pem
