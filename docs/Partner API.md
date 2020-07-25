@@ -117,11 +117,9 @@ Once connected to the API, you have access to all the endpoints.
 | Company | A Company is an entity on the Qredo Network. Within a company is the holding and one or more funds. You create one or more companies, update each company, and search companies by entering part of the company name.  A company can also be a trusted party to another company. | 
 | Trusted Network | A trusted network lets you add other trusted parties. These can include other companies, e.g., exchanges for an institution. Trusted parties can also include users. You can also find various trusted parties for a company, and delete a trusted party. | 
 | Holding | This is information on all the assets for a company on the Qredo network contained in the company's funds. | 
-| Fund | A fund contains assets and custody policies. You can also: - get existing funds - search for funds on the network
-         - find the deposit address for a fund 
-         - add withdrawal addresses to a individual fund. | 
-| Transfer | Transfers is where money that is on the Qredo network is moved from one trusted party to another. You can add a new transfer and find out the transfer status. |
-| Withdrawal | Withdrawals is where money in a fund is sent out of the Qredo blockchain to a different cryptocurrency address. You can add a new withdrawal and find out the withdrawal status. | 
+| Fund | A fund contains assets and custody policies. You can find information on the fund and the deposit address. For an individual fund, you can add withdrawal addresses. | 
+| Transfer | Transfers let you move money one trusted party to another on the Qredo network. You can add a new transfer and find out the transfer status. |
+| Withdrawal | Withdrawals let you send money to a different cryptocurrency address where it is removed from the Qredo blockchain. Once out of the Qredo blockchain, it is no longer subject to the custody rules of the Qredo Network. More information is described in the [Qredo Network page](/docs/Qredo%20Network#behaviours) You can add a new withdrawal address and find out the withdrawal status. | 
 
 
 ### Parameters
