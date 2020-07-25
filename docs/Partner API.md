@@ -353,20 +353,22 @@ The following two http headers are added to each request:
 The signature is in base64 url safe encoding (RFC 4648).
 
 
-1. Generate a public and private key pair on the command line using openssl. 
+1. 
+
+2. Generate a public and private key pair on the command line using openssl. 
 
 ```
 openssl genrsa -out private.pem 2048
 ```
-2. Extract the public key from the key pair using the command line.
+3. Extract the public key from the key pair using the command line.
 
 ```
 openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 ```
-3. Access the Partner API at https://partner-api.qredo.network/.
-4. Choose a URL.
+4. Access the Partner API at https://partner-api.qredo.network/.
+5. Choose a URL.
    - Copy the following URL to the address bar: (https://api.qredo.net/api/v1/p) or 
    - Select https://api.qredo.net(BasePath) - **API Server** from the server list.
-5. Click ***Authorise**.
-4. Paste the generated API key in the box.
-6. Add the public key.
+6. Click ***Authorise**.
+7. Paste the generated API key in the box.
+8. Add the public key.
