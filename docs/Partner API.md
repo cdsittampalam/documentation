@@ -213,9 +213,9 @@ Using the `company_id` for John Doe Group, you can add ACME Corp as a trusted pa
 
 Using the 'company_id' of ACME corp, you add a trusted user as a trusted party for that company. If the trusted party is of 'type' 'user', you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user.
 
-The user would have been added to the Qredo network through the Qredo Signing app. When add a trusted party that is a user, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
+The trusted party user would have to have been added to the Qredo network through the Qredo Desktop app. When adding a trusted party that is a user using the below request, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
 
-You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** in Swagger and the following request that delivers a response:
+You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** for John Doe Group in Swagger and the following request that delivers a response:
 
 #### Request
 
@@ -233,7 +233,7 @@ You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** in Swagger and the foll
 ```
 
 
-You then enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger and the following request that delivers a response:
+You then enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME corp and the following request that delivers a response:
 
 ```
 {
@@ -252,9 +252,11 @@ You then enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger and the following requ
 
 ### Return all trusted parties for a company Request
 
-This endpoint lets you find out details of the trusted parties that exist in a company. Using the endpoint is also useful for finding out the 'trusted_entity_id' of a trusted party user that you want to include as a member of a custody group when you create a fund.  
+This endpoint shows details of the trusted parties that exist in a company. You should also use the endpoint to find out the 'trusted_entity_id' of a trusted party user that you want to include as a member of a custody group for creating a fund.  
 
-In this example. you use make a request to obtain the trusted party user of Izumi Katsuyoshi that you added in 'Add trusted party'.
+In this example. you make a request to obtain the trusted party user of Izumi Katsuyoshi that you added in 'Add trusted party'.
+
+You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME corp and the following request that delivers a response:
 
 #### Request
 
