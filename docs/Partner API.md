@@ -114,7 +114,7 @@ Once connected to the API, you have access to all the endpoints.
 | Holding | This is information on all the assets for a company on the Qredo network contained in the company's funds. | 
 | Fund | A fund contains assets and custody policies. You can find information on the fund and the deposit address. For an individual fund, you can add withdrawal addresses. | 
 | Transfer | Transfers let you move money one trusted party to another on the Qredo network. You can add a new transfer and find out the transfer status. |
-| Withdrawal | Withdrawals let you send money to a different cryptocurrency address where it is removed from the Qredo blockchain. Once out of the Qredo blockchain, it is no longer subject to the custody rules of the Qredo Network. You can add a new withdrawal address and find out the withdrawal status. | 
+| Withdrawal | Withdrawals let you send money to a different cryptocurrency address where it is removed from the Qredo blockchain. Once out of the Qredo blockchain, the money is no longer subject to the custody rules of the Qredo Network. You can add a new withdrawal address and find out the withdrawal status. | 
 
 
 ### Endpoint Methods
@@ -138,7 +138,7 @@ GET method parameters are passed in the query string of the URL. All other reque
 Quick-Start Guide
 -----------------
 
-This quick-start guide shows you how to build your Qredo network programmatically using these endpoints using the Swagger UI. 
+This quick-start guide shows you how to build your Qredo network programmatically using these endpoints through the Swagger UI. 
 
 *   Create Company    
 *   Add Trusted Party    
@@ -149,11 +149,11 @@ This quick-start guide shows you how to build your Qredo network programmaticall
 
 ### Create Company
 
-You can create a company by adding basic information in a POST request. The POST request returns the reference (`ref`) and `company_id`. Each request allows you to create one company. To help you enter data quicker, some of the values are already prepopulated in the Swagger UI.
+You can create a company by adding basic information in a POST request. The POST request returns the reference (`ref`) and `company_id`. Each request lets you create one company. To help you enter data quicker, some of the values are already prepopulated in the Swagger UI.
 
-You can repeat the process to create multiple companies as trusted parties, which form part of your trusted network on Qredo.
+You repeat the process to create multiple companies as trusted parties, which form part of your trusted network on Qredo.
 
-In this example, a new company called John Doe Corp is entered in `name`. This is based in Brimingham, UK with the the `domain` of johndoe.co.uk.
+In this example, a new company called John Doe Corp is entered in `name`. This company is based in Brimingham, UK with the the `domain` of johndoe.co.uk.
 
 #### Request
 
@@ -177,7 +177,7 @@ In this example, a new company called John Doe Corp is entered in `name`. This i
 }
 ```
 
-You repeat the process to create acme.com as a company.
+You repeat the process to create ACME CORP as a company.
 
 #### Request
 
@@ -206,7 +206,7 @@ You repeat the process to create acme.com as a company.
 
 Using the `company_id` for John Doe Group, you can add ACME Corp as a trusted party. For the trusted party of 'type' 'company', you specify the web address. 
 
-Using the 'company_id' of ACME corp, you add a trusted user as a trusted party for that company. If the trusted party is of 'type' 'user', you have to state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user.
+Using the 'company_id' of ACME corp, you add a trusted user as a trusted party for that company, and state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user.
 
 The trusted party user would have to have been added to the Qredo network through the Qredo Desktop app. When adding a trusted party that is a user using the below request, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
 
