@@ -286,17 +286,16 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedp
 
 ### Add Fund
 
-A fund is the organisational unit for assigning portfolios. Each fund includes custody groups containing members. You select the members from the trusted party users that you previously added. Custody group members are those that are nominated as custodians where their signatures are needed to approve the movement of money. These include:
+A fund is the organisational unit for assigning portfolios. Each fund includes custody groups containing members. You select the members from the trusted party users that you previously added. Custody group members are those that are nominated as custodians where their signatures are needed to approve the transaction. These include:
 
 *   `custodygroup_withdraw` Custody group for a withdrawal
-    
 *   `custodygroup_tx` Custody group for a transfer
     
 :::info
 Custody groups cannot be modified. 
 :::
 
-A fund also includes a 'threshold' that determines how many custodian signatures from custody group members that are needed for the asset movement to take place. Each fund you create also includes one or more assets. 
+A fund includes a 'threshold' that determines how many custodian signatures from custody group members are needed for the transaction to take place. Each fund you create also includes one or more assets. 
 
 This examples includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`.
 
