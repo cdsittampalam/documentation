@@ -362,8 +362,8 @@ openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 ```
 4. Access the Partner API at https://partner-api.qredo.network/.
 5. Choose a URL.
-   - Copy the following URL to the address bar: (https://api.qredo.net/api/v1/p) or 
-   - Select https://api.qredo.net(BasePath) - **API Server** from the server list.
+   - Copy the following URL to the address bar: [https://api.qredo.net/api/v1/p] or 
+   - Select [https://api.qredo.net(BasePath)] - **API Server** from the server list.
 6. Click ***Authorise**.
 7. Paste the generated API key in the box.
 8. Add the public key.
