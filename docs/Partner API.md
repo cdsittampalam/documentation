@@ -208,7 +208,7 @@ Using the `company_id` for John Doe Group, you can add ACME Corp as a trusted pa
 
 Using the 'company_id' of ACME corp, you add a trusted user as a trusted party for that company, and state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com as the user.
 
-The trusted party that is a user must have been added to the Qredo network through the Qredo Desktop app. When adding the trusted party using the below request, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
+The trusted party that is a user must have been added to the Qredo network through the Qredo Desktop app. The response indicates that the message is successful. When adding the trusted party using the below request, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a 'Returns All trusted parties for a company' request. 
 
 You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** for John Doe Group in Swagger and the following request:
 
