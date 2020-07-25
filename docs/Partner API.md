@@ -32,7 +32,7 @@ Where to Go?
 ------------
 
 * Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api)
-* [Connect to the Partner API](#connect-to-the-partner-api) using an API key to use it in the demo environment
+* [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in the demo environment
 * Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide)
 * Test the API using the [Swagger UI](https://partner-api.qredo.network/)
 * [Set up the Live]() environment
@@ -111,7 +111,7 @@ For the Server (or Live) environment, you also need to generate a public key tha
 
 #### Server Environment
 
-When you are ready to go Live, you must generate a public key that is added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
+You generate a public key that is added to the Swagger UI. The public key enforces security by providing a signature in order to sign each request. 
 
 The signature is used to sign areas where security needs to be applied including:
 
@@ -367,3 +367,6 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5
   ] 
 }
 ```
+
+Set Up Live
+-----------
