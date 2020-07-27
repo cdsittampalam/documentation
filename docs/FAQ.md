@@ -20,11 +20,13 @@ The new password must contain:
     
 To confirm that you made the password change, you receive a request on your mobile app to authorise the change.
 
-1.  Click the icon to access Account view as in this example.    
+1.  Click the icon to access Account view.    
+
+2. From the displayed account card, click **User Settings**. 
 
 ![User card](/doc-images/usercard1.png)
 
-2. From the displayed account card, click **User Settings**. The User Details screen shows your name, email address, and hashed-out password.
+   The User Details screen shows your name, email address, and hashed-out password.
 
 3. Click **Change password**. The Change Password screen shows.
 
@@ -69,12 +71,10 @@ When setting a password, choose:
 *   1 special character
     
 1.  Click the **Login** link from the Join page.
-    
-![](https://qredo.atlassian.net/wiki/download/attachments/87621886/forgottenp.png?api=v2)
 
 2. Click **Forgotten Password**. The Reset Password screen appears.
 
-![reseet password](/doc-images/resetp.png)
+![reset password](/doc-images/resetp.png)
 
 3. Enter your email address in **Email address** and click **Reset password**.
 
@@ -109,3 +109,90 @@ image
 :::info
 Tapping **Approvals** lets you track previous forgotten password changes.
 :::
+
+### Reissue an Address Approval Request
+
+For a new whitelisted address, you can resend an approval request if you are still waiting for approval from one or more custodians. The pending section of the approvals ledger lists the address approval requests. Once you have resent, the custodian can then follow the steps to approve a new withdrawal address.
+
+1.  Click the Approvals icon.
+
+![Approvals](/doc-images/tick.png)
+    
+2.  Click the **Addresses** tab.
+    
+3.  Click the **Pending** sub tab.
+    
+4.  Select an entry in the approvals ledger.
+    
+5.  Select **Resend Approval Request**.
+    
+6.  Follow the steps to [approve the withdrawal address as a custodian](/docs/Deposit%20&%20Withdraw#approve-withdrawal)
+
+
+### Reissue a Withdrawal Approval Request
+
+For a withdrawal transaction, you can resend approval requests for those that are pending or have expired. You can resend requests from the pending section of the approvals ledger.
+
+1.  Click the Approvals icon.
+
+![Approvals](/doc-images/tick.png)
+    
+2.  Click the **Transactions** tab.
+    
+3.  Click the **Pending** sub tab.
+    
+4.  Select an entry in the approvals ledger.
+    
+5.  Select **Resend Approval Request**.
+    
+6.  Follow the steps to [approve the withdrawal transaction as a custodian](/docs/Deposit%20&%20Withdraw#approve-withdrawal) 
+
+
+### Reissue a Transfer Approval Request
+
+For a transfer transaction, you can resend approval requests for those that are pending or have expired. You can resend requests from the pending section of the approvals ledger.
+
+1.  Click the Approvals icon.
+
+![Approvals](/doc-images/tick.png)
+    
+2.  Click the **Transactions** tab.
+    
+3.  Click the **Pending** sub tab.
+    
+4.  Select an entry in the approvals ledger.
+    
+5.  Select **Resend Approval Request**.
+    
+6.  Follow the steps to [approve the transfer transaction as a custodian](/docs/Creating%20Transactions#approve-transfer)
+
+
+### Reissue a Transfer Transaction
+
+For a transfer transaction that has been rejected or where the custodian approval period has expired, you can reissue a new transaction from the Transaction ledger.
+
+1.  From any of the main screens, click the Transaction icon:
+
+![Ledger](/doc-images/ledger.png)
+    
+2.  From the ledger, find a transfer transaction entry that is expired or rejected.
+    
+3.  Select **Re-issue** from the displayed menu.
+    
+4.  Follow the steps in [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction).
+
+
+### Reissue a Withdraw Transaction
+
+For a withdraw transaction that has been rejected or where the custodian approval period has expired, you can reissue a new transaction from the Transaction ledger.
+
+1.  From any of the main screens, click the Transaction icon:
+
+![Ledger](/doc-images/ledger.png)
+    
+2.  From the ledger, find a withdraw transaction entry that is expired or rejected.
+    
+3.  Select **Re-issue** from the displayed menu.
+    
+4.  Follow the steps in [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction).
+

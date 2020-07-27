@@ -36,7 +36,7 @@ View Account Settings
 
 2. In the displayed account card, click the Account Settings button to display account details. 
 
-   ![Account](/doc-images/Accountcard.png)
+   ![Account](/doc-images/accountcard.png)
 
    The Settings page appears.
 
