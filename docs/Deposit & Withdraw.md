@@ -177,7 +177,7 @@ These include:
      * Withdraw wallet address   
 
 :::info
-The Blockchain miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
+The Blockchain miner's fee is the reward paid to miners for the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
 :::
 
 1. To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
