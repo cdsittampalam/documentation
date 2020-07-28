@@ -100,7 +100,7 @@ If you do not have a withdrawal address, you need to create one before the trans
 8.  Choose the asset type in **Asset**.    
 9.  Enter a name for the wallet in **Wallet Name**.   
 
-:::info
+:::note
 Ensure that the wallet name does not include spaces.
 :::
  
