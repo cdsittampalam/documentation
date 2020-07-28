@@ -99,8 +99,8 @@ If you do not have a withdrawal address, you need to create one before the trans
 7.  In the Add Withdrawal Address screen, select the fund that you want to add the address to in **Source Fund**.    
 8.  Choose the asset type in **Asset**.    
 9.  Enter a name for the wallet in **Wallet Name**.    
-10.  Type in the wallet address in **Wallet Address**.    
-11.  Click **Continue**. See Authorise an Address (Trade Initiator) below.
+10. Type in the wallet address in **Wallet Address**.    
+11. Click **Continue**. See Authorise an Address (Trade Initiator) below.
 
 ### Authorise Address (Trade Initiator)
 
