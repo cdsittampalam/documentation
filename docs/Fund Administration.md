@@ -26,7 +26,9 @@ Summary of Steps
 View the Holdings Page
 ----------------------
 
-The Holdings page lists the funds under your account. These include one or more default funds, and any funds you have created. Funds that exist in the Holdings page can be organised according to assets as part of a portfolio strategy.
+The Holdings page lists the funds under your account under the heading Summary. These include one or more default funds, and any funds you have created. Funds that exist in the Holdings page can be organised according to assets as part of a portfolio strategy.
+
+If you are using the Qredo app for the first time, Fund One appears.
 
 From any of the main pages, click the Asset icon:
 
