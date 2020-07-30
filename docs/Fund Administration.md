@@ -44,7 +44,7 @@ The page also allows you to view details on the transactions and the custody pol
 View Fund One
 -------------
 
-1. From the Holdings page, click the FundOne menu item.
+1. From the Holdings page, click the Fund One menu item.
 2. To view summary details, observe the [Summary info](#summary) section.
 3. To see Membership & Permissions information, click the [Membership & Permissions](#membership--permissions) tab.
 4. To see custody policy information, click the [Custody] (#custody) tab.
