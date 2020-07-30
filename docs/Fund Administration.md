@@ -47,7 +47,7 @@ View Fund One
 1. From the Holdings page, click the Fund One menu item.
 2. To view summary details, observe the [Summary info](#summary) section.
 3. To see Membership & Permissions information, click the [Membership & Permissions](#membership--permissions) tab.
-4. To see custody policy information, click the [Custody] (#custody) tab.
+4. To see custody policy information, click the [Custody](#custody) tab.
 
 If you have changed your default settings to include Bitcoin for Fund One and Bitcoin Testnet for Fund Two, you will see 2 default funds in the Holdings page.
 
