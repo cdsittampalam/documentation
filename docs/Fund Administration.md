@@ -26,7 +26,7 @@ Summary of Steps
 View the Holdings Page
 ----------------------
 
-The Holdings page lists the funds under your account under the heading Summary. These include one or more default funds, and any funds you have created. Funds that exist in the Holdings page can be organised according to assets as part of a portfolio strategy.
+The Holdings page lists the funds. These include one or more default funds, and any funds you have created. Funds that exist in the Holdings page can be organised according to assets as part of a portfolio strategy.
 
 If you are using the Qredo app for the first time, Fund One appears.
 
@@ -34,7 +34,7 @@ From any of the main pages, click the Asset icon:
 
 ![Account](/doc-images/coins.png)
 
-The Holdings page consists of the summary section that allows you to create a fund or view attributes of a default fund.
+The Holdings page consists of the summary view that shows basic information on the funds.
 
 ![Fund One in Default](/doc-images/HoldingsA.png)
 
@@ -126,10 +126,11 @@ Future versions of Qredo will have other currencies available in funds.
 
 ![custody fund](/doc-images/changedefaultsonsummaryR.png)
 
-1. Click **Change Defaults.** The Default Funds screen appears.   
-2. Select Fund One in **For incoming Bitcoin BTC transfers.**
-3. Select Fund Two in **For incoming Bitcoin Testnet transfers**. The button shows as **Updated**, and Fund One now contains Bitcoin.
-4. Click **Done** after the confirmation message.
+1. Ensure that Fund One and any other funds show under the Summary heading.
+2. Click **Change Defaults.** The Default Funds screen appears.   
+3. Select Fund One in **For incoming Bitcoin BTC transfers.**
+4. Select Fund Two in **For incoming Bitcoin Testnet transfers**. The button shows as **Updated**, and Fund One now contains Bitcoin.
+5. Click **Done** after the confirmation message.
 
 Create a Fund Wizard
 --------------------
