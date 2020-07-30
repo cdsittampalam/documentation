@@ -372,6 +372,11 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5
 }
 ```
 
+Info to add
+-----------
+
+The approvedCount is the number of custodians that are approved the transfer. When it reach the Threshold, the transaction will go through
+
 Set Up Live
 -----------
 
