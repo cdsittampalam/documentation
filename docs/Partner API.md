@@ -283,7 +283,7 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedp
 
 ### Add Fund
 
-A fund is the organisational unit for assigning portfolios. Each fund includes custody groups containing members. You select the members from the Trusted Party users that you previously added. Custody group members Trusted Party users that are nominated as custodians, where their signatures are needed to approve transactions. These include:
+A fund is the organisational unit for assigning portfolios. A company can have 1 or more funds. Each fund includes custody groups containing members. You select the members from the Trusted Party users that you previously added. Custody group members Trusted Party users that are nominated as custodians, where their signatures are needed to approve transactions. These include:
 
 *   `custodygroup_withdraw` custody group for a withdrawal
 *   `custodygroup_tx` custody group for a transfer
