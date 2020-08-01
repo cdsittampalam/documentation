@@ -60,7 +60,7 @@ Sign Up for the Partner API
 3. Read through the descriptions on the API and click **Apply**.
 4. Fill out the form to apply for the Partner API and click **Submit.**
 
-After a confirmation message appears, the Partner API screen shows the **Generate Key** button for connecting to the API.
+After a confirmation message appears with the **Generate Key** button for connecting to the API.
 
 ![partnerapi](/doc-images/generatekeyimage1.png)
 
