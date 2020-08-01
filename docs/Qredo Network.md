@@ -74,7 +74,7 @@ Assets comprise of:
 *   MPC key lists
 
 :::info
-Assets, when specifically referred to for the Qredo blockchain, are different from digital assets that are described for trading and finance.
+Assets, when specifically referred to for the Qredo blockchain, are different from digital assets that are described in the context of trading and finance.
 :::
 
 Qredo blockchain software components are built using [Tendermint](https://tendermint.com/), which delivers security and the ability to process a large number of transactions.. Blockchain networks built using Tendermint are secured through cryptography (permission) instead of proof-of-work, and are less energy-intensive.  
