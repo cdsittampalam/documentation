@@ -38,7 +38,7 @@ The MPC (Multiparty Computation) protocol is based on MPC cryptography. The prot
 
 The MPC protocol runs when generating a wallet address for money coming in to the Qredo Network. The protocol also runs when creating an address to accept the change from a settlement. In both cases, the transactions are signed.
 
-The MPC protocol communicates with the blockchain validator nodes via the watcher service to ensure that it can process the correct wallet (more information is described in the [Architecture](docs/Qredo%20Network#architecture) section in the Qredo Network page.
+The MPC protocol communicates with the blockchain validator nodes via the watcher service to ensure that it can process the correct wallet (more information is described in the [Architecture](docs/Qredo%20Network#architecture) section on the Qredo Network page.
 
 ### MPC Communication Flow
 
