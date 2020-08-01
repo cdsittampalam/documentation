@@ -27,7 +27,7 @@ The Qredo blockchain records transactions that happen for these events:
 
 Users interact with the Qredo Network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). When you have installed the app, you can invite users to be a trusted party from within the Qredo Network, or from outside of Qredo via LinkedIn, Telegram or WhatsApp.  
 
-A developer user can use the Qredo Network by enrolling for the Partner API. Details on the Partner API are coming soon.
+A developer user can use the Qredo Network through the [Partner API](/docs/Partner%20API).
 
 Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
 
