@@ -60,7 +60,8 @@ The password must contain:
 ![t+c](/doc-images/tandc.png)
 
 1. Read the terms and conditions on this page around GDPR compliance and data privacy.
-2. To move to the next screen, tick the box and click **Accept & Continue** (see [Validate email address](#validate-email-address).
+2. To move to the next screen, tick the box to show that you have read the terms and conditions.
+3. Click **Agree and Continue** (see [Validate email address](#validate-email-address).
 3. To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
 
 ### View Full Terms and Conditions
