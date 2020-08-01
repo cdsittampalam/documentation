@@ -55,7 +55,7 @@ Sign Up for the Partner API
 
 1. Go to **Settings** > **Partner API**.  
 
-![Billing](/doc-images/partnerapi2.png)
+![Billing](/doc-images/partnerapi3.png)
 
 3. Read through the descriptions on the API and click **Apply**.
 4. Fill out the form to apply for the Partner API and click **Submit.**
