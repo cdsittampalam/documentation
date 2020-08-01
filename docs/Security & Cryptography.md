@@ -20,7 +20,7 @@ The physical Qredo Network is distributed where devices are stored in six Tier-4
 
 Each data centre contains dedicated computing equipment to support the MPC, Qredo blockchain, and watcher components. This includes:
 
-*   Qredo appliances that house Rasberry Pi units for the MPC nodes and the MPC validator. Each MPC node can be a client or server node.
+*   Qredo appliances that house Rasberry Pi units for the MPC nodes and the MPC validator. Each MPC node can be a client or a server node.
 *   a PC that holds the watcher and Blockchain validator services.
 
 Whenever transactions are written to the Qredo blockchain, the transactions are backed up on another device. Similarly, encrypted MPC keys are copied to each of the server and clients across multiple data centres.
