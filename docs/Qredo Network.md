@@ -59,7 +59,7 @@ Transfer policies determine the type of transaction that a custodian can sign. T
 
 #### Qredo Wallet
 
-Qredo wallet enables the management of money on the Qredo Network. A wallet links to an external cryptocurrency address and captures deposits into that address as funds it controls on the Qredo blockchain. A wallet is created when money is first added to the Qredo Network. Addresses need to be created for money coming in or out.
+Qredo wallet enables the management of money on the Qredo Network. A wallet links to an external cryptocurrency address and captures deposits into that address as funds it controls on the Qredo blockchain. A wallet is created when money is first added to the Qredo Network for deposits. Addresses need to be created for money going out.
 
 #### Qredo Blockchain
 
