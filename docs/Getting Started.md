@@ -62,7 +62,7 @@ The password must contain:
 1. Read the terms and conditions on this page around GDPR compliance and data privacy.
 2. To move to the next screen, tick the box to show that you have read the terms and conditions.
 3. Click **Agree and Continue** (see [Validate email address](#validate-email-address).
-3. To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
+4. To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
 
 ### View Full Terms and Conditions
 
@@ -70,7 +70,8 @@ You can download the full terms and conditions if you need to distribute and pri
 
 1.  To download the terms and conditions, click **Download**.
 2.  To view the terms and conditions as a PDF file in another browser page or tab, click **Copy Link**.
-3.  Tick the box and click **Accept & Continue**. The Validate your email address screen shows.
+3.  Tick the box to show that you have read the terms and conditions. 
+4.  Click **Agree and Continue**. The Validate your email address screen shows.
 
 ### Validate Email Address
 
