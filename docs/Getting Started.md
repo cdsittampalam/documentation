@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network with your Qredo web app and the Qredo mobile app. 
+You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network using the Qredo web app and the Qredo mobile app. 
 
 ![Page1](/doc-images/page1.png)
 
@@ -28,9 +28,10 @@ Click **Continue**.  The Establish your Qredo Identity screen appears.
 
 1. Enter your details in:
 
-    -  **Full name**
-    -  **Email address**
-    -  **Mobile number**
+    -  **First Name**
+    -  **Last Name**
+    -  **Email Address**
+    -  **Mobile Number**
 
     :::info
     You can enter a private or work email address. If you have been invited, you can use the email address where you received the invitation.
