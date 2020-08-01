@@ -190,7 +190,7 @@ During the transaction, the wallet is locked to prevent any further updates.  Th
 
 The blockchain validator records:
 
-- the transaction and the signatures
+- the transaction and the signatures.
 - the completed transaction which allows change from the settlement to released back in to Qredo.
 
 #### Watcher and MPC
