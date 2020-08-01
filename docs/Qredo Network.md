@@ -22,7 +22,7 @@ The Qredo blockchain records transactions that happen for these events:
 *   A new user joins Qredo.
 *   Money is deposited to an account.
 *   Money is transferred from one Qredo user to another.
-*   Money is withdrawn from the Qredo Network
+*   Money is withdrawn from the Qredo Network.
 
 
 Users interact with the Qredo Network using the Qredo app (see [Qredo App Overview](/docs/Qredo%20App%20Overview)). When you have signed up to the Qredo app, you can invite users to be a trusted party from within the Qredo Network, or from outside of Qredo via LinkedIn, Telegram or WhatsApp.  
