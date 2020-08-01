@@ -27,9 +27,9 @@ Whenever transactions are written to the Qredo blockchain, the transactions are 
 
 Communication takes place between data centres over routers. Between the Rasberry Pi units on the device, communication takes place over SSH.
 
-### Hardware Security Module
+### HSMs
 
-Each Rasberry Pi unit has a tamper-proof Hardware Security Module that protects the seed value and public/private key data from attacks in a physical environment. The HSMs adhere to the FIPS (Federal information Processing Standard Publication 140-2) security standard. FIPS 140-2 is a US government computer security standard for cryptographic modules which ensures that cryptographic keys and primitives never leave the hardware appliances that they exist in.
+Each Rasberry Pi unit has a tamper-proof HSM (Hardware Security Module) that protects the seed value and public/private key data from attacks in a physical environment. The HSMs adhere to the FIPS (Federal information Processing Standard Publication 140-2) security standard. FIPS 140-2 is a US government computer security standard for cryptographic modules which ensures that cryptographic keys and primitives never leave the hardware appliances that they exist in.
 
 MPC Protocol
 ------------
