@@ -205,7 +205,7 @@ To keep the Qredo Network secure when funds leave the network, the MPC validator
 
 To allow external blockchains to have a record of a settlement transaction, the watcher service broadcasts the transaction to the external blockchains. There is also a corresponding transaction on the Qredo blockchain, which releases the change from the settlement back into Qredo.
 
-A crystallisation process (see section below) is also performed on Qredo blockchain to build an unsigned transaction.
+A crystallisation process (see section below) is also performed on the Qredo blockchain to build an unsigned transaction.
 
 Crystallisation
 ---------------
