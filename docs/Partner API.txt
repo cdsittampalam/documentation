@@ -42,11 +42,11 @@ Where to Go?
 Using the Qredo Apps
 --------------------
 
-You will need to use the Partner API together with the Qredo Web app and the Qredo Mobile app for functions around Trusted Parties and custodians. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer. 
+The Partner API is used together with the Qredo Web app and the Qredo Mobile app for functions around Trusted Parties and custodians. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer. 
 
-* You use the Qredo Desktop app when adding users as Trusted Parties through the registration process. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
+Users that are added as Trusted Parties need to have been registered on Qredo. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
 
-You can use the Qredo Desktop app to help you add other users as Trusted Parties. 
+You can use the Qredo Mobile apphelp you add other users as Trusted Parties. 
 
 Sign Up for the Partner API
 ----------------------------
