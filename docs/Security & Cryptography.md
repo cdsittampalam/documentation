@@ -34,7 +34,7 @@ Each Rasberry Pi unit has a tamper-proof HSM (Hardware Security Module) that pro
 MPC Protocol
 ------------
 
-The MPC (Multiparty Computation) protocol is based on MPC cryptography. The protocol is applied on a set of MPC nodes that work together to generate a signed public key and a public wallet address. Through its use of mathematics in a unique way, the MPC removes the need to sign transactions with a private key. Instead, the protocol uses its own aggregated signatures for the signing. This removal takes away the risk of private key theft.
+The MPC (Multiparty Computation) protocol is based on MPC cryptography. The protocol is applied on a set of MPC nodes that work together to generate a signed public key and a public wallet address for securing transactions on the Qredo Network. Through its use of mathematics in a unique way, the MPC removes the need to sign transactions with a private key. Instead, the protocol uses its own aggregated signatures for the signing. This removal takes away the risk of private key theft.
 
 The MPC protocol runs when generating a wallet address for money coming in to the Qredo Network. The protocol also runs when creating an address to accept the change from a settlement. In both cases, the transactions are signed.
 
