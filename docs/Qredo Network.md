@@ -29,7 +29,7 @@ Users interact with the Qredo Network using the Qredo app (see [Qredo App Overvi
 
 A developer user can use the Qredo Network through the [Partner API](/docs/Partner%20API).
 
-Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrency support.
+Qredo currently supports Bitcoin. However, future versions will include Ethereum, XRP, USDC coin, and other cryptocurrencies.
 
 ### Behaviours
 
