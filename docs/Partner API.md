@@ -62,7 +62,7 @@ Sign Up for the Partner API
 
 After a confirmation message appears, the Partner API screen shows the **Generate Key** button for connecting to the API.
 
-![partnerapi](/doc-images/generatekeyimage.png)
+![partnerapi](/doc-images/generatekeyimage1.png)
 
 Connect to the Partner API
 --------------------------
