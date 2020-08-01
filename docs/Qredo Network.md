@@ -46,7 +46,7 @@ Recording the aggregation of signatures on the Qredo blockchain makes the blockc
 A transaction requires various signatures from these participants that meet rules and conditions. These include:
 
 - The **principal** who decides on the custodian, custodian groups, and thresholds. They can also be the **trade initiator** where they provide a signature when money is transferred to a counterparty recipient, added, or withdrawn from the Qredo Network.
-- The **counterparty** who provides a signature for a transfer that the principal has signed. Signing confirms that they want to receive funds from the principal.
+- The **counterparty** who receive funds from the principal in a transfer.
 - The **custodian** who approves or rejects a transaction. When they approve, a signature is provided for the transaction. The custodian is part of a custodian group created by the principal, and is linked to the fund of that transaction. Depending on the threshold, one or more custodians in the group need to provide their signatures.
 
 #### Threshold
