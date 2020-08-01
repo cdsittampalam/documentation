@@ -55,7 +55,7 @@ For a transaction to be approved and written to the Qredo blockchain, the thresh
 
 #### Transfer Policies
 
-Transfer policies determine the type of transaction that a custodian can sign. Custodians can be part of a group that allows, for example, signatures for a withdrawal policy. This lets the Qredo blockchain support workflows for more complex business requirements.
+Transfer policies determine the type of transaction that a custodian can sign. These include transfer and withdrawal policies. Custodians can be part of a group that allows, for example, signatures for a withdrawal policy. This lets the Qredo blockchain support workflows for more complex business requirements.
 
 #### Qredo Wallet
 
