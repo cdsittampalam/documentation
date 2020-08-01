@@ -217,4 +217,4 @@ For each user, the process ensures that the amounts are mapped to a UTXO on an e
 *   map the wallet to Alice's UTXO containing 12 Bitcoin
 *   map the wallet to Bob's UTXO containing 18 Bitcoin  
 
-The allocations made during crystallisation are used when a user requests settlement. Their crystalLised funds minus any fees are transferred out of the Qredo Network, and any change is returned back.
+The allocations made during crystallisation are used when a user requests settlement. Their crystallised funds minus any fees are transferred out of the Qredo Network, and any change is returned back.
