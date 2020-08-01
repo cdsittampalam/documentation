@@ -198,7 +198,7 @@ When all entries are correct, the screen shows as follows:
 
 Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the mobile app.
 
-You are now ready to sign in for the first time.
+You are now ready to sign in for the first time from the Qredo web app.
 
 Signing in for the first time allows you to use the apps for managing funds and transactions.
 
@@ -206,7 +206,7 @@ Sign In Steps
 -------------
 
 1.  Tap **Sign In**. A log in screen appears.
-2.  Enter your details in **Email address or alias** and **Password**.
+2.  Enter your details in **Email Address or Network Alias** and **Password**.
 
 ![wabsign](/doc-images/websign.png)
 
