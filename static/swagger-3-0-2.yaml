@@ -1,0 +1,1921 @@
+openapi: 3.0.2
+info:
+  title: Qredo Partner API
+  description: |-
+    An API for Qredo's distribution Partners that enables
+        provisioning and management of Qredo Services for the Partner's customers.
+        You can find out more about the Qredo Network at [http://docs.qredo.network](http://docs.qredo.network).
+  version: 1.0.0
+servers:
+  - url: https://api.qredo.network{basePath}
+    description: API Server
+    variables:
+      basePath:
+        default: /api/v1/p
+  - url: https://demo-api.qredo.net{basePath}
+    description: Demo server
+    variables:
+      basePath:
+        default: /api/v1/p
+  - url: https://qa-api.qredo.net{basePath}
+    description: Demo server
+    variables:
+      basePath:
+        default: /api/v1/p
+
+security:
+  - ApiKeyAuth: ["eyJrZXlfaWQiOiI2UjNPd2xwSnY1clJwUSIsImtleSI6IlFQVTF5Rm11V2UyRVB2SEdCbDdvUWxIQlhFdU0tOHc2eExDNkIxNVlTNWMifQ"]
+
+paths:
+  /company:
+    post:
+      tags:
+        - Company
+      summary: Create Company
+      operationId: create_company_company__post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Company'
+        required: true
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateCompanyResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '409':
+          $ref: '#/components/responses/Conflict'
+
+  /company/{company_id}:
+    get:
+      tags:
+        - Company
+      summary: Get Company
+      operationId: get_company_company__company_id__get
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+      description: ''
+    put:
+      tags:
+        - Company
+      summary: Update Company
+      operationId: update_company_company__company_id__put
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Company'
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateCompanyResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/search:
+    get:
+      tags:
+        - Company
+      summary: Search Company
+      operationId: search_company_company_search_get
+      parameters:
+        - required: false
+          schema:
+            title: Query
+            type: string
+          name: query
+          in: query
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CompanySearchResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /company/{company_id}/trustedparty:
+    get:
+      tags:
+        - TrustedNetwork
+      summary: Returns all Trusted parties for a company
+      description: Returns all trusted parties for a company
+      operationId:  Returns_all_trustedparties_for_a_company_company__company_id__counterparty__get
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TrustedPartyList'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    post:
+      tags:
+        - TrustedNetwork
+      summary: Add trusted party
+      description: >-
+        The trusted party can be Company or individual User.
+        This kicks off a workflow that puts a message into an external company's
+        admin's or individual user's inbox that requests approval for an external
+        company to add the admin's company to its list of trusted counterparties
+        (like a friend request).
+      operationId: create_trustedparty_company__company_id__trustedparty__post
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TrustedPartyNew'
+        required: true
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/{company_id}/trustedparty/{trustedparty_domain}:
+    delete:
+      tags:
+        - TrustedNetwork
+      summary: Del Trusted party
+      description: Deletes a company's trusted party
+      operationId: >-
+        del_trustedparty_company__company_id__trustedparty__trustedparty_domain__delete
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+        - required: true
+          schema:
+            title: Trusted party domain
+            type: string
+          name: trustedparty_domain
+          in: path
+      responses:
+        '202':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+
+  /company/{company_id}/holding:
+    get:
+      tags:
+        - Holding
+      summary: Get Holdings
+      description: >-
+        A holding is the first level view of the entire holdings across all
+        funds and portfolios held by a customer (a customer of the Qredo
+        Partner).
+      operationId: get_holdings_company__company_id__holding_get
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Holdings'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/{company_id}/fund:
+    post:
+      tags:
+        - Fund
+      summary: Add Fund
+      description: >-
+        A fund is the organisational unit that customers assign their portfolios
+        into. Administrators, Principals and Custody Groups are assigned to each
+        individual fund.
+      operationId: add_fund_company__company_id__fund_post
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Fund'
+        required: true
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateFundResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/{company_id}/fund/{fund_id}:
+    get:
+      tags:
+        - Fund
+      summary: Get Fund
+      description: >-
+        A fund is the organisational unit that customers assign their portfolios
+        into. Administrators, Principals and Custody Groups are assigned to each
+        individual fund.
+      operationId: get_fund_company__company_id__fund__fund_id__get
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+        - required: true
+          schema:
+            title: Fund Id
+            type: string
+          name: fund_id
+          in: path
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FundDetail'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/{company_id}/fund/{fund_id}/deposit:
+    get:
+      tags:
+        - Fund
+      summary: Get Fund Deposit address
+      description: A list of fund assets with their deposit addresses and current balances
+      operationId: get_fund_company_deposit__company_id__fund__fund_id__get
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+        - required: true
+          schema:
+            title: Fund Id
+            type: string
+          name: fund_id
+          in: path
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FundDepositResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/{company_id}/fund/{fund_id}/whitelist:
+    get:
+      tags:
+        - Fund
+      summary: Get Fund Whitelist
+      description: Get whitelisted addresses for a fund.
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+        - required: true
+          schema:
+            title: FundID
+            type: string
+          name: fund_id
+          in: path
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FundWhitelist'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+    post:
+      tags:
+        - Fund
+      summary: Add Whitelist address
+      description: >-
+        This adds new whitelisted withdraw address to a fund.
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+        - required: true
+          schema:
+            title: Fund Id
+            type: string
+          name: fund_id
+          in: path
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AddFundWhitelist'
+        required: true
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/{company_id}/fund/search:
+    get:
+      tags:
+        - Fund
+      summary: Search Fund
+      operationId: search_fund_company__company_id__fund_search_get
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+        - required: false
+          schema:
+            title: Query
+            type: string
+          name: query
+          in: query
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FundSearchResult'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+
+  /company/{company_id}/transfer:
+    post:
+      tags:
+        - Transfer
+      summary: New transfer
+      description: >-
+        Initiate new transfer
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Transfer'
+        required: true
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/{company_id}/transfer/{tx_id}:
+    get:
+      tags:
+        - Transfer
+      summary: Get transfer status
+      description: Transfer status that shows details on the transaction related to the trade initiator and custodian. These include details of approvals.
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+        - required: true
+          schema:
+            title: TxId
+            type: string
+          name: tx_id
+          in: path
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TxInfo'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/{company_id}/withdraw:
+    post:
+      tags:
+        - Withdrawal
+      summary: New withdrawal
+      description: >-
+        Initiate new withdrawal that includes various settings for the transaction.
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Withdrawal'
+        required: true
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /company/{company_id}/withdraw/{tx_id}:
+    get:
+      tags:
+        - Withdrawal
+      summary: Get withdrawal status
+      description: The withdrawal status
+      parameters:
+        - required: true
+          schema:
+            title: Company Id
+            type: string
+          name: company_id
+          in: path
+        - required: true
+          schema:
+            title: TxId
+            type: string
+          name: tx_id
+          in: path
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TxInfo'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  # /company/{company_id}/trade:
+  #   post:
+  #     tags:
+  #       - Trade
+  #     summary: Add Trade
+  #     description: >-
+  #       This describes a trade that is created by the Principal
+  #     operationId: add_trade_company__company_id__trade__post
+  #     parameters:
+  #       - required: true
+  #         schema:
+  #           title: Company Id
+  #           type: string
+  #         name: company_id
+  #         in: path
+  #     requestBody:
+  #       content:
+  #         application/json:
+  #           schema:
+  #             $ref: '#/components/schemas/Trade'
+  #       required: true
+  #     responses:
+  #       '201':
+  #         description: Successful Response
+  #         content:
+  #           application/json:
+  #             schema: {}
+  #       '400':
+  #         $ref: '#/components/responses/BadRequest'
+  #       '401':
+  #         $ref: '#/components/responses/Unauthorized'
+  #       '404':
+  #         $ref: '#/components/responses/NotFound'
+
+  # /company/{company_id}/trade/{trade_tx_id}:
+  #   get:
+  #     tags:
+  #       - Trade
+  #     summary: Get Trade
+  #     description: This describes a trade that is created by the Principal.
+  #     operationId: get_trade_company__company_id__trade__trade_tx_id__get
+  #     parameters:
+  #       - required: true
+  #         schema:
+  #           title: Company Id
+  #           type: string
+  #         name: company_id
+  #         in: path
+  #       - required: true
+  #         schema:
+  #           title: Trade Tx Id
+  #           type: string
+  #         name: trade_tx_id
+  #         in: path
+  #     responses:
+  #       '200':
+  #         description: Successful Response
+  #         content:
+  #           application/json:
+  #             schema:
+  #               $ref: '#/components/schemas/TradeDetail'
+  #       '400':
+  #         $ref: '#/components/responses/BadRequest'
+  #       '401':
+  #         $ref: '#/components/responses/Unauthorized'
+  #       '404':
+  #         $ref: '#/components/responses/NotFound'
+
+
+components:
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-KEY
+
+  responses:
+      NotFound:
+        description: The specified resource was not found
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      BadRequest:
+        description: Bad request
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      Conflict:
+        description: The specified resource already exists
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      Unauthorized:
+        description: Unauthorized
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      Forbidden:
+        description: Forbidden
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+
+  schemas:
+
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+        msg:
+          type: string
+        detail:
+          type: object
+          properties:
+            reason:
+              type: string
+
+    Company:
+      title: Company
+      required:
+        - name
+        - city
+        - country
+        - domain
+        - company_id
+      type: object
+      properties:
+        name:
+          title: Name
+          type: string
+        city:
+          title: City
+          type: string
+        country:
+          title: Country code
+          type: string
+          description: ISO 3166-1 country code
+        domain:
+          title: Domain
+          type: string
+        ref:
+          title: Reference
+          type: string
+          description: Company reference ID
+          default: ''
+        company_id:
+          title: Company Id
+          type: string
+      example:
+        name: ACME Corp
+        city: Paris
+        country: FR
+        domain: acme.com
+        ref: 9827feec-4eae-4e80-bda3-daa7c3b97add
+
+    CreateCompanyResponse:
+      title: CreateCompanyResponse
+      required:
+        - company_id
+        - ref
+      type: object
+      properties:
+        ref:
+          title: Reference
+          type: string
+          description: Company reference ID
+          default: ''
+        company_id:
+          title: Company ID
+          type: string
+          description: Company ID
+
+    TrustedParty:
+      title: Trusted Network
+      type: object
+      properties:
+        company_id:
+          type: string
+        total_count:
+          type: integer
+        list:
+          type: object
+          properties:
+            trusted_entity_id:
+              type: string
+            name:
+              type: string
+            type:
+              enum:
+              - company
+              - user
+              type: string
+            address:
+              type: string
+            internal:
+              type: boolean
+            created:
+              type: integer
+
+    TrustedPartyList:
+      title: TrustedPartyList
+      required:
+        - company_id
+        - total_count
+        - list
+      type: object
+      properties:
+        company_id:
+          title: Company id
+          type: string
+          description: The company id.
+        total_count:
+          title: Total count
+          type: integer
+          description: The total number of counterparties.
+        list:
+          title: List
+          type: array
+          items:
+            $ref: '#/components/schemas/TrustedParty'
+      x-examples:
+        example:
+          total_count: 1
+          list:
+            - trusted_entity_id: 1bzn6ex7fRxKQsSqCJDDpyb4uaS
+              name: ACME Corp
+              address: acme.com
+              type: company
+              internal: false
+              created: 1589984018
+
+    TrustedPartyNew:
+      title: TrustedPartyNew
+      required:
+        - name
+        - address
+        - type
+      type: object
+      properties:
+        address:
+          title: Address
+          type: string
+          description: The domain name (for Company) or email address (for individual) of the trusted party
+        type:
+          enum:
+          - company
+          - user
+          title: Trusted party type
+          type: string
+          description: The type of the trusted party
+      example:
+        address: hooli.com
+        type: company
+
+    CurrencyAmount:
+      title: CurrencyAmount
+      required:
+        - asset
+        - amount
+      type: object
+      properties:
+        symbol:
+          title: Asset symbol
+          type: string
+          description: >-
+            This is a symbol of the cryptocurrency or security. Example of
+            bitcoin the symbol is BTC.
+        amount:
+          title: Amount
+          type: number
+          description: The amount of each cryptocurrency or tokenized asset.
+
+    DepositAddress:
+      title: DepositAddress
+      required:
+        - wallet_type
+        - fund_id
+      type: object
+      properties:
+        wallet_type:
+          title: Wallet type
+          type: string
+          description: >-
+            This declares the wallet type, which is specified by currency.
+            Example is BTC or ETH.
+        fund_id:
+          title: Fund ID
+          type: string
+          description: This is the fund id (from Fund API) to assign the wallet address to.
+      example:
+        wallet_type: BTC
+        fund_id: a1wXN2saAiwJLQtaEkf6eS1K8un49sqNhcN8qKPSBBVe
+
+    DepositAddressDetail:
+      title: DepositAddressDetail
+      required:
+        - wallet_type
+        - fund_id
+        - address
+        - amount
+        - fund
+      type: object
+      properties:
+        wallet_type:
+          title: Wallet type
+          type: string
+          description: >-
+            This declares the wallet type, which is specified by currency.
+            Example is BTC or ETH.
+        fund_id:
+          title: Fund ID
+          type: string
+          description: This is the fund id (from Fund API) to assign the wallet address to.
+        address:
+          title: Deposit wallet address
+          type: string
+          description: Deposit wallet address
+        amount:
+          title: Amount
+          type: number
+          description: The amount of currency in the wallet.
+        fund:
+          $ref: '#/components/schemas/FundDetail'
+      example:
+        address: 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
+        wallet_type: BTC
+        amount: 10
+        fund_id: a1wXN2saAiwJLQtaEkf6eS1K8un49sqNhcN8qKPSBBVe
+        fund:
+          name: Fund 1
+          principals:
+            - PSBBVea1wXN2sa7dD1K8un49sqNhcN8qKAiwJLQtaZgx
+          custody_group_id: Vea1wXN2sa7dD1K8un49sqNhcN8qKAiwJLQtaZgxPSBB
+          custody_group:
+            name: Custody group 2/3
+            threshold: 2
+            settle: true
+            transfer: true
+            account_codes:
+              - PSBBVea1wXN2sa7dD1K8un49sqNhcN8qKAiwJLQtaZgx
+              - 49sqNhcN8qKAiwJPSBBVea1wXN2sa7dD1K8unLQtaZgx
+              - a1wXN2sa7PSBBVedD1K8un49sqNhcN8qKAiwJLQtaZgx
+          fund_holdings:
+            - symbol: BTC
+              amount: 12
+            - symbol: ETH
+              amount: 504.77
+            - symbol: USDT
+              amount: 200451
+
+    Fund:
+      title: Fund
+      required:
+        - name
+        - custody_group_id
+      type: object
+      properties:
+        name:
+          title: Fund name
+          type: string
+          description: The name of the fund.
+        description:
+          title: Fund description
+          type: string
+          description: A description for the fund.
+        theme:
+          title: Fund theme
+          type: integer
+          description: Fund theme ID used in the UI
+        custodygroup_withdraw:
+          title: Withdraw custody group
+          type: object
+          properties:
+            threshold:
+              title: Custody group threshold
+              type: integer
+            members:
+              title: custody group members
+              type: array
+              items:
+                type: string
+        custodygroup_tx:
+          title: Transfer custody group
+          type: object
+          properties:
+            threshold:
+              title: Custody group threshold
+              type: integer
+            members:
+              title: Custody group members
+              type: array
+              items:
+                type: string
+        assets:
+          title: Fund assets
+          type: array
+          items:
+            type: string
+      description: >-
+        A fund is the organisational unit that customers assign their portfolios
+        into. Administrators, Principals and Custody Groups are assigned to each
+        individual fund. There is only one Custody Group per Fund.
+      example:
+        name: Fund 1
+        description: Fund for demonstration purposes
+        theme: 2
+        custodygroup_withdraw:
+          threshold: 3
+          members:
+            - 1dnfLZolYD72zasqtmtTXXoaNNJ
+            - 1dnfLeHXkaxasdg4akvxglwKTKV
+            - 1dnfLsfgsaxQPs2v5kvxglwKTKV
+            - 1dnfLeHXkaxQPs2v5kvxglwKTKV
+        custodygroup_tx:
+          threshold: 3
+          members:
+            - 1dnfLZolYD72zasqtmtTXXoaNNJ
+            - 1dnfLeHXkaxasdg4akvxglwKTKV
+            - 1dnfLsfgsaxQPs2v5kvxglwKTKV
+            - 1dnfLeHXkaxQPs2v5kvxglwKTKV
+        assets:
+          - BTC-TESTNET
+
+    CreateFundResponse:
+      title: CreateFundResponse
+      type: object
+      properties:
+        fund_id:
+          title: Fund ID
+          type: string
+          description: The ID of the newly created fund
+        withdraw_custodygroup:
+          title: Withdraw custody group ID
+          type: string
+        transfer_custodygroup:
+          title: Transfer custody group ID
+          type: string
+      example:
+        fund_id: 1dnfLZolYD72zasqtmtTXXoaNNJ
+        custodygroup_withdraw: 1dnfLYHOGn8gScmInkMXSPzitj5
+        custodygroup_tx: 1dnfLeHXkaxQPs2v5kvxglwKTKV
+
+    FundDetail:
+      title: FundDetail
+      type: object
+      properties:
+        fund_id:
+          title: Fund ID
+          type: string
+        name:
+          title: Fund name
+          type: string
+          description: The name of the fund.
+        description:
+          title: Fund description
+          type: string
+        theme:
+          title: Fund UI Theme
+          type: integer
+        custodygroup_withdraw:
+          $ref: '#/components/schemas/Custodygroup'
+        custodygroup_transfer:
+          $ref: '#/components/schemas/Custodygroup'
+        fund_holdings:
+          title: Fund holdings
+          type: array
+          items:
+            $ref: '#/components/schemas/Holding'
+          description: The fund's individual holdings
+      description: >-
+        A fund is the organisational unit that customers assign their portfolios
+        into. Administrators, Principals and Custody Groups are assigned to each
+        individual fund. There is only one Custody Group per Fund.
+      example:
+          fund_id: 1dnpG2K2A5hMOVjGFl1DrsbnvmS
+          name: Fund 1
+          description: Fund for demonstration purposes
+          theme: 2
+          custodygroup_withdraw:
+            id: 1dnpFwNt4D3boBi9UaoEZIwUmbe
+            threshold: 1
+            members_count: 1
+            members:
+            - user_id: AAA778f3DQRUZ7vzk3AJwk3o7w4gdEVSnRZ8oZuQBP3E
+              firstName: Peter
+              lastName: Jackson
+          custodygroup_tx:
+            id: 1dnpG345BSkYA2nrTCRxAiRN0sE
+            threshold: 1
+            members_count: 1
+            members:
+            - user_id: AAA778f3DQRUZ7vzk3AJwk3o7w4gdEVSnRZ8oZuQBP3E
+              firstName: Peter
+              lastName: Jackson
+          members:
+          - userID: AAA778f3DQRUZ7vzk3AJwk3o7w4gdEVSnRZ8oZuQBP3E
+            firstName: osn
+            lastName: osn
+            permissions:
+              admin: true
+          assets:
+          - code: BTC-TESTNET
+            name: Bitcoin Testnet
+            unitCode: BTC-TEST
+          holdings:
+          - code: BTC-TESTNET
+            amount: 0
+
+    FundDepositResponse:
+      title: FundDepositResponse
+      type: object
+      properties:
+        total_count:
+          title: Total count
+          type: integer
+        list:
+          title: List
+          type: array
+          items:
+            type: object
+            properties:
+              asset:
+                type: string
+                description: Name of asset
+              address:
+                title: Address of asset
+                type: string
+              balance:
+                title: Current balance of asset
+                type: number
+      example:
+        total_count: 0
+        list:
+          - asset: BTC-TESTNET
+            address: n2GoFtw8aTH6yoMK9UW3fxrSp3iTL6jwUX
+            balance: 0
+
+
+    FundSearchResult:
+      title: FundSearchResult
+      description: Fund seearch result
+      type: object
+      properties:
+        total_count:
+          title: Total count
+          type: integer
+        list:
+          title: List
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                title: Name
+                type: string
+              id:
+                title: ID
+                type: string
+      example:
+        total_count: 2
+        list:
+        - name: Fund 1
+          id: 1dnpG2K2A5hMOVjGFl1DrsbnvmS
+        - name: Fund 2
+          id: 2cnpG2D2A5hMOVjGFl1DrsbnvmN
+    FundMember:
+      title: FundMember
+      required:
+        - user_id
+        - permissions
+      type: object
+      properties:
+        user_id:
+          title: User ID
+          type: string
+          description: User ID of the user to be added
+        firstName:
+          type: string
+        lastName:
+          type: string
+        permissions:
+          $ref: '#/components/schemas/Permissions'
+      description: >-
+        A fund member is a user who has certain permissions within a fund
+      example:
+        user_id: "1dOTuZTeCYBfYIgKmbjhBKFU9uc"
+        firstName: Peter
+        lastName: Jackson
+        permissions:
+          admin: true
+
+    FundMembersList:
+     title: FundMembersList
+     required:
+      - total_count
+      - list
+     type: object
+     properties:
+      total_count:
+        type: integer
+      list:
+        type: object
+        properties:
+          user_id:
+            type: string
+          firstName:
+            type: string
+          lastName:
+            type: string
+          created:
+            type: integer
+          permissions:
+              $ref: '#/components/schemas/Permissions'
+     example:
+        total_count: 2
+        list:
+          - user_id: AAA778f3DQRUZ7vzk3AJwk3o7w4gdEVSnRZ8oZuQBP3E
+            firstName: Peter
+            lastName: Jackson
+            created: 1593070611
+            permissions:
+              admin: true
+          -
+            user_id: 2mZUKu9rH49HfRN7pAfsVT428dp2rnBX8v1Xob25KXq1
+            firstName: Luke
+            lastName: Skywalker
+            created: 1593089630
+            permissions:
+              admin: true
+
+
+    FundWhitelist:
+      title: FundWhitelist
+      description: List of whitelisted addresses for a fund.
+      type: object
+      properties:
+        total_count:
+          title: Total count
+          type: integer
+        list:
+          title: List
+          type: array
+          items:
+            type: object
+            properties:
+              asset:
+                title: Asset
+                type: string
+              address:
+                title: Address
+                type: string
+              name:
+                title: Name
+                type: string
+      example:
+        total_count: 2
+        list:
+        - name: addres1
+          asset: BTC-TESTNET
+          address: bc1qgr090hdm6y5wzwqc2r57rlaytx5v7ytm2ktq98
+        - name: address2
+          asset: BTC
+          address: tb1qd5jkskth8q46k5ka76uqnvqsgta2ncrgkx7ud8
+
+    AddFundWhitelist:
+      title: AddFundWhitelist
+      description: Add whitelist address to fund.
+      type: object
+      properties:
+        asset:
+          title: Asset
+          type: string
+        address:
+          title: Address
+          type: string
+        name:
+          title: Name
+          type: string
+      example:
+        name: addres1
+        asset: BTC-TESTNET
+        address: bc1qgr090hdm6y5wzwqc2r57rlaytx5v7ytm2ktq98
+
+    Holding:
+      title: Holding
+      description: View of all assets held by a company’s fund.
+      required:
+        - code
+        - amount
+      type: object
+      properties:
+        symbol:
+          title: Currency symbol
+          type: string
+          description: >-
+            This is a symbol of the cryptocurrencies or securities held within
+            the fund. Example of bitcoin the symbol is BTC.
+        amount:
+          title: Amount
+          type: number
+          description: The amount of each cryptocurrency or tokenized asset.
+
+    Holdings:
+      title: Holdings
+      required:
+        - holdings
+      type: object
+      properties:
+        holdings:
+          title: Holdings
+          type: array
+          items:
+            $ref: '#/components/schemas/Holding'
+      description: >-
+        A holding is the first level view of the entire holdings across all funds held by customer.
+      example:
+        total_count: 3
+        holdings:
+          - code: BTC
+            amount: 4266
+          - code: ETH
+            amount: 1077
+          - code: USDT
+            amount: 500451
+
+    Transfer:
+      title: Transfer
+      required:
+        - fund_id
+        - counterparty
+        - amount
+        - expires
+      type: object
+      properties:
+        fund_id:
+          title: Fund ID
+          type: string
+        counterparty_id:
+          title: Counterparty ID
+          type: string
+          description: The counterparty that the transfer will be executed with.
+        reference:
+          title: Reference
+          type: string
+        benefit_of:
+          title: Benefit of
+          type: string
+        account_no:
+          title: Account number
+          type: string
+        expires:
+          title: Expiration time
+          type: string
+          description: The time in Epoch when the transfer will expire if it doesn't get approved by the custodians.
+        send:
+          title: Send
+          allOf:
+            - $ref: '#/components/schemas/CurrencyAmount'
+          description: >-
+            This is the type and amount of cryptocurrency send from initiating
+            Principal to Beneficiary. This is defined as 'symbol' within the
+            Fund schema.
+      example:
+        fund_id: 2sa7dD1K8unLQtaZgx49s
+        counterparty_id: 49sqNhcN8qKAiwJPSBBVea1wXN2sa7dD1K8unLQtaZgx
+        expires: 1640998800
+        benefit_of: John Smith
+        account_no: 123-XX
+        reference: CX15R99XX
+        send:
+          symbol: BTC
+          amount: 800
+
+    Withdrawal:
+      title: Withdrawal
+      required:
+        - fund_id
+        - address
+        - amount
+        - expires
+      type: object
+      properties:
+        fund_id:
+          title: Fund ID
+          type: string
+        address:
+          title: Address
+          type: string
+          description: The withdrawal address
+        reference:
+          title: Reference
+          type: string
+        benefit_of:
+          title: Benefit of
+          type: string
+        account_no:
+          title: Account number
+          type: string
+        expires:
+          title: Expiration time
+          type: string
+          description: The time in Epoch when the transfer will expire if it doesn't get approved by the custodians.
+        send:
+          title: Send
+          allOf:
+            - $ref: '#/components/schemas/CurrencyAmount'
+          description: >-
+            This is the type and amount of cryptocurrency send from initiating
+            Principal to Beneficiary. This is defined as 'symbol' within the
+            Fund schema.
+      example:
+        fund_id: 2sa7dD1K8unLQtaZgx49s
+        address: mkLaDxYkiaYWfmPf3NdnrMCTNu9ZcpHgd6
+        expires: 1640998800
+        benefit_of: John Smith
+        account_no: 123-XX
+        reference: CX15R99XX
+        send:
+          symbol: BTC
+          amount: 800
+
+
+    User:
+      title: User
+      required:
+        - user_id
+        - firstName
+        - lastName
+        - phone
+        - email
+        - space_admin
+        - status
+      type: object
+      properties:
+        user_id:
+          title: User ID
+          type: string
+          description: User ID
+        firstName:
+          title: User first name
+          type: string
+          description: User first name.
+        lastName:
+          title: User last name
+          type: string
+          description: User last name.
+        email:
+          title: User email
+          type: string
+          description: User email address.
+        phone:
+          title: User mobile number
+          type: string
+          description: User mobile number address.
+          default: ''
+        space_admin:
+          title: Space admin
+          type: boolean
+          description: >-
+            This declares whether a user is an admin or not. Users with admin
+            privledges can create trading spaces.
+        status:
+          title: User status
+          type: integer
+          description: >-
+            User Status will note the stage at which each end user is during the
+            signup process. Example, 0 is not invited, 1 sends an invite, etc.
+
+
+    InviteUser:
+      title: InviteUser
+      required:
+        - recipient_email
+        - sender_id
+        - space_admin
+      type: object
+      properties:
+        recipient_email:
+          title: Recipient email
+          type: string
+          description: The email of the user to be invited
+        sender_id:
+          title: Sender ID)
+          type: string
+          description: >-
+            The ID of the sender of the invitation whose first and last names
+            will be included in the invitation.
+        space_admin:
+          title: Space admin
+          type: boolean
+          description: >-
+            This declares whether a user is an admin or not. Users with admin
+            privledges can create trading spaces.
+      example:
+        recipient_email: palpatine@empire.com
+        sender_id: '324sdw34fsvdsf234'
+        space_admin: true
+
+    UserList:
+      title: UserList
+      required:
+        - company_id
+        - total_count
+        - list
+      type: object
+      properties:
+        company_id:
+          title: Company id
+          type: string
+          description: The company id.
+        total_count:
+          title: Total count
+          type: integer
+          description: The total number of users.
+        list:
+          title: List
+          type: array
+          items:
+            type: object
+            properties:
+              user_id:
+                title: User ID
+                type: string
+                description: User ID
+              firstName:
+                title: User first name
+                type: string
+                description: User first name.
+              lastName:
+                title: User last name
+                type: string
+                description: User last name.
+              email:
+                title: User email
+                type: string
+                description: User email address.
+              phone:
+                title: User mobile number
+                type: string
+                description: User mobile number address.
+                default: ''
+              space_admin:
+                title: Space admin
+                type: integer
+                description: >-
+                  This declares whether a user is an admin or not. Users with admin
+                  privledges can create trading spaces.
+              status:
+                title: User status
+                type: integer
+                description: >-
+                  User Status will note the stage at which each end user is during the
+                  signup process. Example, 0 is not invited, 1 sends an invite, etc.
+      example:
+        company_id: 1dnoxz93UT3Pw6SgFCanv9xbHFr
+        total_count: 1
+        list:
+          - user_id: 2mZUKu9rH49HfRN7pAfsVT428dp2rnBX8v1Xob25KXq1
+            username: jdoe42
+            firstName: Jane
+            lastName: Doe
+            email: bbb@bbb
+            phone: bbb
+            space_admin: false
+            status: '{"email": 103, "mobile": 3}'
+
+
+    UserUpdate:
+      title: UserUpdate
+      required:
+        - space_admin
+      type: object
+      properties:
+        space_admin:
+          title: Space admin
+          type: integer
+          description: >-
+            This declares whether a user is an admin or not. Users with admin
+            privledges can create trading spaces.
+      example:
+        space_admin: 1
+
+    UserNewList:
+      title: UserNewList
+      required:
+        - list
+      type: object
+      properties:
+        list:
+          title: List
+          type: array
+          items:
+            $ref: '#/components/schemas/InviteUser'
+
+    UserNewListResponse:
+      title: UserNewListResponse
+      required:
+        - created
+      type: object
+      properties:
+        created:
+          title: Created
+          type: array
+          items:
+            $ref: '#/components/schemas/UserNewResponse'
+
+    UserNewResponse:
+      title: UserNewResponse
+      required:
+        - user_id
+      type: object
+      properties:
+        email:
+          title: User email
+          type: string
+          description: User email
+          default: ''
+        user_id:
+          title: User ID
+          type: string
+          description: User ID
+
+    CompanySearchResponse:
+      title: CompanySearchResponse
+      type: object
+      x-examples:
+        search result:
+          total_count: 2
+          matches:
+            - company_id: 1bzn0aBdpqSVJ1KPzUk4T7rIPym
+              name: ACME Corpdsxcvdfg44
+              domain: acmeds4xcvdfg4.com
+            - company_id: 1bzn6ex7fRxKQsSqCJDDpyb4uaS
+              name: ACME Corp
+              domain: acme.com
+      description: ''
+      properties:
+        total_count:
+          type: integer
+        matches:
+          type: array
+          items:
+            type: object
+            properties:
+              company_id:
+                type: string
+              name:
+                type: string
+              domain:
+                type: string
+
+    AddCustodygroup:
+      title: AddCustodygroup
+      type: object
+      properties:
+        name:
+          type: string
+        threshold:
+          type: integer
+        policy_withdraw:
+          type: boolean
+        policy_tx:
+          type: boolean
+        custodians:
+          type: array
+          items:
+            type: string
+      x-examples:
+        example:
+          name: custodyasadsd1
+          threshold: 1
+          policy_withdraw: true
+          policy_tx: true
+          custodians:
+            - AAA778f3DQRUZ7vzk3AJwk3o7w4gdEVSnRZ8oZuQBP3E
+
+    AddCustodygroupResponse:
+      title: AddCustodygroupResponse
+      type: object
+      x-examples:
+        example:
+          custodygroup_id: 1cS2pWoU4E8cRAKDHaAj5S5igNJ
+          name: custodyasadsd1
+      properties:
+        custody_group_id:
+          type: string
+        name:
+          type: string
+
+    Custodygroup:
+      title: Custodygroup
+      type: object
+      properties:
+        id:
+          type: string
+        threshold:
+          type: integer
+        members_count:
+          type: integer
+        members:
+          type: array
+          items:
+            $ref: '#/components/schemas/CustodygroupMember'
+      x-examples:
+        example:
+          id: 1dnpFwNt4D3boBi9UaoEZIwUmbe
+          threshold: 1
+          members_count: 0
+          members:
+            - user_id: AAA778f3DQRUZ7vzk3AJwk3o7w4gdEVSnRZ8oZuQBP3E
+              firstName: George
+              lastName: Lucas
+
+
+    CustodygroupMember:
+      title: Custodygroup Member
+      type: object
+      properties:
+        user_id:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+      example:
+        user_id: AAA778f3DQRUZ7vzk3AJwk3o7w4gdEVSnRZ8oZuQBP3E
+        firstName: Peter
+        lastName: Jackson
+
+    CustodygroupSearchResult:
+      title: CustodygroupSearchResult
+      type: object
+      properties:
+        total_count:
+          type: integer
+        list:
+          type: array
+          items:
+            type: object
+            properties:
+              custody_group_id:
+                type: string
+              fund_id:
+                type: string
+              name:
+                type: string
+      example:
+        total_count: 2
+        List:
+          - custody_group_id: 1dnpFwNt4D3boBi9UaoEZIwUmbe
+            fund_id: 1dnpG2K2A5hMOVjGFl1DrsbnvmS
+            name: Fund 1 Withdraw policy
+          - custody_group_id: 1dnpG345BSkYA2nrTCRxAiRN0sE
+            fund_id: 1dnpG2K2A5hMOVjGFl1DrsbnvmS
+            name: Fund 1 Tx policy
+
+      description: ''
+    Permissions:
+      title: Permissions of the member
+      type: object
+      properties:
+       admin:
+        type: boolean
+       withdraw:
+        type: boolean
+       transfer:
+        type: boolean
+       swap:
+        type: boolean
+      description: >-
+        A map of permissions
+
+    TxInfo:
+      title: Custodygroup
+      type: object
+      properties:
+        approver_count:
+          type: integer
+        expires:
+          type: integer
+        initiated_timestamp:
+          type: integer
+        initiator_authorized:
+          type: boolean
+        initiator_name:
+          type: string
+        reference:
+          type: string
+        status:
+          type: array
+          items:
+            type: object
+            properties:
+              action_id:
+                type: string
+              first_name:
+                type: string
+              last_name:
+                type: string
+              status:
+                type: string
+              timestamp:
+                type: integer
+              user_id:
+                type: string
+              username:
+                type: string
+        status_details:
+          type: object
+          properties:
+            account_no:
+              type: string
+            amount:
+              type: integer
+            asset:
+              type: string
+            benefit_of:
+              type: string
+            expires:
+              type: integer
+            fees:
+              type: integer
+            fund_id:
+              type: string
+            net_amount:
+              type: integer
+            recipient_address:
+              type: string
+            recipient_email:
+              type: string
+            recipient_first_name:
+              type: string
+            recipient_last_name:
+              type: string
+            recipient_username:
+              type: string
+            reference:
+              type: string
+            requested_by:
+              type: string
+        threshold_required:
+          type: integer
+        tx_id:
+          type: string
+        tx_status:
+          type: string
+      example:
+        approvedCount: 1
+        expires: 1640998800
+        initiatedTimestamp: 1594281300
+        initiatorAuthorized: true
+        initiatorName: SW Corp
+        reference: CX15R99XX
+        status:
+          - actionID: 1eRPBxd9w6WrooxkquWmirbo4oL
+            firstName: Han
+            lastName: Solo
+            status: approved
+            timestamp: 1594281312
+            userID: 3fyHm7e3hsbSXBs1yjpzMaesirXPhqcz8kM7zgafmZef
+            username: hsolo
+        statusDetails:
+          accountNo: 123-XX
+          amount: 801
+          asset: BTC-TESTNET
+          benefitOf: Ben Kenobi
+          expires: 0
+          fees: 1
+          fundID: 1ePK2dtLnpocC9uRuy3DlNC7zXd
+          netAmount: 800
+          recipientAddress: ""
+          recipientEmail: han@falcon.com
+          recipientFirstName: Han
+          recipientLastName: Solo
+          recipientUsername: hsolo
+          reference: CX15R99XX
+          requestedBy: SW Corp
+        thresholdRequired: 1
+        txID: 1eRPC44MjhRI3sJ6UzzjYio5ulu
+        txStatus: approved
+
+tags:
+  - name: Company
+    description: Qredo Partner's customer
+    externalDocs:
+      description: Find out more
+      url: 'https://docs.qredo.network'
+  - name: TrustedNetwork
+    description: Operations on customer's trusted parties
+    externalDocs:
+      description: Find out more
+      url: 'https://docs.qredo.network'
+  - name: Holding
+    description: Obtain data on holdings
+    externalDocs:
+      description: Find out more
+      url: 'https://docs.qredo.network'
+  - name: Fund
+    description: Operations on customer's funds
+    externalDocs:
+      description: Find out more
+      url: 'https://docs.qredo.network'
+  - name: Transfer
+    description: Operations on customer's transfers
+    externalDocs:
+      description: Find out more
+      url: 'https://docs.qredo.network'
+  - name: Withdrawal
+    description: Operations on customer's withdrawals
+    externalDocs:
+      description: Find out more
+      url: 'https://docs.qredo.network'
