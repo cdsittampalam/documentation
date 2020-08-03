@@ -46,7 +46,7 @@ The Partner API is used together with the Qredo Web app and the Qredo Mobile app
 
 Users that are added as Trusted Parties need to have been registered on Qredo via the Qredo Web app. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
 
-The Partner API only permits custodian approvals from the Qredo Mobile app. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Mobile app. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
+The Partner API only permits custodian approvals from the Qredo Mobile app. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Mobile app. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app.
 
 ![ledger](/doc-images/apprtransfer.png)
 
@@ -55,14 +55,14 @@ Sign Up for the Partner API
 
 1. Go to **Settings** > **Partner API**.  
 
-![Billing](/doc-images/partnerapi3.png)
+![Billing](/doc-images/partnerapi2.png)
 
 3. Read through the descriptions on the API and click **Apply**.
 4. Fill out the form to apply for the Partner API and click **Submit.**
 
-After a confirmation message appears with the **Generate Key** button for connecting to the API.
+After a confirmation message appears, the Partner API screen shows the **Generate Key** button for connecting to the API.
 
-![partnerapi](/doc-images/generatekeyimage1.png)
+![partnerapi](/doc-images/generatekeyimage.png)
 
 Connect to the Partner API
 --------------------------

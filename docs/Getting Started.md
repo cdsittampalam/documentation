@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network with your Qredo web app and the Qredo mobile app. 
+You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network using the Qredo web app and the Qredo mobile app. 
 
 ![Page1](/doc-images/page1.png)
 
@@ -28,9 +28,10 @@ Click **Continue**.  The Establish your Qredo Identity screen appears.
 
 1. Enter your details in:
 
-    -  **Full name**
-    -  **Email address**
-    -  **Mobile number**
+    -  **First Name**
+    -  **Last Name**
+    -  **Email Address**
+    -  **Mobile Number**
 
     :::info
     You can enter a private or work email address. If you have been invited, you can use the email address where you received the invitation.
@@ -59,8 +60,9 @@ The password must contain:
 ![t+c](/doc-images/tandc.png)
 
 1. Read the terms and conditions on this page around GDPR compliance and data privacy.
-2. To move to the next screen, tick the box and click **Accept & Continue** (see [Validate email address](#validate-email-address).
-3. To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
+2. To move to the next screen, tick the box to show that you have read the terms and conditions.
+3. Click **Agree and Continue** (see [Validate email address](#validate-email-address).
+4. To view the full terms and conditions, click the arrow next to **View full terms and conditions**.
 
 ### View Full Terms and Conditions
 
@@ -68,7 +70,8 @@ You can download the full terms and conditions if you need to distribute and pri
 
 1.  To download the terms and conditions, click **Download**.
 2.  To view the terms and conditions as a PDF file in another browser page or tab, click **Copy Link**.
-3.  Tick the box and click **Accept & Continue**. The Validate your email address screen shows.
+3.  Tick the box to show that you have read the terms and conditions. 
+4.  Click **Agree and Continue**. The Validate your email address screen shows.
 
 ### Validate Email Address
 
@@ -195,7 +198,7 @@ When all entries are correct, the screen shows as follows:
 
 Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the mobile app.
 
-You are now ready to sign in for the first time.
+You are now ready to sign in for the first time from the Qredo web app.
 
 Signing in for the first time allows you to use the apps for managing funds and transactions.
 
@@ -203,7 +206,7 @@ Sign In Steps
 -------------
 
 1.  Tap **Sign In**. A log in screen appears.
-2.  Enter your details in **Email address or alias** and **Password**.
+2.  Enter your details in **Email Address or Network Alias** and **Password**.
 
 ![wabsign](/doc-images/websign.png)
 

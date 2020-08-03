@@ -98,9 +98,14 @@ If you do not have a withdrawal address, you need to create one before the trans
 6.  To set up a withdraw address on an asset, choose an asset from the **Asset** list and click the **Add Withdrawal Address** button. The same screen appears.
 7.  In the Add Withdrawal Address screen, select the fund that you want to add the address to in **Source Fund**.    
 8.  Choose the asset type in **Asset**.    
-9.  Enter a name for the wallet in **Wallet Name**.    
-10.  Type in the wallet address in **Wallet Address**.    
-11.  Click **Continue**. See Authorise an Address (Trade Initiator) below.
+9.  Enter a name for the wallet in **Wallet Name**.   
+
+:::note
+Ensure that the wallet name does not include spaces.
+:::
+ 
+10. Type in the wallet address in **Wallet Address**.    
+11. Click **Continue**. See Authorise an Address (Trade Initiator) below.
 
 ### Authorise Address (Trade Initiator)
 
@@ -172,7 +177,7 @@ These include:
      * Withdraw wallet address   
 
 :::info
-The Blockchain miner's fee covers the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
+The Blockchain miner's fee is the reward paid to miners for the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
 :::
 
 1. To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
