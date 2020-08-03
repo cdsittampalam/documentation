@@ -163,7 +163,7 @@ function Hello() {
   return (
     <Layout title="Hello">
       <RedocStandalone
-        specUrl="/swagger-3-0-2.yaml"
+        specUrl="/swagger.yaml"
         options={{ theme: defaultTheme }}
       />
     </Layout>
