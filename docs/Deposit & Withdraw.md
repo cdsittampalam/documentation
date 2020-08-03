@@ -319,7 +319,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 *   APPROVED - The transactions have been approved by all the custodians.
 *   REJECTED - The transactions have been rejected by all the custodians.
-*   EXPIRED - The time set for custodian approval has expired.
+*   EXPIRED - The time set for custodian approval on the transaction has expired.
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
@@ -344,7 +344,7 @@ TX Ledger shows the following details:
 | AMOUNT |The amount of the transaction and the type of asset.|
 | REFERENCE | Reference number of the transaction. This number can be used when contacting support at Qredo. |
 | RECIPIENT | Recipient of the asset. For a withdrawal, this is the name you assigned for that withdrawal. |
-| EXPIRES | Expiry date of a transaction that is awaiting approval from a custodian, or authorisation from the trade initiator.|
+| EXPIRES | Expiry date of a transaction that is awaiting approval from the custodians.|
 | STATUS  | The status of the transaction as AWAITING APPROVAL (if the custodians have not responded). The status also shows as AWAITING AUTHORISATION (if not yet authorised).
 
 If the custodians have approved the transaction, the status is set to COMPLETE. If custodians have signed the transaction and it has not successfully completed (written to the Qredo blockchain) because it did not meet the threshold level, the status is set to THRESHOLD NOT MET. If the transaction has been rejected by all custodians, the status is set to REJECTED.
