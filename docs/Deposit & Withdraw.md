@@ -267,8 +267,8 @@ The Pending sub tab shows these fields and pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   APPROVED   
-*   REJECTED
+*   APPROVED - The transaction has been approved by the custodians.
+*   REJECTED - The transaction has been rejected by the custodians.
 
 The following is an example entry showing a pending approval with the status of APPROVED:
 
@@ -293,8 +293,8 @@ The pending tab shows these fields and pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the transaction approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   APPROVED - The transactions has been approved by all the custodians.
-*   REJECTED - The transactions has been rejected by all the custodians.
+*   APPROVED - The transactions have been approved by all the custodians.
+*   REJECTED - The transactions have been rejected by all the custodians.
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
@@ -317,8 +317,8 @@ The pending tab shows these fields and pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the custodian approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   APPROVED - The transactions has been approved by all the custodians.
-*   REJECTED - The transactions has been rejected by all the custodians.
+*   APPROVED - The transactions have been approved by all the custodians.
+*   REJECTED - The transactions have been rejected by all the custodians.
 *   EXPIRED - The time set for custodian approval has expired.
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:

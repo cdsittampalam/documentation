@@ -165,8 +165,8 @@ The Pending tab shows pending approvals.
 
 The Actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the transaction approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   AUTHORISED
-*   IGNORED
+*   AUTHORISED - The transactions have been authorised by the trade initiator.
+*   IGNORED - The transactions have been ignored.
 
 ![transaction](/doc-images/trapr3.png)
 
@@ -187,9 +187,9 @@ The pending tab shows these fields and pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the custodian approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   APPROVED   
-*   REJECTED
-*   EXPIRED
+*   APPROVED - The transaction has been approved by the custodians.
+*   REJECTED - The transaction has been rejected by the custodians.
+*   EXPIRED -  The time set for custodian approval has expired.
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
