@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network using the Qredo web app and the Qredo mobile app. 
+You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network using the Qredo web app and the .
 
 ![Page1](/doc-images/page1.png)
 
@@ -70,7 +70,7 @@ You can download the full terms and conditions if you need to distribute and pri
 
 1.  To download the terms and conditions, click **Download**.
 2.  To view the terms and conditions as a PDF file in another browser page or tab, click **Copy Link**.
-3.  Tick the box to show that you have read the terms and conditions. 
+3.  Tick the box to show that you have read the terms and conditions.
 4.  Click **Agree and Continue**. The Validate your email address screen shows.
 
 ### Validate Email Address
@@ -79,13 +79,13 @@ You can download the full terms and conditions if you need to distribute and pri
 
 You would have received an email from Qredo containing an evaluation code.
 
-Type in the code in **Email address validation code**. The page for downloading the mobile app shows.
+Type in the code in **Email address validation code**. The page for downloading the Qredo Signing app shows.
 
 ### Download Phone App
 
 ![download](/doc-images/dload.png)
 
-An SMS is sent to your phone that contains a link to the mobile app on the app store. The SMS should arrive promptly.
+An SMS is sent to your phone that contains a link to the Qredo Signing app on the app store. The SMS should arrive promptly.
 
 When you have downloaded the mobile app, a splash screen of the app appears as follows:
 
@@ -110,7 +110,7 @@ For more details, see [Master Seed Steps](#master-seed-steps).
 
 ### Sign In
 
-Once you have set up the mobile app with the master seed, you can sign in for the first time.
+Once you have set up the Qredo Signing app with the master seed, you can sign in for the first time.
 
 For more details, see [Sign In Steps](#sign-in)
 
@@ -196,7 +196,7 @@ When all entries are correct, the screen shows as follows:
 
 ### Completion
 
-Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the mobile app.
+Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the Qredo Signing app.
 
 You are now ready to sign in for the first time from the Qredo web app.
 
@@ -213,7 +213,7 @@ Sign In Steps
 3.  To ensure that you do not need to enter your details again the next time you open the web app, observe **Remember Me**.   
 4.  Tap **Sign In**.
 
-Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the mobile app. A message appears.
+Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the Qredo Signing app. A message appears.
 
 ![signin](/doc-images/1signinconf.png)
 
