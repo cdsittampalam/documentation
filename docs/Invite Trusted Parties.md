@@ -20,7 +20,7 @@ Invite from Qredo
 
 You enter an email address for a user on the Qredo Network. The email address must match that held in the database for an existing user to be added. If the email address does not match, you will need to find out their correct email address and enter it again.
 
-1. From any of the web app screens, click the **Trusted Network** icon:
+1. From any of the Qredo Wallet app screens, click the **Trusted Network** icon:
 
    ![Trusted Network Button](/doc-images/button-trustednetwork.png)
 
