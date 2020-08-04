@@ -2,21 +2,21 @@
 id: Getting Started
 ---
 
-You start the process of registering with Qredo from the web app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network using the Qredo web app and the .
+You start the process of registering with Qredo from the Qredo Wallet app.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network using the Qredo Web app and the Qredo Signing apps.
 
 ![Page1](/doc-images/page1.png)
 
 There are 3 sets of steps as follows:
-1. [Web app steps](#web-app-steps)
-2. [Phone setup steps](#phone-steps)
-3. [Sign in steps](#sign-in-steps)
+1. [Wallet app steps](#wallet-app-steps)
+2. [Signing app steps](#signing-app-steps)
+3. [Login steps](#login-steps)
 
-The [Navigation](#navigation) section shows you the main sections of the web app for launching your tasks.
+The [Navigation](#navigation) section shows you the main sections of the Qredo Wallet app for launching your tasks.
 
-Web App Steps
+Wallet App Steps
 -------------
 
-The web app steps include steps for registration.
+The Qredo Wallet app steps include steps for registration.
 
 ### Start Registration
 
@@ -104,7 +104,7 @@ For more information, see [Pairing Steps](#pairing-steps).
 
 ### Create Master Seed
 
-Once you have paired your phone with the web app, you are prompted to create your master seed. The master seed is an important security feature that bonds your Qredo identify to your phone.
+Once you have paired your phone with the Qredo Wallet app, you are prompted to create your master seed. The master seed is an important security feature that bonds your Qredo identify to your phone.
 
 For more details, see [Master Seed Steps](#master-seed-steps).
 
@@ -114,13 +114,13 @@ Once you have set up the Qredo Signing app with the master seed, you can sign in
 
 For more details, see [Sign In Steps](#sign-in)
 
-Phone Steps
+Signing App Steps
 -----------
 
-The phone steps include pairing and master seed steps.
+The signing app steps include pairing and master seed steps.
 
 ### Pairing Steps
-Once you have downloaded the phone app, you are ready to pair your phone with the web app. You will see a landing page for the mobile app on your phone.
+Once you have downloaded the Qredo Signing app, you are ready to pair your phone with the Qredo Wallet app. You will see a landing page for the mobile app on your phone.
 
 You scan a QR-code on the web app through your phone’s camera, which pairs the phone with the mobile app. The pairing process ensures that only your phone can be used together with the web app. The unique QR-code that shows on the web app can only be used once.
 
@@ -198,11 +198,11 @@ When all entries are correct, the screen shows as follows:
 
 Once set up, tap **Confirm** and then **Continue**. A screen appears to show that you have reached the end of the setup process for the Qredo Signing app.
 
-You are now ready to sign in for the first time from the Qredo web app.
+You are now ready to sign in for the first time.
 
 Signing in for the first time allows you to use the apps for managing funds and transactions.
 
-Sign In Steps
+Login Steps
 -------------
 
 1.  Tap **Sign In**. A log in screen appears.
@@ -213,7 +213,7 @@ Sign In Steps
 3.  To ensure that you do not need to enter your details again the next time you open the web app, observe **Remember Me**.   
 4.  Tap **Sign In**.
 
-Once you have signed in to the web app, you are requested by Qredo to authenticate yourself which automatically signs you in to the Qredo Signing app. A message appears.
+Once you have signed in to the Qredo Wallet app, you are requested by Qredo to authenticate yourself which automatically signs you in to the Qredo Signing app. A message appears.
 
 ![signin](/doc-images/1signinconf.png)
 
@@ -231,7 +231,7 @@ See [Fund Administration](/docs/Fund%20Administration) for more details on funds
 Navigation
 ----------
 
-The screens of the web app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
+The screens of the Qredo app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
 
 |     |     |
 | --- | --- |

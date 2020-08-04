@@ -21,7 +21,7 @@ Summary of Steps
 * To familiarise yourself with the main web page on funds, you can [view the Holdings page](#view-the-holdings-page).
 * To find out how a fund works, you can [view Fund One](#view-fund-one) to see different parts of a fund.
 * Fund One contains a default asset of Bitcoin Testnet. However, you can [change the default settings](#change-default-settings)
-* If you are familiar with funds in Qredo, you can do the steps in the [create a fund wizard](#create-a-fund-wizard) 
+* If you are familiar with funds in Qredo, you can do the steps in the [create a fund wizard](#create-a-fund-wizard)
 
 View the Holdings Page
 ----------------------
@@ -84,7 +84,7 @@ Within the Custody section, you can also click the Withdrawal Policy and TX Poli
 
 #### Withdrawal Policy and TX Policy Tabs
 
-The Withdrawal and TX tabs include custody policies comprising of custodians and the associated threshold levels for withdrawals and transfers. Withdrawals and transfers can have different custodians and threshold levels. 
+The Withdrawal and TX tabs include custody policies comprising of custodians and the associated threshold levels for withdrawals and transfers. Withdrawals and transfers can have different custodians and threshold levels.
 
 In the example of Fund A, Bob, Dave, and Alice are custodians in a fund. However, not all of them are custodians for both policies. Each policy contains a set threshold level.
 
@@ -137,7 +137,7 @@ Create a Fund Wizard
 
 The Create a Fund wizard takes you through the steps for creating a fund. Each fund you create consists of assets. You can also set the same or different custodians for withdrawal and transfer policies.
 
-When you select custodians, you can also choose the threshold level. 
+When you select custodians, you can also choose the threshold level.
 
 You can repeat the steps to create multiple funds differentiated by the asset type and/or group of custodians.
 
