@@ -16,15 +16,15 @@ Summary of Steps
   - [review transfer](#review-transfer)
   - [start transfer](#start-transfer)
   - [authorise transfer](#authorise-transfer)
-
-- As the custodian, you can [approve the transfer](#approve-transfer).
+  
+- As the custodian, you can [approve the transfer](#approve-transfer). 
 
 You can [track progress](#track-progress) in different ways.
 
 Create Transfer
 ---------------
 
-The Qredo Wallet app consists of a wizard that lets you transfer a specific amount to a Qredo user. You must ensure that you enter the correct asset, amount, counterparty, and fund for the transfer.
+The Qredo app consists of a wizard that lets you transfer a specific amount to a Qredo user. You must ensure that you enter the correct asset, amount, counterparty, and fund for the transfer.
 
 You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 
@@ -119,7 +119,7 @@ You can also view other details linked to the transaction under the Show Detail 
 *   the name, beneficiary name, email address, network alias, and account number of the recipient.
 *   the email address and network alias of the trade initiator.
 *   the date and time in which the transfer was initiated.
-*   details of the Qredo fee. Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred.
+*   details of the Qredo fee. Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred. 
 
 1.  Tap on the notification on your phone. The Transfer screen shows.
 2.  Click **Show Details** to view more details of the transaction.
@@ -139,7 +139,7 @@ Details that can be tracked include the following:
 * [transaction approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians.
 * [custodian approvals](#custodian-approvals) specifically for the fund of the transaction.
 * [transactions in Ledger View](#transfer-progress) for all funds under your account.
-* [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view.
+* [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view. 
 
 
 ### Transaction Approvals
@@ -240,3 +240,4 @@ The following shows an example summary status of a completed transfer:
 :::info
 Clicking the downward arrow in the screen shows more details of the transaction, such as the amount of the asset and the fund.
 :::
+

@@ -90,7 +90,7 @@ The Qredo Network consists of computers that are categorised as nodes or service
 
 #### User and App
 
-A Qredo user adds data to a web app, e.g., for a transaction. For example, a principal enters options to transfer money to another user. Custodians, using the Qredo Signing app on their phones, approve or reject the transaction. The approval or rejection unlocks digital signatures in the app.
+A Qredo user adds data to the Qredo Signing app, e.g., for a transaction. For example, a principal enters options to transfer money to another user. Custodians, using the Qredo Signing app on their phones, approve or reject the transaction. The approval or rejection unlocks digital signatures in the app.
 
 #### Qredo Server
 

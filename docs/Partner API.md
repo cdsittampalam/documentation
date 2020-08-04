@@ -36,7 +36,7 @@ Where to Go?
 * Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api).
 * [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in the demo environment.
 * Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide).
-* Refer to the [Reference Docs](https://api) [Swagger UI](https://partner-api.qredo.network/) to help you test and develop knowledge.
+* Refer to the [Reference Docs](https://api) to help you test and develop knowledge.
 * [Set up the Live](#set-up-live) environment once ready to Go-Live.
 
 Using the Qredo Apps
@@ -91,22 +91,15 @@ If you have lost your API key, you can return to the Settings page to generate a
 2.  Click **Copy** in the New Partner API Key screen.
 :::
 
-### Add Key to Demo Environment
+### Add Key to your Development Environment
 
-Once you have generated the API key, you add it to the demo environment area in the Swagger UI. The key is written to HTTP headers for connecting securely to the endpoints in the demo environment.
+Once you have generated the API key, you add it to your develoment environment. The key is written to HTTP headers for connecting securely to the endpoints in the demo environment.
 
-The following is an example request header in cURL format (obtainable from the Swagger UI):
+The following is an example request header in cURL format.
 
 ```
 curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ```
-
-1. Access the Partner API at https://partner-api.qredo.network/.
-2. Choose the URL:
-   - Copy this URL to the address bar: [https://demo-api.qredo.net/api/v1/p]. Or,
-   - select [https://demo-api.qredo.net(BasePath)] - **Demo Server** from the server list.
-3. Click **Authorise**.
-4. Paste the generated API key in the box.
 
 API Endpoints
 -------------
@@ -381,7 +374,7 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5
 Set Up Live
 -----------
 
-As well as the API key, you generate a public key that is added to the Swagger UI. The public key allows a signature to be generated for signing each request, and is applicable to these areas:
+As well as the API key, you generate a public key. The public key allows a signature to be generated for signing each request, and is applicable to these areas:
 
 * the URL of the full path.
 * the nonce (or number) that is generated for cryptographic purposes.
