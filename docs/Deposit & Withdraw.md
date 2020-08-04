@@ -24,13 +24,13 @@ For withdrawals, a trade initiator can:
   - [create a transaction](#create-transaction)
   - [track progress](#track-progress) in different ways
 
-A custodian that is nominated can [approve a withdrawal](#approve-withdrawal) 
+A custodian that is nominated can [approve a withdrawal](#approve-withdrawal)
 
 View Deposit Addresses
 ----------------------
 
 The default fund and asset that you have set up includes a deposit address, which is the cryptocurrency wallet address that is linked to a Qredo fund. However, any
-fund that you create is linked to a deposit address. The address is securely created using the MPC protocol. 
+fund that you create is linked to a deposit address. The address is securely created using the MPC protocol.
 
 You are notified when money arrives at your address via an email.
 
@@ -38,7 +38,7 @@ You are notified when money arrives at your address via an email.
 
 ![coins](/doc-images/coins.png)
 
-![Ledger](/doc-images/ledger.png) 
+![Ledger](/doc-images/ledger.png)
 
 The following shows address entries in Asset view.
 
@@ -83,7 +83,7 @@ If you do not have a withdrawal address, you need to create one before the trans
 
 ![coins](/doc-images/coins.png)
 
-![Ledger](/doc-images/ledger.png) 
+![Ledger](/doc-images/ledger.png)
 
 2. Click the **New TX** button. The Select Type window shows.
 
@@ -103,7 +103,7 @@ If you do not have a withdrawal address, you need to create one before the trans
 :::note
 Ensure that the wallet name does not include spaces.
 :::
- 
+
 10. Type in the wallet address in **Wallet Address**.    
 11. Click **Continue**. See Authorise an Address (Trade Initiator) below.
 
@@ -133,7 +133,7 @@ For the action you select, you then sign in with your biometric features and 6-d
 Create Transaction
 ------------------
 
-For withdrawing money, the Qredo app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination cryptocurrency address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal. You also set the date and time or number of days for custodian approval, according to the length of your approval process.
+For withdrawing money, the Qredo Wallet app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination cryptocurrency address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal. You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 You review and approve the transaction before a custodian is notified.
 
 You are also notified when a withdraw transaction is complete via an email.
@@ -242,9 +242,9 @@ These include details of:
 * [transaction approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians.
 * [custodian approvals](#custodian-approvals) specifically for the fund of the transaction.
 * [transactions in Ledger View](#transaction-view-ledger) for all funds under your account.
-* [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view. 
+* [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view.
 
-:::info 
+:::info
 Transactions in Ledger view includes both those that are pending, and those that have been written to the blockchain.
 :::
 
@@ -363,7 +363,7 @@ For both the Approval and Ledger view, a summary screen shows details of the pro
 
 The following shows an example summary status of a completed withdrawal:
 
-![Withdraw Complete](/doc-images/Withconfirm.png) 
+![Withdraw Complete](/doc-images/Withconfirm.png)
 
 1. Click the Ledger or Approval view icon.
 2. In Approval view, access the Transaction or Custody tab and click the three buttons at the end of a table row.
