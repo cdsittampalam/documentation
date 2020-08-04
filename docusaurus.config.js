@@ -24,7 +24,13 @@ module.exports = {
           activeBasePath: "docs",
           label: "Docs",
           position: "left",
-        }
+        },
+        {
+          to: "api/",
+          activeBasePath: "api",
+          label: "API",
+          position: "left",
+        },
       ],
     },
     footer: {
@@ -70,14 +76,14 @@ module.exports = {
         },
       ],
       logo: {
-        src: '/img/qredo-logo-horizontal.png',
+        src: "/img/qredo-logo-horizontal.png",
       },
       productLinks: {
-        siteMap: '',
-        termsOfUse: '',
-        privacyCenter: '',
-        contactUs: '',
-        qredoHome: 'https://www.qredo.com/home',
+        siteMap: "",
+        termsOfUse: "",
+        privacyCenter: "",
+        contactUs: "",
+        qredoHome: "https://www.qredo.com/home",
       },
       copyright: `Copyright &copy; ${new Date().getFullYear()} Qredo Support.`,
     },
