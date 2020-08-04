@@ -6,7 +6,7 @@ We can get you back up and running if you are locked out of your account or have
 Forgotten your password?
 ------------------------
 
-Simple request a new password from the login page, you’ll need you Qredo mobile app to authorise any changes to your account.
+Simple request a new password from the login page, you’ll need the Qredo Signing app to authorise any changes to your account.
 
 Lost or stolen Phone?
 ---------------------
