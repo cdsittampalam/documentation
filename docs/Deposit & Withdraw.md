@@ -319,7 +319,7 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 
 *   APPROVED - The transactions have been approved by all the custodians.
 *   REJECTED - The transactions have been rejected by all the custodians.
-*   EXPIRED - The time set for custodian approval on the transaction has exceeded.
+*   EXPIRED - The time and date set for custodian approval on the transaction has exceeded.
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 

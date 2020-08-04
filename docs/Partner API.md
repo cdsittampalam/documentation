@@ -36,7 +36,7 @@ Where to Go?
 * Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api).
 * [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in the demo environment.
 * Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide).
-* Refer to the API using the [Swagger UI](https://partner-api.qredo.network/) to help you test and develop knowledge.
+* Refer to the [Reference Docs](https://api) [Swagger UI](https://partner-api.qredo.network/) to help you test and develop knowledge.
 * [Set up the Live](#set-up-live) environment once ready to Go-Live.
 
 Using the Qredo Apps
