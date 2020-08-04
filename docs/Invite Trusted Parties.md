@@ -10,7 +10,7 @@ Summmary of Steps
   - [invite from Qredo](#invite-from-qredo)
   - [invite from contacts](#invite-from-contacts)
 - As a user already on the Qredo network, you can:
-  - [accept an invite](#accept-an-invite) 
+  - [accept an invite](#accept-an-invite)
   - [reject an invite](#reject-an-invite)
 - As the user who sent the invite, you can [monitor responses](#monitor-responses)
 - Once you have your invite list, you can also [manage your invite list](#manage-invite-list)
@@ -27,10 +27,10 @@ You enter an email address for a user on the Qredo Network. The email address mu
 2. Click the **Add Trusted Party** button on the Trusted Network screen to show the Add Trusted Party screen.
 
 ![Add Trusted](/doc-images/addtrusted.png)
-    
-3. In the Search the Qredo Network section, enter the email address of the user and click **Search**. 
 
-   If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address. 
+3. In the Search the Qredo Network section, enter the email address of the user and click **Search**.
+
+   If the user is on the Qredo Network with that email address, a box appears asking you to confirm pairing with the email address.
 
 ![Add Trusted](/doc-images/AddTrustedConf.png)
 
@@ -54,7 +54,7 @@ In the Add Trusted Party screen, the URL of the Join page appears. This allows a
 Accept an Invite
 ----------------
 
-As a user on the Qredo Network, you would have received an invite on your phone to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
+As a user on the Qredo Network, you would have received an invite on your Qredo Signing app to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
 
 1. Tap on the notification for the invite.
 2. Sign in to the app using the biometric feature of your phone.
@@ -74,7 +74,7 @@ You will then see the following screen indicating that the request has been acti
 Reject an Invite
 ----------------
 
-If you do not want to be part of their network, you can reject their invite. 
+If you do not want to be part of their network, you can reject their invite.
 
 1. To reject the pairing request, tap **Reject** in the Trusted Party screen.
 2. Authenticate using the biometric feature and 6-digit PIN.
