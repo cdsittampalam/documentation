@@ -42,11 +42,11 @@ Where to Go?
 Using the Qredo Apps
 --------------------
 
-The Partner API is used together with the Qredo Web app and the Qredo Mobile app for functions around Trusted Parties and custodians. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer. 
+The Partner API is used together with the Qredo Web app and the Qredo Signing app for functions around Trusted Parties and custodians. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer.
 
 Users that are added as Trusted Parties need to have been registered on Qredo via the Qredo Web app. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
 
-The Partner API only permits custodian approvals from the Qredo Mobile app. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Mobile app. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
+The Partner API only permits custodian approvals from the Qredo Signing app. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Signing app. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
 
 ![ledger](/doc-images/apprtransfer.png)
 
@@ -216,7 +216,7 @@ Using the `company_id` of ACME Corp, you add a user as a trusted party for that 
 
 The response returned from the request indicates that the message is successful.
 
-A trusted party that is a user must have been added to the Qredo Network through the Qredo Desktop app. When adding the trusted party using the below request, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a Returns All trusted parties for a company request.
+A trusted party that is a user must have been added to the Qredo Network through the Qredo Desktop app. When adding the trusted party using the below request, they receive an approval request on the Qredo Signing app. Once approved, you will be able to find the trusted party when running a Returns All trusted parties for a company request.
 
 You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** for John Doe Group in Swagger and the following request:
 
@@ -302,7 +302,7 @@ A fund includes a `threshold` that determines how many custodian signatures from
 
 The response shows an assigned `fund_id` and IDs assigned to each custody group.
 
-This example includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`. As members need to be trusted party users, you add the 'trusted_entity_id' as a value in the '"members"' array. 
+This example includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`. As members need to be trusted party users, you add the 'trusted_entity_id' as a value in the '"members"' array.
 
 The fund is added to the `company_id` of 1fB50nbY9Tw2TT12K6VH46gDKWE.
 
