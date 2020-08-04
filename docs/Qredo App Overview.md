@@ -14,10 +14,10 @@ Built for professional investors, the Qredo Network securely transfers digital a
 ![Main Qredo](/doc-images/QredoS.png)
 
 
-Qredo Web App
+Qredo Wallet App
 -------------
 
-The Qredo web app provides a suite of account management, treasury and trading features making it easy to manage your digital asset portfolios online within the Qredo Network. Set up secure funds to
+The Qredo Wallet app provides a suite of account management, treasury and trading features making it easy to manage your digital asset portfolios online within the Qredo Network. Set up secure funds to
 * secure your client and trading accounts.
 * customise your governance rules.
 * monitor inbound and outbound trade activity.
@@ -42,7 +42,7 @@ The authorisation and approval flow also allows signs in from:
 System Requirements
 -------------------
 
-The Qredo web app runs on Safari, Chrome, Internet Explorer, Firefox, and Opera.
+The Qredo Wallet app runs on Safari, Chrome, Internet Explorer, Firefox, and Opera.
 
 The Qredo Signing App runs on iOS versions of OSX13 and above. Future releases will support Android. These phones must include the biometric capabilities of either the Face ID or Touch ID.
 
