@@ -373,8 +373,8 @@ https://api.qredo.network/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJ
 Set Up Live
 -----------
 
-"For setting up the Partner API on your Live environment, you need to generate a private and public key combination. This allows every request in the API to be 
-signed with a public and private key combination."
+"For setting up the Partner API on your Live environment, you need to generate a private/public keypair. This allows every API request to be 
+signed with your private key and verified by Qredo with a public key you upload to the platform."
 
 ### Generate Key Pair
 
