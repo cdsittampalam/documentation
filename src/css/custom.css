@@ -5,11 +5,12 @@
  * work well for content-centric websites.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-font-color-base: #454545;
+  --ifm-font-color-base: #191919;
+  --ifm-heading-color: #191919;
   --ifm-color-primary: #000000;
   --ifm-color-primary-dark: rgb(7, 7, 7);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -22,7 +23,7 @@
   --ifm-spacing-horizontal: 10px;
   --ifm-footer-background-color: #000000;
   --ifm-footer-title-color: #fff;
-  --ifm-footer-link-color: #B9B9B9;
+  --ifm-footer-link-color: #b9b9b9;
   --ifm-footer-link-hover-color: #fff;
   --ifm-footer-padding-vertical: 0;
   --ifm-footer-padding-horizontal: 0;
@@ -32,24 +33,26 @@
   --ifm-navbar-padding-vertical: 24px;
   --ifm-navbar-height: 91px;
   --ifm-global-radius: 8px;
-  --ifm-table-head-background: #FAFAFA;
-  --ifm-table-border-color: #EEEEEE;
+  --ifm-table-head-background: #191919;
+  --ifm-table-head-color: #fff;
+  --ifm-table-border-color: #b9b9b9;
   --ifm-table-head-font-weight: 500;
   --ifm-code-background: #eee;
   --ifm-code-color: #454545;
   --ifm-code-border-radius: 4px;
   --ifm-code-font-size: 16px;
+  --ifm-table-border-width: 1px;
 
   --ifm-color-success: #007955;
-  --ifm-color-info: #0086A4;
-  --ifm-color-warning: #806C00;
-  --ifm-color-danger: #DF001F;
+  --ifm-color-info: #0086a4;
+  --ifm-color-warning: #806c00;
+  --ifm-color-danger: #df001f;
 
-  --ifm-font-family-base: 'Barlow', sans-serif;
+  --ifm-font-family-base: "Barlow", sans-serif;
 }
 
 .markdown {
-  --ifm-link-color: #C60098;
+  --ifm-link-color: #c30097;
   --ifm-link-hover-color: #830164;
   --ifm-link-decoration: underline;
 }
@@ -80,57 +83,86 @@
 }
 
 .markdown h1 {
-  font-size: 64px;
-  line-height: 80px;
-  font-weight: 500;
+  --ifm-h1-font-size: 54px;
+  --ifm-heading-font-weight: 600;
+  --ifm-heading-line-height: 60px;
+  padding-top: 28px;
+  padding-bottom: 30px;
 }
 
 .markdown h2 {
-  font-size: 56px;
-  line-height: 60px;
-  font-weight: 500;
+  --ifm-h2-font-size: 38px;
+  --ifm-heading-font-weight: 400;
+  --ifm-heading-line-height: 46px;
+  padding-bottom: 6px;
+  padding-top: 28px;
 }
 
 .markdown h3 {
-  font-size: 40px;
-  line-height: 53px;
-  font-weight: 500;
+  --ifm-h3-font-size: 32px;
+  --ifm-heading-font-weight: 300;
+  --ifm-heading-line-height: 38px;
+  padding-top: 36px;
+  padding-bottom: 0;
 }
 
 .markdown h4 {
-  font-size: 32px;
-  line-height: 42px;
-  font-weight: 500;
+  --ifm-h4-font-size: 24px;
+  --ifm-heading-font-weight: 600;
+  --ifm-heading-line-height: 30px;
+  /* As this paddings are set without reseting margin, it cannot be replaced by margin only. */
+  padding-top: 30px;
+  padding-bottom: 0;
 }
 
 .markdown h5 {
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: 600;
+  --ifm-h5-font-size: 18px;
+  --ifm-heading-font-weight: 500;
+  --ifm-heading-line-height: 24px;
+  text-transform: uppercase;
 }
 
 .markdown p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #454545;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--ifm-font-color-base);
 }
 
 .markdown img {
   border-radius: 8px;
   border: 1px solid #eee;
-  box-shadow: 0 4px 7px -1px rgba(38,8,8,0.15);
+  box-shadow: 0 4px 7px -1px rgba(38, 8, 8, 0.15);
+  margin: 20px 0;
+}
+
+.markdown ol {
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .markdown ul {
   list-style: none;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
 
 .markdown ul li::before {
   content: "•";
-  color: #C30097;
+  color: #c30097;
   display: inline-block;
   width: 1em;
-  margin-left: -1em
+  margin-left: -1em;
+}
+
+.markdown ul li {
+  padding-bottom: 4px;
+}
+
+.markdown table {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .markdown table tr {
@@ -142,9 +174,13 @@
   background-color: var(--ifm-table-head-background);
   color: var(--ifm-table-head-color);
   font-weight: var(--ifm-table-head-font-weight);
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 24px;
   border: 0;
-  border-bottom: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+  height: 50px;
+  border-bottom: var(--ifm-table-border-width) solid
+    var(--ifm-table-border-color);
+  text-align: left;
 }
 
 .markdown table th + th {
@@ -155,6 +191,11 @@
   border: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
   border: 0;
   padding: var(--ifm-table-cell-padding);
+  min-height: 50px;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .markdown table td + td {
@@ -162,7 +203,7 @@
 }
 
 .markdown table tr:last-child {
-  border-bottom: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+  border-bottom: 0;
 }
 
 .markdown code {
@@ -211,8 +252,8 @@
 }
 
 .alert {
-  background-color: #FBFBFB;
-  border: 1px solid #FAFAFA;
+  background-color: #fbfbfb;
+  border: 1px solid #fafafa;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.01);
   overflow: hidden;
   position: relative;
@@ -260,6 +301,10 @@
 
 .alert.alert--info .admonition-icon svg {
   fill: var(--ifm-color-info);
+}
+
+.admonition .admonition-info .alert .alert--info {
+  margin-bottom: 2em;
 }
 
 .alert.alert--warning::before {
@@ -315,5 +360,28 @@
 }
 
 .tabs__item--active {
-  border-bottom-color: #C30097;
+  border-bottom-color: #c30097;
+}
+
+/* SIDEBAR NAVIGATION */
+
+.menu__link {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.menu__link.menu__link--sublist {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: Barlow, sans-serif;
+  color: #000;
+}
+
+.menu__link--sublist::after {
+  display: inline-block;
+  font-weight: 500;
+  background-size: 1.2rem 1.2rem;
+  height: 26px;
+  width: 26px;
 }
