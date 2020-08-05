@@ -34,19 +34,19 @@ Where to Go?
 ------------
 
 * Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api).
-* [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in the demo environment.
+* [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in your development environment.
 * Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide).
-* Refer to the API using the [Swagger UI](https://partner-api.qredo.network/) to help you test and develop knowledge.
+* Refer to the [Reference Docs](https://api) to help you test and develop knowledge.
 * [Set up the Live](#set-up-live) environment once ready to Go-Live.
 
 Using the Qredo Apps
 --------------------
 
-The Partner API is used together with the Qredo Web app and the Qredo Mobile app for functions around Trusted Parties and custodians. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer. 
+The Partner API is used together with the Qredo Wallet app and the Qredo Signing app for functions around Trusted Parties and custodians. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer.
 
-Users that are added as Trusted Parties need to have been registered on Qredo via the Qredo Web app. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
+Users that are added as Trusted Parties need to have been registered on Qredo via the Qredo Wallet app. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
 
-The Partner API only permits custodian approvals from the Qredo Mobile app. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Mobile app. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
+The Partner API only permits custodian approvals from the Qredo Signing app on your phone. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Signing app. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
 
 ![ledger](/doc-images/apprtransfer.png)
 
@@ -67,11 +67,10 @@ After a confirmation message appears with the **Generate Key** button for connec
 Connect to the Partner API
 --------------------------
 
-The Partner API key is a security feature which ensures that only you can access the Partner API endpoints. You generate an API key when connecting to the demo environment for testing. You also generate an API key in the server environment for going Live.
+The Partner API key is a security feature which ensures that only you can access the Partner API endpoints. You generate an API key that you use for both testing the API and going Live.
 
 :::note
 
-*   To ensure that you complete all testing before going Live, you must generate the API key for the demo environment first (and use the API in that environment).
 *   You must make sure that API keys are not distributed to another party.
 *   You must not add any of the API keys to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
 :::
@@ -91,22 +90,15 @@ If you have lost your API key, you can return to the Settings page to generate a
 2.  Click **Copy** in the New Partner API Key screen.
 :::
 
-### Add Key to Demo Environment
+### Add Key to your Development Environment
 
-Once you have generated the API key, you add it to the demo environment area in the Swagger UI. The key is written to HTTP headers for connecting securely to the endpoints in the demo environment.
+Once you have generated the API key, you add it to your development environment. The key is written to HTTP headers for connecting securely to the different endpoints.
 
-The following is an example request header in cURL format (obtainable from the Swagger UI):
+The following is an example request header in cURL format. You add the API key value to X-API-KEY at the end of the request. In this example, it is Create Company.
 
 ```
-curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
+curl -X GET "https://yourcompany.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ```
-
-1. Access the Partner API at https://partner-api.qredo.network/.
-2. Choose the URL:
-   - Copy this URL to the address bar: [https://demo-api.qredo.net/api/v1/p]. Or,
-   - select [https://demo-api.qredo.net(BasePath)] - **Demo Server** from the server list.
-3. Click **Authorise**.
-4. Paste the generated API key in the box.
 
 API Endpoints
 -------------
@@ -155,11 +147,11 @@ This quick-start guide shows you how to build your Qredo network programmaticall
 
 ### Create Company
 
-You can create a company by adding basic information in a POST request. The request returns the reference (`ref`) and `company_id`. Each request lets you create one company. To help you enter data quicker, some of the values are already prepopulated in the Swagger UI.
+You can create a company by adding basic information in a POST request. The request returns the reference (`ref`) and `company_id`. Each request lets you create one company. 
 
 You repeat the process to create multiple companies as Trusted Parties, which form part of your Trusted Network on Qredo.
 
-In this example, you create a company called John Doe Corp. This company is based in Birmingham, UK with the `domain` of johndoe.co.uk.
+In this example, you create a company called John Doe Corp that includes a reference number. This company is based in Birmingham, UK with the `domain` of johndoe.co.uk.
 
 #### Request
 
@@ -216,9 +208,9 @@ Using the `company_id` of ACME Corp, you add a user as a trusted party for that 
 
 The response returned from the request indicates that the message is successful.
 
-A trusted party that is a user must have been added to the Qredo Network through the Qredo Desktop app. When adding the trusted party using the below request, they receive an approval request on the Qredo Mobile app. Once approved, you will be able to find the trusted party when running a Returns All trusted parties for a company request.
+A trusted party that is a user must have been added to the Qredo Network through the Qredo Desktop app. When adding the trusted party using the below request, they receive an approval request on the Qredo Signing app. Once approved, you will be able to find the trusted party when running a Returns All trusted parties for a company request.
 
-You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** for John Doe Group in Swagger and the following request:
+You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** in the URL for John Doe Group and the following request:
 
 #### Request
 
@@ -236,7 +228,7 @@ You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** for John Doe Group in S
 ```
 
 
-You then enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME Corp and the following request:
+You then enter **1fB50nbY9Tw2TT12K6VH46gDKWE** for ACME Corp in the URL and the following request:
 
 ```
 {
@@ -259,12 +251,12 @@ This endpoint shows details of the Trusted Parties that exist in a company. You 
 
 In this example. you obtain the trusted party user of Izumi Katsuyoshi that you added in Add trusted party.
 
-You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME Corp and the following request:
+You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in the URL and the following request:
 
 #### Request
 
 ```
-https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
+https://api.qredo.network/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
 ```
 
 #### Response
@@ -302,11 +294,11 @@ A fund includes a `threshold` that determines how many custodian signatures from
 
 The response shows an assigned `fund_id` and IDs assigned to each custody group.
 
-This example includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`. As members need to be trusted party users, you add the 'trusted_entity_id' as a value in the '"members"' array. 
+This example includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`. As members need to be trusted party users, you add the 'trusted_entity_id' as a value in the '"members"' array.
 
 The fund is added to the `company_id` of 1fB50nbY9Tw2TT12K6VH46gDKWE.
 
-You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME Corp and the following request.
+You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** for ACME Corp in the URL and the following request.
 
 
 #### Request
@@ -352,15 +344,15 @@ You can obtain the deposit address associated with the fund, and find out both t
 
 You specify the `company_id` for the trusted party and the `fund_id`.
 
-1. Enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for the `company_id` of ACME corp.
+1. Enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in the URL for the `company_id` of ACME corp.
 
-2. Enter **1dnfLZolYD72zasqtmtTXXoaNNJ** in Swagger for the `fund_id` of ACME corp.
+2. Enter **1dnfLZolYD72zasqtmtTXXoaNNJ** in the URL for the `fund_id` of ACME corp.
 
 
 #### Request
 
 ```
-https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJNqlje2bVNjPG2S/deposit
+https://api.qredo.network/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJNqlje2bVNjPG2S/deposit
 ```
 
 #### Response
@@ -381,7 +373,7 @@ https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5
 Set Up Live
 -----------
 
-As well as the API key, you generate a public key that is added to the Swagger UI. The public key allows a signature to be generated for signing each request, and is applicable to these areas:
+As well as the API key, you generate a public key. The public key allows a signature to be generated for signing each request, and is applicable to these areas:
 
 * the URL of the full path.
 * the nonce (or number) that is generated for cryptographic purposes.
@@ -394,4 +386,4 @@ The following http headers are added to each request:
 
 The signature is in the base64 url safe encoding format (RFC 4648).
 
-Once you have generated the API key, get in touch with Qredo who can assist you in adding the private key.
+When you intend to go live, please get in touch with Qredo who can assist you in adding the private key (support@qredo.com).

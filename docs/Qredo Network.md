@@ -55,7 +55,7 @@ For a transaction to be approved and written to the Qredo blockchain, the thresh
 
 #### Transfew Policies
 
-Transfer policies determine the type of transaction that a custodian can sign. These include transfer and withdrawal policies. Custodians can be part of a group that allows, for example, signatures for a withdrawal policy. 
+Transfer policies determine the type of transaction that a custodian can sign. These include transfer and withdrawal policies. Custodians can be part of a group that allows, for example, signatures for a withdrawal policy.
 
 #### Qredo Wallet
 
@@ -90,7 +90,7 @@ The Qredo Network consists of computers that are categorised as nodes or service
 
 #### User and App
 
-A Qredo user adds data to a web app, e.g., for a transaction. For example, a principal enters options to transfer money to another user. Custodians, using the mobile app on their phones, approve or reject the transaction. The approval or rejection unlocks digital signatures in the app.
+A Qredo user adds data to the Qredo Signing app, e.g., for a transaction. For example, a principal enters options to transfer money to another user. Custodians, using the Qredo Signing app on their phones, approve or reject the transaction. The approval or rejection unlocks digital signatures in the app.
 
 #### Qredo Server
 

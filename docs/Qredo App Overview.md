@@ -14,10 +14,10 @@ Built for professional investors, the Qredo Network securely transfers digital a
 ![Main Qredo](/doc-images/QredoS.png)
 
 
-Qredo Web App
+Qredo Wallet App
 -------------
 
-The Qredo web app provides a suite of account management, treasury and trading features making it easy to manage your digital asset portfolios online within the Qredo Network. Set up secure funds to
+The Qredo Wallet app provides a suite of account management, treasury and trading features making it easy to manage your digital asset portfolios online within the Qredo Network. Set up secure funds to
 * secure your client and trading accounts.
 * customise your governance rules.
 * monitor inbound and outbound trade activity.
@@ -25,14 +25,14 @@ The Qredo web app provides a suite of account management, treasury and trading f
 
 As an app user, e.g. a trader or a fund manager, you can launch your transactions through the web interface. Once approved by custodians as stated in the custody policy, your transaction is securely stored on the Qredo blockchain.
 
-Qredo Mobile App
+Qredo Signing App
 ----------------
 
-The Qredo mobile app acts as a secure multi-factor signing device using a combination of biometrics, a 6 digit pin, and a master seed (or secret key). The Qredo mobile app allows you to securely authorise transfer and changes to your account which you initiated from the desktop browser app.
+The Qredo Signing app acts as a secure multi-factor signing device using a combination of biometrics, a 6 digit pin, and a master seed (or secret key). The Qredo Signing app allows you to securely authorise transfer and changes to your account which you initiated from the desktop browser app.
 
 ![Side By Side Images](/doc-images/page1design.png)
 
-As an appointed custodian, you use the Qredo mobile app to approve transactions which provide the digital signatures for transactions to be secured on the Qredo blockchain.  The Qredo mobile app allows you to be instantly notified as soon as the trade initiator has authorised a transaction.
+As an appointed custodian, you use the Qredo Signing app to approve transactions which provide the digital signatures for transactions to be secured on the Qredo blockchain.  The Qredo Signing app allows you to be instantly notified as soon as the trade initiator has authorised a transaction.
 
 The authorisation and approval flow also allows signs in from:
 * logging in activities via the web browser.
@@ -42,8 +42,8 @@ The authorisation and approval flow also allows signs in from:
 System Requirements
 -------------------
 
-The Qredo web app runs on Safari, Chrome, Internet Explorer, Firefox, and Opera.
+The Qredo Wallet app runs on Safari, Chrome, Internet Explorer, Firefox, and Opera.
 
-The Qredo Mobile App runs on iOS versions of OSX13 and above. Future releases will support Android. These phones must include the biometric capabilities of either the Face ID or Touch ID.
+The Qredo Signing App runs on iOS versions of OSX13 and above. Future releases will support Android. These phones must include the biometric capabilities of either the Face ID or Touch ID.
 
-The Qredo mobile app requires a working phone camera to access the QR-code on the web app during the registration process.
+The mobile app requires a working phone camera to access the QR-code on the web app during the registration process.

@@ -102,7 +102,7 @@ If you do not have a withdrawal address, you need to create one before the trans
 Ensure that the wallet name does not include spaces.
 :::
 
-10. Type in the wallet address in **Wallet Address**.
+10. Type in the wallet address in **Wallet Address**.    
 11. Click **Continue**. See Authorise an Address (Trade Initiator) below.
 
 ### Authorise Address (Trade Initiator)
@@ -131,7 +131,7 @@ For the action you select, you then sign in with your biometric features and 6-d
 Create Transaction
 ------------------
 
-For withdrawing money, the Qredo app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination cryptocurrency address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal. You also set the date and time or number of days for custodian approval, according to the length of your approval process.
+For withdrawing money, the Qredo Wallet app consists of a wizard that lets you withdraw a specific amount of an asset from a fund. There needs to be a destination cryptocurrency address in which to add the money to. You must ensure that you enter the correct asset, amount, address, and fund for the withdrawal. You also set the date and time or number of days for custodian approval, according to the length of your approval process.
 You review and approve the transaction before a custodian is notified.
 
 You are also notified when a withdraw transaction is complete via an email.
@@ -264,8 +264,9 @@ The Pending sub tab shows these fields and pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   APPROVED
-*   REJECTED
+*   APPROVED - The transaction has been approved by the custodians.
+*   REJECTED - The transaction has been rejected by the custodians.
+
 
 The following is an example entry showing a pending approval with the status of APPROVED:
 
@@ -289,8 +290,8 @@ The pending tab shows these fields and pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the transaction approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   APPROVED
-*   REJECTED
+*   APPROVED - The transactions have been approved by all the custodians.
+*   REJECTED - The transactions have been rejected by all the custodians.
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
@@ -312,9 +313,9 @@ The pending tab shows these fields and pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the custodian approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   APPROVED
-*   REJECTED
-*   EXPIRED
+*   APPROVED - The transactions have been approved by all the custodians.
+*   REJECTED - The transactions have been rejected by all the custodians.
+*   EXPIRED - The time and date set for custodian approval on the transaction has exceeded.
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
@@ -338,7 +339,7 @@ TX Ledger shows the following details:
 | AMOUNT |The amount of the transaction and the type of asset.|
 | REFERENCE | Reference number of the transaction. This number can be used when contacting support at Qredo. |
 | RECIPIENT | Recipient of the asset. For a withdrawal, this is the name you assigned for that withdrawal. |
-| EXPIRES | Expiry date of a transaction that is awaiting approval from a custodian, or authorisation from the trade initiator.|
+| EXPIRES | Expiry date of a transaction that is awaiting approval from the custodians.|
 | STATUS  | The status of the transaction as AWAITING APPROVAL (if the custodians have not responded). The status also shows as AWAITING AUTHORISATION (if not yet authorised).
 
 If the custodians have approved the transaction, the status is set to COMPLETE. If custodians have signed the transaction and it has not successfully completed (written to the Qredo blockchain) because it did not meet the threshold level, the status is set to THRESHOLD NOT MET. If the transaction has been rejected by all custodians, the status is set to REJECTED.

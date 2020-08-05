@@ -165,8 +165,8 @@ The Pending tab shows pending approvals.
 
 The Actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the transaction approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   AUTHORISED
-*   IGNORED
+*   AUTHORISED - The transactions have been authorised by the trade initiator.
+*   IGNORED - The transactions have been ignored.
 
 ![transaction](/doc-images/trapr3.png)
 
@@ -187,9 +187,9 @@ The pending tab shows these fields and pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the custodian approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   APPROVED   
-*   REJECTED
-*   EXPIRED
+*   APPROVED - The transaction has been approved by the custodians.
+*   REJECTED - The transaction has been rejected by the custodians.
+*   EXPIRED -  The time set for custodian approval has exceeded for the transaction.
 
 The following is an example actioned entry in the Approval view with the status of APPROVED:
 
@@ -216,7 +216,7 @@ TX Ledger shows the following details:
 | AMOUNT | Amount of the transfer and the type of asset. |
 | REFERENCE | Reference number for the transfer. |
 | RECIPIENT | Label added to the transfer, e.g., sent to an exchange. |
-| EXPIRES | The date and time in which the transfer transaction needs to happen. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
+| EXPIRES | The date and time in which custodian approval was needed for a transaction to happen. A date and time is shown if the status of the transaction is AWAITING APPROVAL or AWAITING AUTHORISATION. |
 | STATUS | The status of the transaction as AWAITING APPROVAL or AWAITING AUTHORISATION if the custodians have not responded. If the custodians have signed the transaction and it has met the threshold, the status is set to COMPLETE. However, if the custodians have signed the transaction and it has not successfully been completed, the status is set to THRESHOLD NOT MET or REJECTED. |
 
 ![Transaction Approval](/doc-images/outTX2.png)

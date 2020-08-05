@@ -2,7 +2,7 @@
 id: Configure Account
 ---
 
-The web app includes sections that will allow you to configure accounts in future versions of the app. 
+The Qredo Wallet app includes sections that will allow you to configure accounts in future versions of the app. 
 
 ### Future Version Features
 
@@ -34,7 +34,7 @@ View Account Settings
 
    ![Account](/doc-images/initials.png)
 
-2. In the displayed account card, click the Account Settings button to display account details. 
+2. In the displayed account card, click the Account Settings button to display account details.
 
    ![Account](/doc-images/accountcard.png)
 
@@ -76,7 +76,7 @@ This section provides details on the Partner API and who the API is geared for.
 
 ### Legal Agreement
 
-The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program. Or, you can directly download the agreement. 
+The Legal section shows the Qredo legal agreement that you would have agreed to on registration. You can check details of the legal agreement again. If you need to present the agreement elsewhere, you can copy the legal agreement to another program. Or, you can directly download the agreement.
 
 ![Legal](/doc-images/1Legal.png)
 
