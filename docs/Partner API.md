@@ -136,7 +136,7 @@ GET method parameters are passed in the query string of the URL. All other reque
 Quick-Start Guide
 -----------------
 
-This quick-start guide shows you how to build your Qredo network programmatically using these endpoints based on the functions in the Swagger UI.
+This quick-start guide shows you how to build your Qredo network programmatically using these endpoints.
 
 *   Create Company    
 *   Add Trusted Party    
