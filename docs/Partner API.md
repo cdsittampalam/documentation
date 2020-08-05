@@ -34,7 +34,7 @@ Where to Go?
 ------------
 
 * Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api).
-* [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in the demo environment.
+* [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in your development environment.
 * Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide).
 * Refer to the [Reference Docs](https://api) to help you test and develop knowledge.
 * [Set up the Live](#set-up-live) environment once ready to Go-Live.
@@ -92,7 +92,7 @@ If you have lost your API key, you can return to the Settings page to generate a
 
 ### Add Key to your Development Environment
 
-Once you have generated the API key, you add it to your develoment environment. The key is written to HTTP headers for connecting securely to the endpoints in the demo environment.
+Once you have generated the API key, you add it to your development environment. The key is written to HTTP headers for connecting securely to the different endpoints.
 
 The following is an example request header in cURL format.
 
@@ -386,4 +386,4 @@ The following http headers are added to each request:
 
 The signature is in the base64 url safe encoding format (RFC 4648).
 
-Once you have generated the API key, get in touch with Qredo who can assist you in adding the private key.
+When you intend to go live, please get in touch with Qredo who can assist you in adding the private key (support@qredo.com).
