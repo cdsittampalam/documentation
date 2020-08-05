@@ -1,7 +1,7 @@
 module.exports = {
   title: "Qredo Help Center",
   tagline: "Knowledge Base and Customer Support for Qredos",
-  url: "https://thronecloud.github.io",
+  url: "https://support.qredo.com/",
   baseUrl: "/",
   favicon: "/img/favicon.ico",
   organizationName: "qredo", // Usually your GitHub org/user name.
@@ -25,7 +25,12 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "blog", label: "Blog", position: "left" },
+        {
+          to: "api/",
+          activeBasePath: "api",
+          label: "API",
+          position: "left",
+        },
       ],
     },
     footer: {
@@ -34,12 +39,12 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "What is Qredo",
+              label: "Overview",
               to: "docs/",
             },
             {
-              label: "Getting Started with Qredo",
-              to: "docs/doc2/",
+              label: "Getting Started",
+              to: "docs/Getting%20Started",
             },
           ],
         },
@@ -64,10 +69,6 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "blog",
-            },
-            {
               label: "GitHub",
               href: "https://github.com/qredo/documentation",
             },
@@ -75,14 +76,14 @@ module.exports = {
         },
       ],
       logo: {
-        src: '/img/qredo-logo-horizontal.png',
+        src: "/img/qredo-logo-horizontal.png",
       },
       productLinks: {
-        siteMap: '',
-        termsOfUse: '',
-        privacyCenter: '',
-        contactUs: '',
-        qredoHome: 'https://www.qredo.com/home',
+        siteMap: "",
+        termsOfUse: "",
+        privacyCenter: "",
+        contactUs: "",
+        qredoHome: "https://www.qredo.com/home",
       },
       copyright: `Copyright &copy; ${new Date().getFullYear()} Qredo Support.`,
     },
@@ -95,11 +96,6 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: "Qredo Network",
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl: "https://github.com/qredo/documentation/tree/master/",
-        },
-        blog: {
-          showReadingTime: true,
           // Please change this to your repo.
           editUrl: "https://github.com/qredo/documentation/tree/master/",
         },

@@ -14,7 +14,7 @@ When recorded on the Qredo blockchain, a transaction is always linked to the und
 Summary of Steps
 ----------------
 
-For deposits, you can:  
+For deposits, you can:
   - [view deposit addresses](#view-deposit-addresses)
   - [copy an address](#copy-address)
   - [view deposit transactions](#view-transactions)
@@ -42,9 +42,8 @@ You are notified when money arrives at your address via an email.
 
 The following shows address entries in Asset view.
 
-|     |     |
+| Column Name | Description |
 | --- | --- |
-| **Column Name** | **Description** |
 | WALLET NAME | Name that is assigned to the wallet, which includes the name of the fund. |
 | FORMAT | Format of the wallet address. For example, for a Bitcoin address, this format is P2PKH. |
 | ADDRESS | The address string. |
@@ -65,9 +64,8 @@ In Ledger view, you can see deposit transactions to one or more funds that you a
 
 ![TX](/doc-images/TXibd.png)
 
-|     |     |
+| Column Name | Description |
 | --- | --- |
-| **Column Name** | **Description** |
 | TYPE | Type of transaction. For a deposit, the column name shows as deposit |
 | RECEIVED | Date and time in which the deposit transaction was received. |
 | TX | Amount deposited in to the account. |
@@ -89,16 +87,16 @@ If you do not have a withdrawal address, you need to create one before the trans
 
 ![startwithdraw](/doc-images/StartWithdrawR.png)
 
-3.  Choose the **Withdraw** option in Select Type.    
-4.  Click **Continue**. The Withdraw screen shows.  
+3.  Choose the **Withdraw** option in Select Type.
+4.  Click **Continue**. The Withdraw screen shows.
 5.  To set up a withdraw address on the fund, choose a fund from the **Fund** list and click the **Add Withdrawal Address** button. The Add Withdrawal Address screen shows.
 
 ![add withdrawal add](/doc-images/addwithadd.png)
 
 6.  To set up a withdraw address on an asset, choose an asset from the **Asset** list and click the **Add Withdrawal Address** button. The same screen appears.
-7.  In the Add Withdrawal Address screen, select the fund that you want to add the address to in **Source Fund**.    
-8.  Choose the asset type in **Asset**.    
-9.  Enter a name for the wallet in **Wallet Name**.   
+7.  In the Add Withdrawal Address screen, select the fund that you want to add the address to in **Source Fund**.
+8.  Choose the asset type in **Asset**.
+9.  Enter a name for the wallet in **Wallet Name**.
 
 :::note
 Ensure that the wallet name does not include spaces.
@@ -109,23 +107,23 @@ Ensure that the wallet name does not include spaces.
 
 ### Authorise Address (Trade Initiator)
 
-1.  Tap the notification that you received on your phone. The Withdraw Address screen shows details of the transaction including fees.   
+1.  Tap the notification that you received on your phone. The Withdraw Address screen shows details of the transaction including fees.
 
 ![auth withdraw](/doc-images/AuthWith.png)
 
 *   name of the wallet address.
-*   the fund of the withdrawal address.   
-*   the name of the asset.    
-*   the name of the trade initiator.    
+*   the fund of the withdrawal address.
+*   the name of the asset.
+*   the name of the trade initiator.
 *   the expiry time and date of the request.
 
 You can also view other details of the withdrawal address including:
 
-*   the alphanumeric string of the address.   
-*   details of the trade initiator (including email address and alias).    
+*   the alphanumeric string of the address.
+*   details of the trade initiator (including email address and alias).
 *   the date in which the address creation was initiated.
 
-2.  To authorise, tap **Authorise**.    
+2.  To authorise, tap **Authorise**.
 3.  To reject, tap **Reject**.
 
 For the action you select, you then sign in with your biometric features and 6-digit PIN, and tap confirm on the confirmation screens.
@@ -140,19 +138,19 @@ You are also notified when a withdraw transaction is complete via an email.
 
 1.  Begin the task from in the Asset view or Ledger view.
 2.  Click the **New TX** button. The Select Type window shows.
-2.  Choose the **Withdraw** option in the Select Type box.   
+2.  Choose the **Withdraw** option in the Select Type box.
 3.  Click **Continue**. The Withdraw screen shows, and includes a scrollbar that lets you scroll down to other options.
 
 ![Withdraw main](/doc-images/withdrawmain.png)
 
-4.  In the From section, select the fund that you want to withdraw assets from in the **Fund** list.   
-5.  Choose the asset that you want to withdraw in the **Asset** list.    
-6.  Select the address that you want to send the money to in the **To** list.    
-7.  Enter the amount that you want to withdraw in **Amount**. The Blockchain Miner's fee and total withdrawal cost appears.   
-8.  Type in a reference number in **Reference**.    
-9.  To select a date for when the withdrawal takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.    
-10. To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.    
-11. Click **Review Withdrawal**.    
+4.  In the From section, select the fund that you want to withdraw assets from in the **Fund** list.
+5.  Choose the asset that you want to withdraw in the **Asset** list.
+6.  Select the address that you want to send the money to in the **To** list.
+7.  Enter the amount that you want to withdraw in **Amount**. The Blockchain Miner's fee and total withdrawal cost appears.
+8.  Type in a reference number in **Reference**.
+9.  To select a date for when the withdrawal takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
+10. To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.
+11. Click **Review Withdrawal**.
 
 ### Review Withdrawal
 
@@ -162,10 +160,10 @@ In the **Review Withdrawal** screen, you can see details of the withdrawal trans
 
 These include:
 
-*   Asset and amount to withdraw    
-*   Source fund    
+*   Asset and amount to withdraw
+*   Source fund
 *   Transaction reference number
-*   Expiry date and time information    
+*   Expiry date and time information
 *   Blockchain miner's fee (see note)
 *   Total withdrawal cost (including the amount to withdraw and the miner's fee)
 *   Balance after the total withdrawal cost is deducted
@@ -174,13 +172,13 @@ These include:
      * Email address of the trade initiator
      * Network alias of the trade initiator
 *   To details:
-     * Withdraw wallet address   
+     * Withdraw wallet address
 
 :::info
 The Blockchain miner's fee is the reward paid to miners for the work and resources they need to generate blocks on the underlying network. You are presented with details of these fees when you add details of the transaction, and when you review it. While the miner's Blockchain fee is fixed for any withdrawal transaction, Qredo can periodically alter these fees.
 :::
 
-1. To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.  
+1. To start the withdrawal, click **Initiate Withdrawal**. You are then prompted to check your phone app.
 2. To return to the previous screen, click **Back**.
 
 ### Authorise Withdrawal
@@ -191,7 +189,7 @@ Before authorising, you can view its details including the fees that are charged
 
 ![Authwith](/doc-images/authwithd.png)
 
-2.  To authorise, tap **Authorise**.   
+2.  To authorise, tap **Authorise**.
 3.  To reject, tap **Reject**.
 
 A withdrawal transaction can only be sent out of Qredo if it has met or has exceeded the threshold level for the number of custodian signatures. The threshold level is entered on the fund associated with the transaction.
@@ -205,22 +203,22 @@ You receive a notification as soon as the trade initiator has authorised the wit
 ![ApproveDetails](/doc-images/apprwith.png)
 
 *   type of asset and amount.
-*   the name linked to the recipient address.    
-*   the name of the trade initiator.   
-*   the transaction reference number.   
-*   the expiry date and time for approval.   
+*   the name linked to the recipient address.
+*   the name of the trade initiator.
+*   the transaction reference number.
+*   the expiry date and time for approval.
 
 You can also view other details linked to the transaction under the Show Details arrow including:
 
-*   the fund of the withdrawal.    
-*   the destination wallet name.    
-*   the alphanumeric string of the wallet address.   
-*   the name, email address, and network alias of the trade initiator.   
+*   the fund of the withdrawal.
+*   the destination wallet name.
+*   the alphanumeric string of the wallet address.
+*   the name, email address, and network alias of the trade initiator.
 *   details of the Qredo fee.
 
-1.  Tap the notification on your phone. The Withdrawal screen shows.    
+1.  Tap the notification on your phone. The Withdrawal screen shows.
 2.  Click **Show Details** to view more details of the transaction.
-3.  To approve, tap **Approve**.    
+3.  To approve, tap **Approve**.
 4.  To reject, tap **Reject**.
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
@@ -250,14 +248,13 @@ Transactions in Ledger view includes both those that are pending, and those that
 
 ### Address Approvals
 
-1.  Click the **Addresses** tab,    
+1.  Click the **Addresses** tab,
 2.  Click the **Pending** or **Actioned** sub-tabs.
 
 The Pending sub tab shows these fields and pending approvals.
 
-|     |     |
+| Column | Description |
 | --- | --- |
-| **Column** | **Description** |
 | NAME | Name assigned to the address. |
 | FUND | Name of the fund. |
 | ASSET | Type of asset, e.g., Bitcoin. |
@@ -270,20 +267,20 @@ The actioned tab shows the same column fields. However, the ACTIONED column refl
 *   APPROVED - The transaction has been approved by the custodians.
 *   REJECTED - The transaction has been rejected by the custodians.
 
+
 The following is an example entry showing a pending approval with the status of APPROVED:
 
 ![Address Approval](/doc-images/addressappr2.png)
 
 ### Transaction Approvals
 
-1.  Click the **Transactions** tab,   
+1.  Click the **Transactions** tab,
 2.  Click the **Pending** or **Actioned** tabs.
 
 The pending tab shows these fields and pending approvals.
 
-|     |     |
+| Column | Description |
 | --- | --- |
-| **Column** | **Description** |
 | TYPE | Type of transaction. For a withdrawal, the column name shows as withdrawal. |
 | AMOUNT | The amount of the transaction and the type of asset. |
 | RECIPIENT | Recipient of the asset. For a withdrawal, the recipient is the name you assigned for that withdrawal. |
@@ -302,14 +299,13 @@ The following is an example actioned entry in the Approval view with the status 
 
 ### Custodian Approvals
 
-1.  Click the **Custody** tab,    
+1.  Click the **Custody** tab,
 2.  Click the **Pending** or **Actioned** sub-tabs.
 
 The pending tab shows these fields and pending approvals.
 
-|     |     |
+| Column | Description |
 | --- | --- |
-| **Column** | **Description** |
 | ITEM | The transaction or withdrawal item. |
 | REQUESTED BY | The trade initiator that requested custodian approval. |
 | REQUESTED | The time and date in which the custodian approval was actioned. |
@@ -335,9 +331,8 @@ The following is an example actioned entry in the Approval view with the status 
 
 TX Ledger shows the following details:
 
-|     |     |
+| Column | Description |
 | --- | --- |
-| **Column** | **Description** |
 | TYPE | Type of transaction. For a withdrawal, the column name shows as withdrawal. |
 | FUND | Name of the fund for the transaction.|
 | INITIATED | Trade initiator that started the transaction. |
