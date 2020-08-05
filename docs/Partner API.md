@@ -373,11 +373,32 @@ https://api.qredo.network/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJ
 Set Up Live
 -----------
 
-As well as the API key, you generate a public key. The public key allows a signature to be generated for signing each request, and is applicable to these areas:
+"For setting up the Partner API on your Live environment, you need to generate a private and public key combination. This allows every request in the API to be 
+signed with a public and private key combination."
+
+### Generate Key Pair
+
+1. Generate the key pair by entering this command in openssl.
+
+``openssl genrsa -out private.pem 2048``
+
+2. Extract the public key from the key pair.
+
+``openssl rsa -in private.pem -outform PEM -pubout -out public.pem``
+
+:::info
+private.pem is the private key and public.pem is the public key
+:::
+
+### About the Signature
+The signature is applicable to these areas:
 
 * the URL of the full path.
 * the nonce (or number) that is generated for cryptographic purposes.
 * the payload (body) for POST/PUT requests that contain added data.
+
+"To formulate the signature, these three components should be concatenated in that order without any kind of delimiters, signed with the private key
+and the result encoded in base64 url safe encoding (RFC 4648)."
 
 The following http headers are added to each request:
 
