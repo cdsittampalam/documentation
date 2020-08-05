@@ -94,10 +94,10 @@ If you have lost your API key, you can return to the Settings page to generate a
 
 Once you have generated the API key, you add it to your development environment. The key is written to HTTP headers for connecting securely to the different endpoints.
 
-The following is an example request header in cURL format.
+The following is an example request header in cURL format. You add the API key value to X-API-KEY at the end of the request. In this example, it is Create Company.
 
 ```
-curl -X GET "https://demo-api.qredo.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
+curl -X GET "https://yourcompany.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ```
 
 API Endpoints
@@ -147,11 +147,11 @@ This quick-start guide shows you how to build your Qredo network programmaticall
 
 ### Create Company
 
-You can create a company by adding basic information in a POST request. The request returns the reference (`ref`) and `company_id`. Each request lets you create one company. To help you enter data quicker, some of the values are already prepopulated in the Swagger UI.
+You can create a company by adding basic information in a POST request. The request returns the reference (`ref`) and `company_id`. Each request lets you create one company. 
 
 You repeat the process to create multiple companies as Trusted Parties, which form part of your Trusted Network on Qredo.
 
-In this example, you create a company called John Doe Corp. This company is based in Birmingham, UK with the `domain` of johndoe.co.uk.
+In this example, you create a company called John Doe Corp that includes a reference number. This company is based in Birmingham, UK with the `domain` of johndoe.co.uk.
 
 #### Request
 
@@ -210,7 +210,7 @@ The response returned from the request indicates that the message is successful.
 
 A trusted party that is a user must have been added to the Qredo Network through the Qredo Desktop app. When adding the trusted party using the below request, they receive an approval request on the Qredo Signing app. Once approved, you will be able to find the trusted party when running a Returns All trusted parties for a company request.
 
-You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** for John Doe Group in Swagger and the following request:
+You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** in the URL for John Doe Group and the following request:
 
 #### Request
 
@@ -228,7 +228,7 @@ You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** for John Doe Group in S
 ```
 
 
-You then enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME Corp and the following request:
+You then enter **1fB50nbY9Tw2TT12K6VH46gDKWE** for ACME Corp in the URL and the following request:
 
 ```
 {
@@ -251,12 +251,12 @@ This endpoint shows details of the Trusted Parties that exist in a company. You 
 
 In this example. you obtain the trusted party user of Izumi Katsuyoshi that you added in Add trusted party.
 
-You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME Corp and the following request:
+You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in the URL and the following request:
 
 #### Request
 
 ```
-https://demo-api.qredo.net/api/v1/p/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
+https://api.qredo.network/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
 ```
 
 #### Response
@@ -298,7 +298,7 @@ This example includes the `custodygroup_withdraw` group with a `threshold` of 1 
 
 The fund is added to the `company_id` of 1fB50nbY9Tw2TT12K6VH46gDKWE.
 
-You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for ACME Corp and the following request.
+You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** for ACME Corp in the URL and the following request.
 
 
 #### Request
@@ -344,15 +344,15 @@ You can obtain the deposit address associated with the fund, and find out both t
 
 You specify the `company_id` for the trusted party and the `fund_id`.
 
-1. Enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in Swagger for the `company_id` of ACME corp.
+1. Enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in the URL for the `company_id` of ACME corp.
 
-2. Enter **1dnfLZolYD72zasqtmtTXXoaNNJ** in Swagger for the `fund_id` of ACME corp.
+2. Enter **1dnfLZolYD72zasqtmtTXXoaNNJ** in the URL for the `fund_id` of ACME corp.
 
 
 #### Request
 
 ```
-https://demo-api.qredo.net/api/v1/p/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJNqlje2bVNjPG2S/deposit
+https://api.qredo.network/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJNqlje2bVNjPG2S/deposit
 ```
 
 #### Response
