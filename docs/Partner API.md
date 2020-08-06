@@ -397,8 +397,8 @@ The signature is applicable to these areas:
 * the nonce (or number) that is generated for cryptographic purposes.
 * the payload (body) for POST/PUT requests that contain added data.
 
-"To formulate the signature, these three components should be concatenated in that order without any kind of delimiters, signed with the private key
-and the result encoded in base64 url safe encoding (RFC 4648)."
+To formulate the signature, these three components should be concatenated in that order without any kind of delimiters, signed with the private key
+and the result encoded in base64 url safe encoding (RFC 4648).
 
 The following http headers are added to each request:
 
@@ -407,4 +407,4 @@ The following http headers are added to each request:
 
 The signature is in the base64 url safe encoding format (RFC 4648).
 
-When you intend to go live, please get in touch with Qredo who can assist you in adding the private key (support@qredo.com).
+When you intend to go live, please get in touch with Qredo (support@qredo.com) who can assist you in adding the private key to the Qredo service.
