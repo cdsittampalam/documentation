@@ -36,7 +36,7 @@ Where to Go?
 * Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api).
 * [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in your development environment.
 * Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide).
-* Refer to the [Reference Docs](/api/) to help you test and develop knowledge.
+* Refer to the [Reference Docs](/api) to help you test and develop knowledge.
 * [Set up the Live](#set-up-live) environment once ready to Go-Live.
 
 Using the Qredo Apps
@@ -373,8 +373,8 @@ https://api.qredo.network/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJ
 Set Up Live
 -----------
 
-"For setting up the Partner API on your Live environment, you need to generate a private and public key combination. This allows every request in the API to be 
-signed with a public and private key combination."
+For setting up the Partner API on your Live environment, you need to generate a private and public key combination. This allows every request in the API to be 
+signed with a public and private key combination. The commands are as follows:
 
 ### Generate Key Pair
 
@@ -407,4 +407,4 @@ The following http headers are added to each request:
 
 The signature is in the base64 url safe encoding format (RFC 4648).
 
-When you intend to go live, please get in touch with Qredo (support@qredo.com) who can assist you in adding the private key to the Qredo service.
+When you intend to go live, please get in touch with Qredo (support@qredo.com) who can assist you in adding the public key to the Qredo service.
