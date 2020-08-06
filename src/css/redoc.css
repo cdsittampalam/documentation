@@ -148,6 +148,10 @@
   background-color: #fff;
 }
 
+.redoc-wrap table tr th {
+  background-color: transparent;
+}
+
 .redoc-wrap table tr:nth-child(even) {
   background-color: #f9f9f9;
 }

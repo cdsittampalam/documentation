@@ -4,7 +4,7 @@ info:
   description: |-
     An API for Qredo's distribution Partners that enables
         provisioning and management of Qredo Services for the Partner's customers.
-        You can find out more about the Qredo Network at [https://qa-support.qredo.com/docs/Partner%20API](https://qa-support.qredo.com/docs/Partner%20API).
+        You can find out more about the Qredo Network [here](https://qa-support.qredo.com/docs/Partner%20API).
   version: 1.0.0
 servers:
   - url: https://api.qredo.network{basePath}
@@ -146,7 +146,7 @@ paths:
         - TrustedNetwork
       summary: Returns all Trusted parties for a company
       description: >-
-        Returns all trusted parties for a company. A trusted party is a user or company that is a counterparty to transactions and forms a custodial relationship. This endpoint is all useful if you want to find out the trusted_entity_id of a trusted party user to add them to a fund.
+        Returns all trusted parties for a company. A trusted party is a user or company that is a counterparty to transactions and forms a custodial relationship. The endpoint is also useful if you want to find out the trusted_entity_id of a trusted party user to add them to a fund.
       operationId:  Returns_all_trustedparties_for_a_company_company__company_id__counterparty__get
       parameters:
         - required: true
@@ -406,7 +406,7 @@ paths:
         - Fund
       summary: Add Whitelist address
       description: >-
-        This adds a new whitelisted withdraw address to a fund. The address needs to be a whitelisted address to ensure it is legitimate.
+        The address needs to be a whitelisted address to ensure it is safe for a withdrawal transaction.
       parameters:
         - required: true
           schema:
@@ -482,6 +482,7 @@ paths:
       summary: New transfer
       description: >-
         Initiate a new transfer on a fund that includes various settings for the transaction.
+        When a transfer transaction is created, custodians need to approve it through the Qredo Signing app.
       parameters:
         - required: true
           schema:
@@ -497,10 +498,11 @@ paths:
         required: true
       responses:
         '201':
-          description: Successful Response
+          description: Response is Transaction ID.
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/TxId'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -548,6 +550,7 @@ paths:
       summary: New withdrawal
       description: >-
         Initiate new withdrawal that includes various settings for the transaction.
+        When a withdrawal transaction is created, custodians need to approve it through the Qredo Signing app.
       parameters:
         - required: true
           schema:
@@ -563,10 +566,11 @@ paths:
         required: true
       responses:
         '201':
-          description: Successful Response
+          description: Response is Transaction ID.
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/TxId'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -599,7 +603,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/TxInfo'
+                $ref: '#/components/schemas/WithdrawalInfo'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -680,6 +684,7 @@ components:
 
   securitySchemes:
     ApiKeyAuth:
+      description: ApiKeyAuth consists of the following parameters.
       type: apiKey
       in: header
       name: X-API-KEY
@@ -711,7 +716,7 @@ components:
           schema:
             $ref: '#/components/schemas/Error'
     Unauthorized:
-      description: Unauthorized
+      description: Unauthorised
       content:
         application/json:
           schema:
@@ -749,6 +754,14 @@ components:
           properties:
             reason:
               type: string
+
+    TxId:
+      properties:
+        tx_id:
+          type: string
+      example:
+        tx_id: 9827feec4eae4e80bda3daa7c3b97add
+
 
     Company:
       title: Company
@@ -1099,6 +1112,7 @@ components:
           title: Fund description
           type: string
         custodygroup_withdraw:
+          description: ID for the custody group of withdraw
           $ref: '#/components/schemas/Custodygroup'
         custodygroup_transfer:
           $ref: '#/components/schemas/Custodygroup'
@@ -1366,7 +1380,7 @@ components:
           type: string
           description: >-
             This is a symbol of the cryptocurrencies or securities held within
-            the fund. Example of bitcoin the symbol is BTC.
+            the fund. For example, the symbol for Bitcoin is BTC.
         amount:
           title: Amount
           type: number
@@ -1427,7 +1441,7 @@ components:
         send:
           title: Send
           description: >-
-            This is the type and amount of cryptocurrency or tokenized asset in Satoshis sent from the trade initiator to the receiving counterparty. This is defined as 'symbol' within the Fund schema. Satoshi figures are in whole numbers.
+            This is the type and amount of cryptocurrency or tokenized asset in Satoshis sent from the trade initiator to the receiving counterparty. Satoshi figures are in whole numbers.
           allOf:
             - $ref: '#/components/schemas/CurrencyAmount'
       example:
@@ -1469,7 +1483,7 @@ components:
         expires:
           title: Expiration time
           type: string
-          description: The time in Epoch when the transfer will expire if it doesn't get approved by the custodians.
+          description: The time in Epoch when the withdrawal will expire if it doesn't get approved by the custodians.
         send:
           title: Send
           allOf:
@@ -1844,7 +1858,7 @@ components:
         A map of permissions
 
     TxInfo:
-      title: Custodygroup
+      title: TransferInfo
       type: object
       properties:
         approver_count:
@@ -1859,9 +1873,9 @@ components:
           type: integer
         initiator_authorized:
           description: >-
-            Status to indicate if the transaction is authorized by the trade initiator.
-                                 True indicates that the transaction is authorized and False indicates that
-                                 the transaction is not yet authorized. All transactions need to be authorised
+            Status to indicate if the transaction is authorised by the trade initiator.
+                                 True indicates that the transaction is authorised and False indicates that
+                                 the transaction is not yet authorised. All transactions need to be authorised
                                  by the initiator.
 
           type: boolean
@@ -1963,7 +1977,6 @@ components:
             - $ref: '#/components/schemas/initiate_rejected'
             - $ref: '#/components/schemas/custody_rejected'
             - $ref: '#/components/schemas/chain_rejected'
-
           description: The status of the transaction
       example:
         approvedCount: 1
@@ -2000,6 +2013,163 @@ components:
         txID: 1eRPC44MjhRI3sJ6UzzjYio5ulu
         txStatus: approved
 
+    WithdrawalInfo:
+      title: TransferInfo
+      type: object
+      properties:
+        approver_count:
+          description: >-
+            The approvedCount is the number of custodians that have approved the withdrawal. When it reaches the threshold, the transaction goes through and the Qredo Blockchain is updated. If less than the threshold, the transaction does not go through.
+          type: integer
+        expires:
+          description: The time in which the transaction expires where custodian approvals are needed. The time is in Epoch.
+          type: integer
+        initiated_timestamp:
+          description: The time in which the transaction was initiated in Epoch.
+          type: integer
+        initiator_authorized:
+          description: >-
+            Status to indicate if the transaction is authorised by the trade initiator.
+                                 True indicates that the transaction is authorised and False indicates that
+                                 the transaction is not yet authorised. All transactions need to be authorised
+                                 by the initiator.
+
+          type: boolean
+        initiator_name:
+          description: Name of the trade initiator that initiated the transaction.
+          type: string
+        reference:
+          description: The transaction reference number.
+          type: string
+        status:
+          type: array
+          description: Details of the transaction approval status.
+          items:
+            type: object
+            properties:
+              action_id:
+                description: The ID assigned to the approval action.
+                type: string
+              first_name:
+                description: First name of the custodian.
+                type: string
+              last_name:
+                description: Last name of the custodian.
+                type: string
+              status:
+                description: Status of the transaction as approved or rejected.
+                type: string
+              timestamp:
+                description: The time in which the transaction was approved or rejected in Epoch.
+                type: integer
+              user_id:
+                description: User ID of the custodian.
+                type: string
+              username:
+                description: User name of the custodian.
+                type: string
+        status_details:
+          description: Details of the transaction status.
+          type: object
+          properties:
+            account_no:
+              description: Account number of the counterparty
+              type: string
+            amount:
+              description: Amount of the transaction in Satoshis (in whole number form).
+              type: integer
+            asset:
+              description: Asset of the transaction.
+              type: string
+            benefit_of:
+              description: Beneficiary of the transaction.
+              type: string
+            expires:
+              description: Expiration time
+              type: integer
+            fees:
+              description: Amount of the fees in Satoshis.
+              type: integer
+            fund_id:
+              description: fund ID of the transaction.
+              type: string
+            net_amount:
+              description: Amount of the transaction after the fees are deducted.
+              type: integer
+            recipient_address:
+              description: Wallet address of the recipient.
+              type: string
+            recipient_email:
+              description: Email address of the receiving counterparty.
+              type: string
+            recipient_first_name:
+              description: First name of the receiving counterparty.
+              type: string
+            recipient_last_name:
+              description: Last name of the receiving counterparty.
+              type: string
+            recipient_username:
+              description: User name of the receiving counterparty.
+              type: string
+            reference:
+              description: Reference number of the transaction.
+              type: string
+            requested_by:
+              description: The company that requested the transaction.
+              type: string
+        threshold_required:
+          type: integer
+          description: Number of custodian signatures needed for a transaction to be approved.
+        tx_id:
+          type: string
+          description: The transaction ID.
+        tx_status:
+          type: string
+          oneOf:
+            - $ref: '#/components/schemas/pending_initiate'
+            - $ref: '#/components/schemas/pending'
+            - $ref: '#/components/schemas/expired'
+            - $ref: '#/components/schemas/approved'
+            - $ref: '#/components/schemas/initiate_rejected'
+            - $ref: '#/components/schemas/custody_rejected'
+            - $ref: '#/components/schemas/chain_rejected'
+          description: The status of the transaction
+      example:
+        approvedCount: 1
+        expires: 1640998800
+        initiatedTimestamp: 1594281300
+        initiatorAuthorized: true
+        initiatorName: SW Corp
+        reference: CX15R99XX
+        status:
+          - actionID: 1eRPBxd9w6WrooxkquWmirbo4oL
+            firstName: Han
+            lastName: Solo
+            status: approved
+            timestamp: 1594281312
+            userID: 3fyHm7e3hsbSXBs1yjpzMaesirXPhqcz8kM7zgafmZef
+            username: hsolo
+        statusDetails:
+          accountNo: 123-XX
+          amount: 801
+          asset: BTC-TESTNET
+          benefitOf: Ben Kenobi
+          expires: 0
+          fees: 1
+          fundID: 1ePK2dtLnpocC9uRuy3DlNC7zXd
+          netAmount: 800
+          recipientAddress: ""
+          recipientEmail: han@falcon.com
+          recipientFirstName: Han
+          recipientLastName: Solo
+          recipientUsername: hsolo
+          reference: CX15R99XX
+          requestedBy: SW Corp
+        thresholdRequired: 1
+        txID: 1eRPC44MjhRI3sJ6UzzjYio5ulu
+        txStatus: approved
+
+
     pending_initiate:
       type: string
       description: The trade initiator is yet to authorise the transaction.
@@ -2023,34 +2193,36 @@ components:
       description:  The transaction has been rejected by the Qredo blockchain.
 
 
+
+
 tags:
   - name: Company
-    description: Qredo Partner's customer
+    description: Qredo Partner's customer.
     externalDocs:
       description: Find out more
       url: 'https://qa-support.qredo.com/docs/Partner%20API#api-endpoints'
   - name: TrustedNetwork
-    description: Operations on customer's trusted parties
+    description: Operations on customer's trusted parties.
     externalDocs:
       description: Find out more
       url: 'https://qa-support.qredo.com/docs/Partner%20API#api-endpoints'
   - name: Holding
-    description: Obtain data on holdings
+    description: Obtain data on holdings.
     externalDocs:
       description: Find out more
       url: 'https://qa-support.qredo.com/docs/Partner%20API#api-endpoints'
   - name: Fund
-    description: Operations on customer's funds
+    description: Operations on customer's funds.
     externalDocs:
       description: Find out more
       url: 'https://qa-support.qredo.com/docs/Partner%20API#api-endpoints'
   - name: Transfer
-    description: Operations on customer's transfers
+    description: Operations on customer's transfers.
     externalDocs:
       description: Find out more
       url: 'https://qa-support.qredo.com/docs/Partner%20API#api-endpoints'
   - name: Withdrawal
-    description: Operations on customer's withdrawals
+    description: Operations on customer's withdrawals.
     externalDocs:
       description: Find out more
       url: 'https://qa-support.qredo.com/docs/Partner%20API#api-endpoints'
