@@ -407,4 +407,4 @@ The following http headers are added to each request:
 
 The signature is in the base64 url safe encoding format (RFC 4648).
 
-When you intend to go live, please get in touch with Qredo (support@qredo.com) who can assist you in adding the public key to the Qredo service.
+When you intend to go live, please get in touch with Qredo (support@qredo.com) to assist you in adding the public key to the Qredo service.
