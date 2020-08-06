@@ -204,7 +204,7 @@ You repeat the above step to create ACME CORP as a company.
 
 Using the `company_id` of John Doe Group, you add ACME Corp as a trusted party. For the trusted party of `type` that is `company`, you specify the web address.
 
-Using the `company_id` of ACME Corp, you add a user as a trusted party for that company, and state the email address. In this example, you add Izumi Katsuyoshi with the email address of IKatsuyoshi@gmail.com.
+Using the `company_id` of ACME Corp, you add a user as a trusted party for that company, and state the email address. In this example, you add the email address of Izumi Katsuyoshi (IKatsuyoshi@gmail.com).
 
 The response returned from the request indicates that the message is successful.
 
