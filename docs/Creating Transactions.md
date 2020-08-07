@@ -16,8 +16,8 @@ Summary of Steps
   - [review transfer](#review-transfer)
   - [start transfer](#start-transfer)
   - [authorise transfer](#authorise-transfer)
-  
-- As the custodian, you can [approve the transfer](#approve-transfer). 
+
+- As the custodian, you can [approve the transfer](#approve-transfer).
 
 You can [track progress](#track-progress) in different ways.
 
@@ -81,7 +81,7 @@ These include:
 
 ### Start Transfer
 
-1. To start the transfer, click **Initiate Transfer**. You are then prompted to check your phone app.
+1. To start the transfer, click **Initiate Transfer**. You are then prompted to check your Qredo Signing App.
 2. To return to the previous screen, click **Back**.
 
 When a counterparty receives money, they will receive an email notification of the transaction.
@@ -92,7 +92,7 @@ Once authorised, you can double-check details including the fees that are charge
 
 ![ledger](/doc-images/authtransfer.png)
 
-1.  Tap on the notification that you received on your phone. The Transfer screen shows details of the transaction including fees.
+1.  Tap on the notification that you received on your Qredo Signing App. The Transfer screen shows details of the transaction including fees.
 2.  To authorise, tap **Authorise**.
 3.  To reject, tap **Reject**.
 
@@ -102,7 +102,7 @@ A transfer transaction can happen if it has met or exceeded the threshold level 
 
 ### Approve Transfer
 
-As the custodian, you receive a notification as soon as the trade initiator has authorised the transfer. The Transfer screen on your phone asks you to approve or reject the transfer.
+As the custodian, you receive a notification as soon as the trade initiator has authorised the transfer. The Transfer screen on your Qredo Signing App asks you to approve or reject the transfer.
 
 ![ledger](/doc-images/apprtransfer.png)
 
@@ -119,7 +119,7 @@ You can also view other details linked to the transaction under the Show Detail 
 *   the name, beneficiary name, email address, network alias, and account number of the recipient.
 *   the email address and network alias of the trade initiator.
 *   the date and time in which the transfer was initiated.
-*   details of the Qredo fee. Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred. 
+*   details of the Qredo fee. Qredo charges a fee of 1 basis point, or 0.01%, of the amount transferred.
 
 1.  Tap on the notification on your phone. The Transfer screen shows.
 2.  Click **Show Details** to view more details of the transaction.
@@ -139,7 +139,7 @@ Details that can be tracked include the following:
 * [transaction approvals](#transaction-approvals) that cover those from the trade initiator and one or more custodians.
 * [custodian approvals](#custodian-approvals) specifically for the fund of the transaction.
 * [transactions in Ledger View](#transfer-progress) for all funds under your account.
-* [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view. 
+* [progress details](#progress-details) in the form of a summary screen in both Approval and Ledger view.
 
 
 ### Transaction Approvals
@@ -240,4 +240,3 @@ The following shows an example summary status of a completed transfer:
 :::info
 Clicking the downward arrow in the screen shows more details of the transaction, such as the amount of the asset and the fund.
 :::
-
