@@ -75,7 +75,7 @@ In Ledger view, you can see deposit transactions to one or more funds that you a
 Create New Address
 ------------------
 
-If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address. As the initiator of the withdrawal, you confirm your decision by authorising using the phone app.
+If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address. As the initiator of the withdrawal, you confirm your decision by authorising using the Qredo Signing app.
 
 1. Click the asset or ledger icon.
 
@@ -198,7 +198,7 @@ A withdrawal transaction can only be sent out of Qredo if it has met or has exce
 
 As a custodian, you can decide if a withdrawal started by a trade initiator should happen by approving or rejecting the transaction. If all custodians under the threshold of the withdrawal custody policy have approved, the transaction takes place and is recorded on the Qredo blockchain. You will only be able to sign the transaction if you are a custodian for the withdrawal policy linked to the fund of the transaction. For more details on thresholds and custody policies, refer to the [Behaviours] section in the Qredo Network page(/docs/Qredo%20Network/#behaviours).
 
-You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal screen on your phone asks you to approve or reject the new transaction. The screen also shows the following information:
+You receive a notification as soon as the trade initiator has authorised the withdrawal. The Withdrawal screen on the Qredo Signing app asks you to approve or reject the new transaction. The screen also shows the following information:
 
 ![ApproveDetails](/doc-images/apprwith.png)
 

@@ -2,7 +2,7 @@
 id: Configure Account
 ---
 
-The Qredo Wallet app includes sections that will allow you to configure accounts in future versions of the app. 
+The Qredo Wallet App includes sections that will allow you to configure accounts in future versions of the app. 
 
 ### Future Version Features
 
