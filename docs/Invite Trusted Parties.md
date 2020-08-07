@@ -3,7 +3,7 @@ id: Invite Trusted Parties
 ---
 As the account owner, you can invite users as trusted parties, allowing you to build your Qredo Network. A trusted party can send and receive money, and/or approve and reject as a nominated custodian.
 
-Summmary of Steps
+Summary of Steps
 -----------------
 
 - When sending invites to trusted parties, you can:
@@ -91,7 +91,7 @@ Monitor Responses
 
 In the Approvals view, you can monitor responses to your invites. The Approvals view shows trusted parties that have approved and/or rejected invites.
 
-1. Click the the Approval icon to access the Approvals view.
+1. Click the Approval icon to access the Approvals view.
 
    ![Button Approve](/doc-images/button-approve.png)  
 
