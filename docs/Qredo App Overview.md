@@ -1,8 +1,8 @@
 ---
-id: Qredo App Overview
+id: Qredo Apps Overview
 ---
 
-The Qredo app allows you to use the Qredo Network. The Qredo Network is an institutional grade clearing and settlement network for digital assets.
+The Qredo apps allows you to use the Qredo Network. The Qredo Network is an institutional grade clearing and settlement network for digital assets.
 
 Built for professional investors, the Qredo Network securely transfers digital assets instantly whilst delivering:
 
