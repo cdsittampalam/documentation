@@ -2,7 +2,7 @@
 id: Getting Started
 ---
 
-You start the process of registering with Qredo from the .  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network using the Qredo Web app and the Qredo Signing apps.
+You start the process of registering with Qredo from the Qredo website.  A lobby page shows an introductory video on Qredo and links to FAQs. At the end of the journey, you will be ready to start your activities on the Qredo Network using the Qredo Web app and the Qredo Signing apps.
 
 ![Page1](/doc-images/page1.png)
 
