@@ -42,11 +42,11 @@ Where to Go?
 Using the Qredo Apps
 --------------------
 
-The Partner API is used together with the Qredo Wallet app and the Qredo Signing app for functions around Trusted Parties and custodians. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer.
+The Partner API is used together with the Qredo Wallet app and the Qredo Signing App for functions around Trusted Parties and custodians. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer.
 
 Users that are added as Trusted Parties need to have been registered on Qredo via the Qredo Wallet app. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
 
-The Partner API only permits custodian approvals from the Qredo Signing app on your phone. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Signing app. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
+The Partner API only permits custodian approvals from the Qredo Signing App on your phone. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Signing App. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
 
 ![ledger](/doc-images/apprtransfer.png)
 
@@ -147,7 +147,7 @@ This quick-start guide shows you how to build your Qredo network programmaticall
 
 ### Create Company
 
-You can create a company by adding basic information in a POST request. The request returns the reference (`ref`) and `company_id`. Each request lets you create one company. 
+You can create a company by adding basic information in a POST request. The request returns the reference (`ref`) and `company_id`. Each request lets you create one company.
 
 You repeat the process to create multiple companies as Trusted Parties, which form part of your Trusted Network on Qredo.
 
@@ -373,7 +373,7 @@ https://api.qredo.network/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJ
 Set Up Live
 -----------
 
-For setting up the Partner API on your Live environment, you need to generate a private and public key combination. This allows every request in the API to be 
+For setting up the Partner API on your Live environment, you need to generate a private and public key combination. This allows every request in the API to be
 signed with a public and private key combination. The commands are as follows:
 
 ### Generate Key Pair
