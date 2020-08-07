@@ -54,7 +54,7 @@ In the Add Trusted Party screen, the URL of the Join page appears. This allows a
 Accept an Invite
 ----------------
 
-As a user on the Qredo Network, you would have received an invite on your Qredo Signing app to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
+As a user on the Qredo Network, you would have received an invite on your Qredo Signing App to become part of another user's network. Accepting an invite pairs your contact details with the Qredo user that invited you. Pairing lets you access the contact details of the user that has invited you, and vice-versa.
 
 1. Tap on the notification for the invite.
 2. Sign in to the app using the biometric feature of your phone.
