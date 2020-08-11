@@ -109,10 +109,10 @@ Once connected to the Partner API, you have access to all the endpoints.
 
 | **Endpoint** | **Description** |
 | --- | --- |
-| Company | A Company is an entity on the Qredo Network. Within a company is the holding that contains one or more funds. You create one or more companies, update each company, and search companies by entering part of the company name.  A company can also be a trusted party to another company. |
+| Company | A Company is an entity on the Qredo Network that is your company account. You create any number of companies, update each company, and search companies by entering part of the company name.  A company can also be a trusted party to another company. |
 | Trusted Network | A Trusted Network lets you add other Trusted Parties. These can include other companies, e.g., exchanges for an institution. Users can also be Trusted Parties, e.g., those for the companies you created as Trusted Parties. You can also find various Trusted Parties (company and users), and delete a trusted party. |
 | Holding | This is information on all the assets for a company on the Qredo network. |
-| Fund | A fund contains assets and custody policies. You can find information on the fund and the deposit address. For an individual fund, you can add withdrawal addresses. |
+| Fund | A fund is a wallet that contains assets, addresses, and custody policies. You can create a fund where you need to specify the asset and the custody policies. Custody policies must exist for deposit and withdrawals. You can also find information on the fund and the deposit addresses. For an individual fund, you can add withdrawal addresses. |
 | Transfer | Transfers let you move money to another trusted party on the Qredo network. You can add a new transfer and find out the transfer status. |
 | Withdrawal | Withdrawals let you send money to a different cryptocurrency address. Once money is withdrawn, it is off the Qredo blockchain and the custody rules no longer apply. You can add a new withdrawal address, and find out the withdrawal status. |
 
