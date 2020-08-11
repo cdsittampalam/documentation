@@ -116,10 +116,6 @@ Once connected to the Partner API, you have access to all the endpoints.
 | Transfer | Transfers let you move money to another trusted party on the Qredo network. You can add a new transfer and find out the transfer status. |
 | Withdrawal | Withdrawals let you send money to a different cryptocurrency address. Once money is withdrawn, it is off the Qredo blockchain and the custody rules no longer apply. You can add a new withdrawal address, and find out the withdrawal status. |
 
-:::note
-A fund lets you add multiple custodians to a custody policy. However, for self-managed custody, you can also assign just yourself as the custodian.
-:::
-
 ### Endpoint Methods
 
 The following is a summary of the methods used by each endpoint.
