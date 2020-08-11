@@ -9,11 +9,13 @@ Qredo’s Partner API enables authorized Qredo Partners to operate the Qredo Pla
 
 The features of the Qredo Platform are summarised as follows:
 
-*   Institutional-grade DeFi platform    
-*   Secure your customer’s digital assets    
-*   Offers MPC secured fund management    
+*   Cross-chain decentralised custody of digital assets
+*   Trade credit network
+*   Institutional-grade DeFi platform   
+*   No wallet prefunding 
+*   MPC secured fund management    
 *   Hardware security hardened network    
-*   Multi-custodian signature capable    
+*   Multi-custodian signatures    
 *   Instantiate flexible governance policies    
 *   Near instant digital asset delivery    
 *   Eliminate counterparty risk
