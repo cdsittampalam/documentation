@@ -148,7 +148,7 @@ This quick-start guide shows you how to build your Qredo network programmaticall
 
 ### Create Company
 
-You can create a company by adding basic information in a POST request. The request returns the reference (`ref`) and `company_id`. Each request lets you create one company.
+You can create a company by adding basic information in a POST request. The request returns the reference (`ref`) and the `company_id`. The 'company_id' is important as it uniquely identifies the company on the Qredo Network. Each request lets you create one company.
 
 You repeat the process to create multiple companies as Trusted Parties, which form part of your Trusted Network on Qredo.
 
