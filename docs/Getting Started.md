@@ -233,9 +233,8 @@ Navigation
 
 The screens of the Qredo app includes these buttons for navigating to different sections. Clicking a button lets you launch various functions, e.g., viewing approvals.
 
-|     |     |
+| Button | Description |
 | --- | --- |
-| **Button** | **Description** |
 | ![asset](/doc-images/coins.png)| The Asset view gives you details on all activities on a particular fund. This allows you to monitor and launch tasks from the fund.  |
 | ![Ledger](/doc-images/ledger.png) | The Ledger view provides you information on all inbound and outbound transactions for all your funds. This lets you monitor activity at the account level. |
 | ![Approvals](/doc-images/tick.png) | The Approval view gives you details on approvals throughout the app. For example, you can monitor all your custody approvals. |
