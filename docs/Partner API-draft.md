@@ -130,8 +130,6 @@ The signature is in the base64 url safe encoding format (RFC 4648).
 
 5. Click Generate.
 
-
-
 :::note
 If you have lost your API key, you can return to the Settings page to generate a new key.
 
@@ -153,6 +151,9 @@ If you have lost your API key, you can return to the Settings page to generate a
 private.pem is the private key and public.pem is the public key
 :::
 
+### Send Keys to Qredo
+
+When you have generated the keys, please send the public and private keys via email to Qredo (support@qredo.com) for adding to your environments.
 
 
 ### Add Key to your Development Environment
@@ -460,4 +461,4 @@ The following http headers are added to each request:
 
 The signature is in the base64 url safe encoding format (RFC 4648).
 
-When you intend to go live, please get in touch with Qredo (support@qredo.com) to assist you in adding the public key to the Qredo service.
+
