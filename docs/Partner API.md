@@ -112,7 +112,7 @@ Once connected to the Partner API, you have access to all the endpoints.
 | Company | A Company is an entity on the Qredo Network that is a customer account which you create on the customer's behalf. A company includes all entities for managing the Qredo network including Trusted Parties, holdings, funds, custody policies, and those for the movement of money (deposits, transfers, and withdrawals). You create any number of companies, update each company, and search companies by entering part of the company name.  A company can also be a Trusted Party to another company. |
 | Trusted Network | A Trusted Network is needed in order to use the Qredo Network, including for the creation of funds and for the movement of assets. A Trusted Network lets you add other Trusted Parties. These can include other companies, e.g., exchanges for an institution. Users can also be Trusted Parties, e.g., those for the companies you created as Trusted Parties. You can also find various Trusted Parties, and delete a Trusted Party. Note that you cannot delete a Trusted Party if it has been assigned to a fund.|
 | Holding | This is information on all the assets for a company on the Qredo network. Each holding is divided according to the asset type. Each holding entry also includes the balance for that asset, allowing you to track funds coming in and out.|
-| Fund | A fund is a wallet that contains assets, addresses, and custody policies. You can create a small or large number of funds depending on your requirements. For each fund, you specify the asset and the custody policies. Custody policies for depositS and withdrawals must exist for both a fund with multiple custodians, or for a single user that self-manages custody. You can also find information on the fund and the deposit addresses. For an individual fund, you can add withdrawal addresses.|
+| Fund | A fund is a wallet that contains assets, addresses, and custody policies. You can create a small or large number of funds depending on your requirements. For each fund, you specify the asset and the custody policies. Custody policies for deposits and withdrawals must exist for both a fund with multiple custodians, or for a single user that self-manages custody. You can also find information on the fund and the deposit addresses. For an individual fund, you can add withdrawal addresses.|
 | Transfer | Transfers let you move money to another Trusted Party on the Qredo network. You can add a new transfer and find out the transfer status. |
 | Withdrawal | Withdrawals let you send money to a different cryptocurrency address. Once money is withdrawn, it is off the Qredo blockchain and the custody rules no longer apply. You can add a new withdrawal address, and find out the withdrawal status. |
 
@@ -205,11 +205,11 @@ You repeat the above step to create ACME CORP as a company.
 
 Using the `company_id` of John Doe Group, you add ACME Corp as a Trusted Party. For the Trusted Party of `type` that is `company`, you specify the web address.
 
-Using the `company_id` of ACME Corp, you add a user as a trusted party for that company, and state the email address. In this example, you add the email address of Izumi Katsuyoshi [IKatsuyoshi@gmail.com].
+Using the `company_id` of ACME Corp, you add a user as a Trusted Party for that company, and state the email address. In this example, you add the email address of Izumi Katsuyoshi [IKatsuyoshi@gmail.com].
 
 The response returned from the request indicates that the message is successful.
 
-A trusted party that is a user must have been added to the Qredo Network through the Qredo Desktop app. When adding the trusted party using the below request, they receive an approval request on the Qredo Signing app. Once approved, you will be able to find the trusted party when running a Returns All trusted parties for a company request.
+A Trusted Party that is a user must have been added to the Qredo Network through the Qredo Desktop app. When adding the Trusted Party using the below request, they receive an approval request on the Qredo Signing app. Once approved, you will be able to find the Trusted Party when running a Returns All Trusted Parties for a company request.
 
 You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** in the URL for John Doe Group and the following request:
 
@@ -248,9 +248,9 @@ You then enter **1fB50nbY9Tw2TT12K6VH46gDKWE** for ACME Corp in the URL and the 
 
 ### Return all trusted parties for a company
 
-This endpoint shows details of the Trusted Parties that exist in a company. You should also use the endpoint to find out the `trusted_entity_id` of a trusted party user that you want to include as a member of a custody group for creating a fund.  
+This endpoint shows details of the Trusted Parties that exist in a company. You should also use the endpoint to find out the `trusted_entity_id` of a Trusted Party user that you want to include as a member of a custody group for creating a fund.  
 
-In this example. you obtain the trusted party user of Izumi Katsuyoshi that you added in Add trusted party.
+In this example. you obtain the Trusted Party user of Izumi Katsuyoshi that you added in Add trusted party.
 
 You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in the URL and the following request:
 
@@ -282,7 +282,7 @@ https://api.qredo.network/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
 
 ### Add Fund
 
-A fund is the organisational unit for assigning portfolios. A company can have 1 or more funds. Each fund includes custody groups containing members. You select the members from the trusted party users that you previously added. Custody group members include trusted party users that are nominated as custodians, where their signatures are needed to approve transactions. These include:
+A fund is the organisational unit for assigning portfolios. A company can have 1 or more funds. Each fund includes custody groups containing members. You select the members from the Trusted Party users that you previously added. Custody group members include Trusted Party users that are nominated as custodians, where their signatures are needed to approve transactions. These include:
 
 *   `custodygroup_withdraw` custody group for a withdrawal
 *   `custodygroup_tx` custody group for a transfer
@@ -295,7 +295,7 @@ A fund includes a `threshold` that determines how many custodian signatures from
 
 The response shows an assigned `fund_id` and IDs assigned to each custody group.
 
-This example includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`. As members need to be trusted party users, you add the 'trusted_entity_id' as a value in the '"members"' array.
+This example includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`. As members need to be Trusted Party users, you add the 'trusted_entity_id' as a value in the '"members"' array.
 
 The fund is added to the `company_id` of 1fB50nbY9Tw2TT12K6VH46gDKWE.
 
@@ -343,7 +343,7 @@ You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** for ACME Corp in the URL and the follo
 
 You can obtain the deposit address associated with the fund, and find out both the balance and asset of the fund.
 
-You specify the `company_id` for the trusted party and the `fund_id`.
+You specify the `company_id` for the Trusted Party and the `fund_id`.
 
 1. Enter **1fB50nbY9Tw2TT12K6VH46gDKWE** in the URL for the `company_id` of ACME corp.
 
