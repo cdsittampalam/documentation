@@ -388,7 +388,9 @@ signed with a public and private key combination. The commands are as follows:
 ``openssl rsa -in private.pem -outform PEM -pubout -out public.pem``
 
 :::info
-private.pem is the private key and public.pem is the public key
+* private.pem is the private key and public.pem is the public key
+* The type of key pair you create is RSA.
+* 2048 is the size in bits of the RSA private key
 :::
 
 ### About the Signature
