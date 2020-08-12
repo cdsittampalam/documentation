@@ -461,4 +461,13 @@ The following http headers are added to each request:
 
 The signature is in the base64 url safe encoding format (RFC 4648).
 
+Rate Limiting
+-------------
+
+The Partner API includes rate limiting when users add funds. To ensure that the API can handle requests reliably, no more than 1 fund can be created every 15 seconds.
+
+If this limit is exceeded, an HTTP 429 Too Many Requests response status code appears. More details on response codes are provided in the [Reference Docs](/api).
+
+ 
+
 

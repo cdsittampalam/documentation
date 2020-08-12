@@ -379,6 +379,8 @@ signed with a public and private key combination. The commands are as follows:
 
 ### Generate Key Pair
 
+You use openssl on your system to generate a key pair. If your system doesn't have openssl, you will need to download it from a suitable location.
+
 1. Generate the key pair by entering this command in openssl.
 
 ``openssl genrsa -out private.pem 2048``
