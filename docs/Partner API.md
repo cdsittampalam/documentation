@@ -379,7 +379,7 @@ signed with a public and private key combination. The commands are as follows:
 
 ### Generate Key Pair
 
-You use openssl on your system to generate a key pair. If your system doesn't have openssl, you will need to download it from a suitable location.
+You use openssl on your system to generate a key pair. If your system doesn't have openssl, you will need to first download it from a suitable location.
 
 1. Generate the key pair by entering this command in openssl.
 
@@ -390,9 +390,9 @@ You use openssl on your system to generate a key pair. If your system doesn't ha
 ``openssl rsa -in private.pem -outform PEM -pubout -out public.pem``
 
 :::info
-* private.pem is the private key and public.pem is the public key
+* private.pem is the private key and public.pem is the public key.
 * The type of key pair you create is RSA.
-* 2048 is the size in bits of the RSA private key
+* 2048 is the recommended size in bits of the RSA private key. If desired, you can choose a larger size, e.g., 4096.
 :::
 
 ### About the Signature
