@@ -341,7 +341,7 @@ You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** for ACME Corp in the URL and the follo
 
 ### Get Deposit Address
 
-You can obtain the deposit address associated with the fund, and find out both the balance and asset of the fund.
+You can obtain the deposit addresses associated with the fund, and find out both the balance and asset of the fund.
 
 You specify the `company_id` for the Trusted Party and the `fund_id`.
 
