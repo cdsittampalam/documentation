@@ -109,7 +109,7 @@ Once connected to the Partner API, you have access to all the endpoints.
 
 | **Endpoint** | **Description** |
 | --- | --- |
-| Company | A Company is an entity on the Qredo Network that is a customer account which you create on the customer's behalf. A company includes all entities for managing the Qredo network including Trusted Parties, holdings, funds, custody policies, and those for the movement of money (deposits, transfers, and withdrawals). You create any number of companies, update each company, and search companies by entering part of the company name.  A company can also be a Trusted Party to another company. |
+| Company | A Company is an entity on the Qredo Network that is a customer account which you create on the customer's behalf. A company includes all entities for managing the Qredo network including Trusted Parties, holdings, funds, custody policies, and those for the movement of money (deposits, transfers, and withdrawals). You create any number of companies, update each company, and search companies by entering part of the company name.  A company can also be a Trusted Party to another company. Note that for all requests except CreateCompany, you include the `company_id` to ensure that all data can be manipulated for that company. |
 | Trusted Network | A Trusted Network is needed in order to use the Qredo Network, including for the creation of funds and for the movement of assets. A Trusted Network lets you add other Trusted Parties. These can include other companies, e.g., exchanges for an institution. Users can also be Trusted Parties, e.g., those for the companies you created as Trusted Parties. You can also find various Trusted Parties, and delete a Trusted Party. Note that you cannot delete a Trusted Party if it has been assigned to a fund.|
 | Holding | This is information on all the assets for a company on the Qredo network. Each holding is divided according to the asset type. Each holding entry also includes the balance for that asset, allowing you to track funds coming in and out.|
 | Fund | A fund is a wallet that contains assets, addresses, and custody policies. You can create a small or large number of funds depending on your requirements. For each fund, you specify the asset and the custody policies. Custody policies for deposits and withdrawals must exist for both a fund with multiple custodians, or for a single user that self-manages custody. You can also find information on the fund and the deposit addresses. For an individual fund, you can add withdrawal addresses.|
@@ -282,7 +282,7 @@ https://api.qredo.network/company/1f4sDiEGYNGJiGli31MDgzkRj3F/trustedparty
 
 ### Add Fund
 
-A fund is the organisational unit for assigning portfolios. A company can have 1 or more funds. Each fund includes custody groups containing members. You select the members from the Trusted Party users that you previously added. Custody group members include Trusted Party users that are nominated as custodians, where their signatures are needed to approve transactions. These include:
+When adding a fund, you select the members from the Trusted Party users that you previously added. Custody group members include Trusted Party users that are nominated as custodians, where their signatures are needed to approve transactions. These include:
 
 *   `custodygroup_withdraw` custody group for a withdrawal
 *   `custodygroup_tx` custody group for a transfer
