@@ -96,7 +96,7 @@ If you do not have a withdrawal address, you need to create one before the trans
 6.  To set up a withdraw address on an asset, choose an asset from the **Asset** list and click the **Add Withdrawal Address** button. The same screen appears.
 7.  In the Add Withdrawal Address screen, select the fund that you want to add the address to in **Source Fund**.
 8.  Choose the asset type in **Asset**.
-9.  Enter a name for the wallet in **Wallet Name**.
+9.  Enter a unique name for the wallet in **Wallet Name**.
 
 :::note
 Ensure that the wallet name does not include spaces.
