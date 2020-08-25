@@ -1,3 +1,3 @@
 ---
-id: How to Recover your Funds
+id: Recovery
 ---

@@ -399,7 +399,7 @@ You use openssl on your system to generate a key pair. If your system doesn't ha
 The signature is applicable to these areas:
 
 * the URL of the full path.
-* the nonce (or number) that is generated for cryptographic purposes.
+* the nonce (or number) that is generated for cryptographic purposes. This number uniquely identifies each call to the API and increases by 1 with each call.
 * the payload (body) for POST/PUT requests that contain added data.
 
 To formulate the signature, these three components should be concatenated in that order without any kind of delimiters, signed with the private key
