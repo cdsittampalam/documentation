@@ -31,16 +31,6 @@ Qredo’s Partner program is for those who are committed to building a new era i
 
 If so, please get in touch.
 
-
-Where to Go?
-------------
-
-* Become a developer on the Qredo network by [signing up for the Partner API](#sign-up-for-the-partner-api).
-* [Connect to the Partner API](#connect-to-the-partner-api) using an API key for use in your development environment.
-* Familiarise yourself with the API from these parts of the page: [API endpoints](#api-endpoints) and [quick-start guide](#quick-start-guide).
-* Refer to the [Reference Docs](/api) to help you test and develop knowledge.
-* [Set up the Live](#set-up-live) environment once ready to Go-Live.
-
 Using the Qredo Apps
 --------------------
 
@@ -52,55 +42,125 @@ The Partner API only permits custodian approvals from the Qredo Signing App on y
 
 ![ledger](/doc-images/apprtransfer.png)
 
+Where to Go?
+------------
+
+The following is a summary of steps for using the Partner API. 
+
+* [Sign up for the Partner API](#sign-up-for-the-partner-api) to become an API developer on Qredo.
+* [Set up the sandbox keys](#set-up-the-sandbox-keys) which are used for authentication when testing the API.
+* [Authenticate](#authenticate-with-the-api) with the API using the keys and [generate a signature and nonce value](#generate-signature-and-nonce-value).  
+* [Set up the production keys](#set-up-live) for the production environment to go Live.
+
+While testing and using the API, learn about the [API endpoints](#api-endpoints), follow the steps in the [quick-start guide](#quick-start-guide), and refer to the [Reference Docs](/api).
+
+Setting up the sandbox and production keys will require you to generate a public and private key pair via OpenSSL. You will also need to use
+signature and cryptographic nonce generation tools specific to your programming environment. If necessary, take time to familiarise yourself with these tools.  
+
+Further Assistance
+------------------
+
+For further assistance in using the Partner API, please email support@qredo.com.
+
 Sign Up for the Partner API
 ----------------------------
 
-1. Go to **Settings** > **Partner API**.  
+You sign for the Partner API in the Qredo app.
+
+1. Ensure that you are logged in as a Qredo user.
+2. Go to **Settings** > **Partner API**.  
 
 ![Billing](/doc-images/partnerapi3.png)
 
 3. Read through the descriptions on the API and click **Apply**.
 4. Fill out the form to apply for the Partner API and click **Submit.**
 
-After a confirmation message appears with the **Generate Key** button for connecting to the API.
+The Partner API page shows sections for the Production and Sandbox API.
 
-![partnerapi](/doc-images/generatekeyimage1.png)
+![partnerapi](/doc-images/partnerapi-default.png)
 
-Connect to the Partner API
---------------------------
+Set Up the Sandbox Keys
+-----------------------
 
-The Partner API key is a security feature which ensures that only you can access the Partner API endpoints. You generate an API key that you use for both testing the API and going Live.
+You first generate an API key, and then upload a generated public key. 
+
+The API key is an alphanumeric code that allows a user to be authenticated when accessing the API endpoints. The key is written to the HTTP headers of each request.
+
+A public key is needed to later generate a signature and the cryptographic nonce for each running request. The signature and cryptographic nonce provide extra security. 
+
+Both the sandbox API key and the public key can only be used in the sandbox environment only.   
+
+1. In the Sandbox section of the Partner API page, click **Generate API Key**. The Sandbox API Key screen appears with the generated Partner API Key and a corresponding Key ID.
+
+![sdbox](/doc-images/sdbox.png)
+
+2. Note down the API key.
+
+3. Click **Copy to Clipboard** if you want the key to available elsewhere, e.g., a password manager.
+
+4. In the Sandbox section, click **Upload Public Key**. The Sandbox Public Key window shows.
+
+![sandbox](/doc-images/publickeysd.png)
+
+5. Paste the public key and click **Upload**. 
+
+For public key generation, see [generate key pair](#generate-key-pair).
 
 :::note
 
-*   You must make sure that API keys are not distributed to another party.
-*   You must not add any of the API keys to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
+*   You must make sure that the keys are not distributed to another party.
+*   You must not add any of the keys to parts of a program where it is not required, e.g., embedded directly in to the code of a program.
 :::
 
-### Generate an API Key
+#### Generate Key Pair
 
-1. Click **Generate Key**. In the New Partner API Key screen, the Key ID and Partner API Key show.
+1. Generate the key pair by entering this command in openssl.
 
-![partnerapi](/doc-images/apikeypartner.png)
+``openssl genrsa -out private.pem 2048``
 
-2. Click **Copy.**
+2. Extract the public key from the key pair.
 
-:::note
-If you have lost your API key, you can return to the Settings page to generate a new key.
+``openssl rsa -in private.pem -outform PEM -pubout -out public.pem``
 
-1.  Click **Regenerate** Key.
-2.  Click **Copy** in the New Partner API Key screen.
+:::info
+private.pem is the private key and public.pem is the public key.
 :::
 
-### Add Key to your Development Environment
 
-Once you have generated the API key, you add it to your development environment. The key is written to HTTP headers for connecting securely to the different endpoints.
+Authenticate with the API
+-------------------------
+
+Once you have generated the sandbox keys, you need to use the API key to authenticate with the Partner API. You add the API key to your development environment. The key is written to HTTP headers for connecting securely to the different endpoints.
 
 The following is an example request header in cURL format. You add the API key value to X-API-KEY at the end of the request. In this example, it is Create Company.
 
 ```
 curl -X GET "https://yourcompany.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAww" -H "accept: application/json" -H "X-API-KEY: eyJrZXlfaWQiOiJBek13cFhDNFVoQWhwUSIsImtleSI6Im9GX0ZKUGthT25FdTd1VEU0czR1VDBrd3hqajgxUWJkRDhaOE9vXzhZdlUifQ"
 ```
+
+Generate Signature and Nonce Value
+----------------------------------
+
+Once you have been authenticated through the Partner API, you generate a signature and nonce value. While both the private and public keys are required, the private key is used specifically for signing in order to generate a signature. The following additional http headers are added to each request:
+
+'x-sign:' the signature itself
+'x-nonce:' the nonce used in the signature
+
+The signature is encoded in base64 url safe encoding (RFC 4648), and is applicable to these areas:
+
+* the URL of the full path.
+* the nonce (or number) that is generated for cryptographic purposes.
+* the payload (body) for POST/PUT requests that contain added data.
+
+### Defining a Nonce
+
+A nonce is a number that is added to a request. The number increments by one each time a request is made. A nonce is designed to decrease the likelihood of a replay attack as shown in this example. 
+
+#### Example
+
+Alice sends a CreateCompany request to the API server. Bob masqerading as Alice listens to the request. Then Bob, using the obtained information, makes the same CreateCompany request to the API server pretending to be Alice.
+If a nonce of 10 exists in Alice's request, the API server accepts the initial request with this number. If Bob presents 10, the API server does not accept the request.  The server knows that the nonce value has increased by 1, requires 11. 
+Thus, the replay attack fails.
 
 API Endpoints
 -------------
@@ -374,42 +434,27 @@ https://api.qredo.network/company/1f4sRjsZD612GdSvokktFReylZp/fund/1f5xeLmyhXrEJ
 Set Up Live
 -----------
 
-For setting up the Partner API on your Live environment, you need to generate a private and public key combination. This allows every request in the API to be
-signed with a public and private key combination. The commands are as follows:
+1. In the Production section, click **Generate Key**. In the Production API Key screen, the Key ID and Partner API Key show.
 
-### Generate Key Pair
+![prodapi](/doc-images/prodAPI.png)
 
-You use openssl on your system to generate a key pair. If your system doesn't have openssl, you will need to first download it from a suitable location.
+2. Note down the API key.
 
-1. Generate the key pair by entering this command in openssl.
+3. Click **Copy to Clipboard** if you want the key to available elsewhere, e.g., a password manager.
 
-``openssl genrsa -out private.pem 2048``
+4. In the Production section, click **Upload Public Key**. The Production Public Key window appears.
 
-2. Extract the public key from the key pair.
+![prodpub](/doc-images/prodpub.png)
 
-``openssl rsa -in private.pem -outform PEM -pubout -out public.pem``
+5. Paste the public key and click **Upload**. 
+
+6. Follow the same procedures in [Authenticate with the API](#authenticate-with-the-api) and [Generate Signature and Nonce Value](#generate-signature-and-nonce-value).
+
 
 :::info
-* private.pem is the private key and public.pem is the public key.
-* The type of key pair you create is RSA.
-* 2048 is the recommended size in bits of the RSA private key. If desired, you can choose a larger size, e.g., 4096.
+You need to generate a public key and private key for the Production environment using OpenSSL. See [Generate Key Pair](#generate-key-pair) for more information.
 :::
 
-### About the Signature
-The signature is applicable to these areas:
 
-* the URL of the full path.
-* the nonce (or number) that is generated for cryptographic purposes. This number uniquely identifies each call to the API and increases by 1 with each call.
-* the payload (body) for POST/PUT requests that contain added data.
 
-To formulate the signature, these three components should be concatenated in that order without any kind of delimiters, signed with the private key
-and the result encoded in base64 url safe encoding (RFC 4648).
 
-The following http headers are added to each request:
-
-'x-sign:' the signature itself
-'x-nonce:' the nonce used in the signature
-
-The signature is in the base64 url safe encoding format (RFC 4648).
-
-When you intend to go live, please get in touch with Qredo (support@qredo.com) to assist you in adding the public key to the Qredo service.
