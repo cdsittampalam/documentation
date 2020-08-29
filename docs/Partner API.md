@@ -198,7 +198,7 @@ Rate Limiting
 
 The Partner API includes rate limiting when users add funds. To ensure that the API can handle requests reliably, the API creates no more than 1 fund every 15 seconds.
 
-If this limit is exceeded, an HTTP 429 Too Many Requests response status code appears. More details on response codes are provided in the [Reference Docs](/api).
+If this limit is exceeded, an HTTP 429 Too Many Requests response status code appears. The [Reference Docs](/api) provides more details on response codes.
 
 
 Quick-Start Guide
@@ -276,7 +276,7 @@ Using the `company_id` of ACME Corp, you add a user as a Trusted Party for that 
 
 The response returned from the request indicates that the message is successful.
 
-A Trusted Party that is a user must have been added to the Qredo Network through the Qredo Desktop app. When adding the Trusted Party using the below request, they receive an approval request on the Qredo Signing app. Once approved, you will be able to find the Trusted Party when running a Returns All Trusted Parties for a company request.
+A Trusted Party that is a user must have been added to the Qredo Network through the Qredo Desktop app. When adding the Trusted Party using the below request, they receive an approval request on the Qredo Signing app. Once approved, you can find the Trusted Party when running a Returns All Trusted Parties for a company request.
 
 You first enter **9827feec-4eae-4e80-bda3-daa7c3b97ad1** in the URL for John Doe Group and the following request:
 
@@ -364,7 +364,7 @@ The response shows an assigned `fund_id` and IDs assigned to each custody group.
 
 This example includes the `custodygroup_withdraw` group with a `threshold` of 1 that contains 1 `member`. There is the `custodygroup_tx` group that also has a `threshold` of 1 with 1 `member`. This example fund contains `BTC-TESTNET`. As members need to be Trusted Party users, you add the 'trusted_entity_id' as a value in the '"members"' array.
 
-The fund is added to the `company_id` of 1fB50nbY9Tw2TT12K6VH46gDKWE.
+The `company_id` of 1fB50nbY9Tw2TT12K6VH46gDKWE includes the added fund.
 
 You enter **1fB50nbY9Tw2TT12K6VH46gDKWE** for ACME Corp in the URL and the following request.
 
