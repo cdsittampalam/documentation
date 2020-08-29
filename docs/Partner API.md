@@ -141,7 +141,7 @@ curl -X GET "https://yourcompany.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAw
 Generate Signature and Nonce Value
 ----------------------------------
 
-Once you have been authenticated through the Partner API, you generate a signature and nonce value. While both the private and public keys are required, the private key is used specifically for signing in order to generate a signature. The following additional http headers are added to each request:
+Once you have been authenticated through the Partner API, you generate a signature and nonce value. The API requires both the private and public keys, and it uses the private key specifically for signing in order to generate a signature. Each request also includes these additional http headers:
 
 'x-sign:' the signature itself
 'x-nonce:' the nonce used in the signature
