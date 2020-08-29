@@ -5,7 +5,7 @@ id: Partner API
 About
 -----
 
-Qredo’s Partner API enables authorized Qredo Partners to operate the Qredo Platform programmatically from their application. OMS and EMS ISVs, Exchanges and other financial service providers can create accounts, initiate transactions on behalf of users, and approve transactions where they have been ordained as a Custodian over an end user's or corporate user’s fund.
+Qredo’s Partner API enables authorized Qredo Partners to operate the Qredo Platform programmatically from their application. OMS and EMS ISVs, Exchanges and other financial service providers can create accounts, initiate transactions on behalf of users, and approve transactions where they are ordained as a Custodian over an end user's or corporate user’s fund.
 
 The features of the Qredo Platform are summarised as follows:
 
@@ -36,7 +36,7 @@ Using the Qredo Apps
 
 The Partner API is used together with the Qredo Wallet App and the Qredo Signing App for functions around Trusted Parties and custodians. Users that are Trusted Parties can be ordained as Custodians, or be counterparties to a trade initiator in a transfer.
 
-Users that are added as Trusted Parties need to have been registered on Qredo via the Qredo Wallet App. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
+When users are added as Trusted Parties, they are registered on Qredo via the Qredo Wallet App. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
 
 The Partner API only permits custodian approvals from the Qredo Signing App on your phone. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Signing App. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
 
@@ -192,6 +192,13 @@ The following is a summary of the methods used by each endpoint.
 ### Parameters
 
 GET method parameters are passed in the query string of the URL. All other request parameters are sent in the request body and use `application/json`.
+
+Rate Limiting
+-------------
+
+The Partner API includes rate limiting when users add funds. To ensure that the API can handle requests reliably, no more than 1 fund can be created every 15 seconds.
+
+If this limit is exceeded, an HTTP 429 Too Many Requests response status code appears. More details on response codes are provided in the [Reference Docs](/api).
 
 
 Quick-Start Guide
