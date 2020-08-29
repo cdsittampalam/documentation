@@ -38,7 +38,7 @@ The Partner API is used together with the Qredo Wallet App and the Qredo Signing
 
 When users are added as Trusted Parties, they are registered on Qredo via the Qredo Wallet App. For more details on registration, refer to the [Getting Started](/docs/Getting%20Started) page.
 
-The Partner API only permits custodian approvals from the Qredo Signing App on your phone. When users are added as Trusted Parties through the Partner API, they need to accept the invite through the Qredo Signing App. When ordained as custodians, they also need to approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
+The Partner API only permits custodian approvals from the Qredo Signing App on your phone. When added as Trusted Parties through the Partner API, they accept the invite through the Qredo Signing App. When ordained as custodians, they approve transfer and withdrawal functions from the mobile app. This image shows how the phone app appears when a custodian approves a withdrawal transaction.
 
 ![ledger](/doc-images/apprtransfer.png)
 
@@ -54,7 +54,7 @@ The following is a summary of steps for using the Partner API.
 
 While testing and using the API, learn about the [API endpoints](#api-endpoints), follow the steps in the [quick-start guide](#quick-start-guide), and refer to the [Reference Docs](/api).
 
-Setting up the sandbox and production keys will require you to generate a public and private key pair via OpenSSL. You will also need to use
+Setting up the sandbox and production keys requires you to generate a public and private key pair via OpenSSL. You also need to use
 signature and cryptographic nonce generation tools specific to your programming environment. If necessary, take time to familiarise yourself with these tools.  
 
 Further Assistance
@@ -86,7 +86,7 @@ You first generate an API key, and then upload a generated public key.
 
 The API key is an alphanumeric code that allows a user to be authenticated when accessing the API endpoints. The key is written to the HTTP headers of each request.
 
-A public key is needed to later generate a signature and the cryptographic nonce for each running request. The signature and cryptographic nonce provide extra security. 
+Qredo needs a public key to later generate a signature and the cryptographic nonce for each running request. The signature and cryptographic nonce provide extra security. 
 
 Both the sandbox API key and the public key can only be used in the sandbox environment only.   
 
@@ -130,7 +130,7 @@ private.pem is the private key and public.pem is the public key.
 Authenticate with the API
 -------------------------
 
-Once you have generated the sandbox keys, you need to use the API key to authenticate with the Partner API. You add the API key to your development environment. The key is written to HTTP headers for connecting securely to the different endpoints.
+From the generated sandbox keys, you use the API key to authenticate with the Partner API. You add the API key to your development environment. The key is written to HTTP headers for connecting securely to the different endpoints.
 
 The following is an example request header in cURL format. You add the API key value to X-API-KEY at the end of the request. In this example, it is Create Company.
 
