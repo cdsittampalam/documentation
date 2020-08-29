@@ -154,7 +154,7 @@ The signature is encoded in base64 url safe encoding (RFC 4648), and is applicab
 
 ### Defining a Nonce
 
-A nonce is a number that is added to a request. The number increments by one each time a request is made. A nonce is designed to decrease the likelihood of a replay attack as shown in this example. 
+A nonce is a number that is added to a request. The number increments by one each time a request is made. A nonce decreases the likelihood of a replay attack as shown in this example. 
 
 #### Example
 
@@ -196,7 +196,7 @@ GET method parameters are passed in the query string of the URL. All other reque
 Rate Limiting
 -------------
 
-The Partner API includes rate limiting when users add funds. To ensure that the API can handle requests reliably, no more than 1 fund can be created every 15 seconds.
+The Partner API includes rate limiting when users add funds. To ensure that the API can handle requests reliably, the API creates no more than 1 fund every 15 seconds.
 
 If this limit is exceeded, an HTTP 429 Too Many Requests response status code appears. More details on response codes are provided in the [Reference Docs](/api).
 
