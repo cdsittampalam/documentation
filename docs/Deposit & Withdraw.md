@@ -77,6 +77,10 @@ Create New Address
 
 If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address. As the initiator of the withdrawal, you confirm your decision by authorising using the Qredo Signing App.
 
+:::info
+Another fund cannot have the same withdrawal address.
+:::
+
 1. Click the asset or ledger icon.
 
 ![coins](/doc-images/coins.png)
