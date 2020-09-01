@@ -86,7 +86,7 @@ You first generate an API key, and then upload a generated public key.
 
 The API key is an alphanumeric code that allows a user to be authenticated when accessing the API endpoints. The key is written to the HTTP headers of each request.
 
-Qredo needs a public key to later generate a signature and the cryptographic nonce for each running request. The signature and cryptographic nonce provide extra security. 
+The API also needs a public key to generate a signature and the cryptographic nonce for each running request. The signature and cryptographic nonce provide extra security. 
 
 Both the sandbox API key and the public key can only be used in the sandbox environment only.   
 
@@ -141,7 +141,7 @@ curl -X GET "https://yourcompany.net/api/v1/p/company/1f4s2r1NG4E1gZmoeXQBJo9MAw
 Generate Signature and Nonce Value
 ----------------------------------
 
-Once you have been authenticated through the Partner API, you generate a signature and nonce value. The API requires both the private and public keys, and it uses the private key specifically for signing in order to generate a signature. Each request also includes these additional http headers:
+Once you have been authenticated through the Partner API, you generate a signature and nonce value. Requiring both the private and public keys, the API uses the private key specifically for signing in order to generate a signature. Each request also includes these additional http headers:
 
 'x-sign:' the signature itself
 'x-nonce:' the nonce used in the signature
