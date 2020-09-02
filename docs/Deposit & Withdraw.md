@@ -30,7 +30,10 @@ View Deposit Addresses
 ----------------------
 
 The default fund and asset that you have set up includes a deposit address, which is the cryptocurrency wallet address that is linked to a Qredo fund. However, any
-fund that you create is linked to a deposit address. The address is securely created using the MPC protocol.
+fund that you create is linked to a deposit address. 
+
+The cryptocurrency wallet address is created securely using the MPC protocol. The address format is recognised on the underlying blockchain, but is also understood by the Qredo blockchain.
+When money is added to the wallet address, it stays on the underlying blockchain. However, it can now be managed within the Qredo blockchain, and be subject to its governance rules.
 
 You are notified when money arrives at your address via an email with the subject of **Deposit complete**.
 
@@ -72,10 +75,12 @@ In Ledger view, you can see deposit transactions to one or more funds that you a
 | REFERENCE | Reference number for the deposit transaction. |
 | SENDER | Name of the sender. |
 
-Create New Address
+Create New Withdrawal Address
 ------------------
 
 If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address. As the initiator of the withdrawal, you confirm your decision by authorising using the Qredo Signing App.
+
+In essence, the withdrawal address is a different block on the underlying cryptocurrency blockchain. In the same way as a deposit address, the Qredo blockchain recognises the format.
 
 :::info
 Another fund can use the same withdrawal address.
