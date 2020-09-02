@@ -20,7 +20,9 @@ The new password must contain:
     
 To confirm that you made the password change, you receive a request on your mobile app to authorise the change.
 
-1.  Click the icon to access Account view.    
+1.  Click the icon to access Account view. This example shows a user with the initials IK.   
+
+![Account](/doc-images/initials.png)
 
 2. From the displayed account card, click **User Settings**. 
 
@@ -34,7 +36,13 @@ To confirm that you made the password change, you receive a request on your mobi
 
 4. Type in your existing password in **Current Password**.
 
-5. Type in your new password in **Set Password** according to the password strength requirements.
+5. Type in your new password in **Set Password** according to the password strength requirements as shown in the window.
+
+:::info
+When entering a password that does not meet the strength requirements, the relevant text and individual icons appear in red. For example, this image shows
+that the set password does not have 10 characters.
+![Incorrect Characters](/doc-images/incorrectcharacters.png)
+:::
 
 6. Type in your password again in **Confirm Password**.
 
@@ -50,13 +58,12 @@ To confirm that you made the password change, you receive a request on your mobi
 
 When the password change is confirmed, you receive an email in your inbox. You are also informed of the update on your phone.
 
-image
 
 :::info
 Tapping **Approvals** lets you track previous password changes.
 :::
 
-### Reset Forgotten Password
+### Reset Forgotten Web App Password
 
 If you have forgotten your web app password, you can reset it from the login page of the web app. Qredo sends you an email containing a validation code for the reset which you must enter in the web app wizard within 24 hours.
 
