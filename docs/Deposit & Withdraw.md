@@ -32,7 +32,7 @@ View Deposit Addresses
 The default fund and asset that you have set up includes a deposit address, which is the cryptocurrency wallet address that is linked to a Qredo fund. However, any
 fund that you create is linked to a deposit address. The address is securely created using the MPC protocol.
 
-You are notified when money arrives at your address via an email.
+You are notified when money arrives at your address via an email with the subject of **Deposit complete**.
 
 1. Click the asset or ledger icon.
 
@@ -226,6 +226,8 @@ You can also view other details linked to the transaction under the Show Details
 4.  To reject, tap **Reject**.
 
 For the action you select, you sign in with your biometric features and 6-digit passcode, and tap confirm in the confirmation screens.
+
+When the withdrawal is complete, you are notified on the phone and web app. You also receive an email with the subject of **withdrawal complete**.
 
 Track Progress
 --------------

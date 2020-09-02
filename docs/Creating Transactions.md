@@ -128,6 +128,8 @@ You can also view other details linked to the transaction under the Show Detail 
 
 For the approve or reject action, you sign in with your biometric features and 6-digit PIN, and tap confirm in the confirmation screens.
 
+When the transfer is complete, you are notified on the phone and web app. You also receive an email with the subject of **Transfer complete**.
+
 Track Progress
 --------------
 
