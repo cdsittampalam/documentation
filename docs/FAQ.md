@@ -102,7 +102,6 @@ that the set password does not have 10 characters.
 ![Incorrect Characters](/doc-images/incorrectcharacters.png)
 :::
 
-
 9. Type in your password again in **Confirm Password**.
 
 10. Click **Continue.** An alert is sent to your phone.
@@ -115,7 +114,7 @@ that the set password does not have 10 characters.
 
 14. In the Confirm Authorisation screen, tap **Confirm**.
 
-When the password change is confirmed, you receive an email in your inbox with the subject of **Qredo password successfully changed**. You are also informed of the update on your phone.
+When the password change is confirmed, you receive an email in your inbox with the subject of **Qredo password successfully changed**. You are also informed of the update on your phone and the Qredo web app.
 
 :::info
 Tapping **Approvals** lets you track previous forgotten password changes.
