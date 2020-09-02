@@ -206,3 +206,26 @@ For a withdraw transaction that has been rejected or where the custodian approva
     
 4.  Follow the steps in [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction).
 
+### Create a Duplicate Transfer Transaction
+
+If you want to create another transfer transaction for the same recipient, you can duplicate an existing transaction and change the existing data. Duplicating lets you save time 
+as you don't have to enter each and every detail of the transaction again as these are already populated.
+
+1. Identify the transfer transaction entry that you want to duplicate from the ledger.
+2. At the end of the entry, click the three dots.
+
+![Transferentry](/doc-images/transferentry.png)
+
+3. In the displayed pop-up, choose **Duplicate**.
+4. Enter details in the form.
+
+:::info
+For more information, refer to [Create Transfers](/docs/Creating%20Transactions#create-transfer).
+:::
+
+
+
+
+
+
+
