@@ -20,7 +20,7 @@ The new password must contain:
     
 To confirm that you made the password change, you receive a request on your mobile app to authorise the change.
 
-1.  Click the icon to access Account view. This example shows a user with the initials IK.   
+1.  From the Qredo web app, click the icon to access Account view. This example shows a user with the initials IK.   
 
 ![Account](/doc-images/initials.png)
 
