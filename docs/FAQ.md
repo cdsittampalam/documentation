@@ -56,11 +56,10 @@ that the set password does not have 10 characters.
 
 11. In the Confirm Authorisation screen, tap **Confirm**.
 
-When the password change is confirmed, you receive an email in your inbox. You are also informed of the update on your phone.
-
+When the password change is confirmed, you receive an email in your inbox with the subject of **Qredo password successfully changed**. You are also informed of the update on your phone.
 
 :::info
-Tapping **Approvals** lets you track previous password changes.
+Tapping **Approvals** in the Qredo web app lets you track previous password changes.
 :::
 
 ### Reset Forgotten Web App Password
@@ -109,9 +108,7 @@ When setting a password, choose:
 
 14. In the Confirm Authorisation screen, tap **Confirm**.
 
-When the password change is confirmed, you receive an email in your inbox. You are also informed of the update on your phone.
-
-image
+When the password change is confirmed, you receive an email in your inbox with the subject of **Qredo password successfully changed**. You are also informed of the update on your phone.
 
 :::info
 Tapping **Approvals** lets you track previous forgotten password changes.
