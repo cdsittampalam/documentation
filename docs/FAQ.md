@@ -76,9 +76,9 @@ When setting a password, choose:
 *   1 number
 *   1 special character
     
-1.  Click the **Login** link from the Join page.
+1. Click the **Sign in** button from the main lobby page.
 
-2. Click **Forgotten Password**. The Reset Password screen appears.
+2. In the Login page, click **Forgotten Password**. The Reset Password screen appears.
 
 ![reset password](/doc-images/resetp.png)
 
@@ -95,6 +95,13 @@ When setting a password, choose:
 7. Type in the password in **Current Password.**
 
 8. Enter a new password in **Set password** according to the strength requirements.
+
+:::info
+When entering a password that does not meet the strength requirements, the relevant text and individual icons appear in red. For example, this image shows
+that the set password does not have 10 characters.
+![Incorrect Characters](/doc-images/incorrectcharacters.png)
+:::
+
 
 9. Type in your password again in **Confirm Password**.
 
