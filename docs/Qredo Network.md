@@ -53,7 +53,7 @@ A transaction requires various signatures from these participants that meet rule
 
 For a transaction to be approved and written to the Qredo blockchain, the threshold determines how many custodian signatures are needed within a custodian group. For example, for a threshold of 2/3, at least 2 out of 3 signatures are needed for a transaction to be written to the blockchain. A higher threshold level, e.g. containing a ratio of 3/3, needs more custodian signatures for a transaction to take place. A lower threshold, e.g. containing a ratio of 1/3, needs fewer signatures for a transaction to take place.  
 
-#### Transfew Policies
+#### Transfer Policies
 
 Transfer policies determine the type of transaction that a custodian can sign. These include transfer and withdrawal policies. Custodians can be part of a group that allows, for example, signatures for a withdrawal policy.
 
