@@ -120,57 +120,23 @@ When the password change is confirmed, you receive an email in your inbox with t
 Tapping **Approvals** lets you track previous forgotten password changes.
 :::
 
+### Resend a Withdrawal Approval Request
 
-### Reissue a Withdrawal Approval Request
-
-For a withdrawal transaction, you can resend approval requests for those that are pending or have expired. You can resend requests from the pending section of the approvals ledger.
+Resending a withdrawal approval request is useful in situations where an individual custodian has not responded to a request. Thus the approval is in a pending state.  
 
 1.  Click the Approvals icon.
 
 ![Approvals](/doc-images/tick.png)
     
-2.  Click the **Transactions** tab.
-    
+2.  Click the **Custody** tab.
 3.  Click the **Pending** sub tab.
-    
 4.  Select an entry in the approvals ledger.
-    
-5.  Select **Resend Approval Request**.
-    
-6.  Follow the steps to [approve the withdrawal transaction as a custodian](/docs/Deposit%20&%20Withdraw#approve-withdrawal) 
+5.  At the end of the entry, click the three dots.
 
+![Resend Transfer](/doc-images/resendwithdraw.png)
 
+6.  Select **Resend Request**. The custodian receives a notification on their phone. 
 
-
-
-### Resend a Withdrawal Approval Request
-
-Resending a transfer approval request is useful in situations where an individual custodian has not responded to a request. Thus the approval is in a pending state.  
-
-1.  From any of the main screens, click the Transaction icon:
-
-![Ledger](/doc-images/ledger.png)
-    
-2.  From the ledger, find a transfer transaction entry that is expired or rejected.
-    
-3.  Select **Re-issue** from the displayed menu.
-    
-4.  Follow the steps in [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction).
-
-
-### Reissue a Withdraw Transaction
-
-For a withdraw transaction that has been rejected or where the custodian approval period has expired, you can reissue a new transaction from the Transaction ledger.
-
-1.  From any of the main screens, click the Transaction icon:
-
-![Ledger](/doc-images/ledger.png)
-    
-2.  From the ledger, find a withdraw transaction entry that is expired or rejected.
-    
-3.  Select **Re-issue** from the displayed menu.
-    
-4.  Follow the steps in [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction).
 
 ### Resend a Transfer Approval Request
 
@@ -185,7 +151,7 @@ Resending a transfer approval request is useful in situations where an individua
 4.  Select an entry in the approvals ledger.
 5.  At the end of the entry, click the three dots.
 
-![Resend Transfer](/doc-images/resendtransferpng)
+![Resend Transfer](/doc-images/resendtransfer.png)
 
 6.  Select **Resend Request**. The custodian receives a notification on their phone.  
 
