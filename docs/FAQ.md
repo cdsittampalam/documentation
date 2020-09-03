@@ -190,6 +190,26 @@ For a withdraw transaction that has been rejected or where the custodian approva
     
 4.  Follow the steps in [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction).
 
+### Resend a Transfer Approval Request
+
+Resending a transfer approval request is useful in situations where an individual custodian has not responded to a request. Thus the approval is in a pending state.  
+
+1.  Click the Approvals icon.
+
+![Approvals](/doc-images/tick.png)
+    
+2.  Click the **Custody** tab.
+3.  Click the **Pending** sub tab.
+4.  Select an entry in the approvals ledger.
+5.  At the end of the entry, click the three dots.
+
+![Resend Transfer](/doc-images/resendtransferpng)
+
+6.  Select **Resend Approval Request**.
+    
+6.  Follow the steps to [approve the transfer transaction as a custodian](/docs/Creating%20Transactions#approve-transfer)
+
+
 ### Create a Duplicate Transfer Transaction
 
 Duplicating a transaction is useful if you want to create another transaction for the same recipient based on the existing data. Where applicable, you can change the data within the transaction, e.g., the amounts.
@@ -211,23 +231,7 @@ Duplication saves you time as you don't have to enter each and every detail of t
 For more information creating a transfer, refer to [Create Transfers](/docs/Creating%20Transactions#create-transfer).
 :::
 
-### Resend a Transfer Approval Request
 
-Resending a transfer approval request is useful in situations where an individual custodian has not responded to a request. Thus the approval is in a pending state.  
-
-1.  Click the Approvals icon.
-
-![Approvals](/doc-images/tick.png)
-    
-2.  Click the **Custody** tab.
-    
-3.  Click the **Pending** sub tab.
-    
-4.  Select an entry in the approvals ledger.
-    
-5.  Select **Resend Approval Request**.
-    
-6.  Follow the steps to [approve the transfer transaction as a custodian](/docs/Creating%20Transactions#approve-transfer)
 
 
 
