@@ -211,7 +211,7 @@ For a withdraw transaction that has been rejected or where the custodian approva
 Duplicating a transaction is useful if you want to create another transaction for the same recipient based on the existing data. Where applicable, you can change the data within the transaction, e.g., the amounts.
 Duplication saves you time as you don't have to enter each and every detail of the transaction where it is already populated.
 
-1. Click the Ledger icon,
+1. Click the Ledger icon.
 
 ![Ledger](/doc-images/ledger.png)
 
