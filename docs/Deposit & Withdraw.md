@@ -76,7 +76,7 @@ In Ledger view, you can see deposit transactions to one or more funds that you a
 | SENDER | Name of the sender. |
 
 Create New Withdrawal Address
-------------------
+-----------------------------
 
 If you do not have a withdrawal address, you need to create one before the transaction. A fund must contain a withdrawal address for a transaction to happen. Each asset within a fund can have a different withdrawal address. As the initiator of the withdrawal, you confirm your decision by authorising using the Qredo Signing App.
 
@@ -275,8 +275,8 @@ The Pending sub tab shows these fields and pending approvals.
 
 The actioned tab shows the same column fields. However, the ACTIONED column reflects the time and date in which the address approval was actioned. There are two states in the ACTIONED column. These include:
 
-*   APPROVED - The address has been approved by the trade initiator.
-*   REJECTED - The address has been rejected by the trade initiator.
+*   APPROVED - The transaction has been approved by the custodians.
+*   REJECTED - The transaction has been rejected by the custodians.
 
 
 The following is an example entry showing a pending approval with the status of APPROVED:
@@ -334,7 +334,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 ### Transaction View (Ledger)
 
-1. Click the Ledger icon,
+1. Click the Ledger icon.
 
 ![Ledger](/doc-images/ledger.png)
 
