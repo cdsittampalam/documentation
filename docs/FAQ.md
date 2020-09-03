@@ -167,6 +167,18 @@ Resending a transfer approval request is useful in situations where an individua
 
 6.  Select **Resend Request**. The custodian receives a notification on their phone.  
 
+### Re-issue a Transfer Approval Request
+
+Re-issuing a transfer approval request is possible if it has expired, and no custodians have approved in the set time period. The following screen appears.
+
+![Reissue](/doc-images/Transexp.png)
+
+1. Click the **Re-issue** button.
+2. Enter details on the displayed form in the same way as a new transfer transaction.
+
+:::info
+For more information creating a transfer, refer to the [Create Transfer](/docs/Creating%20Transactions#create-transfer) section in the Creating Transactions page.
+:::
 
 ### Create a Duplicate Transfer Transaction
 
