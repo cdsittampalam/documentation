@@ -205,9 +205,7 @@ Resending a transfer approval request is useful in situations where an individua
 
 ![Resend Transfer](/doc-images/resendtransferpng)
 
-6.  Select **Resend Approval Request**.
-    
-6.  Follow the steps to [approve the transfer transaction as a custodian](/docs/Creating%20Transactions#approve-transfer)
+6.  Select **Resend Request**. The custodian receives a notification on their phone.  
 
 
 ### Create a Duplicate Transfer Transaction
