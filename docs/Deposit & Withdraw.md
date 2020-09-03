@@ -334,7 +334,7 @@ The following is an example actioned entry in the Approval view with the status 
 
 ### Transaction View (Ledger)
 
-1. Click the Ledger icon,
+1. Click the Ledger icon.
 
 ![Ledger](/doc-images/ledger.png)
 
