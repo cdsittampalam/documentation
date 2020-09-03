@@ -137,6 +137,18 @@ Resending a withdrawal approval request is useful in situations where an individ
 
 6.  Select **Resend Request**. The custodian receives a notification on their phone. 
 
+### Re-issue a Withdrawal Approval Request
+
+Re-issuing a withdrawal approval request is possible if it has expired, and no custodians have approved in the set time period. The following screen appears.
+
+![Reissue](/doc-images/reissuewith.png)
+
+1. Click the **Re-issue** button.
+2. Enter details on the displayed form in the same way as a new withdrawal transaction.
+
+:::info
+For more information creating a withdrawal, refer to the [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction) in the Deposit & Withdraw page.
+:::
 
 ### Resend a Transfer Approval Request
 
@@ -174,8 +186,9 @@ Duplication saves you time as you don't have to enter each and every detail of t
 5. Enter details on the displayed form in the same way as a new transaction.
 
 :::info
-For more information creating a transfer, refer to [Create Transfers](/docs/Creating%20Transactions#create-transfer).
+For more information creating a transfer, refer to [Create Transfer](/docs/Creating%20Transactions#create-transfer).
 :::
+
 
 
 
