@@ -133,7 +133,7 @@ Resending a withdrawal approval request is useful in situations where an individ
 4.  Select an entry in the approvals ledger.
 5.  At the end of the entry, click the three dots.
 
-![Resend Transfer](/doc-images/resendwithdraw.png)
+![Resend Withdraw](/doc-images/resendwithdraw.png)
 
 6.  Select **Resend Request**. The custodian receives a notification on their phone. 
 
