@@ -158,23 +158,7 @@ For a withdrawal transaction, you can resend approval requests for those that ar
 6.  Follow the steps to [approve the withdrawal transaction as a custodian](/docs/Deposit%20&%20Withdraw#approve-withdrawal) 
 
 
-### Reissue a Transfer Approval Request
 
-For a transfer transaction, you can resend approval requests for those that are pending or have expired. You can resend requests from the pending section of the approvals ledger.
-
-1.  Click the Approvals icon.
-
-![Approvals](/doc-images/tick.png)
-    
-2.  Click the **Transactions** tab.
-    
-3.  Click the **Pending** sub tab.
-    
-4.  Select an entry in the approvals ledger.
-    
-5.  Select **Resend Approval Request**.
-    
-6.  Follow the steps to [approve the transfer transaction as a custodian](/docs/Creating%20Transactions#approve-transfer)
 
 
 ### Reissue a Transfer Transaction
@@ -226,6 +210,24 @@ Duplication saves you time as you don't have to enter each and every detail of t
 :::info
 For more information creating a transfer, refer to [Create Transfers](/docs/Creating%20Transactions#create-transfer).
 :::
+
+### Resend a Transfer Approval Request
+
+Resending a transfer approval request is useful in situations where an individual custodian has not responded to a request. Thus the approval is in a pending state.  
+
+1.  Click the Approvals icon.
+
+![Approvals](/doc-images/tick.png)
+    
+2.  Click the **Custody** tab.
+    
+3.  Click the **Pending** sub tab.
+    
+4.  Select an entry in the approvals ledger.
+    
+5.  Select **Resend Approval Request**.
+    
+6.  Follow the steps to [approve the transfer transaction as a custodian](/docs/Creating%20Transactions#approve-transfer)
 
 
 
