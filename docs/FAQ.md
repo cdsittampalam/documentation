@@ -209,7 +209,7 @@ You can see a history of logins that you have made to the Qredo app. This can be
 
 ![Approvals](/doc-images/tick.png)
 
-2. 
+2. Observe the list of items in the **Identity** page.
 
 
 
