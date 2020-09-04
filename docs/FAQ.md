@@ -154,6 +154,27 @@ You can re-issue a withdrawal approval request if a request has expired, and no 
 For more information on creating a withdrawal transaction, refer to [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction) in the Deposit & Withdraw page.
 :::
 
+### How do I create a duplicate withdrawal transaction?
+
+Duplicating a withdrawal transaction is useful if you want to create another transaction to the same address. You can change the data within the transaction from the previous one, e.g., the withdrawal amounts.
+Duplication saves you time as you only need to enter items that are different from the original transaction.
+
+Note that, for a transaction to be duplicated, the original transaction must already be approved and in the Ledger view.
+
+1. Click the Ledger icon.
+
+![Ledger](/doc-images/ledger.png)
+
+2. Identify the withdrawal transaction entry that you want to duplicate from the Ledger view.
+3. At the end of the entry, click the three dots.
+4. In the pop-up, choose **Duplicate**.
+5. Enter details on the displayed form in the same way as for a new transaction.
+
+:::info
+For more information on creating a transfer, refer to [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction) in the Deposit & Withdraw page.
+:::
+
+
 Transfers
 ---------
 
