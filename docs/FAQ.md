@@ -250,11 +250,8 @@ The Identity ledger also shows password reset actions.
 |DEVICE ID  | Browser program and operating system of the request. For Windows, the supported browsers are Firefox, Edge and Chrome. For MacOS, the browsers are Firefox, Safari and Chrome. |
 |LOCATION | Location where a request to the server was made from, e.g., the city and country. |
 |ACTIONED  | The date and time in which a server responded to a request. |
-|ACTION TAKEN | The type of response action. | 
+|ACTION TAKEN | The type of response action. When AUTHORIZED, the server authorised the request. When EXPIRED, the request had expired due to no activity during the time slot. When REJECTED, the server had rejected the request, e.g., because the credentials supplied for signing in were incorrect.  | 
 
-* AUTHORIZED - The server authorised the request. 
-* EXPIRED - The request had expired due to no activity during the time slot. 
-* REJECTED - The server had rejected the request, e.g., because the credentials supplied for signing in were incorrect. 
 
 
 
