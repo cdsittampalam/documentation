@@ -7,7 +7,7 @@ Passwords
 
 ### How do I change my password?
 
-To safeguard your data, you can change your Qredo web app password at any time.
+To safeguard your data, you can change your Qredo Wallet app password at any time.
 
 The new password must contain:
 
@@ -23,7 +23,7 @@ The new password must contain:
     
 To confirm that you made the password change, you receive a request in the Qredo Signing app on your phone.
 
-1.  From the Qredo web app, click the icon to access Account view. This example shows a user with the initials IK.   
+1.  From the Qredo Wallet app, click the icon to access Account view. This example shows a user with the initials IK.   
 
 ![Account](/doc-images/initials.png)
 
@@ -51,7 +51,7 @@ that the set password does not have 10 characters.
 
 7. Click **Continue**. An alert is sent to your phone.
 
-8. Tap on the notification and log in to the mobile app using the biometric features and 6-digit PIN.
+8. Tap on the notification and log in to the Qredo Signing app using the biometric features and 6-digit PIN.
 
 9. Tap **Authorise.**
 
@@ -62,14 +62,14 @@ that the set password does not have 10 characters.
 When the password change is confirmed, you receive an email in your inbox with the subject of **Qredo password successfully changed**. You are also informed of the update on your phone.
 
 :::info
-Tapping **Approvals** in the Qredo web app lets you track previous password changes.
+Tapping **Approvals** in the Qredo Wallet app lets you track previous password changes.
 :::
 
 ### How do I reset my forgotten password?
 
-If you have forgotten your Qredo web app password, you can reset it from the login page of the web app prior to logging in. Qredo sends you a validation code via email which you must enter within 24 hours.
+If you have forgotten your Qredo Wallet app password, you can reset it from the login page of the web app prior to logging in. Qredo sends you a validation code via email which you must enter within 24 hours.
 
-Once you have reset your password, you can continue to log in to the Qredo web app.
+Once you have reset your password, you can continue to log in to the Qredo Wallet app.
 
 When setting a password, choose:
 
@@ -107,7 +107,7 @@ that the set password does not have 10 characters.
 
 10. Click **Continue.** An alert is sent to your phone.
 
-11. Tap on the notification and log in to the mobile app using the biometric features and 6-digit PIN.
+11. Tap on the notification and log in to the Qredo Signing app using the biometric features and 6-digit PIN.
 
 12. Tap **Authorise.**
 
@@ -115,7 +115,7 @@ that the set password does not have 10 characters.
 
 14. Tap **Confirm**.
 
-When the password change is confirmed, you receive an email in your inbox with the subject of **Qredo password successfully changed**. You are also informed of the update on your phone and the Qredo web app.
+When the password change is confirmed, you receive an email in your inbox with the subject of **Qredo password successfully changed**. You are also informed of the update on your phone and the Qredo Wallet app.
 
 :::info
 Tapping **Approvals** lets you track previous forgotten password changes.
@@ -143,7 +143,7 @@ Resending a withdrawal approval request is useful in situations where an individ
 
 ### How do I re-issue a withdrawal approval request?
 
-You can re-issue a withdrawal approval request if a request has expired, and no custodians have approved it in the set time period. You will see the following screen in the Qredo web app:
+You can re-issue a withdrawal approval request if a request has expired, and no custodians have approved it in the set time period. You will see the following screen in the Qredo Wallet app:
 
 ![Reissue](/doc-images/reissuewith.png)
 
@@ -237,7 +237,7 @@ You can see a history of sign in requests from your own account to Qredo in the 
 
 The Identity ledger also shows password reset actions.
 
-1. From the Qredo web app, click the Approvals icon.
+1. From the Qredo Wallet app, click the Approvals icon.
 
 ![Approvals](/doc-images/tick.png)
 
@@ -247,7 +247,7 @@ The Identity ledger also shows password reset actions.
 |     |     |
 | --- | --- |
 | **Column** | **Description** |
-|REQUESTED |  Date and time in which the sign in or password reset request was made from the Qredo web app to the server. |
+|REQUESTED |  Date and time in which the sign in or password reset request was made from the Qredo Wallet app to the server. |
 |TYPE | Type of request as a sign in or password reset. |
 |DEVICE ID  | Browser program and operating system of the request. For Windows, the supported browsers are Firefox, Edge and Chrome. For MacOS, the browsers are Firefox, Safari and Chrome. |
 |LOCATION | Location where a request to the server was made from, e.g., the city and country. |
