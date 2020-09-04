@@ -157,8 +157,8 @@ You are also notified when a withdraw transaction is complete via an email.
 6.  Select the address that you want to send the money to in the **To** list.
 7.  Enter the amount that you want to withdraw in **Amount**. The Blockchain Miner's fee and total withdrawal cost appears.
 8.  Type in a reference number in **Reference**.
-9.  To select a date for when the withdrawal takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
-10. To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed fields.
+9.  To select a date for when the withdrawal takes place, click **Expires In** and enter days, hours, and minutes in the displayed box.
+10. To select a precise date for when the withdrawal takes place, click **Expires On** and enter a date and time in the displayed calendar widgets.
 11. Click **Review Withdrawal**.
 
 ### Review Withdrawal
