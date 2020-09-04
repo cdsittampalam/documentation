@@ -233,7 +233,7 @@ For more information on creating a transfer, refer to [Create Transfer](/docs/Cr
 
 ### How do I monitor sign in requests?
 
-You can see a history of sign ins that you have made to the Qredo web app in the Identity ledger. This is useful, e.g., for identifying any sign ins or sign in attempts that may have been made by another user masquerading as yourself.
+You can see a history of sign ins that you have made to the Qredo web app in the Identity ledger. As well as for general monitoring, viewing requests can also be useful for security purposes. For example, you may want to track sign ins or sign in attempts that may have been made by another user masquerading as yourself.
 
 The identity ledger also shows password reset activities.
 
