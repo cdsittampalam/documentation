@@ -126,7 +126,7 @@ Withdrawals
 
 ### How do I resend a withdrawal approval request?
 
-Resending a withdrawal approval request is useful in situations where an individual custodian has not responded to a request. Thus the approval is in a pending state.  
+Resending a withdrawal approval request is useful in situations where an individual custodian has not responded to a request. Thus, the approval is in a pending state.  
 
 1.  Click the Approvals icon.
 
@@ -139,11 +139,11 @@ Resending a withdrawal approval request is useful in situations where an individ
 
 ![Resend Withdraw](/doc-images/resendwithdraw.png)
 
-6.  Select **Resend Request**. The custodian receives a notification on their phone. 
+6.  Select **Resend Request**. The custodian receives a notification on their phone, which they need to respond to. 
 
-### Re-issue a Withdrawal Approval Request
+### How do I re-issue a withdrawal approval request?
 
-Re-issuing a withdrawal approval request is possible if it has expired, and no custodians have approved in the set time period. The following screen appears.
+You can re-issue a withdrawal approval request if a request has expired, and no custodians have approved it in the set time period. You will see the following screen in the Qredo web app:
 
 ![Reissue](/doc-images/reissuewith.png)
 
@@ -151,7 +151,7 @@ Re-issuing a withdrawal approval request is possible if it has expired, and no c
 2. Enter details on the displayed form in the same way as a new withdrawal transaction.
 
 :::info
-For more information creating a withdrawal, refer to the [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction) in the Deposit & Withdraw page.
+For more information on creating a withdrawal transaction, refer to [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction) in the Deposit & Withdraw page.
 :::
 
 Transfers
@@ -172,7 +172,7 @@ Resending a transfer approval request is useful in situations where an individua
 
 ![Resend Transfer](/doc-images/resendtransfer.png)
 
-6.  Select **Resend Request**. The custodian receives a notification on their phone.  
+6.  Select **Resend Request**. The custodian receives a notification on their phone, which they need to respond to.  
 
 ### Re-issue a Transfer Approval Request
 
@@ -189,8 +189,10 @@ For more information creating a transfer, refer to the [Create Transfer](/docs/C
 
 ### How do I create a duplicate transfer transaction?
 
-Duplicating a transaction is useful if you want to create another transaction for the same recipient based on the existing data. Where applicable, you can change the data within the transaction, e.g., the amounts.
-Duplication saves you time as you don't have to enter each and every detail of the transaction where it is already populated.
+Duplicating a transaction is useful if you want to create another transaction to the same recipient. You can change the data within the transaction from the previous one, e.g., the transfer amounts.
+Duplication saves you time as you only need to enter items that are different from the original transaction.
+
+Note that, for a transaction to be duplicated, the original transaction must already be approved and in the Ledger view.
 
 1. Click the Ledger icon.
 
