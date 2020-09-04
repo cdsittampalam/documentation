@@ -86,9 +86,7 @@ In essence, the withdrawal address is a different block on the underlying crypto
 Another fund can use the same withdrawal address.
 :::
 
-1. Click the asset or ledger icon.
-
-![coins](/doc-images/coins.png)
+1. Click the ledger icon.
 
 ![Ledger](/doc-images/ledger.png)
 
