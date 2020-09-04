@@ -103,17 +103,17 @@ that the set password does not have 10 characters.
 ![Incorrect Characters](/doc-images/incorrectcharacters.png)
 :::
 
-9. Type in your password again in **Confirm Password**.
+8. Type in your password again in **Confirm Password**.
 
-10. Click **Continue.** An alert is sent to your phone.
+9. Click **Continue.** An alert is sent to your phone.
 
-11. Tap on the notification and log in to the Qredo Signing app using the biometric features and 6-digit PIN.
+10. Tap on the notification and log in to the Qredo Signing app using the biometric features and 6-digit PIN.
 
-12. Tap **Authorise.**
+11. Tap **Authorise.**
 
-13. Sign in again on the phone app to authorise using the biometric feature and PIN.
+12. Sign in again on the phone app to authorise using the biometric feature and PIN.
 
-14. Tap **Confirm**.
+13. Tap **Confirm**.
 
 When the password change is confirmed, you receive an email in your inbox with the subject of **Qredo password successfully changed**. You are also informed of the update on your phone and the Qredo Wallet app.
 
