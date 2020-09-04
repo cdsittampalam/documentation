@@ -2,7 +2,7 @@
 id: FAQ
 ---
 
-### Change my Password
+### How do I change my password?
 
 To safeguard your data, you can change your Qredo web app password at any time.
 
@@ -62,7 +62,7 @@ When the password change is confirmed, you receive an email in your inbox with t
 Tapping **Approvals** in the Qredo web app lets you track previous password changes.
 :::
 
-### Reset Forgotten Web App Password
+### How do I reset my forgotten password?
 
 If you have forgotten your web app password, you can reset it from the login page of the web app. Qredo sends you an email containing a validation code for the reset which you must enter in the web app wizard within 24 hours.
 
@@ -120,7 +120,7 @@ When the password change is confirmed, you receive an email in your inbox with t
 Tapping **Approvals** lets you track previous forgotten password changes.
 :::
 
-### Resend a Withdrawal Approval Request
+### How do I resend a withdrawal approval request?
 
 Resending a withdrawal approval request is useful in situations where an individual custodian has not responded to a request. Thus the approval is in a pending state.  
 
@@ -150,7 +150,7 @@ Re-issuing a withdrawal approval request is possible if it has expired, and no c
 For more information creating a withdrawal, refer to the [Create Transaction](/docs/Deposit%20&%20Withdraw#create-transaction) in the Deposit & Withdraw page.
 :::
 
-### Resend a Transfer Approval Request
+### How do I resend a transfer approval request?
 
 Resending a transfer approval request is useful in situations where an individual custodian has not responded to a request. Thus the approval is in a pending state.  
 
@@ -180,7 +180,7 @@ Re-issuing a transfer approval request is possible if it has expired, and no cus
 For more information creating a transfer, refer to the [Create Transfer](/docs/Creating%20Transactions#create-transfer) section in the Creating Transactions page.
 :::
 
-### Create a Duplicate Transfer Transaction
+### How do I create a duplicate transfer transaction?
 
 Duplicating a transaction is useful if you want to create another transaction for the same recipient based on the existing data. Where applicable, you can change the data within the transaction, e.g., the amounts.
 Duplication saves you time as you don't have to enter each and every detail of the transaction where it is already populated.
@@ -200,6 +200,23 @@ Duplication saves you time as you don't have to enter each and every detail of t
 :::info
 For more information creating a transfer, refer to [Create Transfer](/docs/Creating%20Transactions#create-transfer).
 :::
+
+### How do I monitor login requests?
+
+You can see a history of logins that you have made to the Qredo app. This can be useful, e.g., if you have had difficulty logging in and you want to track previously unsuccessful logins in order to report to Qredo.
+
+1. In the web app, click the Approvals icon.
+
+![Approvals](/doc-images/tick.png)
+
+2. 
+
+
+
+
+
+
+
 
 
 
