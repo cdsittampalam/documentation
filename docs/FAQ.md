@@ -243,14 +243,17 @@ The Identity ledger also shows password reset actions.
 
 2. Observe the list of items in the **Identity** page that include the following information.
 
-| Column** | Description** |
+| Column | Description |
 | --- | --- |
 |REQUESTED |  Date and time in which the sign in or password reset request was made from the Qredo Wallet app to the server. |
 |TYPE | Type of request as a sign in or password reset. |
 |DEVICE ID  | Browser program and operating system of the request. For Windows, the supported browsers are Firefox, Edge and Chrome. For MacOS, the browsers are Firefox, Safari and Chrome. |
 |LOCATION | Location where a request to the server was made from, e.g., the city and country. |
 |ACTIONED  | The date and time in which a server responded to a request. |
-|ACTION TAKEN | The type of response action. AUTHORIZED - The server authorised the request. EXPIRED - The request had expired due to no activity during the time slot. REJECTED - The server had rejected the request, e.g., because the credentials supplied for signing in were incorrect. | 
+|ACTION TAKEN | The type of response action. 
+                * AUTHORIZED - The server authorised the request. 
+                * EXPIRED - The request had expired due to no activity during the time slot. 
+                * REJECTED - The server had rejected the request, e.g., because the credentials supplied for signing in were incorrect. | 
 
 
 
