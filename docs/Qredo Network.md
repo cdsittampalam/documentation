@@ -8,8 +8,10 @@ The Qredo Network is an institutional grade clearing and settlement network for 
 
 The Layer 2 characteristics of the Qredo blockchain provide transparency, immutability, and decentralisation.
 
-This page describes basic concepts on the Qredo Network (see [Introduction](#qredo-network-introduction)). For more technical details, refer
-to the section on the [Architecture](#architecture) and onwards.
+This page describes: 
+
+*   basic concepts on the Qredo Network (see [Introduction](#qredo-network-introduction)). 
+*   technical details on the architecture (refer to the section on the [Architecture](#architecture) and onwards).
 
 
 Introduction
