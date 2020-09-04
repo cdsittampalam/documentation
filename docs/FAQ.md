@@ -174,7 +174,7 @@ Resending a transfer approval request is useful in situations where an individua
 
 6.  Select **Resend Request**. The custodian receives a notification on their phone, which they need to respond to.  
 
-### Re-issue a Transfer Approval Request
+### How do I re-issue a transfer approval request?
 
 Re-issuing a transfer approval request is possible if it has expired, and no custodians have approved in the set time period. The following screen appears.
 
@@ -198,16 +198,16 @@ Note that, for a transaction to be duplicated, the original transaction must alr
 
 ![Ledger](/doc-images/ledger.png)
 
-2. Identify the transfer transaction entry that you want to duplicate from in Ledger view.
+2. Identify the transfer transaction entry that you want to duplicate from the Ledger view.
 3. At the end of the entry, click the three dots.
 
 ![Transferentry](/doc-images/transferentry.png)
 
 4. In the pop-up, choose **Duplicate**.
-5. Enter details on the displayed form in the same way as a new transaction.
+5. Enter details on the displayed form in the same way as for a new transaction.
 
 :::info
-For more information creating a transfer, refer to [Create Transfer](/docs/Creating%20Transactions#create-transfer).
+For more information on creating a transfer, refer to [Create Transfer](/docs/Creating%20Transactions#create-transfer).
 :::
 
 ### How do I monitor sign in requests?
