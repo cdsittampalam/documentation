@@ -49,8 +49,8 @@ You are also notified when a transfer transaction is complete through an email.
 6. Enter details of the user that you want to transfer the money to by typing their name, email address, or network alias in the **To** list.
 7. Enter the sum of money that you want to transfer in **Amount**. The Qredo fee and total transfer cost appears.  
 8. Type in a reference number in **Reference**.
-9. To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed fields.
-10. To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed fields.
+9. To select the exact time until the transfer takes place, click **Expires In** and enter days, hours, and minutes in the displayed boxes.
+10. To select a precise date for when the transfer takes place, click **Expires On** and enter a date and time in the displayed calendar widgets.
 11. Click **Review Transfer**.
 
 ### Review Transfer
