@@ -233,11 +233,9 @@ For more information on creating a transfer, refer to [Create Transfer](/docs/Cr
 
 ### How do I monitor sign in requests?
 
-You can see a history of sign ins that you have made to the Qredo web app in the Identity ledger. As well as for general monitoring, viewing requests can also be useful for security purposes. For example, you may want to track sign ins or sign in attempts that may have been made by another user masquerading as yourself.
+You can see a history of sign in requests from your own account to Qredo in the Identity ledger. As well as for general monitoring, viewing requests can also be useful for security purposes. For example, you can track sign ins or sign in attempts that may have been made by another user masquerading as yourself.
 
 The Identity ledger also shows password reset actions.
-
-The Identity ledger also shows password reset activities.
 
 1. From the Qredo web app, click the Approvals icon.
 
@@ -249,14 +247,14 @@ The Identity ledger also shows password reset activities.
 |     |     |
 | --- | --- |
 | **Column** | **Description** |
-|REQUESTED |  The date and time in which the sign in or password reset request was made from the Qredo web app to the server. |
+|REQUESTED |  Date and time in which the sign in or password reset request was made from the Qredo web app to the server. |
 |TYPE | Type of request as a sign in or password reset. |
-|DEVICE ID  | Browser program and the operating system of the request. For Windows, the supported browsers are Firefox, Edge and Chrome. For MacOS, the browsers are Firefox, Safari and Chrome. |
+|DEVICE ID  | Browser program and operating system of the request. For Windows, the supported browsers are Firefox, Edge and Chrome. For MacOS, the browsers are Firefox, Safari and Chrome. |
 |LOCATION | Location where a request to the server was made from, e.g., the city and country. |
 |ACTIONED  | The date and time in which a server responded to a request. |
-|ACTION TAKEN | The type of action taken by the server.
-                AUTHORIZED - This means that the server authorised the request.
-                EXPIRED - The request had expired due to no activity in the time slot. 
+|ACTION TAKEN | The type of response action.
+                AUTHORIZED - The server authorised the request.
+                EXPIRED - The request had expired due to no activity during the time slot. 
                 REJECTED - The server had rejected the request, e.g., because the credentials supplied for signing in were incorrect. | 
 
 
