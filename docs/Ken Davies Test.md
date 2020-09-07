@@ -1,3 +1,3 @@
 Lorem ipsum.
 
-![Account](/doc-images/Pubexample.png)
+![Account](/doc-images/resendtransfer.png)
