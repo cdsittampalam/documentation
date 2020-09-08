@@ -13,9 +13,9 @@ Summary of Steps
 ----------------
 
 * As the trade initiator, you start by following the steps to [create a transfer](#create-transfer). These also include details of:
-  * [review transfer](#review-transfer)
-  * [start transfer](#start-transfer)
-  * [authorise transfer](#authorise-transfer)
+  - [review transfer](#review-transfer)
+  - [start transfer](#start-transfer)
+  - [authorise transfer](#authorise-transfer)
 
 * As the custodian, you can [approve the transfer](#approve-transfer).
 
