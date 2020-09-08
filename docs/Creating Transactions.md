@@ -16,7 +16,6 @@ Summary of Steps
   - [review transfer](#review-transfer)
   - [start transfer](#start-transfer)
   - [authorise transfer](#authorise-transfer)
-
 - As the custodian, you can [approve the transfer](#approve-transfer).
 
 You can [track progress](#track-progress) in different ways.
@@ -30,7 +29,7 @@ You also set the date and time or number of days for custodian approval, accordi
 
 You are also notified when a transfer transaction is complete through an email.
 
-1.Start your action from the Ledger view by clicking:
+1. Start your action from the Ledger view by clicking:
 
 ![ledger](/doc-images/ledger.png)
 
