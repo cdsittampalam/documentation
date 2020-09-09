@@ -29,7 +29,7 @@ Qredo’s Partner program is for those who are committed to building a new era i
 *   Integrity - Do you value the safety of your customer’s digital assets as if they were your own digital assets?    
 *   Extensibility - Is your platform extensible, so that the value chain created by joint works can be extended by other DeFi applications?
 
-If so, please get in touch.
+If so, please get in touch by emailing support@qredo.com.
 
 Using the Qredo Apps
 --------------------
