@@ -1,5 +1,5 @@
 ---
 id: Traders
 ---
-Lorem ipsum
+Coming soon
 

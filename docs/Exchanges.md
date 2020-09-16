@@ -1,5 +1,5 @@
 ---
 id: Exchanges
 ---
-Lorem ipsum
+Coming soon
 

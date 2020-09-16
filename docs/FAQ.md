@@ -1,5 +1,0 @@
----
-id: FAQ
----
-Lorem ipsum
-

@@ -1,5 +1,5 @@
 ---
 id: Custodian Server
 ---
-Lorem ipsum
+Coming soon
 

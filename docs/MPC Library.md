@@ -1,5 +1,5 @@
 ---
 id: MPC Library
 ---
-Lorem ipsum
+Coming soon
 

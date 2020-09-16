@@ -1,5 +1,5 @@
 ---
 id: Qredo Validators
 ---
-Lorem ipsum
+Coming soon
 
