@@ -1,5 +1,5 @@
 ---
-id: FAQ
+id: Product FAQ
 ---
 
 Passwords
