@@ -1,5 +1,5 @@
 ---
 id: EMS & OMS ISVs
 ---
-Lorem ipsum
+Coming soon
 
