@@ -1,5 +1,4 @@
 ---
 id: Custodian App
 ---
-Lorem ipsum
-
+Coming soon
