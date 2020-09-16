@@ -1,5 +1,5 @@
 ---
 id: Custodians
 ---
-Lorem ipsum
+Coming soon
 
