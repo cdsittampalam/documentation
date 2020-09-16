@@ -1,5 +1,5 @@
 ---
 id: Qredo Server
 ---
-Lorem ipsum
+Coming soon
 
