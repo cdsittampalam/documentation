@@ -1,5 +1,5 @@
 ---
 id: Policy & Guidelines
 ---
-Lorem ipsum
+Coming soon
 
