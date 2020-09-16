@@ -1,5 +1,5 @@
 ---
 id: Systems Integrators
 ---
-Lorem ipsum
+Coming soon
 
