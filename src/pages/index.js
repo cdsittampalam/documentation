@@ -133,7 +133,7 @@ function Home() {
           <div className={styles.banner}>
             <h2 className={styles.bannerTitle}>What's new</h2>
             <ul className={styles.bannerList}>
-              <li><a href="https://support.qredo.com/docs/Current%20Releases.md">Release Notes: Version 1</a></li>
+              <li><a href="https://qa-support.qredo.com/docs/Current%20Releases.md">Release Notes: Version 1</a></li>
               <li><Link></Link></li>
               <li><Link></Link></li>
             </ul>
